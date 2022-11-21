@@ -1,0 +1,31 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_BTA_Commando",
+			"Name": "Commando",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.7,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Tomans"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Special_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_CommandoBTA,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Support_BTA"
+					
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Steiner:30,Davion:30,Rasalhague:30"
+				}
+			]
+		}
+	}]
+}

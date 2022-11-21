@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_KBeez",
+			"Name": "Killer Bees",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.0,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Fomalhaut"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Stinger,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Hornet,itemCollection_Pafftek_Bumblebee,itemCollection_Pafftek_Firemoth,itemCollection_Mechs_Generic_BattleArmor"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Kurita:35"
+				}
+			]
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "PafftekIndustries_BTACompliant_Starts",
+    "Enabled": true,
+	"Hidden": true,
+
+    "Contact": "",
+			"Manifest": [
+			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
+			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },
+			{ "Type": "MechDef", "Path": "Mechdef" },	
+			{ "Type": "ChassisDef", "Path": "Chassisdef" },
+			{ "Type": "UpgradeDef", "Path": "Tech/Upgrades" },
+			{ "Type": "UpgradeDef", "Path": "Tech/Internals" },
+			{ "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
+			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
+			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
+			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
+			{ "Type": "AmmunitionDef", "Path": "Ammunition" }			
+  ],
+    "OptionallyDependsOn": [		
+    ],
+	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds" ],
+	"ConflictsWith": [				
+	],
+}

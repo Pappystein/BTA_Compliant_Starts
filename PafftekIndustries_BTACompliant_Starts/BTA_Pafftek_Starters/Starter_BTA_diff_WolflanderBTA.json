@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_WolflanderBTA",
+			"Name": "Wolflander",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Fomalhaut"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_BTAHollander,itemCollection_Mechs_BTAHollander,itemCollection_Mechs_BTAWolfhound,itemCollection_Mechs_BTAWolfhound,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Support_BTA"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Kurita:30,Wolfs_Dragoons:100,Liao:10,Rasalhague:10"
+				}
+			]
+		}
+	}]
+}
