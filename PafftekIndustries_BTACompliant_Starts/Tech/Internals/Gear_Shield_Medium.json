@@ -1,0 +1,51 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "CombatShield"
+		},
+		"ArmorStructureChanges": {
+			"ArmorFactor": 1.25
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"ArmorProtection: x1.25"
+			]
+		},
+		"Flags": {
+			"flags": [
+				"no_salvage"
+			]
+		}
+	},
+	"StatName": null,
+	"Description": {
+		"Cost": 400000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Solaris VII",
+		"Model": "Shield",
+		"UIName": "Medium Shield",
+		"Id": "Gear_Shield_Medium",
+		"Name": "Medium Shield",
+		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Medium BattleMech Shield, fits nicely in between the Small and Large Shield.",
+		"Icon": "shield-reflect"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 5,
+	"Tonnage": 4,
+	"AllowedLocations": "LeftArm, RightArm",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

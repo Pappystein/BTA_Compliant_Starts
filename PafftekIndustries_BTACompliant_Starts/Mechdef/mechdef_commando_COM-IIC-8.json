@@ -111,7 +111,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_Clanferrosfibrous",
+			"ComponentDefID": "emod_armorslots_clanferrosfibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

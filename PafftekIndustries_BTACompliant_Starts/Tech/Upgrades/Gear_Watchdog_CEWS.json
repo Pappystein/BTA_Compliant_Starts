@@ -1,0 +1,192 @@
+{
+
+	"Custom" :  {
+		"Category" : [
+			{"CategoryID": "ECM"},
+			{"CategoryID": "Probe"},
+			{"CategoryID": "C3"}
+		],	
+        "BonusDescriptions": {
+            "Bonuses": [
+                "EvaMax: +1",
+				"Sensors: +15%",
+				"Sight: +10%",
+				"IsECM: 1",
+				"ECMTier: 3",
+				"ECMBubble: 180",
+				"ECMPower: 4",
+				"IsProbe: 1",
+				"ProbeTier: 2",
+				"ProbeBubble: 250",
+				"ProbePower: 4"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00024"
+            },
+"Flags" : { "flags" : [ "not_broken", "autorepair" ] }			
+	},
+
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 2983000,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Clan",
+        "Model" : "Watchdog CEWS",
+        "UIName" : "Watchdog CEWS",
+        "Id" : "Gear_Watchdog_CEWS",
+        "Name" : "Watchdog Combined Electronic Warfare Suite",
+        "Details" : "Designed as a combination of a lightened Active Probe and Guardian ECM suite, the Watchdog, performs both rolls while taking up a minimum of space.",
+        "Icon" : "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA" : "+1 Accuracy and 35% Sensors|",
+    "BonusValueB" : "+2 Defense|-50%Signature",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects": [
+		{
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "BAProbe",
+                "Name": "Beagle Probe",
+                "Details": "Increased Sight/Sensors",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "SensorDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.25",
+                "modType": "System.Single"
+            }
+        },
+        {
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "effectTargetType" : "EnemiesWithinRange",
+				"alsoTargetsCreator" : true,
+                "forceVisRebuild" : true
+            },
+			"effectType" : "ActiveAbility",
+			"Description" :
+			{
+				"Id" : "ActiveProbe_Ping",
+				"Name" : "ACTIVE PROBE PING Watchdog",
+				"Details" : "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+				"Icon" : "uixSvgIcon_action_sensorlock"
+			},
+			"activeAbilityEffectData" : 
+			{
+				"abilityName" : "AbilityDef_ActiveProbe_Watchdog"
+			}
+		},
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Blood-Spotting_Gain-T1",
+                "Name": "SPOTTING DISTANCE INCREASED",
+                "Details": "Increases spotting distance by 50m.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "SpotterDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.25",
+                "modType": "System.Single"
+            }
+        }   
+	],
+    "Auras": [
+        {
+            "Id": "Gear_GECM_ECM",
+            "Name": "ECM",
+            "ReticleColor": "#ffffff",
+            "Range": 150,
+            "RemoveOnSensorLock": false,
+            "State": "Persistent",
+            "ApplySelf": true,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": true,
+            "IsNegativeToEnemy": false,
+            "ownerVFX": [],
+            "targetVFX": [],
+            "removeOwnerVFX": [],
+            "removeTargetVFX": [],
+            "ownerSFX": [],
+            "targetSFX": [],
+            "removeOwnerSFX": [],
+            "removeTargetSFX": [],
+            "statusEffects": [
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "specialRules": "NotSet",
+                        "effectTargetType": "AlliesWithinRange",
+                        "range": 0.0,
+                        "forcePathRebuild": false,
+                        "forceVisRebuild": false,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": true
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "GECMInterference",
+                        "Name": "GECM Interference",
+                        "Details": "Guardian ECM making this unit harder to hit",
+                        "Icon": "uixSvgIcon_equipment_Gyro"
+                    },
+                    "statisticData": {
+                        "statName": "ToHitThisActor",
+                        "operation": "Float_Add",
+                        "modValue": "1.0",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                }
+            ]
+        }
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+			"ElectronicCounterMeasures",
+			"lv-probe_t3_r5_m4",
+			"lv-jammer_t3_r6_m5"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -15,7 +15,12 @@
 			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
 			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
 			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
-			{ "Type": "AmmunitionDef", "Path": "Ammunition" }			
+			{ "Type": "AmmunitionDef", "Path": "Ammunition" },
+			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/" },
+			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
+			{ "Type": "Texture2D",		 	"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
+			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
+			{ "Type": "AbilityDef",	"Path": "Abilities" }
   ],
     "OptionallyDependsOn": [		
     ],
