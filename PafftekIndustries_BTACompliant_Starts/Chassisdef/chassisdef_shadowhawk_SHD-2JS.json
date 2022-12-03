@@ -116,7 +116,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 15,
 			"MaxArmor": 180,
 			"MaxRearArmor": 90,
 			"InternalStructure": 90
@@ -146,6 +146,10 @@
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},			
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
@@ -245,7 +249,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endocomposite",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

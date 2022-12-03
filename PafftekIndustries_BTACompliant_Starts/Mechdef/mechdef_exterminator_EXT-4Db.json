@@ -12,7 +12,7 @@
             "unit_predator", 
             "unit_rarity_1",
 			"DarkCaste",
-			"Comstar",
+			"ComStar",
 			"WordOfBlake",
 			"Rasalhague",
 			"KellHounds",
@@ -98,19 +98,19 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 145, 
+            "CurrentArmor": 140, 
             "CurrentRearArmor": -1, 
             "CurrentInternalStructure": 75, 
-            "AssignedArmor": 145, 
+            "AssignedArmor": 140, 
             "AssignedRearArmor": -1
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 145, 
+            "CurrentArmor": 140, 
             "CurrentRearArmor": -1, 
             "CurrentInternalStructure": 75, 
-            "AssignedArmor": 145, 
+            "AssignedArmor": 140, 
             "AssignedRearArmor": -1
         }
     ], 

@@ -1,0 +1,186 @@
+{
+   "Description": {
+      "Id": "Ammunition_MortarHvy_EMP",
+      "Name": "MORTAR Ammo",
+      "UIName": "EMP",
+      "Details": "Massive rounds, designed for devastating impact, to be used in a heavy mortar.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "HvyMORTAR",
+   "HeatGenerated": 0,
+   "HeatGeneratedModifier": 1,
+   "ArmorDamageModifier": 0.2,
+   "ISDamageModifier": 0.2,
+   "CriticalDamageModifier": 5,
+	"APCriticalChanceMultiplier": 5,
+	"APDamage": 1,
+   "AlwaysIndirectVisuals": true,
+   "AdditionalImpactVFX": "WFX_ExplosiveSmokeM",
+   "AdditionalImpactVFXScaleX": 1,
+   "AdditionalImpactVFXScaleY": 1,
+   "AdditionalImpactVFXScaleZ": 1,
+   "FireTerrainChance": 0.35,
+	"FireDurationWithoutForest": 2,
+   "FireTerrainStrength": 2,
+   "FireTerrainCellRadius": 1,
+   "FireOnSuccessHit" : true,
+	"statusEffects" : [ 
+		{
+			"durationData" : {
+				"duration" : 3,
+				"ticksOnActivations" : true,
+				"useActivationsOfTarget" : true,
+				"ticksOnEndOfRound" : false,
+				"ticksOnMovements" : false,
+				"stackLimit" : 0,
+				"clearedWhenAttacked" : false
+			},
+			"targetingData" : {
+				"effectTriggerType" : "OnHit",
+				"triggerLimit" : 0,
+				"extendDurationOnTrigger" : 0,
+				"specialRules" : "NotSet",
+				"effectTargetType" : "NotSet",
+				"range" : 0,
+				"forcePathRebuild" : false,
+				"forceVisRebuild" : false,
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+			},
+			"effectType" : "StatisticEffect",
+			"Description" : {
+				"Id" : "EMP-Effect2",
+				"Name" : "EMP",
+				"Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+				"Icon" : "uixSvgIcon_status_sensorsImpaired"
+			},
+			"nature" : "Debuff",
+			"statisticData" : {
+				"appliesEachTick" : false,
+				"effectsPersistAfterDestruction" : false,
+				"statName" : "AccuracyModifier",
+				"operation" : "Float_Add",
+				"modValue" : "3.0",
+				"modType" : "System.Single",
+				"additionalRules" : "NotSet",
+				"targetCollection" : "NotSet",
+				"targetWeaponCategory" : "NotSet",
+				"targetWeaponType" : "NotSet",
+				"targetAmmoCategory" : "NotSet",
+				"targetWeaponSubType" : "NotSet"
+			},
+			"tagData" : null,
+			"floatieData" : null,
+			"actorBurningData" : null,
+			"vfxData" : null,
+			"instantModData" : null,
+			"poorlyMaintainedEffectData" : null
+		},
+		{
+            "durationData": {
+                "duration": 2,
+                "ticksOnActivations": true,
+                "useActivationsOfTarget": true,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 6,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "OnHit",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "NotSet",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "EMP-Effect1",
+                "Name": "EMP",
+                "Details": "This mech has been hit by an EMP, the mech's movement is reduced.",
+                "Icon": "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "WalkSpeed",
+                "operation": "Float_Multiply",
+                "modValue": "0.75",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Effect_Debuff_EMP_Sensor",
+				"Name": "Sensors Scrambled",
+				"Details": "Reduces Sensor distance by 90%",
+				"Icon": "uixSvgIcon_status_sensorsImpaired"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "SensorDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.1",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	]   
+}

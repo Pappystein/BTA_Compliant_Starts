@@ -5,10 +5,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Royal Shadow Hawk",
+		"UIName": "Shadow Hawk",
 		"Id": "chassisdef_shadowhawk_SHD-2J",
-		"Name": "Royal Shadow Hawk",
-		"Details": "The 2nd Generation Royal ShadowHawk is actually a product of the Federation-Commonwealth Civil War.   It has no relation to the earlier SLDF Royal Regiment -2Hb, other than it is a ShadowHawk with advanced features.",
+		"Name": "Shadow Hawk",
+		"Details": "The 2nd Generation Royalist ShadowHawk is actually a product of the Federation-Commonwealth Civil War.   It has no relation to the earlier SLDF Royal Regiment -2Hb, other than it is a ShadowHawk with advanced features.",
 		"Icon": "uixTxrIcon_shadowhawk"
 	},
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -241,7 +241,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

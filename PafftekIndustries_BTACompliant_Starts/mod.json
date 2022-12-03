@@ -2,7 +2,13 @@
     "Name": "PafftekIndustries_BTACompliant_Starts",
     "Enabled": true,
 	"Hidden": true,
-
+	
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.AmmoCategoryEnumeration",
+			"path": "AmmoCategory.json"
+		}
+	],
     "Contact": "",
 			"Manifest": [
 			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
@@ -20,7 +26,9 @@
 			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
 			{ "Type": "Texture2D",		 	"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
-			{ "Type": "AbilityDef",	"Path": "Abilities" }
+			{ "Type": "AbilityDef",	"Path": "Abilities" },
+			{ "Type": "VehicleDef",	"Path": "VehicleDef" },
+			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" }
   ],
     "OptionallyDependsOn": [		
     ],

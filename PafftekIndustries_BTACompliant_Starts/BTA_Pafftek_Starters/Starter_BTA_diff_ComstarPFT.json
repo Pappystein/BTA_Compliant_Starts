@@ -4,25 +4,25 @@
 		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
 		"Action": "ArrayAdd",
 		"Value": {
-			"ID": "diff_WolflanderBTA",
-			"Name": "Wolflander",
+			"ID": "diff_ComstarPFT",
+			"Name": "Com* 2",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 0.6,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "Fomalhaut"
+					"ConstantValue": "Haddings"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_BTAHollander,itemCollection_Mechs_BTAHollander,itemCollection_Mechs_BTAWolfhound,itemCollection_Mechs_BTAWolfhound,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Mechs_Special_PFT_Medium_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Kurita:30,Wolfs_Dragoons:100,Liao:10,Rasalhague:10"
+					"ConstantValue": "ComStar:30,Wolfs_Dragoons:100,Rasalhague:20"
 				}
 			]
 		}

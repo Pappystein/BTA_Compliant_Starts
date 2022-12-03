@@ -247,13 +247,6 @@
 		  "DamageLevel": "Functional"
 		},
 		{
-		  "MountedLocation": "Front",
-		  "ComponentDefID": "Gear_Sensors_C3i",
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Tank_Turret",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Turret",
@@ -269,7 +262,7 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Tank_TTS_OmniLock",
+			"ComponentDefID": "Gear_C3i",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
