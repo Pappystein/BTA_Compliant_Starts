@@ -28,11 +28,13 @@
 			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "AbilityDef",	"Path": "Abilities" },
 			{ "Type": "VehicleDef",	"Path": "VehicleDef" },
-			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" }
+			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" },
+			{ "Type": "Sprite", "Path": "Graphix"},
+			{ "Type": "Texture2D", "Path": "Graphix" }
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds" ],
+	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories" ],
 	"ConflictsWith": [				
 	],
 }

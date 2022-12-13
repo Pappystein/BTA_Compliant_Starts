@@ -23,7 +23,7 @@
 			]
 		},
 		"AmmoCost" : {
-		  "PerUnitCost" : 105
+		  "PerUnitCost" : 800
 		}
 	},
 	"AmmoID": "Ammunition_AC10_Precision",

@@ -18,12 +18,12 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"ACAccuracy: +1",
-				"CostPerShot: 185",
+				"CostPerShot: 1600",
 				"AC20Ammo: 10"
 			]
 		},
 		"AmmoCost" : {
-		  "PerUnitCost" : 185
+		  "PerUnitCost" : 1600
 		}
 	},
 	"AmmoID": "Ammunition_AC20_Precision",
