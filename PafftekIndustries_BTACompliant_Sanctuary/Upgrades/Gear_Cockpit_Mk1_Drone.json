@@ -1,0 +1,152 @@
+{
+	"Custom": {
+		"Category": [{
+				"CategoryID": "Cockpit"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"DroneInterface",
+				"Health: +6",
+				"DroneNetwork"
+			]
+		},
+		"Flags": {
+			"flags": [
+				"ignore_damage",
+				"autorepair",
+				"not_broken",
+				"no_salvage"
+			]
+		},
+		"ActivatableComponent": {
+			"ButtonName": "Drone Network",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0.0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "Drone_Network_Engagement",
+					"Name": "Drone Network",
+					"Details": "PASSIVE: Can be part of Drone network.",
+					"Icon": ""
+				},
+				"statisticData": {
+					"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+					"operation": "Float_Add",
+					"modValue": "1",
+					"modType": "System.Single"
+				},
+				"nature": "Buff"
+			}]
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 870000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Drone",
+		"UIName": "IS Drone Interface",
+		"Id": "Gear_Cockpit_Mk1_Drone",
+		"Name": "IS Drone Interface",
+		"Details": "A prototype drone interface for use in place of a physical pilot in the mech.  While this technology predates the Sanctuary invasion, the link system was so similar only a minor software patch was needed to link in with frinedly sanctuary made drone systems.",
+		"Icon": "satellite-communication"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [{
+		"durationData": {
+			"duration": -1,
+			"ticksOnActivations": false,
+			"useActivationsOfTarget": false,
+			"ticksOnEndOfRound": false,
+			"ticksOnMovements": false,
+			"stackLimit": -1,
+			"clearedWhenAttacked": false
+		},
+		"targetingData": {
+			"effectTriggerType": "Passive",
+			"triggerLimit": 0,
+			"extendDurationOnTrigger": 0,
+			"specialRules": "NotSet",
+			"effectTargetType": "Creator",
+			"range": 0,
+			"forcePathRebuild": false,
+			"forceVisRebuild": false,
+			"showInTargetPreview": false,
+			"showInStatusPanel": false
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+			"Id": "Drone-PilotHits",
+			"Name": "Max Injuries Boosted",
+			"Details": "Drone cockpits absorb pilot feedback, preventing 4 injuries.",
+			"Icon": "uixSvgIcon_equipment_Cockpit"
+		},
+		"nature": "Buff",
+		"statisticData": {
+			"appliesEachTick": false,
+			"effectsPersistAfterDestruction": false,
+			"statName": "BonusHealth",
+			"operation": "Int_Add",
+			"modValue": "4",
+			"modType": "System.Int32",
+			"additionalRules": "NotSet",
+			"targetCollection": "Pilot",
+			"targetWeaponCategory": "NotSet",
+			"targetWeaponType": "NotSet",
+			"targetAmmoCategory": "NotSet",
+			"targetWeaponSubType": "NotSet"
+		},
+		"tagData": null,
+		"floatieData": null,
+		"actorBurningData": null,
+		"vfxData": null,
+		"instantModData": null,
+		"poorlyMaintainedEffectData": null
+	}],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

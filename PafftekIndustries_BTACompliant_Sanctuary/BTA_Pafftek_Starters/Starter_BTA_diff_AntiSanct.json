@@ -1,0 +1,31 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_AntiSanct",
+			"Name": "Anti-Sanctuary",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Mirfak"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_SanctLights,itemCollection_Mechs_Special_Commando,itemCollection_Mechs_BTAWolfhound,itemCollection_Mechs_BTAHollander,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Vehicle_Support_BTA,itemCollection_Mechs_SanctTonks,itemCollection_Vehicle_Scout_PFT"
+					
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "TaurianConcordat:30,Davion:30"
+				}
+			]
+		}
+	}]
+}

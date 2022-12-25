@@ -1,0 +1,27 @@
+{
+    "Name": "PafftekIndustries_BTACompliant_Sanctuary",
+    "Enabled": true,
+	"Hidden": true,
+
+
+
+    "Contact": "",
+			"Manifest": [
+			{ "Type": "BaseDescriptionDef",	"Path": "Backgrounds",	"AddToDB": true },
+			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
+			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },			
+			{ "Type": "MechDef", "Path": "Mechdef" },	
+			{ "Type": "ChassisDef", "Path": "Chassis" },
+			{ "Type": "UpgradeDef", "Path": "Upgrades" },
+			{ "Type": "VehicleDef",	"Path": "Vehicle" },
+			{ "Type": "VehicleChassisDef", "Path": "VehicleChassis" }
+	  ],
+    "OptionallyDependsOn": [		
+    ],
+	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds", "PafftekIndustries_BTACompliant_Starts" ],
+	"ConflictsWith": [				
+	],
+		"Settings": {
+		"CustomStartingResults": {}
+	}
+}

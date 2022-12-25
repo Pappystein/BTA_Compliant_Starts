@@ -1,0 +1,57 @@
+{
+	"Description": {
+		"Id": "background_Weird_Tech",
+		"Name": "Weird_Tech",
+		"Details": "You have recieved some interesting technology from a distant family member. <b><color=#ff9900>Unknown technology, +1 Tech Points</color></b>",
+		"Icon": "uixTxrLogo_backgroundExiled",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Company",
+		"Requirements": null,
+		"AddedTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RemovedTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "MechTechSkill",
+				"value": "1",
+				"set": false,
+				"valueConstant": null
+			}
+		],
+		"Actions": [
+			{
+				"Type": "System_ShowRewards",
+				"value": "itemCollection_loot_TechyParts",
+				"valueConstant": null,
+				"additionalValues": null
+			}
+		],
+		"ForceEvents": [
+			{
+				"Scope": "Company",
+				"EventID": "tbone_event_co_BTA_tutorial",
+				"MinDaysWait": 1,
+				"MaxDaysWait": 1,
+				"Probability": 100
+			}
+		],
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 2,
+	"UIOrdering": 0,
+	"OptionName": "Unknown Tech",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "You have hired an experienced engineering staff to work with this new unknown tech.",
+	"BioDescription": "You have hired an experienced engineering staff to work with this new unknown tech.\r\n"
+}
