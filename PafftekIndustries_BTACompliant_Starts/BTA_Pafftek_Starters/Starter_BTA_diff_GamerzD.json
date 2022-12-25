@@ -22,7 +22,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Steiner:35"
+					"ConstantValue": "Steiner:35,MercenaryReviewBoard:35"
 				}
 			]
 		}
