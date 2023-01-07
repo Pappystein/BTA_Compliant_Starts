@@ -28,7 +28,7 @@ Weapon_PPC_Support_BA,Weapon,6,1
 Gear_BA_Handholds,Upgrade,3,1
 BTA_Beacons,Reference,2,1
 PFT_Sanctuary_Energy_Large,Reference,1,1
-PFT_Sanctuary_Energy_Medium,Reference,2,1
+PFT_Sanctuary_Energy_Medium,Reference,1,1
 PFT_Sanctuary_Upgrade,Reference,1,1
-PFT_Sanctuary_Armor,Reference,2,1
-PFT_Sanctuary_Energy_Small,Reference,2,1
+PFT_Sanctuary_Armor,Reference,1,1
+PFT_Sanctuary_Energy_Small,Reference,1,1

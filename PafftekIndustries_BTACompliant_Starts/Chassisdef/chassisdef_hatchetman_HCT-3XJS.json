@@ -14,7 +14,7 @@
 		"UIName": "Hatchetman",
 		"Id": "chassisdef_hatchetman_HCT-3XJS",
 		"Name": "Hatchetman",
-		"Details": "Many people call the Hatchetman HCT-3X the 'ultimate' melee brawler, and it is a good mech.   But it can't be the ultimate when faced with the HCT-3XJS!   the -3XJS rips out all the short-mid range weaponry and settles on the in close weapons of small X-Pulse lasers, a Medium X-Pulse laser, twin Flammers and for defense a medium Shield.  Triple-strenght Myomer, a 315 Fusion core and a Supercharger round out the mech.",
+		"Details": "Many people call the Hatchetman HCT-3X the 'ultimate' melee brawler, and it is a good mech.   But it can't be the ultimate when faced with the HCT-3XJS!   the -3XJS rips out all the short-mid range weaponry and settles on the in close weapons of small X-Pulse lasers, a Medium X-Pulse laser, twin Flamers and for defense a medium Shield.  Triple-strenght Myomer, a 315 Fusion core and a Supercharger round out the mech.",
 		"Icon": "uixTxrIcon_hatchetman"
 	},
 	"MovementCapDefID": "movedef_hatchetman_HCT-3F",

@@ -1,0 +1,235 @@
+{
+	"Description": {
+		"Cost": 3894160,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Spider Venom",
+		"Id": "chassisdef_spider_SDR-9EW",
+		"Name": "Spider Venom",
+		"Details": "Taking the Venom Concept through a product improvement program before releasing it to production through its myriad of plants, Pafftek Industries introduces the Venom SDR-9J.  Immediately after the release of the SDR-9J, Pafftek Industries undertook an experiment to make an Electronic Warfare variant of the Spider Venom.  The -9EW.   The -9EW combines C3i systems with advanced ECM to create a zone of protection on the battlefield.  The -9EW is meant to work in conjunction with other C3i mechs as the defensive anchor in the lance.   Use on its own will likely lead to disappointment in the combat potential.",
+		"Icon": "uixTxrIcon_spider"
+	},
+	"MovementCapDefID": "movedef_spider_SDR-5V",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_spider",
+	"PrefabIdentifier": "chrPrfMech_spiderBase-001",
+	"PrefabBase": "spider",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 3907000,
+	"Heatsinks": 0,
+	"TopSpeed": 250,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 40,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 40,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 40,
+	"DFAInstability": 10,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}		
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 11,
+			"z": 0
+		},
+		{
+			"x": -2.5,
+			"y": 10.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 10.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 11,
+			"z": 0
+		},
+		{
+			"x": -2.5,
+			"y": 10.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 10.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 4,
+			"z": 0.5
+		},
+		{
+			"x": 2,
+			"y": 4,
+			"z": 0.5
+		}
+	],
+	"VariantName": "SDR-9EW",
+	"ChassisTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "EWAR Escort",
+	"YangsThoughts": "A beefier Spider, the Venom is one of the newer mechs to come out of Draconis Combine.  The -9EW isn't meant for direct combat... It is meant to support the direct combat units with additional defense.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NimbleJumper_Spider",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_endosteel",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+	]
+}

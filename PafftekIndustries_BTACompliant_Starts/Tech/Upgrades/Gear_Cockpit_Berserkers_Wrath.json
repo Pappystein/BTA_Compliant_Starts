@@ -133,7 +133,7 @@
 				"effectsPersistAfterDestruction": false,
 				"statName": "BaseInitiative",
 				"operation": "Int_Add",
-				"modValue": "-4",
+				"modValue": "-2",
 				"modType": "System.Int32",
 				"additionalRules": "NotSet",
 				"targetCollection": "NotSet",
