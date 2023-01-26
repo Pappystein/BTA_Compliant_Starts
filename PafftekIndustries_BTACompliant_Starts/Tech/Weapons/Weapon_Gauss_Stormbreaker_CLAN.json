@@ -30,7 +30,7 @@
     "AmmoCategory" : "APGauss",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 9,
-    "Damage" : 9,
+    "Damage" : 5,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
@@ -53,9 +53,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Pafftek Industries",
         "Model" : "Magnetic Rail Stormbreaker Cannon Mk-17",
-        "UIName" : "Stormbreaker Mk-17",
+        "UIName" : "Stormbreaker (C)",
         "Id" : "Weapon_Gauss_Stormbreaker_CLAN",
-        "Name" : "Stormbreaker Mk-17",
+        "Name" : "Stormbreaker (C)",
         "Details" : "Pafftek Industries, working with Clan Diamond Shark developed the Magshot array known as the Stormbreaker.  Since the Clan's don't use Magshots, a special AP-Gauss version was created specifically for the Clans.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
@@ -82,7 +82,7 @@
 			"UIName": "x2",
 			"isBaseMode": false,
 			"ShotsWhenFired": 4,
-			"RefireModifier": 2,
+			"RefireModifier": 3,
 			"FlatJammingChance": 0.1,			
 			"HeatGenerated": 9
 		},
@@ -91,7 +91,7 @@
 			"UIName": "x3",
 			"isBaseMode": false,
 			"ShotsWhenFired": 8,
-			"RefireModifier": 4,
+			"RefireModifier": 5,
 			"FlatJammingChance": 0.15,			
 			"HeatGenerated": 20
 		},
@@ -100,7 +100,7 @@
 			"UIName": "x4",
 			"isBaseMode": false,
 			"ShotsWhenFired": 12,
-			"RefireModifier":6,
+			"RefireModifier":7,
 			"FlatJammingChance": 0.18,
 			"HeatGenerated": 31
 		}

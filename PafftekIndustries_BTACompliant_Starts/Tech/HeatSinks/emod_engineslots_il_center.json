@@ -1,0 +1,61 @@
+{
+	"Custom": {
+		"Weights": {
+			"EngineFactor": 0.75
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"EngineWeight: 0.75%"
+			]
+		},
+		"WorkOrderCosts": {
+			"Default": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Install": {
+				"TechCost": "1.2 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
+				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+			}
+		},
+		"Flags": {
+            "flags": [
+                    "vital"
+            ]
+        },
+		"Category" : [
+			{"CategoryID": "EngineShield"},
+			{"CategoryID": "EnginePart"}
+		]
+	},
+    "Description" : {
+        "Cost" : 500000,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "Lostech",
+        "Model" : "Improved Light",
+        "UIName" : "Engine Improved Light",
+        "Id" : "emod_engineslots_il_center",
+        "Name" : "I-Light Engine",
+        "Details" : "Like the Improved XL, the Improved Light takes up more space in the Center Torso of the mech instead of expanding into side torsos.  This works really well for some LAM designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
