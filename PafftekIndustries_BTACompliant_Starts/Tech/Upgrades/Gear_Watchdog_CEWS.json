@@ -20,7 +20,7 @@
 				"ProbeBubble: 250",
 				"ProbePower: 4"
             ]
-        },
+        },		
 		"ActivatableComponent": {
 			"ButtonName": "Guardian ECM",
 			"CanNotBeActivatedManualy": false,
@@ -57,9 +57,9 @@
 		},
 		"InventorySorter" : {
 			"SortKey" : "00024"
-		},
+		}
 
-
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -305,5 +305,4 @@
         ],
         "tagSetSourceFile" : ""
     }
-	}
 }
