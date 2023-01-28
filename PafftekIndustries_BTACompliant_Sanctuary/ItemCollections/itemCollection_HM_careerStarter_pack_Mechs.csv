@@ -9,7 +9,7 @@ mechdef_chimera_CMA-1S,Mech,1,4
 mechdef_swordsman_SWD-86,Mech,1,4
 mechdef_hermesii_HER-5S,Mech,1,4
 mechdef_sentinel_STN-3Lb,Mech,1,3
-mechdef_wolfhound_WLF-4W,Mech,1,4
+mechdef_wolfhound_WLF-4W,Mech,1,5
 mechdef_cicada_CDA-3S,Mech,1,4
 mechdef_vulcan_VT-6B,Mech,1,4
 mechdef_assassin_ASN-65,Mech,1,4
@@ -17,3 +17,7 @@ mechdef_assassin_ASN-55,Mech,1,4
 mechdef_assassin_ASN-45,Mech,1,5
 mechdef_wyvern_WVE-5Nb,Mech,1,4
 mechdef_wyvern_WVE-10N,Mech,1,4
+mechdef_stag_STG-14G,Mech,1,5
+mechdef_stag_STG-14GJ,Mech,1,3
+mechdef_stagII_STG-24G,Mech,1,6
+mechdef_stagII_STG-24GJ,Mech,1,3

@@ -23,14 +23,6 @@
             "InventorySorter" : {
                 "SortKey" : "00024"
             },
-"Flags" : {
-	"flags" : 
-			[ 
-				"not_broken",
-				"no_salvage",
-				"autorepair" 
-			]
-		},
 		"ActivatableComponent": {
 			"ButtonName": "Guardian ECM",
 			"CanNotBeActivatedManualy": false,
@@ -64,10 +56,8 @@
 					"nature": "Buff"
 				}
 			]
-		}		
+		}
 	},
-	
-
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -76,8 +66,8 @@
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clan",
-        "Model" : "Watchdog CEWS",
-        "UIName" : "Watchdog CEWS",
+        "Model" : "Watchdog CEWS_NC",
+        "UIName" : "Watchdog CEWS_NC",
         "Id" : "Gear_Watchdog_CEWS_4NC",
         "Name" : "Watchdog Combined Electronic Warfare Suite",
         "Details" : "Designed as a combination of a lightened Active Probe and Guardian ECM suite, the Watchdog, performs both rolls while taking up a minimum of space.",

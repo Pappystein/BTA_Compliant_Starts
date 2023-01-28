@@ -1,0 +1,81 @@
+{
+	"Custom": {
+		"BonusDescriptions": {
+			"Bonuses": [
+				"ArmAccuracy: 2"
+			]
+		},
+		"Category": [
+			{
+				"CategoryID": "ArmActuator"
+			},
+			{
+				"CategoryID": "NonQuad"
+			}
+		],
+		"ArmActuator": {
+			"Type": "PartLower"
+		},
+			"Lootable": {
+            "ItemID": "emod_arm_part_lower"
+	}
+	},
+	"Description": {
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false,
+		"Manufacturer": "Generic",
+		"Model": "Standard",
+		"UIName": "Arm Lower Stabalized",
+		"Id": "emod_arm_stabalized_lower",
+		"Name": "Arm Lower Actuator Stablilized",
+		"Details": "An Actuator is a component within a BattleMech's limbs, composed of the joint, myomer bundles, and motor control units. The lower actuator requires the upper arm actuators to be installed and working.",
+		"Icon": "uixSvgIcon_equipment_ActuatorArm"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "Arms",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+			{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Status-LowerAccuracy-{location}",
+				"Name": "Lower Arm Accuracy",
+				"Details": "+2 Arm mounted accuracy.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "{location}.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-2",
+				"modType": "System.Single"
+			}
+		}
+	
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

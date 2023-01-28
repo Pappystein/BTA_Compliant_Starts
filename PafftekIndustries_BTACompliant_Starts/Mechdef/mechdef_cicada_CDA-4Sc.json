@@ -397,7 +397,7 @@
 		},
 		{
 		  "MountedLocation": "CenterTorso",
-		  "ComponentDefID": "Gear_Black_Carapace",
+		  "ComponentDefID": "emod_armorslots_Black_Carapace",
 		  "SimGameUID": null,
 		  "ComponentDefType": "Upgrade",
 		  "HardpointSlot": -1,

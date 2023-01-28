@@ -1,0 +1,81 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"NoFireInMelee",
+				"WpnRecoil: 3",
+				"WeaponBoom: 60"
+			]
+		}
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 120,
+	"MaxRange": 1020,
+	"RangeSplit": [
+		300,
+		500,
+		800
+	],
+	"AmmoCategory": "AC2",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 3,
+	"Damage": 8,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 2,
+	"DamageVariance": 1,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 9,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 3,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 0.2,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Sniper Autocannon",
+		"UIName": "AC/2 x3",
+		"Id": "Weapon_Autocannon_AC2x3_0-STOCK",
+		"Name": "AC/2x3",
+		"Details": "Take an average AC/2 barrel x3, then develop a new feed system that feeds 3 barrels at once.  This is not a rotary weapon... Rotary weapons are too slow.  This is a Triple Revolver AC/2 otherwise known as the AC/2 x3.  The madness that wrought this development should probably be committed or taken out back and put out of it's misery.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC2",
+	"BattleValue": 0,
+	"InventorySize": 6,
+	"Tonnage": 12,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}
