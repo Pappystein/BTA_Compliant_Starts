@@ -30,11 +30,12 @@
 			{ "Type": "VehicleDef",	"Path": "VehicleDef" },
 			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" },
 			{ "Type": "Sprite", "Path": "Graphix"},
-			{ "Type": "Texture2D", "Path": "Graphix" }
+			{ "Type": "Texture2D", "Path": "Graphix" },
+			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true}
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories" ],
+	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops" ],
 	"ConflictsWith": [				
 	],
 }

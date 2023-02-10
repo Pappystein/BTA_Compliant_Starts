@@ -8,7 +8,7 @@
 			"Name": "Flametech",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.0,
+			"CareerScoreModifier": 0.7,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",

@@ -2,9 +2,6 @@
 	"Custom": {
 		"Category": [{
 				"CategoryID": "Cockpit"
-			},
-			{
-				"CategoryID": "ECM"
 			}
 		],
 		"WorkOrderCosts": {
@@ -24,13 +21,6 @@
 				"EvaPips: +1",
 				"ThermalVision: 1",
 				"ThermalVisionHeat: 30",
-				"Sensors: +20%",
-				"Sight: +20%",
-				"Initiative: +2",
-				"IsECM: 7",
-				"ECMBubble: 210",
-				"IsProbe: 6",
-				"Sharer",
 				"IsCockpit"
 			]
 		},
@@ -52,11 +42,11 @@
 		"UIName": "CEU Schwalbe 200",
 		"Id": "Gear_Cockpit_Schwalbe200",
 		"Name": "Schwalbe-200 Cockpit Enhanced Electronics",
-		"Details": "Larger than most other Cockpit Enhancement Upgrades, the Schwalbe includes a built in Electronic Warfare suite in additional to additional protective and sensor equipment items.",
+		"Details": "Larger than standard Cockpits, the Schwalbe-200 CEW brings a rare skillset to the typical mech cockpit.  A basic 'track breaker' suite.   This rudimentary form of ECM provides limited bonuses to the carrying unit only.  As a Trackbreaker does not provide typical ECM effects it is not counted as carrying an ECM and it stacks with any ECM benefits from this or other units.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
-	"BonusValueA": "+3 Inj, +2 Evasion",
-	"BonusValueB": "+150m Vis, EW Suite",
+	"BonusValueA": "Trackbreaker",
+	"BonusValueB": "+2 Defense",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
@@ -66,113 +56,6 @@
 	"AllowedLocations": "Head",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"Auras": [
-        {
-            "Id": "Gear_Schwalbe",
-            "Name": "Schwalbe",
-            "ReticleColor": "#00e600",
-            "Range": 90,
-            "RemoveOnSensorLock": false,
-            "State": "Persistent",
-            "ApplySelf": false,
-            "AllyStealthAffection": "None",
-            "EnemyStealthAffection": "None",
-            "IsPositiveToAlly": false,
-            "IsNegativeToEnemy": true,
-            "ownerVFX": [],
-            "targetVFX": [],
-            "removeOwnerVFX": [],
-            "removeTargetVFX": [],
-            "ownerSFX": [],
-            "targetSFX": [],
-            "removeOwnerSFX": [],
-            "removeTargetSFX": [],
-            "statusEffects": [
-                {
-                    "durationData": {
-                        "duration": -1,
-                        "stackLimit": 1
-                    },
-                    "targetingData": {
-                        "effectTriggerType": "Passive",
-                        "specialRules": "NotSet",
-                        "effectTargetType": "EnemiesWithinRange",
-                        "range": 0.0,
-                        "showInTargetPreview": true,
-                        "showInStatusPanel": false
-                    },
-                    "effectType": "StatisticEffect",
-                    "Description": {
-                        "Id": "C3-TargetInfo",
-                        "Name": "C3 Targeting Information",
-                        "Details": "Shares targeting information on nearby enemies, +1 to hit enemies in radius",
-                        "Icon": "uixSvgIcon_equipment_Cockpit"
-                    },
-                    "nature": "Buff",
-                    "statisticData": {
-                        "statName": "AccuracyModifier",
-                        "operation": "Float_Add",
-                        "modValue": "-1.0",
-                        "modType": "System.Single",
-						"targetCollection": "Weapon"
-                    }
-                }
-            ]
-        },
-		{
-            "Id": "Gear_GECM_ECM",
-            "Name": "ECM",
-            "ReticleColor": "#ffffff",
-            "Range": 90,
-            "RemoveOnSensorLock": false,
-            "State": "Persistent",
-            "ApplySelf": true,
-            "AllyStealthAffection": "None",
-            "EnemyStealthAffection": "None",
-            "IsPositiveToAlly": true,
-            "IsNegativeToEnemy": false,
-            "ownerVFX": [],
-            "targetVFX": [],
-            "removeOwnerVFX": [],
-            "removeTargetVFX": [],
-            "ownerSFX": [],
-            "targetSFX": [],
-            "removeOwnerSFX": [],
-            "removeTargetSFX": [],
-            "statusEffects": [
-                {
-                    "durationData": {
-                        "duration": -1,
-                        "stackLimit": -1
-                    },
-                    "targetingData": {
-                        "effectTriggerType": "Passive",
-                        "specialRules": "NotSet",
-                        "effectTargetType": "AlliesWithinRange",
-                        "range": 0.0,
-                        "forcePathRebuild": false,
-                        "forceVisRebuild": false,
-                        "showInTargetPreview": false,
-                        "showInStatusPanel": true
-                    },
-                    "effectType": "StatisticEffect",
-                    "Description": {
-                        "Id": "GECMInterference",
-                        "Name": "GECM Interference",
-                        "Details": "Guardian ECM making this unit harder to hit, +1 penalty to enemy attacks.",
-                        "Icon": "uixSvgIcon_equipment_Gyro"
-                    },
-                    "statisticData": {
-                        "statName": "ToHitThisActor",
-                        "operation": "Float_Add",
-                        "modValue": "1.0",
-                        "modType": "System.Single"
-                    },
-                    "nature": "Buff"
-                }
-            ]
-        }
-    ],	
 	"statusEffects": [
 		{
 			"durationData": {
@@ -248,37 +131,41 @@
 				"modType": "System.Int32"
 			},
 			"nature": "Buff"
-		},
-	   {
-		  "durationData": {
-			"duration": -1,
-			"stackLimit": -1
-		  },
-		  "targetingData": {
-			"effectTriggerType": "Passive",
-			"specialRules": "NotSet",
-			"effectTargetType": "Creator",
-			"range": 0.0,
-			"forcePathRebuild": false,
-			"forceVisRebuild": true,
-			"showInTargetPreview": false,
-			"showInStatusPanel": false
-		  },
-		  "effectType": "StatisticEffect",
-		  "Description": {
-			"Id": "LV_ECM_SHIELD",
-			"Name": "IFFJAMMER2",
-			"Details": "Reduces effectiveness of stealthed and ECM shielded units",
-			"Icon": "uixSvgIcon_status_ECM-ghost"
-		  },
-		  "statisticData": {
-			"statName": "LV_ECM_SHIELD",
-			"operation": "Int_Add",
-			"modValue": "1",
-			"modType": "System.Int32"
-		  },
-		  "nature": "Buff"
-		}
+			},
+					{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": true,
+					"showInStatusPanel": true
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "StatusEffect-TargBaff-HitDefense1",
+					"Name": "TARGETING BAFFLES",
+					"Details": "+[AMT] Difficulty to hit this unit with ranged attacks.",
+					"Icon": "UixSvgIcon_specialEquip_System"
+				},
+				"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "ToHitThisActor",
+					"operation": "Float_Add",
+					"modValue": "1",
+					"modType": "System.Single",
+					"additionalRules": "NotSet",
+					"targetCollection": "NotSet",
+					"targetWeaponCategory": "NotSet",
+					"targetWeaponType": "NotSet",
+					"targetAmmoCategory": "NotSet",
+					"targetWeaponSubType": "NotSet"
+				},
+				"nature": "Buff"
+			}
 	],
 	"ComponentTags": {
 		"items": [
@@ -288,7 +175,6 @@
 			"lv-vismode-heat_m1_d35",
 			"lv-jammer_m7_r7",
 			"lv-probe_m6",
-			"ClanCockpit",
 			"DirectNeuralInterface"
 
 		],

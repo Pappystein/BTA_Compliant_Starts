@@ -10,8 +10,14 @@
 			"unit_role_brawler",
 			"Steiner",
 			"Davion",
+			"FederatedFreemen",
 			"Rasalhague",
-			"unit_legal"
+			"Wolfs_Dragoons",
+			"BlackWidowCompany",
+			"BountyHunterAssociates",
+			"KellHounds",
+			"unit_legal",
+			"PafftekIndustries"
 		],
 		"tagSetSourceFile": ""
 	},

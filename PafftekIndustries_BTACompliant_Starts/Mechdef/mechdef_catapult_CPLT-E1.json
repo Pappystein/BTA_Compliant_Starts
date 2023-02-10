@@ -19,7 +19,6 @@
 			"Marik",
 			"Kurita",
 			"Davion",
-			"Liao",
 			"Locals",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
@@ -40,7 +39,8 @@
 			"GraysGhosts",
 			"BountyHunterAssociates",
 			"BlackWidowCompany",
-			"unit_legal"
+			"unit_legal",
+			"PafftekIndustries"
 		],
 		"tagSetSourceFile": ""
 	},

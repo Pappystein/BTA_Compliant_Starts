@@ -8,7 +8,7 @@
 			"Name": "Gamers Start",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.0,
+			"CareerScoreModifier": 0.4,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",

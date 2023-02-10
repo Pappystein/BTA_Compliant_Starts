@@ -10,15 +10,19 @@
 			"unit_role_brawler",
 			"Steiner",
 			"Davion",
+			"FederatedFreemen",
 			"Rasalhague",
-			"Kurita",
-			"HouseNakano",
+			"Wolfs_Dragoons",
+			"BlackWidowCompany",
+			"BountyHunterAssociates",
+			"KellHounds",
 			"HostileMercenaries",
 			"Locals",
 			"AuriganMercenaries",
 			"Mercenaries",
 			"AuriganPirates",
-			"unit_legal"
+			"unit_legal",
+			"PafftekIndustries"
 		],
 		"tagSetSourceFile": ""
 	},

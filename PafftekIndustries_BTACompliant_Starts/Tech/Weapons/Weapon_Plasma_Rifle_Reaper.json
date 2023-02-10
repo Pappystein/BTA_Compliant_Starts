@@ -1,0 +1,170 @@
+{
+	"Custom": {
+		"Category": [{
+			"CategoryID": "w/e/p/plasma"
+		}],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"PLASMADEBUFF: 10%",
+				"OHDamage: 10%",
+				"WpnRecoil: 3",
+				"AntiBA: 500%",
+				"WpnCrits: -95%",
+				"Refire: 2"
+			]
+		}
+	},
+	"Category": "Energy",
+	"Type": "Flamer",
+	"WeaponSubType": "Flamer",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "Plasma",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 25,
+	"Damage": 30,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 30,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.05,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 0,
+	"OverheatedDamageMultiplier": 1.1,
+	"FireTerrainChance": 0.8,
+	"AdditionalImpactVFX": "WFX_SPlasma",
+	"AdditionalImpactVFXScaleX": 1,
+	"AdditionalImpactVFXScaleY": 1,
+	"AdditionalImpactVFXScaleZ": 1,
+	"ColorsTable": [{
+		"C": "#ADFF2F",
+		"I": 5
+	}],
+	"ImprovedBallistic": true,
+	"ColorChangeRule": "t0",
+	"ProjectileSpeedMultiplier": 0.75,
+	"ProjectileScale": {
+		"x": 1,
+		"y": 1,
+		"z": 0.7
+	},
+	"TrooperSquadDamageModifier": 5,
+	"WeaponEffectID": "WeaponEffect-Weapon_PPC",
+	"Description": {
+		"Cost": 660000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Victory",
+		"Model": "Reaper Plasma Rifle",
+		"UIName": "Reaper Plasma Rifle",
+		"Id": "Weapon_Plasma_Rifle_Reaper",
+		"Name": "Reaper Plasma Rifle",
+		"Details": "Utilizing an advanced Microwave ignition system, the Reaper Plasma cannon can fire a Plasma bolt at a much further distance than the simple Plasma Rifle.  To do so however has resulted in a multi-mode weapon... In base mode it works quite similar to the basic Plasma Rifle... in Longfire mode it gains a huge minimum range and a huge jump in maximum range to over a klick. \n\n<b><color=#ffcc00>Uses Plasma Ammo.</color></b>",
+		"Icon": "particle"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "PPC",
+	"BattleValue": 0,
+	"InventorySize": 4,
+	"Tonnage": 7,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [{
+			"Id": "1x",
+			"UIName": "BASE",
+			"isBaseMode": true
+		},
+		{
+			"Id": "2x",
+			"UIName": "LongFire",
+			"isBaseMode": false,
+			"MinRange": 500.0,
+			"MaxRange": 520.0,
+			"ShortRange": 500.0,
+			"MediumRange": 500.0,
+			"LongRange": 500.0,
+			"AOECapable": true,
+			"AOERange": 30,
+			"AOEDamage": 15,
+			"AOEHeatDamage": 30,
+			"HeatGenerated": 25,
+			"EvasivePipsIgnored": 2,
+			"AccuracyModifier": -1
+		}
+	],
+	"statusEffects": [{
+		"durationData": {
+			"duration": 2,
+			"ticksOnActivations": true,
+			"useActivationsOfTarget": true,
+			"ticksOnEndOfRound": false,
+			"ticksOnMovements": false,
+			"stackLimit": 3,
+			"clearedWhenAttacked": false
+		},
+		"targetingData": {
+			"effectTriggerType": "OnHit",
+			"triggerLimit": 0,
+			"extendDurationOnTrigger": 0,
+			"specialRules": "NotSet",
+			"effectTargetType": "SingleTarget",
+			"range": 0,
+			"forcePathRebuild": false,
+			"forceVisRebuild": false,
+			"showInTargetPreview": true,
+			"showInStatusPanel": true
+		},
+		"effectType": "StatisticEffect",
+		"Description": {
+			"Id": "PLASMA-Effect",
+			"Name": "Plasma Residue",
+			"Details": "High energy residue reduces heat efficiency by 10%.",
+			"Icon": "particle"
+		},
+		"nature": "Debuff",
+		"statisticData": {
+			"appliesEachTick": false,
+			"effectsPersistAfterDestruction": false,
+			"statName": "HeatGenerated",
+			"operation": "Float_Multiply",
+			"modValue": "1.1",
+			"modType": "System.Single",
+			"additionalRules": "NotSet",
+			"targetCollection": "Weapon",
+			"targetWeaponCategory": "NotSet",
+			"targetWeaponType": "NotSet",
+			"targetAmmoCategory": "NotSet",
+			"targetWeaponSubType": "NotSet"
+		},
+		"tagData": null,
+		"floatieData": null,
+		"actorBurningData": null,
+		"vfxData": null,
+		"instantModData": null,
+		"poorlyMaintainedEffectData": null
+	}],
+
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard",
+			"OmniRestriction.{location}"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_Melee_PFT",
+			"Name": "Hard Knocks",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "TerraFirma"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Customs,itemCollection_Mechs_Special_MediumMeleeMonsters,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Davion:30,SelfEmployed:75,MercenaryReviewBoard:125"
+				}
+			]
+		}
+	}]
+}
