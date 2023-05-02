@@ -33,9 +33,6 @@
 				"GyroStab: 25",
 				"IsGyro"
 			]
-		},
-		"InventorySorter": {
-			"SortKey": "00019"
 		}
 	},
 	"StatName": null,

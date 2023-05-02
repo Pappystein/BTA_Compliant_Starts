@@ -1,30 +1,28 @@
 {
     "Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/m/l/lrm" }
-		],	
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 4,
-            "StabilityDamagePerAmmo": 1
-        },
-        "BonusDescriptions": {
-            "Bonuses": [
-				"CostPerShot: 5",
-				"LRMAmmo: 270"
-            ]
-        },		
-        "InventorySorter": {
-            "SortKey": "00040"
-        },
-		"AmmoCost" : {
-		  "PerUnitCost" : 5
+		"Category": [
+			{
+				"CategoryID": "a/m/l/lrm"
+			},
+			{
+				"CategoryID": "NoArtemisLRM"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4,
+			"StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 30",
+				"AmmoCount: 120"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 30
 		}
-    },
+	},
     "AmmoID": "Ammunition_LRM",
     "Capacity": 270,
     "Description": {

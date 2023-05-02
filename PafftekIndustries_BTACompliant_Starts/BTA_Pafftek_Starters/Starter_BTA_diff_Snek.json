@@ -1,0 +1,29 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_Snek",
+			"Name": "Infiltration",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Hexare"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Pafftek_RareStealth,itemCollection_Pafftek_CommonStealthMed,itemCollection_Pafftek_CommonStealthLight,itemCollection_Pafftek_CommonStealthLight,itemCollection_Pafftek_CommonStealthLight,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_BTA"},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Liao:35"
+				}
+			]
+		}
+	}]
+}

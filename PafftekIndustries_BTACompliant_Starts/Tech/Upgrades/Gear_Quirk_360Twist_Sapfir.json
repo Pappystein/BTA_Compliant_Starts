@@ -31,9 +31,6 @@
 				"IsGyro",
 				"360Twist"
 			]
-		},
-		"InventorySorter": {
-			"SortKey": "00019"
 		}
 	},
 	"StatName": null,

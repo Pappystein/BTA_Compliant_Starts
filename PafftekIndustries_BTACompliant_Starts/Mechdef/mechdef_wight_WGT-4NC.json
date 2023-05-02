@@ -1,17 +1,19 @@
 {
   "MechTags": {
     "items": [
-      "unit_release",
-      "unit_mech",
-      "unit_light",
-      "unit_lance_support",
-      "unit_role_sniper",
-      "unit_legendary",
-      "unit_bracket_low",
-      "unit_jumpOK",
-      "unit_stealth",
-      "unit_predator",
-      "clannovacat"
+			"unit_release",
+			"unit_mech",
+			"unit_light",
+			"unit_lance_support",
+			"unit_role_sniper",
+			"unit_legendary",
+			"unit_bracket_low",
+			"unit_jumpOK",
+			"unit_stealth",
+			"unit_predator",
+			"1stSwordOfLight",
+			"ClanNovaCat",
+			"CNCOmicronGalaxy",
     ],
     "tagSetSourceFile": ""
   },

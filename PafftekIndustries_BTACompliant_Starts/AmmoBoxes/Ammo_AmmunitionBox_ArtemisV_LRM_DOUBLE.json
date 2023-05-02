@@ -2,36 +2,25 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "LRMARTIVAmmo"
-			},
-			{
 				"CategoryID": "a/m/l/lrm"
 			}
 		],
-		"Tag": "ArtemisIV",
-		"RequiredCategory": {
-			"CategoryID": "MissTTSART"
-		},
-		"Flags": {
-			"flags": [
-				"not_broken"
-			]
-		},
+		"Flags": [
+			"not_broken"
+		],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 4,
 			"StabilityDamagePerAmmo": 1
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
-				"PipsIgnored: +2",
-				"CostPerShot: 30",
-				"LRMCrit: 100%",
-				"LRMAmmo: 120",
-				"ReqArtemis"
-			]
-		},
-		"AmmoCost" : {
-		  "PerUnitCost" : 30
+		"BonusDescriptions": [
+				"RequiresAttachment: Artemis V FCS",
+				"DFAccuracy: +3",
+				"PipsIgnored: +4",
+				"CostPerShot: 200",
+				"AmmoCount: 270"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 200
 		}
 	},
 	"AmmoID": "Ammunition_LRM_ArtemisV",

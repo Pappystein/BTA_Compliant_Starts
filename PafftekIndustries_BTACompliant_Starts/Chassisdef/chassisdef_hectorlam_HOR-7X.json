@@ -101,18 +101,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_LandingGear_size1",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_LandingGear_size1",
+			"ComponentDefID": "Gear_Landing_Gear",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -123,7 +112,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_LandingGear_size1",
+			"ComponentDefID": "Gear_Landing_Gear",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -238,11 +227,11 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Ballistic",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -256,11 +245,11 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -283,11 +272,11 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}				
 			],
@@ -301,11 +290,11 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Ballistic",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -319,7 +308,7 @@
 			"Location": "LeftLeg",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -333,7 +322,7 @@
 			"Location": "RightLeg",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],

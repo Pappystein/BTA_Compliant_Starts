@@ -1,0 +1,10 @@
+{
+    "TargetIDs": [ "chassisdef_hunchbackii_HBK-2-4G", "chassisdef_hunchbackii_HBK-2-5G", "chassisdef_hunchbackii_HBK-2-6B", "chassisdef_hunchbackii_HBK-2-6X", "chassisdef_hunchbackii_HBK-2-5D"],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

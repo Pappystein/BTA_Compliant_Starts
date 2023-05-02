@@ -17,9 +17,6 @@
                 "GaussNoBoom"
             ]
         },
-        "InventorySorter": {
-            "SortKey": "000028"
-        },
 		"AmmoCost" : {
 		  "PerUnitCost" : 1000
 		}

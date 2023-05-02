@@ -1,0 +1,68 @@
+{
+	"Custom": {
+		"AddonReference": {
+			"installedLocationOnly": true,
+			"autoTarget": true,
+			"WeaponAddonIds": [
+				"WeaponUpgrade_ArtemisV_LRM",
+				"WeaponUpgrade_ArtemisV_SRM",
+				"WeaponUpgrade_ArtemisV_MML"
+			]
+		},
+		"Category": [
+			{
+				"CategoryID": "WeaponAttachment"
+			},
+			{
+				"CategoryID": "ArtemisVAttachment"
+			},
+			{
+				"CategoryID": "ArtemisIVAttachment"
+			},
+			{
+				"CategoryID": "NoTTS"
+			}
+		],
+		"BonusDescriptions": [
+			"WeaponAttachmentTargets: Standard LRMs and Standard SRMs and Standard MMLs",
+			"WeaponAttachmentModifiesModes",
+			"WeaponAttachmentArtemisDescription: Artemis V LRM and Artemis V SRM"
+		],
+		"RGBColor": "#5C6670"
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 75000,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Foxfire Mk.7 Artemis V system",
+		"UIName": "Artemis V Guidance",
+		"Id": "Gear_Attachment_ArtemisV",
+		"Name": "Artemis V Guidance Attachment",
+		"Details": "Developed in secret at Pafftek Industries home, the Artemis V is the latest is direct fire LRM and SRM weapon systems.   By applying an improved mathmatical formula to the standard Artemis IV guidance system, and increasing the focus on the Artemis's IR laser, a significant gain is achieved in accuracy and clustering.  Artemis V is backwards compatable with Artemis IV launchers.  But Artemis IV equiped launchers can not fire Artemis V ammunition.\r\n\r\n<b><color=#F79232>Cannot be used with other Missile TTS and enables using Artemis IV & V Ammo.</color></b>",
+		"Icon": "WeaponAttachment"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"BAIncompatible",
+			"ProtoIncompatible"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -12,9 +12,6 @@
 				"WpnCrits: 60%",
 				"IsLaser"
 			]
-		},
-		"InventorySorter": {
-			"SortKey": "02008"
 		}
 	},
 	"Category": "Energy",

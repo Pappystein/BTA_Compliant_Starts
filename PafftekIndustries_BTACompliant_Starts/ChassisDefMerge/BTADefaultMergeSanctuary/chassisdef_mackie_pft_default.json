@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_mackie_MSK-7B", "chassisdef_mackie_MSK-8A", "chassisdef_mackie_MSK-8DD", "chassisdef_mackie_MSK-8G"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

@@ -2,39 +2,29 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "LRMARTIVAmmo"
-			},
-			{
 				"CategoryID": "a/m/l/lrm"
 			}
 		],
-		"Tag": "ArtemisIV",
-		"RequiredCategory": {
-			"CategoryID": "MissTTSART"
-		},
-		"Flags": {
-			"flags": [
-				"not_broken"
-			]
-		},
+		"Flags": [
+			"not_broken"
+		],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 4,
 			"StabilityDamagePerAmmo": 1
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
-				"PipsIgnored: +2",
-				"LRMCrit: 100%",
-				"LRMAmmo: 120",
-				"ReqArtemis"
-			]
-		},
-		"AmmoCost" : {
-		  "PerUnitCost" : 20
+		"BonusDescriptions": [
+				"RequiresAttachment: Artemis V FCS",
+				"DFAccuracy: +3",
+				"PipsIgnored: +4",
+				"CostPerShot: 200",
+				"AmmoCount: 60"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 200
 		}
 	},
 	"AmmoID": "Ammunition_LRM_ArtemisV",
-	"Capacity": 50,
+	"Capacity": 60,
 	"Description": {
 		"Cost": 490000,
 		"Rarity": 5,
@@ -44,7 +34,7 @@
 		"UIName": "Ammo LRM ART-V[H]",
 		"Id": "Ammo_AmmunitionBox_ArtemisV_LRM_half",
 		"Name": "LRM Artemis V Ammo [H]",
-		"Details": "Artemis V LRM's have a ''smart'' Warhead, like their older brothern.  This ''smart'' guidance system is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy . Has 50 shots.",
+		"Details": "Artemis V LRM's have a ''smart'' Warhead, like their older brothern.  This ''smart'' guidance system is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy . Has 60 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "+2 Accuracy|+100% Crit|",

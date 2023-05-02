@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_screecher_SCRE-B4", "chassisdef_screecher_SCRE-H4", "chassisdef_screecher_SCRE-H8", "chassisdef_screecher_SCRE-H9"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

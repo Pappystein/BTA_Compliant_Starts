@@ -1,8 +1,7 @@
 {
 	"Custom": {
-		"Color": {
-			"UIColor": "Gold"
-		},
+		"Color": "Gold",
+		"TRGBColor": { "Color": "#5F24AC"},
 		"Flags": {
 			"flags": [
 				"default",
@@ -10,14 +9,9 @@
 				"no_salvage",
 				"autorepair"
 			]
-		},
-
-		"TRGBColor": {
-			"Color": "#5F24AC"
-		},
-		"InventorySorter": {
-			"SortKey": "00009"
 		}
+
+
 
 	},
 	"StatName": null,

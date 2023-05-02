@@ -1,0 +1,29 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_Vforce",
+			"Name": "V Force",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Kelenfold"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Pafftek_VMediumMech,itemCollection_Pafftek_VMediumMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VTonk,itemCollection_Pafftek_VTonk"},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Steiner:35"
+				}
+			]
+		}
+	}]
+}

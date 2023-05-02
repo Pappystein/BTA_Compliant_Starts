@@ -15,13 +15,13 @@
 		"Id": "chassisdef_stag_STG-14GJ",
 		"Name": "Stag",
 		"Details": "Developed in the resource strapped times, the Stag is an evolution of the Vulcan that is intended to be a mid weight skirmisher mech designed for hit and fade type operations against a superior or dug in force.   This is the fully up to date version.",
-		"Icon": "uixTxrIcon_vulcan"
+		"Icon": "uixTxrIcon_stag"
 	},
-  "MovementCapDefID": "movedef_huntsman",
-  "PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_preta",
-	"PrefabIdentifier": "chrPrfMech_pretabase-001",
-	"PrefabBase": "preta",
+	"MovementCapDefID": "movedef_vindicator_VND-1R",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_stag",
+	"PrefabIdentifier": "chrprfmech_stagbase-001",
+	"PrefabBase": "stag",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
@@ -57,7 +57,7 @@
 			"Location": "Head",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 				],
@@ -71,11 +71,11 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -89,19 +89,19 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -115,11 +115,11 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}				
 			],
@@ -133,19 +133,19 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -159,11 +159,11 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],

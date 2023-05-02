@@ -1,0 +1,33 @@
+{
+   "Description": {
+      "Id": "Ammunition_MortarHvy_Elias",
+      "Name": "MORTAR Ammo",
+      "UIName": "Nuke",
+      "Details": "Massive rounds, designed for devastating impact, to be used in a heavy mortar.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "HvyMORTAR",
+   "HeatGenerated": 0,
+   "AOECapable": true,
+   "AOERange": 350,
+   "AOEDamage": 250,
+   "DamagePerShot": 250,
+   "AOEHeatDamage": 250,
+   "FireTerrainChance":1,
+   "AdditionalImpactVFX":"WFX_Nuke",
+   "AdditionalImpactVFXScaleX": 4,
+   "AdditionalImpactVFXScaleY": 4,
+   "AdditionalImpactVFXScaleZ": 4,
+   "FireDurationWithoutForest": 2,
+   "FireTerrainStrength": 15,
+   "FireTerrainCellRadius": 20,
+   "tempDesignMaskCellRadius": 30,
+   "tempDesignMaskOnImpactTurns": 5,
+   "tempDesignMaskOnImpact":"DesignMaskFallout",
+   "FireOnSuccessHit" : true,
+	"TrooperSquadDamageModifier": 500
+}

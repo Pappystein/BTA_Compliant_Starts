@@ -32,5 +32,6 @@
    "tempDesignMaskCellRadius": 30,
    "tempDesignMaskOnImpactTurns": 5,
    "tempDesignMaskOnImpact":"DesignMaskFallout",
-   "FireOnSuccessHit" : true
+   "FireOnSuccessHit" : true,
+	"TrooperSquadDamageModifier": 500
 }

@@ -13,6 +13,8 @@
 			"Manifest": [
 			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
 			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },
+			{ "Type": "AdvancedJSONMerge", "Path": "DefaultMergeDefs"},
+			{ "Type": "CCUnitTypes", "Path": "UnitTypes", "ShouldMergeJSON": false },
 			{ "Type": "MechDef", "Path": "Mechdef" },	
 			{ "Type": "ChassisDef", "Path": "Chassisdef" },
 			{ "Type": "UpgradeDef", "Path": "Tech/Upgrades" },
@@ -23,6 +25,8 @@
 			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
 			{ "Type": "AmmunitionDef", "Path": "Ammunition" },
 			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/" },
+			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADefaultMergeClan/" },
+			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADeafultMergeSanctuary/" },
 			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
 			{ "Type": "Texture2D",		 	"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
@@ -31,11 +35,13 @@
 			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" },
 			{ "Type": "Sprite", "Path": "Graphix"},
 			{ "Type": "Texture2D", "Path": "Graphix" },
-			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true}
+			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true},
+			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
+			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" }
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops" ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core" ],
 	"ConflictsWith": [				
 	],
 }

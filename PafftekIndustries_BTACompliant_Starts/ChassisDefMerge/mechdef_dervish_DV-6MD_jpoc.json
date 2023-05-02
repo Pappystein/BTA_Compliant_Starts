@@ -1,17 +1,10 @@
 {
     "TargetID": "chassisdef_dervish_DV-6MD",
     "Instructions": [
-        {
-            "JSONPath": "FixedEquipment",
-            "Action": "ArrayConcat",
-            "Value": [
-                {
-                    "MountedLocation": "Head",
-                    "ComponentDefID": "Gear_Quirk_HalfRoyal_BattleMechs",
-                    "ComponentDefType": "Upgrade",
-                    "DamageLevel": "Functional"
-                }
-            ]
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["HalfRoyal"]}
         }
     ]
 }

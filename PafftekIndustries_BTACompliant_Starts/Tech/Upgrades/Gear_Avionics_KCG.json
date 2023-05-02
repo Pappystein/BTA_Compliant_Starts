@@ -274,24 +274,13 @@
 			"CategoryID": "Avionics"
 		}],
 		"Linked": {
-			"Links": [{
+			"Links": [
+				{
 					"ComponentDefId": "emod_avionics_size1",
 					"Location": "LeftTorso"
 				},
 				{
-					"ComponentDefId": "emod_LandingGear_size1",
-					"Location": "LeftTorso"
-				},
-				{
-					"ComponentDefId": "emod_LandingGear_size1",
-					"Location": "CenterTorso"
-				},
-				{
 					"ComponentDefId": "emod_avionics_size1",
-					"Location": "RightTorso"
-				},
-				{
-					"ComponentDefId": "emod_LandingGear_size1",
 					"Location": "RightTorso"
 				}
 			]

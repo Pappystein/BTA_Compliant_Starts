@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_shadowhawkii_SHD-2-2D", "chassisdef_shadowhawkii_SHD-2-2F", "chassisdef_shadowhawkii_SHD-2-2H", "chassisdef_shadowhawkii_SHD-2-3G"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

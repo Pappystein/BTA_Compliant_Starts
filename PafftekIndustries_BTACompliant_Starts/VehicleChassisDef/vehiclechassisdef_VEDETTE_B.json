@@ -76,7 +76,7 @@
 	"Locations": [{
 			"Location": "Front",
 			"Hardpoints": [{
-				"WeaponMount": "AntiPersonnel",
+				"WeaponMountID": "AntiPersonnel",
 				"Omni": false
 			}],
 			"Tonnage": 0,
@@ -111,11 +111,11 @@
 		{
 			"Location": "Turret",
 			"Hardpoints": [{
-					"WeaponMount": "Ballistic",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],

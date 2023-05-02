@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_griffin_GRF-2F", "chassisdef_griffin_GRF-2H", "chassisdef_griffin_GRF-2S", "chassisdef_griffin_GRF-2V"],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

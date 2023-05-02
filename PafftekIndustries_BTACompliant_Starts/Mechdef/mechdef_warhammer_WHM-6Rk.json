@@ -6,9 +6,15 @@
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_release",
+			"unit_rarity_5",
 			"unit_royal",
+			"DarkCaste",
+			"ComStar",
+			"2ndArmyVMu",
 			"Kurita",
-			"unit_notsacellum"
+			"3rdNightStalkers",
+			"2ndLegionOfVega",
+			"HouseNakano"
 		],
 		"tagSetSourceFile": ""
 	},

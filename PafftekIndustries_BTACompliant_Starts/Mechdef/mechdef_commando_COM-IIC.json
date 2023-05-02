@@ -12,12 +12,19 @@
 			"unit_role_scout",
 			"unit_rarity_4",
 			"ClanWolf",
-			"ClanJadeFalcon",
-			"ClanGhostBear",
+			"CWEpsilonGalaxy",
 			"ClanNovaCat",
-			"ClanDiamondShark",
+			"CNCOmicronGalaxy",	
+			"ClanJadeFalcon",
+			"CJFIotaGalaxy",	
+			"ClanGhostBear",
+			"CGBThetaGalaxy",	
+			"ClanSnowRaven",
+			"CSRDeltaGalaxy",	
+			"DarkCaste",
 			"unit_advanced",
-			"PafftekIndustries"
+			"PafftekIndustries",
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},

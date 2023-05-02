@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Customs,itemCollection_Mechs_Special_MediumMeleeMonsters,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Customs,itemCollection_Mechs_Special_MediumMeleeMonsters,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Mechs_Special_BrawlPFT,itemCollection_Pafftek_BattleArmor,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",

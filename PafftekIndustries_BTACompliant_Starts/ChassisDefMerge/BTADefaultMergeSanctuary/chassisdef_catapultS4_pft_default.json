@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_catapult_CPLT-S4",
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

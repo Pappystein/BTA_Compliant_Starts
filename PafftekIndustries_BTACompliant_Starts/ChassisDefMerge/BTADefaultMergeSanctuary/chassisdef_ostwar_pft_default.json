@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_ostwar_OWR-3D", "chassisdef_ostwar_OWR-3F", "chassisdef_ostwar_OWR-3L", "chassisdef_ostwar_OWR-3N"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

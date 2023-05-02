@@ -1,0 +1,174 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_TOKUGAWA_STREAK_B",
+		"Name": "Tokugawa Otsu",
+		"Details": "An advanced variatn of the Tokugawa, the Otsu sub variant gained an Extra Large engine system to allow for C3i and more speed.  The Small Pulselaser of the Tokugawa Streak was replaced with a Laser AMS to provide defense against most missile batteries.",
+		"Icon": "Tokugawa",
+		"Cost": 993,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_TOKUGAWA_STREAK_B",
+	"VehicleTags": {
+		"items": [
+			"no_parts",
+			"mr-resize-1.50",
+			"unit_vehicle",
+			"unit_heavy",
+			"unit_tracks",
+			"unit_release",
+			"unit_rarity_5",
+			"unit_lance_tank",
+			"unit_lance_assassin",
+			"unit_generic",
+			"unit_bracket_low",
+			"Kurita",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 200,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 200,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 165,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 165,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 165,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 165,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 130,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 130,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 180,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 180,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_Autocannon_LB10XAC",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_SRM_SSRM6_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_AMS",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Front",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Turret",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_LBX_SABOT_AC10_D",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Turret",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_xl_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_Turret",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Tank_TTS_OmniLock",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_C3i",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Right",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Left",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

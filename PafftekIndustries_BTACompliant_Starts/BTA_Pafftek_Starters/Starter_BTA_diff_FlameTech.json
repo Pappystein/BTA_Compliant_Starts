@@ -8,7 +8,7 @@
 			"Name": "Flametech",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.7,
+			"CareerScoreModifier": 0.9,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
@@ -17,12 +17,12 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Firestarter,itemCollection_Pafftek_Heaters,itemCollection_Pafftek_Heaters,itemCollection_Pafftek_Heaters,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Pafftek_Fireboss,itemCollection_Pafftek_Firebugs,itemCollection_Pafftek_Firebugs,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_BattleArmor,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Hanse:35"
+					"ConstantValue": "Hanse:45"
 				}
 			]
 		}

@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_archer_ARC-3B", "chassisdef_archer_ARC-3M", "chassisdef_archer_ARC-3R", "chassisdef_archer_ARC-3S" ],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

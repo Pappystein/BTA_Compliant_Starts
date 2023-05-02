@@ -8,7 +8,10 @@
 			"unit_release",
 			"unit_royal",
 			"TaurianConcordat",
-			"unit_notsacellum"
+			"TaurianGuard",
+			"PleiadesHussars",
+			"3rdTaurianLancers",
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},

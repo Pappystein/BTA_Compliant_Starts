@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_cheetah_CHE-6G",
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

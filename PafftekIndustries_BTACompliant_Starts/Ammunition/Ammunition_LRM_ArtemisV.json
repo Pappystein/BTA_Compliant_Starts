@@ -10,7 +10,7 @@
       "Purchasable": false
    },
    "Type": "Normal",
-   "Category": "LRM",
+   "Category": "ARTEMISVLRM",
    "AIBattleValue": 160,
    "EvasivePipsIgnored": 3,
    "AccuracyModifier": -4.0,

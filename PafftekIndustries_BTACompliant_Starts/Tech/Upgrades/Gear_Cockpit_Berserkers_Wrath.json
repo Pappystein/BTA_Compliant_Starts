@@ -15,9 +15,6 @@
                 "Initiative: +2",
                 "IsCockpit"			
             ]
-        },
-        "InventorySorter": {
-            "SortKey": "00199"
         }
     },
 	"StatName": null,

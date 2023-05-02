@@ -98,15 +98,15 @@
 		{
 			"Location": "LeftArm",
 			"Hardpoints": [{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Ballistic",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -119,15 +119,15 @@
 		{
 			"Location": "LeftTorso",
 			"Hardpoints": [{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -149,19 +149,19 @@
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -174,15 +174,15 @@
 		{
 			"Location": "RightArm",
 			"Hardpoints": [{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Ballistic",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -305,7 +305,7 @@
 		},		
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_LandingGear_size1",
+			"ComponentDefID": "Gear_Landing_Gear",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -327,18 +327,7 @@
 		},		
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_LandingGear_size1",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},		
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_LandingGear_size1",
+			"ComponentDefID": "Gear_Landing_Gear",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

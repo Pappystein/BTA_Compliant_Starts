@@ -1,8 +1,6 @@
 {
 	"Custom": {
-		"Color": {
-			"UIColor": "Gold"
-		},
+		"Color": "Gold",
 		"TRGBColor" : { "Color" : "#5F24AC" },
 		"BonusDescriptions": {
 			"Bonuses": [

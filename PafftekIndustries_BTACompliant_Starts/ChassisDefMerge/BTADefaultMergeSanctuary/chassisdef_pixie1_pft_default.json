@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_pixie_PXI-1", "chassisdef_pixie_PXI-1G", "chassisdef_pixie_PXI-1L", "chassisdef_pixie_PXI-1M"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

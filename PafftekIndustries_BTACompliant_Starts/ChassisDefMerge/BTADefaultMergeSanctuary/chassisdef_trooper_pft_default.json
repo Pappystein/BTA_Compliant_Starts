@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_trooper_TP-2D", "chassisdef_trooper_TP-2R", "chassisdef_trooper_TP-3R", "chassisdef_trooper_TP-3S" ],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

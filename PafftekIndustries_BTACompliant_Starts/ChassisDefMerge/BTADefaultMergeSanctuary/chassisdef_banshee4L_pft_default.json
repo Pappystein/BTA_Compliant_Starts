@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_banshee_BNC-4L",
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

@@ -22,9 +22,6 @@
 				"LBXCluster: 15",
 				"LBX20ClusterAmmo: 12"
             ]
-        },		
-        "InventorySorter": {
-            "SortKey": "000016"
         }
     },
     "AmmoID": "Ammunition_LBX20_CLUSTER",

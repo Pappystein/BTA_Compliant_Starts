@@ -1,0 +1,9 @@
+{
+	"Settings" : [
+		{ "Name" : "HalfRoyal", "RequiredTags" : [ "HalfRoyal" ] },
+		{ "Name" : "ClanRefit", "RequiredTags" : [ "ClanRefit" ] },
+		{ "Name" : "SanctuaryMech", "RequiredTags" : [ "SanctuaryMech" ] },
+		{ "Name" : "SocietyMech", "RequiredTags" : [ "SocietyMech" ] },
+		{ "Name" : "SLDFMech", "RequiredTags" : [ "SLDFMech" ] }
+	]
+}

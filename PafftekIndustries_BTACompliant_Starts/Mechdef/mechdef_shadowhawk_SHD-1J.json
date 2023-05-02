@@ -16,7 +16,10 @@
 			"unit_lance_vanguard",
 			"unit_role_brawler",			
 			"unit_indirectFire",
-			"ComStar",
+	"ComStar",
+	"2ndArmyVMu",
+	"11thArmyVEta",
+	"7thArmyVIota",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""

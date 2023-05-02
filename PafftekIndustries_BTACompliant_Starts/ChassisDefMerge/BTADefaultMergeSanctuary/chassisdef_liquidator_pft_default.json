@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_liquidator_LQD-1L", "chassisdef_liquidator_LQD-1R", "chassisdef_liquidator_LQD-2G", "chassisdef_liquidator_LQD-2L",]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

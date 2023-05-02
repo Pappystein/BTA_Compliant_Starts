@@ -1,0 +1,15 @@
+{
+	"TargetIDs": [
+		"chassisdef_firestarter_FS10-H",
+		"chassisdef_firestarter_FS10-M",
+		"chassisdef_firestarter_FS10-N",
+		"chassisdef_firestarter_FS10-V"
+	],
+	"Instructions": [{
+		"JSONPath": "ChassisTags",
+		"Action": "ObjectMerge",
+		"Value": {
+			"items": ["Sanctuary"]
+		}
+	}]
+}

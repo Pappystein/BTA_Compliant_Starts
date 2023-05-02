@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_leaper_LPR-3DB", "chassisdef_leaper_LPR-3K", "chassisdef_leaper_LPR-4K", "chassisdef_leaper_LPR-5K"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

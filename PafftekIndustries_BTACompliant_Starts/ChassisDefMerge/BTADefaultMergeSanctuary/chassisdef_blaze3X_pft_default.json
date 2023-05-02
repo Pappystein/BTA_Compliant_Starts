@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_blaze_BLZ-3X",
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

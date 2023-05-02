@@ -20,7 +20,8 @@
 				"MineClearanceBoom: 8",
 				"DesignMask: Radiation",
 				"SniperAmmo: 2",
-				"IsNOOK"
+				"IsNOOK",
+				"AntiBA: 5000%"
 			]
 		},
 		"AmmoCost" : {

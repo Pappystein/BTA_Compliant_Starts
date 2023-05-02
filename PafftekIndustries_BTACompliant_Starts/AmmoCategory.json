@@ -99,6 +99,34 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
 		},
 		{
+			"ID": 9007,
+			"Name": "ARTEMISVSRM",
+			"FriendlyName": "ARTEMISVSRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+		},
+		{
+			"ID": 9008,
+			"Name": "ARTEMISVLRM",
+			"FriendlyName": "ARTEMISVLRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
 			"ID": 9500,
 			"Name": "HvyMORTAR",
 			"FriendlyName": "HvyMortar",

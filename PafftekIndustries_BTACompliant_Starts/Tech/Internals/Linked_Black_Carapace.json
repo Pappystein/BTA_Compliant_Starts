@@ -1,8 +1,7 @@
 {
     "Custom": {
-        "Color": {
-            "UIColor": "Gold"
-        },
+        "Color": "Gold",
+		"TRGBColor" : { "Color" : "#5F24AC" },
         "Category": [{
             "CategoryID": "Linked_Void"
         }],
@@ -46,10 +45,6 @@
 "PersistentECMSelf: 1, 2"
             ]
         },
-		"TRGBColor" : { "Color" : "#5F24AC" },
-        "InventorySorter": {
-            "SortKey": "00009"
-        },
 		"ActivatableComponent": {
             "ButtonName": "HarJelII",
 			"CanNotBeActivatedManualy": true,
@@ -58,7 +53,7 @@
 			"DeactivationMessage": "Healthy",
             "Repair":{ 
 				"InnerStructure": 4,
-				"Armor": 12,
+				"Armor": 16,
 				"MechStructureLocations":[],
 				"MechArmorLocations":[],
 				"VehicleLocations":[],
@@ -100,7 +95,7 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
-	{
+		{
             "durationData": {
                 "duration": -1
             },
@@ -117,6 +112,31 @@
             },
             "statisticData": {
                 "statName": "CBTBE_HullBreachImmunity",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        },
+		{
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "HardenedCritImmune",
+                "Name": "ChargerSprint",
+                "Details": "MORE SPEED.",
+                "Icon": "uixSvgIcon_run_n_gun"
+            },
+            "statisticData": {
+                 "statName": "CACAPProtection",
                 "operation": "Set",
                 "modValue": "true",
                 "modType": "System.Boolean"

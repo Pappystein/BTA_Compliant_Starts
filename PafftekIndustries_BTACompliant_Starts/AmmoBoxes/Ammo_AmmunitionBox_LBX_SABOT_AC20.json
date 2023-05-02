@@ -18,9 +18,6 @@
 			"Bonuses": [
 				"LBX20SlugAmmo: 5"
 			]
-		},
-		"InventorySorter": {
-			"SortKey": "000016"
 		}
 	},
 	"AmmoID": "Ammunition_LBX20_SABOT",

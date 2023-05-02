@@ -15,13 +15,13 @@
 		"Id": "chassisdef_stagII_STG-24GJ",
 		"Name": "Stag II",
 		"Details": "Taking the Stag concept further, the Stag II introduced some of the first new technology post SLDF exodous.   This is an Updated variant of that mech.",
-		"Icon": "uixTxrIcon_vulcan"
+		"Icon": "uixTxrIcon_stag"
 	},
-  "MovementCapDefID": "movedef_huntsman",
-  "PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_preta",
-	"PrefabIdentifier": "chrPrfMech_pretabase-001",
-	"PrefabBase": "preta",
+	"MovementCapDefID": "movedef_vindicator_VND-1R",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_stag",
+	"PrefabIdentifier": "chrprfmech_stagbase-001",
+	"PrefabBase": "stag",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
@@ -57,7 +57,7 @@
 			"Location": "Head",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},			
 			],
@@ -71,11 +71,11 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -89,15 +89,15 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -111,11 +111,11 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},				
 			],
@@ -129,15 +129,15 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Missile",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -151,11 +151,11 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],

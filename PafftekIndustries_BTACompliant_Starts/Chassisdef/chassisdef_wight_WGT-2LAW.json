@@ -49,11 +49,11 @@
   },
   "StockRole": "Sniper & Light Brawler",
   "YangsThoughts": "Giving up Firepower and Durability might be the way of the light mech.  I don't have to like it but these meches are more fragile than the 1LAWs that preceeded them.",
-  "MovementCapDefID": "movedef_stinger_STG-3R",
-  "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_wight",
-  "PrefabIdentifier": "chrprfmech_wightbase-001",
-  "PrefabBase": "wight",
+	"MovementCapDefID": "movedef_panther_PNT-9R",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_wight",
+	"PrefabIdentifier": "chrprfmech_wightbase-001",
+	"PrefabBase": "wight",
   "Tonnage": 35,
   "InitialTonnage": 3.5,
   "weightClass": "LIGHT",
@@ -107,11 +107,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         }	  
 	  ],
@@ -125,7 +125,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -139,11 +139,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         }	  
 	  ],
@@ -157,15 +157,15 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],

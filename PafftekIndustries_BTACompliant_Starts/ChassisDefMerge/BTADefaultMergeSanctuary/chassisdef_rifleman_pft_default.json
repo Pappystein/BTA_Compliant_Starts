@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_rifleman_RFL-4B", "chassisdef_rifleman_RFL-4GC", "chassisdef_rifleman_RFL-4N", "chassisdef_rifleman_RFL-4S" ],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

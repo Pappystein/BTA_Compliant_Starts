@@ -8,14 +8,9 @@
 			"CategoryID": "NeverMelee"
 		}
     ],
-    "InventorySorter": {
-      "SortKey": "03005"
-    },
-	"Lootable": {
-            "ItemID": "Weapon_SRM_SRM2_CLAN"
-	}
+	"Lootable": "Weapon_SRM_SRM10_1-Pafftek"
   },
-  "Category": "Missile",
+  "weaponCategoryID": "Artillery",
   "Type": "SRM",
   "WeaponSubType": "SRM2",
   "MinRange": 300,

@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_thunderbolt_TDR-3E", "chassisdef_thunderbolt_TDR-3N", "chassisdef_thunderbolt_TDR-3S", "chassisdef_thunderbolt_TDR-4S"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

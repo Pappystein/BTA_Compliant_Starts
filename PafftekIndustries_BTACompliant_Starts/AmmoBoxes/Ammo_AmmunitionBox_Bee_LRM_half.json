@@ -20,9 +20,6 @@
 				"LRMAmmo: 50"
 			]
 		},
-		"InventorySorter": {
-			"SortKey": "00040"
-		},
 		"AmmoCost" : {
 		  "PerUnitCost" : 8
 		}

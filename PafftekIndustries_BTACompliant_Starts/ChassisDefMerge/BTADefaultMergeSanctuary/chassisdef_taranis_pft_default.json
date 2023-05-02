@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_taranis_TRN-5D", "chassisdef_taranis_TRN-6L", "chassisdef_taranis_TRN-6S", "chassisdef_taranis_TRN-7B"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

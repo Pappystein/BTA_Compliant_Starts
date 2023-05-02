@@ -42,8 +42,8 @@
         "VFXScaleZ": 1
       },
       "Repair": {
-        "InnerStructure": 5,
-        "Armor": 15,
+        "InnerStructure": 6,
+        "Armor": 16,
         "MechStructureLocations": [],
         "MechArmorLocations": [],
         "VehicleLocations": [],
@@ -61,9 +61,7 @@
       "ArmorTPCost": 1.75,
       "ArmorCBCost": 1.75
     },
-    "Color": {
-      "UIColor": "Gold"
-    },
+    "Color": "Gold",
     "ComponentExplosion": {
       "ExplosionDamage": 30
     },
@@ -74,9 +72,6 @@
       "flags": [
         "not_broken"
       ]
-    },
-    "InventorySorter": {
-      "SortKey": "00009"
     },
     "Linked": {
       "Links": [
@@ -271,6 +266,56 @@
 				"targetWeaponSubType": "NotSet"
 			},
 			"nature": "Buff"
+		},
+		{
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "HardenedCritImmune",
+                "Name": "ChargerSprint",
+                "Details": "MORE SPEED.",
+                "Icon": "uixSvgIcon_run_n_gun"
+            },
+            "statisticData": {
+                 "statName": "CACAPProtection",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        },
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefGu5a_DR",
+				"Name": "Damage Reduction",
+				"Details": "All incoming damage reduced by 25%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.25",
+				"modType": "System.Single"
+			}
 		}		
   ],
 

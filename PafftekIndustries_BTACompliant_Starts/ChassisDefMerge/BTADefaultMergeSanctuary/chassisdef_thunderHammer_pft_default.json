@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_thunderhammer_THM-4D", "chassisdef_thunderhammer_THM-4R", "chassisdef_thunderhammer_THM-4V", "chassisdef_thunderhammer_THM-5R" ],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

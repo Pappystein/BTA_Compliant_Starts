@@ -11,9 +11,15 @@
 			"unit_royal",
 			"unit_rarity_2",
 			"unit_royal",
-            "ComStar",
-			"WordOfBlake",
 			"DarkCaste",
+			"WordOfBlake",
+			"40thShadowDivision",
+			"9thDivisionWoB",
+			"WoBProtectorateMilitia",
+			"ComStar",
+			"2ndArmyVMu",
+			"11thArmyVEta",
+			"7thArmyVIota",
 			"ClanDiamondShark",
 			"PafftekIndustries"
 		],
@@ -371,7 +377,8 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_SRM_2"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -426,7 +433,8 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_SRM_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -506,26 +514,28 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_Attachment_ArtemisIV",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_SRM_2"
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_Attachment_ArtemisIV",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_SRM_1"
 		}
 	]
 }

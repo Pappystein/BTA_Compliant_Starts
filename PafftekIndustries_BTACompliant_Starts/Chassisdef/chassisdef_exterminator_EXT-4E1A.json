@@ -171,23 +171,23 @@
     "Id": "chassisdef_exterminator_EXT-4E1A",
     "Name": "Exterminator",
     "Details": "Initially the Exterminator EXT-4C was a stealthy headhunter mech to be used behind the lines.   Launched into limited Production in 3061, the Exterminator EXT-4E1A is a modern twist on the old EXT-4C.   Instead of relying on very hot Energy weapons for a behind the lines role... the EXT-4E1A is set up with long range ballistic weapons to serve as a sneeky direct fire sniper / assassin from behind the main lines and at long range.",
-    "Icon": "Exterminator"
-  },
-  "MovementCapDefID": "movedef_assassin_ASN-21",
-  "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_assassin",
-  "PrefabIdentifier": "chrPrfMech_assassinBase-001",
-  "PrefabBase": "assassin",
-  "Tonnage": 65,
-  "InitialTonnage": 6.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 7144000,
-  "Heatsinks": 0,
-  "TopSpeed": 64,
-  "TurnRadius": 90,
-  "MaxJumpjets": 8,
-  "Stability": 100,
-  "StabilityDefenses": [
+	"Icon": "uixTxrIcon_exterminator"
+	},
+	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_exterminator",
+	"PrefabIdentifier": "chrprfmech_exterminatorbase-001",
+	"PrefabBase": "exterminator",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7144000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 8,
+	"Stability": 100,
+	"StabilityDefenses": [
     0,
     0,
     0,
@@ -213,7 +213,7 @@
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -227,15 +227,15 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -249,19 +249,19 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -275,19 +275,19 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -301,19 +301,19 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -327,15 +327,15 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -415,8 +415,7 @@
   "VariantName": "EXT-4E1A",
   "ChassisTags": {
     "items": [
-      "RoyalMech",
-      "mr-resize-1.30-1.30-1.30"
+      "RoyalMech"
     ],
     "tagSetSourceFile": ""
   },

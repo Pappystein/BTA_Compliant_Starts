@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_marauder_MAD-3S", "chassisdef_stalker_STK-3S", "chassisdef_talos_TLS-2S", "chassisdef_toro_TR-S-6"],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["SanctuaryUpgraded"]}
+        }
+    ]
+}

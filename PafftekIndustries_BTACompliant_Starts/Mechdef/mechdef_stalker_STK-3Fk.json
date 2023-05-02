@@ -1,17 +1,23 @@
 {
   "MechTags": {
     "items": [
-      "unit_generic",
-      "unit_bracket_high",
-      "unit_mech",
-      "unit_assault",
-      "unit_indirectFire",
-      "unit_lance_assassin",
-      "unit_role_brawler",
-      "unit_release",
-      "ComStar",
-      "Kurita",
-      "unit_notsacellum"
+		"unit_generic",
+		"unit_bracket_high",
+		"unit_mech",
+		"unit_assault",
+		"unit_indirectFire",
+		"unit_lance_assassin",
+		"unit_role_brawler",
+		"unit_release",
+		"unit_rarity_3",
+		"unit_royal",
+		"DarkCaste",
+		"ComStar",
+		"2ndArmyVMu",
+		"Kurita",
+		"3rdNightStalkers",
+		"2ndLegionOfVega",
+		"HouseNakano"
     ],
     "tagSetSourceFile": ""
   },

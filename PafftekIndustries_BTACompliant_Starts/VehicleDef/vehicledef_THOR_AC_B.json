@@ -35,9 +35,9 @@
 		"Cost": 450000,
 		"Rarity": 0,
 		"Purchasable": false,
-		"UIName": "Thor (AC)",
+		"UIName": "Thor (AC-P)",
 		"Id": "vehicledef_THOR_AC_B",
-		"Name": "Thor (AC)",
+		"Name": "Thor (AC-P)",
 		"Details": "This variant replaced the Thumper and medium lasers of the original Thor with an Autocannon/10, 2 Gauss Magshot, and 2 Rocket Launcher 20s. The autocannon was equipped with two tons of ammunition while the magshot rifles shared a single ton of ammo. It found acceptance among Periphery combat units and served with distinction for centuries.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       150     30\n<b>Left</b>         105     30\n<b>Right</b>       105     30\n<b>Rear</b>         85     30\n<b>Turret</b>      105     30\n\n<b>Total</b>      539    150\n",
 		"Icon": "Thor"
 	},
@@ -82,7 +82,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_Autocannon_AC10_1-Mydron",
+			"ComponentDefID": "Weapon_Autocannon_AC10_P-Imperator",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
@@ -166,7 +166,7 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3",
+			"ComponentDefID": "Gear_C3i",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
 		},

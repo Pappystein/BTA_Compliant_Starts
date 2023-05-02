@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_orion_ON2-D", "chassisdef_orion_ON2-G", "chassisdef_orion_ON2-K", "chassisdef_orion_ON2-S"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

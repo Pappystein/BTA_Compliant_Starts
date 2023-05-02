@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_rashnu_RSH-4V", "chassisdef_rashnu_RSH-4Z", "chassisdef_rashnu_RSH-5B", "chassisdef_rashnu_RSH-5S"]
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["Sanctuary"]}
+        }
+    ]
+}

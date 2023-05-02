@@ -123,7 +123,7 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMountID": "AntiPersonnel"
                 }			
 			], 
             "Tonnage": 0, 
@@ -137,7 +137,7 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMountID": "AntiPersonnel"
                 }			
 			], 
             "Tonnage": 0, 
@@ -151,11 +151,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMountID": "Ballistic"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMountID": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 
@@ -169,11 +169,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMountID": "Energy"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMountID": "Energy"
                 }
             ], 
             "Tonnage": 0, 
@@ -187,11 +187,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMountID": "Ballistic"
                 },  
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMountID": "Ballistic"
                 }				
             ], 
             "Tonnage": 0, 
@@ -205,7 +205,7 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMountID": "AntiPersonnel"
                 }			
 			], 
             "Tonnage": 0, 

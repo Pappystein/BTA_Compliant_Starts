@@ -16,9 +16,6 @@
 		"PartialWing"
             ]
         },
-        "InventorySorter": {
-            "SortKey": "00028"
-        },
        "Weights": {
             "StructureFactor": 1.7
         },

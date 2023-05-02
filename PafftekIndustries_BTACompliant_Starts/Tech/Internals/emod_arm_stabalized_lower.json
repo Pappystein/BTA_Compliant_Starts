@@ -15,10 +15,8 @@
 		],
 		"ArmActuator": {
 			"Type": "PartLower"
-		},
-			"Lootable": {
-            "ItemID": "emod_arm_part_lower"
-	}
+				},
+		"Lootable":  "emod_arm_part_lower",
 	},
 	"Description": {
 		"Cost": 0,

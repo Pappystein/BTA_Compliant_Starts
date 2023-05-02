@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_C3iMedium,itemCollection_Mechs_C3iMedium,itemCollection_Mechs_C3iLight,itemCollection_Mechs_C3iLight,itemCollection_Mechs_C3iLight,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_BTA"
+					"ConstantValue": "itemCollection_Mechs_C3iMedium,itemCollection_Mechs_C3iMedium,itemCollection_Mechs_C3iLight,itemCollection_Mechs_C3iLight,itemCollection_Mechs_C3iLight,itemCollection_Pafftek_BattleArmor,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_BTA"
 				},
 				{
 					"ConstantType": "CareerMode",
