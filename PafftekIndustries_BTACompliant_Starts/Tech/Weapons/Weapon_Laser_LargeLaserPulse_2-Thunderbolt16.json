@@ -5,11 +5,13 @@
 				"CategoryID": "w/e/l/pulse"
 			}
 		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"Acid: 20%"
+		"BonusDescriptions": [
+				"WpnAccuracy: +2",
+				"PipsIgnored: 1",
+				"Acid: 20%",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
 			]
-		}
 	},
 	"Category": "Energy",
 	"Type": "Laser",
@@ -97,7 +99,7 @@
 			"statisticData": {
 				"statName": "DamageReductionMultiplierAll",
 				"operation": "Float_Add",
-				"modValue": "0.15",
+				"modValue": "0.20",
 				"modType": "System.Single"
 			},
 			"nature": "Debuff"
@@ -108,7 +110,9 @@
 			"component_type_stock",
 			"component_type_lostech",
 			"range_long",
-			"BLACKLISTED"
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

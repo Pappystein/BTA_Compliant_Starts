@@ -3,11 +3,9 @@
 		"Category": {
 			"CategoryID": "CASE"
 		},
-		"Flags": {
-			"flags": [
+		"Flags": [
 				"autorepair"
 			]
-		}
 	},
 	"Description": {
 		"Cost": 50000,

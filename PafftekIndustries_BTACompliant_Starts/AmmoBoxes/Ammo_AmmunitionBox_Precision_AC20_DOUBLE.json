@@ -15,13 +15,11 @@
 			"ExplosionDamagePerAmmo": 100,
 			"StabilityDamagePerAmmo": 25
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"ACAccuracy: +1",
 				"CostPerShot: 1600",
 				"AC20Ammo: 10"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 1600
 		}

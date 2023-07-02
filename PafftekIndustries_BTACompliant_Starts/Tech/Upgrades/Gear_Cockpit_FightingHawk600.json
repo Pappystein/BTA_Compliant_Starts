@@ -9,8 +9,7 @@
                 "CBillCost": "[[Chassis.Tonnage]] * 1.2"
             }
         },
-        "BonusDescriptions": {
-            "Bonuses": [
+        "BonusDescriptions":  [
 				"Health: +2",
                 "Initiative: +2",
                 "IsCockpit",
@@ -21,7 +20,7 @@
 				
 				
             ]
-        }
+     
     },
 	"StatName": null,
 	"RelativeModifier": 0,

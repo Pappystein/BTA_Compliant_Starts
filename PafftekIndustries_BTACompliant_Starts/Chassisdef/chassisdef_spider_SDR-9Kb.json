@@ -200,7 +200,9 @@
 	],
 	"VariantName": "SDR-9Kb",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Extremely Maneuverable Scout",

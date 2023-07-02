@@ -1,18 +1,16 @@
 {
 	"Custom": {
-		"Category": [{
-				"CategoryID": "w/e/l/binary"
-			},
+		"Category": [
 			{
-				"CategoryID": "NeverMelee"
+				"CategoryID": "w/e/l/binary"
 			}
 		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"WpnCrits: 60%",
-				"IsLaser"
+		"BonusDescriptions": [
+				"WpnCrits: 20%",
+				"WpnAccuracy: +2",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
 			]
-		}
 	},
 	"Category": "Energy",
 	"Type": "Laser",
@@ -33,7 +31,7 @@
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
-	"AccuracyModifier": 0,
+	"AccuracyModifier": -2,
 	"CriticalChanceMultiplier": 1.2,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
@@ -87,7 +85,10 @@
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_long"
+			"range_long",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

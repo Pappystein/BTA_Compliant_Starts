@@ -12,13 +12,11 @@
 			"ExplosionDamagePerAmmo": 4,
 			"StabilityDamagePerAmmo": 1
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"WpnAccuracy: +1",
 				"CostPerShot: 70",
 				"LRMAmmo: 270"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 70
 		}

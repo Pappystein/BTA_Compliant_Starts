@@ -12,16 +12,14 @@
 			"ExplosionDamagePerAmmo": 8,
 			"StabilityDamagePerAmmo": 2
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"Crits: +50%",
 				"SRMDamage: -4",
 				"ArmorDmgMod: -50%",
 				"StructureDmgMod: +25%",
 				"CostPerShot: 100",
 				"SRMAmmo: 50"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 100
 		}

@@ -3,12 +3,10 @@
 		"Category": [{
 			"CategoryID": "w/e/l/er"
 		}],
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions":  [
 				"ModalWeapon: Linked Cores",
 				"ModalWeapon2: Split Cores"
 			]
-		}
 	},
 	"Category": "Energy",
 	"Type": "Laser",
@@ -65,7 +63,7 @@
 	"Modes": [{
 			"Id": "x1",
 			"UIName": "3 core",
-			"isBaseMode": true,
+			"isBaseMode": false,
 			"Cooldown": 2
 		},
 		{
@@ -98,7 +96,7 @@
 		{
 			"Id": "x4",
 			"UIName": "1+1 core",
-			"isBaseMode": false,
+			"isBaseMode": true,
 			"ShotsWhenFired": 1,
 			"DamagePerShot": -48,
 			"HeatGenerated": -16,

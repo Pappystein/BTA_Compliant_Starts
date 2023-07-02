@@ -12,13 +12,11 @@
 			"ExplosionDamagePerAmmo": 100,
 			"StabilityDamagePerAmmo": 25
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"AreaOfEffect: 60",
 				"CostPerShot: 750",
 				"MortarAmmo: 10"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 750
 		}

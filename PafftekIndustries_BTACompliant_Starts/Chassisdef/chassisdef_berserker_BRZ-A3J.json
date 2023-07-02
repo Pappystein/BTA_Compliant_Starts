@@ -250,7 +250,9 @@
 	],
 	"VariantName": "BRZ-A3J",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"AssaultMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Melee Monster",

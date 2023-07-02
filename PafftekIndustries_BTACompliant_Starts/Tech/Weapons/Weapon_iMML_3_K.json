@@ -1,16 +1,16 @@
 {
 	"Custom": {
-		"Category": [{
-			"CategoryID": "w/m/s/mml"
-		}],
-		"BonusDescriptions": {
-			"Bonuses": [
+		"Category": [
+			{
+				"CategoryID": "w/m/s/mml"
+			}
+		],
+		"BonusDescriptions": [
 				"MML",
 				"MMLLRMHealth: 1",
 				"MMLSRMHealth: 2",
 				"MMLATMHealth: 2"
 			]
-		}
 	},
 	"Category": "Missile",
 	"Type": "LRM",

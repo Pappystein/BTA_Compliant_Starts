@@ -189,7 +189,9 @@
 	],
 	"VariantName": "COM-7Y",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"LightMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Stealth Striker",

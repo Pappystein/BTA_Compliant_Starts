@@ -10,8 +10,7 @@
 				"not_broken"
 			]
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"AmmoCount: 18",
 				"CostPerShot: 1000",
 				"WpnCrits: +50%",
@@ -19,8 +18,7 @@
 				"PipsIgnored: +1",
 				"SBCluster: 5",
 				"GaussNoBoom"
-			]
-		},
+			],
 		"AmmoCost": {
 			"PerUnitCost": 1000
 		}

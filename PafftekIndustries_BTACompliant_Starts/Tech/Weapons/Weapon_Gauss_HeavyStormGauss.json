@@ -9,14 +9,12 @@
 			"ExplosionDamage": 110,
 			"StabilityDamage": 60
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"WpnRecoil: 5",
 				"IsHeavyGauss",
 				"WpnAccuracy: +1",
 				"WeaponBoom: 150"
 			]
-		}
 	},
 	"Category": "Ballistic",
 	"Type": "Gauss",

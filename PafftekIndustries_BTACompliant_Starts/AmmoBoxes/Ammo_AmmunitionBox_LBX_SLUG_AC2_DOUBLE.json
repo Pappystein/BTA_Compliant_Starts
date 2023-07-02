@@ -14,12 +14,10 @@
             "ExplosionDamagePerAmmo": 25,
             "StabilityDamagePerAmmo": 6
         },
-        "BonusDescriptions": {
-            "Bonuses": [
+        "BonusDescriptions":[
 				"CostPerShot: 25",
 				"LBX2SlugAmmo: 110"
-            ]
-        },
+            ],
 		"AmmoCost" : {
 		  "PerUnitCost" : 25
 		}

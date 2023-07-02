@@ -13,14 +13,12 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions":  [
 				"FreedSlots: 1",
 				"PilotRecovery",
 				"ThermalVision: 1",
 				"ThermalVisionHeat: 30"
 			]
-		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -44,7 +42,7 @@
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
 	"InventorySize": 1,
-	"Tonnage": 0,
+	"Tonnage": 1,
 	"AllowedLocations": "Head",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,

@@ -12,12 +12,10 @@
 			"ExplosionDamagePerAmmo": 250,
 			"StabilityDamagePerAmmo": 25
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"CostPerShot: 1600",
 				"MortarAmmo: 10"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 1600
 		}

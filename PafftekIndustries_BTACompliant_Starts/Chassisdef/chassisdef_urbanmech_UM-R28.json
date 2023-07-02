@@ -221,7 +221,11 @@
 	],
 	"VariantName": "UM-R28",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Speed Defender",

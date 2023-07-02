@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"Description": {
 		"Cost": 6858430,
 		"Rarity": 4,
@@ -209,7 +203,11 @@
 	],
 	"VariantName": "CPLT-D1B",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"HeavyMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Striker Cavalry",

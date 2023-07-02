@@ -266,6 +266,7 @@
   "VariantName": "BH-4D",
   "ChassisTags": {
     "items": [
+		"AssaultMech"
 	],
     "tagSetSourceFile": ""
   },

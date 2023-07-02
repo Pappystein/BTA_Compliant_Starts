@@ -14,16 +14,14 @@
             "ExplosionDamagePerAmmo": 7,
             "StabilityDamagePerAmmo": 0.25
         },
-        "BonusDescriptions": {
-            "Bonuses": [
+        "BonusDescriptions": [
 				"WpnCrits: +50%",
                 "WpnAccuracy: +1",
                 "PipsIgnored: +1",
 				"LBXCluster: 2",
 				"CostPerShot: 25",
 				"LBX2ClusterAmmo: 60"
-            ]
-        },
+            ],
 		"AmmoCost" : {
 		  "PerUnitCost" : 25
 		}

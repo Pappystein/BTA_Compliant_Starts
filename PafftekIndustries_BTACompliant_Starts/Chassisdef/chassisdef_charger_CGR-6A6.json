@@ -213,7 +213,8 @@
 	"VariantName": "CGR-6A6",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"AssaultMech"
 		],
 		"tagSetSourceFile": ""
 	},

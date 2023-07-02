@@ -14,12 +14,10 @@
             "ExplosionDamagePerAmmo": 4,
             "StabilityDamagePerAmmo": 1
         },
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"CostPerShot: 5",
 				"MRMAmmo: 450"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 5
 		}

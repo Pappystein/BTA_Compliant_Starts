@@ -1,9 +1,5 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"RightLimit": "Lower"
-		}
-	},
+
 	"Description": {
 		"Cost": 2800000,
 		"Rarity": 1,
@@ -211,7 +207,10 @@
 	],
 	"VariantName": "WLF-2X",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+				"LightMech",
+				"ArmLimitLowerRight"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Sniper & Light Brawler",

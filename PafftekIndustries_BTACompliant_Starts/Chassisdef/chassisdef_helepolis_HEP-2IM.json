@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"Description": {
 		"Cost": 8372000,
 		"Rarity": 3,
@@ -12,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Helepolis",
-		"Id": "chassisdef_helepolis_HEP-2I",
+		"Id": "chassisdef_helepolis_HEP-2IM",
 		"Name": "Helepolis",
-		"Details": "Another experimental Star League variant of the Helepolis, the HEP-2I approaches the angle of artillery support from a different angle. Where the HEP-2H carries a Sniper, the HEP-2I instead divides its tonnage into a pair of Thumper Artillery Pieces. For close-range support though, the HEP-2I has only a quartet of Medium Lasers. 4 tons of Thumper ammo keep the dual cannons firing.",
+		"Details": "This new HEP-2IM is an alternative take on the Helepolis.  Instead of a Sniper, Arrow or Thumper artilery system, the 2IM carries the Enlarged Heavy Mortar with ample supplies of ammunition.   The entire system is protected by CASE-II for ultimiate survivablity.",
 		"Icon": "uixTxrIcon_helepolis"
 	},
 	"MovementCapDefID": "movedef_helepolis_HEP-2H",
@@ -211,9 +205,13 @@
 			"z": 0
 		}
 	],
-	"VariantName": "HEP-2I",
+	"VariantName": "HEP-2IM",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"HeavyMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft"		
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Artillery Support",

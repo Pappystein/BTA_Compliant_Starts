@@ -2,7 +2,7 @@
 	"Id": "WeaponUpgrade_ArtemisV_SRM",
 	"addonType": "artemisv",
 	"targetComponentTags": [
-		"ArtemisIVSRMSupported"
+		"ArtemisVSRMSupported"
 	],
 	"modes": [
 		{

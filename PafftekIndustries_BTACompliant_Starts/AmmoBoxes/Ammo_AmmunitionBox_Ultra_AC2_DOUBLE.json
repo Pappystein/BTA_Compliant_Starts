@@ -14,12 +14,10 @@
             "ExplosionDamagePerAmmo": 22,
             "StabilityDamagePerAmmo": 6
         },
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"CostPerShot: 35",
 				"UAC2Ammo: 110"
-			]
-		},
+		],
 		"AmmoCost" : {
 		  "PerUnitCost" : 35
 		}

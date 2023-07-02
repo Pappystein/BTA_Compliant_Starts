@@ -214,7 +214,9 @@
 	],
 	"VariantName": "COR-4Q",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"HeavyMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Scrapped-Together Frankenmech",

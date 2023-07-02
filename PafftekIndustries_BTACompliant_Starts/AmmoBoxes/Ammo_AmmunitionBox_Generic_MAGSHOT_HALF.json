@@ -10,13 +10,11 @@
 				"not_broken"
 			]
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"CostPerShot: 23",
 				"GaussAmmo: 25",
 				"GaussNoBoom"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 23
 		}

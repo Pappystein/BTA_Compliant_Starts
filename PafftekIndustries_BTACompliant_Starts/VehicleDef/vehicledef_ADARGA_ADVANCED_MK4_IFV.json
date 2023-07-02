@@ -73,6 +73,13 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Turret",
+			"ComponentDefID": "Weapon_Autocannon_LAC2_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
 		},	
 		{
 			"MountedLocation": "Turret",
@@ -96,6 +103,13 @@
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_AC2",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
 			"MountedLocation": "Front",
 			"ComponentDefID": "Gear_Angel_ECM",
 			"ComponentDefType": "Upgrade",
@@ -104,10 +118,15 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3",
+			"ComponentDefID": "Gear_B_Pod",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
 		},
 		{
 			"MountedLocation": "Front",

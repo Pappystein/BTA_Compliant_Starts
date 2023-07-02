@@ -8,15 +8,14 @@
 				"CategoryID": "NeverMelee"
 			}
 		],
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"IsMortar",
 				"NoFireInMelee",
 				"WpnRecoil: 1",
 				"ScatterRadius: 5, 15",
-				"AMSImmune"
+				"AMSImmune",
+				"WeaponAttachmentCompatible: Mortar FCS"
 			]
-		}
 	},
 	"Category": "Ballistic",
 	"Type": "Autocannon",
@@ -88,7 +87,8 @@
 		"items": [
 			"component_type_stock",
 			"range_extreme",
-			"mr-resize-2"
+			"mr-resize-2",
+			"MortarFCSSupported"
 		],
 		"tagSetSourceFile": ""
 	}

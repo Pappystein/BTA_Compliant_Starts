@@ -3,16 +3,15 @@
 		"Category": [{
 			"CategoryID": "w/e/p/plasma"
 		}],
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"PLASMADEBUFF: 10%",
 				"OHDamage: 10%",
-				"WpnRecoil: 3",
-				"AntiBA: 500%",
-				"WpnCrits: -95%",
-				"Refire: 2"
+				"WpnRecoil: 2",
+				"AntiBA: 250%",
+				"WpnCrits: -90%",
+				"Refire: 2",
+				"WeaponAttachmentCompatible: Plasma FCS"
 			]
-		}
 	},
 	"Category": "Energy",
 	"Type": "Flamer",
@@ -93,7 +92,7 @@
 			"Id": "2x",
 			"UIName": "LongFire",
 			"isBaseMode": false,
-			"MinRange": 500.0,
+			"MinRange": 250.0,
 			"MaxRange": 520.0,
 			"ShortRange": 500.0,
 			"MediumRange": 500.0,
@@ -102,9 +101,7 @@
 			"AOERange": 30,
 			"AOEDamage": 15,
 			"AOEHeatDamage": 30,
-			"HeatGenerated": 25,
-			"EvasivePipsIgnored": 2,
-			"AccuracyModifier": -1
+			"HeatGenerated": 25
 		}
 	],
 	"statusEffects": [{
@@ -163,7 +160,8 @@
 		"items": [
 			"component_type_stock",
 			"range_standard",
-			"OmniRestriction.{location}"
+			"OmniRestriction.{location}",
+			"PlasmaFCSSupported"
 		],
 		"tagSetSourceFile": ""
 	}

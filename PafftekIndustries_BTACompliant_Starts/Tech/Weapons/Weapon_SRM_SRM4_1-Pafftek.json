@@ -5,11 +5,13 @@
 				"CategoryID": "w/m/s/srm"
 			}
 		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"MissileHealth: 2"
+		"BonusDescriptions": [
+				"MissileHealth: 2",
+				"WeaponAttachmentCompatible: Artemis IV FCS",
+				"WeaponAttachmentCompatible: SRM FCS",
+				"WeaponAttachmentCompatible: Artemis V FCS"
 			]
-		}
+		
 	},
 	"Category": "Missile",
 	"Type": "SRM",
@@ -68,7 +70,10 @@
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_standard"
+			"range_standard",
+			"ArtemisIVSRMSupported",
+			"SRMFCSSupported",
+			"ArtemisVSRMSupported"
 		],
 		"tagSetSourceFile": ""
 	}

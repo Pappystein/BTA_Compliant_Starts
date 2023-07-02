@@ -1,10 +1,5 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
+
 	"Description": {
 		"Cost": 6600000,
 		"Rarity": 1,
@@ -215,7 +210,11 @@
 	],
 	"VariantName": "JR7-31R",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Trap-Door Striker",
@@ -223,7 +222,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_Rugged_Rattlesnake",
+			"ComponentDefID": "Gear_Quirk_Rugged_Jenner",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

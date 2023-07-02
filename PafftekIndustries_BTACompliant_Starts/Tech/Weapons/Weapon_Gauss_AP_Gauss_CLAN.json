@@ -9,13 +9,11 @@
       "ExplosionDamage": 20,
       "StabilityDamage": 5
 	},
-    "BonusDescriptions": {
-      "Bonuses": [
+    "BonusDescriptions": [
         "WpnRecoil: 1",
         "IsGauss",
         "WeaponBoom: 20"
       ]
-    }
 	},
     "Category" : "AntiPersonnel",
     "Type" : "Gauss",

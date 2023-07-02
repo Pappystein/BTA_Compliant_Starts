@@ -5,8 +5,7 @@
 			{"CategoryID": "Probe"},
 			{"CategoryID": "C3"}
 		],	
-        "BonusDescriptions": {
-            "Bonuses": [
+        "BonusDescriptions":  [
                 "EvaMax: +1",
 				"Sensors: +15%",
 				"Sight: +10%",
@@ -18,8 +17,7 @@
 				"ProbeTier: 2",
 				"ProbeBubble: 250",
 				"ProbePower: 4"
-            ]
-        },
+            ],
 		"ActivatableComponent": {
 			"ButtonName": "Guardian ECM",
 			"CanNotBeActivatedManualy": false,

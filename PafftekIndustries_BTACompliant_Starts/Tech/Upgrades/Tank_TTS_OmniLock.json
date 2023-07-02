@@ -5,22 +5,18 @@
 				"CategoryID": "CockpitFCS"
 			}
 		],
-		"BonusDescriptions": {
-            "Bonuses": [
+		"BonusDescriptions": [
 				"Accuracy: +1",
 				"Sensors: +5%",
 				"Sight: +5%",
 				"AdvancedSensors: 2"				
-            ]
-		},
-		"Flags": {
-			"flags": [
+            ],
+		"Flags": [
 				"default",
 				"not_broken",
 				"no_salvage",
 				"autorepair"
 			]
-		}
 	},
 	"Description": {
 		"Cost": 0,

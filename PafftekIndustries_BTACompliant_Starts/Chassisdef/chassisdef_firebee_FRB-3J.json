@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Lower"
-		}
-	},
 	"Description": {
 		"Cost": 2556000,
 		"Rarity": 2,
@@ -216,7 +210,10 @@
 	],
 	"VariantName": "FRB-3J",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitLowerRight",
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Flanker and Harasser",

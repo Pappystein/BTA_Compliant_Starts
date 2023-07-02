@@ -1,0 +1,15 @@
+{
+    "Name": "PafftekIndustries_Big_Engines",
+    "Enabled": true,
+
+    "Author": "Pappystein, Etc",
+		"DependsOn": [ "Custom Ammo Categories", "BT Advanced Gear Component"],
+
+
+
+
+	"Manifest": [
+        { "Type": "HeatSinkDef", "Path": "EngineParts" }
+		
+	]
+}

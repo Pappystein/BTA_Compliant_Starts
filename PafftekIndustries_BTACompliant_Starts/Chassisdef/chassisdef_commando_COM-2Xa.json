@@ -213,7 +213,8 @@
 	"VariantName": "COM-2Xa",
 	"ChassisTags": {
 		"items": [
-		"mr-resize-1.0-1.05-1.0"
+		"mr-resize-1.0-1.05-1.0",
+			"LightMech"
 		],
 		"tagSetSourceFile": ""
 	},

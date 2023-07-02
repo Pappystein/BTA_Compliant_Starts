@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"Description": {
 		"Cost": 6858430,
 		"Rarity": 4,
@@ -217,7 +211,11 @@
 	],
 	"VariantName": "CPLT-E1",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"HeavyMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Backstabber",

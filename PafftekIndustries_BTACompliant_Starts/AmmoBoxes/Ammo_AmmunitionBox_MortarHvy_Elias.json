@@ -12,8 +12,7 @@
 			"ExplosionDamagePerAmmo": 100,
 			"StabilityDamagePerAmmo": 25
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"AmmoCount: 1",
 				"AreaOfEffect: 600",
 				"AreaOfEffectDmg: 750",
@@ -23,8 +22,7 @@
 				"DesignMask: Radiation",
 				"CostPerShot: 1500000",
 				"IsNOOK"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 5000
 		}

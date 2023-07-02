@@ -26,13 +26,11 @@
 				"CBillCost": "250 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
 			}
 		},
-		"Flags": {
-			"flags": [
+		"Flags":  [
 				"ignore_damage",
 				"autorepair",
 				"not_broken"
 			]
-		}
 	},
 	"Description": {
 		"Cost": 150000,

@@ -14,11 +14,10 @@
 			"ExplosionDamagePerAmmo": 100,
 			"StabilityDamagePerAmmo": 25
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"LBX20SlugAmmo: 5"
 			]
-		}
+		
 	},
 	"AmmoID": "Ammunition_LBX20_SABOT",
 	"Capacity": 5,

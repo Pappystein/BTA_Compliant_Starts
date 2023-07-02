@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"Description": {
 		"Cost": 4100000,
 		"Rarity": 1,
@@ -215,7 +209,10 @@
 	"VariantName": "RSN-2",
 	"ChassisTags": {
 		"items": [
-	"mr-resize-1.10-1.10-1.10"
+	"mr-resize-1.10-1.10-1.10",
+			"MediumMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft"
 		],
 		"tagSetSourceFile": ""
 	},

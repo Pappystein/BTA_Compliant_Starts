@@ -200,7 +200,9 @@
 	],
 	"VariantName": "SDR-9Ka",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Extremely Maneuverable Scout",

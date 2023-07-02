@@ -1,10 +1,5 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Hand"
-		}
-	},
+
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{
@@ -379,7 +374,9 @@
 	],
 	"VariantName": "HOR-7X",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"AssaultMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "The Gauntlet",

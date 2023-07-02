@@ -12,14 +12,12 @@
 			"ExplosionDamagePerAmmo": 4,
 			"StabilityDamagePerAmmo": 1
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"Swarm: 60",
 				"ImpAccuracy: -1",
 				"ImpMove: 10%",
 				"LRMAmmo: 270"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 14
 		}

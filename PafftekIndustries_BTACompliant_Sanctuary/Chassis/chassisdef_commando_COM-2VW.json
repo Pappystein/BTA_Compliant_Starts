@@ -207,7 +207,9 @@
 	],
 	"VariantName": "COM-2VW",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"LightMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Wulf's Ride",

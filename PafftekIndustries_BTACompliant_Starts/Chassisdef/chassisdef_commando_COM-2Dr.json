@@ -194,7 +194,9 @@
 	],
 	"VariantName": "COM-2Dr",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"LightMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Striker & Scout",

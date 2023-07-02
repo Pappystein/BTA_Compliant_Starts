@@ -219,7 +219,9 @@
 	],
 	"VariantName": "GRF-1K",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Pafftek's first monster",

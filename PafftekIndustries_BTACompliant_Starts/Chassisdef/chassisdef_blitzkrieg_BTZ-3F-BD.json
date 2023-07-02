@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"CustomParts": {
 		"FiringArc": 360
 	},
@@ -213,7 +207,10 @@
 	"VariantName": "Backdraft",
 	"ChassisTags": {
 		"items": [
-		"HeroMech"
+			"HeroMech",
+			"MediumMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -255,7 +255,9 @@
 	],
 	"VariantName": "KGC-100",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"AssaultMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Flying Flapjack",

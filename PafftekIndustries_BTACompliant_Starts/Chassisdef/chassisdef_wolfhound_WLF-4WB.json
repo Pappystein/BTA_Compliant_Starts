@@ -1,9 +1,4 @@
 {
-  "Custom": {
-    "ArmActuatorSupport": {
-      "RightLimit": "Lower"
-    }
-  },
   "FixedEquipment": [
 		{
 			"MountedLocation": "Head",
@@ -392,7 +387,9 @@
   "VariantName": "WLF-4WB",
   "ChassisTags": {
     "items": [
-      "PrototypeMech"
+		"PrototypeMech",
+		"LightMech",
+		"ArmLimitLowerRight"
     ],
     "tagSetSourceFile": ""
   },

@@ -202,7 +202,10 @@
 	],
 	"VariantName": "GRF-C",
 	"ChassisTags": {
-		"items": ["ClanRefit"],
+		"items": [
+			"ClanRefit",
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Sniper & Fire Support",

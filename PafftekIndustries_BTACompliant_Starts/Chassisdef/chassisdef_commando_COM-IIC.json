@@ -208,7 +208,8 @@
 	"VariantName": "COM-IIC",
 	"ChassisTags": {
 		"items": [
-			"ClanMech"
+			"ClanMech",
+			"LightMech"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -182,7 +182,8 @@
 	"VariantName": "COM-1AKV",
 	"ChassisTags": {
 		"items": [
-		"PrimitiveMech"
+			"PrimitiveMech",
+			"LightMech"
 		],
 		"tagSetSourceFile": ""
 	},

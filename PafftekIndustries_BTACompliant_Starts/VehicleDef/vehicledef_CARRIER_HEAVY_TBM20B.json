@@ -240,11 +240,16 @@
 			"DamageLevel": "Functional"
 		},
 		{
-		  "MountedLocation": "Front",
-		  "ComponentDefID": "Gear_C3",
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "DamageLevel": "Functional"
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
 		},
 		{
 			"ComponentDefID": "Tank_Turret",

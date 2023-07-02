@@ -225,7 +225,11 @@
 	],
 	"VariantName": "UM-R26",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Indirect Firesupport",

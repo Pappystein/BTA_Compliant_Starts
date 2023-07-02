@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Lower",
-			"RightLimit": "Lower"
-		}
-	},
 	"Description": {
 		"Cost": 5200000,
 		"Rarity": 5,
@@ -226,7 +220,11 @@
 	],
 	"VariantName": "BSW-XJ7",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher",

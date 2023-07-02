@@ -13,16 +13,14 @@
 			"HeatDamagePerAmmo": 7,
 			"StabilityDamagePerAmmo": 1
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"HeatDamage: +3",
 				"SRMDamage: -5",
 				"Inferno: 3",
 				"CostPerShot: 200",
 				"ISRMAmmo: 50",
 				"OHDamage: 10%"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 200
 		}

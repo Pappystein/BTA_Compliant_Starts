@@ -1,10 +1,5 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
+
 	"Description": {
 		"Cost": 1600000,
 		"Rarity": 0,
@@ -199,7 +194,11 @@
 	],
 	"VariantName": "LCT-1VF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Fire Support",

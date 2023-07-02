@@ -247,12 +247,11 @@
 	"YangsThoughts": "This Mech is unique and we do not know where it comes from.   It appears to be an evolution of the Vulcan but aside from some structural items being the same size it has nothing really in common with that mech.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_NarrowProfile_Stag",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Stag",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

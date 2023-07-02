@@ -230,7 +230,10 @@
 	],
 	"VariantName": "SHD-2JS",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ComstarMech",
+			"MediumMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",

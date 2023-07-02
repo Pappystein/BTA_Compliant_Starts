@@ -202,7 +202,9 @@
 	],
 	"VariantName": "GRF-1TLJ",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "COIL Striker",

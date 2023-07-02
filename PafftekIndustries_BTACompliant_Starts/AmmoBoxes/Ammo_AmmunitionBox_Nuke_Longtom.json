@@ -12,8 +12,7 @@
 			"ExplosionDamagePerAmmo": 50,
 			"StabilityDamagePerAmmo": 12
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"AreaOfEffect: 360",
 				"AreaOfEffectDmg: 1250",
 				"AreaOfEffectHeatDmg: 500",
@@ -22,8 +21,7 @@
 				"LongTomAmmo: 1",
 				"IsNOOK",
 				"AntiBA: 5000%"
-			]
-		},
+			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 1200000
 		}

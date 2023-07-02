@@ -10,20 +10,16 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.2"
 			}
 		},
-		"Flags": {
-			"flags": [
+		"Flags":  [
 				"not_broken",
 				"autorepair"
-			]
-		},
-		"BonusDescriptions": {
-			"Bonuses": [
+			],
+		"BonusDescriptions":  [
 				"EvaPips: +1",
 				"ThermalVision: 1",
 				"ThermalVisionHeat: 30",
 				"IsCockpit"
 			]
-		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,

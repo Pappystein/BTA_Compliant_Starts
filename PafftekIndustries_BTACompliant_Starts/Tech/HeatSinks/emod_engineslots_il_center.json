@@ -3,11 +3,9 @@
 		"Weights": {
 			"EngineFactor": 0.75
 		},
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions":  [
 				"EngineWeight: 0.75%"
-			]
-		},
+			],
 		"WorkOrderCosts": {
 			"Default": {
 				"TechCost": "0",
@@ -18,11 +16,9 @@
 				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
 			}
 		},
-		"Flags": {
-            "flags": [
+		"Flags":  [
                     "vital"
-            ]
-        },
+            ],
 		"Category" : [
 			{"CategoryID": "EngineShield"},
 			{"CategoryID": "EnginePart"}

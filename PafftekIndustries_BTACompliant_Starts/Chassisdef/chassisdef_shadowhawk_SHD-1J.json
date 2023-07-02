@@ -212,6 +212,8 @@
 	"VariantName": "SHD-1J",
 	"ChassisTags": {
 		"items": [
+			"MediumMech",
+			"SLDFMech"
 		],
 		"tagSetSourceFile": ""
 	},

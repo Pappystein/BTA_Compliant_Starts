@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"Description": {
 		"Cost": 3000000,
 		"Rarity": 1,
@@ -194,9 +188,12 @@
 		}
 	],
 	"VariantName": "SR2-O-C",
-	"ChassisTags": {
-		"items": [
-			"OmniMech"
+		"ChassisTags": {
+			"items": [
+				"OmniMech",
+				"MediumMech",
+				"ArmLimitUpperRight",
+				"ArmLimitUpperLeft"			
 		],
 		"tagSetSourceFile": ""
 	},

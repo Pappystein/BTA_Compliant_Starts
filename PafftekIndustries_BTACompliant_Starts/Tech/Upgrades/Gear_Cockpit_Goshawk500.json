@@ -49,8 +49,7 @@
 			}]
 		},
 
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"PilotRecovery",
 				"IsCockpit",
 				"MissileDefense: +2",
@@ -59,7 +58,6 @@
 				"SensorLockImmune",
 				"C3Jamming: 120"
 			]
-		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,

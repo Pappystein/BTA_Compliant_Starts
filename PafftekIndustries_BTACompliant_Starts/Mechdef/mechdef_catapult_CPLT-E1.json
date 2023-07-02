@@ -32,7 +32,7 @@
 			"6thLyranGuards",
 			"5thDonegalGuards",
 			"11thAvalonHussars",
-			"15thLyranRegulars",	
+			"15thLyranRegulars",
 			"AuriganPirates",
 			"SelfEmployed",
 			"SteelBeast",
@@ -71,8 +71,7 @@
 	},
 	"simGameMechPartCost": 740000,
 	"Version": 1,
-	"Locations": [
-		{
+	"Locations": [{
 			"DamageLevel": "Functional",
 			"Location": "Head",
 			"CurrentArmor": 45,
@@ -145,8 +144,7 @@
 			"AssignedRearArmor": -1
 		}
 	],
-	"inventory": [
-		{
+	"inventory": [{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
 			"ComponentDefType": "Upgrade",
@@ -201,7 +199,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_engineslots_size3,
+			"ComponentDefID": "emod_engineslots_size3",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,

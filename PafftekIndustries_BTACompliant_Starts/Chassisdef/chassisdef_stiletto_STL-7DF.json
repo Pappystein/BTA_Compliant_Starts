@@ -1,10 +1,5 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
+
 	"Description": {
 		"Cost": 1624000,
 		"Rarity": 0,
@@ -196,7 +191,10 @@
 	"VariantName": "STL-7DF",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
 		],
 		"tagSetSourceFile": ""
 	},

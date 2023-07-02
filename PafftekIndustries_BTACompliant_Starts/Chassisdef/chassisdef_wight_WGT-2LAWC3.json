@@ -1,18 +1,12 @@
 {
-  "Custom": {
-    "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
-    }
-  },
+
   "FixedEquipment": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Wight",
+			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Wight",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -43,7 +37,8 @@
   "VariantName": "WGT-2LAWC3",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.75"
+		"LightMech"
+
     ],
     "tagSetSourceFile": ""
   },

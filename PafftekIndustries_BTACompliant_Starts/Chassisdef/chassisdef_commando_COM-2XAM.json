@@ -1,0 +1,246 @@
+{
+	"Description": {
+		"Cost": 2100000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Super Commando",
+		"Id": "chassisdef_commando_COM-2XAM",
+		"Name": "Super Commando",
+		"Details": "This Ancestral mech, a highly modified 'super' Commando, the COM-2XAM is your personal mech.   Primarily armed with a SRM-10, a SRM-4 and two Superior medium lasers.",
+		"Icon": "uixTxrIcon_commando"
+	},
+	"MovementCapDefID": "movedef_commando_COM-2D",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_commando",
+	"PrefabIdentifier": "chrPrfMech_commandoBase-001",
+	"PrefabBase": "commando",
+	"Tonnage": 30,
+	"InitialTonnage": 3.0,
+	"weightClass": "LIGHT",
+	"BattleValue": 2061000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 40,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 40,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 40,
+	"DFAInstability": 10,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},				
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 16,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": -1.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 1.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "COM-2XAM",
+	"ChassisTags": {
+		"items": [
+		"mr-resize-1.0-1.05-1.0",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Light Striker & Scout",
+	"YangsThoughts": "Designed by Rogue Engineers, Produced where it could be when it could be, this mech has entered some interesting units.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Commando",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_endosteel",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+	]
+}

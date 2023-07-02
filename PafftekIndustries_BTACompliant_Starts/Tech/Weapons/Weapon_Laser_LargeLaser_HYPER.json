@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/e/l/bombast"
+				"CategoryID": "w/e/p/gamma"
 			},
 			{
 				"CategoryID": "NeverMelee"
@@ -14,19 +14,18 @@
             "StabilityDamage": 15
         },
 		
-		"BonusDescriptions": {
-			"Bonuses": [
+		"BonusDescriptions": [
 				"WpnAccuracy: +1",
 				"WeaponJAMFlat: 1.25",
 				"NoFireInMelee",
+				"WeaponAttachmentCompatible: Laser Insulator"
 			]
-		}
 	},
 	"Category": "Energy",
 	"Type": "Laser",
 	"WeaponSubType": "LargeLaser",
 	"MinRange": 0,
-	"MaxRange": 850,
+	"MaxRange": 950,
 	"RangeSplit": [
 		240,
 		450,
@@ -81,7 +80,9 @@
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_long"
+			"range_extreme",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

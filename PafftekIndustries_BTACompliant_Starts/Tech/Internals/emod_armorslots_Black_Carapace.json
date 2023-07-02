@@ -11,8 +11,7 @@
         "CBillCost": "200 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
       }
     },
-    "BonusDescriptions": {
-      "Bonuses": [
+    "BonusDescriptions": [
         "Carapace",
         "HaarJel",
         "HaarJelTurn",
@@ -27,8 +26,7 @@
         "HeatPerTurn: +10",
         "ArmorTPCost: 75%",
         "ArmorCBCost: 75%"
-      ]
-    },
+      ],
     "ActivatableComponent": {
       "ButtonName": "Black Carapace",
       "CanNotBeActivatedManualy": true,
@@ -68,11 +66,11 @@
     "CriticalEffects": {
       "LinkedStatisticName": "Black Carapace"
     },
-    "Flags": {
-      "flags": [
-        "not_broken"
-      ]
-    },
+    "Flags": [
+ 			"ignore_damage",
+			"autorepair",
+			"not_broken"
+      ],
     "Linked": {
       "Links": [
         {

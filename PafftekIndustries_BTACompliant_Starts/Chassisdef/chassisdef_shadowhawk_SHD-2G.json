@@ -219,7 +219,8 @@
 	"VariantName": "SHD-2G",
 	"ChassisTags": {
 		"items": [
-		"PirateMech"
+			"PirateMech",
+			"MediumMech"
 		],
 		"tagSetSourceFile": ""
 	},

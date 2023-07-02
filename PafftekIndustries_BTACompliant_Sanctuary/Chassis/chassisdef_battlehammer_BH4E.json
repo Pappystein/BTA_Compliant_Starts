@@ -250,6 +250,7 @@
   "VariantName": "BH-4E",
   "ChassisTags": {
     "items": [
+		"AssaultMech"
 	],
     "tagSetSourceFile": ""
   },

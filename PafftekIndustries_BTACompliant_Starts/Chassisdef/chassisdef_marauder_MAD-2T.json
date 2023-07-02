@@ -206,6 +206,9 @@
 	"VariantName": "MAD-2T",
 	"ChassisTags": {
 		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"HeavyMech"
 		],
 		"tagSetSourceFile": ""
 	},

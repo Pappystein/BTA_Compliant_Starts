@@ -103,11 +103,11 @@
 			"Location": "Turret",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				},
 				{

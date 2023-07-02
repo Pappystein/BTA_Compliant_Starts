@@ -228,7 +228,11 @@
 	],
 	"VariantName": "UM-R27",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "FIRE Defender",

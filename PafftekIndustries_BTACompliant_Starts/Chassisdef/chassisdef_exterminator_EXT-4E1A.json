@@ -415,7 +415,7 @@
   "VariantName": "EXT-4E1A",
   "ChassisTags": {
     "items": [
-      "RoyalMech"
+		"HeavyMech"
     ],
     "tagSetSourceFile": ""
   },

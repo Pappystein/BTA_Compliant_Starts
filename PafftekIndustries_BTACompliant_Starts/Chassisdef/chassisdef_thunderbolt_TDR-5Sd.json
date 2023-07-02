@@ -235,7 +235,7 @@
 	"VariantName": "TDR-5Sd",
 	"ChassisTags": {
 		"items": [
-			"RoyalMech"		
+			"HeavyMech"	
 		],
 		"tagSetSourceFile": ""
 	},

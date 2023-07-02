@@ -2,7 +2,7 @@
 	"Id": "WeaponUpgrade_ArtemisV_MML",
 	"addonType": "artemisv",
 	"targetComponentTags": [
-		"ArtemisIVMMLSupported"
+		"ArtemisVMMLSupported"
 	],
 	"modes": [
 		{

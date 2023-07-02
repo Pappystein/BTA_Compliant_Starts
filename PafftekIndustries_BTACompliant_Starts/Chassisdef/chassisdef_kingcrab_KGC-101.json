@@ -100,27 +100,19 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Ballistic",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
+					"Omni": false
 				}				
 			],
 			"Tonnage": 0,
@@ -134,19 +126,19 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Missile",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Missile",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Missile",
-					"Omni": true
+					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
+					"WeaponMountID": "Missile",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -169,19 +161,19 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -195,27 +187,19 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Ballistic",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
+					"Omni": false
 				}				
 			],
 			"Tonnage": 0,
@@ -287,7 +271,9 @@
 	],
 	"VariantName": "KGC-101",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"AssaultMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Flying Flapjack",

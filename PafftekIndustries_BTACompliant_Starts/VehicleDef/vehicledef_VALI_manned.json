@@ -193,6 +193,18 @@
 			"MountedLocation": "Left",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
 		}
 	]
 }

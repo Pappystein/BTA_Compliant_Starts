@@ -204,7 +204,9 @@
 	],
 	"VariantName": "SDR-9EW",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"LightMech"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "EWAR Escort",

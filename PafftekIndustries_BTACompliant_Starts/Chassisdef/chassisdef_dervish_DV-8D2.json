@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Lower",
-			"RightLimit": "Lower"
-		}
-	},
 	"Description": {
 		"Cost": 5970000,
 		"Rarity": 8,
@@ -217,7 +211,10 @@
 	"VariantName": "DV-8D2",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"MediumMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft"
 		],
 		"tagSetSourceFile": ""
 	},
