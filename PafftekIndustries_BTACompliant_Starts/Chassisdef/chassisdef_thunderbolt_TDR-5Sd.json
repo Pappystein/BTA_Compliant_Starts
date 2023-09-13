@@ -235,7 +235,8 @@
 	"VariantName": "TDR-5Sd",
 	"ChassisTags": {
 		"items": [
-			"HeavyMech"	
+			"HeavyMech",
+			"HalfRoyal"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -256,18 +257,6 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_standard",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_HalfRoyal_BattleMechs",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

@@ -15,11 +15,11 @@
 			"StabilityDamagePerAmmo": 12
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 100",
+				"CostPerShot: 600",
 				"TBOLT10Ammo: 8"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 100
+		  "PerUnitCost" : 600
 		}
 	},
 	"AmmoID": "Ammunition_TBOLT10_FASCAM",

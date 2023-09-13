@@ -42,7 +42,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 1.19,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 85,
@@ -225,6 +225,8 @@
 	"VariantName": "STK-3Fk",
 	"ChassisTags": {
 		"items": [
+			"AssaultMech",
+			"HalfRoyal"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -251,18 +253,6 @@
             "DamageLevel" : "Functional",
             "prefabName" : "",
             "hasPrefabName" : true
-        },
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_HalfRoyal_BattleMechs",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		}
+        }
 	]
 }

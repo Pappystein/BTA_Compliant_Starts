@@ -19,7 +19,7 @@
 		"UIName": "Shadow Hawk",
 		"Id": "chassisdef_shadowhawk_SHD-2K",
 		"Name": "Shadow Hawk",
-		"Details": "The Shadow Hawk 2K removes all the armaments of the original, aside from its LRM-5, and replaces them with a single PPC.  Five additional Heat Sinks are also added to help with the excess heat.",
+		"Details": "Improving on the Shadowhawk SHD-2K is pretty trivial with the resurgence in technology.  Take Prototype CASE, Ferro-Fibrous armor and the new Freezer Heat sinks and the good SHD-2K becomes the Great SHD-2KF.  One of those new PPC FCS attachments on the PPC dramatically improves the killing power of this mech.",
 		"Icon": "uixTxrIcon_shadowhawk"
 	},
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -47,7 +47,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.94,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -215,13 +215,13 @@
 			"z": 2.5
 		}
 	],
-	"VariantName": "SHD-2K",
+	"VariantName": "SHD-2KF",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",
-	"YangsThoughts": "The 2K model is a poor man's Griffin, and is underarmed for its weight class.",
+	"YangsThoughts": "It has been said that the SHD-2K is the poor mans Griffin, and this is pretty true.  However the SHD-2KF actually serisouly threatens the Griffin in a fight.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

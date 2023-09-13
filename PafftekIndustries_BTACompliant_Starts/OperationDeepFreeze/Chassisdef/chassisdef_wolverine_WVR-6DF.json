@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Hand"
-		}
-	},
 	"Description": {
 		"Cost": 5000000,
 		"Rarity": 2,
@@ -12,7 +6,7 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Wolverine",
-		"Id": "chassisdef_wolverine_WVR-6D",
+		"Id": "chassisdef_wolverine_WVR-6DF",
 		"Name": "Wolverine",
 		"Details": "The 6D is a Davion variant of the classic Wolverine that sprung up during the Succession Wars.  Upgrading the Autocannon 5 to an Autocannon 10, the WVR-6D can pack a greater punch at a distance.  To make room for the added bulk of the AC10, the SRM launcher needed to be removed, and overall armor protection was reduced.",
 		"Icon": "uixTxrIcon_wolverine"
@@ -203,9 +197,11 @@
 			"z": 0
 		}
 	],
-	"VariantName": "WVR-6D",
+	"VariantName": "WVR-6DF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Striker & Cavalry",

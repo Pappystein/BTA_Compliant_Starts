@@ -12,9 +12,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Kintaro",
-		"Id": "chassisdef_kintaro_KTO-18",
+		"Id": "chassisdef_kintaro_KTO-18F",
 		"Name": "Kintaro",
-		"Details": "The Kintaro 18 is... a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
+		"Details": "A field expedient refit to the KTO-18, the -18F is designed around the axiom that running cooler saves pilots and mechs.  Utilizing double strength freezers instead of standard heatsinks, adding both prototype CASE as well as prototype Ferro-Fibrous in as well provides a significantly enhanced protection scheme on the base KTO-18.",
 		"Icon": "uixTxrIcon_kintaro"
 	},
 	"MovementCapDefID": "movedef_kintaro_KTO-18",
@@ -42,7 +42,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.77,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -86,7 +86,12 @@
 		},
 		{
 			"Location": "LeftTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 130,
@@ -116,6 +121,10 @@
 				},
 				{
 					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -202,13 +211,13 @@
 			"z": 0
 		}
 	],
-	"VariantName": "KTO-18",
+	"VariantName": "KTO-18F",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Juggernaut & Close Assault",
-	"YangsThoughts": "The Kintaro 18 is... a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
+	"YangsThoughts": "For a standard tech Kintaro refit, the KTO-18F is all about protecting both the pilot and the mech with CASE, better armor as well as Freezer Chillers.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

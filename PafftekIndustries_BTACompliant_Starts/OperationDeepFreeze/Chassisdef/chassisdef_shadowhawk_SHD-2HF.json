@@ -17,9 +17,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Shadow Hawk",
-		"Id": "chassisdef_shadowhawk_SHD-2H",
+		"Id": "chassisdef_shadowhawk_SHD-2HF",
 		"Name": "Shadow Hawk",
-		"Details": "The Shadow Hawk 2H is the perfect example of a 'jack-of-all-trades.' It supports weaponry for all ranges, has respectable speed and jump capability, and mounts decent armor. This comes at the cost of excelling at nothing in particular.",
+		"Details": "The Shadow Hawk 2HF, is a slight upgrade to the ubiquitious SHD-2H.  Like its progener, it is a 'jack-of-all-trades.' By changing the basic layout of the mech and including things like Freezer Double-sinks as well as Prototype CASE, the SHD-2HF is more survivable of a mech.",
 		"Icon": "uixTxrIcon_shadowhawk"
 	},
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -47,7 +47,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.94,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -211,13 +211,13 @@
 			"z": 2.5
 		}
 	],
-	"VariantName": "SHD-2H",
+	"VariantName": "SHD-2HF",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",
-	"YangsThoughts": "The Shadow Hawk 2H is the perfect example of a 'jack-of-all-trades.' It supports weaponry for all ranges, has respectable speed and jump capability, and mounts decent armor. This comes at the cost of excelling at nothing in particular.",
+	"YangsThoughts": "Prototype tech in the form of Double Heat sink Freezers, and Proto-CASE boss.  Should be more intersting then its more basic cousin.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

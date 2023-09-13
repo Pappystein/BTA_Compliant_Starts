@@ -36,7 +36,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.63,
 	"Radius": 5,
 	"PunchesWithLeftArm": true,
 	"MeleeDamage": 55,
@@ -197,7 +197,8 @@
 	"VariantName": "PXH-1Kk",
 	"ChassisTags": {
 		"items": [
-			"MediumMech"
+			"MediumMech",
+			"HalfRoyal"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -219,18 +220,6 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_standard",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_HalfRoyal_BattleMechs",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

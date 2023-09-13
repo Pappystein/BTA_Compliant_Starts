@@ -36,7 +36,7 @@
     "SpotterDistanceMultiplier": 1,
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
-    "Signature": 0,
+    "Signature": 1.62,
     "Radius": 8,
     "PunchesWithLeftArm": true,
     "MeleeDamage": 115,
@@ -242,9 +242,10 @@
         }
     ],
     "VariantName": "BLR-1Gd",
-    "ChassisTags": {
-        "items": [
-			"AssaultMech"		
+	"ChassisTags": {
+		"items": [
+			"AssaultMech",
+			"HalfRoyal"
 		],
         "tagSetSourceFile": ""
     },
@@ -265,18 +266,6 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_standard",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_HalfRoyal_BattleMechs",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

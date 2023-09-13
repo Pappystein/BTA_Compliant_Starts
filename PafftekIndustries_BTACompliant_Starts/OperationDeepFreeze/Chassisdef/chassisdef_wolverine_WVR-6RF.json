@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Hand"
-		}
-	},
 	"Description": {
 		"Cost": 5000000,
 		"Rarity": 1,
@@ -12,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Wolverine",
-		"Id": "chassisdef_wolverine_WVR-6R",
+		"Id": "chassisdef_wolverine_WVR-6RF",
 		"Name": "Wolverine",
-		"Details": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
+		"Details": "This depot level refit of the Wolverine WVR-6R chassis, the so called -6RF subvariant, is a major improvement to the survival and accuracy of the base Wolverine.  However, to fit all this in, beyond utilizing Prototype Ferro Fibrous armor, Prototype CASE and the new Freezer Chillers, the -6RF needed to shed some mass to accept the updated weapon systems.   The mass was saved by reducing the jump-jet capacity from 5 down to 3.   In the end, with the improvements to protection and accuracy, the tradeoff is deemed worthy by most users of this mech.",
 		"Icon": "uixTxrIcon_wolverine"
 	},
 	"MovementCapDefID": "movedef_wolverine_WVR-6R",
@@ -113,7 +107,11 @@
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 130,
@@ -201,13 +199,15 @@
 			"z": 0
 		}
 	],
-	"VariantName": "WVR-6R",
+	"VariantName": "WVR-6RF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",
-	"YangsThoughts": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
+	"YangsThoughts": "Not quite a Wolverine II WVR-7H, the WVR-6RF refit is much closer to the SLDF Royal mech than its progenitor.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

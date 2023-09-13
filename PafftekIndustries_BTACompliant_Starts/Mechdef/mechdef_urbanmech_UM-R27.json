@@ -234,11 +234,86 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_armorslots_stealth",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
+		},		
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Linked_stealth",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},		
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Linked_stealth",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},		
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Linked_stealth",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},		
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Linked_stealth",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},		
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "Linked_stealth",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},		
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "Linked_stealth",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "CenterTorso",
@@ -494,7 +569,7 @@
 			"hasPrefabName": false
 		},
         {
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

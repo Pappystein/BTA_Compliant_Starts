@@ -198,7 +198,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 0.59,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 33,
@@ -415,7 +415,8 @@
   "VariantName": "EXT-4E1A",
   "ChassisTags": {
     "items": [
-		"HeavyMech"
+		"HeavyMech",
+		"ComGuard"
     ],
     "tagSetSourceFile": ""
   },

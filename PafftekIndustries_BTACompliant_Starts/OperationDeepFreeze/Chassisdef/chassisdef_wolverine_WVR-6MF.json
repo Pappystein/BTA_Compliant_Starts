@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Hand"
-		}
-	},
 	"Description": {
 		"Cost": 4504750,
 		"Rarity": 2,
@@ -12,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Wolverine",
-		"Id": "chassisdef_wolverine_WVR-6M",
+		"Id": "chassisdef_wolverine_WVR-6MF",
 		"Name": "Wolverine",
-		"Details": "Th 6M boasts an increase in firepower and endurance as a raider by dropping the AC5 and replacing it with a Large Laser.  This also allowed for the addition of another Medium Laser and extra Heat Sinks.",
+		"Details": "The Wolverine WVR-6M is a somewhat common raider version of the Wolverine.   In the improved WVR-6MF subvariant, the addition of Freezer Heat sinks, Prototype case and Proto Ferro Fibrous, in conjunction with Listen Kill SRM ammo means the mech is cooler running, more accurate and able to absorb more damage in battle.",
 		"Icon": "uixTxrIcon_wolverine"
 	},
 	"MovementCapDefID": "movedef_wolverine_WVR-6R",
@@ -114,7 +108,12 @@
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 130,
@@ -210,13 +209,15 @@
 			"z": 0
 		}
 	],
-	"VariantName": "WVR-6M",
+	"VariantName": "WVR-6MF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Striker & Cavalry",
-	"YangsThoughts": "While the addition of the Lasers removes its reliance on ammunition, the WVR-6M tends to run a bit hot, especially if you are using the Jump Jets.",
+	"YangsThoughts": "Utilizing the Freezer sinks on this mech fixes the base model's most glaring issue... heat.   Increasing the armor protection at the same time is a happy bonus.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

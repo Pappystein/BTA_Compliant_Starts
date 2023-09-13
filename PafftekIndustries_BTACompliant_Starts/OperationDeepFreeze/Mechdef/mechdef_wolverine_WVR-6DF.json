@@ -10,20 +10,15 @@
 			"unit_release",
 			"unit_rarity_2",
 			"Davion",
+			"2ndCrucisLancers",
+			"11thAvalonHussars",
 			"FederatedFreemen",
-			"Marian",
-			"Illyrian",
-			"Lothian",
-			"Hanse",
-			"Outworld",
-			"Circinus",
-			"Rasalhague",
-			"Ives",
+			"1stKitteryBorderers",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_wolverine_WVR-6D",
+	"ChassisID": "chassisdef_wolverine_WVR-6DF",
 	"HeraldryID": null,
 	"Description": {
 		"Cost": 5970000,
@@ -31,8 +26,8 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Wolverine WVR-6D",
-		"Id": "mechdef_wolverine_WVR-6D",
+		"UIName": "Wolverine WVR-6DF",
+		"Id": "mechdef_wolverine_WVR-6DF",
 		"Name": "Wolverine",
 		"Details": "The 6D is a Davion variant of the classic Wolverine that sprung up during the Succession Wars.  Upgrading the Autocannon 5 to an Autocannon 10, the WVR-6D can pack a greater punch at a distance.  To make room for the added bulk of the AC10, the SRM launcher needed to be removed, and overall armor protection was reduced.",
 		"Icon": "uixTxrIcon_wolverine"
@@ -43,10 +38,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
-			"CurrentArmor": 40,
+			"CurrentArmor": 43,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 16,
-			"AssignedArmor": 40,
+			"AssignedArmor": 43,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -116,7 +111,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefID": "emod_armorslots_prototype_ferrosfibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -388,17 +383,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
@@ -414,6 +398,28 @@
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_AP_AC10",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_caseP",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -444,7 +450,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,

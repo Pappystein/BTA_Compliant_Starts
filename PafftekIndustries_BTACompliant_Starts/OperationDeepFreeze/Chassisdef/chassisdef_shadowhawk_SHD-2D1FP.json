@@ -17,9 +17,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Shadow Hawk",
-		"Id": "chassisdef_shadowhawk_SHD-2D",
+		"Id": "chassisdef_shadowhawk_SHD-2D1FP",
 		"Name": "Shadow Hawk",
-		"Details": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the trade-off isn't worth it. Its Alpha Strikes <i>are</i> better, though, so... I guess you can be the judge.",
+		"Details": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so... I guess you can be the judge.  The updated SHD-2D1F and -2D1FP mechs improve the protection whilst keeping the superior firepower of the SHD-2D.  They do so by first switching to the newer freezer double heat sinks, and then by adding Prototype FerroFiberous as well as Prototype CASE.  This does cost in terms of free critical space as well as ammunition however.",
 		"Icon": "uixTxrIcon_shadowhawk"
 	},
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -47,7 +47,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.94,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -217,13 +217,13 @@
 			"z": 2.5
 		}
 	],
-	"VariantName": "SHD-2D",
+	"VariantName": "SHD-2D1FP",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Striker Cavalry",
-	"YangsThoughts": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the trade-off isn't worth it. Its Alpha Strikes <i>are</i> better, though, so... I guess you can be the judge.",
+	"YangsThoughts": "Prototype tech in the form of Double Heat sink Freezers, Proto-CASE, and Proto-FerroFibrous armor boss.  Should be more intersting then it's more basic cousin.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

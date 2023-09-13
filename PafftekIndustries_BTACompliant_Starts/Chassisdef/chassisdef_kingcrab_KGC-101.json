@@ -76,7 +76,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 1,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 105,
@@ -272,7 +272,8 @@
 	"VariantName": "KGC-101",
 	"ChassisTags": {
 		"items": [
-			"AssaultMech"
+			"AssaultMech",
+			"ComGuard"
 			],
 		"tagSetSourceFile": ""
 	},

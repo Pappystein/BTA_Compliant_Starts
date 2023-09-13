@@ -17,9 +17,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Shadow Hawk",
-		"Id": "chassisdef_shadowhawk_SHD-2G",
+		"Id": "chassisdef_shadowhawk_SHD-2GF",
 		"Name": "Shadow Hawk",
-		"Details": "The Shadow Hawk 2G is the perfect example of a 'jack-of-all-trades.' It was first seen in the deep Periphery circa 3050.",
+		"Details": "An up-technology variant of the Shadowhawk SHD-2H, the SHD-2G introduced the Thunderbolt 10 missile in lieu of the AC/5.  With the Shadowhawk SHD-2HF upgrade, a similar approach was taken again to create the SHD-2GF.  The Shadowhawk -2GF still utilizes the TBM-10 launcher and two tons of ammunition but now it is protected behing Prototype case and prototype Ferro-Fibrous armor.  In conjunction with this, the switch of the external Heatsinks to Freezer double heatsinks results in a more efficent mech.",
 		"Icon": "uixTxrIcon_shadowhawk"
 	},
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -47,7 +47,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.94,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -216,7 +216,7 @@
 			"z": 2.5
 		}
 	],
-	"VariantName": "SHD-2G",
+	"VariantName": "SHD-2GF",
 	"ChassisTags": {
 		"items": [
 		"PirateMech"
@@ -224,7 +224,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",
-	"YangsThoughts": "Taking the Shadowhawk's Autocannon and replacing it with a Thunderbolt launcher is an inspired choice in the periphery.",
+	"YangsThoughts": "Taking the Shadowhawk's Autocannon and replacing it with a Thunderbolt launcher is an inspired choice in the periphery.  Then adding Freezers as well as Prototype CASE makes this mech more remarkable.",
 	"FixedEquipment": [
 		{
             "MountedLocation" : "CenterTorso",

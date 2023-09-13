@@ -1,0 +1,28 @@
+{
+   "Description": {
+      "Id": "Ammunition_TBOLT20_HEI",
+      "Name": "Thunderbolt 20 Ammo",
+      "UIName": "HE-I",
+      "Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "TBOLT20",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1.5,
+	"CriticalDamageModifier": 1,
+	"HeatDamage": 5,
+	"AOECapable": true,
+	"AOERange": 45,
+	"AOEDamage": 10,
+	"AOEHeatDamage": 3,
+	"AOEInstability": 0.5,
+	"DamagePerShot": -10.0,
+	"FireTerrainChance": 0.15,
+	"AoEDmgFalloffType": "Log10"
+}

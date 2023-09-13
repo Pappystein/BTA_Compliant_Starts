@@ -1,11 +1,7 @@
 itemCollection_HM_careerStarter_pack_Mechs,,,
-mechdef_assassin_ASN-30,Mech,1,4
-mechdef_vulcan_VT-5M,Mech,1,4
 mechdef_clint_CLNT-5U,Mech,1,4
 mechdef_cicada_CDA-3G,Mech,1,4
-mechdef_icarusii_ICR-2T,Mech,1,4
-mechdef_strider_SR3-O,Mech,1,4
-mechdef_chimera_CMA-1S,Mech,1,4
+mechdef_strider_SR3-O,Mech,1,5
 mechdef_swordsman_SWD-86,Mech,1,4
 mechdef_hermesii_HER-5S,Mech,1,4
 mechdef_sentinel_STN-3Lb,Mech,1,3
@@ -17,7 +13,7 @@ mechdef_assassin_ASN-55,Mech,1,4
 mechdef_assassin_ASN-45,Mech,1,5
 mechdef_wyvern_WVE-5Nb,Mech,1,4
 mechdef_wyvern_WVE-10N,Mech,1,4
-mechdef_stag_STG-14G,Mech,1,5
-mechdef_stag_STG-14GJ,Mech,1,3
-mechdef_stagII_STG-24G,Mech,1,6
-mechdef_stagII_STG-24GJ,Mech,1,3
+mechdef_stagII_STG-24GJ,Mech,1,5
+mechdef_stagII_STG-14GJ,Mech,1,3
+mechdef_stagII_STG-25S,Mech,1,7
+mechdef_munin_MUN-1B,Mech,1,5

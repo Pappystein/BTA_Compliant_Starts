@@ -36,7 +36,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0,
+	"Signature": 0.46,
 	"Radius": 4,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 40,
@@ -205,7 +205,8 @@
 	"VariantName": "SDR-9EW",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+			"ComGuard"
 			],
 		"tagSetSourceFile": ""
 	},

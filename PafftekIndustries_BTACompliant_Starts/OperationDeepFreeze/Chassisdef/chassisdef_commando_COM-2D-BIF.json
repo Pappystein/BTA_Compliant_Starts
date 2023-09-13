@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Commando",
-		"Id": "chassisdef_commando_COM-2D-BI",
+		"Id": "chassisdef_commando_COM-2D-BIF",
 		"Name": "Commando",
-		"Details": "Dubbed the 'Blazing Inferno', this variant of the 2D chassis removes all the missiles and instead adds three more Medium Lasers and six Small Lasers, along with an extra ton of armor.",
+		"Details": "The Blazing Inferno variant of the Commando is one of the most dangerous mechs for a new mechwarrior to pilot.  The constant danger of overheating is reduced to almost nil by utilizing the new Freezer Double Heatsinks.  With this relitively simple update the Commando COM-2BI becomes a viable mech for even the most novice pilot.",
 		"Icon": "uixTxrIcon_commando"
 	},
 	"MovementCapDefID": "movedef_commando_COM-2D",
@@ -221,13 +221,13 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "COM-2D-BI",
+	"VariantName": "COM-2D-BIF",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Striker & Scout",
-	"YangsThoughts": "When they say Inferno, no one realized they were referring to the temperature inside the cockpit.  I suggest removing some of the lasers and adding a heat sink or two.",
+	"YangsThoughts": "Taming the dangerous COM-2BI is acomplished with this pretty simple upgrade.  The BIF refit is not as dumb as the designation sounds.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

@@ -389,7 +389,8 @@
     "items": [
 		"PrototypeMech",
 		"LightMech",
-		"ArmLimitLowerRight"
+		"ArmLimitLowerRight",
+		"ComGuard"
     ],
     "tagSetSourceFile": ""
   },

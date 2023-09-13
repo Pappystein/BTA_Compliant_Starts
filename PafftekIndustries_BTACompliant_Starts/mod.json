@@ -37,7 +37,9 @@
 			{ "Type": "Texture2D", "Path": "Graphix" },
 			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true},
 			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
-			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" }
+			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" },
+			{ "Type": "MechDef", "Path": "OperationDeepFreeze/Mechdef/" },
+			{ "Type": "ChassisDef", "Path": "OperationDeepFreeze/Chassisdef/" }
   ],
     "OptionallyDependsOn": [		
     ],

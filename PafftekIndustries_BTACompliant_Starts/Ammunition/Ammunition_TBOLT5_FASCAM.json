@@ -17,9 +17,9 @@
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
 	"HasShells": true,
-	"ShellsRadius": 80,
-	"MinShellsDistance": 250,
-	"MaxShellsDistance": 360,
+	"ShellsRadius": 30,
+	"MinShellsDistance": 30,
+	"MaxShellsDistance": 120,
 	"UnseparatedDamageMult": 0.6,
 	"ProjectilesPerShot": 5,
 	"MineField": {

@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_DragoonsPFT",
+			"Name": "Dragoons",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Keid"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Dragoon,itemCollection_Mechs_PFT_Medium_Dragoon,itemCollection_Mechs_PFT_Light_Dragoon,itemCollection_Mechs_PFT_Light_Dragoon,itemCollection_Mechs_PFT_Light_Dragoon_Bug,itemCollection_Mechs_PFT_Light_Dragoon_Bug,itemCollection_Mechs_PFT_Tonks_Dragoon,itemCollection_Mechs_PFT_Tonks_Dragoon"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Wolfs_Dragoons:100"
+				}
+			]
+		}
+	}]
+}

@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Hand"
-		}
-	},
 	"Description": {
 		"Cost": 5200000,
 		"Rarity": 2,
@@ -12,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Wolverine",
-		"Id": "chassisdef_wolverine_WVR-6K",
+		"Id": "chassisdef_wolverine_WVR-6KF",
 		"Name": "Wolverine",
-		"Details": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
+		"Details": "Wolverine 6K model trades its jump jets in for more energy weaponry heat sinks and armor.  The enhanced 6KF, features a half ton less SRM ammo, prototype CASE, Ferro Fibrous as well as prototype Double Cooling Freezers.  The total armor mass is increased by 1/2 ton, and with the Prototype FF armor, its protection is increased even further.",
 		"Icon": "uixTxrIcon_wolverine"
 	},
 	"MovementCapDefID": "movedef_wolverine_WVR-6R",
@@ -86,7 +80,11 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
-				}
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}				
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
@@ -205,13 +203,15 @@
 			"z": 0
 		}
 	],
-	"VariantName": "WVR-6K",
+	"VariantName": "WVR-6KF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher",
-	"YangsThoughts": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
+	"YangsThoughts": "Taking the 6K to its logical conclusion without signficantly increasing the cost, the -6KF is a cost effective mech.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
