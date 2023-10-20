@@ -62,7 +62,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 1.71,
+  "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 75,

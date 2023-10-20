@@ -1,37 +1,30 @@
 {
-	"Custom": {
-		"AssemblyVariant": {
-			"PrefabID": "Corsair",
-			"Exclude": false,
-			"Include": true
-		}
-	},
 	"Description": {
-		"Cost": 12490000,
-		"Rarity": 4,
+		"Cost": 7765630,
+		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Corsair",
-		"Id": "chassisdef_corsair_COR-4D",
-		"Name": "Corsair",
-		"Details": "Yet another incarnation of the 75 ton Corsair chassis, the COR-4D Utilizes as much low cost tech as possible and yet maintains a 4/6 movement profile and good armor.   It does so by utilizing Prototype Endosteel as well as the Fission 300 engine core.",
-		"Icon": "uixTxrIcon_corsair"
+		"UIName": "Marauder",
+		"Id": "chassisdef_marauder_MAD-5DJ",
+		"Name": "Marauder",
+		"Details": "An Experimential update to the Marauder MAD-5D, the -5DJ swaps in the Hyper Laser.   Hyper Lasers, develped by the RISC management sectrion of Pafftek Industries is an enlarged Clan tech Heavy Large Laser.   The -5DJ carries 2 of these with barely enough heat sinking.   The Hyper Laser has some unique features to improve aiming... But this comes at the cost of being highly explosive.  This mech is seen in a few units of both the Armed forces of the Federated Suns as well as The 1st Sword of Light.",
+		"Icon": "uixTxrIcon_marauder"
 	},
-	"MovementCapDefID": "movedef_corsair_COR-5R",
+	"MovementCapDefID": "movedef_marauder_MAD-3R",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_rtcorsair4",
-	"PrefabIdentifier": "chrprfmech_rtcorsair4base-001",
-	"PrefabBase": "rtcorsair4",
+	"HardpointDataDefID": "hardpointdatadef_marauder",
+	"PrefabIdentifier": "chrPrfMech_marauderBase-001",
+	"PrefabBase": "marauder",
 	"Tonnage": 75,
 	"InitialTonnage": 7.5,
 	"weightClass": "HEAVY",
-	"BattleValue": 9360000,
+	"BattleValue": 7124000,
 	"Heatsinks": 0,
-	"TopSpeed": 120,
+	"TopSpeed": 64,
 	"TurnRadius": 90,
 	"MaxJumpjets": 30,
-	"Stability": 200,
+	"Stability": 160,
 	"StabilityDefenses": [
 		0,
 		0,
@@ -43,7 +36,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 1.35,
+	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 80,
@@ -53,12 +46,10 @@
 	"DFAToHitModifier": 0,
 	"DFASelfDamage": 80,
 	"DFAInstability": 40,
-	"Locations": [{
+	"Locations": [
+		{
 			"Location": "Head",
-			"Hardpoints": [{
-				"WeaponMountID": "AntiPersonnel",
-				"Omni": false
-			}],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -67,20 +58,17 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [{
+			"Hardpoints": [
+				{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -93,10 +81,14 @@
 		{
 			"Location": "LeftTorso",
 			"Hardpoints": [
-			{
-				"WeaponMountID": "Missile",
-				"Omni": false
-			}
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
@@ -106,10 +98,7 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [{
-				"WeaponMountID": "AntiPersonnel",
-				"Omni": false
-			}],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 16,
 			"MaxArmor": 230,
@@ -119,10 +108,14 @@
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
-			{
-				"WeaponMountID": "Missile",
-				"Omni": false
-			}			
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
@@ -132,20 +125,17 @@
 		},
 		{
 			"Location": "RightArm",
-			"Hardpoints": [{
+			"Hardpoints": [
+				{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -174,62 +164,65 @@
 			"InternalStructure": 80
 		}
 	],
-	"LOSSourcePositions": [{
+	"LOSSourcePositions": [
+		{
 			"x": 0,
-			"y": 17,
-			"z": 0
-		},
-		{
-			"x": 5,
-			"y": 16,
-			"z": -1
-		},
-		{
-			"x": -5,
-			"y": 16,
-			"z": -1
-		}
-	],
-	"LOSTargetPositions": [{
-			"x": 0,
-			"y": 17,
-			"z": 0
-		},
-		{
-			"x": 5,
-			"y": 16,
-			"z": -1
-		},
-		{
-			"x": -5,
-			"y": 16,
-			"z": -1
-		},
-		{
-			"x": 3.5,
-			"y": 5.5,
+			"y": 13.5,
 			"z": 1
 		},
 		{
-			"x": -3.5,
-			"y": 5.5,
-			"z": 1
+			"x": 3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": -1
 		}
 	],
-	"VariantName": "COR-4D",
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": 2.5,
+			"y": 7,
+			"z": -2.5
+		},
+		{
+			"x": -2.5,
+			"y": 7,
+			"z": -2.5
+		}
+	],
+	"VariantName": "MAD-5DJ",
 	"ChassisTags": {
 		"items": [
-			"HeavyMech",
 			"ArmLimitLowerRight",
-			"ArmLimitLowerLeft"
+			"ArmLimitLowerLeft",
+			"HeavyMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Scrapped-Together Frankenmech",
-	"YangsThoughts": "Periphery tech at its best boss.  The COR-4D has a Fission core.  Lets hope it doesn't go nuclear!",
-	"FixedEquipment": [{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_Rugged_Corsair",
+	"StockRole": "Sniper & Ranged Assault",
+	"YangsThoughts": "With the HyperLaser, UltraFerro armor and a unique set of other tech items, the MAD-5DJ is an limited run upgrade to the MAD-5D.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Marauder",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -240,12 +233,14 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteelprototype",
+			"ComponentDefID": "Gear_structureslots_Composite",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
 		}
 	],
 	"CustomParts": {

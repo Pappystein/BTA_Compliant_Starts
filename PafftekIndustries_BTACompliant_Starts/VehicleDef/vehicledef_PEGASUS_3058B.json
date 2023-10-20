@@ -67,7 +67,7 @@
 	],
 	"inventory": [
 		{
-			"ComponentDefID": "Weapon_Laser_AMS",
+			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,

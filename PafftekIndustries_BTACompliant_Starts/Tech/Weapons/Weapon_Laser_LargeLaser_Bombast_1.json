@@ -120,8 +120,7 @@
 			"range_long",
 			"LaserInsulatorAttachable.{location}",
 			"LaserInsulatorSupported-Bombast",
-			"LaserFCSSupported-Bombast",
-			"WebbTCSupported-Bombast"
+			"LaserFCSSupported-Bombast"
 		],
 		"tagSetSourceFile": ""
 	}

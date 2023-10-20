@@ -17,7 +17,7 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Shadow Hawk",
-		"Id": "chassisdef_shadowhawk_SHD-2K",
+		"Id": "chassisdef_shadowhawk_SHD-2KF",
 		"Name": "Shadow Hawk",
 		"Details": "Improving on the Shadowhawk SHD-2K is pretty trivial with the resurgence in technology.  Take Prototype CASE, Ferro-Fibrous armor and the new Freezer Heat sinks and the good SHD-2K becomes the Great SHD-2KF.  One of those new PPC FCS attachments on the PPC dramatically improves the killing power of this mech.",
 		"Icon": "uixTxrIcon_shadowhawk"
@@ -47,7 +47,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0.94,
+	"Signature": 0,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -217,7 +217,9 @@
 	],
 	"VariantName": "SHD-2KF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",

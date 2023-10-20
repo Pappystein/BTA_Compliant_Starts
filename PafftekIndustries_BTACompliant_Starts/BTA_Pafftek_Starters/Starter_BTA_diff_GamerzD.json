@@ -4,25 +4,25 @@
 		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
 		"Action": "ArrayAdd",
 		"Value": {
-			"ID": "diff_DragoonsPFT",
-			"Name": "Dragoons",
+			"ID": "diff_GamerzD",
+			"Name": "Gamers Start",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.6,
+			"CareerScoreModifier": 0.4,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "Keid"
+					"ConstantValue": "Galatea"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Dragoon,itemCollection_Mechs_PFT_Medium_Dragoon,itemCollection_Mechs_PFT_Light_Dragoon,itemCollection_Mechs_PFT_Light_Dragoon,itemCollection_Mechs_PFT_Light_Dragoon_Bug,itemCollection_Mechs_PFT_Light_Dragoon_Bug,itemCollection_Mechs_PFT_Tonks_Dragoon,itemCollection_Mechs_PFT_Tonks_Dragoon"
+					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_Generic_Omni_Light,itemCollection_Mechs_Generic_Bug,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Wolfs_Dragoons:100"
+					"ConstantValue": "Steiner:35,MercenaryReviewBoard:35"
 				}
 			]
 		}

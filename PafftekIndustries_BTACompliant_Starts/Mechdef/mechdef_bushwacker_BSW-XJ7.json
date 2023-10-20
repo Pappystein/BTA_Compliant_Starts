@@ -57,7 +57,8 @@
 		"ai_priority_low",
 		"ai_reserve_normal",
 		"ai_shooting_low",
-		"ai_surrounded_high"
+		"ai_surrounded_high",
+			"PafftekIndustries"
     ],
     "tagSetSourceFile": ""
   },
@@ -324,8 +325,7 @@
       "ComponentDefID": "Gear_Attachment_LaserFCS",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "TargetComponentGUID": "target_Bombast_1"
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
@@ -335,27 +335,19 @@
       "DamageLevel": "Functional"
     },
     {
-		"MountedLocation": "LeftTorso",
-		"ComponentDefID": "Weapon_Laser_TAG",
-		"SimGameUID": null,
-		"ComponentDefType": "Weapon",
-		"HardpointSlot": 1,
-		"GUID": null,
-		"DamageLevel": "Functional",
-		"prefabName": null,
-		"hasPrefabName": false
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
     },
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_AMS",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_AMS_CLAN",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Sanctuary_AP",
@@ -375,8 +367,7 @@
       "ComponentDefID": "Weapon_Laser_LargeLaser_Bombast_1",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-	  "LocalGUID": "target_Bombast_1"
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",

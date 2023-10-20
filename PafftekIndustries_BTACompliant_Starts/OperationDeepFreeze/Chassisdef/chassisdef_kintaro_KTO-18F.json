@@ -42,7 +42,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0.77,
+	"Signature": 0,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -213,7 +213,9 @@
 	],
 	"VariantName": "KTO-18F",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Juggernaut & Close Assault",

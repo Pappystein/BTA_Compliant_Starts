@@ -13,9 +13,6 @@
 			"2ndArmyVMu",
 			"Rasalhague",
 			"1stTyr",
-			"2ndFreemen",
-			"DarkCaste",
-			"331stDivision",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -32,7 +29,7 @@
 		"Id": "mechdef_munin_MUN-1C",
 		"Name": "Munin LAM",
 		"Details": "The Munin LAM, a prototype design that lead to the very sucessful PhoenixHawk LAM, languished until the revival of technology thanks to the Grey Death Legion's dissiminaton of the Helm Memory core.   While the Stinger, Wasp and Phoenix Hawk LAM designs would languish.  New LAMs were commissioned.   Suprisingly the Munin is one of the LAM designs that re-entered production.  The Munin MUN-1C, was developed based on early feedback from the new Munin's test pilot *Sloth*.  The MUN-1C supports 6 bomb bays for maximum destruction.",
-		"Icon": "uixTxrIcon_phawklam"
+		"Icon": "uixTxrIcon_muninlam"
 	},
 	"simGameMechPartCost": 520000,
 	"Version": 1,

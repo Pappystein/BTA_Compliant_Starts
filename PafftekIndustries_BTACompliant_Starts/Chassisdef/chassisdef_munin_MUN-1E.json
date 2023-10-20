@@ -1,11 +1,18 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "MuninLAM",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{
-				"PrefabIdentifier": "chrprfmech_phawklambase-001",
+				"PrefabIdentifier": "chrprfmech_yf24gerwalkbase-001",
 				"AdditionalPrefabs": [],
-				"PrefabBase": "phawklam",
-				"HardpointDataDef": "hardpointdatadef_phawklam",
+				"PrefabBase": "yf24gerwalk",
+				"HardpointDataDef": "hardpointdatadef_yf24gerwalk",
 				"Type": "AirMech",
 				"HoveringSoundStart": "jet_start",
 				"HoveringSoundEnd": "jet_end",
@@ -39,7 +46,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Avionics_PHK",
+			"ComponentDefID": "Gear_Avionics_MUN",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -199,80 +206,16 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_ChameleonLightPolarizationShield",
+			"ComponentDefID": "Gear_Landing_Gear",
+			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_Chameleon_Linked",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "Gear_Chameleon_Linked",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Chameleon_Linked",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_Chameleon_Linked",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightLeg",
-			"ComponentDefID": "Gear_Chameleon_Linked",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Chameleon_Linked",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
+        },
+	{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_NullSignatureSystem",
 			"ComponentDefType": "Upgrade",
@@ -347,17 +290,81 @@
 			"prefabName": null,
 			"hasPrefabName": false
 		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_Guardian_ECM_SLDF",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}	
+	{
+		"MountedLocation": "CenterTorso",
+		"ComponentDefID": "Gear_ChameleonLightPolarizationShield",
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": -1,
+		"DamageLevel": "Functional",
+		"prefabName": "",
+		"hasPrefabName": true
+	},
+	{
+		"MountedLocation": "LeftTorso",
+		"ComponentDefID": "Gear_Chameleon_Linked",
+		"SimGameUID": null,
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	},
+	{
+		"MountedLocation": "LeftLeg",
+		"ComponentDefID": "Gear_Chameleon_Linked",
+		"SimGameUID": null,
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	},
+	{
+		"MountedLocation": "LeftArm",
+		"ComponentDefID": "Gear_Chameleon_Linked",
+		"SimGameUID": null,
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	},
+	{
+		"MountedLocation": "RightTorso",
+		"ComponentDefID": "Gear_Chameleon_Linked",
+		"SimGameUID": null,
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	},
+	{
+		"MountedLocation": "RightLeg",
+		"ComponentDefID": "Gear_Chameleon_Linked",
+		"SimGameUID": null,
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	},
+	{
+		"MountedLocation": "RightArm",
+		"ComponentDefID": "Gear_Chameleon_Linked",
+		"SimGameUID": null,
+		"ComponentDefType": "Upgrade",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	}		
 	],
 	"Description": {
 		"Cost": 4200000,
@@ -369,13 +376,13 @@
 		"Id": "chassisdef_munin_MUN-1E",
 		"Name": "Munin LAM",
 		"Details": "The Munin LAM, a prototype design that lead to the very sucessful PhoenixHawk LAM, languished until the revival of technology thanks to the Grey Death Legion's dissiminaton of the Helm Memory core.   While the Stinger, Wasp and Phoenix Hawk LAM designs would languish.  New LAMs were commissioned.   Suprisingly the Munin is one of the LAM designs that re-entered production.  The Munin MUN-1E was developed for the Electronic Warfare Battlefield.  As such it caries an Angel ECM, C3i, and a Bloodhound Active probe.",
-		"Icon": "uixTxrIcon_phawklam"
+		"Icon": "uixTxrIcon_muninlam"
 	},
-	"MovementCapDefID": "movedef_phoenixhawklam",
+	"MovementCapDefID": "movedef_vindicator_VND-1R",
 	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_phawklammech",
-	"PrefabIdentifier": "chrprfmech_phawklammechbase-001",
-	"PrefabBase": "phawklammech",
+	"HardpointDataDefID": "hardpointdatadef_yf24mech",
+	"PrefabIdentifier": "chrprfmech_yf24mechbase-001",
+	"PrefabBase": "yf24mech",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
@@ -456,7 +463,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 140,
 			"MaxRearArmor": 70,
 			"InternalStructure": 70

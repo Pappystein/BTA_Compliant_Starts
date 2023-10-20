@@ -1,11 +1,18 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "MuninLAM",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{
-				"PrefabIdentifier": "chrprfmech_phawklambase-001",
+				"PrefabIdentifier": "chrprfmech_yf24gerwalkbase-001",
 				"AdditionalPrefabs": [],
-				"PrefabBase": "phawklam",
-				"HardpointDataDef": "hardpointdatadef_phawklam",
+				"PrefabBase": "yf24gerwalk",
+				"HardpointDataDef": "hardpointdatadef_yf24gerwalk",
 				"Type": "AirMech",
 				"HoveringSoundStart": "jet_start",
 				"HoveringSoundEnd": "jet_end",
@@ -39,7 +46,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Avionics_PHK",
+			"ComponentDefID": "Gear_Avionics_MUN",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -81,7 +88,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -196,6 +203,17 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Landing_Gear",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	],
 	"Description": {
@@ -208,17 +226,17 @@
 		"Id": "chassisdef_munin_MUN-1C",
 		"Name": "Munin LAM",
 		"Details": "The Munin LAM, a prototype design that lead to the very sucessful PhoenixHawk LAM, languished until the revival of technology thanks to the Grey Death Legion's dissiminaton of the Helm Memory core.   While the Stinger, Wasp and Phoenix Hawk LAM designs would languish.  New LAMs were commissioned.   Suprisingly the Munin is one of the LAM designs that re-entered production.  The Munin MUN-1C, was developed based on early feedback from the new Munin's test pilot *Sloth*.  The MUN-1C supports 6 bomb bays for maximum destruction.",
-		"Icon": "uixTxrIcon_phawklam"
+		"Icon": "uixTxrIcon_muninlam"
 	},
-	"MovementCapDefID": "movedef_phoenixhawklam",
+	"MovementCapDefID": "movedef_vindicator_VND-1R",
 	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_phawklammech",
-	"PrefabIdentifier": "chrprfmech_phawklammechbase-001",
-	"PrefabBase": "phawklammech",
+	"HardpointDataDefID": "hardpointdatadef_yf24mech",
+	"PrefabIdentifier": "chrprfmech_yf24mechbase-001",
+	"PrefabBase": "yf24mech",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
-	"BattleValue": 4596000,
+	"BattleValue": 4252000,
 	"Heatsinks": 0,
 	"TopSpeed": 120,
 	"TurnRadius": 90,

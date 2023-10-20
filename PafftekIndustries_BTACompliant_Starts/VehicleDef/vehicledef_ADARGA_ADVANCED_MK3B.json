@@ -83,14 +83,14 @@
 		},	
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_Laser_AMS",
+			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 3,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_Laser_AMS",
+			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 4,
 			"DamageLevel": "Functional"

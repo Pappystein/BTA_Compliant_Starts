@@ -1,10 +1,4 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Upper",
-			"RightLimit": "Upper"
-		}
-	},
 	"Description": {
 		"Cost": 3621070,
 		"Rarity": 4,
@@ -12,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Blackjack",
-		"Id": "chassisdef_blackjack_BJ-1DB",
+		"Id": "chassisdef_blackjack_BJ-1DBF",
 		"Name": "Blackjack",
-		"Details": "With the advent of new Prototype technologies in the 3040s, Davion engineers took the hot and heavy Blackjack BJ-1DB and utilized several new technologies to their fullest.  The result the BJ-1DBF uses the following Prototype technologies:  Proto-Ferro Fibrous armor, Prot-CASE, Freezer Prototype Double Sinks, and a Proto-Extra-Light Engine shielding.  These technologies allowed the engineers to increase the armor protection of the mech and make certain it would run cool even in extreme heat.",
+		"Details": "Taking the Davion BJ-1DB mech and making it better is the reason for the -1DBF project.   Taking the heat heavy -1DB and making it better centers around the Davion's Freezer Double Heat Sinks.",
 		"Icon": "uixTxrIcon_blackjack"
 	},
 	"MovementCapDefID": "movedef_blackjack_BJ-1",
@@ -212,7 +206,11 @@
 	],
 	"VariantName": "BJ-1DBF",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",		
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Fire Support & Skirmisher",

@@ -88,10 +88,10 @@
             "isBaseMode": true,
             "IsAMS": true,
 			"AMSDamage": 3,
-            "ShotsWhenFired": 20,
-            "AMSHitChance": 0.40,
-            "HeatGenerated": 5,
-            "AMSShootsEveryAttack": true
+            "ShotsWhenFired": 30,
+            "AMSHitChance": 0.35,
+            "HeatGenerated": 8,
+            "AMSShootsEveryAttack": false
         },
         {
             "Id": "Overload",
@@ -99,9 +99,9 @@
             "isBaseMode": false,
             "IsAMS": true,
 			"AMSDamage": 5,
-            "ShotsWhenFired": 40,
+            "ShotsWhenFired": 50,
             "AMSHitChance": 0.35,
-            "FlatJammingChance": 0.4,
+            "FlatJammingChance": 0.3,
             "HeatGenerated": 6,
             "AMSShootsEveryAttack": true
         },

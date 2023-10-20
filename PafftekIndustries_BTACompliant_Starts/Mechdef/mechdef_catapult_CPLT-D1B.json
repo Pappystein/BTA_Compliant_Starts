@@ -88,7 +88,7 @@
 		"UIName": "Catapult CPLT-D1B",
 		"Id": "mechdef_catapult_CPLT-D1B",
 		"Name": "Catapult",
-		"Details": "While Relitivaly new, the CPLT-D1 dramatically altered the role of the Catapult forever.  Now a close, nimble Cavalry mech designed to backstab the enemy, the D1 has revolutionized the concept of the Catapult.  The Further Upgraded D1B was evolved as a dedicated swarming Battlearmor Carrier.",
+		"Details": "While relatively new, the CPLT-D1 dramatically altered the role of the Catapult forever.  Now a close, nimble Cavalry mech designed to backstab the enemy, the D1 has revolutionized the concept of the Catapult.  The Further Upgraded D1B was evolved as a dedicated swarming Battlearmor Carrier.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"simGameMechPartCost": 740000,

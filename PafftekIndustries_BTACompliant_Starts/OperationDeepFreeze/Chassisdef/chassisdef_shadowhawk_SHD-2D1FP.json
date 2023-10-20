@@ -47,7 +47,7 @@
 	"SpotterDistanceMultiplier": 1,
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
-	"Signature": 0.94,
+	"Signature": 0,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 65,
@@ -219,7 +219,9 @@
 	],
 	"VariantName": "SHD-2D1FP",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"MediumMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Striker Cavalry",

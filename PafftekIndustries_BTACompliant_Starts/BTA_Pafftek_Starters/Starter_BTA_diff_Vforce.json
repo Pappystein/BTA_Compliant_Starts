@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_VMediumMech,itemCollection_Pafftek_VMediumMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VTonk,itemCollection_Pafftek_VTonk"},
+					"ConstantValue": "itemCollection_Pafftek_ValkII,itemCollection_Pafftek_VMediumMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VLightMech,itemCollection_Pafftek_VTonk,itemCollection_Pafftek_VTonk"},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
