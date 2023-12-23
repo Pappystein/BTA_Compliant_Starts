@@ -8,7 +8,7 @@
 		"UIName": "Jenner",
 		"Id": "chassisdef_jenner_JR7-Qi",
 		"Name": "Jenner",
-		"Details": "A modern Jenner, the JR7-Qi is an alternative take on the JR7-D but with Endosteel, Reflective Anti-Laser armor and using 6 ER Small Lasers and 2 Small Piercing Pulse lasers.",
+		"Details": "A modern Jenner, the JR7-Qi is an alternative take on the JR7-D but with Endosteel, Reflective Anti-Laser armor and using 6 ER Small Lasers and 2 Small Piercing Pulse lasers.  A C3 Slave rounds out the equipment on this mech making it a prefect high tech scouting skirmisher.",
 		"Icon": "uixTxrIcon_jenner"
 	},
 	"MovementCapDefID": "movedef_jenner_JR7-D",

@@ -1,5 +1,9 @@
 itemCollection_Pafftek_Stag,,,
-mechdef_stag_STG-14G,Mech,1,9
-mechdef_stagII_STG-24G,Mech,1,9
-mechdef_stagII_STG-24GJ,Mech,1,1
-mechdef_stag_STG-14GJ,Mech,1,1
+mechdef_stagII_ST-24GJ,Mech,1,1
+mechdef_stag_ST-14GJ,Mech,1,1
+mechdef_stag_ST-25GS,Mech,1,3
+mechdef_stag_STG-14G,Mech,1,3
+mechdef_stag_STG-15G,Mech,1,3
+mechdef_stagii_STG-24G,Mech,1,2
+mechdef_stagii_STG-25G,Mech,1,2
+mechdef_stagii_STG-30G,Mech,1,2

@@ -17,7 +17,7 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_stag_STG-14GJ",
+	"ChassisID": "chassisdef_stag_ST-14GJ",
 	"HeraldryID": null,
 	"Description": {
 		"Cost": 4910000,
@@ -25,8 +25,8 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Stag STG-14GJ",
-		"Id": "mechdef_stag_STG-14GJ",
+		"UIName": "Stag ST-14GJ",
+		"Id": "mechdef_stag_ST-14GJ",
 		"Name": "Stag",
 		"Details": "Developed in the resource strapped times, the Stag is an evolution of the Vulcan that is intended to be a mid weight skirmisher mech designed for hit and fade type operations against a superior or dug in force.   This is the fully up to date version.",
 		"Icon": "uixTxrIcon_vulcan"

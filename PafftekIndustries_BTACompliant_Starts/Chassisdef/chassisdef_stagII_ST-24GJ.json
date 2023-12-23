@@ -6,15 +6,15 @@
 		}
 	},
 	"Description": {
-		"Cost": 4492428,
-		"Rarity": 4,
+		"Cost": 4866797,
+		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Stag",
-		"Id": "chassisdef_stag_STG-14GJ",
-		"Name": "Stag",
-		"Details": "Developed in the resource strapped times, the Stag is an evolution of the Vulcan that is intended to be a mid weight skirmisher mech designed for hit and fade type operations against a superior or dug in force.   This is the fully up to date version.",
+		"UIName": "Stag II",
+		"Id": "chassisdef_stagII_ST-24GJ",
+		"Name": "Stag II",
+		"Details": "Taking the Stag concept further, the Stag II introduced some of the first new technology post SLDF exodous.   This is an Updated variant of that mech.",
 		"Icon": "uixTxrIcon_stag"
 	},
 	"MovementCapDefID": "movedef_vindicator_VND-1R",
@@ -59,8 +59,8 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
-				}
-				],
+				},			
+			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -99,10 +99,6 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -121,7 +117,7 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
-				}				
+				},				
 			],
 			"Tonnage": 0,
 			"InventorySlots": 15,
@@ -138,10 +134,6 @@
 				},
 				{
 					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -236,14 +228,14 @@
 			"z": 1
 		}
 	],
-	"VariantName": "STG-14GJ",
+	"VariantName": "ST-24GJ",
 	"ChassisTags": {
 		"items": [
-      "SLDFMech"	
+			"SLDFMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Skirmisher",
+	"StockRole": "Striker",
 	"YangsThoughts": "This Mech is unique and we do not know where it comes from.   It appears to be an evolution of the Vulcan but aside from some structural items being the same size it has nothing really in common with that mech.",
 	"FixedEquipment": [
 		{

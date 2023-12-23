@@ -32,7 +32,7 @@
 		"UIName": "Jenner JR7-Qi",
 		"Id": "mechdef_jenner_JR7-Qi",
 		"Name": "Jenner",
-		"Details": "A modern Jenner, the JR7-Qi is an alternative take on the JR7-D but with Endosteel, Reflective Anti-Laser armor and using 6 ER Small Lasers and 2 Small Piercing Pulse lasers.",
+		"Details": "A modern Jenner, the JR7-Qi is an alternative take on the JR7-D but with Endosteel, Reflective Anti-Laser armor and using 6 ER Small Lasers and 2 Small Piercing Pulse lasers.  A C3 Slave rounds out the equipment on this mech making it a prefect high tech scouting skirmisher.",
 		"Icon": "uixTxrIcon_jenner"
 	},
 	"simGameMechPartCost": 400000,
@@ -210,6 +210,17 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_C3",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
 			"MountedLocation": "LeftLeg",
 			"ComponentDefID": "emod_leg_hip",
 			"SimGameUID": "",
@@ -376,7 +387,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
+			"ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 2,
@@ -508,7 +519,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
+			"ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 2,
@@ -518,7 +529,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",

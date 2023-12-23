@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_warhammer_WHM-6Rk",
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags",
+            "Action": "ObjectMerge",
+            "Value": {"items":["HalfRoyal"]}
+        }
+    ]
+}

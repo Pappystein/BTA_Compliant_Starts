@@ -489,7 +489,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -500,10 +500,21 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_HE_ATM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_case",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

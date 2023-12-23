@@ -1,0 +1,91 @@
+{
+	"Custom": {
+		"Color": "Gold",
+		"BonusDescriptions": {
+			"Bonuses": [
+				"ArmorFactor: 6%",
+				"Reserved: 14"
+			]
+		},
+		"Category": {
+			"CategoryID": "Armor"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 14,
+			"ShowIcon": false,
+            "NameText": "Ferro-Insulated",
+            "BonusAText": "Dynamic Slot"
+		},
+		"Weights": {
+			"ArmorFactor": 0.94340
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "250 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+			}
+		},
+		"Flags":  [
+				"ignore_damage",
+				"autorepair",
+				"not_broken"
+			]
+	},
+	"Description": {
+		"Cost": 940000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Lostech",
+		"Model": "Armor",
+		"UIName": "Ferro-Insulated",
+		"Id": "emod_armorslots_ferrosInsulated",
+		"Name": "Ferro-Fibrous Insulated Armor",
+		"Details": "Ferro-Insulated, an alternative Ferro Fiberious weave that offers less protection but improves heat rejection.  The Armor sheds 40% of heat picked up from external sources.\r\n\r\nArmor tonnage gets reduced by <b>1/16</b> while taking up <b>14</b> Ferro-Fibrous slots.",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+		  "durationData": {
+			"duration": -1,
+			"stackLimit": -1
+		  },
+		  "targetingData": {
+			"effectTriggerType": "Passive",
+			"effectTargetType": "Creator",
+			"showInTargetPreview": false,
+			"showInStatusPanel": true
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "HeatDamageTaken_FerroInsulated",
+			"Name": "Heat Immune Armor",
+			"Details": "Incoming heat damage is reduced by 40%.",
+			"Icon": "uixSvgIcon_action_end"
+		  },
+		  "nature": "Buff",
+		  "statisticData": {
+			"statName": "CACIncomingHeatMult",
+			"operation": "Float_Multiply",
+			"modValue": "0.6",
+			"modType": "System.Single"
+		  }
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

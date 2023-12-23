@@ -16,7 +16,7 @@
 			}
 		},
 		"Weights": {
-			"ArmorFactor": 0.80646
+			"ArmorFactor": 0.833333333
 		},
 		"Category": [{
 			"CategoryID": "Armor"
@@ -50,7 +50,7 @@
 		"Icon": "uixSvgIcon_action_end"
 	},
 	"BonusValueA": "-20% Armor Weight",
-	"BonusValueB": "Reserves 11 Slots",
+	"BonusValueB": "33% reduced Crits",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
@@ -60,7 +60,34 @@
 	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"statusEffects": null,
+	"statusEffects": [
+			{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-RedundantCritResist",
+				"Name": "Ferro-Plate Laminate",
+				"Details": "All incoming critical chances reduced by 66%.",
+				"Icon": "allied-star"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.66",
+				"modType": "System.Single"
+			}
+		}
+	],
+
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",

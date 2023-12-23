@@ -65,10 +65,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-			"CurrentArmor": 98,
+			"CurrentArmor": 120,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 60,
-			"AssignedArmor": 98,
+			"AssignedArmor": 120,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -83,10 +83,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 220,
+			"CurrentArmor": 228,
 			"CurrentRearArmor": 115,
 			"CurrentInternalStructure": 115,
-			"AssignedArmor": 220,
+			"AssignedArmor": 228,
 			"AssignedRearArmor": 115
 		},
 		{
@@ -101,28 +101,28 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 98,
+			"CurrentArmor": 120,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 60,
-			"AssignedArmor": 98,
+			"AssignedArmor": 120,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 97,
+			"CurrentArmor": 140,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 80,
-			"AssignedArmor": 97,
+			"AssignedArmor": 140,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 97,
+			"CurrentArmor": 140,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 80,
-			"AssignedArmor": 97,
+			"AssignedArmor": 140,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -283,7 +283,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefID": "emod_armorslots_ferrofiberous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

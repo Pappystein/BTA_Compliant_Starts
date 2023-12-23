@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "BattleHammer",
+			"Exclude": false,
+			"Include": true
+		}
+	},
   "Description": {
     "Cost": 91174810,
     "Rarity": 5,

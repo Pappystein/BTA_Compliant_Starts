@@ -6,15 +6,15 @@
 		}
 	},
 	"Description": {
-		"Cost": 4866797,
-		"Rarity": 5,
+		"Cost": 4492428,
+		"Rarity": 4,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Stag II",
-		"Id": "chassisdef_stagII_STG-25S",
-		"Name": "Stag II",
-		"Details": "Taking the Stag concept further, the Stag II introduced some of the first new technology post SLDF exodous.  The Stag STG-25S is an inner sphere product of the 3060s.  Designed as a medium scout and backstabbing assassin mech the -25S utilizes the Stormbreaker magshot gauss array.",
+		"UIName": "Stag",
+		"Id": "chassisdef_stag_ST-14GJ",
+		"Name": "Stag",
+		"Details": "Developed in the resource strapped times, the Stag is an evolution of the Vulcan that is intended to be a mid weight skirmisher mech designed for hit and fade type operations against a superior or dug in force.   This is the fully up to date version.",
 		"Icon": "uixTxrIcon_stag"
 	},
 	"MovementCapDefID": "movedef_vindicator_VND-1R",
@@ -59,8 +59,8 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
-				}			
-			],
+				}
+				],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -93,11 +93,15 @@
 					"Omni": false
 				},
 				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -133,11 +137,15 @@
 					"Omni": false
 				},
 				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -151,11 +159,11 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -228,14 +236,14 @@
 			"z": 1
 		}
 	],
-	"VariantName": "STG-25S",
+	"VariantName": "ST-14GJ",
 	"ChassisTags": {
 		"items": [
-		"SLDFMech"
+      "SLDFMech"	
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Striker",
+	"StockRole": "Skirmisher",
 	"YangsThoughts": "This Mech is unique and we do not know where it comes from.   It appears to be an evolution of the Vulcan but aside from some structural items being the same size it has nothing really in common with that mech.",
 	"FixedEquipment": [
 		{

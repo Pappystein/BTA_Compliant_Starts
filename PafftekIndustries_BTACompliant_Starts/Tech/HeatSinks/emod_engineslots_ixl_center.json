@@ -5,14 +5,10 @@
 			"EngineFactor": 0.5
 		},
 		"BonusDescriptions":  [
-				"EngineWeight: 50%",
+				"EngineWeight: -50%",
 				"ReservedSlots: 6"
 			],
 		"WorkOrderCosts": {
-			"Default": {
-				"TechCost": "0",
-				"CBillCost": "0"
-			},
 			"Install": {
 				"TechCost": "1.2 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
 				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
@@ -21,9 +17,13 @@
 		"Flags":  [
                     "vital"
             ],
-		"Category" : [
-			{"CategoryID": "EngineShield"},
-			{"CategoryID": "EnginePart"}
+		"Category": [
+			{
+				"CategoryID": "EngineShield"
+			},
+			{
+				"CategoryID": "EnginePart"
+			}
 		],
 		"Linked" : {
 			"Links" : [
@@ -84,6 +84,7 @@
 	],
     "ComponentTags" : {
         "items" : [
+			"EnginePart.{location}",
             "component_type_stock"
         ],
         "tagSetSourceFile" : ""

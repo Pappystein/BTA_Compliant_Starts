@@ -8,7 +8,7 @@
 		"UIName": "Fireball",
 		"Id": "chassisdef_fireball_ALM-8J",
 		"Name": "Fireball",
-		"Details": "The 8J variant of the Fireball released in 3054 was built with the hope of reducing the Fireballs ammunition dependence as well as increasing its firepower. This is done by removing the Streak launcher and replacing it with two Medium Lasers, vastly increasing the raw firepower of the Fireball. The 'Mech has also received an additional half ton of armor.",
+		"Details": "The 8J variant of the Fireball released in 3054 was built with the hope of reducing the Fireballs ammunition dependence as well as increasing its firepower. This is done by removing the Streak launcher and replacing it with two Medium Lasers, vastly increasing the raw firepower of the Fireball. The 'Mech is armored with 4.5 tons of Ferro-Fiberous armor plating.",
 		"Icon": "uixTxrIcon_fireball"
 	},
 	"MovementCapDefID": "movedef_stinger_STG-3R",
@@ -212,7 +212,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

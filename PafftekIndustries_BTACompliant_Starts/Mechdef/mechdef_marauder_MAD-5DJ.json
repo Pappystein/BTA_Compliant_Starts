@@ -31,7 +31,7 @@
 		"UIName": "Marauder MAD-5DJ",
 		"Id": "mechdef_marauder_MAD-5DJ",
 		"Name": "Marauder",
-		"Details": "An Experimential update to the Marauder MAD-5D, the -5DJ swaps in the Hyper Laser.   Hyper Lasers, develped by the RISC management sectrion of Pafftek Industries is an enlarged Clan tech Heavy Large Laser.   The -5DJ carries 2 of these with barely enough heat sinking.   The Hyper Laser has some unique features to improve aiming... But this comes at the cost of being highly explosive.  This mech is seen in a few units of both the Armed forces of the Federated Suns as well as The 1st Sword of Light.",
+		"Details": "An Experimental update to the Marauder MAD-5D, the -5DJ swaps in the Hyper Laser.   Hyper Lasers, developed by the RISC management section of Pafftek Industries is an enlarged Clan tech Heavy Large Laser.   The -5DJ carries 2 of these with barely enough heat sinking.   The Hyper Laser has some unique features to improve aiming... But this comes at the cost of being highly explosive.  This mech is seen in a few units of both the Armed forces of the Federated Suns as well as the 1st Sword of Light.",
 		"Icon": "uixTxrIcon_marauder"
 	},
 	"simGameMechPartCost": 880000,

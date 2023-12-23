@@ -133,19 +133,19 @@
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 95,
+      "CurrentArmor": 98,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 65,
-      "AssignedArmor": 95,
+      "AssignedArmor": 98,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 95,
+      "CurrentArmor": 98,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 65,
-      "AssignedArmor": 95,
+      "AssignedArmor": 98,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
     }
@@ -336,7 +336,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_TAG",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
@@ -385,7 +385,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
+      "ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

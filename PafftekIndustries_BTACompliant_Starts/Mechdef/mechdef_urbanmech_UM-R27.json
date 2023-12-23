@@ -537,7 +537,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
+			"ComponentDefID": "Weapon_FlamerER_Flamer_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
@@ -569,7 +569,7 @@
 			"hasPrefabName": false
 		},
         {
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

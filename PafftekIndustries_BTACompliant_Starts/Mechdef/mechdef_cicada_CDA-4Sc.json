@@ -320,7 +320,7 @@
 		},
 		{
 		  "MountedLocation": "RightTorso",
-		  "ComponentDefID": "Ammo_AmmunitionBox_ER_LRM",
+		  "ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
 		  "SimGameUID": null,
 		  "ComponentDefType": "AmmunitionBox",
 		  "HardpointSlot": 0,
@@ -356,7 +356,7 @@
 		},
 		{
 		  "MountedLocation": "LeftTorso",
-		  "ComponentDefID": "Ammo_AmmunitionBox_ArtemisV_LRM",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Hydra_LRM",
 		  "SimGameUID": null,
 		  "ComponentDefType": "AmmunitionBox",
 		  "HardpointSlot": 0,
