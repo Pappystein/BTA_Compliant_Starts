@@ -93,6 +93,13 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_BAP",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -127,7 +134,7 @@
     },
 	{
 		"MountedLocation": "Front",
-		"ComponentDefID": "Gear_C3i",
+		"ComponentDefID": "Gear_C3",
 		"ComponentDefType": "Upgrade",
 		"HardpointSlot": -1
 	},

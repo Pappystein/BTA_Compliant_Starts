@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Special_PFT_Medium_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT"
+					"ConstantValue": "itemCollection_Mechs_Special_PFT_Medium_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",

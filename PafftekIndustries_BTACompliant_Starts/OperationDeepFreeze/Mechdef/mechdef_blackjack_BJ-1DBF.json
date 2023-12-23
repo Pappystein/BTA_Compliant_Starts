@@ -10,17 +10,11 @@
 			"unit_rarity_4",
 			"unit_bracket_med",
 			"unit_generic",
-			"Steiner",
 			"Davion",
+			"2ndCrucisLancers",
+			"11thAvalonHussars",
 			"FederatedFreemen",
-			"Marian",
-			"Illyrian",
-			"Lothian",
-			"Hanse",
-			"Outworld",
-			"Circinus",
-			"Rasalhague",
-			"Ives",
+			"1stKitteryBorderers",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -36,7 +30,7 @@
 		"UIName": "Blackjack BJ-1DBF",
 		"Id": "mechdef_blackjack_BJ-1DBF",
 		"Name": "Blackjack",
-		"Details": "A recent Federated Suns variant, the BJ-1DB replaces the AutoCannon with Large Lasers.  In order to assist with the added heat, it also drops some armor and the torso mounted lasers to make room for more Heat Sinks.",
+		"Details": "Upgrading the now obsolete BJ-1DB to an improved standard, the -1DBF introduces Prototype Ferro Fiberous, a new armor type that significantly lightens armor at the cost of being bulky.   Also a Prototype XL engine is fitted.  Rounding out the changes is converting the mech to run SingleHeatsink + Freezer tech.  The 1DBF has more armor, runs cooler and is actually faster thanks to the introduction of the 225-P-XL engine.",
 		"Icon": "uixTxrIcon_blackjack"
 	},
 	"simGameMechPartCost": 440000,
@@ -54,64 +48,64 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-			"CurrentArmor": 55,
+			"CurrentArmor": 70,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 35,
-			"AssignedArmor": 55,
+			"AssignedArmor": 70,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 75,
-			"CurrentRearArmor": 30,
+			"CurrentArmor": 110,
+			"CurrentRearArmor": 55,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 75,
-			"AssignedRearArmor": 30
+			"AssignedArmor": 110,
+			"AssignedRearArmor": 55
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 85,
-			"CurrentRearArmor": 45,
+			"CurrentArmor": 139,
+			"CurrentRearArmor": 70,
 			"CurrentInternalStructure": 70,
-			"AssignedArmor": 85,
-			"AssignedRearArmor": 45
+			"AssignedArmor": 139,
+			"AssignedRearArmor": 70
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 75,
-			"CurrentRearArmor": 30,
+			"CurrentArmor": 110,
+			"CurrentRearArmor": 55,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 75,
-			"AssignedRearArmor": 30
+			"AssignedArmor": 110,
+			"AssignedRearArmor": 55
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 55,
+			"CurrentArmor": 70,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 35,
-			"AssignedArmor": 55,
+			"AssignedArmor": 70,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 70,
+			"CurrentArmor": 104,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 70,
+			"AssignedArmor": 104,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 70,
+			"CurrentArmor": 104,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 70,
+			"AssignedArmor": 104,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -171,7 +165,29 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_std_center",
+			"ComponentDefID": "emod_engineslots_protoxl_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size3",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -379,30 +395,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -457,6 +451,17 @@
 		},
 		{
 			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",

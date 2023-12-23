@@ -1,18 +1,19 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_TOKUGAWA_STREAK_B",
-		"Name": "Tokugawa Otsu",
-		"Details": "An advanced variatn of the Tokugawa, the Otsu sub variant gained an Extra Large engine system to allow for C3 and more speed.  The Small Pulselaser of the Tokugawa Streak was replaced with a Laser AMS to provide defense against most missile batteries.",
-		"Icon": "Tokugawa",
+		"Id": "vehicledef_MANTICORE_C3M1",
+		"Name": "Command Manticore'",
+		"Details": "Command variant of the MAnticore seen rarely in service of the 1st Sword of Light regiment of the DCMS.  This variant has slightly improved sensors vs the standard Manticore.",
+		"Icon": "Manticore",
 		"Cost": 993,
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_TOKUGAWA_STREAK_B",
+	"ChassisID": "vehiclechassisdef_MANTICORE_C3M",
 	"VehicleTags": {
 		"items": [
-			"no_parts",
+			"unit_controllableTank",
+			"NOSALVAGE",
 			"mr-resize-1.50",
 			"unit_vehicle",
 			"unit_heavy",
@@ -20,10 +21,11 @@
 			"unit_release",
 			"unit_rarity_5",
 			"unit_lance_tank",
-			"unit_lance_assassin",
-			"unit_generic",
-			"unit_bracket_low",
+			"unit_advanced",
+			"unit_bracket_med",
+			"unit_predator",
 			"Kurita",
+			"1stSwordOfLight",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -31,23 +33,23 @@
 	"Locations": [
 		{
 			"Location": "Front",
-			"CurrentArmor": 200,
+			"CurrentArmor": 220,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 200,
+			"AssignedArmor": 220,
 			"DamageLevel": "Functional"
 		},
 		{
 			"Location": "Left",
-			"CurrentArmor": 165,
+			"CurrentArmor": 190,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 165,
+			"AssignedArmor": 190,
 			"DamageLevel": "Functional"
 		},
 		{
 			"Location": "Right",
-			"CurrentArmor": 165,
+			"CurrentArmor": 190,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 165,
+			"AssignedArmor": 190,
 			"DamageLevel": "Functional"
 		},
 		{
@@ -59,33 +61,49 @@
 		},
 		{
 			"Location": "Turret",
-			"CurrentArmor": 180,
+			"CurrentArmor": 210,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 180,
+			"AssignedArmor": 210,
 			"DamageLevel": "Functional"
 		}
 	],
 	"inventory": [
 		{
-			"ComponentDefID": "Weapon_Autocannon_LB10XAC",
+			"ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Front",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_SRM_SSRM6_0-STOCK",
+			"ComponentDefID": "Weapon_C3_Master",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
+			"ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
+			"HardpointSlot": 2,
+			"DamageLevel": "Functional",
+			"LocalGUID":"target_LRM_1"
+		},
+		{
+			"ComponentDefID": "Gear_Attachment_ArtemisIV",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"TargetComponentGUID":"target_LRM_1"
 		},
 		{
 			"ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM",
@@ -95,38 +113,31 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Front",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Front",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
+			"ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
 			"ComponentDefType": "AmmunitionBox",
-			"MountedLocation": "Turret",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Ammo_AmmunitionBox_LBX_SABOT_AC10_D",
-			"ComponentDefType": "AmmunitionBox",
-			"MountedLocation": "Turret",
+			"MountedLocation": "Rear",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_engineslots_xl_center",
+			"ComponentDefID": "emod_engine_240",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_C3_Master",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Rear",
+			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{
@@ -144,19 +155,6 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Tank_TTS_OmniLock",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
-		},
-		{
 			"ComponentDefID": "Gear_Tracked_Right",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Right",
@@ -172,15 +170,17 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefID": "Tank_FCS_Generic",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_B_Pod",
+			"ComponentDefID": "Tank_TTS_OmniLock",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
 		}
 	]
 }

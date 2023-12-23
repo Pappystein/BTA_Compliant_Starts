@@ -80,14 +80,14 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_Gauss_AP_Gauss_CLAN",
+			"ComponentDefID": "Weapon_Gauss_Antipersonnel_CLAN",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_Gauss_AP_Gauss_CLAN",
+			"ComponentDefID": "Weapon_Gauss_Antipersonnel_CLAN",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
@@ -101,7 +101,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_AP_Gauss",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_APGAUSS",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -199,7 +199,7 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3i",
+			"ComponentDefID": "Gear_C3",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
 		},

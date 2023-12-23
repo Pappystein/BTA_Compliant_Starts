@@ -4,24 +4,25 @@
 		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
 		"Action": "ArrayAdd",
 		"Value": {
-			"ID": "diff_KBeez",
-			"Name": "Killer Bees",
+			"ID": "diff_AI",
+			"Name": "AI",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 0.6,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "Sutama"
+					"ConstantValue": "Idlewind"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Stinger,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Hornet,itemCollection_Pafftek_Bumblebee,itemCollection_Pafftek_Firemoth,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Pafftek_BattleArmor"},
+					"ConstantValue": "itemCollection_Pafftek_C3MasterTanks,itemCollection_Pafftek_C3MasterMechs,itemCollection_Pafftek_C3MediumMechs,itemCollection_Pafftek_LightC3,itemCollection_Pafftek_LightC3,itemCollection_Pafftek_LightC3,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Combat_PFT"
+				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Kurita:35"
+					"ConstantValue": "Kurita:30,Wolfs_Dragoons:100,Liao:10,Rasalhague:10"
 				}
 			]
 		}

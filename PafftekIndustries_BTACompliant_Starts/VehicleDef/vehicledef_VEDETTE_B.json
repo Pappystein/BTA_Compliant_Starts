@@ -130,7 +130,7 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3i",
+			"ComponentDefID": "Gear_C3",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
 		},
@@ -172,6 +172,13 @@
 			"ComponentDefID": "emod_engine_250",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{

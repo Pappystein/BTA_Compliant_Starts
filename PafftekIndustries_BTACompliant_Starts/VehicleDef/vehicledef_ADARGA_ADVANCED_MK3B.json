@@ -104,14 +104,14 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
+			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
+			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -151,10 +151,17 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3i",
+			"ComponentDefID": "Gear_C3",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
+		},
+		{
+		  "MountedLocation": "Front",
+		  "ComponentDefID": "Gear_Boosted_BAP",
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Left",

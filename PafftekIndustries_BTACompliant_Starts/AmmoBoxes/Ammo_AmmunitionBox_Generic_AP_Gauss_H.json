@@ -5,24 +5,22 @@
 				"CategoryID": "a/s/a/magshot"
 			}
 		],
-		"Flags": {
-			"flags": [
-				"not_broken"
-			]
-		},
+		"Flags": [
+			"not_broken"
+		],		
 		"BonusDescriptions": [
-				"CostPerShot: 200",
-				"GaussAmmo: 40",
-				"GaussNoBoom"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 200
+			"AmmoCount: 20",
+			"CostPerShot: 100",
+			"GaussNoBoom"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 100
 		}
 	},
 	"AmmoID": "Ammunition_APGAUSS",
 	"Capacity": 20,
 	"Description": {
-		"Cost": 7200,
+		"Cost": 45000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",

@@ -4,24 +4,26 @@
 		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
 		"Action": "ArrayAdd",
 		"Value": {
-			"ID": "diff_KBeez",
-			"Name": "Killer Bees",
+			"ID": "diff_BTA_Arachnid",
+			"Name": "Arachnid",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.6,
+			"CareerScoreModifier": 0.7,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "Sutama"
+					"ConstantValue": "Fatima"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Stinger,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Hornet,itemCollection_Pafftek_Bumblebee,itemCollection_Pafftek_Firemoth,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Pafftek_BattleArmor"},
+					"ConstantValue": "itemCollection_Pafftek_Tarantula,itemCollection_Pafftek_Tarantula,itemCollection_Pafftek_Venom,itemCollection_Pafftek_Venom,itemCollection_Pafftek_Spider,itemCollection_Pafftek_Spider,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
+					
+				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Kurita:35"
+					"ConstantValue": "Rasalhague:30"
 				}
 			]
 		}
