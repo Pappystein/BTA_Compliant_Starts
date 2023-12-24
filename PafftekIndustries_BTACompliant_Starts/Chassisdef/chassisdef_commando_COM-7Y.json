@@ -247,7 +247,7 @@
 		},		
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Linked_stealth",
+			"ComponentDefID": "Gear_Stealth_Linked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -259,7 +259,7 @@
 		},		
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Linked_stealth",
+			"ComponentDefID": "Gear_Stealth_Linked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -271,7 +271,7 @@
 		},		
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Linked_stealth",
+			"ComponentDefID": "Gear_Stealth_Linked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -283,7 +283,7 @@
 		},		
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Linked_stealth",
+			"ComponentDefID": "Gear_Stealth_Linked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -295,7 +295,7 @@
 		},		
 		{
 			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "Linked_stealth",
+			"ComponentDefID": "Gear_Stealth_Linked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -307,7 +307,7 @@
 		},		
 		{
 			"MountedLocation": "RightLeg",
-			"ComponentDefID": "Linked_stealth",
+			"ComponentDefID": "Gear_Stealth_Linked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

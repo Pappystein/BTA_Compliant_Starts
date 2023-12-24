@@ -10,7 +10,7 @@
 		}
 	],
     "Contact": "",
-			"Manifest": [
+	"Manifest": [
 			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
 			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },
 			{ "Type": "AdvancedJSONMerge", "Path": "DefaultMergeDefs"},
