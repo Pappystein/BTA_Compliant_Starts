@@ -8,7 +8,7 @@
 			"Name": "Gamers Start2",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 1,
-			"CareerScoreModifier": 0.6,
+			"CareerScoreModifier": 0.6.5,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Customs,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_BTAHollander,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Mechs_PFT_Medium_Customs,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_BTAHollander,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",
