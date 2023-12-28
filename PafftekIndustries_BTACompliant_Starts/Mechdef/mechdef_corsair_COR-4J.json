@@ -292,7 +292,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_ferrofiberous",
+			"ComponentDefID": "emod_armorslots_ferrosfibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

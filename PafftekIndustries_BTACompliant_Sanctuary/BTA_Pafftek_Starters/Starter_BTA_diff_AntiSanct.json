@@ -23,7 +23,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "TaurianConcordat:30,Davion:30,Steiner:-30,WordOfBlake:-45,Comstar:15"
+					"ConstantValue": "TaurianConcordat:30,Davion:30,Steiner:-30,WordOfBlake:-45,ComStar:15"
 				}
 			]
 		}

@@ -29,7 +29,7 @@
 		"IFFLevel": 1,
 		"Count": 1,
 		"Heat": 5,
-		"Chance": 0.8,
+		"Chance": 1,
 		"Damage": 5,
 		"AOEDamage": 5,
 		"AOERange": 10,
