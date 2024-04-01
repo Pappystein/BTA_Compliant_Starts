@@ -32,7 +32,7 @@
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_HE",
 		"Name": "High Explosive Thunderbolt 5 Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 16 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Missile"
+		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",

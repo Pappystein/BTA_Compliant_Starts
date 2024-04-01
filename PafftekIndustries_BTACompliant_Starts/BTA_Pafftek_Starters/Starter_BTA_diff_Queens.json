@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Starting_Periphery_General_Medium,itemCollection_Mechs_Starting_Periphery_General_Light,itemCollection_Mechs_Starting_Periphery_General_Light,itemCollection_Mechs_Starting_Magistracy_Light,itemCollection_Mechs_Starting_Magistracy_Medium,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Mechs_Generic_BattleArmor_Canopian,itemCollection_Pafftek_VTonk"
+						"ConstantValue": "itemCollection_Mechs_SRBOTH_Strider,itemCollection_Mechs_Starting_Periphery_General_Medium,itemCollection_Mechs_Starting_Periphery_General_Light,itemCollection_Mechs_Starting_Periphery_General_Light,itemCollection_Mechs_Starting_Magistracy_Light,itemCollection_Mechs_Starting_Magistracy_Medium,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Mechs_Generic_BattleArmor_Canopian,itemCollection_Pafftek_VTonk"
 					}
 				]
 			}

@@ -76,7 +76,7 @@
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_SRM_SRM_NARC",
+			"ComponentDefID": "Weapon_SRM_SRM_NARC_INARC",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
@@ -104,28 +104,28 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon",
+			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon",
+			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Explosive",
+			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Explosive_Improved",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Haywire",
+			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Haywire_Improved",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -227,7 +227,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
 		},

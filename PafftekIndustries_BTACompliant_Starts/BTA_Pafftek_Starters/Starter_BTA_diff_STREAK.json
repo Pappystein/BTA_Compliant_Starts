@@ -1,0 +1,29 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_STREAK",
+			"Name": "STREAKER",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Kelenfold"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_Special_SSRM2_Mediums,itemCollection_Mechs_Special_SSRM2_Mediums,itemCollection_Mechs_Special_SSRM2,itemCollection_Mechs_Special_SSRM2,itemCollection_Mechs_Special_SSRM2,itemCollection_Vehicle_Arty_BTA,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_IFV_BTA"},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Steiner:35"
+				}
+			]
+		}
+	}]
+}

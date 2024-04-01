@@ -1,10 +1,10 @@
 {
-    "TargetIDs": "chassisdef_stag_STG-14G,chassisdef_stag_STG-15G,chassisdef_stagii_STG-30G,chassisdef_stagii_STG-25G,chassisdef_stagii_STG-24G",
+    "TargetIDs": ["chassisdef_stag_STG-14G,chassisdef_stag_STG-15G,chassisdef_stagii_STG-30G,chassisdef_stagii_STG-25G,chassisdef_stagii_STG-24G"],
     "Instructions": [
 		{
             "JSONPath": "FixedEquipment",
             "Action": "ObjectMerge",
-            "Value": {		
+            "Value": [		
 					{
 						"MountedLocation": "RightArm",
 						"ComponentDefID": "emod_arm_stabalized_lower",
@@ -17,6 +17,7 @@
 						"prefabName": "",
 						"hasPrefabName": false
 					}
-			}
+			]
+		}
     ]
 }

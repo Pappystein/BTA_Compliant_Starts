@@ -9,9 +9,7 @@
 		],
 		"BonusDescriptions": [
 			"HeatPerTurn: -9",
-			"JumpDistance: +30%",
-			"UpgradeWeight: 70%",
-			"PartialWing"
+			"JumpDistance: +30%"
 
 		],
 
@@ -36,7 +34,7 @@
 		"Id": "Gear_PartialWing_IS",
 		"Name": "Partial Wing System",
 		"Details": "The partial wing system offers increased jump capability. In addition, its large surface area allows a 'Mech to more efficiently radiate excess heat.",
-		"Icon": "uixSvgIcon_action_jump"
+		"Icon": "steelwing-emblem"
 	},
 	"BonusValueA": "+ 35% Jump Jet Dist.",
 	"BonusValueB": "- 9 Heat / Turn",

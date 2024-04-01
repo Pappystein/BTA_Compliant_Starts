@@ -220,7 +220,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_engineslots_fuelcell_center ",
+			"ComponentDefID": "emod_engineslots_fuelcell_center",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -285,6 +285,12 @@
 			"MountedLocation": "Left",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
 		}
 	]
 }

@@ -2,9 +2,7 @@
 	"Custom": {
 		"Flags": [
 			"default",
-			"not_broken",
-			"no_salvage",
-			"autorepair"
+			"not_broken"
 
 		]
 	},

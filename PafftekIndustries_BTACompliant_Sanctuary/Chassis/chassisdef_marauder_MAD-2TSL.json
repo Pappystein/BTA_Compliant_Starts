@@ -1,0 +1,321 @@
+{
+	"Description": {
+		"Cost": 9500000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Royal Marauder",
+		"Id": "chassisdef_marauder_MAD-2TSL",
+		"Name": "Royal Marauder",
+		"Details": "When the Sanctuary invasion began, the Taurians reached out for help as it was a 'second clan invasion.'  The dispariate remnants of Comstar offered to trade the technical specifications and production knowhow for the vaunted Royal Marauder MAD-2R to both help secure the TaurianConcordat as well as to secure a planet for themselves.  After the truce the MAD-2TS and it's near twin MAD-2TSL was born of the shared technology.  The Mass of the Mk1 Drone cockpit is paid for by reducing the Engine Heatsinks by one.",
+		"Icon": "uixTxrIcon_marauder"
+	},
+	"MovementCapDefID": "movedef_marauder_MAD-3R",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_marauder",
+	"PrefabIdentifier": "chrPrfMech_marauderBase-001",
+	"PrefabBase": "marauder",
+	"Tonnage": 75,
+	"InitialTonnage": 7.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7124000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 1.05,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 80,
+	"MeleeInstability": 40,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 80,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 80,
+	"DFAInstability": 40,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": -1
+		},
+		{
+			"x": 2.5,
+			"y": 7,
+			"z": -2.5
+		},
+		{
+			"x": -2.5,
+			"y": 7,
+			"z": -2.5
+		}
+	],
+	"VariantName": "MAD-2TSL",
+	"ChassisTags": {
+		"items": [
+			"SanctuaryRefit",
+			"ArmLimitLowerLeft",
+			"ArmLimitLowerRight",
+			"HeavyMech"		
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Sniper & Ranged Assault",
+	"YangsThoughts": "This is a refit of war booty for the Taurians.   Interesting concept using a Scattergun on a mech.  Also the Taurian and Comstar 'SanctuaryLink Drone Mk1' makes this mech compatable with Sanctuary techbase Mechs in combat!",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Marauder",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_HalfRoyal_BattleMechs",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Mk1_Drone",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_sanctuaryendocarbide",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_sanctuaryendocarbide_linked",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	]
+}

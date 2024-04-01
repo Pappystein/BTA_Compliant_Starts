@@ -9,11 +9,11 @@
 			"unit_lance_support",
 			"unit_role_sniper",
 			"unit_generic",
-	"Davion",
-	"DavionAssaultGuards",
-	"2ndCrucisLancers",
-	"10thLyranGuards",
-	"1stKitteryBorderers",
+			"Davion",
+			"DavionAssaultGuards",
+			"2ndCrucisLancers",
+			"10thLyranGuards",
+			"1stKitteryBorderers",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -92,19 +92,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 70,
+			"CurrentArmor": 75,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 70,
+			"AssignedArmor": 75,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 70,
+			"CurrentArmor": 75,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 70,
+			"AssignedArmor": 75,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -385,7 +385,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftLeg",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",

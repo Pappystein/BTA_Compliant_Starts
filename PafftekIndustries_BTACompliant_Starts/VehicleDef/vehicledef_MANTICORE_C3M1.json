@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_MANTICORE_C3M",
+	"ChassisID": "vehiclechassisdef_MANTICORE_C3M1",
 	"VehicleTags": {
 		"items": [
 			"unit_controllableTank",
@@ -76,7 +76,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,
@@ -90,7 +90,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+			"ComponentDefID": "Weapon_LRM_LRM10_86-Telos",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 2,
@@ -98,7 +98,7 @@
 			"LocalGUID":"target_LRM_1"
 		},
 		{
-			"ComponentDefID": "Gear_Attachment_ArtemisIV",
+			"ComponentDefID": "Gear_Attachment_LRMFCS",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Turret",
 			"HardpointSlot": -1,
@@ -106,14 +106,14 @@
 			"TargetComponentGUID":"target_LRM_1"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM_half",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Rear",
 			"HardpointSlot": -1,
@@ -122,6 +122,27 @@
 		{
 			"MountedLocation": "Rear",
 			"ComponentDefID": "emod_engine_240",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -181,6 +202,12 @@
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
 		}
 	]
 }

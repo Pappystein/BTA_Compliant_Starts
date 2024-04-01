@@ -1,13 +1,16 @@
 {
-    "Custom": {
-        "Flags": [
-                "default",
-                "not_broken",
-                "no_salvage",
-                "autorepair"
-            
-        ]
-    },
+	"Custom": {
+		"Flags": [
+				"ignore_damage",
+				"autorepair",
+				"not_broken",
+				"no_salvage",
+				"default"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,	
     "Description": {
         "Cost": 0,
         "Rarity": 99,
@@ -18,7 +21,7 @@
         "Id": "Gear_PartialWing_LTslot",
         "Name": "Partial Wing System",
         "Details": "Partial Wing System",
-        "Icon": "uixSvgIcon_action_end"
+        "Icon": "steelwing-emblem"
     },
     "BonusValueA": "",
     "BonusValueB": "",
@@ -28,7 +31,7 @@
     "BattleValue": 0,
     "InventorySize": 3,
     "Tonnage": 0,
-    "AllowedLocations": "LeftTorso",
+    "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [],

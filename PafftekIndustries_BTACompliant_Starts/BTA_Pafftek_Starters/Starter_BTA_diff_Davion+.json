@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Davion+",
+				"Name": "Davion +++",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.6,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Kaitangata"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Pafftek_DeepFreezeMedium,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeMedium,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_IFV_BTA,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Arty_BTA"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Davion:35"
+					}
+				]
+			}
+		}
+	]
+}

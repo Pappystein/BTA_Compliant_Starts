@@ -1,15 +1,13 @@
 itemCollection_loot_SpareParts,Mech Spare Parts,Mech Spare Parts,
-Weapon_Autocannon_LAC2_0-STOCK,Weapon,2,1
+Weapon_Autocannon_AC2_0-STOCK,Weapon,1,1
 Ammo_AmmunitionBox_Generic_AC2,AmmunitionBox,1,1
-Weapon_Autocannon_LAC5_0-STOCK,Weapon,1,10000
+Weapon_Autocannon_AC5_0-STOCK,Weapon,1,10000
 Ammo_AmmunitionBox_Generic_AC5,AmmunitionBox,1,1
 Ammo_AmmunitionBox_Generic_LRM,AmmunitionBox,1,1
 Weapon_MachineGun_MachineGun_0-STOCK,Weapon,4,1
 Ammo_AmmunitionBox_Generic_MG,AmmunitionBox,1,1
 Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,1,1
-Gear_JumpJet_Generic_Standard,JumpJet,8,1
-Gear_JumpJet_Generic_Heavy,JumpJet,4,1
-Gear_JumpJet_Generic_Assault,JumpJet,3,1
+Gear_JumpJet_Generic_Standard,JumpJet,6,1
 Weapon_SRM_SRM2_BA_OS,Weapon,4,1
 Weapon_Laser_SmallLaser_BA,Weapon,4,1
 Weapon_MachineGun_MachineGun_BA,Weapon,4,1

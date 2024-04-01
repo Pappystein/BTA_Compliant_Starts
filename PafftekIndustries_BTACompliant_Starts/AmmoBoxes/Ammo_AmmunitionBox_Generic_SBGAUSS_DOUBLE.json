@@ -2,16 +2,14 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "a/a/g/gauss"
+				"CategoryID": "a/a/g/sbgauss"
 			}
 		],
-		"Flags": {
-			"flags": [
-				"not_broken"
-			]
-		},
+		"Flags": [
+			"not_broken"
+		],
 		"BonusDescriptions": [
-				"AmmoCount: 18",
+				"AmmoCount: 8",
 				"CostPerShot: 1000",
 				"WpnCrits: +50%",
 				"WpnAccuracy: +1",
@@ -31,7 +29,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "GAUSS",
-		"UIName": "Ammo Silver Bullet Gauss",
+		"UIName": "Ammo Silver Bullet Gauss[D]",
 		"Id": "Ammo_AmmunitionBox_Generic_SBGAUSS_DOUBLE",
 		"Name": "Silver Bullet Gauss Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 18 shots.",

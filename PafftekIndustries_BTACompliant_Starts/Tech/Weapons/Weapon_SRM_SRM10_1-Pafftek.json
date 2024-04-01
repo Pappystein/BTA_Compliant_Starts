@@ -72,8 +72,7 @@
 			"component_type_stock",
 			"range_standard",
 			"ArtemisIVSRMSupported",
-			"SRMFCSSupported",
-			"ArtemisVSRMSupported"
+			"SRMFCSSupported"
 		],
 		"tagSetSourceFile": ""
 	}

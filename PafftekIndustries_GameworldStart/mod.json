@@ -1,0 +1,25 @@
+{
+    "Name": "PafftekIndustries_GameworldStarts",
+    "Enabled": true,
+	"Hidden": true,
+	
+    "Contact": "",
+	"Manifest": [
+			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
+			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Gameworlds" },
+			{ "Type": "MechDef", "Path": "Gladiators/Mechdef" },	
+			{ "Type": "ChassisDef", "Path": "Gladiators/Chassisdef" },
+			{ "Type": "UpgradeDef", "Path": "Tech/Upgrades" },
+			{ "Type": "UpgradeDef", "Path": "Tech/Internals" },
+			{ "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
+			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
+			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
+			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
+			{ "Type": "AmmunitionDef", "Path": "Ammunition" }
+  ],
+    "OptionallyDependsOn": [		
+    ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core" ],
+	"ConflictsWith": [				
+	],
+}

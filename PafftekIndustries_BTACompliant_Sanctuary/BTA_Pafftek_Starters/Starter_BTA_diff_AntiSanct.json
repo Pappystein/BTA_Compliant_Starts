@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_SanctLights,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_BTAWolfhound,itemCollection_Mechs_BTAHollander,itemCollection_Mechs_Special_PFT_Light_Comstar,itemCollection_Vehicle_Support_BTA,itemCollection_Mechs_SanctTonks,itemCollection_Vehicle_Scout_PFT,itemCollection_Mechs_Generic_BattleArmor_Taurian,itemCollection_Mechs_Generic_BattleArmor_Davion"
+					"ConstantValue": "itemCollection_Mechs_SanctLights,itemCollection_Mechs_Special_LightPFT,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Mechs_SanctTonks,itemCollection_Mechs_SanctTonks,itemCollection_Vehicle_Scout_PFT,itemCollection_Mechs_Generic_BattleArmor_Taurian,itemCollection_Mechs_Generic_BattleArmor_Davion"
 					
 				},
 				{

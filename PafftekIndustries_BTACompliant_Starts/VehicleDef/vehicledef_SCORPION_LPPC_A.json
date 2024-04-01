@@ -349,6 +349,12 @@
             "ComponentDefID": "Gear_B_Pod",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1
-        }
+        },
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		}
     ]
 }

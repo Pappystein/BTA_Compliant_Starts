@@ -8,7 +8,7 @@
 		"UIName": "Royal Marauder",
 		"Id": "chassisdef_marauder_MAD-2TS",
 		"Name": "Royal Marauder",
-		"Details": "The Marauder-2TS is a Taurian Concordat rebuild utilizing Technology from the Sanctuary Alliance.   It is based on the reacently re-introduced into production Marauder MAD-2R.",
+		"Details": "When the Sanctuary invasion began, the Taurians reached out for help as it was a 'second clan invasion.'  The dispariate remnants of Comstar offered to trade the technical specifications and production knowhow for the vaunted Royal Marauder MAD-2R to both help secure the TaurianConcordat as well as to secure a planet for themselves.  After the truce the MAD-2TS and it's near twin MAD-2TSL was born of the shared technology.",
 		"Icon": "uixTxrIcon_marauder"
 	},
 	"MovementCapDefID": "movedef_marauder_MAD-3R",

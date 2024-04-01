@@ -221,7 +221,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_armorslots_ferrosfibrous",
+			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
 		},

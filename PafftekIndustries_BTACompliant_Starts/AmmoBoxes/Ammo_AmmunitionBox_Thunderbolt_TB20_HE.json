@@ -34,7 +34,7 @@
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB20_HE",
 		"Name": "HE Thunderbolt 20 Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weHEonry, with at least one bin required per weHEon type. Has 4 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Missile"
+		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",

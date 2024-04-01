@@ -204,11 +204,10 @@
 			"HardpointSlot": -1
 		},
 		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "emod_armorslots_heavyferrosfibrous",
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
+			"HardpointSlot": -1
 		},
 		{
 			"MountedLocation": "Front",

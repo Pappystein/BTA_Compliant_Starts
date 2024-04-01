@@ -20,13 +20,13 @@
   "BaseTactics": "3",
   "BonusTactics": 0,
   "ExperienceUnspent": 7000,
-  "ExperienceSpent": 500,
+  "ExperienceSpent": 0,
   "Injuries": 0,
   "Health": 3,
   "LethalInjury": false,
   "Incapacitated": false,
   "Morale": 0,
-  "Voice": "oddball_voicepack_voicepack",
+  "Voice": "m_pro05_rick",
   "abilityDefNames": [],
   "AIPersonality": "Undefined",
   "PilotTags": {
@@ -44,7 +44,7 @@
       "pilot_periphery",
       "pilot_assassin",
       "pilot_tech",
-      "pilot_vehicle_crew"
+      "pilot_vehicle_crew",
 	  "pilot_mechwarrior"
     ],
     "tagSetSourceFile": ""

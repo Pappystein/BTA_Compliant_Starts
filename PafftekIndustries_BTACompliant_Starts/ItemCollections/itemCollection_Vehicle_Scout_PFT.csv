@@ -4,4 +4,7 @@ vehicledef_ADARGA_ADVANCED_MK3B,Mech,1,6
 vehicledef_YELLOWJACKET_B,Mech,1,1
 vehicledef_YELLOWJACKET_A,Mech,1,1
 vehicledef_YELLOWJACKET_C,Mech,1,1
-vehicledef_ADARGA_ADVANCED_MK4_IFV,Mech,1,4
+vehicledef_CHEVALIER_BBAP,Mech,1,4
+vehicledef_FOX_PRIME,Mech,1,4
+vehicledef_VEDETTE_ST,Mech,1,4
+vehicledef_SCORPION_LPPC_A,Mech,1,3

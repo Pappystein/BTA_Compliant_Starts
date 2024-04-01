@@ -34,7 +34,7 @@
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB15_FASCAM",
 		"Name": "Thunderbolt 15 FASCAM Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Missile"
+		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",

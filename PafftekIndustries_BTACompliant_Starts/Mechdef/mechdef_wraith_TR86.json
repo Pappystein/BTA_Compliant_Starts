@@ -547,7 +547,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftLeg",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
@@ -569,7 +569,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightLeg",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",

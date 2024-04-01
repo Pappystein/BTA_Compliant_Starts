@@ -121,6 +121,10 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -256,7 +260,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_FlamerHeavy_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -267,7 +271,18 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_FlamerHeavy_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
