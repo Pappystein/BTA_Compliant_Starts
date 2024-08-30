@@ -75,10 +75,21 @@
 	],
 	"Locations": [{
 			"Location": "Front",
-			"Hardpoints": [{
-				"WeaponMountID": "AntiPersonnel",
-				"Omni": false
-			}],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+				
+			],
 			"Tonnage": 0,
 			"InventorySlots": 0,
 			"MaxArmor": 120,
@@ -102,7 +113,12 @@
 		},
 		{
 			"Location": "Rear",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
 			"Tonnage": 0,
 			"InventorySlots": 0,
 			"MaxArmor": 100,
@@ -112,6 +128,10 @@
 			"Location": "Turret",
 			"Hardpoints": [{
 					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{

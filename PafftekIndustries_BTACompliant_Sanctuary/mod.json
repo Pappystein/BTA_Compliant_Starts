@@ -9,6 +9,7 @@
 			"Manifest": [
 			{ "Type": "BaseDescriptionDef",	"Path": "Backgrounds",	"AddToDB": true },
 			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
+			{ "Type": "ItemCollectionDef", "Path": "StartItemLootCollections" },
 			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },			
 			{ "Type": "MechDef", "Path": "Mechdef" },	
 			{ "Type": "ChassisDef", "Path": "Chassis" },

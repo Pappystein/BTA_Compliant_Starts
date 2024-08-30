@@ -176,7 +176,8 @@
 	"VariantName": "OTT-7JTL",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+		"SanctuaryRefit"
 		],
 		"tagSetSourceFile": ""
 	},

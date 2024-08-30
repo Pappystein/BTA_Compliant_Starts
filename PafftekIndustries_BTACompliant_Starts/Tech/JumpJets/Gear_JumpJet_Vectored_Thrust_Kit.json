@@ -17,7 +17,7 @@
         "Manufacturer" : "Generic",
         "Model" : "Standard",
         "UIName" : "Vectored Thrust Kit",
-        "Id" : "Gear_JumpJet_Vectored_Thrust_Kit",
+        "Id" : "Gear_JumpJet_Generic_Standard",
         "Name" : "Vectored Thrust Kit",
         "Details" : "The Phoenix Hawk mounts a pair of unique Vectored Thrust Kits. They act as normal Jump Jets, but in addition, their specialized thrust system optimizes propulsion and control during flight. This provides superior poise for subsequent attacks, increasing the damage dealt by any shots fired.",
         "Icon" : "uixSvgIcon_action_jump"

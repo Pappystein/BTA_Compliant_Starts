@@ -1,0 +1,30 @@
+{
+	"Description": {
+		"Id": "Ammunition_AC20_AP",
+		"Name": "AC/20 Frag Ammo",
+		"UIName": "Frag",
+		"Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "AC20",
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,	
+	"CriticalChanceMultiplier": 0.5,
+	"DamageMultiplier": 1.0,
+	"AIBattleValue": 50,
+	"Instability": -14,
+	"ShotsWhenFired": 0,
+	"ProjectilesPerShot": 20,
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 0.5,
+	"ISDamageModifier": 1.25,
+	"CriticalDamageModifier": 1,
+	"HitGenerator": "Cluster"
+}

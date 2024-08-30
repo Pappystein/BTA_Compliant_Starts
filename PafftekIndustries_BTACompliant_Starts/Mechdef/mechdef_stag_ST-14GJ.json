@@ -398,7 +398,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-Clan",
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal_Exchanger_Clan",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -409,7 +409,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -420,7 +420,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,

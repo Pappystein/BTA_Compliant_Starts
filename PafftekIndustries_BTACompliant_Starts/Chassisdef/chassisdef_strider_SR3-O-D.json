@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Strider3",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 3000000,
 		"Rarity": 1,
@@ -205,6 +212,15 @@
 	"StockRole": "Omni Striker",
 	"YangsThoughts": "The Irian Strider SR-3 is faster than the LAW SR-2, Survivability dips slightly from enemy fire but it is less likely to self detonate.",
 	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Gyro_Omnimech",

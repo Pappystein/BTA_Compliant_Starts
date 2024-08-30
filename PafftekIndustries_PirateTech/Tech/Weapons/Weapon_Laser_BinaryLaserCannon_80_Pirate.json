@@ -1,0 +1,90 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/binary"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 45,
+			"StabilityDamage": 30
+		},
+		"BonusDescriptions": [
+				"NoFireInMelee",
+				"WpnCrits: 20%",
+				"WpnAccuracy: +2",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
+				
+			]
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "LargeLaser",
+	"MinRange": 0,
+	"MaxRange": 840,
+	"RangeSplit": [
+		330,
+		420,
+		570
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 43,
+	"Damage": 68,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalChanceMultiplier": 1.2,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"DisableClustering": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"FireTerrainChance": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+	"Description": {
+		"Cost": 300000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "1D10T Industries",
+		"Model": "Mech Eraser Mk4 Laser Cannon",
+		"UIName": "ER L Binary Laser",
+		"Id": "Weapon_Laser_BinaryLaserCannon_80_Pirate",
+		"Name": "Extended Range Large Binary Laser",
+		"Details": "The folks over at 1D10T industries, have again provided some laughs.  If the Binary Laser cannon is good, why not an ER Binary Laser cannon.  Keeping everything contained within the size capacity of the standard Binary Laser chassis, however has proven to be an explosive undertaking.   Weapon will explode if damaged!  Will not fire in Melee.\n\n <b><color=#00ffff>EXPOLODES when destroyed!</color> </b>",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 9,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

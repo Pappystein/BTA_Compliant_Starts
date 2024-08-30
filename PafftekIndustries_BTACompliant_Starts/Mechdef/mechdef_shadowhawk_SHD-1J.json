@@ -189,7 +189,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Sparrow300",
+			"ComponentDefID": "Gear_Cockpit_300_Sparrow",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -343,7 +343,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,

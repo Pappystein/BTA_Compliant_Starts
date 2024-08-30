@@ -203,7 +203,8 @@
 			"SanctuaryRefit",
 			"ArmLimitLowerLeft",
 			"ArmLimitLowerRight",
-			"HeavyMech"		
+			"HeavyMech",
+		"SanctuaryRefit"	
 		],
 		"tagSetSourceFile": ""
 	},

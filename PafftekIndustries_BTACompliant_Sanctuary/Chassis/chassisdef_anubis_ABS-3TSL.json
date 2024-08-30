@@ -202,7 +202,8 @@
 			"OmniMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
-			"LightMech"
+			"LightMech",
+		"SanctuaryRefit"
 		],
 		"tagSetSourceFile": ""
 	},

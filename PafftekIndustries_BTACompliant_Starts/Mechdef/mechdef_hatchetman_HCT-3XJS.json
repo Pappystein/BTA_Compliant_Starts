@@ -80,7 +80,7 @@
 		"UIName": "Hatchetman HCT-3XJS",
 		"Id": "mechdef_hatchetman_HCT-3XJS",
 		"Name": "Hatchetman",
-		"Details": "Many people call the Hatchetman HCT-3X the 'ultimate' melee brawler, and it is a good mech.   But it can't be the ultimate when faced with the HCT-3XJS!   the -3XJS rips out all the short-mid range weaponry and settles on the in close weapons of small X-Pulse lasers, twin Flamers and for defense a medium Shield.  Triple-strenght Myomer, a 315 Fusion core and a Supercharger round out the mech.",
+		"Details": "Many people call the Hatchetman HCT-3X the 'ultimate' melee brawler, and it is a good mech.   But it can't be the ultimate when faced with the HCT-3XJS!   the -3XJS rips out all the short-mid range weaponry and settles on the X-Pulse laser family of weapons.  Specifically for long range two Medium X-Pulse Lasers are carried, in close weapons of small X-Pulse lasers, and twin Flamers.  Triple-strenght Myomer, a 315 Fusion core and a Supercharger round out the mech.",
 		"Icon": "uixTxrIcon_hatchetman"
 	},
 	"simGameMechPartCost": 670000,
@@ -236,7 +236,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Berserkers_Wrath",
+			"ComponentDefID": "Gear_Cockpit_800_Berserker",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -423,6 +423,17 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
@@ -438,6 +449,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

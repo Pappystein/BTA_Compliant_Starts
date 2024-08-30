@@ -2,23 +2,26 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/e/p/gamma"
+				"CategoryID": "w/e/l/laser"
 			},
 			{
 				"CategoryID": "NeverMelee"
 			}
 		],
 		"ComponentExplosion": {
-            "ExplosionDamage": 80,
-            "HeatDamage": 25,
-            "StabilityDamage": 15
+            "ExplosionDamage": 100,
+            "HeatDamage": 50,
+            "StabilityDamage": 50
         },
 		
 		"BonusDescriptions": [
 				"WpnAccuracy: +1",
+				"WpnCrits: +15%",
+				"WeaponBoom: 80",
+				"WeaponAttachmentCompatible: Laser Insulator",
 				"WeaponJAMFlat: 1.25",
 				"NoFireInMelee",
-				"WeaponAttachmentCompatible: Laser Insulator"
+				"WeaponAttachmentCompatible: Laser FCS"
 			]
 	},
 	"Category": "Energy",
@@ -35,13 +38,13 @@
 	"StartingAmmoCapacity": 0,
 	"HeatGenerated": 112,
 	"Damage": 100,
-	"OverheatedDamageMultiplier": 1.25,
-	"EvasiveDamageMultiplier": 1.25,
+	"OverheatedDamageMultiplier": 1.33,
+	"EvasiveDamageMultiplier": 1.0,
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
 	"AccuracyModifier": -1,
-	"CriticalChanceMultiplier": 1.0,
+	"CriticalChanceMultiplier": 1.15,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,
@@ -54,7 +57,7 @@
 	"FireTerrainChance": 0,
 	"WeaponEffectID": "WeaponEffect-Weapon_COILS",
 	"Description": {
-		"Cost": 1570000,
+		"Cost": 2570000,
 		"Rarity": 6,
 		"Purchasable": true,
 		"Manufacturer": "Pafftek Industries",
@@ -62,7 +65,7 @@
 		"UIName": "HYPER Laser",
 		"Id": "Weapon_Laser_LargeLaser_HYPER",
 		"Name": "HYPER Laser",
-		"Details": "A productionized version of the RISC Hyper Laser project, the HYPER laser is a Pafftek Industries heavy laser.  The Laser can explode if damaged.  Weapon is damaged if the Cooling sheath freezes.",
+		"Details": "The Hegemony Institute of Strategic Combat’s Hyperlaser project created a massive weapon capable of vast feats of destruction.  However, the heat production was excessive.   Pafftek Industries, having licensed the design as a second source production contract for the Hegemony, took their turn adjusting the basic HISC Hyperlaser into something… a little different.   The Pafftek version can not be used during melee combat, does less damage, generates less heat, and is not as volatile.  In a package that is the same size as the original weapon.  All these detriments, however, have some huge payoffs. When the carrying unit invariably overheats, the Pafftek Version of the Hyperlaser increases its damage output.  When the Cooling jacket is cracked on the emitter complex, this Hyperlaser has a less violent explosion.   However, there is a minimal chance that the Pafftek Hyperlaser will jam.",
 		"Icon": "uixSvgIcon_weapon_Energy"
 	},
 	"BonusValueA": "Explodie",
@@ -79,10 +82,13 @@
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
+			"component_type_variant",
+			"component_type_variant3",
 			"range_extreme",
 			"LaserInsulatorAttachable.{location}",
-			"LaserInsulatorSupported-SingleShot"
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot",
+			"WebbTCSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

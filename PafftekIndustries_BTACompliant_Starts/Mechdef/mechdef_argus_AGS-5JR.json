@@ -394,7 +394,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Hawkeye100",
+			"ComponentDefID": "Gear_Cockpit_100_Hawkeye",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,

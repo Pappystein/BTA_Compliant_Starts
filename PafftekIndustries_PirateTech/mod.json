@@ -1,0 +1,39 @@
+{
+    "Name": "PafftekIndustries_PirateTech",
+	"Author": "Pappystein",
+    "Enabled": true,
+	"Hidden": true,
+	
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.AmmoCategoryEnumeration",
+			"path": "AmmoCategory.json"
+		}
+	],
+    "Contact": "",
+	"Manifest": [
+			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
+			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },
+			{ "Type": "MechDef", "Path": "Mechs/Mechdef" },	
+			{ "Type": "ChassisDef", "Path": "Mechs/Chassisdef" },
+			{ "Type": "UpgradeDef", "Path": "Tech/Upgrades" },
+			{ "Type": "UpgradeDef", "Path": "Tech/Internals" },
+			{ "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
+			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
+			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
+			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
+			{ "Type": "AmmunitionDef", "Path": "Ammunition" },
+			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/" },
+			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
+			{ "Type": "VehicleDef",	"Path": "Vehicles/VehicleDef" },
+			{ "Type": "VehicleChassisDef", "Path": "Vehicles/VehicleChassisDef" },
+			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true},
+			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
+			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" }
+  ],
+    "OptionallyDependsOn": [		
+    ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_BTACompliant_Starts" ],
+	"ConflictsWith": [				
+	]
+}

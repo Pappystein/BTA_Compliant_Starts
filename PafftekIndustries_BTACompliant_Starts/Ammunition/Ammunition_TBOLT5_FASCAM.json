@@ -18,9 +18,10 @@
 	"CriticalDamageModifier": 1,
 	"HasShells": true,
 	"ShellsRadius": 30,
-	"MinShellsDistance": 30,
-	"MaxShellsDistance": 120,
+	"MinShellsDistance": 60,
+	"MaxShellsDistance": 240,
 	"UnseparatedDamageMult": 0.6,
+	"DamageMultiplier": 0.25,
 	"ProjectilesPerShot": 5,
 	"MineField": {
 		"UIName": "Landmine",
@@ -29,10 +30,10 @@
 		"IFFLevel": 1,
 		"Count": 1,
 		"Heat": 5,
-		"Chance": 1,
-		"Damage": 5,
-		"AOEDamage": 5,
-		"AOERange": 10,
+		"Chance": 0.8,
+		"Damage": 10,
+		"AOEDamage": 10,
+		"AOERange": 30,
 		"AOEHeat": 5,
 		"AOEInstability": 1,
 		"VFXprefab": "vfxNstPrtl_vehicleCrushed_A",
@@ -49,6 +50,7 @@
 		"FireTerrainStrength": 0,
 		"FireOnSuccessHit": true,
 		"FireTerrainCellRadius": 3,
+		"MinefieldDefID": "TBM5 FASCAM",
 		"statusEffects": []
 	}
 } 

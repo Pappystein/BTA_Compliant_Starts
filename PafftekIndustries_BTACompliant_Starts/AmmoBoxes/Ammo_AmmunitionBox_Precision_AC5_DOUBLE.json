@@ -18,14 +18,14 @@
 		"BonusDescriptions": [
 				"ACAccuracy: +1",
 				"CostPerShot: 55",
-				"AC5Ammo: 66"
+				"AC5Ammo: 40"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 400
 		}
 	},
 	"AmmoID": "Ammunition_AC5_Precision",
-	"Capacity": 66,
+	"Capacity": 40,
 	"Description": {
 		"Cost": 60000,
 		"Rarity": 5,
@@ -35,7 +35,7 @@
 		"UIName": "Ammo AC/5 [PRE][D]",
 		"Id": "Ammo_AmmunitionBox_Precision_AC5_DOUBLE",
 		"Name": "AC/5 Precision Ammo Double",
-		"Details": "Precision AC Ammo carries self-guided gyrojet shells increasing accuracy. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 66 shots.",
+		"Details": "Precision AC Ammo carries self-guided gyrojet shells increasing accuracy. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 40 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
 	"BonusValueA": "+1Accuracy",

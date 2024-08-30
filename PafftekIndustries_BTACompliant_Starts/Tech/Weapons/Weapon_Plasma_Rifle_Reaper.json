@@ -100,7 +100,9 @@
 			"AOECapable": true,
 			"AOERange": 30,
 			"AOEDamage": 15,
-			"AOEHeatDamage": 30,
+			"AOEHeatDamage": 15,
+			"Damage": -10,
+			"HeatDamage": -10,
 			"HeatGenerated": 25
 		}
 	],

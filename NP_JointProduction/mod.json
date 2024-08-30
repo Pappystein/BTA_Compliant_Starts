@@ -1,0 +1,44 @@
+{
+	"Name": "NP_JointProduction",
+	"Enabled": true,
+	"Hidden": true,
+	"Description": "Mod Co-developed by N0MERCY/Dragonforks and Pappystein.  Initally based on N0MERCY's Catapult D-1, polished and expanded by both.",
+	"Contact": "",
+	"Manifest": [
+		{
+			"Type": "MechDef",
+			"Path": "Catapult/Mechdef/"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "Catapult/Chassisdef/"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Tech/Upgrades"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Tech/Internal"
+		},
+		{
+			"Type": "WeaponDef",
+			"Path": "Tech/Weapons"
+		},
+		{
+			"Type": "JumpJetDef",
+			"Path": "Tech/JumpJets"
+		}
+	],
+	"OptionallyDependsOn": [
+		"PafftekIndustries_BTACompliant_Starts",
+		"N0MERCY Specials - Mechs"
+	],
+	"DependsOn": [
+		"BTA Difficulty Settings"
+	],
+	"ConflictsWith": [],
+	"Settings": {
+		"CustomStartingResults": {}
+	}
+}

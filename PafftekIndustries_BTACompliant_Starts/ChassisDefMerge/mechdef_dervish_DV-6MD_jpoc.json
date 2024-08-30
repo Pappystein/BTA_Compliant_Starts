@@ -2,9 +2,9 @@
     "TargetID": "chassisdef_dervish_DV-6MD",
     "Instructions": [
 		{
-            "JSONPath": "ChassisTags",
-            "Action": "ObjectMerge",
-            "Value": {"items":["HalfRoyal"]}
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "HalfRoyal"
         }
     ]
 }

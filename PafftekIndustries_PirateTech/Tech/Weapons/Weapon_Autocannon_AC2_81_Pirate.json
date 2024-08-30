@@ -1,0 +1,114 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+				"NoFireInMelee",
+				"WpnRecoil: Variable",
+				"VariableBurstCount: 3"
+			]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 120,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"AmmoCategory": "AC2",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 3,
+	"Damage": 7,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.75,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 3,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 3,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 0.2,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Eloder Mak",
+		"Model": "AC/2 Slamfire Autocannon",
+		"UIName": "AC/2 Slamfire 81",
+		"Id": "Weapon_Autocannon_AC2_81_Pirate",
+		"Name": "AC/2 Slamfire",
+		"Details": "Originating out of a cargo full of Kali-Yama Class 2 Autocannons, the Slamfire Autocannon is a kludgy attempt by Eloder Mak LLC, a believed Pirate organization, to make an equivalent to the 'Ultra Autocannon.'  It fails miserably to do so.  Rarely however, it has a spat of reliable operation.  In these rare instances, it is a good light support autocannon.  5x mode fires 5 shots with a 33% jamming chance, 7x mode fires 7 shots total with an 86% chance of jamming AND a cooldown minimum of 1 turn.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC2",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 7.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"FireDelayMultiplier": 2,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "STD",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0,
+			"FlatJammingChance": 0.08
+		},
+		{
+			"Id": "x2",
+			"UIName": "x5",
+			"isBaseMode": true,
+			"ShotsWhenFired": 2,
+			"HeatGenerated": 8,
+			"FireDelayMultiplier": 0.3,
+			"FlatJammingChance": 0.33,
+			"RefireModifier": 1,
+			"AttackRecoil": 4
+			
+		},
+		{
+			"Id": "x3",
+			"UIName": "x7",
+			"isBaseMode": false,
+			"ShotsWhenFired": 4,
+			"HeatGenerated": 18,
+			"FireDelayMultiplier": 0.3,
+			"FlatJammingChance": 0.86,
+			"RefireModifier": 8,
+			"Cooldown": 1,
+			"AttackRecoil": 7
+			
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}

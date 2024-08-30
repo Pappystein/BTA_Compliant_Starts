@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Strider",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 3750000,
 		"Rarity": 1,
@@ -200,6 +207,15 @@
 	"StockRole": "PAI Omnimech",
 	"YangsThoughts": "This design started in a major heist, plain and simple.  Given the issues that LAW has had acquiring weapons to fit to their Strider lines, it is not suprising that this exists and is part of a co-operative effort with PAI after the initial theft.",
 	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Gyro_Omnimech",

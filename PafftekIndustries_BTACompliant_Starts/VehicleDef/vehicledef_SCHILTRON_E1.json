@@ -3,13 +3,13 @@
 	"Description": {
 		"Id": "vehicledef_SCHILTRON_E1",
 		"Name": "Schiltron E1",
-		"Details": "A NLRM equipped Schiltron B.  The E changes from an ArtemisIV equiped mech to a LRM FCS equipped system utilizing Hydra and Listen Kill Munitions.",
+		"Details": "Designed for Rapid supressive fire at medium range the Schiltron E, carries the Multi-Missile Launcher in a 9x3 array on the forward hull with two Ultra Autocannon/5 in the turret with the C3-Master system.",
 		"Icon": "Schiltron",
 		"Cost": 3593,
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_SCHILTRON_E",
+	"ChassisID": "vehiclechassisdef_SCHILTRON_E1",
 	"VehicleTags": {
 		"items": [
 			"unit_controllableTank",		
@@ -66,7 +66,7 @@
 	],
 	"inventory": [
 		{
-			"ComponentDefID": "Weapon_LRM_NLRM15_0-STOCK",
+			"ComponentDefID": "Weapon_MML_9",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,
@@ -74,7 +74,7 @@
 			"LocalGUID":"target_LRM_1"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_NLRM15_0-STOCK",
+			"ComponentDefID": "Weapon_MML_9",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 1,
@@ -82,7 +82,15 @@
 			"LocalGUID":"target_LRM_2"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_NLRM10_0-STOCK",
+			"ComponentDefID": "Weapon_MML_9",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Front",
+			"HardpointSlot": 3,
+			"DamageLevel": "Functional",
+			"LocalGUID":"target_LRM_3"
+		},
+		{
+			"ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,
@@ -90,7 +98,7 @@
 			"LocalGUID":"target_LRM_3"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_NLRM10_0-STOCK",
+			"ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 1,
@@ -98,31 +106,10 @@
 			"LocalGUID":"target_LRM_4"
 		},
 		{
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Turret",
-			"HardpointSlot": 2,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Turret",
-			"HardpointSlot": 3,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Turret",
-			"HardpointSlot": 4,
-			"DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Weapon_C3_Master",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
-			"HardpointSlot": 5,
+			"HardpointSlot": 2,
 			"DamageLevel": "Functional"
 		},
 		{
@@ -133,39 +120,14 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Gear_Attachment_LRMFCS",
-			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Front",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_1"
-		},
-		{
-			"ComponentDefID": "Gear_Attachment_LRMFCS",
-			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Front",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_2"
-		},
-		{
-			"ComponentDefID": "Gear_Attachment_LRMFCS",
-			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Turret",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_3"
-		},
-		{
-			"ComponentDefID": "Gear_Attachment_LRMFCS",
-			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Turret",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_4"
-		},
-		{
 			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Right",
 			"HardpointSlot": -1,
@@ -179,42 +141,42 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Right",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Right",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Hydra_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Left",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Hydra_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Left",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Hydra_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Left",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Hydra_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Left",
 			"HardpointSlot": -1,

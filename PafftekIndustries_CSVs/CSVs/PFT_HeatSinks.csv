@@ -1,0 +1,8 @@
+PFT_HeatSinks,,,
+emod_engineslots_il_center,HeatSink,3,5
+emod_engineslots_ixl_center,HeatSink,2,5
+Gear_HeatSink_Generic_Thermal-Exchanger-Clan,HeatSink,2,5
+Gear_HeatSink_Generic_Thermal-Exchanger-Clan1,HeatSink,1,1
+Gear_HeatSink_Generic_Thermal-Exchanger-IV,HeatSink,1,9
+Gear_HeatSink_Generic_Thermal-Exchanger-V,HeatSink,1,9
+Gear_HeatSink_Generic_Thermal-Exchanger-VI,HeatSink,1,9

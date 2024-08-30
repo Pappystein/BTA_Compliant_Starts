@@ -1,0 +1,96 @@
+{
+	"Custom": {
+		"Color": "Orange",
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "1000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 20"
+			}
+		},
+		"Weights": {
+			"StructureFactor": 1.0
+		},
+		"ArmorStructureChanges": {
+			"StructureFactor": 1.5
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 10,
+			"ShowIcon": true,
+			"NameText": "Endo-Reinforced",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},		
+		"Category": {
+			"CategoryID": "Structure"
+		},
+		"Flags": [
+			"ignore_damage",
+			"autorepair",
+			"not_broken",
+			"no_salvage"
+		],
+		"BonusDescriptions": [
+			"StructureProtection: +50%",
+			"CritRes: 25%"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "LIC",
+		"Model": "Endo-Reinforced",
+		"UIName": "Endo-Reinforced",
+		"Id": "emod_structureslots_reinforced_Endo",
+		"Name": "Endo-Reinforced Structure",
+		"Details": "Endo-Reinforced only appears on a few mechs made by alledgedly Pirate production groups.  Mot notably tied to 1D10T industries and Eloder Mak Mechs but it has been seen on others as well.  Endo-Reinforced combines an alloy of Endo-Steel with the alloy used for Reinforced Structure.  The result has some interesting features.  The resulting super-alloy has a msss per unit of standard structural materials, while still offering extra critical protection and structural rigidity.  At the cost of 10 crits worth of space.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": ".",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ReinforcedCritImmune",
+				"Name": "Reinforced Structure",
+				"Details": "Reinforced Structure provides crit reduction.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.25",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_MurderINC",
+			"Name": "CODE-187",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Kanowit"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Pafftek_Stormcrow,itemCollection_Pafftek_Raven,itemCollection_Pafftek_Raven,itemCollection_Pafftek_Raven,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Vehicle_Combat_PFT"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Kurita:15,ClanNovaCat:15,SelfEmployed:75,MercenaryReviewBoard:125"
+				}
+			]
+		}
+	}]
+}

@@ -1,0 +1,82 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+				"NoFireInMelee",
+				"WpnRecoil: 2",
+				"WeaponAttachmentCompatible: Autocannon FCS"
+			]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 120,
+	"MaxRange": 800,
+	"RangeSplit": [
+		180,
+		420,
+		680
+	],
+	"AmmoCategory": "AC2",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 5,
+	"Damage": 8,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 1,
+	"CriticalChanceMultiplier": 0.75,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 3,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 3,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 0.2,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Eloder Mak",
+		"Model": "Tiny Blunderbuss Autocannon",
+		"UIName": "AC/2 Short Barrel 80",
+		"Id": "Weapon_Autocannon_AC2_80_Pirate",
+		"Name": "Short Barrel AC/2",
+		"Details": "A group of Pirates, the so-called Eloder Mak LLC, who have an 'inside' track on everything GM, received a shipment of GM Sniper Autocannons.   The barrels were warped near the ends.   Cutting the badly mangled barrel ends off and 'gently' heating the barrel to allow for straightening.  The resulting autocannon, 'The Tiny Blunderbuss,' has less mass and more damage but with the downside of higher heat generation due to the less-than-ideal metallurgical makeup and more recoil due to the lowered mass.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC2",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"AutocannonFCSSupported-Standard",
+			"WebbTCSupported-SingleShot",
+			"QuirkMaulerSupported-AC2"
+		],
+		"tagSetSourceFile": ""
+	}
+}

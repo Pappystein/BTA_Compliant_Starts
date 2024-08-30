@@ -1,0 +1,12 @@
+PFT_GaussAmmo,,,
+Ammo_AmmunitionBox_AirBurst_GAUSS,AmmunitionBox,3,1
+Ammo_AmmunitionBox_AirBurst_GAUSS_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_GAUSS_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_HGAUSS_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_MAGSHOT_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_MAGSHOT_HALF,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_MAGSHOT,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_HGAUSS,AmmunitionBox,3,1
+Ammo_AmmunitionBox_Generic_GAUSS,AmmunitionBox,4,1
+Ammo_AmmunitionBox_Generic_SBGAUSS_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_SBGAUSS,AmmunitionBox,3,1

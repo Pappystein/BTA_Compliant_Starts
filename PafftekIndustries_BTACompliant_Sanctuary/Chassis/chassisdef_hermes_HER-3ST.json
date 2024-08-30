@@ -191,7 +191,8 @@
 	"ChassisTags": {
 		"items": [
 			"ArmLimitLowerLeft",
-			"LightMech"
+			"LightMech",
+		"SanctuaryRefit"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -1,0 +1,17 @@
+PFT_AutocannonAmmo,,,
+Ammo_AmmunitionBox_Gellshot_AC2_half,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Piercing_AC2_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Precision_AC2_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_AC2_Double,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Gellshot_AC5_half,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Piercing_AC5_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Precision_AC5_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_AC5_Double,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Gellshot_AC10_half,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Piercing_AC10_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Precision_AC10_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_AC10_Double,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Gellshot_AC20_half,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Piercing_AC20_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Precision_AC20_DOUBLE,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_AC20_Double,AmmunitionBox,2,1

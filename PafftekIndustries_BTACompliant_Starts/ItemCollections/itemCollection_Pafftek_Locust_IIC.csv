@@ -1,7 +1,10 @@
 itemCollection_Pafftek_Locust_IIC,,,
-locustiic_LCT-IIC-1,Mech,1,5
-locustiic_LCT-IIC-2,Mech,1,5
-locustiic_LCT-IIC-3,Mech,1,5
-locustiic_LCT-IIC-4,Mech,1,5
-locustiic_LCT-IIC-5,Mech,1,5
-locustiic_LCT-IIC-TT,Mech,1,1
+mechdef_locustiic_LCT-IIC-1,Mech,1,5
+mechdef_locustiic_LCT-IIC-2,Mech,1,5
+mechdef_locustiic_LCT-IIC-3,Mech,1,5
+mechdef_locustiic_LCT-IIC-4,Mech,1,5
+mechdef_locustiic_LCT-IIC-5,Mech,1,5
+mechdef_locustii_LCT-2-1V,Mech,1,3
+mechdef_locustii_LCT-2-2D,Mech,1,3
+mechdef_locustii_LCT-2-2L,Mech,1,3
+mechdef_locustii_LCT-2-2V,Mech,1,3

@@ -1,0 +1,9 @@
+PFT_IS_AC10_Ammo,,,
+Ammo_AmmunitionBox_AoE_AC10,AmmunitionBox,1,2
+Ammo_AmmunitionBox_AP_AC10,AmmunitionBox,1,4
+Ammo_AmmunitionBox_Caseless_AC10,AmmunitionBox,1,6
+Ammo_AmmunitionBox_Generic_AC10,AmmunitionBox,1,8
+Ammo_AmmunitionBox_Generic_AC10_half,AmmunitionBox,2,6
+Ammo_AmmunitionBox_Piercing_AC10,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Precision_AC10,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Sabot_AC10,AmmunitionBox,1,1

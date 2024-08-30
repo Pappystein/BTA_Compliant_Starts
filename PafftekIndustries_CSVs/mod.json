@@ -1,0 +1,25 @@
+{
+	"Name": "PafftekIndustries_CSVs",
+	"Description": "Alters the start process hopefully",
+	"Version": "1.1.0.0",
+	"Author": "Pappystein",
+	"Contact": "BTA Discord",
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [
+		"BT Advanced Core"
+	],	
+	"Manifest": [
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "CSVs",
+			"AddToDB": true
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "CSVs_To_Append",
+			"ShouldAppendText": true
+		}
+	]
+	
+}

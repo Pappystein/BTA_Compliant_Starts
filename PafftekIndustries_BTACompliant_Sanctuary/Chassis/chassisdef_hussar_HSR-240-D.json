@@ -186,7 +186,8 @@
 	"VariantName": "HSR-240-D",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+		"SanctuaryRefit"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -20,7 +20,7 @@
 	"DisableClustering": false,
 	"HasShells": true,
 	"ShellsRadius": 30,
-	"MinShellsDistance": 45,
+	"MinShellsDistance": 5,
 	"MaxShellsDistance": 30,
 	"UnseparatedDamageMult": 0.75,
 	"ProjectilesPerShot": 30

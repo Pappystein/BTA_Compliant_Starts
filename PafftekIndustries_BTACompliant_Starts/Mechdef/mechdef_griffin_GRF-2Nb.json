@@ -415,7 +415,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": "",
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,

@@ -41,11 +41,11 @@
 			{ "Type": "MechDef", "Path": "OperationDeepFreeze/Mechdef/" },
 			{ "Type": "ChassisDef", "Path": "OperationDeepFreeze/Chassisdef/" },
 			{ "Type": "PilotDef", "Path": "PafftekIndustries_Pilots/Pilots/" },
-			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" }		
+			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" }
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core" ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_CSVs" ],
 	"ConflictsWith": [				
 	]
 }

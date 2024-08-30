@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Fireboss,itemCollection_Pafftek_Firebugs,itemCollection_Pafftek_Firebugs,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_BattleArmor,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Pafftek_Fireboss,itemCollection_Pafftek_Firebugs,itemCollection_Pafftek_Firebugs,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_Firegnat,itemCollection_Pafftek_Firegnat,itemCollection_Vehicle_Scout_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",

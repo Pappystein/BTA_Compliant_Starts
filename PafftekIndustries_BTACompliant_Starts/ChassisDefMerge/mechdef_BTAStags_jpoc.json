@@ -1,0 +1,24 @@
+{
+	"TargetType": "ChassisDef",
+    "TargetIDs": ["chassisdef_stag_STG-15G,chassisdef_stagii_STG-24G,chassisdef_stagii_STG-25G,chassisdef_stagii_STG-30G"],
+    "Instructions": [
+		{
+            "JSONPath": "FixedEquipment[0]",
+            "Action": "ArrayAddBefore",
+            "Value": [		
+					{
+						"MountedLocation": "RightArm",
+						"ComponentDefID": "emod_arm_stabalized_lower",
+						"SimGameUID": "",
+						"ComponentDefType": "Upgrade",
+						"HardpointSlot": -1,
+						"IsFixed": true,
+						"GUID": null,
+						"DamageLevel": "Functional",
+						"prefabName": "",
+						"hasPrefabName": false
+					}
+			]
+		}
+    ]
+}

@@ -1,0 +1,27 @@
+{
+   "Description": {
+      "Id": "Ammunition_TBOLT20_AB30",
+      "Name": "Thunderbolt 20 Ammo",
+      "UIName": "Air-Burst",
+      "Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "TBOLT20",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 0.7,
+	"ISDamageModifier": 0.7,
+	"CriticalDamageModifier": 1.15,
+	"HitGenerator": "Cluster",
+	"DisableClustering": false,
+	"HasShells": true,
+	"ShellsRadius": 30,
+	"MinShellsDistance": 5,
+	"MaxShellsDistance": 30,
+	"UnseparatedDamageMult": 0.75,
+	"ProjectilesPerShot": 40
+}

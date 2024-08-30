@@ -1,0 +1,56 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/a/ac"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 100,
+			"HeatDamagePerAmmo": 40,
+			"StabilityDamagePerAmmo": 25
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 10000",
+				"AmmoCount: 2"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 10000
+		}
+	},
+	"AmmoID": "Ammunition_AC20_Incendiary",
+	"Capacity": 2,
+	"Description": {
+		"Cost": 264000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "AC20",
+		"UIName": "Ammo AC/20 [Gell]",
+		"Id": "Ammo_AmmunitionBox_Gellshot_AC20_half",
+		"Name": "AC/20 Ammo",
+		"Details": "Specialized Autocannon shells for inferno heat based attacks, the Gellshot is an expensive way to add heat to an enemy unit.   Capacity is 1/2 that of a stanadard 1 ton bin.  This is because of the need for extra saftey equipment to prevent premature detonation. Risk can be mitigated with the use of C.A.S.E. Has 2 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Ballistic"
+	},
+	"BonusValueA": "Inferno",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

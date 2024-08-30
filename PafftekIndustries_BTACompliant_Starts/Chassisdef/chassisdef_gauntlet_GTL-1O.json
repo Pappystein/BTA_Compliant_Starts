@@ -1,0 +1,347 @@
+{
+  "Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Gauntlet",
+			"Exclude": false,
+			"Include": true
+		}
+	},	
+	"Description": {
+		"Cost": 4700000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Gauntlet",
+		"Id": "chassisdef_gauntlet_GTL-1O",
+		"Name": "Gauntlet",
+		"Details": "After the intial crush of orders for the Bushwacker had been completed, Conventry Metal Works sought about a way to incorporate the new Omni-mech Technology into the Bushwacker chassis.   The results are the Gauntlet.  Lyran senior command was not amused at ths 'waste' of engineering.   Made on the same production line as the Bushwacker due to its high percentage of common parts, the Gauntlet is inexpensive for an omni-mech.  However the disdain from LCAF senior command has resulted in this mech being in lower ranking LCAF units.",
+		"Icon": "uixTxrIcon_bushwacker"
+	},
+	"MovementCapDefID": "movedef_jayhawker",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_bushwacker",
+	"PrefabIdentifier": "chrprfmech_bushwackerbase-001",
+	"PrefabBase": "bushwacker",
+	"Tonnage": 55,
+	"InitialTonnage": 5.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 5171000,
+	"Heatsinks": 0,
+	"TopSpeed": 80,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 60,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 60,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 60,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 16,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 6,
+			"z": 2.5
+		},
+		{
+			"x": -2.5,
+			"y": 6,
+			"z": 2.5
+		}
+	],
+	"VariantName": "GTL-1O",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"MediumMech",
+			"OmniMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "2nd Gen Calvary Omni",
+	"YangsThoughts": "Omni-mech that has more than a 40% parts commonality with a non-Omni-mech... Boss this is going to confuse the supply clerks.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_quirk_gauntlet_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Quirk_Gauntlet_LifeSupportA_Standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_lightferrosfibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_275",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_cooling",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_dhs",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_light_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_MASC_Omni",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}		
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

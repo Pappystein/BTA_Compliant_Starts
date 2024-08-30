@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_SCHILTRON_A",
+	"ChassisID": "vehiclechassisdef_SCHILTRON_A1",
 	"VehicleTags": {
 		"items": [
 			"unit_controllableTank",		

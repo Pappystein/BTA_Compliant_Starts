@@ -8,7 +8,7 @@
 			"CategoryID": "NeverMelee"
 		}
     ],
-	"Lootable": "Weapon_SRM_SRM10_1-Pafftek"
+	"Lootable": "Weapon_SRM_SRM10_0-Stock"
   },
   "weaponCategoryID": "Artillery",
   "Type": "SRM",

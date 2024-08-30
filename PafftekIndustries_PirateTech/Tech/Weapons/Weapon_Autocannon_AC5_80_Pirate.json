@@ -1,0 +1,81 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+				"NoFireInMelee",
+				"WpnRecoil: 2",
+				"WeaponAttachmentCompatible: Autocannon FCS"
+			]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 90,
+	"MaxRange": 720,
+	"RangeSplit": [
+		180,
+		360,
+		540
+	],
+	"AmmoCategory": "AC5",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 6,
+	"Damage": 25,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 2,
+	"Instability": 18,
+	"FlatJammingChance": 0.33,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
+	"Description": {
+		"Cost": 270000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "1D10T Industries",
+		"Model": "Threat Reduction Autocannon",
+		"UIName": "AC/5-80",
+		"Id": "Weapon_Autocannon_AC5_80_Pirate",
+		"Name": "AC/5-80",
+		"Details": "Taking a Myrmadon AC/5 shipment as it's basis, most of the manufacturing marks can still be found on these weapons, 1D10T Industries increased the pressure in the bore to create a harder hitting more accurate AC/5.  The downside to this is the weapon no longer has jam free operation.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC5",
+	"BattleValue": 0,
+	"InventorySize": 4,
+	"Tonnage": 8,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant3",
+			"range_very-long",
+			"AutocannonFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

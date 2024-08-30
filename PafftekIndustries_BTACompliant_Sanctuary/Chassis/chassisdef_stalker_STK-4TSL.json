@@ -246,7 +246,8 @@
 		"items": [
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
-			"HeavyMech"
+			"HeavyMech",
+		"SanctuaryRefit"
 		],
 		"tagSetSourceFile": ""
 	},

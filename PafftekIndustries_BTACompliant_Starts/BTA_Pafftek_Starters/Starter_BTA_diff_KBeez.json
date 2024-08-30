@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Stinger,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Hornet,itemCollection_Pafftek_Bumblebee,itemCollection_Pafftek_Firemoth,itemCollection_Pafftek_BattleArmor,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Pafftek_BattleArmor"
+					"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Stinger,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Hornet,itemCollection_Pafftek_Bumblebee,itemCollection_Pafftek_Firemoth,itemCollection_Pafftek_BattleArmor"
 				},
 				{
 					"ConstantType": "CareerMode",

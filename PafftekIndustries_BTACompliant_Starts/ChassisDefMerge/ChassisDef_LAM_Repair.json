@@ -4,9 +4,9 @@
 		"chassisdef_phoenixhawk_PHX-HK1", "chassisdef_phoenixhawk_PHX-HK1R", "chassisdef_phoenixhawk_PHX-HK2", "chassisdef_phoenixhawk_PHX-HK2B", "chassisdef_phoenixhawk_PHX-HK2M", "chassisdef_phoenixhawk_PHX-HK2P", "chassisdef_phoenixhawk_PHX-HK3"],
     "Instructions": [
 		{
-            "JSONPath": "ChassisTags",
-            "Action": "ObjectMerge",
-            "Value": {"items":["SLDFMech"]}
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "SLDFMech"
         }
     ]
 }

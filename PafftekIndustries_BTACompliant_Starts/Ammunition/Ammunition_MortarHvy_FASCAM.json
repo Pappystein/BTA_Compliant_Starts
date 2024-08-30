@@ -31,7 +31,7 @@
 		"Heat": 5,
 		"Chance": 0.8,
 		"Damage": 5,
-		"AOEDamage": 5,
+		"AOEDamage": 10,
 		"AOERange": 10,
 		"AOEHeat": 5,
 		"AOEInstability": 1,
@@ -49,6 +49,7 @@
 		"FireTerrainStrength": 0,
 		"FireOnSuccessHit": true,
 		"FireTerrainCellRadius": 3,
+		"MinefieldDefID": "HVY Mortar FASCAM",
 		"statusEffects": []
 	}
 }

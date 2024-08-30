@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Tarantula,itemCollection_Pafftek_Tarantula,itemCollection_Pafftek_Venom,itemCollection_Pafftek_Venom,itemCollection_Pafftek_Spider,itemCollection_Pafftek_Spider,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Pafftek_Tarantula,itemCollection_Pafftek_Tarantula,itemCollection_Pafftek_Venom,itemCollection_Pafftek_Venom,itemCollection_Pafftek_Spider,itemCollection_Pafftek_Spider,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
 					
 				},
 				{

@@ -518,9 +518,9 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
 			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

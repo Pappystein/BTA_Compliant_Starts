@@ -27,7 +27,7 @@
 		"Purchasable": true,
 		"Manufacturer": "ICP Industries",
 		"Model": "HvyMORTAR",
-		"UIName": "Ammo Hvy Mortar",
+		"UIName": "HEAT Hvy/Mortar (Shaped Charge)",
 		"Id": "Ammo_AmmunitionBox_Generic_MortarHvy_SC",
 		"Name": "Hvy Mortar Ammo",
 		"Details": "Heavy Mortar shells deliver a massive Explosive payload, able to damage several units on impact. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",

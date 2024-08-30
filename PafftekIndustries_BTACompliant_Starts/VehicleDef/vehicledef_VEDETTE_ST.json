@@ -79,15 +79,30 @@
 			"DamageLevel": "Functional"
 		}
 	],
-	"inventory": [{
-			"ComponentDefID": "Weapon_Autocannon_UAC2_0-STOCK",
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_Autocannon_LAC2_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC2",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_AC2",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Sabot_AC2",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Rear",
 			"HardpointSlot": -1,
@@ -102,28 +117,21 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_Gauss_Magshot_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MAGSHOT_HALF",
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
+			"ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 2,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
 			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Narc_Haywire_Improved",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

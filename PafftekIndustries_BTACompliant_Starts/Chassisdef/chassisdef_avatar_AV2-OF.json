@@ -1,12 +1,23 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Avatar",
+			"PrefabID": "Avatar2",
 			"Exclude": false,
 			"Include": true
 		}
 	},
 	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_dhs",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},	
 		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_MASC_Omni",
@@ -17,7 +28,16 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},	
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},		
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_endocomposite",

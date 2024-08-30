@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Special_SSRM2_Mediums,itemCollection_Mechs_Special_SSRM2_Mediums,itemCollection_Mechs_Special_SSRM2,itemCollection_Mechs_Special_SSRM2,itemCollection_Mechs_Special_SSRM2,itemCollection_Vehicle_Arty_BTA,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_IFV_BTA"},
+					"ConstantValue": "itemCollection_Mechs_Special_SSRM2_Mediums,itemCollection_Mechs_Special_SSRM2_Mediums,itemCollection_Mechs_Special_SSRM2,itemCollection_Mechs_Special_SSRM2,itemCollection_Mechs_Special_SSRM2,itemCollection_Vehicle_Arty_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",

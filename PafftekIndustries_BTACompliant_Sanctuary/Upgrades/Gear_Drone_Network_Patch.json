@@ -1,0 +1,90 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "C3Slave"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"DroneNetwork"
+			]
+		},
+		"ActivatableComponent": {
+			"ButtonName": "Drone Network",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0.0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "Drone_Network_Engagement",
+					"Name": "Drone Network",
+					"Details": "PASSIVE: Can be part of Drone network.",
+					"Icon": ""
+				},
+				"statisticData": {
+					"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+					"operation": "Float_Add",
+					"modValue": "1",
+					"modType": "System.Single"
+				},
+				"nature": "Buff"
+			}]
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 1870000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Drone",
+		"UIName": "IS Drone Network Patch",
+		"Id": "Gear_Drone_Network_Patch",
+		"Name": "IS Drone Network Patch",
+		"Details": "This large and complicated bit of communication technology is designed to give a Mechwarrior in a non drone mech access to the Drone network. Beyond co-operative engagement capabilities, there is no gain from this piece of equipment.",
+		"Icon": "satellite-communication"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

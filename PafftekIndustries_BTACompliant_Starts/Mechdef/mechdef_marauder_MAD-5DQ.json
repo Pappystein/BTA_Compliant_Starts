@@ -33,7 +33,7 @@
 		"UIName": "Marauder MAD-5DQ",
 		"Id": "mechdef_marauder_MAD-5DQ",
 		"Name": "Marauder",
-		"Details": "Pafftek Industries, after completing the very impresive MAD-5DJ with it's tempermential Hyper Lasers, decided to re-work the design to more pedestrian but none the less efective Large Pulse lasers.  Taking the mech closer to its roots in the MAD-5D, the MAD-5DQ utilizes a smaller engine, the GM 330XL, as well as a Myomer Accelerator to maintain the typical high speed of most Pafftek Designs.   Endo Composite structure and an XL Gyroscope are used to keep the mech in fighting trim.",
+		"Details": "The Marauder MAD-5DQ is Pafftek Industries <i>RELEASE</i> version of their famously impossible to come by MAD-5HJ-1.  Since the Terran Hegemony will not allow for the release of the Hyperlaser to other parties, This mech switches to a Pafftek Industry favorite, the Piercing Large Pulse Laser.  Picked up by Davion related factions early on, the MAD-5DQ is often seen on the battlefield.",
 		"Icon": "uixTxrIcon_marauder"
 	},
 	"simGameMechPartCost": 880000,
@@ -124,7 +124,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_FightingHawk600",
+			"ComponentDefID": "Gear_Cockpit_300_Sparrow",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

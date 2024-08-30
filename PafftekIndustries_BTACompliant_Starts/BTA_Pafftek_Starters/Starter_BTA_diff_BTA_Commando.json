@@ -5,7 +5,7 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_BTA_Commando",
-			"Name": "Commando",
+			"Name": "Squad",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 0.7,
@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Clan_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Primitive_Commando,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Support_BTA,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
+					"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Clan_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Primitive_Commando,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT"
 					
 				},
 				{

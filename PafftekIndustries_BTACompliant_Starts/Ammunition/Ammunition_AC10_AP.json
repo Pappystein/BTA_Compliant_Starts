@@ -1,0 +1,30 @@
+{
+	"Description": {
+		"Id": "Ammunition_AC10_AP",
+		"Name": "AC/10 Frag Ammo",
+		"UIName": "Frag",
+		"Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "AC10",
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,	
+	"CriticalChanceMultiplier": 0.5,
+	"DamageMultiplier": 1,
+	"AIBattleValue": 50,
+	"Instability": -14,
+	"ShotsWhenFired": 0,
+	"ProjectilesPerShot": 10,
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 0.5,
+	"ISDamageModifier": 1.25,
+	"CriticalDamageModifier": 1,
+	"HitGenerator": "Cluster"
+}
