@@ -13,8 +13,7 @@
       "ExplosionDamage": 12.0,
       "HeatDamage": 30.0,
       "StabilityDamage": 10.0
-    },	
-	"DissipationCapacity": 6,
+    },
 	"Description": {
 		"Cost": 900000,
 		"Rarity": 5,
@@ -27,8 +26,8 @@
 		"Details": "Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.",
 		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 	},
-	"BonusValueA": "-10% Weapon Heat 20 extra cooling on Overheat",
-	"BonusValueB": "Explodes on Crit",
+	"BonusValueA": "-10% Weapon Heat",
+	"BonusValueB": "-4 Heat",
 	"ComponentType": "HeatSink",
 	"ComponentSubType": "Heatsink",
 	"PrefabIdentifier": "",
@@ -78,6 +77,57 @@
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Exchanger+_Venting",
+				"Name": " Exchanger IV",
+				"Details": "Exchanger IV Heat Bank system venting 6 heat",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "EndMoveHeat",
+				"operation": "Int_Add",
+				"modValue": "-4",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
 				"targetWeaponCategory": "NotSet",
 				"targetWeaponType": "NotSet",
 				"targetAmmoCategory": "NotSet",

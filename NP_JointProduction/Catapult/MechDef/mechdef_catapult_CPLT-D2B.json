@@ -420,7 +420,9 @@
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
-            "hasPrefabName": false
+            "hasPrefabName": false,
+			"LocalGUID":"Target_LA_SRM"
+			
         },
         {
             "MountedLocation": "RightArm",
@@ -431,8 +433,33 @@
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
-            "hasPrefabName": false
+            "hasPrefabName": false,
+			"LocalGUID":"Target_RA_SRM"
         },
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_Attachment_SRMFCS",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID":"Target_RA_SRM"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_Attachment_SRMFCS",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID":"Target_LA_SRM"
+		},
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
@@ -553,30 +580,6 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_Attachment_ArtemisIV",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID":"target_RTSRM_1"
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_Attachment_ArtemisIV",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID":"target_LTSRM_1"
-		}
+        }
     ]
 }

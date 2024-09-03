@@ -4,12 +4,7 @@
     "Enabled": true,
 	"Hidden": true,
 	
-	"DataAddendumEntries": [
-		{
-			"name": "BattleTech.AmmoCategoryEnumeration",
-			"path": "AmmoCategory.json"
-		}
-	],
+
     "Contact": "",
 	"Manifest": [
 			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },

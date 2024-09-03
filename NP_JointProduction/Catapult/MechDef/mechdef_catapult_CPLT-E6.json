@@ -92,55 +92,55 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 130,
-			"CurrentRearArmor": 60,
+			"CurrentArmor": 135,
+			"CurrentRearArmor": 65,
 			"CurrentInternalStructure": 75,
-			"AssignedArmor": 130,
-			"AssignedRearArmor": 60
+			"AssignedArmor": 135,
+			"AssignedRearArmor": 65
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 189,
-			"CurrentRearArmor": 75,
+			"CurrentArmor": 190,
+			"CurrentRearArmor": 80,
 			"CurrentInternalStructure": 105,
-			"AssignedArmor": 189,
-			"AssignedRearArmor": 75
+			"AssignedArmor": 190,
+			"AssignedRearArmor": 80
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 130,
-			"CurrentRearArmor": 60,
+			"CurrentArmor": 135,
+			"CurrentRearArmor": 65,
 			"CurrentInternalStructure": 75,
-			"AssignedArmor": 130,
-			"AssignedRearArmor": 60
+			"AssignedArmor": 135,
+			"AssignedRearArmor": 65
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 90,
+			"CurrentArmor": 99,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 50,
-			"AssignedArmor": 90,
+			"AssignedArmor": 99,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 120,
+			"CurrentArmor": 130,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 75,
-			"AssignedArmor": 120,
+			"AssignedArmor": 130,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 120,
+			"CurrentArmor": 130,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 75,
-			"AssignedArmor": 120,
+			"AssignedArmor": 130,
 			"AssignedRearArmor": -1
 		}
 	],

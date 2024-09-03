@@ -144,9 +144,10 @@
 			"AssignedRearArmor": -1
 		}
 	],
-	"inventory": [{
+	"inventory": [
+		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_heavyplating",
+			"ComponentDefID": "emod_armorslots_ferroantipierce",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

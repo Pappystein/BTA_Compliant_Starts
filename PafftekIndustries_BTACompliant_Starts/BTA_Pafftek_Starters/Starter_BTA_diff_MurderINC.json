@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Stormcrow,itemCollection_Pafftek_Raven,itemCollection_Pafftek_Raven,itemCollection_Pafftek_Raven,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Vehicle_Combat_PFT"
+					"ConstantValue": "itemCollection_Pafftek_Stormcrow,itemCollection_Pafftek_Raven,itemCollection_Pafftek_Raven,itemCollection_Pafftek_Raven_Basic,itemCollection_Pafftek_Raven_Basic,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",
