@@ -11,6 +11,7 @@
 			"unit_indirectFire",
 			"unit_lance_assassin",
 			"unit_role_scout",
+			"CalderonProtectorate",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -44,46 +45,46 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-			"CurrentArmor": 40,
+			"CurrentArmor": 35,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 20,
-			"AssignedArmor": 40,
+			"AssignedArmor": 35,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 40,
+			"CurrentArmor": 35,
 			"CurrentRearArmor": 20,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 40,
+			"AssignedArmor": 35,
 			"AssignedRearArmor": 20
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
 			"CurrentArmor": 50,
-			"CurrentRearArmor": 30,
+			"CurrentRearArmor": 33,
 			"CurrentInternalStructure": 40,
 			"AssignedArmor": 50,
-			"AssignedRearArmor": 30
+			"AssignedRearArmor": 33
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 40,
+			"CurrentArmor": 35,
 			"CurrentRearArmor": 20,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 40,
+			"AssignedArmor": 35,
 			"AssignedRearArmor": 20
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 40,
+			"CurrentArmor": 35,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 20,
-			"AssignedArmor": 40,
+			"AssignedArmor": 35,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -117,7 +118,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_155",
+			"ComponentDefID": "emod_engine_150",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -413,7 +414,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -424,8 +425,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_SRM_LK_H",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,

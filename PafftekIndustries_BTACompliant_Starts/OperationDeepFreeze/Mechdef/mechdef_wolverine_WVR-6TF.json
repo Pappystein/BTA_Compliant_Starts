@@ -427,6 +427,17 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_Attachment_MG_Array",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
@@ -573,17 +584,6 @@
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_BA_Handholds",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

@@ -15,10 +15,10 @@
 			"unit_lance_tank",
 			"unit_lance_vanguard",
 			"unit_role_brawler",
-	"WordOfBlake",
-	"40thShadowDivision",
-	"9thDivisionWoB",
-	"WoBProtectorateMilitia",
+			"WordOfBlake",
+			"40thShadowDivision",
+			"9thDivisionWoB",
+			"WoBProtectorateMilitia",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -411,7 +411,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-VI",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -422,9 +422,9 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_C3i",
+			"ComponentDefID": "Laser_AMS",
 			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",

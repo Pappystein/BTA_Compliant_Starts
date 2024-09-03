@@ -12,7 +12,8 @@
 			"TaurianConcordat",
 			"TaurianGuard",
 			"PleiadesHussars",
-			"unit_indirectFire"
+			"unit_indirectFire",
+			"CalderonProtectorate"
 		],
 		"tagSetSourceFile": ""
 	},

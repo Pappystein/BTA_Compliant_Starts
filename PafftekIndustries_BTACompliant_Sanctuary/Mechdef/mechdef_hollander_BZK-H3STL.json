@@ -13,6 +13,7 @@
 			"TaurianConcordat",
 			"TaurianGuard",
 			"PleiadesHussars",
+			"CalderonProtectorate",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -326,6 +327,17 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
