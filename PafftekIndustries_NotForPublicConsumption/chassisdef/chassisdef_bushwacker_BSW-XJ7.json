@@ -1,0 +1,257 @@
+{
+	"Description": {
+		"Cost": 5200000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Bushwacker",
+		"Id": "chassisdef_bushwacker_BSW-XJ7",
+		"Name": "Bushwacker",
+		"Details": "This rather unique Bushwacker seems to have been made to order for a Mechwarrior with a unique personality...  However this is a limited run production mech.   Armed with modified improved MMLs, twin Medium Lasers as well as a *Trynary* Medium Laser, this mech seems to be a medium range combatant with a speciality close in damage dealing.",
+		"Icon": "uixTxrIcon_bushwacker"
+	},
+	"MovementCapDefID": "movedef_jayhawker",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_bushwacker",
+	"PrefabIdentifier": "chrprfmech_bushwackerbase-001",
+	"PrefabBase": "bushwacker",
+	"Tonnage": 55,
+	"InitialTonnage": 5.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 5171000,
+	"Heatsinks": 0,
+	"TopSpeed": 80,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 60,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 60,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 60,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 16,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 6,
+			"z": 2.5
+		},
+		{
+			"x": -2.5,
+			"y": 6,
+			"z": 2.5
+		}
+	],
+	"VariantName": "BSW-XJ7",
+	"ChassisTags": {
+		"items": [
+			"MediumMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Skirmisher",
+	"YangsThoughts": "This mech is uniquely suited for getting in quick and critting out an enemy.  Not the fastest but fast enough.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Bushwacker",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

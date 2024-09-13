@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_BOP",
+				"Name": "Bird of Prey",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.5,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Numki"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Arty_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Kurita:35"
+					}
+				]
+			}
+		}
+	]
+}

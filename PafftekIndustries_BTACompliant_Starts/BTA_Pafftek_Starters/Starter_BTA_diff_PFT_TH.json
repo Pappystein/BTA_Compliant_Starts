@@ -1,0 +1,33 @@
+{
+    "TargetID": "CareerDifficultySettings",
+    "Instructions": [
+        {
+            "JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+            "Action": "ArrayAdd",
+            "Value": {
+                "ID": "diff_PFT_TH",
+                "Name": "Shinny",
+                "TelemetryEventDesc": "",
+                "DifficultyValue": 0,
+                "CareerScoreModifier": 0.5,
+                "DifficultyConstants": [
+                    {
+                        "ConstantType": "CareerMode",
+                        "ConstantName": "StartingSystems",
+                        "ConstantValue": "Procyon"
+                    },
+                    {
+                        "ConstantType": "CareerMode",
+                        "ConstantName": "StartingRandomMechLists",
+                        "ConstantValue": "itemCollection_Pafftek_Firefly,itemCollection_Pafftek_Firefly,itemCollection_Pafftek_Firefly,itemCollection_Pafftek_Firefly,itemCollection_Pafftek_Firefly,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
+                    },
+                    {
+                        "ConstantType": "CareerMode",
+                        "ConstantName": "FactionReputation",
+                        "ConstantValue": "Cameron:35"
+                    }
+                ]
+            }
+        }
+    ]
+}

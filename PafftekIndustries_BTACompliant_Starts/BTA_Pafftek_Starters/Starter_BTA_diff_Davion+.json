@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Pafftek_DeepFreezeMedium,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeMedium,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Arty_PFT"
+						"ConstantValue": "itemCollection_Pafftek_DeepFreezeMedium,itemCollection_Mechs_Starting_Generic_Light,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Pafftek_DeepFreezeMedium,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Arty_PFT"
 					},
 					{
 						"ConstantType": "CareerMode",

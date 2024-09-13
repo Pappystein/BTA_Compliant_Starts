@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Starting_Aurigan_Medium_Enhanced,itemCollection_Mechs_Starting_Aurigan_Light,itemCollection_Mechs_Starting_Aurigan_Light,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Mechs_SR2_Strider,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Arty_PFT,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT"
+						"ConstantValue": "itemCollection_Mechs_Starting_Aurigan_Medium_Enhanced,itemCollection_Mechs_Starting_Aurigan_Light,itemCollection_Mechs_Starting_Aurigan_Light,itemCollection_Pafftek_DeepFreezeLight,itemCollection_Mechs_SR2_Strider,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Arty_PFT,itemCollection_Vehicle_Scout_PFT"
 					}
 				]
 			}

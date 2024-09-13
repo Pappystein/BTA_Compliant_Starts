@@ -1,30 +1,33 @@
 {
 	"TargetID": "CareerDifficultySettings",
-	"Instructions": [{
-		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
-		"Action": "ArrayAdd",
-		"Value": {
-			"ID": "diff_Plague",
-			"Name": "Plague",
-			"TelemetryEventDesc": "",
-			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.8,
-			"DifficultyConstants": [{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingSystems",
-					"ConstantValue": "Bergen"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Pafftek_Locust_IIC,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "Hanse:35"
-				}
-			]
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Plague",
+				"Name": "Plague",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.8,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Bergen"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Pafftek_Locust_IIC,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Pafftek_Locust,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Hanse:35"
+					}
+				]
+			}
 		}
-	}]
+	]
 }

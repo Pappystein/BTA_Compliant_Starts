@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Catapult",
-		"Id": "chassisdef_catapult_CPLT-E1",
+		"Id": "chassisdef_catapult_CPLT-E1V1",
 		"Name": "Catapult",
-		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  The CPLT-E1 is the primary Inner sphere variant, mostly used by House Steiner in the Lyran Commonwealth, the E-1 is armed with a Heavy Gauss Rifle.",
+		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  The CPLT-E1V1 is the primary Inner sphere variant, not at all related to the CPLT-E1 simotaniously released by another firm, mostly used by House Steiner in the Lyran Commonwealth, the E-1V1 is armed with a Heavy Gauss Rifle.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

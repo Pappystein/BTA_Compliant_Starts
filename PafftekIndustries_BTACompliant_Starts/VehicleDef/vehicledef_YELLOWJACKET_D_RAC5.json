@@ -72,7 +72,7 @@
     }, 
 	{
       "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_Laser_AMS_CLAN",
+      "ComponentDefID": "Weapon_Laser_AMS_PIP",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
@@ -227,6 +227,41 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-    }
+    },
+	{
+			"MountedLocation": "Left",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Right",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Left",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Right",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
   ]
 }

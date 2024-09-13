@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": ",itemCollection_Mechs_Periphery_StrideritemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_BTA"
+					"ConstantValue": ",itemCollection_Mechs_Periphery_StrideritemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",

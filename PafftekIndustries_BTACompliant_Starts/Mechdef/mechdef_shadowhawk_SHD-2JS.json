@@ -444,10 +444,10 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Gauss"
+			"LocalGUID":"target_PPC"
 		},
 		{
-			"MountedLocation": "RigthArm",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_Attachment_PPC_Capacitor",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
