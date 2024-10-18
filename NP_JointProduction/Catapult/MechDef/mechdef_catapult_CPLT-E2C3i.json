@@ -66,7 +66,7 @@
 		"UIName": "Catapult CPLT-E2 C3i",
 		"Id": "mechdef_catapult_CPLT-E2C3i",
 		"Name": "Catapult",
-		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  The CPLT-E2 variant utilized Twin Lubbin Experimental Class 5 Multi-feed Autocannons.   The so called LB X-5 cannons are supported by two medium lasers for non ammo requiring damage potentioal.  Two tons of ammunition , one inn each side torso, jare CASE protected on this version of the mech.",
+		"Details": "The Catapult, known for its LRMs or, if you are facing the DCMS, its PPCs, has evolved; the D Series brought SRMs and maximal jumping capabilities.   The E series brings big Ballistic weapons to the Catapult.  Comstar, Word of Blake, and their allies have all chosen not to utilize a standard CPLT-E2 and instead offer this variant, the CPLT-E2C3i.  The significant difference is the removal of the Product Improved DS Aero Laser AMS and the ER Small Laser to make room in the Center Torso for a C3i advanced networking system.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"simGameMechPartCost": 740000,

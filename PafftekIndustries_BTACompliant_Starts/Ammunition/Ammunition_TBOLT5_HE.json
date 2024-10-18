@@ -19,7 +19,7 @@
 	"AOECapable": true,
 	"AOERange": 45,
 	"AOEDamage": 5,
-	"AOEInstability": 1,
+	"AOEInstability": 4,
 	"DamagePerShot": -5.0,
 	"AoEDmgFalloffType": "Log10"
 } 

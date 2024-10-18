@@ -34,8 +34,8 @@
 		"Details": "The EMP Heavy Mortar shell is utilized to apply negative status effects to the enemies in a small radii.  Little damage is actually landed with this shell but, the effects can be devestating. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
-	"BonusValueA": "",
-	"BonusValueB": "",
+	"BonusValueA": "-3 Acc to target",
+	"BonusValueB": "75% target walk speed",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

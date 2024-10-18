@@ -15,7 +15,7 @@
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"LBX20SlugAmmo: 12"
+				"AmmoCount: 12"
 			]
 		
 	},
@@ -33,8 +33,8 @@
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 12 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
-	"BonusValueA": "",
-	"BonusValueB": "",
+	"BonusValueA": "+200m range, AP 12",
+	"BonusValueB": "70% DMG, 125% crits",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

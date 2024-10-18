@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-E3",
 		"Name": "Catapult",
-		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  The CPLT-E1 is the primary Inner sphere variant, mostly used by House Steiner in the Lyran Commonwealth, the E-1 is armed with a Heavy Gauss Rifle.",
+		"Details": "The Catapult -E3 is a ballistic artillery mech.  To reduce costs, the -E3 leverages developments from Periphery Arms Inc.  Specifically, it is armed with Howitzers equipped with various CASE-protected ammunition.  Beyond this, however, is the inclusion of the Periphery \"Prototype\" XL engine core of 260 rating.  This reduces mobility significantly but, at the same time, allows for increased protection via Ferro Plate armor.  The structure of the E3 remains the same Endo Composite as that of the entire E series.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

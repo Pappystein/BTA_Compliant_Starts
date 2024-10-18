@@ -74,7 +74,7 @@
 		"UIName": "Laser AMS PIP",
 		"Id": "Weapon_Laser_AMS_PIP",
 		"Name": "Product Improved Laser Anti Missile System",
-		"Details": "The Laser Anti-Missile System (LAMS) is an advanced variation of the standard Anti-Missile Systems. This Product Imporved (PIP) Laser AMS is a little more accurate but heavier than standard Laser AMS systems.  \n\nIn \"on\" mode the AMS system will only attack targets directed at it's mounting unit.  \nIn \"Overload\" mode the AMS will attack any missile in it's envelope. \nIn \"CloseIn\" mode the AMS has a shorter shooting range, shoots even more shots than Overload and attacks any missile in it's envelope. \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+		"Details": "The Laser Anti-Missile System (LAMS) is an advanced variation of the standard Anti-Missile Systems. This Product Improved (PIP) Laser AMS is a little more accurate but heavier than standard Laser AMS systems.  \n\nIn \"on\" mode the AMS system will only attack targets directed at it's mounting unit.  \nIn \"Overload\" mode the AMS will attack any missile in its envelope. \nIn \"CloseIn\" mode the AMS has a shorter shooting range, shoots even more shots than Overload and attacks any missile in its envelope. \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
 		"Icon": "uixSvgIcon_equipment_TTS"
 	},
 	"BonusValueA": "",

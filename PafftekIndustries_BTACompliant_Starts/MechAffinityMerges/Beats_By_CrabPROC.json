@@ -1,0 +1,12 @@
+{
+    "TargetID": "AffinityDef_tagged_Beats_By_Crab",
+    "Instructions": [
+        {
+            "JSONPath": "affinityData.chassisNames",
+            "Action": "ArrayConcat",
+            "Value": [
+                "KCG_LAM_100"
+            ]
+        }
+    ]
+}

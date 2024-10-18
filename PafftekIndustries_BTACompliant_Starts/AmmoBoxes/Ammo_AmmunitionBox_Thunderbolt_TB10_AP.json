@@ -15,29 +15,29 @@
 			"StabilityDamagePerAmmo": 24
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 1050",
-				"TBOLT20Ammo: 4"
+				"CostPerShot: 1600",
+				"TBOLT10Ammo: 8"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 1050
+		  "PerUnitCost" : 1600
 		}
 	},
-	"AmmoID": "Ammunition_TBOLT20_FRAG",
+	"AmmoID": "Ammunition_TBOLT10_AP",
 	"Capacity": 4,
 	"Description": {
 		"Cost": 20000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
-		"Model": "Thunderbolt FRAG",
-		"UIName": "Ammo FRAG T-Bolt20",
-		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB20_FRAG",
-		"Name": "FRAG Thunderbolt 20 Ammo",
+		"Model": "Thunderbolt AP",
+		"UIName": "Ammo AP T-Bolt10",
+		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB10_AP",
+		"Name": "AP Thunderbolt 10 Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 4 shots.",
 		"Icon": "missile-pod-ammo"
 	},
-	"BonusValueA": "",
-	"BonusValueB": "",
+	"BonusValueA": "-20dmg, +6 Structure damage",
+	"BonusValueB": "110% Crit chance",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

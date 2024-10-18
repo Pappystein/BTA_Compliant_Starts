@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-E2C3i",
 		"Name": "Catapult",
-		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  Comstar, Word of Blake and their allies have all chosen to not utilized a standard CPLT-E2, and instead offer this variant, the CPLT-E2C3i.  The major difference is the removal of the Product Improved DS Aero Laser AMS and the ER Small Laser to make room in the Center Torso for a C3i advanced networking system.",
+		"Details": "The Catapult, known for its LRMs or, if you are facing the DCMS, its PPCs, has evolved; the D Series brought SRMs and maximal jumping capabilities.   The E series brings big Ballistic weapons to the Catapult.  Comstar, Word of Blake, and their allies have all chosen not to utilize a standard CPLT-E2 and instead offer this variant, the CPLT-E2C3i.  The significant difference is the removal of the Product Improved DS Aero Laser AMS and the ER Small Laser to make room in the Center Torso for a C3i advanced networking system.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

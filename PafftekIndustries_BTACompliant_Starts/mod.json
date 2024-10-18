@@ -28,6 +28,7 @@
 			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADefaultMergeClan/" },
 			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADeafultMergeSanctuary/" },
 			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
+			{ "Type": "AdvancedJSONMerge", "Path": "MechAffinityMerges/" },
 			{ "Type": "Texture2D",		 	"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "AbilityDef",	"Path": "Abilities" },
@@ -45,7 +46,7 @@
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_CSVs" ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity" ],
 	"ConflictsWith": [				
 	]
 }

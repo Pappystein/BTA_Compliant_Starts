@@ -36,8 +36,8 @@
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",
 		"Icon": "missile-pod-ammo"
 	},
-	"BonusValueA": "",
-	"BonusValueB": "",
+	"BonusValueA": "30m Airburst AOE",
+	"BonusValueB": "20 shards @2.75 damage each 125% Crit chance.",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

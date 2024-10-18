@@ -14,9 +14,9 @@
 	"HeatGenerated": 0,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,
-	"ISDamageModifier": 1.5,
-	"CriticalDamageModifier": 0.25,
-	"APDamage": 12,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1.1,
+	"StructureDamage": 10,
 	"AOECapable": false,
 	"DamagePerShot": -20.0
 } 

@@ -66,7 +66,7 @@
 		"UIName": "Catapult CPLT-E4",
 		"Id": "mechdef_catapult_CPLT-E4",
 		"Name": "Catapult",
-		"Details": "The E4 Catapult is a weird blend of the origional A and C catapult families with the E family.   Armmed with 2x MML7s, with both SRM and LRM ammunition, as well as armed with two LAC/2 autocannons.  Beyond these features, the E4 has the sailent features typical of the CPLT-E series.  Endo-Composite structure, 325XL engine core, DHS and Ferro Fibrous Armor.",
+		"Details": "The E4 Catapult is a weird blend of the original A and C catapult families with the E family.   Armed with 2x MML7s, with both SRM and LRM ammunition, as well as armed with two LAC/2 autocannons.  Beyond these features, the E4 has the salient features typical of the CPLT-E series.  Endo-Composite structure, 325XL engine core, DHS and Ferro Fibrous Armor.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"simGameMechPartCost": 740000,

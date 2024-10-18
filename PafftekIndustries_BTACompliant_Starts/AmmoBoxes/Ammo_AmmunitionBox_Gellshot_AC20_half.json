@@ -35,8 +35,8 @@
 		"Details": "Specialized Autocannon shells for inferno heat based attacks, the Gellshot is an expensive way to add heat to an enemy unit.   Capacity is 1/2 that of a stanadard 1 ton bin.  This is because of the need for extra saftey equipment to prevent premature detonation. Risk can be mitigated with the use of C.A.S.E. Has 2 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
-	"BonusValueA": "Inferno",
-	"BonusValueB": "",
+	"BonusValueA": "+1 Heat Damage, Inferno",
+	"BonusValueB": "-5 damage",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

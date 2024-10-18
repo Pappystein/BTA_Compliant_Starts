@@ -1,4 +1,10 @@
-{
+{	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Super_Commando",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 2100000,
 		"Rarity": 0,

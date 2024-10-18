@@ -13,7 +13,7 @@
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"AreaOfEffect: 100",
+				"AreaOfEffect: 120",
 				"AreaOfEffectDmg: 35",
 				"CostPerShot: 200",
 				"MortarAmmo: 10"
@@ -36,7 +36,7 @@
 		"Details": "Heavy Mortar shells deliver a massive Explosive payload, able to damage several units on impact. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
-	"BonusValueA": "",
+	"BonusValueA": "AOE 120m 35dmg",
 	"BonusValueB": "",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",

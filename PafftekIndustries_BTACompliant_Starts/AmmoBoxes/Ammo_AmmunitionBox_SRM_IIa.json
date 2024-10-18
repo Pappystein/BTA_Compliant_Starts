@@ -13,15 +13,17 @@
 			"StabilityDamagePerAmmo": 6
 		},
 		"BonusDescriptions": [
-				"AreaOfEffect: 180",
-				"AreaOfEffectDmg: 625",
-				"AreaOfEffectHeatDmg: 250",
-				"MineClearanceBoom: 8",
-				"DesignMask: Radiation",
-				"IsNOOK"
+			"AreaOfEffect: 350",
+			"AreaOfEffectDmg: 500",
+			"AreaOfEffectHeatDmg: 500",
+			"AreaOfEffectSTABDmg: 500",
+			"AntiBA: 5000%",
+			"DesignMask: Radiation",
+			"CostPerShot: 800000",
+			"IsNOOK",
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 120000
+		  "PerUnitCost" : 800000
 		}
 	},
 	"AmmoID": "Ammunition_SRM_Nuke2",

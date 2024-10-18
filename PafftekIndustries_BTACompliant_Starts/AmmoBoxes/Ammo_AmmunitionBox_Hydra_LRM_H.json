@@ -17,6 +17,9 @@
 			"StabilityDamagePerAmmo": 2
 		},
 		"BonusDescriptions": [
+				"AreaOfEffect: 40",
+				"AreaOfEffectDmg: 0.5",
+				"AreaOfEffectHeatDmg: 0.125",		
 				"CostPerShot: 70",
 				"AmmoCount: 60"
 			],

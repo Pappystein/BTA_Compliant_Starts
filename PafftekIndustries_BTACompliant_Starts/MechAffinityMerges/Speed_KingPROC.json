@@ -1,0 +1,14 @@
+{
+    "TargetID": "AffinityDef_tagged_Speed_King",
+    "Instructions": [
+        {
+            "JSONPath": "affinityData.chassisNames",
+            "Action": "ArrayConcat",
+            "Value": [
+                "Super_Commando_30",
+				"Commando_IIC_25"
+
+            ]
+        }
+    ]
+}

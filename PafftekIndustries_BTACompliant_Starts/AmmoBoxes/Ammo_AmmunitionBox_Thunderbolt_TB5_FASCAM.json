@@ -14,7 +14,16 @@
 		},
 		"BonusDescriptions": [
 				"CostPerShot: 255",
-				"TBOLT5Ammo: 16"
+				"TBOLT5Ammo: 16",
+				"Thunder",
+				"ThunderCripple",
+				"ThunderBurnReactionImmunity",
+				"ThunderSympathetic: 50%",
+				"ThunderMines: 5",
+				"ThunderChance: 80%",
+				"ThunderDamage: 2",
+				"ThunderAOERadius: 30",
+				"ThunderAOEDamage: 1",				
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 255
@@ -34,7 +43,7 @@
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 16 shots.",
 		"Icon": "missile-pod-ammo"
 	},
-	"BonusValueA": "",
+	"BonusValueA": "5 mines",
 	"BonusValueB": "",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",

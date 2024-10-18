@@ -17,9 +17,9 @@
 	"ISDamageModifier": 1.5,
 	"CriticalDamageModifier": 1,
 	"AOECapable": true,
-	"AOERange": 60,
-	"AOEDamage": 10,
-	"AOEInstability": 1.5,
-	"DamagePerShot": -10.0,
+	"AOERange": 45,
+	"AOEDamage": 15,
+	"AOEInstability": 8,
+	"DamagePerShot": -15.0,
 	"AoEDmgFalloffType": "Log10"
 }

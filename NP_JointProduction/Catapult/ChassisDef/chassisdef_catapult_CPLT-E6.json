@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-E6",
 		"Name": "Catapult",
-		"Details": "A second ballistic Artillery Catapult the CPLT-E6 is equipped to a higher tier than the earlier CPLT-E3 it is derived from.  Unlike the -E3 with its howitzers, the -E6 is equipped with a single Sniper Artillery piece with 3 tons of case protected ammunition.  To fit such a big artillery piece onto the Catapult required downgrading back to the standard 260 core.  Speed was nearly maintained by fitment of MASC.   A single Medium Pulse Laser of various marks was installed in the CT for any sort of ambush defense.  This single medium laser is a paltry substitution for good close range weaponry.",
+		"Details": "A second ballistic Artillery Catapult, the CPLT-E6, is equipped to a higher tier than the earlier CPLT-E3 from which it is derived.  Unlike the -E3 with its howitzers, the -E6 is equipped with a single Sniper Artillery piece with 3 tons of case-protected ammunition.  To fit such a big artillery piece onto the Catapult required downgrading back to the standard 260 core.  The fitment of MASC nearly maintained speed.   A single Medium Pulse Laser of various marks was installed in the CT for any sort of ambush defense.  This single laser is a paltry substitution for good close-range weaponry.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

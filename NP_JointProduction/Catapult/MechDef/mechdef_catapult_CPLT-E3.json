@@ -66,7 +66,7 @@
 		"UIName": "Catapult CPLT-E3",
 		"Id": "mechdef_catapult_CPLT-E3",
 		"Name": "Catapult",
-		"Details": "The Catapult -E3 is a ballistic artilery mech.  To reduce costs, the -E3 leverages developments from Periphery Arms Inc.  Specifically it is armed with Howitzers equipped with various CASE protected ammunition.  Beyond this however, is the inclusion of the Periphery \"Prototype\" XL engine core of 260 rating.  This reduces mobility significantly, but at the same time allows for increased protection via Ferro Plate armor.  The structure of the E3 remains the same Endo Composite of the entire E series.",
+		"Details": "The Catapult -E3 is a ballistic artillery mech.  To reduce costs, the -E3 leverages developments from Periphery Arms Inc.  Specifically, it is armed with Howitzers equipped with various CASE-protected ammunition.  Beyond this, however, is the inclusion of the Periphery \"Prototype\" XL engine core of 260 rating.  This reduces mobility significantly but, at the same time, allows for increased protection via Ferro Plate armor.  The structure of the E3 remains the same Endo Composite as that of the entire E series.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"simGameMechPartCost": 740000,

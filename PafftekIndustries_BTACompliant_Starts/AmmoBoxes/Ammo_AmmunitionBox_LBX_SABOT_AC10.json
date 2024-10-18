@@ -16,7 +16,7 @@
 		},
 		"BonusDescriptions": [
 				"CostPerShot: 175",
-				"LBX10SlugAmmo: 10"
+				"AmmoCount: 10"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 175
@@ -32,12 +32,12 @@
 		"Model": "LBX10APFSDS",
 		"UIName": "Ammo LBX/10 APFSDS",
 		"Id": "Ammo_AmmunitionBox_LBX_SABOT_AC10",
-		"Name": "LBX10 APFSDS Ammo",
+		"Name": "LBX/10 APFSDS Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
-	"BonusValueA": "",
-	"BonusValueB": "",
+	"BonusValueA": "+100m range, AP 4",
+	"BonusValueB": "70% DMG, +125% crits",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

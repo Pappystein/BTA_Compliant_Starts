@@ -16,7 +16,16 @@
 		},
 		"BonusDescriptions": [
 				"CostPerShot: 800",
-				"TBOLT15Ammo: 5"
+				"TBOLT15Ammo: 5",
+				"Thunder",
+				"ThunderCripple",
+				"ThunderBurnReactionImmunity",
+				"ThunderSympathetic: 50%",
+				"ThunderMines: 15",
+				"ThunderChance: 80%",
+				"ThunderDamage: 2",
+				"ThunderAOERadius: 30",
+				"ThunderAOEDamage: 1",
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 800

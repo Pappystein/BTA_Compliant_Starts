@@ -1,0 +1,12 @@
+{
+    "TargetID": "AffinityDef_chassis_Zippy",
+    "Instructions": [
+        {
+            "JSONPath": "affinityData.chassisNames",
+            "Action": "ArrayConcat",
+            "Value": [
+                "Strider3_40"
+            ]
+        }
+    ]
+}

@@ -17,6 +17,9 @@
 			"StabilityDamagePerAmmo": 2
 		},
 		"BonusDescriptions": [
+				"AreaOfEffect: 40",
+				"AreaOfEffectDmg: 0.5",
+				"AreaOfEffectHeatDmg: 0.125",		
 				"CostPerShot: 70",
 				"AmmoCount: 120"
 			],
@@ -38,7 +41,7 @@
 		"Details": "This Ammo bin contains the infamous 'Hydra' Missiles from the deep periphery, carrying a volatile payload of a High Explosive and Incendiary Materials.  The extra mass of this binary warhead reduces the maximum effective range of this LRM ammo.  Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. ",
 		"Icon": "MRM"
 	},
-	"BonusValueA": "",
+	"BonusValueA": "-2dmg per shot, AOE ",
 	"BonusValueB": "",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",

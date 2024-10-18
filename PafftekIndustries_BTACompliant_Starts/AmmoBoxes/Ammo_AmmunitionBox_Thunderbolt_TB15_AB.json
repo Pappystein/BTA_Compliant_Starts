@@ -36,8 +36,8 @@
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.",
 		"Icon": "missile-pod-ammo"
 	},
-	"BonusValueA": "",
-	"BonusValueB": "",
+	"BonusValueA": "30m Airburst AOE",
+	"BonusValueB": "30 shards @2.6 damage each 125% Crit chance.",
 	"ComponentType": "AmmunitionBox",
 	"ComponentSubType": "Ammunition",
 	"PrefabIdentifier": "",

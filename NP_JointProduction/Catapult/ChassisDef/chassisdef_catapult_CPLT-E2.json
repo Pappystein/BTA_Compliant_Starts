@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-E2",
 		"Name": "Catapult",
-		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  The CPLT-E2 variant utilized Twin Lubbin Experimental Class 5 Multi-feed Autocannons.   The so called LB X-5 cannons are supported by two medium lasers for non ammo requiring damage potentioal.  Two tons of ammunition , one inn each side torso, jare CASE protected on this version of the mech.  Comstar and the Word of Blake both use an alternate form of this mech.",
+		"Details": "The Catapult, known for its LRMs or, if you are facing the DCMS, its PPCs, has evolved; the D Series brought SRMs and maximal jumping capabilities.   The E series brings big Ballistic weapons to the Catapult.  The CPLT-E2 variant utilized Twin Lubbin Experimental Class 5 Multi-feed Autocannons.   The so-called LB X-5 cannons are supported by two medium lasers for non-ammo requiring damage potential.  Two tons of ammunition, one in each side torso, are CASE protected on this version of the mech.  Comstar and the Word of Blake both use an alternate form of this mech.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

@@ -437,7 +437,7 @@
 			"LocalGUID":"Target_RA_SRM"
         },
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_Attachment_SRMFCS",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
@@ -449,7 +449,7 @@
 			"TargetComponentGUID":"Target_RA_SRM"
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_Attachment_SRMFCS",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -66,7 +66,7 @@
 		"UIName": "Catapult CPLT-E5",
 		"Id": "mechdef_catapult_CPLT-E5",
 		"Name": "Catapult",
-		"Details": "Developed to be the ultimate in 'sending actual lead down range.'  The Cataput CPLT-E5 was equipped with 2x Rotary Assault Cannon/2 weapons.  To supplant these when they jam, the E5 also carrys two ER small lasers as well as a single Piercing Medium Pulse laser.   All of this on a 260XL core that is supported by seven prototype improved jump juets.",
+		"Details": "Developed to be the ultimate in 'sending actual lead down range.'  The Catapult CPLT-E5 was equipped with 2x Rotary Assault Cannon/2 weapons.  The E5 also carries two ER small lasers and a single Piercing Medium Pulse laser to supplant these when they jam.   All of this on a 260XL core that is supported by seven prototype improved jump jets.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"simGameMechPartCost": 740000,

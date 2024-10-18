@@ -13,22 +13,22 @@
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"AmmoCount: 1",
+				"AmmoCount: 2",
 				"AreaOfEffect: 600",
 				"AreaOfEffectDmg: 750",
 				"AreaOfEffectHeatDmg: 1000",
 				"AntiBA: 5000%",
 				"MineClearanceBoom: 8",
 				"DesignMask: Radiation",
-				"CostPerShot: 1500000",
+				"CostPerShot: 800000",
 				"IsNOOK"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 5000
+		  "PerUnitCost" : 800000
 		}
 	},
 	"AmmoID": "Ammunition_MortarHvy_Elias",
-	"Capacity": 1,
+	"Capacity": 2,
 	"Description": {
 		"Cost": 40000,
 		"Rarity": 1,

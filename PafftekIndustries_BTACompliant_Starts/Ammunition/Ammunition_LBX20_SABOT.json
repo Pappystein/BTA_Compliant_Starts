@@ -14,15 +14,15 @@
    "HeatGenerated": 0,
    "AIBattleValue": 90,
    "HeatGeneratedModifier": 1,
-   "ArmorDamageModifier": 0.8,
-   "ISDamageModifier": 0.6,
+   "ArmorDamageModifier": 0.7,
+   "ISDamageModifier": 0.7,
    "CriticalDamageModifier": 1,
 	"MinRange": 0.0, 
 	"MaxRange": 200.0, 
 	"ShortRange": 50.0, 
 	"MiddleRange": 100.0, 
 	"LongRange": 200,
-	"APDamage": 12,
+	"StructureDamage": 12,
 	"statusEffects" :[
 		{
             "Description" : {

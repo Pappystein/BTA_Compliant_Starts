@@ -11,29 +11,32 @@
 			]
 		},
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 75,
-			"StabilityDamagePerAmmo": 18
+			"ExplosionDamagePerAmmo": 50,
+			"StabilityDamagePerAmmo": 12
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 800",
-				"TBOLT15Ammo: 5"
+				"AreaOfEffect: 45",
+				"AreaOfEffectDmg: 10",
+				"AreaOfEffectSTABDmg: 6",
+				"CostPerShot: 1800",
+				"TBOLT10Ammo: 8"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 800
+		  "PerUnitCost" : 600
 		}
 	},
-	"AmmoID": "Ammunition_TBOLT15_FRAG",
-	"Capacity": 5,
+	"AmmoID": "Ammunition_TBOLT10_HE",
+	"Capacity": 8,
 	"Description": {
 		"Cost": 160000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
-		"Model": "Thunderbolt FRAG",
-		"UIName": "Ammo T-Bolt15 FRAG",
-		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB15_FRAG",
-		"Name": "Thunderbolt 15 Fragmentation Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.",
+		"Model": "Thunderbolt HE",
+		"UIName": "Ammo T-Bolt10 HE",
+		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB10_HE",
+		"Name": "Thunderbolt 10 HE Ammo",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "",

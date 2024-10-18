@@ -13,7 +13,7 @@
    "Category": "HvyMORTAR",
    "HeatGenerated": 0,
    "HeatGeneratedModifier": 1,
-   "ArmorDamageModifier": 1.5,
+   "ArmorDamageModifier": 1,
    "ISDamageModifier": 1.25,
    "CriticalDamageModifier": 1,
    "AlwaysIndirectVisuals": true,
@@ -25,5 +25,5 @@
 	"FireDurationWithoutForest": 1,
    "FireTerrainStrength": 2,
    "FireTerrainCellRadius": 1,
-   "APDamage": 4
+   "StructureDamage": 12
 }

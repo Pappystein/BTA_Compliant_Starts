@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-E5",
 		"Name": "Catapult",
-		"Details": "The Catapult, known for its LRM's or if you are facing the DCMS, its PPCs, has evolved, the D Series brought SRMs and maximal jumping capabilties.   The E series bring big Ballistic weapons to the Catapult.  The CPLT-E1 is the primary Inner sphere variant, mostly used by House Steiner in the Lyran Commonwealth, the E-1 is armed with a Heavy Gauss Rifle.",
+		"Details": "Developed to be the ultimate in 'sending actual lead down range.'  The Catapult CPLT-E5 was equipped with 2x Rotary Assault Cannon/2 weapons.  The E5 also carries two ER small lasers and a single Piercing Medium Pulse laser to supplant these when they jam.   All of this on a 260XL core that is supported by seven prototype improved jump jets.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

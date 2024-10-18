@@ -13,17 +13,18 @@
 			"StabilityDamagePerAmmo": 6
 		},
 		"BonusDescriptions": [
-				"AreaOfEffect: 180",
-				"AreaOfEffectDmg: 625",
-				"AreaOfEffectHeatDmg: 250",
-				"MineClearanceBoom: 8",
-				"DesignMask: Radiation",
-				"SniperAmmo: 2",
-				"IsNOOK",
-				"AntiBA: 5000%"
+			"AreaOfEffect: 350",
+			"AreaOfEffectDmg: 500",
+			"AreaOfEffectHeatDmg: 500",
+			"AreaOfEffectSTABDmg: 500",
+			"AntiBA: 5000%",
+			"DesignMask: Radiation",
+			"CostPerShot: 800000",
+			"IsNOOK",
+			"SniperAmmo: 2"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 500000
+		  "PerUnitCost" : 800000
 		}
 	},
 	"AmmoID": "Ammunition_Sniper_Nuke",

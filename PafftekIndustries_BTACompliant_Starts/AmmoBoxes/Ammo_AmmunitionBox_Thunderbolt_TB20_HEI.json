@@ -15,11 +15,15 @@
 			"StabilityDamagePerAmmo": 24
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 1600",
+				"AreaOfEffect: 45",
+				"AreaOfEffectDmg: 40",
+				"AreaOfEffectHeatDmg: 12",
+				"AreaOfEffectSTABDmg: 10",	
+				"CostPerShot: 3600",
 				"TBOLT20Ammo: 4"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 1600
+		  "PerUnitCost" : 3600
 		}
 	},
 	"AmmoID": "Ammunition_TBOLT20_HEI",

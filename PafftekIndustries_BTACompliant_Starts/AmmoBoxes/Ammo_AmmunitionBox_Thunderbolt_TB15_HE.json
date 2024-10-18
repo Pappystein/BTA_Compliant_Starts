@@ -15,7 +15,10 @@
 			"StabilityDamagePerAmmo": 18
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 800",
+				"AreaOfEffect: 45",
+				"AreaOfEffectDmg: 15",
+				"AreaOfEffectSTABDmg: 8",		
+				"CostPerShot: 2800",
 				"TBOLT15Ammo: 5"
 			],
 		"AmmoCost" : {

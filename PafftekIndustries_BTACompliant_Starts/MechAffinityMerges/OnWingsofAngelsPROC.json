@@ -1,0 +1,12 @@
+{
+    "TargetID": "AffinityDef_tagged_On_the_Wings_of_Angels",
+    "Instructions": [
+        {
+            "JSONPath": "affinityData.chassisNames",
+            "Action": "ArrayConcat",
+            "Value": [
+                "KCG_LAM_100"
+            ]
+        }
+    ]
+}
