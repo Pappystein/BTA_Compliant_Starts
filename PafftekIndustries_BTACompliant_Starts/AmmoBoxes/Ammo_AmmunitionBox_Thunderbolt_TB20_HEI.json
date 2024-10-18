@@ -37,7 +37,7 @@
 		"UIName": "Ammo Incindary T-Bolt20",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB20_HE",
 		"Name": "HE-I Incindary Thunderbolt 20 Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weHEonry, with at least one bin required per weHEon type. Has 4 shots.",
+		"Details": "High Explosive Incendiary, Does little heat damage, but applies the incendiary effect.  Ammo Bins contain the rounds needed for projectile-based weHEonry, with at least one bin required per weHEon type. Has 4 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "",

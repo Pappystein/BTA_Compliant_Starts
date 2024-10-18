@@ -86,7 +86,7 @@
         "UIName": "Laser AMS (C)",
         "Id": "Weapon_Laser_AMS_CLAN",
         "Name": "Laser Anti Missile System (C)",
-        "Details": "Clan technology was used to improve this Laser Anti-Missile system.  Increasing range and damage potential as well without increased heat or power requirements.  \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+        "Details": "Clan technology was used to improve this Laser Anti-Missile system.  Increasing range and damage potential without significantly increased heat or power requirements.  \n\n <b><color=#00ffff>Left Click on mode button next to weapon name during battle to switch firing mode</color> </b>",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA": "",

@@ -31,7 +31,7 @@
 		"UIName": "Ammo T-Bolt5 Armor Piercing",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_AP",
 		"Name": "Armor Piercing Thunderbolt 5 Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 16 shots.",
+		"Details": "Armor Piercing munition.  Does less damage but has penetrating power.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 16 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "-20dmg, +10 Structure damage",

@@ -33,7 +33,7 @@
 		"UIName": "Ammo T-Bolt10 AB",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB10_AB",
 		"Name": "Thunderbolt 10 Air Burst",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",
+		"Details": "Air Burst, similar to the cluster munitons of the LB/X autocannons. Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "30m Airburst AOE",

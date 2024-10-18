@@ -33,7 +33,7 @@
 		"UIName": "Ammo T-Bolt15 Air-Burst",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB15_AB",
 		"Name": "Thunderbolt 15 Air-Brust Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.",
+		"Details": "Air Burst, similar to the cluster munitons of the LB/X autocannons. Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "30m Airburst AOE",

@@ -33,7 +33,7 @@
 		"UIName": "Ammo AP T-Bolt10",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB10_AP",
 		"Name": "AP Thunderbolt 10 Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 4 shots.",
+		"Details": "Armor Piercing munition.  Does less damage but has penetrating power.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 4 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "-20dmg, +6 Structure damage",

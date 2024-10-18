@@ -13,11 +13,11 @@
             "StabilityDamagePerAmmo": 2
         },
 		"BonusDescriptions": [
-				"CostPerShot: 40",
+				"CostPerShot: 150",
 				"SRMAmmo: 100"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 40
+		  "PerUnitCost" : 150
 		}
     },
     "AmmoID": "Ammunition_SRM_LK",
@@ -31,7 +31,7 @@
         "UIName": "Ammo SRM L-K",
         "Id": "Ammo_AmmunitionBox_SRM_LK",
         "Name": "SRM L-K Ammo",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 220 shots.",
+        "Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 220 shots.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
 	"BonusValueA": "+1 Accuracy",

@@ -14,11 +14,11 @@
 		},
 		"BonusDescriptions": [
 				"WpnAccuracy: +1",
-				"CostPerShot: 70",
+				"CostPerShot: 150",
 				"LRMAmmo: 60"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 70
+		  "PerUnitCost" : 150
 		}
 	},
 	"AmmoID": "Ammunition_LRM_LK",
@@ -32,7 +32,7 @@
 		"UIName": "Ammo LRM Listen Kill[H]",
 		"Id": "Ammo_AmmunitionBox_LK_LRM_H",
 		"Name": "LRM Ammo",
-		"Details": "The Listen Kill system is designed to home in on emissions of enemy battlemechs. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.",
+		"Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "+1 Accuracy",
