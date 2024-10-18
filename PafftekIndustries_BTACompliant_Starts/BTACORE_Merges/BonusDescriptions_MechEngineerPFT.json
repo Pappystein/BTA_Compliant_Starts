@@ -1,0 +1,35 @@
+{
+	"TargetID": "BonusDescriptions_MechEngineer",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+		{
+			"Bonus": "LBX2Sabot",
+			"Short": "LBX2 Ammo",
+			"Long": "LBX2 Ammo",
+			"Full": "Lubbin Experimental (LBX) AutoCannon/2 Extended Range Sabot - {0} rounds"
+		},
+		{
+			"Bonus": "LBX5Sabot",
+			"Short": "LBX5 Ammo",
+			"Long": "LBX5 Ammo",
+			"Full": "Lubbin Experimental (LBX) AutoCannon/5 Extended Range Sabot - {0} rounds"
+		},
+		{
+			"Bonus": "LBX10Sabot",
+			"Short": "LBX10 Ammo",
+			"Long": "LBX10 Ammo",
+			"Full": "Lubbin Experimental (LBX) AutoCannon/10 Extended Range Sabot - {0} rounds"
+		},
+		{
+			"Bonus": "LBX20Sabot",
+			"Short": "LBX20 Ammo",
+			"Long": "LBX20 Ammo",
+			"Full": "Lubbin Experimental (LBX) AutoCannon/20 Extended Range Sabot - {0} rounds"
+		}
+		]
+	}
+	]
+}

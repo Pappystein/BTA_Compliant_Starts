@@ -1,9 +1,8 @@
 {
 	"Custom": {
 		"Category": [
-			{
-            "CategoryID": "StandardJJ"
-			}
+			{ "CategoryID": "StandardJJ" },
+			{ "CategoryID": "VectoredTK" }
 		]	
 	},
     "JumpCapacity" : 1,

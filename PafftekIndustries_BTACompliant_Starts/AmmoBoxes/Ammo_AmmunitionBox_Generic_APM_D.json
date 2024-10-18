@@ -1,0 +1,55 @@
+{
+    "Custom": {
+        "Category": [
+			{
+				"CategoryID": "a/m/s/apm"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 4,
+            "StabilityDamagePerAmmo": 1
+        },
+        "BonusDescriptions": [
+			"CostPerShot: 30",
+			"AmmoCount: 48"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 30
+		}
+    },
+    "AmmoID": "Ammunition_APM_Generic",
+    "Capacity": 48,
+    "Description": {
+        "Cost": 20000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "APM double bin",
+        "UIName": "Ammo APM [D]",
+        "Id": "Ammo_AmmunitionBox_Generic_APM_D",
+        "Name": "APM Ammo [D]",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
+        "Icon": "missile-pod-ammo"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

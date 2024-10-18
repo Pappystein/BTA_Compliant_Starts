@@ -5,7 +5,10 @@
 		},
 		"Flags": [
 				"autorepair"
-			]
+			],
+		"CASE": {
+			"MaximumDamage": 15
+		},	
 	},
     "RGBColor": "#bad7d5ff",
 	"Description": {

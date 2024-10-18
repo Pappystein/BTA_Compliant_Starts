@@ -29,6 +29,7 @@
 			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADeafultMergeSanctuary/" },
 			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
 			{ "Type": "AdvancedJSONMerge", "Path": "MechAffinityMerges/" },
+			{ "Type": "AdvancedJSONMerge", "Path": "BTACORE_Merges/" },
 			{ "Type": "Texture2D",		 	"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
 			{ "Type": "AbilityDef",	"Path": "Abilities" },

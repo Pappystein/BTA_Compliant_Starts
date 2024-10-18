@@ -1,0 +1,23 @@
+{
+	"TargetID": "TagRestrictions_MechEngineer",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+			{
+				"Tag": "VectoredTK",
+				"IncompatibleTags": [
+					"Avionics",
+					"SHJJ",
+					"JumpTurbine",
+					"MechanicalJJ",
+					"DirectionalJJ",
+					"ExperimentalJJ"
+				]
+			}
+		
+		
+		]
+	}
+}	
