@@ -28,8 +28,20 @@
 			"Short": "LBX20 Ammo",
 			"Long": "LBX20 Ammo",
 			"Full": "Lubbin Experimental (LBX) AutoCannon/20 Extended Range Sabot - {0} rounds"
-		}
-		]
+		},
+		{
+			"Bonus": "Zeus",
+			"Short": "Zeus AC Ammo",
+			"Long": "Zeus AC Ammo",
+			"Full": "Zeus Autocannon shells, +2 accuracy vs flying units - {0} rounds"
+		},
+		{
+			"Bonus": "HeavyMortarAmmo",
+			"Short": "Heavy Mortar Ammo",
+			"Long": "Heavy Mortar Ammo",
+			"Full": "Heavy Mortar ammunition {0} rounds"
+		}			
+	]
 	}
 	]
 }

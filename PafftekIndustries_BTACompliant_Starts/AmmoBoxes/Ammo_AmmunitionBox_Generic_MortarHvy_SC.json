@@ -13,7 +13,7 @@
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"MortarAmmo: 10"
+				"HeavyMortarAmmo: 10"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 500

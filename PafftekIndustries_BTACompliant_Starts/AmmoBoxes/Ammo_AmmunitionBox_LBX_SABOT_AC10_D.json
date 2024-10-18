@@ -16,7 +16,7 @@
 		},
 		"BonusDescriptions": [
 				"CostPerShot: 200",
-				"AmmoCount: 24"
+				"LBX10Sabot: 24"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 200

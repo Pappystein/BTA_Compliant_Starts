@@ -13,9 +13,9 @@
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"AreaOfEffect: 90",
+				"AreaOfEffect: 30",
 				"CostPerShot: 600",
-				"MortarAmmo: 10"
+				"HeavyMortarAmmo: 10"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 600

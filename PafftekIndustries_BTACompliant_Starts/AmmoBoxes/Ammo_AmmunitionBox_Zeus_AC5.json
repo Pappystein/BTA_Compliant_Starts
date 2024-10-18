@@ -14,7 +14,7 @@
 		},
 		"BonusDescriptions": [
 				"CostPerShot: 2000",
-				"AmmoCount: 30"
+				"Zeus: 30"
 			],
 		"AmmoCost": {
 			"PerUnitCost": 2000

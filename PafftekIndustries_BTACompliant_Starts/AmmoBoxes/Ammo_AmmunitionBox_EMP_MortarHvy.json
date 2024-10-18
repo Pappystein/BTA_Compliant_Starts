@@ -14,7 +14,7 @@
 		},
 		"BonusDescriptions": [
 				"CostPerShot: 1600",
-				"MortarAmmo: 10"
+				"HeavyMortarAmmo: 10"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 1600

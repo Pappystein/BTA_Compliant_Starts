@@ -13,7 +13,7 @@
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"AmmoCount: 2",
+				"HeavyMortarAmmo: 2",
 				"AreaOfEffect: 600",
 				"AreaOfEffectDmg: 750",
 				"AreaOfEffectHeatDmg: 1000",

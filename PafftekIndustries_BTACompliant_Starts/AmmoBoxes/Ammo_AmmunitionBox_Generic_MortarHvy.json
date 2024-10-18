@@ -16,7 +16,7 @@
 				"AreaOfEffect: 120",
 				"AreaOfEffectDmg: 35",
 				"CostPerShot: 200",
-				"MortarAmmo: 10"
+				"HeavyMortarAmmo: 10"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 200
