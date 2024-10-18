@@ -13,6 +13,8 @@
             "StabilityDamagePerAmmo": 2
         },
 		"BonusDescriptions": [
+				"WpnAccuracy: +1",
+				"PipsIgnored: 1",		
 				"CostPerShot: 150",
 				"SRMAmmo: 220"
 			],
