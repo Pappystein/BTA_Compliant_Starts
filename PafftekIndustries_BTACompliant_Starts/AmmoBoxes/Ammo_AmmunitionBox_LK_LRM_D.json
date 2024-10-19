@@ -13,8 +13,7 @@
 			"StabilityDamagePerAmmo": 1
 		},
 		"BonusDescriptions": [
-				"WpnAccuracy: +1",
-				"PipsIgnored: 1",
+				"LKMissile",
 				"CostPerShot: 150",
 				"LRMAmmo: 270"
 			],
