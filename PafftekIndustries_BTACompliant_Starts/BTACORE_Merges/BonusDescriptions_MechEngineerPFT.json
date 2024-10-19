@@ -9,25 +9,25 @@
 			"Bonus": "LBX2Sabot",
 			"Short": "LBX2 Ammo",
 			"Long": "LBX2 Ammo",
-			"Full": "Lubbin Experimental (LBX) AutoCannon/2 Extended Range Sabot - {0} rounds"
+			"Full": "Lubalin Experimental (LBX) AutoCannon/2 Extended Range Sabot - {0} rounds"
 		},
 		{
 			"Bonus": "LBX5Sabot",
 			"Short": "LBX5 Ammo",
 			"Long": "LBX5 Ammo",
-			"Full": "Lubbin Experimental (LBX) AutoCannon/5 Extended Range Sabot - {0} rounds"
+			"Full": "Lubalin Experimental (LBX) AutoCannon/5 Extended Range Sabot - {0} rounds"
 		},
 		{
 			"Bonus": "LBX10Sabot",
 			"Short": "LBX10 Ammo",
 			"Long": "LBX10 Ammo",
-			"Full": "Lubbin Experimental (LBX) AutoCannon/10 Extended Range Sabot - {0} rounds"
+			"Full": "Lubalin Experimental (LBX) AutoCannon/10 Extended Range Sabot - {0} rounds"
 		},
 		{
 			"Bonus": "LBX20Sabot",
 			"Short": "LBX20 Ammo",
 			"Long": "LBX20 Ammo",
-			"Full": "Lubbin Experimental (LBX) AutoCannon/20 Extended Range Sabot - {0} rounds"
+			"Full": "Lubalin Experimental (LBX) AutoCannon/20 Extended Range Sabot - {0} rounds"
 		},
 		{
 			"Bonus": "Zeus",
@@ -40,7 +40,44 @@
 			"Short": "Heavy Mortar Ammo",
 			"Long": "Heavy Mortar Ammo",
 			"Full": "Heavy Mortar ammunition {0} rounds"
+		},
+		{
+			"Bonus": "LKMissile",
+			"Short": "L-K",
+			"Long": "L-K Missiles",
+			"Full": "Listen Kill missiles have improved targeting systems granting +1 accuracy and ignore 1 evasive pip"
+		},
+		{
+			"Bonus": "CLAMSAcc",
+			"Short": "CLAMSAcc",
+			"Long": "{0} CIWS LAMS Accuracy",
+			"Full": "AMS CIWS firing mode Intercept chance is {0}"
+		},
+		{
+			"Bonus": "CLAMSShots",
+			"Short": "CLAMS Shots",
+			"Long": "{0} CIWS LAMS Shots",
+			"Full": "AMS CIWS firing mode will fire {0} shots"
+		},
+		{
+			"Bonus": "CLAMSHeat",
+			"Short": "CLAMS Heat",
+			"Long": "{0} OLAMS Heat",
+			"Full": "AMS CIWS firing mode will generate {0} heat"
+		},
+		{
+			"Bonus": "CLAMSJam",
+			"Short": "CLAMS AMS JAM",
+			"Long": "{0} CLAMS AMS Jam",
+			"Full": "AMS CIWS firing mode has a {0} chance to jam"
+		},
+		{
+			"Bonus": "CIWS",
+			"Short": "Close in Weapon System",
+			"Long": "Close in Weapon System",
+			"Full": "Advanced Close in Weapon system mode (CIWS mode) is meant to serve as a secondary AMS feature for units with multiple AMS on board to provide a last ditch defense."
 		}			
+		
 	]
 	}
 	]

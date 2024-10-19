@@ -5,17 +5,24 @@
 				"CategoryID": "w/s/a/lams"
 			}
 		],
-		"BonusDescriptions": [
-			"LAMS",
-			"AMSAttacks",
-			"AMSRadius: 90",
-			"AMSShots: 10",
-			"AMSAcc: 30%",
-			"OLAMSHeat: 9",
-			"OLAMSJam: 40%",
-			"OLAMSShots: 20",
-			"AMSDamage: 1"
-		]
+        "BonusDescriptions": [
+				"LAMS",
+				"OLAMSAttacks",
+				"AMSRadius: 90",
+				"AMSShots: 10",
+				"AMSAcc: 45%",
+				"OLAMSHeat: 5",
+				"OLAMSJam: 40%",
+				"OLAMSAcc: 45",
+				"OLAMSShots: 20",
+				"CIWS",				
+				"CLAMSHeat: 8",
+				"CLAMSJam: 30%",
+				"CLAMSShots: 25",
+				"CIWSAcc: 50%",				
+				"AMSDamage: 2"
+            
+        ]
 	},
 	"Auras": [
 		{
@@ -117,7 +124,7 @@
             "isBaseMode": false,
 			"AMSDamage": 2,
             "ShotsWhenFired": 25,
-            "AMSHitChance": 0.45,
+            "AMSHitChance": 0.5,
             "FlatJammingChance": 0.3,
             "HeatGenerated": 8,
 			"IsAMS": true,

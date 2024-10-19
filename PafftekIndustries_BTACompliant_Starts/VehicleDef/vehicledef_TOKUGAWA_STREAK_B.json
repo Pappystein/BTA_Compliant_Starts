@@ -187,6 +187,167 @@
 			"ComponentDefID": "Gear_B_Pod",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_Drone_Network_Patch",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
 		}
 	]
 }

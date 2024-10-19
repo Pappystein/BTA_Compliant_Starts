@@ -291,6 +291,13 @@
 			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_Drone_Network_Patch",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
 		}
 	]
 }

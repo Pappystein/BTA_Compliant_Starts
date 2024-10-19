@@ -1,29 +1,29 @@
 {
 	"Description": {
 		"Cost": 5200000,
-		"Rarity": 5,
+		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Bushwacker",
-		"Id": "chassisdef_bushwacker_BSW-XJ8",
-		"Name": "Bushwacker",
-		"Details": "This rather unique Bushwacker seems to have been made to order for a Mechwarrior with a unique personality...  However this is a limited run production mech.   Armed with modified improved MMLs, twin Medium Lasers as well as a *Trynary* Medium Laser, this mech seems to be a medium range combatant with a speciality close in damage dealing.",
-		"Icon": "uixTxrIcon_bushwacker"
+		"UIName": "Griffin",
+		"Id": "chassisdef_griffin_GRF-3N",
+		"Name": "Griffin",
+		"Details": "Designed as an alternative to the Champion, the GRF-3N is general purpose variant of the GRF-2N.  Designed to use the Lubalin Experimental 10 Autocannon.",
+		"Icon": "uixTxrIcon_griffin"
 	},
-	"MovementCapDefID": "movedef_jayhawker",
+	"MovementCapDefID": "movedef_griffin_GRF-1N",
 	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_bushwacker",
-	"PrefabIdentifier": "chrprfmech_bushwackerbase-001",
-	"PrefabBase": "bushwacker",
+	"HardpointDataDefID": "hardpointdatadef_griffin",
+	"PrefabIdentifier": "chrPrfMech_griffinBase-001",
+	"PrefabBase": "griffin",
 	"Tonnage": 55,
 	"InitialTonnage": 5.5,
 	"weightClass": "MEDIUM",
-	"BattleValue": 5171000,
+	"BattleValue": 6088000,
 	"Heatsinks": 0,
 	"TopSpeed": 80,
 	"TurnRadius": 90,
-	"MaxJumpjets": 30,
+	"MaxJumpjets": 8,
 	"Stability": 130,
 	"StabilityDefenses": [
 		0,
@@ -39,22 +39,16 @@
 	"Signature": 0,
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 60,
-	"MeleeInstability": 30,
+	"MeleeDamage": 70,
+	"MeleeInstability": 55,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 60,
+	"DFADamage": 70,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 60,
-	"DFAInstability": 30,
-	"Locations": [
-		{
+	"DFASelfDamage": 70,
+	"DFAInstability": 70,
+	"Locations": [{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -63,13 +57,12 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [
-				{
+			"Hardpoints": [{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -81,17 +74,12 @@
 		},
 		{
 			"Location": "LeftTorso",
-			"Hardpoints": [
-				{
+			"Hardpoints": [{
 					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -105,31 +93,26 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 15,
 			"MaxArmor": 180,
 			"MaxRearArmor": 90,
 			"InternalStructure": 90
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
+			"Hardpoints": [{
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
-				}				
+				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
@@ -139,13 +122,16 @@
 		},
 		{
 			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Artillery",
+			"Hardpoints": [{
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -174,8 +160,7 @@
 			"InternalStructure": 65
 		}
 	],
-	"LOSSourcePositions": [
-		{
+	"LOSSourcePositions": [{
 			"x": 0,
 			"y": 15,
 			"z": 0
@@ -191,8 +176,7 @@
 			"z": 0
 		}
 	],
-	"LOSTargetPositions": [
-		{
+	"LOSTargetPositions": [{
 			"x": 0,
 			"y": 15,
 			"z": 0
@@ -208,31 +192,40 @@
 			"z": 0
 		},
 		{
-			"x": 2.5,
-			"y": 6,
-			"z": 2.5
+			"x": 3,
+			"y": 5,
+			"z": 0
 		},
 		{
-			"x": -2.5,
-			"y": 6,
-			"z": 2.5
+			"x": -3,
+			"y": 5,
+			"z": 0
 		}
 	],
-	"VariantName": "BSW-XJ8",
+	"VariantName": "GRF-3N",
 	"ChassisTags": {
 		"items": [
 			"MediumMech",
-			"ArmLimitLowerRight",
-			"ArmLimitLowerLeft"
+			"HalfRoyal"
+			
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Heavy Scout",
-	"YangsThoughts": "This mech is uniquely suited for getting in quick and critting out an enemy.  Not the fastest but fast enough.",
+	"StockRole": "Lighter Champion",
+	"YangsThoughts": "Boss, This is the oft mentioned but never really seen \"alternative\" to the SLDF Champion CHP-1N.   Interesting use of the Griffin chassis.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_NarrowProfile_Bushwacker",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Griffin",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -240,18 +233,6 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_composite",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		}
-	],
-	"CustomParts": {
-		"CustomParts": []
-	}
+		}	
+	]
 }

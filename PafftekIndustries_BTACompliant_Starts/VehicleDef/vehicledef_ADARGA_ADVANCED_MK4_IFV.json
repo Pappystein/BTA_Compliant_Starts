@@ -76,7 +76,7 @@
 		},
 		{
 			"MountedLocation": "Turret",
-			"ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+			"ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
@@ -104,7 +104,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_AC5",
+			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_AC2",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

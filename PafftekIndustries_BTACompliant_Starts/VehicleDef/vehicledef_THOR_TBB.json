@@ -112,7 +112,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB15_FRAG",
+            "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB15_AB",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Rear",
             "HardpointSlot": -1,

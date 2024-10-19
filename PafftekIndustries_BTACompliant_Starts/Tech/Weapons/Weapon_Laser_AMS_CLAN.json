@@ -5,19 +5,23 @@
 				"CategoryID": "w/s/a/lams"
 			}
 		],
-        "BonusDescriptions": {
-            "Bonuses": [
+        "BonusDescriptions": [
 				"LAMS",
 				"OLAMSAttacks",
 				"AMSRadius: 120",
 				"AMSShots: 15",
 				"AMSAcc: 50%",
-				"OLAMSHeat: 12",
+				"OLAMSHeat: 6",
 				"OLAMSJam: 30%",
 				"OLAMSShots: 40",
+				"CIWS",				
+				"CLAMSHeat: 8",
+				"CLAMSJam: 20%",
+				"CLAMSShots: 25",
+				"CIWSAcc: 65%",				
 				"AMSDamage: 2"
-            ]
-        }
+            
+        ]
     },
 	"Auras": [
 		{
@@ -25,19 +29,6 @@
 			"Name": "StandardAMS",
 			"ReticleColor": "#007FE4",
 			"Range": 120,
-			"RemoveOnSensorLock": false,
-			"State": "Persistent",
-			"ApplySelf": false,
-			"HideOnNotSelected": true,
-			"AllyStealthAffection": "None",
-			"EnemyStealthAffection": "None",
-			"IsPositiveToAlly": false
-		},
-		{
-			"Id": "CIWS",
-			"Name": "CIWS",
-			"ReticleColor": "#007FE4",
-			"Range": 60,
 			"RemoveOnSensorLock": false,
 			"State": "Persistent",
 			"ApplySelf": false,
@@ -140,11 +131,11 @@
 			"AMSDamage": 1,
             "ShotsWhenFired": 25,
             "AMSHitChance": 0.65,
-            "FlatJammingChance": 0.4,
+            "FlatJammingChance": 0.2,
             "HeatGenerated": 8,
 			"IsAMS": true,
-			"IsAAMS": true,
-			"MaxRange": -60.0,
+			"IsAAMS": false,
+			"MaxRange": -30.0,
             "AMSShootsEveryAttack": true
         },
         {
