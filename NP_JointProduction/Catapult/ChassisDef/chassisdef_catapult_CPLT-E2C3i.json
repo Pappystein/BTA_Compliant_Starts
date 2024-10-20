@@ -227,7 +227,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Backstabber",
-	"YangsThoughts": "Boss, I like ballistic weapons as much as the next guy, but at 65 tons with a high manuver envelope, the CPLT-E2 just doesn't have a lot of shooting power.",
+	"YangsThoughts": "Boss, I like ballistic weapons as much as the next guy, but at 65 tons with a high manuver envelope, the CPLT-E2-C3i swaps out the Laser AMS and ER Small laser for a Command Control Communication intelligence module (C3i.) It still doesn't have a lot of shooting power.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

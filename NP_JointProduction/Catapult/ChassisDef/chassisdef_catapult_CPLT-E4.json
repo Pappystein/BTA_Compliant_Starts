@@ -226,8 +226,8 @@
 			],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Cannonapult",
-	"YangsThoughts": "Well boss, this is a beastie of a mech. Utilizing the Heavy Gauss, this mech is meant as a backstabber.",
+	"StockRole": "Ballistic missileer",
+	"YangsThoughts": "Boss! this Catapult is similar to the Catapult C4C in that it has both Ballistic weapons and the ability to fire long range missiles.   In this case via Light Autocannons and Multi-Missile Launchers.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
