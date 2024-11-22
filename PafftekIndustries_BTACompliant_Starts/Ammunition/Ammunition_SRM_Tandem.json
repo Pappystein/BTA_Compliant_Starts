@@ -13,11 +13,12 @@
 	"Category": "SRM",
 	"HeatGenerated": 0,
 	"AIBattleValue": 50,
-	"CriticalChanceMultiplier": 0.10,
-	"DamagePerShot": -2,
+	"CriticalChanceMultiplier": 1.0,
+	"DamagePerShot": -4,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
-	"APDamage": 2
+	"APDamage": 4,
+	"APCriticalChanceMultiplier": 0.15
 }

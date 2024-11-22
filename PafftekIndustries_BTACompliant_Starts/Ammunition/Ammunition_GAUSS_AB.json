@@ -16,6 +16,7 @@
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
+	"AlternateDamageCalc": true,
 	"HitGenerator": "Cluster",
 	"DisableClustering": false,
 	"HasShells": true,

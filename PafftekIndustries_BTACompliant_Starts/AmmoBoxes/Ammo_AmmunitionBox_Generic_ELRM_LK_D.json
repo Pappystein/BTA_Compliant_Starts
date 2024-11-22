@@ -1,0 +1,59 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/m/l/lrm"
+			},
+			{
+				"CategoryID": "NoArtemisLRM"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4,
+			"StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": [
+				"LKMissile",
+			"CostPerShot: 180",
+			"AmmoCount: 200"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 180
+		}
+	},
+	"AmmoID": "Ammunition_ELRM_LK",
+	"Capacity": 200,
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "LRM",
+		"UIName": "Ammo Extended L-K LRM [D]",
+		"Id": "Ammo_AmmunitionBox_Generic_ELRM_LK_D",
+		"Name": "Extended Listen Kill LRM Ammo double",
+		"Details": "This ammo bin is for the Extended LRM weapon system. Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 200 shots.",
+		"Icon": "MRM-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,8 +1,12 @@
 {
 	"Custom": {
-		"Category": [{
+		"Category": [
+			{
 				"CategoryID": "Cockpit"
-			}
+			},
+			{
+				"CategoryID": "LifeSupportB"
+			}	
 		],
 		"WorkOrderCosts": {
 			"Install": {
@@ -15,11 +19,46 @@
 				"autorepair"
 			],
 		"BonusDescriptions":  [
-				"EvaPips: +1",
-				"ThermalVision: 1",
-				"ThermalVisionHeat: 30",
-				"IsCockpit"
+				"TrackBreeaker",
+				"EnergyDefense: 1",
+				"SensorLockImmune",
+				"IsCockpit",
+				"IsLifeSupportB"
+			],
+		"ActivatableComponent": {
+			"ButtonName": "Schwalbe Trackbreaker",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-SensorLockImmunity",
+						"Name": "Sensor Lock Immunity",
+						"Details": "This unit is immune to sensor lock.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "EvasiveSafeFromSensorLock",
+						"operation": "Set",
+						"modValue": "true",
+						"modType": "System.Boolean"
+					},
+					"nature": "Buff"
+				}
 			]
+		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -31,21 +70,21 @@
 		"Rarity": 5,
 		"Purchasable": false,
 		"Manufacturer": "Pafftek Industries",
-		"Model": "Schwalbe-200",
-		"UIName": "CEU Schwalbe 200",
+		"Model": "CEU-200 Schwalbe",
+		"UIName": "CEU-200 Schwalbe",
 		"Id": "Gear_Cockpit_200_Schwalbe",
-		"Name": "Schwalbe-200 Cockpit Enhanced Electronics",
+		"Name": "CEU-200 Schwalbe Cockpit Enhanced Electronics",
 		"Details": "Larger than standard Cockpits, the Schwalbe-200 CEW brings a rare skillset to the typical mech cockpit.  A basic 'track breaker' suite.   This rudimentary form of ECM provides limited bonuses to the carrying unit only.  As a Trackbreaker does not provide typical ECM effects it is not counted as carrying an ECM and it stacks with any ECM benefits from this or other units.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
 	"BonusValueA": "Trackbreaker",
-	"BonusValueB": "+2 Defense",
+	"BonusValueB": "+1 Defense",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
 	"InventorySize": 2,
-	"Tonnage": 2,
+	"Tonnage": 3,
 	"AllowedLocations": "Head",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -120,7 +159,7 @@
 			"statisticData": {
 				"statName": "MaxEvasivePips",
 				"operation": "Int_Add",
-				"modValue": "2",
+				"modValue": "1",
 				"modType": "System.Int32"
 			},
 			"nature": "Buff"
@@ -140,13 +179,13 @@
 				"Description": {
 					"Id": "StatusEffect-TargBaff-HitDefense1",
 					"Name": "TARGETING BAFFLES",
-					"Details": "+[AMT] Difficulty to hit this unit with ranged attacks.",
+					"Details": "+[AMT] Difficulty to hit this unit with Energy attacks.",
 					"Icon": "UixSvgIcon_specialEquip_System"
 				},
 				"statisticData": {
 					"appliesEachTick": false,
 					"effectsPersistAfterDestruction": false,
-					"statName": "ToHitThisActor",
+					"statName": "ToHitThisActorEnergy",
 					"operation": "Float_Add",
 					"modValue": "1",
 					"modType": "System.Single",
@@ -162,13 +201,7 @@
 	],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
-			"lv-shares-sensors",
-			"lv-vismode-zoom_m3_s7",
-			"lv-vismode-heat_m1_d35",
-			"lv-jammer_m7_r7",
-			"lv-probe_m6",
-			"DirectNeuralInterface"
+			"component_type_stock"
 
 		],
 		"tagSetSourceFile": ""

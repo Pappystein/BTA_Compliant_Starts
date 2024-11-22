@@ -1,0 +1,99 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 11
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"ATGM",
+			"NoFireInMelee"
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.5
+        },
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 0,
+	"MaxRange": 480,
+	"RangeSplit": [
+		120,
+		240,
+		360
+	],
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 4,
+	"HeatGenerated": 0,
+	"Damage": 10,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"APDamage": 10,
+	"APCriticalChanceMultiplier": 0.6,
+	"Instability": 10,
+	"AMSImmune": false,
+	"MissileHealth": 6,
+	"Streak": true,
+	"ProjectileSpeedMultiplier": 0.6,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Alliance Munitions",
+		"Model": "Multi-Use Bomb Rack",
+		"UIName": "AT/MGM",
+		"Id": "Weapon_Bomb_Bay_ATMGM",
+		"Name": "Anti-Tank/Mech Guided Missile",
+		"Details": "This is an attached Bomb Bay, armed with 4 Anti Tank/Mech Guided Missiles.  Each Missile is fired independantly. Bomb bays are heavily used on aerospace fighters for target saturation.  \n\n <b><color=#ffcc00>Uses Internal Ammo.  A Pafftek Industries Item</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

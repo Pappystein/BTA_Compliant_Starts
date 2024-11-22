@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Venom,itemCollection_Pafftek_LiaoUrbie,itemCollection_Mechs_Starting_Liao_Light,itemCollection_Mechs_Starting_Liao_Medium,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT"
+						"ConstantValue": "itemCollection_Pafftek_Firebee,itemCollection_Pafftek_Venom,itemCollection_Pafftek_LiaoUrbie,itemCollection_Mechs_Starting_Liao_Light,itemCollection_Mechs_Starting_Liao_Medium,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_IFV_PFT"
 					},
 					{
 						"ConstantType": "CareerMode",

@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_GhostStories",
+			"Name": "Spooky",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.7,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "David"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Mechs_Special_LightPFT,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Davion:10"
+				}
+			]
+		}
+	}]
+}

@@ -1,0 +1,81 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/thunderbolt"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+				"IsHVM",
+				"NoFireInMelee",
+				"MissileHealth: 8"
+			]
+	},
+	"Category": "Superweapon",
+	"Type": "LRM",
+	"WeaponSubType": "LRM20",
+	"MinRange": 150,
+	"MaxRange": 1400,
+	"RangeSplit": [
+		180,
+		360,
+		540
+	],
+	"AmmoCategory": "HVM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 58,
+	"Damage": 80,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 10,
+	"AccuracyModifier": -3,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 20,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 4,
+	"Instability": 225,
+	"MissileHealth": 8,
+	"APDamage": 30,
+	"APCriticalChanceMultiplier": 0.30,
+	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Rodflinger 200",
+		"UIName": "HyperVelocitity Launcher",
+		"Id": "Weapon_HVM_Twin",
+		"Name": "HVM",
+		"Details": "Taking a page out of experiments on Terra prior to the formation of the Star League, Pafftek Industries has developed the HyperVelocity Missile launcher, a Direct line of sight anti-mech/anti-vehicle weapon.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Accuracy quickly degrades over distance however. \n\n <b><color=#ffcc00>Uses HyperVelocity Ammo.</color></b>",
+		"Icon": "missile-pod"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 7,
+	"Tonnage": 17,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

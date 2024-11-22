@@ -1,0 +1,65 @@
+{
+	"Custom": {
+		"AddonReference": {
+			"installedLocationOnly": true,
+			"autoTarget": true,
+			"WeaponAddonIds": [
+				"WeaponUpgrade_ArtemisV_LRM",
+				"WeaponUpgrade_ArtemisV_SRM",
+				"WeaponUpgrade_ArtemisV_MML"
+			]
+		},
+		"Category": [
+			{
+				"CategoryID": "WeaponAttachment"
+			},
+			{
+				"CategoryID": "ArtemisAttachment"
+			},
+			{
+				"CategoryID": "NoTTS"
+			}
+		],
+		"BonusDescriptions": [
+			"WeaponAttachmentTargets: Standard LRMs and Standard SRMs and Standard MMLs",
+			"WeaponAttachmentModifiesModes",
+			"WeaponAttachmentArtemisDescription: Artemis IV & V missiles both SRM and LRM"
+		],
+		"RGBColor": "#5C6670"
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 75000,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "Diamond Shark Investments",
+		"Model": "DAI-320 Artemis V Suite",
+		"UIName": "Artemis V FCS",
+		"Id": "Gear_Attachment_ArtemisV",
+		"Name": "Artemis V FCS Attachment",
+		"Details": "Developed in early 3061 by Clan Goliath Scorpion and quickly distributed through out the entire universe by Clan Diamond Shark and quickly sold throughout the universe, the Artemis V guidance system works with both Artemis IV and Artemis V muntions, allowing for some flexiblity in deployment.  Artemis V rounds are very similar to the Artemis IV except they are even more precise in where they strike and just slightly more accurate against moving targets.\r\n\r\n<b><color=#F79232>Cannot be used with other Missile TTS and enables using Artemis IV & Artemis V Ammo.</color></b>",
+		"Icon": "WeaponAttachment"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"BAIncompatible",
+			"ProtoIncompatible"
+		],
+		"tagSetSourceFile": ""
+	}
+}

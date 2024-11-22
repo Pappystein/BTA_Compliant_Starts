@@ -258,7 +258,9 @@
   "ChassisTags": {
     "items": [
 		"AssaultMech",
-		"SanctuaryRefit"
+		"SanctuaryRefit",
+		"ArmLimitLowerRight",
+		"ArmLimitLowerLeft"
 	],
     "tagSetSourceFile": ""
   },

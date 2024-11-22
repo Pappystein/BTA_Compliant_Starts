@@ -3,14 +3,16 @@
     "Category": [
 		{
 			"CategoryID": "w/m/t/arrowiv"
-		},
-		{
-			"CategoryID": "NeverMelee"
 		}
     ],
-	"Lootable": "Weapon_SRM_SRM10_0-Stock"
+	"Lootable": "Weapon_SRM_SRM10_0-Stock",
+        "BonusDescriptions": [
+			"InfCrockett"
+            
+        ]
+	
   },
-  "weaponCategoryID": "Artillery",
+  "weaponCategoryID": "Superweapon",
   "Type": "SRM",
   "WeaponSubType": "SRM2",
   "MinRange": 300,
@@ -47,18 +49,18 @@
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 0.1,
   "ProjectileSpeedMultiplier": 1.6,
-  "MissileHealth": 6,
+  "MissileHealth": 8,
   "WeaponEffectID": "WeaponEffect-Weapon_SRM2",
   "Description": {
     "Cost": 42000,
     "Rarity": 10,
     "Purchasable": true,
     "Manufacturer": "Pafftek Industries",
-    "Model": "Davey Crocket IA",
-    "UIName": "Davey Crocket IA",
+    "Model": "Davy Crocket IA",
+    "UIName": "Davy Crocket Infantry launcher",
     "Id": "Weapon_APM_Davey_Crocket_Ia",
-    "Name": "Davey Crocket IA",
-    "Details": "A Single Use rack used for launching the Infantry version of the Davey Crocket, also known as the Davey Crocket I or Type Ia   Explosion radius is only slightly smaller than max range.  use with care.",
+    "Name": "Davy Crocket IA",
+    "Details": "A rack designed arround the infantry Davey Crockett IA and the Infantry Elias missile.  However this launcher is capable via mode switching to also fire 2 SRM missiles as if it was a heavy SRM-2.",
     "Icon": "Art-illery"
   },
   "BonusValueA": "",
@@ -74,17 +76,30 @@
   "CriticalComponent": false,
    "Modes": [
         {
-            "Id": "Off",
-            "UIName": "Off",
-            "isBaseMode": true,
-            "ShotsWhenFired": -1
-        },
-        {
             "Id": "On",
-            "UIName": "On",
+            "UIName": "Nuke",
             "isBaseMode": false
 
-        }
+        },
+		{
+			"Id": "SRM",
+			"UIName": "SRM",
+			"isBaseMode": true,
+			"IndirectFireCapable": false,
+			"DamagePerShot": -8.0,
+			"MinRange": -300.0,
+			"MaxRange": -740.0,
+			"ShortRange": -210.0,
+			"MediumRange": -320.0,
+			"LongRange": -630.0,
+			"StatusEffectsPerHit": true,
+			"AmmoCategory": "SRM",
+			"WeaponEffectID": "WeaponEffect-Weapon_SRM2",
+			"Instability": 3,
+			"MissileHealth": 2,
+			"ShotsWhenFired": 1
+		}
+		
     ],  
   "statusEffects": [],
   "ComponentTags": {

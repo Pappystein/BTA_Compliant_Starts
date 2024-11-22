@@ -1,0 +1,229 @@
+{
+	"Description": {
+		"Cost": 5900000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Glass Spider",
+		"Id": "chassisdef_glassspider_GLS-HN7",
+		"Name": "Glass Spider",
+		"Details": "A simplistic upgrade to the Glass Spider 1, the HN7 upgrades the engine from a 240 standard to a 300 XL,  Removes one ton of Gauss ammunition and the remaining 4 tons of ammunition are inserted in the slightly more fragile double ammo bins providing almost the same shot count.   Topping this off is the inclusion of the Nova CEP in the Center Torso, an Anti-Aircraft FCS, XL Gyro and two Micro lasers for in close defense.",
+		"Icon": "uixTxrIcon_glassspider"
+	},
+	"MovementCapDefID": "movedef_hellfire_240",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_glassspider",
+	"PrefabIdentifier": "chrprfmech_glassspiderbase-001",
+	"PrefabBase": "glassspider",
+	"Tonnage": 60,
+	"InitialTonnage": 6,
+	"weightClass": "HEAVY",
+	"BattleValue": 5383000,
+	"Heatsinks": 0,
+	"TopSpeed": 150,
+	"TurnRadius": 90,
+	"MaxJumpjets": 99,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 55,
+	"MeleeInstability": 15,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 55,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 55,
+	"DFAInstability": 15,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 40,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 150,
+			"MaxRearArmor": 50,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 40,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 13,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -2,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "GLS-HN7",
+	"ChassisTags": {
+		"items": [
+			"ClanMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Formidable AA Platform",
+	"YangsThoughts": "Boss, this is one of those new 'Networked Clan Mechs' we were warned about.  If that Nova electronics package is salvable people will pay a pretty penny for it.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

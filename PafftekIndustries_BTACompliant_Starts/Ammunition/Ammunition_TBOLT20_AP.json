@@ -16,7 +16,6 @@
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1.1,
-	"StructureDamage": 10,
-	"AOECapable": false,
-	"DamagePerShot": -20.0
+	"StructureDamage": 15,
+	"AOECapable": false
 } 

@@ -1,0 +1,242 @@
+{
+	"Description": {
+		"Cost": 3860000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Cicada",
+		"Id": "chassisdef_cicada_CDA-4A",
+		"Name": "Cicada",
+		"Details": "Developed to utilize Variable Speed Pulse Lasers and Re-engineered Lasers, the Cicada CDA-4A quickly saw widespread deployment across the Inner-Sphere.  Inner-Sphere tech Endo-Steel and Ferro-Fibrous take up most of the space availble on this mech.  A Supercharger, a Extra Large 320 core and 10 DHS complete the build.  Utilized by the Federated Suns, Capallean Confederation, Free World Leagues and various advanced Mercenary bands.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Icon": "uixTxrIcon_cicada"
+	},
+	"MovementCapDefID": "movedef_cicada_CDA-2A",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_cicada",
+	"PrefabIdentifier": "chrPrfMech_cicadaBase-001",
+	"PrefabBase": "cicada",
+	"Tonnage": 40,
+	"InitialTonnage": 4,
+	"weightClass": "MEDIUM",
+	"BattleValue": 3610000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 40,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 40,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 40,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 16,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 12,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 6,
+			"z": 0
+		},
+		{
+			"x": -2.5,
+			"y": 6,
+			"z": 0
+		}
+	],
+	"VariantName": "CDA-4A",
+	"ChassisTags": {
+		"items": [
+			"IgnoreEngineLimit",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"MediumMech",
+			"HighTech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Scout & Harasser",
+	"YangsThoughts": "Developed to utilize Variable Speed Pulse Lasers and Re-engineered Lasers, the Cicada CDA-4A quickly saw widespread deployment across the Inner-Sphere.  Inner-Sphere tech Endo-Steel and Ferro-Fibrous take up most of the space availble on this mech.  A Supercharger, a Extra Large 320 core and 10 DHS complete the build.  Utilized by the Federated Suns, Capallean Confederation, Free World Leagues and various advanced Mercenary bands.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_Cicada",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

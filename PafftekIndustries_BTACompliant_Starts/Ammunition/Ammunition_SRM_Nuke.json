@@ -2,7 +2,7 @@
    "Description": {
       "Id": "Ammunition_SRM_Nuke",
       "Name": "Davey Crocket-I",
-      "UIName": "Infantry Nuke",
+      "UIName": "DC-Nuke",
       "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
       "Icon": null,
       "Cost": 0,
@@ -16,6 +16,7 @@
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
    "CriticalDamageModifier": 1,
+   "PhysicsAoE_Weapons": true,  
    "AOECapable": true,
    "AOERange": 500,
    "AOEDamage": 800,

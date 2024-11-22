@@ -1,6 +1,20 @@
 {
 	"enumerationValueList": [
 		{
+			"ID": 9001,
+			"Name": "ICBM",
+			"FriendlyName": "ICBM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},	
+		{
 			"ID": 9002,
 			"Name": "IND_Laser",
 			"FriendlyName": "IND_Laser",
@@ -13,6 +27,34 @@
 			"FallbackUIColor": null,
 			"Icon": "EnergyHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+		},
+		{
+			"ID": 9003,
+			"Name": "ARTEMISVLRM",
+			"FriendlyName": "ARTEMISVLRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 9004,
+			"Name": "ARTEMISVSRM",
+			"FriendlyName": "ARTEMISVSRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
 		},
 		{
 			"ID": 9006,
@@ -29,6 +71,48 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
 		},
 		{
+			"ID": 9007,
+			"Name": "HVM",
+			"FriendlyName": "HVM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 9008,
+			"Name": "SRMOS",
+			"FriendlyName": "SRMOS",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+		},
+		{
+			"ID": 9009,
+			"Name": "LRMOS",
+			"FriendlyName": "LRMOS",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": true,
+			"UIColorRef": "Missile",
+			"FallbackUIColor": null,
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
 			"ID": 9500,
 			"Name": "HvyMORTAR",
 			"FriendlyName": "HvyMortar",
@@ -37,7 +121,7 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Ballistic",
+			"UIColorRef": "QualityD",
 			"FallbackUIColor": null,
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"

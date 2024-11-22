@@ -1,7 +1,6 @@
 {
 	"Custom": {
 		"Category": [
-			{ "CategoryID": "StandardJJ" },
 			{ "CategoryID": "VectoredTK" }
 		]	
 	},
@@ -71,7 +70,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

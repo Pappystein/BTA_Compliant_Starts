@@ -1,0 +1,87 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/laser"
+			}
+		],
+		"BonusDescriptions": [
+			"ArmorDmgMod: +40%",
+			"StructureDmgMod: -20%",
+			"ReEngineeredLaser",
+			"WeaponAttachmentCompatible: Laser Insulator",
+			"WeaponAttachmentCompatible: Laser FCS"
+		],
+		"Flags": [
+			"not_broken"
+		]
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "LargeLaser",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 19,
+	"HeatDamage": 0,
+	"Instability": 2,
+	"DamageVariance": 0,
+	"AccuracyModifier": 0,
+	"EvasivePipsIgnored": 0,
+	"RefireModifier": 0,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"CriticalChanceMultiplier": 1,
+	"APDamage": 3,
+	"ArmorDamageModifier": 1.4,
+	"ISDamageModifier": 0.8,
+	"APCriticalChanceMultiplier": 0.1,
+	"AOECapable": false,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"IndirectFireCapable": false,
+	"FireTerrainChance": 0.1125,
+	"AttackRecoil": 1,
+	"WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+	"Description": {
+		"Cost": 250000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Large Laser",
+		"UIName": "RE Large Laser",
+		"Id": "Weapon_Laser_Reengineered_Large",
+		"Name": "L Laser",
+		"Details": "Re-engineered Lasers were developed by trying to mate a Pulse laser with a Heavy Laser. Though unsuccessful in that effort the weapons created had one odd benefit: The resulting homoginization created a dual pulse attack that both penetrated armor and did extra damage to armor at the same time.  However when attacking exposed structures the weapon does less damage.",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"InventorySize": 5,
+	"Tonnage": 6,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_long",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

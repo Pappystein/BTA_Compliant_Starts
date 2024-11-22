@@ -11,8 +11,12 @@
         },
         "BonusDescriptions":  [
 				"Health: +2",
+				"Sight: +150",
                 "IsCockpit"
-            ]
+            ],
+		"Flags":  [
+				"not_broken"
+			]
     },
     "StatName" : null,
     "RelativeModifier" : 0,

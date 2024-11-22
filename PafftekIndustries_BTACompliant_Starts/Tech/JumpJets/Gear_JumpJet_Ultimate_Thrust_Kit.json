@@ -1,7 +1,6 @@
 {
 	"Custom": {
 		"Category": [
-			{ "CategoryID": "StandardJJ" },
 			{ "CategoryID": "VectoredTK" }
 		]	
 
@@ -65,14 +64,14 @@
             "statisticData" : {
                 "statName" : "JumpDistanceMultiplier",
                 "operation" : "Float_Add",
-                "modValue" : "0.20",
+                "modValue" : "0.25",
                 "modType" : "System.Single"
             }
         }
     ],
     "ComponentTags" : {
         "items" : [
-
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

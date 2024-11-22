@@ -6,59 +6,18 @@
 			}
 		],
 		"BonusDescriptions": [
-				"TEHeatgen: -17%"
+				"TEHeatgen: -18%",
+				"Clan_ExchangerII",
+				"Explosive: 12",
+				"ExplosiveHEAT: 30",
+				"ExplosiveSTAB: 10"
 			]
 	},
-    "ActivatableComponent": {
-      "ButtonName": "Exchanger IV",
-      "CanNotBeActivatedManualy": true,
-      "ActivationMessage": "ACTIVE",
-      "DeactivationMessage": "Nominal",
-      "AutoActivateOnOverheatLevel": 0.5,
-      "AutoDeactivateOverheatLevel": 0.2,
-      "NoUniqueCheck": true,
-      "FailFlatChance": -0.15,
-      "FailRoundsStart": 2,
-      "FailChancePerTurn": 0.15,
-      "FailCheckOnActivationEnd": true,
-      "FailPilotingBase": 10,
-      "FailPilotingMult": 0.0001,
-      "SelfCrit": true,
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": -1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Buff",
-          "Description": {
-            "Id": "Exchanger Clan II cooling",
-            "Name": "Increases cooling on Activation",
-            "Details": "Exchanger Clan II drastically improves the mechs cooling",
-            "Icon": "uixSvgIcon_equipment_ThermalExchanger"
-          },
-          "statisticData": {
-            "statName": "HeatSinkCapacity",
-            "operation": "Int_Add",
-            "modValue": "30",
-            "modType": "System.Int32"
-          }
-        }
-      ]
-    },	
     "ComponentExplosion": {
       "ExplosionDamage": 12.0,
       "HeatDamage": 30.0,
       "StabilityDamage": 10.0
     },	
-	"DissipationCapacity": 8,
 	"Description": {
 		"Cost": 900000,
 		"Rarity": 5,
@@ -109,7 +68,7 @@
 			"Description": {
 				"Id": "StatusEffect-Heat_GenReduction-T3",
 				"Name": "HEAT GENERATION DECREASED",
-				"Details": "Heat generation reduced by 17%.",
+				"Details": "Heat generation reduced by 18%.",
 				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 			},
 			"nature": "Buff",
@@ -122,6 +81,57 @@
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Exchanger+_Venting",
+				"Name": " Exchanger IV",
+				"Details": "Exchanger IV Heat Bank system venting 6 heat",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "EndMoveHeat",
+				"operation": "Int_Add",
+				"modValue": "-4",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
 				"targetWeaponCategory": "NotSet",
 				"targetWeaponType": "NotSet",
 				"targetAmmoCategory": "NotSet",

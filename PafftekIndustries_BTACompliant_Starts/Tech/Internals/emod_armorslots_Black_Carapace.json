@@ -13,19 +13,10 @@
     },
     "BonusDescriptions": [
         "Carapace",
-        "HaarJel",
-        "HaarJelTurn",
-        "HaarJelArmor: 12",
-        "HaarJelStructure: 4",
-        "HaarJelDuration: 4",
         "FluidBoom: 30",
         "ArmorFactor: +15%",
         "Visibility: -30%",
-        "Signature: -30%",
-        "TEHeatgen: +15%",
-        "HeatPerTurn: +10",
-        "ArmorTPCost: 75%",
-        "ArmorCBCost: 75%"
+        "Signature: -30%"
       ],
     "ActivatableComponent": {
       "ButtonName": "Black Carapace",
@@ -129,6 +120,50 @@
   "AllowedLocations": "CenterTorso",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "Auras": [
+    {
+      "Id": "Quirk_Intimidating",
+      "Name": "Intimidated",
+      "ReticleColor": "#ccff33",
+      "Range": 210,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "HideOnNotSelected": false,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "NegativeOne",
+      "IsNegativeToEnemy": true,
+      "IsPositiveToAlly": false,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "IntimidatedPenalty",
+            "Name": "Quirk Intimidating Aura Intimidating: Increased Enemies Panic Chance",
+            "Details": "Increases chance to panic by 50%.",
+            "Icon": "uixSvgIcon_equipment_Cockpit"
+          },
+          "statisticData": {
+            "statName": "PanicStatMultiplier",
+            "operation": "Float_Multiply",
+            "modValue": "1.5",
+            "modType": "System.Single"
+          }
+        }
+      ]
+    }
+  ],  
 	"statusEffects": [
 		{
 			"durationData": {

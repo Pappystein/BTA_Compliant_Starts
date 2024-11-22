@@ -1,0 +1,28 @@
+{
+	"TargetID": "Categories_ElectronicWarfare",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+		{
+			"Name": "AECM",
+			"displayName": "Electronic Countermeasure Suite",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "8",
+				"Sorter": 1000
+			}
+		
+		
+		}		
+		]
+	}
+	]
+	
+}	

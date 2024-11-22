@@ -1,0 +1,40 @@
+{
+	"Custom": {
+		"Category": [{
+			"CategoryID": "Heatsink"
+		}],
+		"Color": "whiteHalf",
+		"TRGBColor" : { "Color" : "#000003FF" }
+	},
+    "DissipationCapacity" : 1,
+    "Description" : {
+        "Cost" : 125000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "HS-30",
+        "UIName" : "Heat Sink 30",
+        "Id" : "Gear_HeatSink_HS30",
+        "Name" : "Heat Sink 30",
+        "Details" : "Made from lightweight materials and advance manufacturing techniques resulting in ultra lightweight designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -25,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

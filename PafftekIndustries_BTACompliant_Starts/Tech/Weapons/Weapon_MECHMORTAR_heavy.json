@@ -58,6 +58,7 @@
 	"ProjectileSpeedMultiplier": 0.8,
 	"CantHitUnaffecedByPathing": true,
 	"SpreadRange": 40,
+	"AoECanCrit": true,
 	"HitGenerator": "Cluster",
 	"WeaponEffectID": "WeaponEffect-Weapon_AC20",
 	"AlwaysIndirectVisuals": true,

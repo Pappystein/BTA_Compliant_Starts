@@ -1,0 +1,27 @@
+{
+	"TargetID": "Categories_JumpJets",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+			{
+				"Name": "VectoredTK",
+				"displayName": "Vectored Thrust Kit",
+				"BaseLimits": [
+					{
+					  "Min": 0,
+					  "Max": 2
+					}
+				],
+				"DefaultCustoms": {
+					"InventorySorter": "7",
+					"Sorter": 1000
+				}
+			}
+		
+		
+		]
+	}
+	]
+}	

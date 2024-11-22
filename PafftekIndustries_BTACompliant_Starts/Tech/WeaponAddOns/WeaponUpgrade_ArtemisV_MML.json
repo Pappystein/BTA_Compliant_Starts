@@ -1,0 +1,55 @@
+{
+	"Id": "WeaponUpgrade_ArtemisV_MML",
+	"addonType": "artemisv",
+	"targetComponentTags": [
+		"ArtemisIVMMLSupported"
+	],
+	"modes": [
+		{
+			"Id": "ArtemisV-LRM",
+			"UIName": "ArtV",
+			"Name": "ArtV",
+			"Description": "Weapon fires in ArtIV mode",
+			"isBaseMode": true,
+			"DirectFireModifier": -3.0,
+			"EvasivePipsIgnored": 2,
+			"AccuracyModifier": 0,
+			"ClusteringModifier": 2.0,
+			"AmmoCategory": "ARTEMISVLRM"
+		},	
+		{
+			"Id": "LRM",
+			"UIName": "LRM",
+			"Name": "ArtIV",
+			"Description": "Weapon fires in ArtIV mode",
+			"isBaseMode": false,
+			"DirectFireModifier": -3.0,
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": 0,
+			"ClusteringModifier": 1.25,
+			"AmmoCategory": "ARTEMISIVLRM"
+		},
+		{
+			"Id": "SRM",
+			"UIName": "SRM",
+			"Name": "ArtIV",
+			"Description": "Weapon fires in ArtIV mode",
+			"isBaseMode": false,
+			"EvasivePipsIgnored": 2,
+			"AccuracyModifier": -1.0,
+			"ClusteringModifier": 1.25,
+			"AmmoCategory": "ARTEMISIVSRM"
+		},
+		{
+			"Id": "ArtemisV-SRM",
+			"UIName": "ArtV",
+			"Name": "ArtV",
+			"Description": "Weapon fires in ArtV mode",
+			"isBaseMode": false,
+			"EvasivePipsIgnored": 3,
+			"AccuracyModifier": -1.0,
+			"ClusteringModifier": 2.25,
+			"AmmoCategory": "ARTEMISVSRM"
+		}
+	]
+}

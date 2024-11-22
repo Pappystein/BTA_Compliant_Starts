@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "C3Slave"
+				"CategoryID": "Network"
 			}
 		],
 		"WorkOrderCosts": {
@@ -11,6 +11,14 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
 		},
+		"DecoratorComponent":[
+			{
+				"Text":"DRN",               
+				"Color":"#ff1616",      
+				"Icon":"mesh-network",       
+				"Importance": 10
+			}
+		],		
 		"BonusDescriptions": {
 			"Bonuses": [
 				"DroneNetwork"

@@ -11,9 +11,13 @@
         },
         "BonusDescriptions": [
 				"Health: +1",
-                "Initiative: +2",
-                "IsCockpit"	
-            ]
+                "SkillPiloting: +1",
+                "IsCockpit",
+				"HeadStrenghtened: +10, +6"
+            ],
+		"Flags":  [
+				"not_broken"
+			]
     },
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -23,11 +27,11 @@
         "Rarity" : 5,
         "Purchasable" : false,
         "Manufacturer" : "Pafftek Industries",
-        "Model" : "Sparrow-300",
-        "UIName" : "CEU Sparrow 300",
+        "Model" : "CEU-300 Sparrow",
+        "UIName" : "CEU-300 Sparrow",
         "Id" : "Gear_Cockpit_300_Sparrow",
-        "Name" : "Sparrow-300 Cockpit Enhanced Electronics",
-        "Details" : "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades grant additional capabilties to the 'Mech they are installed on.",
+        "Name" : "CEU-300 Sparrow Cockpit Enhanced Electronics",
+        "Details" : "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades grant additional capabilities to the 'Mech they are installed on.  The CEU-300 Swallow, first deployed on Royal Griffin GRF-2N battlemechs provides head strengthening, Increased pilot injury resistance and make the mech a little easier to pilot.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+1 Inj, Cowl",
@@ -115,7 +119,7 @@
             "statisticData": {
                 "statName" : "{location}.Structure",
                 "operation" : "Float_Add",
-                "modValue" : "10",
+                "modValue" : "6",
                 "modType" : "System.Single"
             }
         },
@@ -177,9 +181,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-            "ClanCockpit",
-            "DirectNeuralInterface"			
+            "component_type_stock"		
         ],
         "tagSetSourceFile" : ""
     }

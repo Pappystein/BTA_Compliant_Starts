@@ -15,15 +15,15 @@
             "StabilityDamagePerAmmo": 15
         },
         "BonusDescriptions": [
-				"CostPerShot: 130",
-				"UAC10Ammo: 25"
+				"CostPerShot: 500",
+				"UAC10Ammo: 30"
 		],
 		"AmmoCost" : {
-		  "PerUnitCost" : 130
+		  "PerUnitCost" : 500
 		}
     },
     "AmmoID": "Ammunition_UAC10",
-    "Capacity": 25,
+    "Capacity": 30,
     "Description": {
         "Cost": 60000,
         "Rarity": 1,

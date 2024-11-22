@@ -1,0 +1,114 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/g/gaussrifle"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 75,
+			"StabilityDamage": 18
+		},
+		"BonusDescriptions": [
+			"IsGauss",
+			"NoFireInMelee",
+			"WpnAccuracy: +1",
+			"WpnRecoil: 2",
+			"WeaponBoom: 75",
+			"WeaponAttachmentCompatible: Gauss FCS"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Gauss",
+	"WeaponSubType": "Gauss",
+	"MinRange": 60,
+	"MaxRange": 900,
+	"RangeSplit": [
+		210,
+		450,
+		660
+	],
+	"AmmoCategory": "GAUSS",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 5,
+	"Damage": 60,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 30,
+	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+	"Description": {
+		"Cost": 550000,
+		"Rarity": 20,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Ultra Mag Gun",
+		"UIName": "Ultra Gauss",
+		"Id": "Weapon_Gauss_Gauss_10-Pafftek",
+		"Name": "Gauss Rifle",
+		"Details": "The Ultra Gauss rifle is a rotary chambered twin barrel variant of the standard Gauss rifle.  The barrels are made a little smaller in diameter meaning there is less damage in a single shot vers a stock Gauss rifle.  However the Ultra Gauss makes up for this by firing multiple projectiles   <b><color=#099ff2>VOLATILE!</color></b>",
+		"Icon": "FerroMag"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Gauss",
+	"BattleValue": 0,
+	"InventorySize": 7,
+	"Tonnage": 20,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": true,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 6,
+			"FireDelayMultiplier": 0.3,
+			"FlatJammingChance": 0.05,
+			"RefireModifier": 3
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": true,
+			"ShotsWhenFired": 2,
+			"HeatGenerated": 14,
+			"FireDelayMultiplier": 0.3,
+			"FlatJammingChance": 0.05,
+			"Cooldown": 1,			
+			"RefireModifier": 3
+		}
+	],	
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"Id": "WeaponUpgrade_ArtemisV_SRM",
+	"addonType": "artemisv",
+	"targetComponentTags": [
+		"ArtemisIVSRMSupported"
+	],
+	"modes": [
+		{
+			"Id": "ArtemisV-SRM",
+			"UIName": "Art-V",
+			"Name": "ArtV",
+			"Description": "Weapon fires in ArtV mode",
+			"isBaseMode": true,
+			"EvasivePipsIgnored": 3,
+			"AccuracyModifier": -1.0,
+			"ClusteringModifier": 2.25,
+			"AmmoCategory": "ARTEMISVSRM"
+		},
+		{
+			"Id": "ArtemisIV-SRM",
+			"UIName": "ArtIV",
+			"Name": "ArtIV",
+			"Description": "Weapon fires in ArtIV mode",
+			"isBaseMode": false,
+			"EvasivePipsIgnored": 2,
+			"AccuracyModifier": -1.0,
+			"ClusteringModifier": 1.25,
+			"AmmoCategory": "ARTEMISIVSRM"
+		}		
+	]
+}

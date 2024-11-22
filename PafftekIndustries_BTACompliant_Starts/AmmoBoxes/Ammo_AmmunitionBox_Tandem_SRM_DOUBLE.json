@@ -20,7 +20,8 @@
 				"ArmorDmgMod: -100%",
 				"StructureDmgMod: +2",
 				"CostPerShot: 100",
-				"AmmoCount: 220"
+				"AmmoCount: 220",
+				"Tandem"
 			],
 		"AmmoCost": {
 			"PerUnitCost": 100

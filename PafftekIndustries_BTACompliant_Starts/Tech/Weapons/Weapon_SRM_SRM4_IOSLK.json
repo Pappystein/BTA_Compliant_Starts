@@ -1,0 +1,80 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/s/srm"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 8,
+			"StabilityDamagePerAmmo": 4
+		},
+		"BonusDescriptions": [
+			"MissileHealth: 3",
+			"IOS: SRM, Listen Kill",
+			"LKMissile"
+		]
+	},
+	"Category": "Missile",
+	"Type": "SRM",
+	"WeaponSubType": "SRM4",
+	"MinRange": 0,
+	"MaxRange": 360,
+	"RangeSplit": [
+		90,
+		180,
+		270
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 4,
+	"HeatGenerated": 8,
+	"Damage": 8,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 4,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 4,
+	"MissileHealth": 3,
+	"StatusEffectsPerHit": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_SRM4",
+	"Description": {
+		"Cost": 60000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "TharHes",
+		"Model": "Short-Range Missile Launcher Improved One Shot",
+		"UIName": "I-OS SRM4[L-K]",
+		"Id": "Weapon_SRM_SRM4_IOSLK",
+		"Name": "I-OS SRM2[L-K]",
+		"Details": "Improved One Shot missile launchers are a single shot variant of standard LRM, SRM or MRM launchers, although other weapon types do exist as one shot launchers is extremely limited quantities.  They are typically 1/2 ton lighter in mass and can utilized any ammunition appropriate for the launchers.  However it is very rare to see guidance attachements like Artemis or Apollo on such launchers due to the huge weight and space constraints.   IOS Launchers do explode when hit while ammunition is still on board.",
+		"Icon": "uixSvgIcon_weapon_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "srm4",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

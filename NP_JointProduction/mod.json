@@ -28,6 +28,10 @@
 		{
 			"Type": "JumpJetDef",
 			"Path": "Tech/JumpJets"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "BTACore_Updates/BonusDescription_Merges/"
 		}
 	],
 	"OptionallyDependsOn": [
@@ -35,7 +39,8 @@
 		"N0MERCY Specials - Mechs"
 	],
 	"DependsOn": [
-		"BTA Difficulty Settings"
+		"BTA Difficulty Settings",
+		"BT Advanced Core"
 	],
 	"ConflictsWith": [],
 	"Settings": {

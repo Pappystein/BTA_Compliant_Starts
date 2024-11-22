@@ -50,9 +50,9 @@
 		"Purchasable": false,
 		"Manufacturer": "ExoStar",
 		"Model": "Large Pulse Laser+",
-		"UIName": "Pierce L Pulse+",
+		"UIName": "Imp Piercing L Pulse",
 		"Id": "Weapon_Laser_LargeLaserPulse_3-Exostar",
-		"Name": "Pierce L Pulse+",
+		"Name": "Imp Piercing L Pulse",
 		"Details": "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. The capacitors on this pulse laser are more finely tuned, giving the weapon increased armor penetration and doing direct damage to the target's structure.",
 		"Icon": "uixSvgIcon_weapon_Energy"
 	},

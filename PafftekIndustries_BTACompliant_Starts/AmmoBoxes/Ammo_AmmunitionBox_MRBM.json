@@ -1,0 +1,53 @@
+{
+	"Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/m/t/thunderbolt" }
+		],
+		"Flags": [
+				"not_broken"
+			],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 1000,
+			"StabilityDamagePerAmmo": 250
+		},
+		"BonusDescriptions": [
+				"AreaOfEffect: 360",
+				"CostPerShot: 60000"
+			],
+		"AmmoCost" : {
+		  "PerUnitCost" : 60000
+		}
+	},
+	"AmmoID": "Ammunition_MRBM",
+	"Capacity": 2,
+	"Description": {
+		"Cost": 400000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "MRBM",
+		"UIName": "Tsar Bomba MRBM Ammo",
+		"Id": "Ammo_AmmunitionBox_MRBM",
+		"Name": "MRBM Missile",
+		"Details": "Ammunition to supply the MRBM launcher for the Tsar Bomba.  Has a total weapon capacity of 2.  Please CASE this for your own saftey!",
+		"Icon": "uixSvgIcon_ammoBox_Ballistic"
+	},
+	"BonusValueA": "Air Burst",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

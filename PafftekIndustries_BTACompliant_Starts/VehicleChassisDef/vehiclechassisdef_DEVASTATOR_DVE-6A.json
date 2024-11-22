@@ -1,0 +1,160 @@
+{
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Devastator",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Cost": 1000000,
+		"Rarity": 2,
+		"Purchasable": false,
+		"UIName": "Devastator Mk.III DVE-6A",
+		"Id": "vehiclechassisdef_DEVASTATOR_DVE-6A",
+		"Name": "Demolisher-Devastator Mk.III DVE-6A",
+		"Details": "Still based on the Demolisher of SLDF lore, and still powered by a Fusion 240 (technically a Nissan 240XL) engine core, the Demolisher-Devastator DVE-6A is a Pafftek Industries variant, and like the DVE-5B before it it is commonly just called \"Devastator\".  The DVE-6A by upgrading to the XL engine variant frees up tonnage for enhanced sensors and a D.S. Aero Product Improved Laser AMS.  Beyond that the use of one Ultra and one LB X Autocannons gives this mech a reliable anti-mech punch. \n\n <b><color=#ffcc00>Tracked: High traction, agile turning.\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       210     40\n<b>Left</b>         130     40\n<b>Right</b>       130     40\n<b>Rear</b>         80     40\n<b>Turret</b>      194     40\n\n<b>Total</b>      744    200\n",
+		"Icon": "Devastator"
+	},
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+	"MovementCapDefID": "movedef_3-5cv",
+	"movementType": "Tracked",
+	"PathingCapDefID": "pathingdef_assault_tracked",
+	"HardpointDataDefID": "hardpointdatadef_devastator",
+	"PrefabIdentifier": "chrprfvhcl_devastatorbase",
+	"PrefabBase": "devastator",
+	"Tonnage": 80,
+	"weightClass": "ASSAULT",
+	"BattleValue": 7000000,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 4.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 4.5
+		},
+		{
+			"x": -2,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": -4.5
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}							
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 210,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 130,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 130,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 80,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 194,
+			"InternalStructure": 40
+		}
+	]
+}

@@ -19,7 +19,7 @@
 				"LRMAmmo: 270"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 14
+		  "PerUnitCost" : 100
 		}
 	},
 	"AmmoID": "Ammunition_LRM_Bee",

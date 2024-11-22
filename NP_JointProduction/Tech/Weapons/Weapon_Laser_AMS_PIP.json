@@ -8,18 +8,7 @@
         "BonusDescriptions": [
 				"LAMS",
 				"OLAMSAttacks",
-				"AMSRadius: 90",
-				"AMSShots: 10",
-				"AMSAcc: 45%",
-				"OLAMSHeat: 5",
-				"OLAMSJam: 40%",
-				"OLAMSAcc: 45",
-				"OLAMSShots: 20",
-				"CIWS",				
-				"CLAMSHeat: 8",
-				"CLAMSJam: 30%",
-				"CLAMSShots: 25",
-				"CIWSAcc: 50%",				
+				"CIWS",		
 				"AMSDamage: 2"
             
         ]

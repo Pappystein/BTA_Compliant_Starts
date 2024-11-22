@@ -13,15 +13,16 @@
    "Category": "LBX10",
    "HeatGenerated": 0,
    "AIBattleValue": 90,
-   "HeatGeneratedModifier": 1,
-   	"StructureDamage": 4,  
+   "HeatGeneratedModifier": 1, 
    "ArmorDamageModifier": 0.7,
    "ISDamageModifier": 0.7,
    "CriticalDamageModifier": 1.25,
    	"MinRange": 0.0, 
-	"MaxRange": 100.0, 
+	"MaxRange": 140.0, 
 	"ShortRange": 25.0, 
 	"MiddleRange": 50.0, 
 	"LongRange": 75,
-	"statusEffects" :[]
+	"statusEffects":[],
+   	"APDamage": 6,
+	"APCriticalChanceMultiplier": 0.15
 }

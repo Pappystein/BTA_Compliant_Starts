@@ -12,13 +12,17 @@
         },
         "BonusDescriptions":  [
 				"Health: +2",
-                "Initiative: +2",
-				"ArmoredCowl: 15",
+				"HeadStrenghtened: +15, +15",
 				"PilotRecovery",
-                "IsCockpit",
-				"ThermalVision: 1",
-				"ThermalVisionHeat: 30"
-            ]
+				"Resolve: 3",
+				"SparrowHawk: 1",
+                "IsCockpit"
+            ],
+		"Flags":  [
+				"not_broken",
+				"no_salvage"
+			],
+		"Lootable": "Gear_Cockpit_400_SparrowHawk"
     },
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -32,7 +36,7 @@
 		"UIName": "CEU SparrowHawk 400FX",
 		"Id": "Gear_Cockpit_400_SparrowHawk_FX",
 		"Name": "SparrowHawk-400 Cockpit Enhanced Electronics",
-		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades grant additional capabilties to the 'Mech they are installed on.",
+		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. The CEU-400 SparrowHawk is an enlarged alternative to the Command Console.  Combining features of the CEU-300 Sparrow with the Command Console.  The CEU-400 masses as much as a Command Console but is physically bigger.   The extra size is offset by the CEU-400 being slightly better than a Command Console in modern units.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
 	"BonusValueA": "CMD Cockpit",
@@ -73,6 +77,57 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "StatusEffect-Initiative_Add-T2",
+				"Name": "INITIATIVE INCREASED",
+				"Details": "Provides + 1 Initiative.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "BaseInitiative",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "AllLanceMates",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Initiative_Add-LanceT2",
 				"Name": "INITIATIVE INCREASED",
 				"Details": "Provides + 1 Initiative.",
 				"Icon": "uixSvgIcon_equipment_Cockpit"

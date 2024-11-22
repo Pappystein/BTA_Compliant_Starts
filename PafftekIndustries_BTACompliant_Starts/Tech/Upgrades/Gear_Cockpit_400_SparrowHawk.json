@@ -11,13 +11,15 @@
         },
         "BonusDescriptions":  [
 				"Health: +2",
-                "Initiative: +2",
-				"ArmoredCowl: 15",
+				"HeadStrenghtened: +15, +10",
 				"PilotRecovery",
-                "IsCockpit",
-				"ThermalVision: 1",
-				"ThermalVisionHeat: 30"
-            ]
+				"Resolve: 3",
+				"SparrowHawk: 1",
+                "IsCockpit"
+            ],
+		"Flags":  [
+				"not_broken"
+			]
     },
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -27,11 +29,11 @@
 		"Rarity": 5,
 		"Purchasable": false,
 		"Manufacturer": "Pafftek Industries",
-		"Model": "SparrowHawk-400",
-		"UIName": "CEU SparrowHawk 400",
+		"Model": "CEU-400 Sparrowhawk",
+		"UIName": "CEU-400 Sparrowhawk",
 		"Id": "Gear_Cockpit_400_SparrowHawk",
-		"Name": "SparrowHawk-400 Cockpit Enhanced Electronics",
-		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades grant additional capabilties to the 'Mech they are installed on.",
+		"Name": "CEU-400 Sparrowhawk Command Cockpit Eelectronics Upgrade",
+		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. The CEU-400 SparrowHawk is an enlarged alternative to the Command Console.  Combining features of the CEU-300 Sparrow with the Command Console.  The CEU-400 masses as much as a Command Console but is physically bigger.   The extra size is offset by the CEU-400 being slightly better than a Command Console in modern units.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
 	"BonusValueA": "CMD Cockpit",
@@ -41,7 +43,7 @@
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
 	"InventorySize": 2,
-	"Tonnage": 2,
+	"Tonnage": 4,
 	"AllowedLocations": "Head",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -72,6 +74,57 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "StatusEffect-Initiative_Add-T2",
+				"Name": "INITIATIVE INCREASED",
+				"Details": "Provides + 1 Initiative.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "BaseInitiative",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "AllLanceMates",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Initiative_Add-LanceT2",
 				"Name": "INITIATIVE INCREASED",
 				"Details": "Provides + 1 Initiative.",
 				"Icon": "uixSvgIcon_equipment_Cockpit"
@@ -197,7 +250,7 @@
             "statisticData": {
                 "statName" : "{location}.Structure",
                 "operation" : "Float_Add",
-                "modValue" : "15",
+                "modValue" : "10",
                 "modType" : "System.Single"
             }
         },
@@ -226,94 +279,6 @@
                 "modValue" : "15",
                 "modType" : "System.Single"
             }
-        },
-        {
-            "durationData": {
-                "duration": -1
-            },
-            "targetingData": {
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator"
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "TC-Breaching",
-                "Name": "BREACHING SHOT",
-                "Details": "PASSIVE: Attacking with a single weapon ignores COVER and GUARDED on the target.",
-                "Icon": "uixSvgIcon_ability_precisionstrike"
-            },
-            "statisticData": {
-                "statName": "PrecisionStrike",
-                "operation": "Set",
-                "modValue": "true",
-                "modType": "System.Boolean"
-            },
-            "nature": "Buff"
-        },
-		{
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "AllLanceMates",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-ACM-ToHit",
-                "Name" : "ADVANCED COMMAND MODULE",
-                "Details" : "Attacks from units in this lance weapon have their hit improved by [AMT].",
-                "Icon" : "uixSvgIcon_special_Equipment"
-            },
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "nature" : "Buff"
-        },
-        {
-            "durationData" :
-            {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" :
-            {
-                "Id" : "StatusEffect-LCM-CalledShotBonus",
-                "Name" : "LANCE COMMAND MODULE",
-                "Details" : "Called Shots executed by this unit are more reliable.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
-            },
-            "statisticData" : 
-            {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "CalledShotBonusMultiplier",
-                "operation" : "Float_Multiply",
-                "modValue" : "2.4",
-                "modType" : "System.Single"
-            },
-            "nature" : "Buff"
         },
 		{
 			"durationData": {

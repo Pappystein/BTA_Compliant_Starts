@@ -6,7 +6,8 @@
 		},
 		"BonusDescriptions":  [
 				"EngineWeight: -50%",
-				"ReservedSlots: 6"
+				"ReservedSlots: 4",
+				"ImprovedXL"
 			],
 		"WorkOrderCosts": {
 			"Install": {

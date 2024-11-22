@@ -6,7 +6,11 @@
 			}
 		],
 		"BonusDescriptions": [
-				"TEHeatgen: -20%"
+				"TEHeatgen: -20%",
+				"ADV_Exchanger",
+				"Explosive: 12",
+				"ExplosiveHEAT: 30",
+				"ExplosiveSTAB: 10"
 			]
 	},
     "ComponentExplosion": {

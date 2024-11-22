@@ -1,0 +1,17 @@
+{
+	"TargetID": "BonusDescriptions_MechEngineer",
+	"Instructions": [
+		{
+			"JSONPath": "Settings",
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"Bonus": "CIWS",
+					"Short": "Close in Weapon System",
+					"Long": "Close in Weapon System",
+					"Full": "Advanced Close in Weapon system mode (CIWS mode) is meant to serve as a secondary AMS feature for units with multiple AMS on board to provide a last ditch defense."
+				}
+			]
+		}
+	]
+}

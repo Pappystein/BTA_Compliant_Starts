@@ -13,10 +13,9 @@
 	"Category": "TBOLT5",
 	"HeatGenerated": 0,
 	"HeatGeneratedModifier": 1,
-	"ArmorDamageModifier": 1,
+	"ArmorDamageModifier": 0.25,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1.1,
-	"StructureDamage": 10,
-	"AOECapable": false,
-	"DamagePerShot": -20.0
+	"StructureDamage": 8,
+	"AOECapable": false
 } 

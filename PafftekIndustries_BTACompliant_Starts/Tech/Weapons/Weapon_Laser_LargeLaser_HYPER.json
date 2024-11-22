@@ -24,7 +24,7 @@
 				"WeaponAttachmentCompatible: Laser FCS"
 			]
 	},
-	"Category": "Energy",
+	"Category": "Superweapon",
 	"Type": "Laser",
 	"WeaponSubType": "LargeLaser",
 	"MinRange": 0,

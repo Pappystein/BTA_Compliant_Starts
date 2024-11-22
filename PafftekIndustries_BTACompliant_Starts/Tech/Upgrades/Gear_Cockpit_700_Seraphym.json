@@ -16,8 +16,11 @@
 		"BonusDescriptions":  [
 				"FreedSlots: 1",
 				"PilotRecovery",
-				"ThermalVision: 1",
-				"ThermalVisionHeat: 30"
+				"HeadStrenghtened: +25, +10",
+                "Initiative: +1"
+			],
+		"Flags":  [
+				"not_broken"
 			]
 	},
 	"StatName": null,
@@ -28,11 +31,11 @@
 		"Rarity": 5,
 		"Purchasable": false,
 		"Manufacturer": "Pafftek Industries",
-		"Model": "Seraphym 700",
-		"UIName": "CEU Seraphym-700",
+		"Model": "CEU-700 Seraphym",
+		"UIName": "CEU-700 Seraphym",
 		"Id": "Gear_Cockpit_700_Seraphym",
-		"Name": "Cockpit Electronics Upgrade",
-		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades grant additional capabilties to the 'Mech they are installed on.",
+		"Name": "CEU-700 Seraphym Wrath Cockpit Eelectronics Upgrade",
+		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. In the case of the CEU-700 Upgrade, a densly massed small cockpit that does not affect the accuracy of weapons is installed.  This upgrade provides additional armor, structure, and provides other defensive means.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
 	"BonusValueA": "Smaller Heavy Cockpit",
@@ -42,7 +45,7 @@
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
 	"InventorySize": 1,
-	"Tonnage": 1,
+	"Tonnage": 4,
 	"AllowedLocations": "Head",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -144,7 +147,7 @@
 			"statisticData": {
 				"statName": "{location}.Structure",
 				"operation": "Float_Add",
-				"modValue": "25",
+				"modValue": "10",
 				"modType": "System.Single"
 			}
 		},
@@ -170,7 +173,7 @@
 			"statisticData": {
 				"statName": "{location}.Armor",
 				"operation": "Float_Add",
-				"modValue": "5",
+				"modValue": "25",
 				"modType": "System.Single"
 			}
 		},
