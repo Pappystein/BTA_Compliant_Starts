@@ -16,7 +16,7 @@
 				"ScatterRadius: 15, 75"
 			]
 	},
-	"Category": "Missile",
+	"weaponCategoryID": "Superweapon",
 	"Type": "LRM",
 	"WeaponSubType": "LRM20",
 	"MinRange": 250,

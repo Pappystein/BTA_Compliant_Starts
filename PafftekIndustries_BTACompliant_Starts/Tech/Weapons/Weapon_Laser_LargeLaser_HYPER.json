@@ -2,10 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/e/l/laser"
-			},
-			{
-				"CategoryID": "NeverMelee"
+				"CategoryID": "w/s/su/superweapon"
 			}
 		],
 		"ComponentExplosion": {
@@ -24,7 +21,7 @@
 				"WeaponAttachmentCompatible: Laser FCS"
 			]
 	},
-	"Category": "Superweapon",
+	"weaponCategoryID": "Superweapon",
 	"Type": "Laser",
 	"WeaponSubType": "LargeLaser",
 	"MinRange": 0,

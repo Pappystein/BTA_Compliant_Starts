@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/m/t/thunderbolt"
+				"CategoryID": "w/s/su/superweapon"
 			},
 			{
 				"CategoryID": "NeverMelee"
@@ -14,7 +14,7 @@
 				"MissileHealth: 8"
 			]
 	},
-	"Category": "Superweapon",
+	"weaponCategoryID": "Superweapon",
 	"Type": "LRM",
 	"WeaponSubType": "LRM20",
 	"MinRange": 150,
