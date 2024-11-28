@@ -50,7 +50,10 @@
       "ArmorTPCost": 1.75,
       "ArmorCBCost": 1.75
     },
-    "RGBColor": "#BAD7D580",
+    "Color": "Gold",
+		"TRGBColor": {
+			"Color": "#5F24AC"
+		},
     "ComponentExplosion": {
       "ExplosionDamage": 30
     },

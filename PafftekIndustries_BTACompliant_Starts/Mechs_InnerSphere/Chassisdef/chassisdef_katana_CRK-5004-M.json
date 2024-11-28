@@ -1,0 +1,250 @@
+{
+	"Description": {
+		"Cost": 14600000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Katana",
+		"Id": "chassisdef_katana_CRK-5004-M",
+		"Name": "Katana",
+		"Details": "Development of the Katana CRK-5004-M started in the late 3050s as a way to deploy the upcoming Goliath Missile.  On the test stand the Goliath Missile spectacularly failed leading to an extensive loss of life amongst its engineers.  The missile itself was found to be unacceptable and irredeemable.  This left the engineers at Blakenburg Technology at a loss for what to do with the new Katana chassis.   The CRK-5004-M had so many changes from the base CRK-5003 variants that the design was at a dead end.   In early 3062 Pafftek Industries showed off their new Hyper Velocity Missile launcher.  Blakenburg rejoiced as this weapon was a similar size to the now canceled Goliath Missile launcher and worked.  The final production standard, utilizes technology from the Federated Commonwealth in addition to local technology, as such this mech is the only Katana to see service in Steiner, Davion, and Kurita faction forces.  Armed with a Hyper Velocity Missile launcher as its primary weapon, two each ER Large and ER Medium lasers, and equipped with CASE II, and a C3 Master computer, the Katana CRK-5004-M is a command mech to be reckoned with!",
+		"Icon": "uixTxrIcon_crockett"
+	},
+	"MovementCapDefID": "movedef_battlemaster_BLR-1GB",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_crk",
+	"PrefabIdentifier": "chrprfmech_crkbase-001",
+	"PrefabBase": "crk",
+	"Tonnage": 85,
+	"InitialTonnage": 8.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 8742000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 95,
+	"MeleeInstability": 45,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 95,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 95,
+	"DFAInstability": 45,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 270,
+			"MaxRearArmor": 135,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_Katana",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"VariantName": "CRK-5004-M",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech",
+			"Hightech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Assault Command Mech",
+	"YangsThoughts": "Boss!  This thing is crazy.  First off they sped up the Katana, it moves more like a BattleHammer now.  Then they strapped on that Hyper-Velocity Missile system!  I can't wait to tinker with this!",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

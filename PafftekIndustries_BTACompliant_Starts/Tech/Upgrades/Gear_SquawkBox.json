@@ -2,7 +2,7 @@
     "Custom": {
         "Category": [
             {
-                "CategoryID": "Network"
+                "CategoryID": "IFF"
             }
         ],
         "ActivatableComponent": {
@@ -43,8 +43,7 @@
     "statusEffects": [],
     "ComponentTags": {
         "items": [
-            "component_type_stock",
-			"NoDejaVu"
+            "component_type_stock"
         ],
         "tagSetSourceFile": ""
     }

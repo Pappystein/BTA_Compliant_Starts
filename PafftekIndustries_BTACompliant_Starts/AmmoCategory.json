@@ -9,8 +9,8 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Missile",
-			"FallbackUIColor": null,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "MissileHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
 		},	
@@ -65,8 +65,8 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Missile",
-			"FallbackUIColor": null,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "MissileHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
 		},
@@ -79,8 +79,8 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Missile",
-			"FallbackUIColor": null,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "MissileHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
 		},

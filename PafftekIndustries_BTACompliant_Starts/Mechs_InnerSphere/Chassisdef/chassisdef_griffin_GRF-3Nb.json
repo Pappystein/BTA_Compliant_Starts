@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Griffin",
-		"Id": "chassisdef_griffin_GRF-3N",
+		"Id": "chassisdef_griffin_GRF-3Nb",
 		"Name": "Griffin",
-		"Details": "The Earthworks GRF-3N was an alternative proposed to the Star League vs the Champion.  The GRF-3N provides the same over all capabilities for 1/4th the cost.  When the Champion CHP-1N started having teathing problems a small cadre of the GRF-3N were purchased instead.  From that point on GRF-3Ns were ordered whenever Bergan's Champion production line began to falter.  The GRF-3N gives up Jumpjets and instead is equipped nearly identically to the Champion.  \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Details": "Designed as an alternative to the Champion, the GRF-3N is general purpose variant of the GRF-2N.  Designed to use the Lubalin Experimental 10 Autocannon.",
 		"Icon": "uixTxrIcon_griffin"
 	},
 	"MovementCapDefID": "movedef_griffin_GRF-1N",
@@ -202,11 +202,11 @@
 			"z": 0
 		}
 	],
-	"VariantName": "GRF-3N",
+	"VariantName": "GRF-3Nb",
 	"ChassisTags": {
 		"items": [
 			"MediumMech",
-			"SLDFMech"
+			"RoyalMech"
 			
 		],
 		"tagSetSourceFile": ""

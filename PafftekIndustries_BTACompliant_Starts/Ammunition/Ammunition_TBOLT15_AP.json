@@ -11,11 +11,13 @@
    },
    "Type": "Normal",
    "Category": "TBOLT15",
+	"DamagePerShot": -24,
 	"HeatGenerated": 0,
 	"HeatGeneratedModifier": 1,
-	"ArmorDamageModifier": 0.75,
+	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1.1,
-	"StructureDamage": 12,
-	"AOECapable": false
+	"AOECapable": false,
+	"APDamage": 12,
+	"APCriticalChanceMultiplier": 0.15
 } 

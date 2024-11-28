@@ -1,37 +1,29 @@
 {
-"Custom": {
+	"Custom": {
 		"Category": [
-			{
-				"CategoryID": "MRMApolloAmmo"
-			},
 			{
 				"CategoryID": "a/m/s/mrm"
 			}
 		],
-
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-		"RequiredCategory": {
-			"CategoryID": "ApolloTTS"
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4,
+			"StabilityDamagePerAmmo": 1
 		},
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 4,
-            "StabilityDamagePerAmmo": 1
-        },
 		"BonusDescriptions": [
-				"MRMAccuracy: +1",
-				"WpnCrits: 20%",
-				"CostPerShot: 10",
-				"MRMAmmo: 450"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 10
+			"MRMPIP",
+			"EvasionIgnored: 1",
+			"WpnCrits: 20%",
+			"CostPerShot: 40",
+			"MRMAmmo: 380"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 40
 		}
-    },
-	"AmmoID": "Ammunition_MRM_Improved",
+	},
+	"AmmoID": "Ammunition_MRM_PIP",
 	"Capacity": 450,
 	"Description": {
 		"Cost": 25000,
@@ -42,7 +34,7 @@
 		"UIName": "Ammo MRM Apollo [D]",
 		"Id": "Ammo_AmmunitionBox_Improved_MRM_DOUBLE",
 		"Name": "MRM Ammo Apollo [Double]",
-		"Details": "Improved Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles’ aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.",
+		"Details": "PIP Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles’ aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "",

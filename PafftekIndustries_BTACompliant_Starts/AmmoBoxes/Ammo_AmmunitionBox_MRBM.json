@@ -1,7 +1,9 @@
 {
 	"Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/m/t/thunderbolt" }
+		"Category": [
+			{
+				"CategoryID": "a/s/su/superweapon"
+			}
 		],
 		"Flags": [
 				"not_broken"
@@ -30,7 +32,7 @@
 		"Id": "Ammo_AmmunitionBox_MRBM",
 		"Name": "MRBM Missile",
 		"Details": "Ammunition to supply the MRBM launcher for the Tsar Bomba.  Has a total weapon capacity of 2.  Please CASE this for your own saftey!",
-		"Icon": "uixSvgIcon_ammoBox_Ballistic"
+		"Icon": "death-star"
 	},
 	"BonusValueA": "Air Burst",
 	"BonusValueB": "",

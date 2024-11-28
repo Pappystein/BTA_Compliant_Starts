@@ -11,7 +11,8 @@
 		"BonusDescriptions": [
 				"IsHVM",
 				"NoFireInMelee",
-				"MissileHealth: 8"
+				"MissileHealth: 8",
+				"WeaponJAM: 15%"
 			]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -30,10 +31,10 @@
 	"Damage": 80,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 0,
+	"EvasivePipsIgnored": 2,
 	"DamageVariance": 0,
 	"HeatDamage": 10,
-	"AccuracyModifier": -3,
+	"AccuracyModifier": -1,
 	"CriticalChanceMultiplier": 1.5,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
@@ -43,8 +44,11 @@
 	"AttackRecoil": 4,
 	"Instability": 225,
 	"MissileHealth": 8,
-	"APDamage": 30,
+	"APDamage": 15,
+	"FlatJammingChance": 0.15,
 	"APCriticalChanceMultiplier": 0.30,
+	"Streak": true,
+	"Cooldown": 1,
 	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
 	"Description": {
 		"Cost": 500000,
@@ -52,11 +56,11 @@
 		"Purchasable": true,
 		"Manufacturer": "Pafftek Industries",
 		"Model": "Rodflinger 200",
-		"UIName": "HyperVelocitity Launcher",
+		"UIName": "Hyper-Velocity Launcher",
 		"Id": "Weapon_HVM_Single",
 		"Name": "HVM",
-		"Details": "Taking a page out of experiments on Terra prior to the formation of the Star League, Pafftek Industries has developed the HyperVelocity Missile launcher, a Direct line of sight anti-mech/anti-vehicle weapon.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Accuracy quickly degrades over distance however. \n\n <b><color=#ffcc00>Uses HyperVelocity Ammo.</color></b>",
-		"Icon": "missile-pod"
+		"Details": "Taking a page out of experiments on Terra prior to the formation of the Star League, Pafftek Industries has developed the Hyper-Velocity Missile launcher, a Direct line of sight anti-mech/anti-vehicle weapon.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Accuracy quickly degrades over distance however. \n\n <b><color=#ffcc00>Uses HyperVelocity Ammo.</color></b>",
+		"Icon": "death-star"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -73,8 +77,7 @@
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_extreme",
-			"WebbTCSupported-SingleShot"
+			"range_extreme"
 		],
 		"tagSetSourceFile": ""
 	}

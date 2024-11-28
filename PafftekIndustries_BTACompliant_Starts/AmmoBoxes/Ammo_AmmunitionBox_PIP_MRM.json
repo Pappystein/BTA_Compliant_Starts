@@ -1,0 +1,60 @@
+{
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/m/s/mrm"
+            }
+        ],
+        "Flags": {
+            "flags": [
+                "not_broken"
+            ]
+        },
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 4,
+            "StabilityDamagePerAmmo": 1
+        },
+        "BonusDescriptions": [
+            "MRMPIP",
+            "EvasionIgnored: 1",
+            "WpnCrits: 75%",
+            "CostPerShot: 40",
+            "MRMAmmo: 200"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 40
+        }
+    },
+    "AmmoID": "Ammunition_MRM_PIP",
+    "Capacity": 200,
+    "Description": {
+        "Cost": 12500,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "MRM",
+        "UIName": "Ammo MRM PIP",
+        "Id": "Ammo_AmmunitionBox_PIP_MRM",
+        "Name": "Product Improvement Program MRM Ammo",
+        "Details": "PIP Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles’ aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 200 shots.",
+        "Icon": "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

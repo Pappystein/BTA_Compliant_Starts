@@ -1,7 +1,9 @@
 {
 	"Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/a/o/artillery" }
+		"Category": [
+			{
+				"CategoryID": "a/s/su/superweapon"
+			}
 		],
 		"Flags": {
 			"flags": [

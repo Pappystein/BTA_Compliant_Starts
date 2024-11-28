@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Mechs_Special_LightPFT,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT"
+					"ConstantValue": "itemCollection_Pafftek_SpookyMediums,itemCollection_Mechs_Wight,itemCollection_Mechs_Wight,itemCollection_Pafftek_FastLight,itemCollection_Pafftek_Fireball,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Combat_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",

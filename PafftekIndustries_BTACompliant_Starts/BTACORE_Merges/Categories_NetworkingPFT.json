@@ -20,6 +20,22 @@
 			}
 		
 		
+		},
+		{
+			"Name": "IFF",
+			"displayName": "Identification Friend or Foe",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "10",
+				"Sorter": 1000
+			}
+		
+		
 		}		
 		]
 	}

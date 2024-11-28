@@ -1,97 +1,100 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "w/m/t/thunderbolt"
-			},
-			{
-				"CategoryID": "NeverMelee"
-			}
-		],
-		"BonusDescriptions": [
-				"MRBM",
-				"MIRV:1,120m, 90m", 
-				"WpnCooldown: 2",
-				"NoFireInMelee",
-				"ScatterRadius: 15, 75"
-			]
-	},
-	"weaponCategoryID": "Superweapon",
-	"Type": "LRM",
-	"WeaponSubType": "LRM20",
-	"MinRange": 250,
-	"MaxRange": 4800,
-	"RangeSplit": [
-		1050,
-		2100,
-		3000
-	],
-	"AmmoCategory": "ICBM",
-	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 92,
-	"Damage": 50,
-	"OverheatedDamageMultiplier": 0,
-	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 0,
-	"DamageVariance": 0,
-	"HeatDamage": 10,
-	"AccuracyModifier": 20,
-	"CriticalChanceMultiplier": 1.5,
-	"AOECapable": true,
-	"AOERange" : 90,
-	"AOEDamage": 80,
-	"AOEHeatDamage": 16,
-	"AOEInstability": 100,
-	"AOEEffectsFalloff": true,	
-	"IFFDef" : "Gear_SquawkBox",
-	"FireTerrainChance":0.2,
-	"FireDurationWithoutForest":1,
-	"FireTerrainStrength": 2,
-	"IndirectFireCapable": true,
-	"ImprovedBallistic": true,
-	"AlwaysIndirectVisuals": true,
-	"RefireModifier": 20,
-	"ShotsWhenFired": 1,
-	"ProjectilesPerShot": 6,
-	"SpreadRange": 120,
-	"AttackRecoil": 4,
-	"Instability": 225,
-	"MinMissRadius": 15,
-	"MaxMissRadius": 130,
-	"ClearMineFieldRadius": 3,	
-	"AoECanCrit": true,
-	"AMSImmune": true,
-	"Cooldown": 2,
-	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
-	"Description": {
-		"Cost": 500000,
-		"Rarity": 4,
-		"Purchasable": true,
-		"Manufacturer": "Pafftek Industries",
-		"Model": "Tsar Bomba",
-		"UIName": "Tsar Bomba MRBM launcher",
-		"Id": "Weapon_MRBM",
-		"Name": "Tsar Bomba",
-		"Details": "A medium sized strategic missile launcher that fires a ballistic missile with 6 \"Multiple independant Re-entry Vehicles\" or MiRVs.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Friendly units equiped with the Pafftek Industries Squawk Box IIF tranciever will not be targetable with this weapon.  \n\n <b><color=#ffcc00>Uses MRBM Ammo.  Pafftek Industry Submod item</color></b>",
-		"Icon": "missile-pod"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "Weapon",
-	"ComponentSubType": "Weapon",
-	"PrefabIdentifier": "arrow",
-	"BattleValue": 0,
-	"InventorySize": 10,
-	"Tonnage": 20,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock",
-			"range_extreme"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "w/s/su/superweapon"
+            },
+            {
+                "CategoryID": "NeverMelee"
+            }
+        ],
+        "BonusDescriptions": [
+            "MRBM",
+            "MIRVWarhead:6,120m, 90m",
+            "WpnCooldown: 2",
+            "NoFireInMelee",
+            "ScatterRadius: 15, 75",
+            "WeaponJAM: 10%",
+            "IFFCompatable: Squawk-Box I.F.F."
+        ]
+    },
+    "weaponCategoryID": "Superweapon",
+    "Type": "LRM",
+    "WeaponSubType": "LRM20",
+    "MinRange": 400,
+    "MaxRange": 1600,
+    "RangeSplit": [
+        400,
+        800,
+        1200
+    ],
+    "AmmoCategory": "ICBM",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 92,
+    "Damage": 20,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 10,
+    "AccuracyModifier": 20,
+    "CriticalChanceMultiplier": 1.5,
+    "AOECapable": true,
+    "AOERange": 90,
+    "AOEDamage": 120,
+    "AOEHeatDamage": 16,
+    "AOEInstability": 100,
+    "AOEEffectsFalloff": true,
+    "IFFDef": "Gear_SquawkBox",
+    "FireTerrainChance": 0.2,
+    "FireDurationWithoutForest": 1,
+    "FireTerrainStrength": 2,
+    "IndirectFireCapable": true,
+    "ImprovedBallistic": true,
+    "AlwaysIndirectVisuals": true,
+    "RefireModifier": 10,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 6,
+    "SpreadRange": 120,
+    "AttackRecoil": 4,
+    "Instability": 225,
+    "MinMissRadius": 15,
+    "MaxMissRadius": 130,
+    "ClearMineFieldRadius": 3,
+    "AoECanCrit": true,
+    "AMSImmune": true,
+    "Cooldown": 1,
+    "FlatJammingChance": 0.1,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+    "Description": {
+        "Cost": 500000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "Pafftek Industries",
+        "Model": "Tsar Bomba",
+        "UIName": "Tsar Bomba MRBM launcher",
+        "Id": "Weapon_MRBM",
+        "Name": "Tsar Bomba",
+        "Details": "A medium sized tactical missile launcher that fires a ballistic missile with 6 \"Multiple independant Re-entry Vehicles\" or MiRVs.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Friendly units equiped with the Pafftek Industries Squawk Box IIF tranciever will not be targetable with this weapon.  \n\n <b><color=#ffcc00>Uses MRBM Ammo.  Pafftek Industry Submod item</color></b>",
+		"Icon": "death-star"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "arrow",
+    "BattleValue": 0,
+    "InventorySize": 10,
+    "Tonnage": 20,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

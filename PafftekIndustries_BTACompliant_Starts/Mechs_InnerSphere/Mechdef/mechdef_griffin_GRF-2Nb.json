@@ -120,7 +120,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+			"ComponentDefID": "Gear_Cockpit_300_Sparrow",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

@@ -63,7 +63,7 @@
 		"Id": "Weapon_Laser_LargeLaser_HYPER",
 		"Name": "HYPER Laser",
 		"Details": "The Hegemony Institute of Strategic Combat’s Hyperlaser project created a massive weapon capable of vast feats of destruction.  However, the heat production was excessive.   Pafftek Industries, having licensed the design as a second source production contract for the Hegemony, took their turn adjusting the basic HISC Hyperlaser into something… a little different.   The Pafftek version can not be used during melee combat, does less damage, generates less heat, and is not as volatile.  In a package that is the same size as the original weapon.  All these detriments, however, have some huge payoffs. When the carrying unit invariably overheats, the Pafftek Version of the Hyperlaser increases its damage output.  When the Cooling jacket is cracked on the emitter complex, this Hyperlaser has a less violent explosion.   However, there is a minimal chance that the Pafftek Hyperlaser will jam.",
-		"Icon": "uixSvgIcon_weapon_Energy"
+		"Icon": "death-star"
 	},
 	"BonusValueA": "Explodie",
 	"BonusValueB": "",

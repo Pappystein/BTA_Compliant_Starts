@@ -11,17 +11,18 @@
    },
    "Type": "Normal",
    "Category": "LBX5",
+	"DamagePerShot": -10,
    "HeatGenerated": 0,
    "AIBattleValue": 90,
    "HeatGeneratedModifier": 1,
-   	"StructureDamage": 2,  
-   "ArmorDamageModifier": 0.70,
-   "ISDamageModifier": 0.7,
+   "ArmorDamageModifier": 1.0,
+   "ISDamageModifier": 1.0,
    "CriticalDamageModifier": 1.25,
    	"MinRange": 0.0, 
 	"MaxRange": 100.0, 
 	"ShortRange": 25.0, 
 	"MiddleRange": 50.0, 
 	"LongRange": 75,
-	"statusEffects" :[]
+	"APDamage": 5,
+	"APCriticalChanceMultiplier": 0.15
 }

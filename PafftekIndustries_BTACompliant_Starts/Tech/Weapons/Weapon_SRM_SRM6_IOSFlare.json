@@ -12,7 +12,7 @@
 		"BonusDescriptions": [
 			"MissileHealth: 3",
 			"IOS: SRM, Standard",
-			"Flare: SRM, +2, 2"
+			"FlareTargeting: SRM, +2, 2"
 		]
 	},
 	"Category": "Missile",
