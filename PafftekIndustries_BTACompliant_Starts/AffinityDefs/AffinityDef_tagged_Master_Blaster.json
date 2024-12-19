@@ -1,0 +1,88 @@
+{
+  "id": "AffinityDef_tagged_Master_Blaster",
+  "affinityType": "Tag",
+  "affinityData": {
+    "tag": "Affinity_Pappystein_Battlehammer",
+    "chassisNames": [
+      "BattleHammer_85"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Master_Blaster",
+        "missionsRequired": 10,
+        "levelName": "Master Blaster",
+        "decription": "Pappystein Gains +1 Accuracy with Gauss weapons, as well as making the Battlehammer harder to hit.",
+        "affinities": [],
+        "effectData": [
+			{
+				"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+				"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+				"effectType": "StatisticEffect",
+				"Description": {
+				"Id": "StatusEffect-FCS_Energy",
+				"Name": "ENERGY WEAPON TTS",
+				"Details": "+1Acc",
+				"Icon": "uixSvgIcon_equipment_Rangefinder"
+			},
+				"nature": "Buff",
+				"statisticData": {
+				"statName": "AccuracyModifier",
+				"operation": "Float_Add",
+				"modValue": "-1.0",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "Gauss",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "Gauss"
+				}
+			},
+			{
+				"Description": {
+				"Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+				"Icon": "UixSvgIcon_specialEquip_System",
+				"Id": "StatusEffect-Affinity-NarrowProfile",
+				"Name": "Mech Affinity Defensive Boost"
+			},
+				"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+				"effectType": "StatisticEffect",
+				"nature": "Buff",
+				"statisticData": {
+				"additionalRules": "NotSet",
+				"modType": "System.Single",
+				"modValue": "2.0",
+				"operation": "Float_Add",
+				"statName": "ToHitThisActor",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
+			},
+				"targetingData": {
+				"effectTargetType": "Creator",
+				"effectTriggerType": "Passive",
+				"hideApplicationFloatie": true,
+				"showInStatusPanel": false,
+				"showInTargetPreview": false
+				}
+			}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 70
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"AMSImmune",
+			"NoFireInMelee"
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.5
+        },
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 0,
+	"MaxRange": 240,
+	"RangeSplit": [
+		60,
+		120,
+		180
+	],
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 1,
+	"HeatGenerated": 0,
+	"Damage": 20,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 2,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": true,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 90,
+	"MissileHealth": 6,
+	"AMSImmune": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 200000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Lead-Slag",
+		"UIName": "Ballast",
+		"Id": "Weapon_Bomb_Bay_Ballast",
+		"Name": "Ballast Bomb Bay",
+		"Details": "This is an attached Bomb Bay, equiped with 3/4 ton of lead ballast, this unwieldly hunk of metal will give any mechwarrior a headache on striking.  Bomb bays are heavily used on aerospace fighters for target saturation. \n\n <b><color=#ffcc00>Uses Internal Ammo.</color></b>\n <b><color=#e51717>Pafftek Industries Submod!</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

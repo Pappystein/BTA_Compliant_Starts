@@ -1,0 +1,27 @@
+{
+	"TargetID": "Categories_Weapons",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+			{
+				"Name": "w/l/su/superweapon",
+				"displayName": "Superweapon Laser Addons",
+				"BaseLimits": [
+					{
+					  "Min": 0,
+					  "Max": 8
+					}
+				],
+				"DefaultCustoms": {
+					"InventorySorter": "896",
+					"Sorter": 1000
+				}
+			}
+		
+		
+		]
+	}
+	]
+}	

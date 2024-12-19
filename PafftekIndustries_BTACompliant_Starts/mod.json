@@ -9,6 +9,7 @@
 			"path": "AmmoCategory.json"
 		}
 	],
+	
     "Contact": "",
 	"Manifest": [
 			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
@@ -24,6 +25,7 @@
 			{ "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
 			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
 			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
+			{ "Type": "WeaponDef", "Path": "Tech/Weapons_Super"},
 			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
 			{ "Type": "AmmunitionDef", "Path": "Ammunition" },
 			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/" },
@@ -45,10 +47,10 @@
 			{ "Type": "MechDef", "Path": "OperationDeepFreeze/Mechdef/" },
 			{ "Type": "ChassisDef", "Path": "OperationDeepFreeze/Chassisdef/" },
 			{ "Type": "PilotDef", "Path": "PafftekIndustries_Pilots/Pilots/" },
-			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" }
+			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" },
+			{ "Type": "AffinitiesDef", "Path": "AffinityDefs/" }
   ],
-    "OptionallyDependsOn": [		
-    ],
+    "OptionallyDependsOn": [],
 	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity" ],
 	"ConflictsWith": [				
 	]

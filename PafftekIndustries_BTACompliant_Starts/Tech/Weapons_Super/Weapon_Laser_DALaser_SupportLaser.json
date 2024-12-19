@@ -1,0 +1,262 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/l/su/superweapon"
+			}
+		],
+		"Color": "greenHalf",
+		"ActivatableComponent": {
+			"ButtonName": "Distributed Laser",
+			"CanNotBeActivatedManualy": false,
+			"CanActivateAfterMove": true,
+			"CanActivateAfterFire": false,
+			"ActiveByDefault": false,
+			"SafeActivation": true,
+			"ActivationMessage": "Superweapon",
+			"DeactivationMessage": "Standard Weapon",
+			"NoUniqueCheck": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_Distributed_Array",
+						"Name": "Energy Array",
+						"Details": "Energy Weapons [AMT] more damage",
+						"Icon": "death-star"
+					},
+					"statisticData": {
+						"abilifierId": "StatusEffect_Distributed_Array",
+						"appliesEachTick": false,
+						"effectsPersistAfterDestruction": false,
+						"statName": "DamagePerShot",
+						"operation": "Float_Add",
+						"modValue": "20",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponType": "COIL",
+						"targetWeaponSubType": "COILL"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_Distributed_Array_Heat",
+						"Name": "Weapon Heat increase",
+						"Details": "Generates an additional 7 heat per turn.",
+						"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+					},
+					"nature": "Debuff",
+					"statisticData": {
+						"appliesEachTick": false,
+						"effectsPersistAfterDestruction": false,
+						"statName": "HeatGenerated",
+						"operation": "Int_Add",
+						"modValue": "10",
+						"modType": "System.Int32",
+						"additionalRules": "NotSet",
+						"targetCollection": "NotSet",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponType": "NotSet",
+						"targetWeaponType": "COIL",
+						"targetWeaponSubType": "COILL"
+					},
+					"tagData": null,
+					"floatieData": null,
+					"actorBurningData": null,
+					"vfxData": null,
+					"instantModData": null,
+					"poorlyMaintainedEffectData": null
+				},
+				{
+					"durationData": {
+						"duration": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_Distributed_Array",
+						"Name": "Energy Array",
+						"Details": "Energy Weapons [AMT] more damage",
+						"Icon": "death-star"
+					},
+					"statisticData": {
+						"abilifierId": "StatusEffect_Distributed_Array",
+						"appliesEachTick": false,
+						"effectsPersistAfterDestruction": false,
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-1",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponType": "COIL",
+						"targetWeaponSubType": "COILM"
+					},
+					"nature": "Buff"
+				}
+			],
+			"offlineStatusEffects": [
+				{
+					"durationData": {
+						"duration": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_Distributed_Array",
+						"Name": "Energy Array",
+						"Details": "Energy Weapons [AMT] more damage",
+						"Icon": "death-star"
+					},
+					"statisticData": {
+						"abilifierId": "StatusEffect_Distributed_Array",
+						"appliesEachTick": false,
+						"effectsPersistAfterDestruction": false,
+						"statName": "DamagePerShot",
+						"operation": "Float_Add",
+						"modValue": "2",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponType": "COIL",
+						"targetWeaponSubType": "COILM"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_Distributed_Array",
+						"Name": "Energy Array",
+						"Details": "Energy Weapons [AMT] more damage",
+						"Icon": "death-star"
+					},
+					"statisticData": {
+						"abilifierId": "StatusEffect_Distributed_Array",
+						"appliesEachTick": false,
+						"effectsPersistAfterDestruction": false,
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-1",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponType": "COIL",
+						"targetWeaponSubType": "COILL"
+					},
+					"nature": "Buff"
+				}				
+			],
+			"Linkage": {
+				"OnActivate": {
+					"Activate": [],
+					"Deactivate": []
+				},
+				"OnDeactivate": {
+					"Activate": [],
+					"Deactivate": []
+				}
+			}
+		}
+	},
+	"Category": "Energy",
+	"Type": "COIL",
+	"WeaponSubType": "COILM",
+	"MinRange": 0,
+	"MaxRange": 840,
+	"RangeSplit": [
+		210,
+		420,
+		630
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 10,
+	"Damage": 1,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_Laser_Medium",
+	"Description": {
+		"Cost": 60000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Rapturous",
+		"Model": "Distributed Laser Component",
+		"UIName": "Distributed Laser Component",
+		"Id": "Weapon_Laser_DALaser_SupportLaser",
+		"Name": "Distributed Laser Components",
+		"Details": "Part of the Distributed Array Laser system.  Made by KOS Kompanions under sub-contract from Pafftek Industries, the Distributed Laser component is a small booster laser for the Distributed Array Laser super weapon.  Each Distributed Laser Component increases the main lasers output at the cost of its own ability to damage the target.",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "2 Slots",
+	"BonusValueB": "MLaser Eqv",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

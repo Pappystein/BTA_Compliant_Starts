@@ -475,7 +475,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM2_IOSFlare",
+			"ComponentDefID": "Weapon_SRM_SRM2_IOS",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

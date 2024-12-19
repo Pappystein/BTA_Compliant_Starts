@@ -1,0 +1,116 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 70
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"AMSImmune"
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.5
+        },
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "MachineGun",
+	"WeaponSubType": "MachineGun",
+	"MinRange": 0,
+	"MaxRange": 120,
+	"RangeSplit": [
+		30,
+		60,
+		90
+	],
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 24,
+	"HeatGenerated": 1,
+	"Damage": 5,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 3,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 1,
+	"TrooperSquadDamageModifier": 1.5,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 200000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "GP-MiniGun",
+		"UIName": "Gunpod 2x MiniGun",
+		"Id": "Weapon_Bomb_Bay_MG_GunPod",
+		"Name": "Gun Pod MiniGun",
+		"Details": "The Pafftek Industries Gunpod is equipped with two Machineguns with a very simplifed ammo feed with only 12 shots worth of ammunition per rifle when fired at x1 mode. \n\n <b><color=#ffcc00>Uses Internal Ammo.</color></b>\n <b><color=#e51717>Pafftek Industries Submod!</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": true,
+			"ShotsWhenFired": 1,
+			"FlatJammingChance": 0.1,
+			"HeatGenerated": 1,
+			"CriticalChanceMultiplier": -0.2
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"FlatJammingChance": 0.2,
+			"HeatGenerated": 2,
+			"CriticalChanceMultiplier": -0.4
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

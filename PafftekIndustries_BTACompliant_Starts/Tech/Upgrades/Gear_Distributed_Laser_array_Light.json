@@ -1,0 +1,82 @@
+{
+	"Custom": {
+		"Category": [{
+				"CategoryID": "Misc"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		},
+		"BonusDescriptions":  [
+			],
+		"Flags":  [
+				"not_broken"
+			],			
+	
+	"Linked": {
+		"Links": [
+			{
+				"ComponentDefId": "Quirk_Distributed_ArrayL",
+				"ComponentDefType": "Weapon",
+				"Location": "RightTorso"
+			},
+			{
+				"ComponentDefId": "Quirk_Distributed_ArrayL",
+				"ComponentDefType": "Weapon",
+				"Location": "LeftTorso"
+			},
+			{
+				"ComponentDefId": "Weapon_Laser_LargeLaser_Distributed_L",
+				"ComponentDefType": "Weapon",
+				"Location": "CenterTorso"
+			},
+			{
+				"ComponentDefId": "Quirk_Distributed_ArrayL",
+				"ComponentDefType": "Weapon",
+				"Location": "RightArm"
+			},
+			{
+				"ComponentDefId": "Quirk_Distributed_ArrayL",
+				"ComponentDefType": "Weapon",
+				"Location": "LeftArm"
+			}			
+		]
+	}	
+	},	
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 800000,
+		"Rarity": 5,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Distributed Laser Array Light",
+		"UIName": "Distro-Light",
+		"Id": "Gear_Distributed_Laser_array_Light",
+		"Name": "Distributed Laser Array Light",
+		"Details": "The core of the Distributed Laser system.  This places 5 Laser weapons one in each arm, and torso location.  The Center Torso requires a superweapon slot, and the arms and left and right torsos require energy slots.",
+		"Icon": "uixSvgIcon_equipment_Cockpit"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "Sensor Range Increase",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

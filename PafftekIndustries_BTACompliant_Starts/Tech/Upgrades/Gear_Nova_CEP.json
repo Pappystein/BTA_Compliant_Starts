@@ -14,6 +14,14 @@
 			"ProbeBubble: 210",
 			"EvaMax: +2"
 		],		
+		"DecoratorComponent":[
+			{
+				"Text":"Clan",               
+				"Color":"#DE6729FF",      
+				"Icon":"mesh-network",       
+				"Importance": 10
+			}
+		],			
 		"ActivatableComponent": {
 			"ButtonName": "Nova ECM",
 			"CanNotBeActivatedManualy": false,
@@ -93,7 +101,7 @@
         "UIName" : "Nova CEP",
         "Id" : "Gear_Nova_CEP",
         "Name" : "Nova Complex Electronic Package",
-        "Details" : "The Clans, having faced C3, C3i and now Sanctuary networking systems desiered their own Networking deveice.   Based on the Watchdog CEWS, the new Nova Complex Electronic Package, is a modular \"Pod\" package suitable for both standard and Omni battlemechs.  Combining the functions of an Active Probe, ECM Suite and Network communication prototcalls however has it's own drawbacks.  Primarlily this is a large unit both in terms of size and mass.  Something most clan mech engineers are incapable of visualizing.  It has only seen very limited deployment due to this.",
+        "Details" : "The Clans, having faced C3, C3i and now Sanctuary networking systems desiered their own Networking device.   Based on the Watchdog CEWS, the new Nova Complex Electronic Package, is a modular \"Pod\" package suitable for both standard and Omni battlemechs.  Combining the functions of an Active Probe, ECM Suite and Network communication prototcalls however has it's own drawbacks.  Primarlily this is a large unit both in terms of size and mass.  Something most clan mech engineers are incapable of visualizing.  It has only seen very limited deployment due to this.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "Active Probe, ECM",

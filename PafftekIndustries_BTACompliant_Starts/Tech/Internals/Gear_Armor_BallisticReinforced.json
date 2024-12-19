@@ -31,6 +31,9 @@
 		"Weights": {
 			"ArmorFactor": 1.3
 		},
+		"ArmorStructureChanges": {
+			"ArmorFactor": 0.75
+		},		
 		"ArmorRepair": {
 			"ArmorTPCost": 1.8,
 			"ArmorCBCost": 2.2

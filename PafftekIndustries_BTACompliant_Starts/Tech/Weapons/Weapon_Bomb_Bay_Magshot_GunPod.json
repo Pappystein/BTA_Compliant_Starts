@@ -1,0 +1,89 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 70
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"AMSImmune"
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.5
+        },
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "Gauss",
+	"WeaponSubType": "Gauss",
+	"MinRange": 0,
+	"MaxRange": 240,
+	"RangeSplit": [
+		60,
+		120,
+		180
+	],
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 12,
+	"HeatGenerated": 5,
+	"Damage": 15,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 4,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.0,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 4,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 200000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "GP-Magshot",
+		"UIName": "Gunpod 2x Magshot",
+		"Id": "Weapon_Bomb_Bay_Magshot_GunPod",
+		"Name": "Gun Pod Magshot",
+		"Details": "The Pafftek Industries Gunpod is equipped with two Magshot rifles with a very simplifed ammo feed with only 6 shots worth of slugs per Magshot Rifle. \n\n <b><color=#ffcc00>Uses Internal Ammo.</color></b>\n <b><color=#e51717>Pafftek Industries Submod!</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

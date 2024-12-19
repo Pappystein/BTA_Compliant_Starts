@@ -266,8 +266,8 @@
 				{
 					"Bonus": "IOS",
 					"Short": "I-OS {0} Launcher",
-					"Long": "I-OS {0} Launcher with {1} Ammunition installed",
-					"Full": "Improved One Shot {0} Launcher with {1} Ammunition installed"
+					"Long": "I-OS {0} Launcher",
+					"Full": "Improved One Shot {0} Select Warhead before firing!"
 				},
 				{
 					"Bonus": "Tandem",
@@ -346,6 +346,12 @@
 					"Short": "Fire {0} with {1} Cooldown",
 					"Long": "Fires {0} {2} with {1} Turn(s) Cooldown cycle",
 					"Full": "Weapon fires {0} {2} with {1} Turn(s) to cool down/reload"
+				},
+				{
+					"Bonus": "VariableTargeting",
+					"Short": "Variable Range Targeting Quirk",
+					"Long": "Variable Range Targeting Quirk, {0} accuracy in selected range",
+					"Full": "Variable Range Targeting Quirk, Select range band (Long or Short) for +{0} accuracy bonus in that band, the other half of the range spectrum gains a -{0} Accuracy Penalty."
 				}
 			]
 		}

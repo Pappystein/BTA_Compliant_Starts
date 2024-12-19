@@ -31,9 +31,12 @@
 			"ignore_damage",
 			"not_broken"
 		],
+		"Weights": {
+			"ArmorFactor": 1.3
+		},
 		"ArmorStructureChanges": {
 			"ArmorFactor": 0.75
-		},
+		},	
 		"CASE": {
 			"AllLocations": true
 		},

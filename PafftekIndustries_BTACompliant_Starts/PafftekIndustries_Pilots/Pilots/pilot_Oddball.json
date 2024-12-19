@@ -2,14 +2,14 @@
   "Description": {
     "Id": "pilot_Oddball",
     "Name": "Oddball",
-    "FirstName": "Oddball",
-    "LastName": "Oddball",
+    "FirstName": "Jeffery",
+    "LastName": "Iszacks",
     "Callsign": "Oddball",
     "Gender": "Male",
     "Faction": "Davion",
-    "Age": "33",
-    "Details": "Oddball sees his role as essentially defensive in nature. While our armies are advancing so fast and everyone's knocking themselves out to be heroes, he is holding himself in reserve in case the Clans mount a counteroffensive which threatens Solaris... or maybe even Earth. Then he can move in and stop them.",
-    "Icon": "oddball3"
+    "Age": "34",
+    "Details": "Oddball was the origional leader of the Hell-Wolves mercenary company during its formation and inital forays during \"Operation Serpent.\"  Being a relitively new Merc-company, the Hell-Wolves were deployed in garrioson actions and not as a part of the main thrust.  However the speed of the attack meant many enemy units were bypassed and it fell to the garrisons to fight them.   After a particularly hard drubbing which cost the Hell-Wolves over half their functional units Oddball stepped down and for a while was a tank pilot before returning as a Test pilot for the newly formed Pafftek Industries.",
+    "Icon": "Pappystein3"
   },
   "BaseGunnery": "3",
   "BonusGunnery": 0,
@@ -27,7 +27,9 @@
   "Incapacitated": false,
   "Morale": 0,
   "Voice": "m_pro05_rick",
-  "abilityDefNames": [],
+	"abilityDefNames": [
+		"AbilityDefTestpilot"
+	],
   "AIPersonality": "Undefined",
   "PilotTags": {
     "items": [

@@ -36,7 +36,7 @@
 		540
 	],
 	"AmmoCategory": "BOMB",
-	"StartingAmmoCapacity": 4,
+	"StartingAmmoCapacity": 2,
 	"HeatGenerated": 0,
 	"Damage": 1,
 	"OverheatedDamageMultiplier": 0,
@@ -54,6 +54,7 @@
 	"AttackRecoil": 1,
 	"Instability": 1,
 	"AMSImmune": true,
+	"Cooldown": 1,
 	"ProjectileSpeedMultiplier": 0.6,
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
 	"Description": {
@@ -65,7 +66,7 @@
 		"UIName": "iNARC Bay",
 		"Id": "Weapon_Bomb_Bay_iNARC",
 		"Name": "iNARC Bomb Bay",
-		"Details": "This is an attached Bomb Bay, armed with 4 varible effect iNARC missiles.  Each Missile is fired independantly. Bomb bays are heavily used on aerospace fighters for target saturation.  \n\n <b><color=#ffcc00>Uses Internal Ammo.  A Pafftek Industries Item</color></b>",
+		"Details": "This is an attached Bomb Bay, armed with 2 varible effect iNARC missiles.  Each Missile is fired independantly with a one turn cooldown between attacks. Bomb bays are heavily used on aerospace fighters for target saturation.  \n\n <b><color=#ffcc00>Uses Internal Ammo.  A Pafftek Industries Item</color></b>",
 		"Icon": "bombing-run"
 	},
 	"BonusValueA": "",

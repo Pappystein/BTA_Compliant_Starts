@@ -1,0 +1,98 @@
+{
+	"Custom": {
+		"Weights": {
+			"ReservedSlots": 4,
+			"EngineFactor": 0.5
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1.3 * [[Chassis.Tonnage]] / 2",
+				"CBillCost": "18000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 35"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "EngineShield"
+			},
+			{
+				"CategoryID": "EnginePart"
+			}
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "emod_engineslots_size3",
+					"Location": "LeftTorso"
+				},
+				{
+					"ComponentDefId": "emod_engineslots_size3",
+					"Location": "RightTorso"
+				}
+			]
+		},
+		"Flags": [
+			"vital"
+		],
+		"BonusDescriptions": [
+				"EngineWeight: -50%",
+				"EngineReserved: 6"
+			]
+	},
+	"Description": {
+		"Cost": 2500000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Starfire Clan XL",
+		"UIName": "Engine XL LAM (C)",
+		"Id": "emod_engineslots_clam_XL_center",
+		"Name": "XL Engine LAM (C)",
+		"Details": "Developed from the very robust Clan XL shielding, the Clan XL for LAMs or Land Air Mechs, is unique in that it gets arround the issues that most parts have with LAMs, specificaly their location restriction.  However this makes the engine more vunerable to damage and it is a closer aproximation of the Star League Era XL.",
+		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+	},
+	"BonusValueA": "50% Engine Weight, generates 4 extra heat a turn",
+	"BonusValueB": "Reserves 6 Slots",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ImprovedXL-Heat_Generation",
+				"Name": "Increased Heat",
+				"Details": "The Prototype XL Engine produces extraneous waste heat, generating a flat 6 heat per turn of use.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Add",
+				"modValue": "-4",
+				"modType": "System.Int32"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"EnginePart.{location}",
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

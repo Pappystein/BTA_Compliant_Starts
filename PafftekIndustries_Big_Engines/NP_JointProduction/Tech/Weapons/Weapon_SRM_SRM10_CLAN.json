@@ -1,0 +1,82 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/s/srm"
+			}
+		],
+		"BonusDescriptions": [
+				"MissileHealth: 2",
+				"WeaponAttachmentCompatible: Artemis IV FCS",
+				"WeaponAttachmentCompatible: SRM FCS"
+			]
+		
+	},
+	"Category": "Missile",
+	"Type": "SRM",
+	"WeaponSubType": "SRM6",
+	"MinRange": 0,
+	"MaxRange": 280,
+	"RangeSplit": [
+		70,
+		140,
+		210
+	],
+	"AmmoCategory": "SRM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 26,
+	"Damage": 9,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 6,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 3,
+	"FireTerrainChance": 0,
+	"ImprovedBallistic": true,
+	"ProjectileSpeedMultiplier": 1.6,
+	"MissileHealth": 2,
+	"StatusEffectsPerHit": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
+	"Description": {
+		"Cost": 90000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Ten shot SRM",
+		"UIName": "SRM10 (C)",
+		"Id": "Weapon_SRM_SRM10_CLAN",
+		"Name": "SRM10 (C)",
+		"Details": "SRM10s are the largest available rack of Short-Range Missiles and pack considerable punch. As for all SRMs, SRM10 shots deal above-average stability impact per hit compared to other weapons.",
+		"Icon": "uixSvgIcon_weapon_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "srm6",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 2.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard",
+			"ArtemisIVSRMSupported",
+			"SRMFCSSupported"
+		],
+		"tagSetSourceFile": ""
+	}
+}

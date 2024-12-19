@@ -11,7 +11,7 @@
 		},
 		"BonusDescriptions": [
 			"MissileHealth: 3",
-			"IOS: SRM, Standard"
+			"IOS: SRM"
 		]
 	},
 	"Category": "Missile",
@@ -24,7 +24,7 @@
 		180,
 		270
 	],
-	"AmmoCategory": "NotSet",
+	"AmmoCategory": "SRMOS",
 	"StartingAmmoCapacity": 4,
 	"HeatGenerated": 8,
 	"Damage": 8,
@@ -51,9 +51,9 @@
 		"Purchasable": true,
 		"Manufacturer": "TharHes",
 		"Model": "Short-Range Missile Launcher Improved One Shot",
-		"UIName": "I-OS SRM4[STD]",
+		"UIName": "I-OS SRM4",
 		"Id": "Weapon_SRM_SRM4_IOS",
-		"Name": "I-OS SRM2[STD]",
+		"Name": "I-OS SRM2",
 		"Details": "Improved One Shot missile launchers are a single shot variant of standard LRM, SRM or MRM launchers, although other weapon types do exist as one shot launchers is extremely limited quantities.  They are typically 1/2 ton lighter in mass and can utilized any ammunition appropriate for the launchers.  However it is very rare to see guidance attachements like Artemis or Apollo on such launchers due to the huge weight and space constraints.   IOS Launchers do explode when hit while ammunition is still on board.",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},
@@ -69,6 +69,298 @@
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "STD",
+			"UIName": "STD",
+			"isBaseMode": true
+		},
+		{
+			"Id": "TNDM",
+			"UIName": "Tandem",
+			"isBaseMode": false,
+			"Damage": -4,
+			"APDamage": 4,
+			"APCriticalChanceMultiplier": 0.15
+		},
+		{
+			"Id": "VNM",
+			"UIName": "Venom",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": -1,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 0,
+						"specialRules": "NotSet",
+						"effectTargetType": "NotSet",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Effect_InfernoRLHeat",
+						"Name": "INFERNO",
+						"Details": "This unit is coated with burning chemicals.",
+						"Icon": "uixSvgIcon_biome_Heated"
+					},
+					"statisticData": {
+						"statName": "HeatSinkCapacity",
+						"operation": "Int_Subtract",
+						"modValue": "4",
+						"modType": "System.Int32"
+					},
+					"nature": "Debuff"
+				},
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 1,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 2,
+						"specialRules": "NotSet",
+						"effectTargetType": "NotSet",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Effect_AcidDMG",
+						"Name": "Disintegration",
+						"Details": "This unit's armor is disintegrating. It will take 5% increased Damage.",
+						"Icon": "acid"
+					},
+					"statisticData": {
+						"statName": "DamageReductionMultiplierAll",
+						"operation": "Float_Add",
+						"modValue": "0.05",
+						"modType": "System.Single"
+					},
+					"nature": "Debuff"
+				}
+			]
+		},
+		{
+			"Id": "LK",
+			"UIName": "L-K",
+			"isBaseMode": false,
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -1
+		},
+		{
+			"Id": "Inferno",
+			"UIName": "Inferno",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 1,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 0,
+						"specialRules": "NotSet",
+						"effectTargetType": "NotSet",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Effect_InfernoSRMHeat",
+						"Name": "Inferno Gel",
+						"Details": "This unit is coated with burning chemicals, generating 6 extra heat each turn.",
+						"Icon": "fire-zone"
+					},
+					"statisticData": {
+						"statName": "HeatSinkCapacity",
+						"operation": "Int_Subtract",
+						"modValue": "6",
+						"modType": "System.Int32"
+					},
+					"nature": "Debuff"
+				}
+			]
+		},
+		{
+			"Id": "HH",
+			"UIName": "Head-Hunter",
+			"isBaseMode": false,
+			"DamagePerShot": -6,
+			"APDamage": 4,
+			"APCriticalChanceMultiplier": 0.005,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator"
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "TCCALLSHOT",
+						"Name": "Improved Called Shot",
+						"Details": "Called Shots twice as reliable",
+						"Icon": "uixSvgIcon_ability_mastertactician"
+					},
+					"statisticData": {
+						"statName": "CalledShotBonusMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "10",
+						"modType": "System.Single"
+					}
+				}
+			]
+		},
+		{
+			"Id": "Coal",
+			"UIName": "Coal",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"Instability": 3
+		},
+		{
+			"Id": "Flare",
+			"UIName": "Flare",
+			"isBaseMode": false,
+			"EvasivePipsIgnored": 1,
+			"MissileHealth": 1,
+			"DamagePerShot": -6,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 1,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 0,
+						"specialRules": "NotSet",
+						"effectTargetType": "NotSet",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "TAG-Effect",
+						"Name": "Target Acquired",
+						"Details": "This target was Acquired by a Flare. +1 to hit.",
+						"Icon": "uixSvgIcon_artillery"
+					},
+					"nature": "Debuff",
+					"statisticData": {
+						"statName": "ToHitThisActor",
+						"operation": "Float_Add",
+						"modValue": "-1.0",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "NotSet",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponType": "NotSet",
+						"targetAmmoCategory": "NotSet",
+						"targetWeaponSubType": "NotSet"
+					},
+					"tagData": {
+						"tagList": [
+							"lv-tag-effect"
+						]
+					},
+					"floatieData": null,
+					"actorBurningData": null,
+					"vfxData": null,
+					"instantModData": null,
+					"poorlyMaintainedEffectData": null
+				},
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 0,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 0,
+						"specialRules": "NotSet",
+						"effectTargetType": "NotSet",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false,
+						"hideApplicationFloatie": true
+					},
+					"effectType": "VFXEffect",
+					"Description": {
+						"Id": "StatusEffect-TAG-IndicatorVFX",
+						"Name": "TAG MARKED",
+						"Details": "Visual indicator of the TAG effect",
+						"Icon": "uixSvgIcon_status_sensorsImpaired"
+					},
+					"nature": "Debuff",
+					"vfxData": {
+						"vfxName": "vfxPrfPrtl_TAGmarker_loop",
+						"attachToImpactPoint": true,
+						"location": -1,
+						"isAttached": true,
+						"facesAttacker": false,
+						"isOneShot": false,
+						"duration": -1.0
+					}
+				}
+			]
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",

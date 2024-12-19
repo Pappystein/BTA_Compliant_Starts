@@ -1,0 +1,85 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 100,
+			"HeatDamage": 50,
+			"StabilityDamage": 50
+		},
+		"BonusDescriptions": [
+			"WpnAccuracy: +2",
+			"WpnCrits: +25%",
+			"DistributedLaserArray"
+		]		
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "COIL",
+	"WeaponSubType": "COILL",
+	"MinRange": 0,
+	"MaxRange": 840,
+	"RangeSplit": [
+		210,
+		420,
+		630
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 16,
+	"OverheatedDamageMultiplier": 1.33,
+	"EvasiveDamageMultiplier": 1.0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.25,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"DamageOnJamming": true,
+	"FireTerrainChance": 0,
+	"AdvancedCirtProcessing": true,
+	"ImprovedBallistic": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_COILS",
+	"Description": {
+		"Cost": 2570000,
+		"Rarity": 6,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Distributed Laser Array",
+		"UIName": "Distributed Laser Array",
+		"Id": "Weapon_Laser_LargeLaser_Distributed_L",
+		"Name": "Distributed Laser Array",
+		"Details": "Liao engineers, working with Pafftek Industries and KOS Kompanions developed a new type of laser based on their stealth armor technology.   By utilizing space in multiple locations on the mech, they made a small powerful array of laser beams that combine to do massive damage with each volley.  As the array takes damage the performance as a whole is reduced.",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "No FCS",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant3",
+			"range_extreme",
+			"DA_Superlaser"
+		],
+		"tagSetSourceFile": ""
+	}
+}

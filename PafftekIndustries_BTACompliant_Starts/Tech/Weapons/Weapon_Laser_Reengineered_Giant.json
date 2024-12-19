@@ -2,21 +2,19 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/e/l/laser"
+				"CategoryID": "w/s/su/superweapon"
 			}
 		],
 		"BonusDescriptions": [
 			"ArmorDmgMod: +40%",
 			"StructureDmgMod: -20%",
-			"ReEngineeredLaser",
-			"WeaponAttachmentCompatible: Laser Insulator",
-			"WeaponAttachmentCompatible: Laser FCS"
+			"ReEngineeredLaser"
 		],
 		"Flags": [
 			"not_broken"
 		]
 	},
-	"Category": "Energy",
+	"weaponCategoryID": "Superweapon",
 	"Type": "Laser",
 	"WeaponSubType": "LargeLaser",
 	"MinRange": 0,
@@ -28,8 +26,8 @@
 	],
 	"AmmoCategory": "NotSet",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 45,
-	"Damage": 19,
+	"HeatGenerated": 55,
+	"Damage": 20,
 	"HeatDamage": 0,
 	"Instability": 2,
 	"DamageVariance": 0,
@@ -39,7 +37,7 @@
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"CriticalChanceMultiplier": 1,
-	"APDamage": 5,
+	"APDamage": 10,
 	"ArmorDamageModifier": 1.4,
 	"ISDamageModifier": 0.8,
 	"APCriticalChanceMultiplier": 0.08,
@@ -55,20 +53,20 @@
 		"Rarity": 0,
 		"Purchasable": true,
 		"Manufacturer": "Pafftek Industries",
-		"Model": "Giant re-Laser",
-		"UIName": "Giant re-Laser",
+		"Model": "Giant reengineered-Laser",
+		"UIName": "Giant reengineered-Laser",
 		"Id": "Weapon_Laser_Reengineered_Giant",
 		"Name": "G re-Laser",
 		"Details": "Re-engineered Lasers were developed by trying to mate a Pulse laser with a Heavy Laser. Though unsuccessful in that effort the weapons created had one odd benefit: The resulting homoginization created a dual pulse attack that both penetrated armor and did extra damage to armor at the same time.  However when attacking exposed structures the weapon does less damage.",
-		"Icon": "uixSvgIcon_weapon_Energy"
+		"Icon": "death-star"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
 	"ComponentType": "Weapon",
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "Laser",
-	"InventorySize": 7,
-	"Tonnage": 9,
+	"InventorySize": 8,
+	"Tonnage": 11,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -77,10 +75,7 @@
 		"items": [
 			"component_type_stock",
 			"component_type_lostech",
-			"range_long",
-			"LaserInsulatorAttachable.{location}",
-			"LaserInsulatorSupported-SingleShot",
-			"LaserFCSSupported-SingleShot"
+			"range_long"
 		],
 		"tagSetSourceFile": ""
 	}

@@ -6,7 +6,7 @@
 			}
 		],
 		"BonusDescriptions": [
-				"TEHeatgen: -10%",
+				"TEHeatgen: -12%",
 				"ADV_Exchanger",
 				"Explosive: 12",
 				"ExplosiveHEAT: 30",
@@ -30,7 +30,7 @@
 		"Details": "Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.",
 		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 	},
-	"BonusValueA": "-10% Weapon Heat",
+	"BonusValueA": "-12% Weapon Heat",
 	"BonusValueB": "-4 Heat",
 	"ComponentType": "HeatSink",
 	"ComponentSubType": "Heatsink",
@@ -77,7 +77,7 @@
 				"effectsPersistAfterDestruction": false,
 				"statName": "HeatGenerated",
 				"operation": "Float_Multiply",
-				"modValue": "0.90",
+				"modValue": "0.88",
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",
