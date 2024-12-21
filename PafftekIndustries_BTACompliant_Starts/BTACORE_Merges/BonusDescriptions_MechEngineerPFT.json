@@ -108,12 +108,6 @@
 					"Full": "Grants improved ability to detect mines laid by enemy units to {0} meters."
 				},
 				{
-					"Bonus": "DEPRECATED",
-					"Short": "DEPRECATED Item",
-					"Long": "SELL THIS!! DO NOT USE",
-					"Full": "This item has been replaced by another item or it is otherwise been removed from the game.  DO NOT USE, SELL IMMEDIATELY."
-				},
-				{
 					"Bonus": "NightVision",
 					"Short": "Night Vision System",
 					"Long": "Night Vision System",

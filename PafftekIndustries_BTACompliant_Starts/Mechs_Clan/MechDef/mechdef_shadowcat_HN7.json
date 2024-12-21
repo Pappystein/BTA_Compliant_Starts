@@ -31,7 +31,7 @@
 		"UIName": "Shadow Cat SHC-HN7",
 		"Id": "mechdef_shadowcat_HN7",
 		"Name": "Shadow Cat",
-		"Details": "The Shadow Cat is a heavily-armed and maneuverable medium OmniMech developed by Clan Nova Cat to replace the Ice Ferret in the early 31st century during preparations for Operation Revival. This expensive OmniMech makes use of weight-saving technologies in the form of an Endo Steel internal structure, an XL Engine, and Ferro-Fibrous armor. The HN7 is massed combat forcued compared to the other versions of the Shadow Cat.  In this case the main weapon is an accuratized Ultra Autocannon 5.  Supporting the UAC/5 are two ER Medium lasers and a SRM-4 with Listen-Kill ammunition to feed it.",
+		"Details": "The Shadow Cat is a heavily-armed and maneuverable medium OmniMech developed by Clan Nova Cat to replace the Ice Ferret in the early 31st century during preparations for Operation Revival. This expensive OmniMech makes use of weight-saving technologies in the form of an Endo Steel internal structure, an XL Engine, and Ferro-Fibrous armor. The HN7 is massed combat focused compared to the other versions of the Shadow Cat.  In this case the main weapon is an accuratized Ultra Autocannon 5.  Supporting the UAC/5 are two ER Medium lasers and a SRM-4 with Listen-Kill ammunition to feed it.",
 		"Icon": "uixTxrIcon_shadowcat"
 	},
 	"simGameMechPartCost": 1210000,

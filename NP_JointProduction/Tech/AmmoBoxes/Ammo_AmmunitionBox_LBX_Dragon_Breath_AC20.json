@@ -1,0 +1,64 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/a/lbx"
+			}
+		],
+		"Flags": [
+				"not_broken"
+			],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 70,
+			"HeatDamagePerAmmo": 50,
+			"StabilityDamagePerAmmo": 11
+		},
+		"BonusDescriptions": [
+				"HeatDamage: +60",
+				"WeaponDamage: -40",
+				"WpnCrits: +25%",
+				"WpnAccuracy: +1",
+				"PipsIgnored: +1",
+				"LBXCluster: 20",
+				"CostPerShot: 1500",
+				"AntiBA: 300%",
+				"OHDamage: 10%",
+				"AmmoCount: 5"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 1500
+		}
+	},
+	"AmmoID": "Ammunition_LBX20_Dragon_Breath",
+	"Capacity": 5,
+	"Description": {
+		"Cost": 90000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "LBX20",
+		"UIName": "Ammo LBX/20 Dragon's Breath",
+		"Id": "Ammo_AmmunitionBox_LBX_Dragon_Breath_AC20",
+		"Name": "LBX20 Dragon's Breath Ammo",
+		"Details": "Dragon's Breath ammo is a modified version of normal LBX Cluster ammo designed to do fire damage on enemy units. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 5 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
