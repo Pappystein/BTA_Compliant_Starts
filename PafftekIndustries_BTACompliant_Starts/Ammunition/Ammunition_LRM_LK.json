@@ -12,11 +12,11 @@
 	"Type": "Normal",
 	"Category": "LRM",
 	"HeatGenerated": 0,
-	"AccuracyModifier": -1,
+	"AccuracyModifier": 0,
 	"EvasivePipsIgnored": 1,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
-	"AMSHitChance": 0.01
+	"AMSHitChance": 0.85
 }

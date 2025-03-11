@@ -19,5 +19,8 @@
 	"CriticalDamageModifier": 1.1,
 	"AOECapable": false,
 	"APDamage": 15,
-	"APCriticalChanceMultiplier": 0.15
+	"APCriticalChanceMultiplier": 0.15,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -1
+	}
 } 

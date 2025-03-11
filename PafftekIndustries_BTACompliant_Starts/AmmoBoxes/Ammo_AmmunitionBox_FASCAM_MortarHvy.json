@@ -1,13 +1,11 @@
 {
 	"Custom": {
 		"Category" : [
-			{ "CategoryID" : "a/a/o/mortar" }
+			{ "CategoryID" : "a/a/o/Hmortar" }
 		],
-		"Flags": {
-			"flags": [
+		"Flags": [
 				"not_broken"
-			]
-		},
+			],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 100,
 			"StabilityDamagePerAmmo": 25

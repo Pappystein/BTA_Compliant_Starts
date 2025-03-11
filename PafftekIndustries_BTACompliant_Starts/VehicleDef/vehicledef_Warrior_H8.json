@@ -80,7 +80,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM_H",
+      "ComponentDefID": "Ammo_AmmunitionBox_SemiGuided_LRM_H",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -227,6 +227,13 @@
 			"MountedLocation": "Front",
 			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_C3",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		}

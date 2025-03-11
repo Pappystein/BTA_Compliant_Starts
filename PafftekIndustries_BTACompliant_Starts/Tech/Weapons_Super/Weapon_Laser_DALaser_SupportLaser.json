@@ -5,6 +5,11 @@
 				"CategoryID": "w/l/su/superweapon"
 			}
 		],
+		"BonusDescriptions": [
+			"DA_SupportLaser",
+			"DA_SupportLaserON",
+			"DA_SupportLaserOFF"
+		],
 		"Color": "greenHalf",
 		"ActivatableComponent": {
 			"ButtonName": "Distributed Laser",
@@ -40,7 +45,7 @@
 						"effectsPersistAfterDestruction": false,
 						"statName": "DamagePerShot",
 						"operation": "Float_Add",
-						"modValue": "20",
+						"modValue": "25",
 						"modType": "System.Single",
 						"additionalRules": "NotSet",
 						"targetCollection": "Weapon",
@@ -72,7 +77,7 @@
 						"effectsPersistAfterDestruction": false,
 						"statName": "HeatGenerated",
 						"operation": "Int_Add",
-						"modValue": "10",
+						"modValue": "12",
 						"modType": "System.Int32",
 						"additionalRules": "NotSet",
 						"targetCollection": "NotSet",

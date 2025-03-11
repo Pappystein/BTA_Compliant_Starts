@@ -19,12 +19,10 @@
 			"ArmorTPCost": 1.1,
 			"ArmorCBCost": 1.15
 		},
-		"Flags": {
-			"flags": [
+		"Flags": [
 				"not_broken",
 				"no_salvage"
-			]
-		},
+			],
 		"BonusDescriptions": {
 			"Bonuses": [
 				"ArmorFactor: -6%",

@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_marauder_MAD-1R",
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "HalfRoyal"
+        }
+    ]
+}

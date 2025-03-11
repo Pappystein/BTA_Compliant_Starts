@@ -1,6 +1,10 @@
 itemCollection_loot_SpareParts,Mech Spare Parts,Mech Spare Parts,
-itemCollection_loot_BasicKit,Reference,0,10
 BTA_Beacons,Reference,1,10
-PFT_PAI_Reference,Reference,3,10
-PFT_IS_Reference,Reference,2,10
-PFT_Rarities_Refrence,Reference,1,10
+PFT_PAI_Reference,Reference,2,10
+PFT_IS_AutoCannonBox,Reference,2,10
+PFT_IS_Energy,Reference,5,10
+PFT_IS_FLAMERS,Reference,2,10
+PFT_IS_LRM_Tally,Reference,2,10
+PFT_IS_MGCollection,Reference,1,10
+PFT_IS_SRM_Tally,Reference,2,10
+PFT_Rarities_Refrence,Reference,2,10

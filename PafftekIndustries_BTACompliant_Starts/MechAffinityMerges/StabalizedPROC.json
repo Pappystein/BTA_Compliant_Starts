@@ -1,5 +1,5 @@
 {
-    "TargetID": "AffinityDef_tagged_Stabilized",
+    "TargetID": "AffinityDef_chassis_Stabilized",
     "Instructions": [
         {
             "JSONPath": "affinityData.chassisNames",

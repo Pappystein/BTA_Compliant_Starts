@@ -1,0 +1,29 @@
+{
+	"TargetID": "Categories_Heatsinks",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+			{
+				"Name": "SWExchanger",
+				"displayName": "Super Weapon Exchangers",
+				"BaseLimits": [
+					{
+					  "Min": 0,
+					  "Max": 6
+					}
+				],
+				"DefaultCustoms": {
+					"RGBColor": "#1888b8",
+					"TRGBColor": {"Color": "#FFFFFF"},						
+					"InventorySorter": "9",
+					"Sorter": 1001
+				}
+			}
+		
+		
+		]
+	}
+	]
+}	

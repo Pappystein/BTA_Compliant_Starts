@@ -1,12 +1,12 @@
 
-Gear_Solo_Duel_Light,Upgrade,2,10
-Gear_Solo_Duel_Medium,Upgrade,2,10
-Gear_Solo_Duel_Heavy,Upgrade,2,10
-Gear_Solo_Duel_Assault,Upgrade,2,10
-Gear_Duo_Duel_Light,Upgrade,2,10
-Gear_Duo_Duel_Medium,Upgrade,2,10
-Gear_Duo_Duel_Heavy,Upgrade,2,10
-Gear_Duo_Duel_Assault,Upgrade,2,10
+Gear_Solo_Duel_Light,Upgrade,5,10
+Gear_Solo_Duel_Medium,Upgrade,5,10
+Gear_Solo_Duel_Heavy,Upgrade,5,10
+Gear_Solo_Duel_Assault,Upgrade,5,10
+Gear_Duo_Duel_Light,Upgrade,5,10
+Gear_Duo_Duel_Medium,Upgrade,5,10
+Gear_Duo_Duel_Heavy,Upgrade,5,10
+Gear_Duo_Duel_Assault,Upgrade,5,10
 PFT_ThunderboltList,Reference,5,10
 emod_armorslots_ferrosInsulated,Upgrade,2,6
 Gear_Cockpit_800_Berserker,Upgrade,1,10

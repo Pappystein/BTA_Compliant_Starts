@@ -29,6 +29,9 @@
    "FireTerrainCellRadius": 1,
    "FireOnSuccessHit" : true,
 	"TrooperSquadDamageModifier": 500,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -5
+	},
 	"statusEffects" : [ 
 		{
 			"durationData" : {

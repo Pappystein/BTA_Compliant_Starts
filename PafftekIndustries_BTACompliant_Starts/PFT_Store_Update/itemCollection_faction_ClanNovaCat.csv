@@ -1,3 +1,13 @@
 
+itemCollection_systemStores_PFT_Clan_HN7,Reference,0,1
+itemCollection_systemStores_PFT_WoodsmanII,Reference,0,1
 mechdef_commando_COM-IIC,Mech,1,10
 mechdef_griffin_GRF-2Nb,Mech,1,10
+mechdef_wight_WGT-4NC,Mech,1,1
+Mechdef_wolfhound_WLF-4WB,Mech,1,1
+Weapon_Bomb_Bay_ArrowIV,Weapon,0,1
+Weapon_Bomb_Bay_ArrowIV_BEE,Weapon,0,1
+Weapon_Bomb_Bay_ATMGM,Weapon,0,1
+Weapon_Bomb_Bay_iNARC,Weapon,0,1
+Weapon_Bomb_Bay_Magshot_GunPod,Weapon,0,1
+Weapon_Bomb_Bay_MG_GunPod,Weapon,0,1

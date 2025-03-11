@@ -77,7 +77,7 @@
 					"Icon": ""
 				},
 				"statisticData": {
-					"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+					"statName": "ADD_ENCOUNTER_TAG_Clan_Network",
 					"operation": "Float_Add",
 					"modValue": "1",
 					"modType": "System.Single"

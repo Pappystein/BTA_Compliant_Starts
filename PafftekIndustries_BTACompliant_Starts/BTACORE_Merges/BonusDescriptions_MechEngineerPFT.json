@@ -219,7 +219,7 @@
 					"Bonus": "HyperEVA",
 					"Short": "Evasive Mech",
 					"Long": "Evasive Mech",
-					"Full": "This component adds {0} to the maximum evasion and {1} evasion from movement."
+					"Full": "This component adds {0} to the maximum evasion."
 				},
 				{
 					"Bonus": "MeleeWeaponAcc",
@@ -261,7 +261,7 @@
 					"Bonus": "IOS",
 					"Short": "I-OS {0} Launcher",
 					"Long": "I-OS {0} Launcher",
-					"Full": "Improved One Shot {0} Select Warhead before firing!"
+					"Full": "Improved One Shot {0} Select Warhead type before firing!"
 				},
 				{
 					"Bonus": "Tandem",
@@ -346,6 +346,72 @@
 					"Short": "Variable Range Targeting Quirk",
 					"Long": "Variable Range Targeting Quirk, {0} accuracy in selected range",
 					"Full": "Variable Range Targeting Quirk, Select range band (Long or Short) for +{0} accuracy bonus in that band, the other half of the range spectrum gains a -{0} Accuracy Penalty."
+				},
+				{
+					"Bonus": "ClanNetworkPatch",
+					"Short": "Clan C3 Network",
+					"Long": "IS Patch to C3Slave for NOVA Network from the Clans",
+					"Full": "Attachment to the C3Slave for added compatablity to connect to Clan based combat networks"
+				},
+				{
+					"Bonus": "DroneNetworkPatch",
+					"Short": "Drone C3 Network",
+					"Long": "IS Patch to C3Slave for Sanctuary Drone Network",
+					"Full": "Attachment to the C3Slave for added compatablity to connect to Sanctuary Alliance Drone Networked units."
+				},
+				{
+					"Bonus": "C3SlaveReq",
+					"Short": "Requires C3Slave",
+					"Long": "Device requires a C3Slave to work",
+					"Full": "Device is an attachement for the C3Slave to enhance functionality and thus requires a C3Slave to be present for it to work."
+				},
+				{
+					"Bonus": "GuidedRL",
+					"Short": "Guided Rockets",
+					"Long": "Guided Rockets",
+					"Full": "Guided Rockets ammunition gains a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
+				},
+				{
+					"Bonus": "TagSupporting",
+					"Short": "TAG provides benefits",
+					"Long": "TAG lock on target provides benefits to this weapon",
+					"Full": "If unit targeted by this weapon has an ACTIVE TAG lock on it, accuracy is improved by {0}"
+				},
+				{
+					"Bonus": "DistributedLaserArray",
+					"Short": "Core Distributed Laser component",
+					"Long":  "Primary Laser used in the Distriubted Laser Array setup",
+					"Full": "This is the primary Laser used in a Distributed Laser Array, it is supported by the \"Distributed Laser Array Component Laser\".  Each Component Laser can either do damage itself or provide a signficant bonus to damage of this weapon via weapon panel switch."
+				},
+				{
+					"Bonus": "DA_SupportLaser",
+					"Short": "Support Laser Array",
+					"Long":  "Support Laser used in the Distriubted Laser Array setup",
+					"Full": "The Distributed Laser Array Component Laser, en masse, can provide normal Laser attacks or via weapon panel switches, boost the Core Distributed Laser Array to greater heights of damage."
+				},
+				{
+					"Bonus": "DA_SupportLaserON",
+					"Short": "SuperWeapon Fire mode",
+					"Long":  "SuperWeapon Fire mode increases Superweapon damage.",
+					"Full": "The Distributed Laser Array Component Laser, in Superweapon mode increases Damage dealt by the Distributed Laser Array at the cost of accuracy."
+				},
+				{
+					"Bonus": "DA_SupportLaserOFF",
+					"Short": "Standard Fire mode",
+					"Long":  "Standard Fire mode increases Superweapon accuracy",
+					"Full": "The Distributed Laser Array Component Laser, in standard mode increases accuracy of the Distributed Laser Array at the cost of Super weapon damage dealt to enemy units."
+				},
+				{
+					"Bonus": "TAG_Benefits",
+					"Short": "Benefits from target being TAGed",
+					"Long":  "Benefits from target being TAGed",
+					"Full": "Gains {0} accuracy vs targets that are TAGed by any friendly unit prior to shot."
+				},
+				{
+					"Bonus": "ArtyHardpoint",
+					"Short": "Artilery Hardpoint Required",
+					"Long":  "Must be placed on an Artilery Hardpoint",
+					"Full": "Must be placed on an Artilery Hardpoint and can utilize the Artilery FCS attachment."
 				}
 			]
 		}

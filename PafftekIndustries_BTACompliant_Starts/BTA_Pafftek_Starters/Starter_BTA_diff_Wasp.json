@@ -1,0 +1,29 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_Wasp",
+			"Name": "W.A.S.P.",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Procyon"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Wasp,itemCollection_Pafftek_Wasp,itemCollection_Vehicle_Arty_PFT,itemCollection_Vehicle_Scout_PFT"},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Cameron:35"
+				}
+			]
+		}
+	}]
+}

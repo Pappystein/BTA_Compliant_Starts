@@ -1,12 +1,13 @@
 
 Weapon_MECHMORTAR_heavy,Weapon,2,1
 Weapon_MECHMORTAR_10,Weapon,2,1
-Ammo_AmmunitionBox_Generic_MortarHvy_SC,AmmunitionBox,0,1
-Ammo_AmmunitionBox_Generic_MortarHvy,AmmunitionBox,0,1
-Ammo_AmmunitionBox_MortarHvy_Elias,AmmunitionBox,0,1
-Ammo_AmmunitionBox_EMP_MortarHvy,AmmunitionBox,0,1
-Ammo_AmmunitionBox_FASCAM_MortarHvy,AmmunitionBox,0,1
-Ammo_AmmunitionBox_AB30_MortarHvy,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Generic_MortarHvy_SC,AmmunitionBox,6,1
+Ammo_AmmunitionBox_Generic_MortarHvy,AmmunitionBox,6,1
+Ammo_AmmunitionBox_MortarHvy_Elias,AmmunitionBox,1,1
+Ammo_AmmunitionBox_EMP_MortarHvy,AmmunitionBox,3,1
+Ammo_AmmunitionBox_FASCAM_MortarHvy,AmmunitionBox,4,1
+Ammo_AmmunitionBox_AB30_MortarHvy,AmmunitionBox,4,1
+Ammo_AmmunitionBox_AB60_MortarHvy,AmmunitionBox,2,1
 mechdef_anubis_ABS-3TSL,Mech,0,1
 mechdef_battlehammer_BH4G,Mech,0,1
 mechdef_hollander_BZK-K7STL,Mech,0,1
@@ -19,3 +20,9 @@ mechdef_wolverine_WVR-6TTL,Mech,0,1
 mechdef_raven_RVN-5TSL,Mech,0,1
 mechdef_zeus_ZEU-6STSL,Mech,0,1
 Gear_Drone_Network_Patch,Upgrade,0,10
+Weapon_Bomb_Bay_ArrowIV,Weapon,0,1
+Weapon_Bomb_Bay_ArrowIV_BEE,Weapon,0,1
+Weapon_Bomb_Bay_ATMGM,Weapon,0,1
+Weapon_Bomb_Bay_iNARC,Weapon,0,1
+Weapon_Bomb_Bay_Magshot_GunPod,Weapon,0,1
+Weapon_Bomb_Bay_MG_GunPod,Weapon,0,1

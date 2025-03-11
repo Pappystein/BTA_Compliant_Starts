@@ -18,7 +18,7 @@
 	"ISDamageModifier": 1,
 	"AOECapable": false,
 	"HasShells": true,
-	"ShellsRadius": 45,
+	"ShellsRadius": 20,
 	"MinShellsDistance": 120,
 	"MaxShellsDistance": 240,
 	"UnseparatedDamageMult": 0.5,

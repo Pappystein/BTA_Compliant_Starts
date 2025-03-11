@@ -23,5 +23,9 @@
 	"MinShellsDistance": 45,
 	"MaxShellsDistance": 60,
 	"UnseparatedDamageMult": 0.75,
-	"ProjectilesPerShot": 30
+	"ProjectilesPerShot": 30,	
+	"IFFDef" : "Gear_SquawkBox",
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -3
+	}
 }

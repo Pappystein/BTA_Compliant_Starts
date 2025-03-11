@@ -10,18 +10,11 @@
 				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
-		},
-		"DecoratorComponent":[
-			{
-				"Text":"DRN",               
-				"Color":"#ff1616",      
-				"Icon":"mesh-network",       
-				"Importance": 10
-			}
-		],		
+		},	
 		"BonusDescriptions": {
 			"Bonuses": [
-				"DroneNetwork"
+				"DroneNetworkPatch",
+				"C3SlaveReq"
 			]
 		},
 		"ActivatableComponent": {
@@ -83,8 +76,8 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 2,
-	"Tonnage": 1,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,

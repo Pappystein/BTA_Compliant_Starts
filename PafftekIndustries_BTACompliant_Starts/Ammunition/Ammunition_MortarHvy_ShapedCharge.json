@@ -25,5 +25,8 @@
 	"FireDurationWithoutForest": 1,
    "FireTerrainStrength": 2,
    "FireTerrainCellRadius": 1,
-   "StructureDamage": 12
+   "StructureDamage": 12,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -5
+	}
 }

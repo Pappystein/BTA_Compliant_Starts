@@ -1,19 +1,18 @@
 {
 	"Custom": {
 		"Category" : [
-			{ "CategoryID" : "a/a/o/mortar" }
+			{ "CategoryID" : "a/a/o/Hmortar" }
 		],
-		"Flags": {
-			"flags": [
+		"Flags": [
 				"not_broken"
-			]
-		},
+			],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 100,
 			"StabilityDamagePerAmmo": 25
 		},
 		"BonusDescriptions": [
-				"HeavyMortarAmmo: 10"
+				"HeavyMortarAmmo: 10",
+				"TAG_Benefits: 3"
 			],
 		"AmmoCost" : {
 		  "PerUnitCost" : 500

@@ -1,0 +1,251 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "RiverHawk",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 10800000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "River Hawk",
+		"Id": "chassisdef_riverhawk_RH-A-CC",
+		"Name": "River Hawk",
+		"Details": "The River Hawk is arguably the greatest failure ever produced by the RAD Group, being originally built for the Star League in 2739 shortly after the Osprey was created, with many referring to it as a '100 ton Charger' thanks to the standard RH-A-SL's massive RADTech 400 standard fusion engine, which in combination with it's underwhelming weapons setup and a pathetic 10.5 tons of standard armor quickly led to the mech suffering the same fate as the Charger it is often likened to during the Star League era, and also like the Charger, would be saved as a desperate and shattered RAD Group found the production line for the chassis was one of the few left functioning and would manage to sell these machines to the Great Houses during the Succession Wars despite it's flaws, meaning the chassis can be found semi-frequently throughout the Inner Sphere. The RH-A-CC is a desperate refit originally created by the Capellan Confederation, leaning heavily into missiles with twin SRM-6s and an LRM-15, along with a Medium Laser to supplant them. While 12 standard heat sinks don't fall too far behind the heat here, the armor is not improved, meaning the mech is as vulnerable as it's original Star League counterpart.",
+		"Icon": "uixTxrIcon_osprey"
+	},
+	"MovementCapDefID": "movedef_atlas_AS7-D",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_osprey",
+	"PrefabIdentifier": "chrprfmech_ospreybase-001",
+	"PrefabBase": "osprey",
+	"Tonnage": 100,
+	"InitialTonnage": 10,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10581000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 110,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 110,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 110,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 170,
+			"MaxRearArmor": -1,
+			"InternalStructure": 85
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 16,
+			"MaxArmor": 320,
+			"MaxRearArmor": 160,
+			"InternalStructure": 160
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 170,
+			"MaxRearArmor": -1,
+			"InternalStructure": 85
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_RiverHawk",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "RH-A-CC",
+	"ChassisTags": {
+		"items": [
+			"mr-resize-1.15-1.15-1.15",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Poorly Designed Assault",
+	"YangsThoughts": "The River Hawk is arguably the greatest failure ever produced by the RAD Group, being originally built for the Star League in 2739 shortly after the Osprey was created, with many referring to it as a '100 ton Charger' thanks to the standard RH-A-SL's massive RADTech 400 standard fusion engine, which in combination with it's underwhelming weapons setup and a pathetic 10.5 tons of standard armor quickly led to the mech suffering the same fate as the Charger it is often likened to during the Star League era, and also like the Charger, would be saved as a desperate and shattered RAD Group found the production line for the chassis was one of the few left functioning and would manage to sell these machines to the Great Houses during the Succession Wars despite it's flaws, meaning the chassis can be found semi-frequently throughout the Inner Sphere. The RH-A-CC is a desperate refit originally created by the Capellan Confederation, leaning heavily into missiles with twin SRM-6s and an LRM-15, along with a Medium Laser to supplant them. While 12 standard heat sinks don't fall too far behind the heat here, the armor is not improved, meaning the mech is as vulnerable as it's original Star League counterpart.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

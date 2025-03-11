@@ -1,8 +1,10 @@
 itemCollection_Vehicle_Arty_PFT,,,
-vehicledef_CHAPARRAL_B,Mech,1,2
+vehicledef_CHAPARRAL_B,Mech,1,4
 vehicledef_LONGTOM_B,Mech,1,2
 vehicledef_THOR_AB,Mech,1,4
 vehicledef_VALI_manned,Mech,1,3
-vehicledef_SCHILTRON_PRIME1,Mech,1,2
+vehicledef_SCHILTRON_PRIME1,Mech,1,3
 vehicledef_PALADIN_A,Mech,1,2
-vehicledef_BALLISTA_A,Mech,1,3
+vehicledef_BALLISTA_A,Mech,1,4
+vehicledef_THOR_MRBM,Mech,1,4
+vehicledef_SCHILTRON_G1,Mech,1,4

@@ -12,7 +12,7 @@
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "Fomalhaut"
+					"ConstantValue": "Abramkovo"
 				},
 				{
 					"ConstantType": "CareerMode",

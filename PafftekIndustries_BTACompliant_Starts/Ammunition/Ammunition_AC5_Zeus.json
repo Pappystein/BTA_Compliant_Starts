@@ -95,5 +95,8 @@
 			"nature": "Buff"
 		}
 	
-	]
+	],
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -1
+	}
 }

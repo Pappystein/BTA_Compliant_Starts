@@ -1,0 +1,57 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/m/t/thunderbolt"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 100,
+			"StabilityDamagePerAmmo": 24
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 3400",
+				"TBOLT20Ammo: 4"
+			],
+		"AmmoCost" : {
+		  "PerUnitCost" : 3400
+		}
+	},
+	"AmmoID": "Ammunition_TBOLT20_FRAG",
+	"Capacity": 4,
+	"Description": {
+		"Cost": 20000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Thunderbolt Fragmentation Cluster",
+		"UIName": "Ammo T-Bolt20 Fragmentation Cluster",
+		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB20_FRAG",
+		"Name": "Thunderbolt 20 Fragmentation",
+		"Details": "Fragmenation rounds are closer in effect to the various LB-X munitions Cluster.  However unlike Airburst, they rarely damage close units next to the target. Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 4 shots.",
+		"Icon": "missile-pod-ammo"
+	},
+	"BonusValueA": "30m Airburst AOE",
+	"BonusValueB": "40 shards @2.5 damage each 125% Crit chance.",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

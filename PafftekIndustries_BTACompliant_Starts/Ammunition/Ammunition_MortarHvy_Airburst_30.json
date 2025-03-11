@@ -23,5 +23,8 @@
 	"MinShellsDistance": 5,
 	"MaxShellsDistance": 30,
 	"UnseparatedDamageMult": 0.75,
-	"ProjectilesPerShot": 30
+	"ProjectilesPerShot": 30,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -3
+	}
 }

@@ -1,0 +1,23 @@
+{
+	"TargetID": "Categories_Ammo",
+	"Instructions": [
+	{
+		"JSONPath": "Settings",
+		"Action": "ArrayConcat",
+		"Value": [
+			{
+				"Name": "a/a/o/Hmortar",
+				"displayName": "Heavy Mech Mortar Ammo",
+				"DefaultCustoms": {
+					"RGBColor": "#ee4b2b",
+					"TRGBColor": {"Color": "#FFFFFF"},						
+					"InventorySorter": "81",
+					"Sorter": 1001
+				}				
+			}			
+		
+		
+		]
+	}
+	]
+}	

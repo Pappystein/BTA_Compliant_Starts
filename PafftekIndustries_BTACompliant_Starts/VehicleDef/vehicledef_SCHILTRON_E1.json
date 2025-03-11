@@ -176,7 +176,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_SemiGuided_LRM_H",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Left",
 			"HardpointSlot": -1,

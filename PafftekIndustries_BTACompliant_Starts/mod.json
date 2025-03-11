@@ -2,7 +2,9 @@
     "Name": "PafftekIndustries_BTACompliant_Starts",
     "Enabled": true,
 	"Hidden": true,
-	
+	"CustomResourceTypes": [
+		"ExtendedContractType"
+	],
 	"DataAddendumEntries": [
 		{
 			"name": "BattleTech.AmmoCategoryEnumeration",
@@ -41,17 +43,21 @@
 			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" },
 			{ "Type": "Sprite", "Path": "Graphix"},
 			{ "Type": "Texture2D", "Path": "Graphix" },
-			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true},
+			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update", "ShouldAppendText": true},
+			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update/OGShops", "AddToDB": true},
 			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
 			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" },
 			{ "Type": "MechDef", "Path": "OperationDeepFreeze/Mechdef/" },
 			{ "Type": "ChassisDef", "Path": "OperationDeepFreeze/Chassisdef/" },
 			{ "Type": "PilotDef", "Path": "PafftekIndustries_Pilots/Pilots/" },
 			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" },
-			{ "Type": "AffinitiesDef", "Path": "AffinityDefs/" }
+			{ "Type": "AffinitiesDef", "Path": "AffinityDefs/" },
+			{ "Type": "ContractOverride", "Path": "Wartech_IIC_ExtendedContracts/Contracts" },
+			{ "Type": "ExtendedContractType", "Path": "Wartech_IIC_ExtendedContracts/ECs" }
   ],
     "OptionallyDependsOn": [],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity" ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity" ],
 	"ConflictsWith": [				
-	]
+	],
+	"LoadImplicitManifest": true
 }

@@ -112,14 +112,14 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+			"ComponentDefID": "Ammo_AmmunitionBox_Homing_ArrowIV",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Turret",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+			"ComponentDefID": "Ammo_AmmunitionBox_Homing_ArrowIV",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Rear",
 			"HardpointSlot": -1,

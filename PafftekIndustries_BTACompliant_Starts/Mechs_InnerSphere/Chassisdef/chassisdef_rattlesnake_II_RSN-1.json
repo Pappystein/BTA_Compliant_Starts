@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "RSN2",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 4100000,
 		"Rarity": 1,
@@ -81,7 +88,7 @@
 		},
 		{
 			"Location": "LeftTorso",
-			"Hardpoints": [	
+			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -113,7 +120,7 @@
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [	
+			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -209,7 +216,7 @@
 	"VariantName": "RSN-1",
 	"ChassisTags": {
 		"items": [
-	"mr-resize-1.10-1.10-1.10",
+			"mr-resize-0.75-0.76-0.75",
 			"MediumMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft"

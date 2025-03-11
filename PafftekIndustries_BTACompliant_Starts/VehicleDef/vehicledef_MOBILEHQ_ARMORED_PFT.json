@@ -68,9 +68,9 @@
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
-		},	
+		},
 		{
-			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+			"ComponentDefID": "Weapon_C3_Master",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 1,
@@ -119,10 +119,10 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3",
+			"ComponentDefID": "Gear_C3_Master",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
+			"MountedLocation": "Rear",
+			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{

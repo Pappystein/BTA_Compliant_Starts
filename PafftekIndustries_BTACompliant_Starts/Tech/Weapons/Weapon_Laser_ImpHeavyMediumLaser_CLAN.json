@@ -7,6 +7,8 @@
 		],
 		"BonusDescriptions": [
 				"ImpHeavyLaser: 50",
+				"JamExplode",
+				"WeaponJAMFlat: 5%",
 				"WpnCrits: -25%",
 				"PipsIgnored: 2",
 				"WeaponAttachmentCompatible: Laser Insulator",
@@ -48,8 +50,7 @@
 	"FireTerrainChance": 0,
 	"FlatJammingChance": 0.05,
 	"DamageOnJamming": true,
-	"UnsafeJamChance": 0.66,
-	"GunneryJammingMult": 0.05,	
+	"UnsafeJamChance": 0.66,	
 	"ColorsTable": [
 		{
 			"C": "#FFFF00",
@@ -69,7 +70,7 @@
 		"UIName": "Imp Heavy M Laser (C)",
 		"Id": "Weapon_Laser_ImpHeavyMediumLaser_CLAN",
 		"Name": "Imporoved Heavy M Laser (C)",
-		"Details": "Clan Star Adder developed the Heavy Lasers to deal more damage, but with an increased heat output. In addition, interference with a BattleMech's sensors means that a Heavy Medium Laser is penalized with a +3 to-hit modifier.",
+		"Details": "Clan Goliath Scorpion was the first Clan to introduce in 3069 an effective Improved Heavy Laser, but it still possessed several tradeoffs that some warriors wouldn't accept. Most notable of these, it could explode if it suffered critical damage, much like a Gauss Rifle. Worse, the internal cooling system could lock up causing the laser to \"jam\" and have a high chance of causing the same explosion.",
 		"Icon": "uixSvgIcon_weapon_Energy"
 	},
 	"BonusValueA": "",

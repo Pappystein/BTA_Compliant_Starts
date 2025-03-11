@@ -18,7 +18,18 @@
 					"InventorySorter": "896",
 					"Sorter": 1000
 				}
-			}
+				
+			},
+			{
+				"Name": "w/a/o/Hmortar",
+				"displayName": "Heavy Mech Mortars",
+				"DefaultCustoms": {
+					"RGBColor": "#ee4b2b",
+					"TRGBColor": {"Color": "#FFFFFF"},						
+					"InventorySorter": "86",
+					"Sorter": 1001
+				}				
+			}			
 		
 		
 		]

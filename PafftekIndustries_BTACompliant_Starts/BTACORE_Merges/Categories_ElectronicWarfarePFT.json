@@ -1,28 +1,53 @@
 {
 	"TargetID": "Categories_ElectronicWarfare",
 	"Instructions": [
-	{
-		"JSONPath": "Settings",
-		"Action": "ArrayConcat",
-		"Value": [
 		{
-			"Name": "AECM",
-			"displayName": "Electronic Countermeasure Suite",
-			"BaseLimits": [
+			"JSONPath": "Settings",
+			"Action": "ArrayConcat",
+			"Value": [
 				{
-				  "Min": 0,
-				  "Max": 1
+					"Name": "Network",
+					"displayName": "C4i advanced unit networking device",
+					"BaseLimits": [
+						{
+							"Min": 0,
+							"Max": 2
+						}
+					],
+					"DefaultCustoms": {
+						"InventorySorter": "9",
+						"Sorter": 1000
+					}
+				},
+				{
+					"Name": "IFF",
+					"displayName": "Identification Friend or Foe",
+					"BaseLimits": [
+						{
+							"Min": 0,
+							"Max": 1
+						}
+					],
+					"DefaultCustoms": {
+						"InventorySorter": "10",
+						"Sorter": 1000
+					}
+				},
+				{
+					"Name": "AECM",
+					"displayName": "Electronic Countermeasure Suite",
+					"BaseLimits": [
+						{
+							"Min": 0,
+							"Max": 1
+						}
+					],
+					"DefaultCustoms": {
+						"InventorySorter": "8",
+						"Sorter": 1000
+					}
 				}
-			],
-			"DefaultCustoms": {
-				"InventorySorter": "8",
-				"Sorter": 1000
-			}
-		
-		
-		}		
-		]
-	}
+			]
+		}
 	]
-	
-}	
+}

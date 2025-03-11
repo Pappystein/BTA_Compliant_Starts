@@ -6,12 +6,24 @@
 	"Contact": "",
 	"Manifest": [
 		{
+			"Type": "AffinitiesDef",
+			"Path": "Affinities"
+		},
+		{
 			"Type": "MechDef",
 			"Path": "Catapult/Mechdef/"
 		},
 		{
 			"Type": "ChassisDef",
 			"Path": "Catapult/Chassisdef/"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "RiverHawk/Mechdef/"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "RiverHawk/Chassisdef/"
 		},
 		{
 			"Type": "UpgradeDef",

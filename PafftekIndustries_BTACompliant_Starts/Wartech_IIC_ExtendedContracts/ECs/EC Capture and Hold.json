@@ -1,0 +1,201 @@
+{
+	"name": "EC Capture and Hold",
+	"requirementList": [
+		{
+			"Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+			"ExclusionTags": {
+				"items": [
+					"planet_other_empty"
+				],
+				"tagSetSourceFile": ""
+			}
+		}
+	],
+	"weight": 1,
+	"spawnLocation": "NearbyEnemy",
+	"employer": [
+		"Any"
+	],
+	"target": [
+		"SystemOwner"
+	],
+	"hireContract": "wiic_CaptureAndHold_Base",
+	"availableFor": [
+		20,
+		35
+	],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"",
+		"ScoutTheBase",
+		"",
+		"ContinueScouting",
+		"",
+		"CaptureBase",
+		"",
+		"",
+		"HarrassTheEnemy1",
+		"",
+		"HarrassTheEnemy2",
+		"",
+		"EnemyCommanderAtLarge",
+		"",
+		"",
+		"FriendlysHealthCheck",
+		"",
+		"HarrassTheEnemy3",
+		"",
+		"",
+		"ReduceEnemySupport",
+		"",
+		"ReduceEnemySupport2",
+		"",
+		"",
+		"DefendTheFrontLine",
+		"",
+		"TakeoutTheEnemyBase",
+		"",
+		"FinalSweep",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"ScoutTheBase": {
+			"workOrder": "Scout the Base",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, our liason from {TEAM_EMP.FactionDef.ShortName}, has given us the location of the base we are to capture.  Our first step is to sweep the area in a scouting force eliminating any enemies we discover along the way.  Our contact with {TEAM_EMP.FactionDef.ShortName} forces have indicated the possibility of 3rd party interlopers. That is however, not a certainty."
+		},
+		"ContinueScouting": {
+			"workOrder": "Secondary Sweep",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has asked us to do a further sweep of the area, Commander. As before there is a chance of 3rd party interlopers so stay on your toes!"
+		},
+		"CaptureBase": {
+			"workOrder": "Capture the Base",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				7
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} Has given us our primary target of this whole endeavor!  Go capture that base commander!"
+		},
+		"HarrassTheEnemy1": {
+			"workOrder": "Harrass The Enemy",
+			"contractChance": 0.15,
+			"allowedContractTypes": [
+				3,
+				10,
+				15
+			],
+			"contractMessage": "We have an optional harassment mission from {TEAM_EMP.FactionDef.ShortName}, Commander. They want us to scout and engage the enemy to take pressure off the base.  However, if we need to refit our forces, our contractor will not hold us skipping this mission against us."
+		},
+		"HarrassTheEnemy2": {
+			"workOrder": "Harrass The Enemy",
+			"contractChance": 0.3,
+			"allowedContractTypes": [
+				3,
+				10,
+				15
+			],
+			"contractMessage": "We have an optional harassment mission from {TEAM_EMP.FactionDef.ShortName}, Commander. They want us to scout and engage the enemy to take pressure off the base.  However, if we need to refit our forces, our contractor will not hold us skipping this mission against us."
+		},
+		"EnemyCommanderAtLarge": {
+			"workOrder": "Take out the Enemy Leadership",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				10
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a senior leader in the {TEAM_TAR.FactionDef.Demonym} force for us to take out.   Go get them and remove them from the playing field."
+		},
+		"FriendlysHealthCheck": {
+			"workOrder": "Check on Friendly forces",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				10002
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, {TEAM_EMP.FactionDef.ShortName} has alerted us to a priority mission.   They have a local installation they have lost communication with.  We need to go investigate Commander. {TEAM_TAR.FactionDef.Demonym} has forces in the area!"
+		},
+		"HarrassTheEnemy3": {
+			"workOrder": "Harrass The Enemy",
+			"contractChance": 0.45,
+			"allowedContractTypes": [
+				3,
+				10,
+				15
+			],
+			"contractMessage": "We have an optional harassment mission from {TEAM_EMP.FactionDef.ShortName}, Commander. They want us to scout and engage the enemy to take pressure off the base.  However, if we need to refit our forces, our contractor will not hold us skipping this mission against us."
+		},
+		"ReduceEnemySupport": {
+			"workOrder": "Reduce Enemy Support",
+			"contractChance": 0.9,
+			"allowedContractTypes": [
+				15
+			],
+			"declinePenalty": "BreakContract",
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here!  Our employeer will not hold skipping this contract against us but it will break our contract with them resulting in no final pay."
+		},
+		"ReduceEnemySupport2": {
+			"workOrder": "Reduce Enemy Support",
+			"contractChance": 0.15,
+			"allowedContractTypes": [
+				15
+			],
+			"declinePenalty": "BreakContract",
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found another convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here! Our employer will not hold skipping this contract against us but it will break our contract with them resulting in no final pay."
+		},
+		"DefendTheFrontLine": {
+			"workOrder": "Defend the front line!",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				11,
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} Has given us a high priority mission Commander!  We are to sortie on the field and defend our facility.  This is a required mission."
+		},
+		"TakeoutTheEnemyBase": {
+			"workOrder": "Destroy Enemy Base",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				6,
+				53
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} has a {TEAM_TAR.FactionDef.Demonym}base for us to destroy.   Go get them and remove them from the playing field."
+		},
+		"FinalSweep": {
+			"workOrder": "Final Sweep",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has asked us to do a further sweep of the area, Commander. As before there is a chance of 3rd party interlopers so stay on your toes!"
+		},
+		"PaymentDelivered": {
+			"popupTitle": "The Base Commander Sends Their Thanks",
+			"popupMessage": "Our payment was just delivered, Commander.  {TEAM_EMP.FactionDef.ShortName} is overall happy with our performance. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+	}
+}

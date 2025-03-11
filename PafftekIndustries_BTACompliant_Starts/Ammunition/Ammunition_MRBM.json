@@ -19,6 +19,9 @@
 	"AdditionalImpactVFX": "WFX_BESmaller",
 	"AdditionalImpactVFXScaleX": 8,
 	"AdditionalImpactVFXScaleY": 8,
-	"AdditionalImpactVFXScaleZ": 8
+	"AdditionalImpactVFXScaleZ": 8,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -15
+	}
 	
 } 

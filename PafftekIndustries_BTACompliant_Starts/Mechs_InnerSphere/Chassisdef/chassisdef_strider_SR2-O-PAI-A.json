@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Strider",
+			"PrefabID": "StriderSR2",
 			"Exclude": false,
 			"Include": true
 		}

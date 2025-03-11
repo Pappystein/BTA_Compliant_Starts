@@ -13,7 +13,9 @@
 		"BonusDescriptions": [
 			"WpnAccuracy: +2",
 			"WpnCrits: +25%",
-			"DistributedLaserArray"
+			"DistributedLaserArray",
+			"DA_SupportLaserON",
+			"DA_SupportLaserOFF"
 		]		
 	},
 	"weaponCategoryID": "Superweapon",

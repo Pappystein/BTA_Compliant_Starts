@@ -80,7 +80,7 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
-		},	
+		},
 		{
 			"MountedLocation": "Turret",
 			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
@@ -151,17 +151,17 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3",
+			"ComponentDefID": "Gear_Drone_Network_Patch",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-		  "MountedLocation": "Front",
-		  "ComponentDefID": "Gear_Boosted_BAP",
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "DamageLevel": "Functional"
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_Boosted_BAP",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Left",
@@ -242,6 +242,13 @@
 			"MountedLocation": "Rear",
 			"ComponentDefID": "Tank_Coolant_System",
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_C3",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		}

@@ -93,14 +93,14 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Copperhead_Longtom",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Copperhead_Longtom",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,

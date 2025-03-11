@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/a/o/mortar"
+				"CategoryID": "w/a/o/Hmortar"
 			},
 			{
 				"CategoryID": "NeverMelee"
@@ -14,7 +14,7 @@
 				"WpnRecoil: 2",
 				"ScatterRadius: 30, 90",
 				"AMSImmune",
-				"WeaponAttachmentCompatible: Artillery FCS"
+				"ArtyHardpoint"
 			]
 	},
 	"weaponCategoryID": "Artillery",

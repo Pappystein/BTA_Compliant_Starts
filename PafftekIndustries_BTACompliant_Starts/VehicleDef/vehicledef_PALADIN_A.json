@@ -122,14 +122,14 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Copperhead_Longtom",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Longtom",
+			"ComponentDefID": "Ammo_AmmunitionBox_Copperhead_Longtom",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -171,7 +171,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Longtom_SMOKE",
+			"ComponentDefID": "Ammo_AmmunitionBox_Longtom_SUPPRESSOR",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

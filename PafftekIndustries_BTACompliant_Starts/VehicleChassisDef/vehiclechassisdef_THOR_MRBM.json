@@ -1,0 +1,128 @@
+{
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Id": "vehiclechassisdef_THOR_MRBM",
+		"Name": "Thor MRBM Vehicle",
+		"Details": "The Thor Ballistic Missile launch vehicle is designed to carry a Median Ranged Ballistic missile, also called the \"Tsar Bomba\". Limited in Carry Capacity to 6 rounds of the missiles, the Thor MRMB almost always is accompanied by a resupply vehicle.  Secondary weapons on the Thor MRBM carrier include a single ER Small Laser with appropriate amplifier and cooling as well as a SRM-6 launcher with 1 ton of CASE protected ammunition.  A C3 Slave network enhancement and a Product Improved LASER AMS round out this vehicles equipment.",
+		"Icon": "Thor",
+		"Cost": 1530,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"MovementCapDefID": "movedef_5-8cv",
+	"PathingCapDefID": "pathingdef_medium_wheeled",
+	"HardpointDataDefID": "hardpointdatadef_marksman",
+	"PrefabIdentifier": "chrprfvhcl_marksmanbase",
+	"PrefabBase": "marksman",
+	"Tonnage": 55,
+	"weightClass": "MEDIUM",
+	"BattleValue": 1530,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Wheeled",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": 3
+		},
+		{
+			"x": -3,
+			"y": 1.5,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 1.5,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 3,
+			"z": -4
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 230,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 230,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 230,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 230,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 230,
+			"InternalStructure": 30
+		}
+	]
+}

@@ -16,35 +16,50 @@
 	"EvasivePipsIgnored": 1,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 0.5,
-	"ISDamageModifier": 1,
+	"ISDamageModifier": 0.75,
 	"CriticalDamageModifier": 1,
 	"StructureDamage": 2,
 	"AMSHitChance": 0.01,
 	"Streak": true,
 	"HitGenerator": "Streak",
 	"IndirectFireCapable": false,
-	"statusEffects": [ 	
-			{
+	"statusEffects": [
+		{
 			"durationData": {
-				"duration": -1
+				"duration": 5,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
 			},
 			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator"
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "TCCALLSHOT",
-				"Name": "Improved Called Shot",
-				"Details": "Called Shots twice as reliable",
-				"Icon": "uixSvgIcon_ability_mastertactician"
+				"Id": "AbilityDefPPC",
+				"Name": "SENSORS IMPAIRED",
+				"Details": "",
+				"Icon": "uixSvgIcon_status_sensorsImpaired"
 			},
+			"nature": "Debuff",
 			"statisticData": {
-				"statName": "CalledShotBonusMultiplier",
+				"statName": "PanicStatMultiplier",
 				"operation": "Float_Multiply",
-				"modValue": "10",
+				"modValue": "5.5",
 				"modType": "System.Single"
 			}
 		}
-	]	
+	]
 }
