@@ -5,7 +5,7 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_Noisiel",
-			"Name": "GW Noisiel",
+			"Name": "4.0 GW Noisiel",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 1.0,

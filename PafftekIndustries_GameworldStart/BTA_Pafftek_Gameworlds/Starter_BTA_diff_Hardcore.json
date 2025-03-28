@@ -5,7 +5,7 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_Hardcore",
-			"Name": "GW Hardcore",
+			"Name": "2.5 GW Hardcore",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 1.0,

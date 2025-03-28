@@ -1,0 +1,177 @@
+{
+    "Custom": {
+        "VAssemblyVariant": {
+            "PrefabID": "Airwolf",
+            "Exclude": false,
+            "Include": true
+        }
+    },
+    "CustomParts": {
+        "AOEHeight": 55,
+        "FiringArc": 50,
+        "Unaffected": {
+            "DesignMasks": "true",
+            "Pathing": "true",
+            "Fire": "true",
+            "Landmines": "true",
+            "MoveClamp": 0.5,
+            "AllowPartialMovement": false
+        },
+        "MoveCostModPerBiome": {
+            "DesignMaskBiomeMartianVacuum": 20,
+            "DesignMaskBiomeLunarVacuum": 20
+        },
+        "NullifyBodyMesh": true,
+        "TieToGroundOnDeath": "true",
+        "CrewLocation": "None"
+    },
+    "Description": {
+        "Cost": 2746550,
+        "Rarity": 0,
+        "Purchasable": false,
+        "UIName": "AIRWOLF",
+        "Id": "vehiclechassisdef_airwolf_vtol",
+        "Name": "AIRWOLF",
+        "Details": "The fabled Airwolf VTOL.   Airwolf, a higher performance VTOL is armed for attack and defense.  Combining high speed, Laser Machineguns, Light Machineguns and a Multi-Missile bay, Airwolf rules the airspace it covers.   Focusing more on anti VTOL and Hovercraft operations Airwolf is lightly armed for taking on full up tanks and battlemechs.  Lightly Armed for its size Airwolf survives by being extremely mobile not by hitting the hardest.",
+        "Icon": "AirWolf"
+    },
+    "ChassisTags": {
+        "items": [
+            "VTOL",
+            "mr-resize-1.2-1.2-1.2"
+        ]
+    },
+    "YangsThoughts": "It's a chopper, Boss. Whirly bit goes 'round.",
+    "MovementCapDefID": "movedef_12-18cv",
+    "movementType": "Wheeled",
+    "PathingCapDefID": "pathingdef_vtol",
+    "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",
+    "PrefabIdentifier": "chrprfmech_warrior_vtol",
+    "PrefabBase": "cuwarriorvtol",
+    "Tonnage": 40,
+    "weightClass": "LIGHT",
+    "BattleValue": 564,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 1,
+    "Radius": 3,
+    "Locations": [
+        {
+            "Location": "Front",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 120,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "Left",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 101,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "Right",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 101,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "Rear",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 60,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "Turret",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "BombBay",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 30,
+            "InternalStructure": 15
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 4,
+            "z": -0.5
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 4,
+            "z": -0.5
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3.5
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4.5
+        }
+    ]
+}

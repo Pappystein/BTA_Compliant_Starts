@@ -4,8 +4,8 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_SCHILTRON_B1",
-		"Name": "Schiltron",
-		"Details": "",
+		"Name": "Schiltron B`",
+		"Details": "A stand-off configuration, the B carries four LRM-15s that are each slaved to their own Artemis IV Fire Control System. Half of these are mounted in the turret, the other pair in the front. Eight tons of ammunition is sufficient for sustained firing, though the laser backup is reduced to one medium and two smalls.",
 		"Icon": "Schiltron",
 		"Cost": 1000000,
 		"Rarity": 0,

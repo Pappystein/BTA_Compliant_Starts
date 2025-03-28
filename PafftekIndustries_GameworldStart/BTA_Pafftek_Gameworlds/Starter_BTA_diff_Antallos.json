@@ -5,7 +5,7 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_Antallos",
-			"Name": "GW Antallos",
+			"Name": "2.5 GW Antallos",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 1.0,
@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": ",itemCollection_Mechs_Periphery_StrideritemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
+					"ConstantValue": "itemCollection_Mechs_Periphery_Strider,itemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
 				},
 				{
 					"ConstantType": "CareerMode",

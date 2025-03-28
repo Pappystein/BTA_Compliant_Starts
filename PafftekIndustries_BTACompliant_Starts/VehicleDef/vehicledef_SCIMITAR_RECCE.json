@@ -101,6 +101,13 @@
 			"DamageLevel": "Functional"
 		},
 		{
+			"ComponentDefID": "Weapon_Laser_TAG",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 4,
+			"DamageLevel": "Functional"
+		},
+		{
 			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM_H",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Rear",
@@ -188,13 +195,6 @@
 			"MountedLocation": "Front",
 			"ComponentDefID": "Gear_Drone_Network_Patch",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Left",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
-			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},

@@ -7,7 +7,7 @@
             "Value": 
 				{
 					"ID": "diff_FleaInfestation",
-					"Name": "Flea Infestation",
+					"Name": "1.5 Flea Infestation",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": 0,
 					"CareerScoreModifier": 0.65,
@@ -20,7 +20,7 @@
 						{
 							"ConstantType": "CareerMode",
 							"ConstantName": "StartingRandomMechLists",
-							"ConstantValue": "itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Vehicle_Support_PFT,itemCollection_Mechs_SanctTonks,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT"
+							"ConstantValue": "itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Mechs_infestation_of_Fleas,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT"
 
 						},
 						{

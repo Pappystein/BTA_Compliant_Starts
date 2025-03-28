@@ -5,10 +5,10 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_AntiSanct",
-			"Name": "Anti-Sanctuary",
+			"Name": "0.5 Anti-Sanctuary",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.6,
+			"CareerScoreModifier": 0.1,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",

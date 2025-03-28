@@ -5,10 +5,10 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_GhostStories",
-			"Name": "Spooky",
+			"Name": "1.0 Spooky",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.7,
+			"CareerScoreModifier": 0.4,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",

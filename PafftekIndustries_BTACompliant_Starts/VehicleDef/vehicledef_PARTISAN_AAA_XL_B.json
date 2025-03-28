@@ -2,7 +2,7 @@
 	"Version": 1,
 	"Description": {
 		"Id": "vehicledef_PARTISAN_AAA_XL_B",
-		"Name": "Partisan SB Gauss SPAA",
+		"Name": "Partisan SB Gauss SPAAG",
 		"Details": "Kallon Industries, famous for designing some of the most popular anti-aircraft\u00a0'Mechs\u00a0in the\u00a0Inner Sphere, designed the\u00a0Partisan\u00a0to bring those same capabilities onto a cheaper, more easily produced vehicle. Armed with Twin Ultra Class 2 Autocannons and four Class 2 Light Autocannons the Partisan Mk42 AAA brings plently of shellfire to enemy flying units.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       130     40\n<b>Left</b>          90     40\n<b>Right</b>        90     40\n<b>Rear</b>         80     40\n<b>Turret</b>      114     40\n\n<b>Total</b>      504    200\n",
 		"Icon": "Partisan",
 		"Cost": 993,
@@ -270,6 +270,13 @@
 			"MountedLocation": "Front",
 			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_Quirk_AntiAirTargeting_Airwolf",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		}

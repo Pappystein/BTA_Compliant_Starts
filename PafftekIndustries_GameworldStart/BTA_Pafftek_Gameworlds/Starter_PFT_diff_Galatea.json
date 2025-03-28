@@ -5,7 +5,7 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_Galatea",
-			"Name": "GW Galatea",
+			"Name": "1.0 GW Galatea",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 1.0,

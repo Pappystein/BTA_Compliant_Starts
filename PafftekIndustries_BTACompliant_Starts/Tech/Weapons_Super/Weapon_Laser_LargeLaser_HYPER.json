@@ -6,20 +6,18 @@
 			}
 		],
 		"ComponentExplosion": {
-            "ExplosionDamage": 100,
-            "HeatDamage": 50,
-            "StabilityDamage": 50
-        },
-		
+			"ExplosionDamage": 100,
+			"HeatDamage": 50,
+			"StabilityDamage": 50
+		},
 		"BonusDescriptions": [
-				"WpnAccuracy: +1",
-				"WpnCrits: +15%",
-				"WeaponBoom: 80",
-				"WeaponAttachmentCompatible: Laser Insulator",
-				"WeaponJAMFlat: 1.25",
-				"NoFireInMelee",
-				"WeaponAttachmentCompatible: Laser FCS"
-			]
+			"WpnAccuracy: +1",
+			"WpnCrits: +15%",
+			"WeaponBoom: 80",
+			"WeaponJAMFlat: 1.25",
+			"NoFireInMelee",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
 	},
 	"weaponCategoryID": "Superweapon",
 	"Type": "Laser",
@@ -50,7 +48,7 @@
 	"AttackRecoil": 0,
 	"Instability": 0,
 	"FlatJammingChance": 0.0125,
-	"DamageOnJamming": true,	
+	"DamageOnJamming": true,
 	"FireTerrainChance": 0,
 	"WeaponEffectID": "WeaponEffect-Weapon_COILS",
 	"Description": {
@@ -82,10 +80,8 @@
 			"component_type_variant",
 			"component_type_variant3",
 			"range_extreme",
-			"LaserInsulatorAttachable.{location}",
-			"LaserInsulatorSupported-SingleShot",
-			"LaserFCSSupported-SingleShot",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
 		],
 		"tagSetSourceFile": ""
 	}

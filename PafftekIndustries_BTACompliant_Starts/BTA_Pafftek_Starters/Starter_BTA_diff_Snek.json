@@ -6,10 +6,10 @@
 			"Action": "ArrayAdd",
 			"Value": {
 				"ID": "diff_Snek",
-				"Name": "Stealth+",
+				"Name": "1.0 Stealth+",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 0,
-				"CareerScoreModifier": 0.4,
+				"CareerScoreModifier": 0.3,
 				"DifficultyConstants": [
 					{
 						"ConstantType": "CareerMode",

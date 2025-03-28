@@ -6,8 +6,8 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_SALADIN_MK3x",
-		"Name": "Saladin",
-		"Details": "",
+		"Name": "Saladin Mk.3(II)",
+		"Details": "Developed by Pafftek Industries, the MK.3(II) variant of the Saladin is meant as a heavy hitter in medium massed Hovertank range (35 tons).  Armed with an LB 20-X autocannon and a Laser AMS system.",
 		"Icon": "Saladin",
 		"Cost": 250000,
 		"Rarity": 0,

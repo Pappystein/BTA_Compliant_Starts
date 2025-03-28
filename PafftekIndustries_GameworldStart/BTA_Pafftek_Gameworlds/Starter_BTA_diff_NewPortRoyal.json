@@ -5,7 +5,7 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_NewPortRoyal",
-			"Name": "GW NewPortRoyal",
+			"Name": "3.0 GW NewPortRoyal",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 1.0,

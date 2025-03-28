@@ -412,6 +412,18 @@
 					"Short": "Artilery Hardpoint Required",
 					"Long":  "Must be placed on an Artilery Hardpoint",
 					"Full": "Must be placed on an Artilery Hardpoint and can utilize the Artilery FCS attachment."
+				},
+				{
+					"Bonus": "CoolDownTimer",
+					"Short": "Cool Down Timer",
+					"Long":  "Has a {0} turn cool down period after use",
+					"Full": "This weapon has a {0} turn cool down period after use."
+				},
+				{
+					"Bonus": "StutterFlameHeatDebuff",
+					"Short": "Stutterflame Heat Thrower Debuff",
+					"Long":  "The Stutterflame Heat Thrower Debuff is 24 Heat",
+					"Full": "At the end of the Target's next turn, the Stutterflame Heat Thrower adds an additional 24 heat to the previously hit target."
 				}
 			]
 		}

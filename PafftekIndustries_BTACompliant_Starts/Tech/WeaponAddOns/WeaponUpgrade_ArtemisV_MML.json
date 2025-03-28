@@ -7,7 +7,7 @@
 	"modes": [
 		{
 			"Id": "ArtemisV-LRM",
-			"UIName": "ArtV",
+			"UIName": "LRM-V",
 			"Name": "ArtV",
 			"Description": "Weapon fires in ArtIV mode",
 			"isBaseMode": true,
@@ -15,11 +15,14 @@
 			"EvasivePipsIgnored": 2,
 			"AccuracyModifier": 0,
 			"ClusteringModifier": 2.0,
-			"AmmoCategory": "ARTEMISVLRM"
-		},	
+			"AmmoCategory": "ARTEMISVLRM",
+			"ChassisTagsAccuracyModifiers": {
+				"TargetAcquired": -1
+			}
+		},
 		{
 			"Id": "LRM",
-			"UIName": "LRM",
+			"UIName": "LRM-IV",
 			"Name": "ArtIV",
 			"Description": "Weapon fires in ArtIV mode",
 			"isBaseMode": false,
@@ -31,7 +34,7 @@
 		},
 		{
 			"Id": "SRM",
-			"UIName": "SRM",
+			"UIName": "SRM-IV",
 			"Name": "ArtIV",
 			"Description": "Weapon fires in ArtIV mode",
 			"isBaseMode": false,
@@ -42,14 +45,17 @@
 		},
 		{
 			"Id": "ArtemisV-SRM",
-			"UIName": "ArtV",
+			"UIName": "SRM-V",
 			"Name": "ArtV",
 			"Description": "Weapon fires in ArtV mode",
 			"isBaseMode": false,
 			"EvasivePipsIgnored": 3,
 			"AccuracyModifier": -1.0,
 			"ClusteringModifier": 2.25,
-			"AmmoCategory": "ARTEMISVSRM"
+			"AmmoCategory": "ARTEMISVSRM",
+			"ChassisTagsAccuracyModifiers": {
+				"TargetAcquired": -1
+			}
 		}
 	]
 }

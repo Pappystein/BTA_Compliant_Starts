@@ -1,0 +1,57 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/m/t/thunderbolt"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 75,
+			"StabilityDamagePerAmmo": 18
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 1800",
+				"TBOLT15Ammo: 5"
+			],
+		"AmmoCost" : {
+		  "PerUnitCost" : 4800
+		}
+	},
+	"AmmoID": "Ammunition_TBOLT15_AAA",
+	"Capacity": 5,
+	"Description": {
+		"Cost": 300000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Thunderbolt Anti VTOL Cluster",
+		"UIName": "Ammo T-Bolt15 Anti VTOL Cluster",
+		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB15_AAA",
+		"Name": "Thunderbolt 15 Anti VTOL Cluster",
+		"Details": "An improved variant of the fragmentation Thunderbolt rounds, the Anti VTOL round, utilizing basic improved controls and having TAG functionality built in, the Anti VTOL variant is packaged with the same warhead as the standard FRAG Thunderbolt Missile. Has 5 shots.",
+		"Icon": "missile-pod-ammo"
+	},
+	"BonusValueA": "Anti VTOL Functions",
+	"BonusValueB": "30 shards @2.6 damage each 125% Crit chance.",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

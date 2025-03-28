@@ -28,7 +28,7 @@
 	"PrefabIdentifier": "",
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "LeftTorso,RightTorso",
+	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

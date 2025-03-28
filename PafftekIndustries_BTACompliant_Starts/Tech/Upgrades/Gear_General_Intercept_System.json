@@ -6,8 +6,7 @@
 			}
 		],
 		"Flags": [
-			"not_broken",
-				"no_salvage"
+			"not_broken"
 		]
 	},
 	"Description": {
@@ -29,7 +28,7 @@
 	"PrefabIdentifier": "",
 	"InventorySize": 3,
 	"Tonnage": 0,
-	"AllowedLocations": "LeftTorso",
+	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

@@ -6,10 +6,10 @@
 			"Action": "ArrayAdd",
 			"Value": {
 				"ID": "diff_BTA_Fluffle",
-				"Name": "Fluffle",
+				"Name": "1.0 Fluffle",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 0,
-				"CareerScoreModifier": 0.7,
+				"CareerScoreModifier": 0.5,
 				"DifficultyConstants": [
 					{
 						"ConstantType": "CareerMode",

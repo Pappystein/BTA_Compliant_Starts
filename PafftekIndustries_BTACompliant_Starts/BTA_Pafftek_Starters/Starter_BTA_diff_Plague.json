@@ -6,10 +6,10 @@
 			"Action": "ArrayAdd",
 			"Value": {
 				"ID": "diff_Plague",
-				"Name": "Plague",
+				"Name": "1.5 Plague",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 0,
-				"CareerScoreModifier": 0.8,
+				"CareerScoreModifier": 0.6,
 				"DifficultyConstants": [
 					{
 						"ConstantType": "CareerMode",

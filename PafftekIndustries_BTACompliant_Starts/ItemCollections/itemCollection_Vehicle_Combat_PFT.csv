@@ -23,8 +23,10 @@ vehicledef_REDKITE_A,Mech,1,2
 vehicledef_MANTEUFFEL_CA,Mech,1,3
 vehicledef_Kiowa_IFV,Mech,1,2
 vehicledef_THOR_TBB,Mech,1,2
-vehicledef_PARTISAN_AAA_XL_A,Mech,1,3
-vehicledef_PARTISAN_AAA_XL_B,Mech,1,2
+vehicledef_PARTISAN_AAA_XL_A,Mech,1,4
+vehicledef_PARTISAN_AAA_XL_B,Mech,1,4
+vehicledef_PARTISAN_AAA_XL_B,Mech,1,4
+vehicledef_airwolf_vtol,Mech,1,4
 vehicledef_MANTEUFFEL_DA,Mech,1,1
 vehicledef_MOLTKE_M1A,Mech,1,3
 vehicledef_DEVASTATOR_DVE-6A,Mech,1,2

@@ -5,14 +5,14 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_BTA_Commando",
-			"Name": "Squad",
+			"Name": "1.0 Squad",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.7,
+			"CareerScoreModifier": 0.5,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "Tomans"
+					"ConstantValue": "Ballynure"
 				},
 				{
 					"ConstantType": "CareerMode",

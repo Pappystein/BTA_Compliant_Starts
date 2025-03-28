@@ -4,7 +4,7 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_SCHILTRON_F1",
-		"Name": "Schiltron",
+		"Name": "Schiltron F`",
 		"Details": "Designed for Rapid supressive fire at medium range the Schiltron F, carries two arrays of 4 improved MML3 launchers and 1 Thunderbolt 15 loncher on the forward hull and in the turret.   A combined C3 Master and Drone network patch exist in the turret.",
 		"Icon": "Schiltron",
 		"Cost": 1000000,

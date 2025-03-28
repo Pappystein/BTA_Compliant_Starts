@@ -4,8 +4,8 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_SCHILTRON_D1",
-		"Name": "Schiltron",
-		"Details": "",
+		"Name": "Schiltron D`",
+		"Details": "This upgrade uses Federated Suns technology prominently. The turret carries two rotary autocannon/5s, which are slaved to a Targeting Computer. Six tons of ammunition ensures a steady supply. This is supplemented by an LRM-15 mated to an Artemis IV FCS. Though it has no energy weapon backup, the Schiltron D carries ample ammunition.",
 		"Icon": "Schiltron",
 		"Cost": 1000000,
 		"Rarity": 0,

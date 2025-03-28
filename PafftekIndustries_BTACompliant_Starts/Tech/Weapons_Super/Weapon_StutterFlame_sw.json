@@ -1,0 +1,169 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"BonusDescriptions": [
+			"StutterFlameHeatDebuff",
+			"WpnCrits: +25%",
+			"AntiBA: 125%",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+			"CoolDownTimer: 1"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "PPC",
+	"WeaponSubType": "PPC",
+	"MinRange": 0,
+	"MaxRange": 640,
+	"RangeSplit": [
+		100,
+		280,
+		460
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 30,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 50,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.25,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"Cooldown": 1,
+	"ColorsTable": [
+		{
+			"C": "#010eb9",
+			"I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+	"TrooperSquadDamageModifier": 2.25,
+	"WeaponEffectID": "WeaponEffect-Weapon_PPC",
+	"Description": {
+		"Cost": 2300000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Hapag Lloyd Industrial Waste",
+		"Model": "9QD740 Stutterflame Heatthrower",
+		"UIName": "Stutterflame Heatthrower",
+		"Id": "Weapon_StutterFlame_sw",
+		"Name": "Flamer (SF)",
+		"Details": "Hapag Lloyd Industrial Waste, seeing the new technology flowing in from the invasion of the Taurian Concordat by this new group calling themselves the Sanctuary Alliance realized that the DXR Directed X-Ray system could be the anwswer to their waste disposal needs.   Of course quickly it was also apparent that their changes could make for a superior heat weapon for battlemechs.  This weapon system take a long time to cycle between shots so units with multiple ",
+		"Icon": "particle"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "PPC",
+	"BattleValue": 0,
+	"InventorySize": 6,
+	"Tonnage": 12,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Heat-Burn5",
+				"Name": "LINGERING X-RAYS",
+				"Details": "This unit gains [AMT] Heat on its next activation (this effect stacks with itself).",
+				"Icon": "uixSvgIcon_statusOnFire"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"statName": "EndMoveHeat",
+				"operation": "Int_Add",
+				"modValue": "45",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false,
+				"hideApplicationFloatie": true
+			},
+			"effectType": "VFXEffect",
+			"Description": {
+				"Id": "StatusEffect-Inferno-VFX",
+				"Name": "Inferno VFX",
+				"Details": "Visual indicator of the Inferno effect",
+				"Icon": "uixSvgIcon_status_sensorsImpaired"
+			},
+			"nature": "Debuff",
+			"vfxData": {
+				"vfxName": "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+				"attachToImpactPoint": true,
+				"location": -1,
+				"isAttached": true,
+				"facesAttacker": false,
+				"isOneShot": false,
+				"duration": -1.0
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_very-long",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

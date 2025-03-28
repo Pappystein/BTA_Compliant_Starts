@@ -6,10 +6,10 @@
             "Action": "ArrayAdd",
             "Value": {
                 "ID": "diff_PFT_TH",
-                "Name": "Shinny",
+                "Name": "1.5 Shinny",
                 "TelemetryEventDesc": "",
                 "DifficultyValue": 0,
-                "CareerScoreModifier": 0.5,
+                "CareerScoreModifier": 0.6,
                 "DifficultyConstants": [
                     {
                         "ConstantType": "CareerMode",

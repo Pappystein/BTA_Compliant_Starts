@@ -124,12 +124,6 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_B_Pod",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
-		},
-		{
-			"MountedLocation": "Front",
 			"ComponentDefID": "Gear_C3",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -219,7 +213,7 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_engineslots_ICE_center",
+			"ComponentDefID": "emod_engineslots_std_center",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

@@ -6,10 +6,10 @@
 			"Action": "ArrayAdd",
 			"Value": {
 				"ID": "diff_BOP",
-				"Name": "Bird of Prey",
+				"Name": "1.5 Bird of Prey",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 0,
-				"CareerScoreModifier": 0.5,
+				"CareerScoreModifier": 0.6,
 				"DifficultyConstants": [
 					{
 						"ConstantType": "CareerMode",
@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Arty_PFT,itemCollection_Vehicle_Support_PFT"
+						"ConstantValue": "itemCollection_Pafftek_BirdsOfPrey,itemCollection_Pafftek_BirdsOfPrey,itemCollection_Pafftek_Raptor,itemCollection_Pafftek_Raptor,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
 					},
 					{
 						"ConstantType": "CareerMode",

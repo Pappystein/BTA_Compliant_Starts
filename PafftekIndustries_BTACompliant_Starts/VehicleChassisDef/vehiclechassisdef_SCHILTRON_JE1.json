@@ -4,7 +4,7 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_SCHILTRON_JE1",
-		"Name": "Schiltron",
+		"Name": "Schiltron JE1",
 		"Details": "A NLRM equipped Schiltron B.  The JE changes from an ArtemisIV equiped mech to a LRM FCS equipped system utilizing Hydra and Listen Kill Munitions.",
 		"Icon": "Schiltron",
 		"Cost": 1000000,
