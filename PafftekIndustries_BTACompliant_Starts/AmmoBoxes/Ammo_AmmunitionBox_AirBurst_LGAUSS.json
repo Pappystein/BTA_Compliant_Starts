@@ -15,11 +15,11 @@
 			"StabilityDamagePerAmmo": 1
 		},		
         "BonusDescriptions": [
-				"CostPerShot: 150",
+				"CostPerShot: 950",
 				"AmmoCount: 6"
             ],
 		"AmmoCost" : {
-		  "PerUnitCost" : 150
+		  "PerUnitCost" : 950
 		}
     },
     "AmmoID": "Ammunition_LGAUSS_AB",

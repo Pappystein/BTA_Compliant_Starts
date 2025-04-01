@@ -145,12 +145,6 @@
 			"HardpointSlot": -1
 		},
 		{
-			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_armorslots_ferrosfibrous",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
-		},
-		{
 			"MountedLocation": "Left",
 			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
 			"ComponentDefType": "HeatSink",
@@ -247,6 +241,24 @@
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_VTOL_Armor_Plating",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_VTOL_Reinforced",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Gear_VTOL_Chin_Turret",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1
 		}
 	]
 }

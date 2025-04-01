@@ -33,8 +33,8 @@
 		"items": [
 			"pilot_command",
 			"pilot_vehicle_crew",
-			"pilot_nomech_crew",
-			"name_starbuck_Benedict",
+			"pilot_mechwarrior",
+			"name_starbuck_thrace",
 			"pilot_lostech",
 			"pilot_dependable",
 			"pilot_tech",

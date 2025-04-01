@@ -68,7 +68,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_Laser_LargeLaserPulse_3-Exostar",
+			"ComponentDefID": "Weapon_Laser_LargeLaser_1-Pafftek",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"

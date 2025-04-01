@@ -9,7 +9,7 @@
 		"Id": "chassisdef_catapult_CPLT-K3H",
 		"Name": "Catapult",
 		"Details": "A new production update of the limited run Catapult K3, the K3H is a twin Shotgun ER PPC armed Catapult variant made with modern technology.",
-		"Icon": "uixTxrIcon_catapult"
+		"Icon": "uixTxrIcon_catapultk2"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",
 	"PathingCapDefID": "pathingdef_heavy",

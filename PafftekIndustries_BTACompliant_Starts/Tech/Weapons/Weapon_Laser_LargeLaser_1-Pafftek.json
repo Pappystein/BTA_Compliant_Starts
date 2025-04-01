@@ -6,11 +6,10 @@
 			}
 		],
 		"BonusDescriptions": [
-				"WpnAccuracy: +1",
-				"WeaponAttachmentCompatible: Laser Insulator",
-				"WeaponAttachmentCompatible: Laser FCS",
-				"WeaponAttachmentCompatible: Laser Pulse Module"
-			]
+			"PipsIgnored: 1",
+			"WeaponAttachmentCompatible: Laser Insulator",
+			"WeaponAttachmentCompatible: Laser FCS"
+		]
 	},
 	"Category": "Energy",
 	"Type": "Laser",
@@ -28,7 +27,7 @@
 	"Damage": 26,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 0,
+	"EvasivePipsIgnored": 1,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
 	"AccuracyModifier": 0,
@@ -41,7 +40,7 @@
 	"AttackRecoil": 1,
 	"Instability": 0,
 	"APDamage": 14,
-	"APCriticalChanceMultiplier": 0.15
+	"APCriticalChanceMultiplier": 0.15,
 	"WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
 	"Description": {
 		"Cost": 140000,
@@ -49,7 +48,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Pafftek Industries",
 		"Model": "Large Laser",
-		"UIName": "L Laser Pafftek",
+		"UIName": "L Laser ALTERED",
 		"Id": "Weapon_Laser_LargeLaser_1-Pafftek",
 		"Name": "L Laser",
 		"Details": "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Unlike most Large Lasers, the Pafftek Produced Large Laser runs hot, is not as accurate but has significant armor penetrating power..",
@@ -75,7 +74,6 @@
 			"LaserInsulatorSupported-SingleShot",
 			"LaserFCSSupported-SingleShot",
 			"WebbTCSupported-SingleShot",
-			"LaserPulseSupported-SingleShot",
 			"QuirkEmperorSupported-LargeLaser"
 		],
 		"tagSetSourceFile": ""

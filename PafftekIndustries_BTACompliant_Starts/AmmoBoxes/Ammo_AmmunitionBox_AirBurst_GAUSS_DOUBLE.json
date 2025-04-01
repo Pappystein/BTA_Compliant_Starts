@@ -15,11 +15,11 @@
 			"StabilityDamagePerAmmo": 1
 		},		
         "BonusDescriptions": [
-				"CostPerShot: 175",
+				"CostPerShot: 950",
 				"AmmoCount: 14"
             ],
 		"AmmoCost" : {
-		  "PerUnitCost" : 175
+		  "PerUnitCost" : 950
 		}
     },
     "AmmoID": "Ammunition_GAUSS_AB",
