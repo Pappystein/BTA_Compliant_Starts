@@ -53,10 +53,14 @@
 			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" },
 			{ "Type": "AffinitiesDef", "Path": "AffinityDefs/" },
 			{ "Type": "ContractOverride", "Path": "Wartech_IIC_ExtendedContracts/Contracts" },
-			{ "Type": "ExtendedContractType", "Path": "Wartech_IIC_ExtendedContracts/ECs" }
-  ],
+			{ "Type": "ExtendedContractType", "Path": "Wartech_IIC_ExtendedContracts/ECs" },
+			{ "Type": "CustomTag", "Path": "CustomTags" }
+		
+	],
     "OptionallyDependsOn": [],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity" ],
+	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", 
+		"Custom Ammo Categories", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity", "Community Content", "BT Advanced FP Module",
+			"BT Advanced HM Unit Module", "BT Advanced UW Unit Module"],
 	"ConflictsWith": [				
 	],
 	"LoadImplicitManifest": true

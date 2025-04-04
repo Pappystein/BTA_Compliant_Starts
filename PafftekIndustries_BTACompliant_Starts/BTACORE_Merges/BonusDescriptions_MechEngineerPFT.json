@@ -153,7 +153,13 @@
 					"Bonus": "Carapace",
 					"Short": "Black Carapace Armor",
 					"Long": "\"Living\" Black Carapace Armor",
-					"Full": "\"Living\" Black Carapace Armor, self healing, enhanced stealth features, can explode on critical damage."
+					"Full": "\"Living\" Black Carapace Armor, self healing, animalistic features, can explode on critical damage."
+				},
+				{
+					"Bonus": "CarapaceBoom",
+					"Short": "Carapace Crit Explosion",
+					"Long": "Carapace Armor Crit Explosion {0}",
+					"Full": "\"Living\" Black Carapace Armor, causes a {0} point explosion in each location it sufferes a critical hit on"
 				},
 				{
 					"Bonus": "Mimetic",

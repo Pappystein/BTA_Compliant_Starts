@@ -35,6 +35,15 @@
 					"w/s/su/superweapon",
 					"DHSKit"
 				]
+			},
+			{
+				"Tag": "BlackCarapace",
+				"IncompatibleTags": [
+					"CASE",
+					"CASE2",
+					"ClanCASE2"
+					
+				]
 			}
 		
 		
