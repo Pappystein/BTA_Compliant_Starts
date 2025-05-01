@@ -116,7 +116,7 @@
 		"UIName": "Victor VTR-12Qi",
 		"Id": "mechdef_victor_VTR-12Qi",
 		"Name": "Victor",
-		"Details": "The freelance developed GRF-6Qi has seen production by Pafftek Industries as well as the RAD group utilizing their new joint production Endo-Carbide structural system.  This new structure type is heavier but much more resilient than normal \"Standard\" and Endo-steel structures.  Equipped with a Snub-Nose PPC, A Streak SRM6 and two Medium lasers, the GRF-6Qi is a strong mid to close range fighting mech of the \"Tank\" Role.",
+		"Details": "Conceived initially to utilize the new Re-engineered Giant Laser, the Victor 12Qi ran into some early problems.  As the Design evolved, more and more weapons were removed in the interest of pilot and force structure safety.   The final result is a very lightly armed Victor.  The 12Qi only carries a medium laser, a Thunderbolt 5 Missile rack and a COIL.  The COIL is where the damage dealing potential comes from  in this variant.   To take advantage of the COIL's attributes, both a Superweapon FCS and a Targeting Computer are installed.  Armor protection is provided by the both heavy and bulky Ferro Fibrous Reinforced Heavy Plating. All in all the VTR-12Qi is a strong mid to close range fighting mech of the \"Cavalry Tank\" Role.",
 		"Icon": "uixTxrIcon_victor"
 	},
 	"simGameMechPartCost": 960000,
@@ -152,10 +152,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 175,
+			"CurrentArmor": 170,
 			"CurrentRearArmor": 75,
 			"CurrentInternalStructure": 125,
-			"AssignedArmor": 175,
+			"AssignedArmor": 170,
 			"AssignedRearArmor": 75
 		},
 		{
@@ -179,19 +179,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 115,
+			"CurrentArmor": 121,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 85,
-			"AssignedArmor": 115,
+			"AssignedArmor": 121,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 115,
+			"CurrentArmor": 121,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 85,
-			"AssignedArmor": 115,
+			"AssignedArmor": 121,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -229,7 +229,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_cooling_1",
+			"ComponentDefID": "emod_engine_cooling_2",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -240,7 +240,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_ixl_center",
+			"ComponentDefID": "emod_engineslots_xl_center",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -251,7 +251,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_engineslots_size2",
+			"ComponentDefID": "emod_engineslots_size3",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -262,7 +262,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_engineslots_size2",
+			"ComponentDefID": "emod_engineslots_size3",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -273,7 +273,18 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
+			"ComponentDefID": "Gear_Cockpit_Ceres_Metals_Reinforced",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_TargetingComputer_Assault",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -438,21 +449,10 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Laser_MediumLaser_1-Intek",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
+			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -460,7 +460,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_MML_9",
+			"ComponentDefID": "Weapon_LRM_Thunderbolt5",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -471,10 +471,43 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_MML_3",
+			"ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB5_AB_H",
 			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB5_HEI_H",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-SuperWeapon",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -504,20 +537,9 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Gear_HeatSink_Generic_Bulk-Bank",
 			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Swarm_LRM_IFF_H",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -526,42 +548,9 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-VI",
 			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_HVAC_AC5",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_SRM_LK_H",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -570,7 +559,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Autocannon_HVAC5_0-STOCK",
+			"ComponentDefID": "Weapon_COIL_COIL_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -578,11 +567,11 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_HVAC_1"
+			"LocalGUID": "target_COIL_1"
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Attachment_AutocannonFCS",
+			"ComponentDefID": "Gear_Attachment_SuperweaponFCS",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -590,7 +579,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_HVAC_1"
+			"TargetComponentGUID": "target_COIL_1"
 		},
 		{
 			"MountedLocation": "LeftLeg",

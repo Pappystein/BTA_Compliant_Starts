@@ -8,7 +8,7 @@
 		"UIName": "Victor",
 		"Id": "chassisdef_victor_VTR-12Qi",
 		"Name": "Victor",
-		"Details": "The Victor is as iconic a Federated Suns BattleMech as ever existed and so when the Suns needed a test chassis for their new Skyshell Cannon superweapon they turned to the reliable Victor. The VTR-12D is built around the Skyshell Cannon in the right arm, with only a pair of Medium Lasers and a MML-5 backing the main gun up. However, thanks to three tons of Skyshell ammo it is unlikely to run dry in most combat encounters. The 320-rated standard fusion engine and plentiful Light Ferro-Fibrous armor plus CASE ensure the -12D is durable enough to endure any battle while four jump jets keep it mobile in any circumstance.",
+		"Details": "Conceived initially to utilize the new Re-engineered Giant Laser, the Victor 12Qi ran into some early problems.  As the Design evolved, more and more weapons were removed in the interest of pilot and force structure safety.   The final result is a very lightly armed Victor.  The 12Qi only carries a medium laser, a Thunderbolt 5 Missile rack and a COIL.  The COIL is where the damage dealing potential comes from  in this variant.   To take advantage of the COIL's attributes, both a Superweapon FCS and a Targeting Computer are installed.  Armor protection is provided by the both heavy and bulky Ferro Fibrous Reinforced Heavy Plating. All in all the VTR-12Qi is a strong mid to close range fighting mech of the \"Cavalry Tank\" Role.",
 		"Icon": "uixTxrIcon_victor"
 	},
 	"MovementCapDefID": "movedef_victor_VTR-9B",
