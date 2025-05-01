@@ -3,8 +3,8 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "StriderSR2",
-	  "Sapfir"
+      "StriderSR2_40",
+	  "Sapfir_50"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

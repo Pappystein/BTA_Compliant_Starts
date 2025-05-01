@@ -9,6 +9,7 @@
 			"unit_lance_assassin",
 			"unit_role_scout",
 			"unit_role_sniper",
+			"Wolfs_Dragoons",
 			"ClanFireMandrill",
 			"KindraaSainze",
 			"KindraaFaradayTanaga",
@@ -203,6 +204,15 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_XL",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "LeftLeg",
 			"ComponentDefID": "emod_leg_hip",
 			"SimGameUID": "",
@@ -368,7 +378,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Lefttorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -380,7 +390,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_AirBurst_GAUSS",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_H",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": 1,

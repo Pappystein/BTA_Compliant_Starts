@@ -3,7 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-		"Woodsman2"
+		"Woodsman2_75"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

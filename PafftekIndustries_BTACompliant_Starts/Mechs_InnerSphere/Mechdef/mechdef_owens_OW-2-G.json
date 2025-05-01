@@ -66,7 +66,7 @@
 		"UIName": "Owens II",
 		"Id": "mechdef_owens_OW-2-G",
 		"Name": "Owens II",
-		"Details": "Relitively new on the scene, the Owens II OW-2, is a new take on the \"Omni-Jenner\" concept.  Updated to the latest technological standards freeing mass, combined with eschewing the fixed TAG and C3 of its progener, leaves the OW-2 ready to carry more equipment for a more varied existance.  Closely following the formula for most Scout Raven loadouts, the Owens II sub-variant G, is armed with twin ER medium lasers, a static ER Small laser, NARC, and an SRM-4 launcher.  Two tons of ammunition are provided for the NARC while 1 ton is provided for the SRM-4. A Guardian ECM set rounds out this sub-variant.    While still \"Raven at home\" the Ownes 2 is better in almost every way.",
+		"Details": "Relitively new on the scene, the Owens II OW-2, is a new take on the \"Omni-Jenner\" concept.  Updated to the latest technological standards freeing mass, combined with eschewing the fixed TAG and C3 of its progener, leaves the OW-2 ready to carry more equipment for a more varied existance.  Closely following the formula for most Scout Raven loadouts, the Owens II sub-variant G, is armed with twin ER medium lasers, a light TAG, NARC, and an SRM-4 launcher.  Two tons of ammunition are provided for the NARC while 1 ton is provided for the SRM-4. A Guardian ECM set rounds out this sub-variant.    While still \"Raven at home\" the Ownes 2 is better in almost every way.",
 		"Icon": "uixTxrIcon_owens"
 	},
 	"simGameMechPartCost": 400000,
@@ -313,7 +313,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+			"ComponentDefID": "Weapon_Laser_TAGLight",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

@@ -48,7 +48,7 @@
 	"APMaxArmorThickness": 18,
 	"APCriticalChanceMultiplier": 0.03,
 	"AOECapable": false,
-	"APDamage": 1,
+	"APDamage": 3,
 	"APCriticalChanceMultiplier": 0.25,
 	"ShotsWhenFired": 2,
 	"ProjectilesPerShot": 1,

@@ -3,7 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-		"OwensII"
+		"OwensII_35"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

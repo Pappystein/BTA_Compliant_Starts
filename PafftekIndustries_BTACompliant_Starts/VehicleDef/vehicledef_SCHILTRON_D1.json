@@ -211,7 +211,7 @@
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional",
-			"LocalGUID":"target_LRM_1"
+			"LocalGUID": "target_LRM_1"
 		},
 		{
 			"ComponentDefID": "Weapon_Autocannon_RAC5_0-Mydron",
@@ -247,7 +247,7 @@
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_1"
+			"TargetComponentGUID": "target_LRM_1"
 		},
 		{
 			"ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",

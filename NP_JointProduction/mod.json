@@ -26,6 +26,14 @@
 			"Path": "RiverHawk/Chassisdef/"
 		},
 		{
+			"Type": "MechDef",
+			"Path": "Corsair/Mechdef/"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "Corsair/Chassisdef/"
+		},
+		{
 			"Type": "UpgradeDef",
 			"Path": "Tech/Upgrades"
 		},

@@ -1,0 +1,15 @@
+
+emod_engine_300,HeatSink,0,10
+emod_engine_350,HeatSink,0,10
+emod_engine_375,HeatSink,0,10
+mechdef_marauder_MAD-2T,Mech,1,10
+Weapon_PPC_PPCER_0-STOCK,Weapon,4,10
+Weapon_Autocannon_LB5XAC,Weapon,2,10
+Ammo_AmmunitionBox_LBX_CLUSTER_AC5,AmmunitionBox,0,10
+Ammo_AmmunitionBox_LBX_CLUSTER_AC5_DOUBLE,AmmunitionBox,2,10
+Ammo_AmmunitionBox_LBX_SABOT_AC5,AmmunitionBox,3,10
+Ammo_AmmunitionBox_LBX_SABOT_AC5_DOUBLE,AmmunitionBox,2,10
+Ammo_AmmunitionBox_LBX_SLUG_AC5,AmmunitionBox,0,10
+Ammo_AmmunitionBox_LBX_SLUG_AC5_DOUBLE,AmmunitionBox,2,10
+emod_case,Upgrade,0,10
+emod_armorslots_ferrosfibrous,Upgrade,2,10

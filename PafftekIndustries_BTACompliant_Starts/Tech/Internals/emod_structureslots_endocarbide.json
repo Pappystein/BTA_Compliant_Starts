@@ -1,0 +1,103 @@
+{
+	"Custom": {
+		"BonusDescriptions": [
+				"StructureProtection: +66%",
+				"ReservedSlots: 3",
+				"CritRes: 25%"
+			],
+		"Color": "OrangeHalf",
+		"Category" : { 
+			"CategoryID" : "Structure" 
+		},
+		"ArmorStructureChanges": {
+			"StructureFactor": 1.66
+		},
+		"Flags": [
+			"ignore_damage",
+				"autorepair",
+				"not_broken",
+				"no_salvage"
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 3",
+				"CBillCost": "1100 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 20"
+			}
+		},
+		"Weights": {
+			"StructureFactor": 1.25
+		},		
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "emod_endocarbide_linked",
+					"Location": "LeftTorso"
+				},				
+				{
+					"ComponentDefId": "emod_endocarbide_linked",
+					"Location": "RightTorso"
+				},
+				{
+					"ComponentDefId": "emod_endocarbide_linked",
+					"Location": "CenterTorso"
+				}
+			]
+		}
+	},
+    "Description" : {
+        "Cost" : 150000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Pafftek Industries",
+        "Model" : "Structure",
+        "UIName" : "Endo-Carbide",
+        "Id" : "emod_structureslots_endocarbide",
+        "Name" : "Endo-Carbide Structure",
+        "Details" : "A new Innovation sweeping the advanced production halls of Pafftek Industries, RAD Group and several other high tech manufactures of mechs and mech components.  Endo Carbide structure has arrived in the Inner Sphere.   This new technology structure is 110% the mass of a standard Mech structure, but almost exactly 1.66x the strength of the same structure. Endo Carbide has really only three downsides; \n1) It is slightly bulkier than standard structure taking 4 critical slots. \n2) Endo Carbide masses 110% of a similar standard structure. \n3) Endo Carbide is more complicated to repair and thus cost both more money and time to repair.",
+        "Icon" : "uixSvgIcon_quantity"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ReinforcedCritImmune",
+				"Name": "Reinforced Structure",
+				"Details": "Reinforced Structure provides crit reduction.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.75",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,16 @@
+
+Weapon_Laser_SmallLaserPulse_X,Weapon,0,10
+Weapon_Laser_MediumLaserPulse_X,Weapon,0,10
+Weapon_COIL_COIL_0-STOCK,Weapon,2,10
+Ammo_AmmunitionBox_Streak_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Narc_Beacon,AmmunitionBox,0,10
+mechdef_hatchetman_HCT-5XS,Mech,1,10
+mechdef_hatchetman_HCT-3XJS,Mech,1,10
+Gear_Gyro_XL,Upgrade,0,10
+Gear_TSM,Upgrade,6,10
+Gear_Supercharger,Upgrade,6,10
+emod_armorslots_heavyplating,Upgrade,2,10
+emod_armorslots_ferroantipierce,Upgrade,2,10
+Gear_Cockpit_800_Berserker,Upgrade,0,10
+emod_engine_315,HeatSink,0,10
+Gear_HeatSink_Generic_Thermal-Exchanger-SuperWeapon,HeatSink,4,10

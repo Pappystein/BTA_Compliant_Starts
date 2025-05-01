@@ -3,8 +3,8 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-		"Avatar2",
-		"RSN2"
+		"Avatar2_70",
+		"RSN2_45"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

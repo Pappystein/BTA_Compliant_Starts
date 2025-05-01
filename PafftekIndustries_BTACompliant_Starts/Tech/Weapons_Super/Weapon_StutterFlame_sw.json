@@ -17,11 +17,11 @@
 	"Type": "PPC",
 	"WeaponSubType": "PPC",
 	"MinRange": 0,
-	"MaxRange": 640,
+	"MaxRange": 720,
 	"RangeSplit": [
-		100,
-		280,
-		460
+		180,
+		360,
+		540
 	],
 	"AmmoCategory": "NotSet",
 	"StartingAmmoCapacity": 0,
@@ -62,7 +62,7 @@
 		"UIName": "Stutterflame Heatthrower",
 		"Id": "Weapon_StutterFlame_sw",
 		"Name": "Flamer (SF)",
-		"Details": "Hapag Lloyd Industrial Waste, seeing the new technology flowing in from the invasion of the Taurian Concordat by this new group calling themselves the Sanctuary Alliance realized that the DXR Directed X-Ray system could be the anwswer to their waste disposal needs.   Of course quickly it was also apparent that their changes could make for a superior heat weapon for battlemechs.  This weapon system take a long time to cycle between shots so units with multiple ",
+		"Details": "Hapag Lloyd Industrial Waste, seeing the new technology flowing in from the invasion of the Taurian Concordat by this new group calling themselves the Sanctuary Alliance realized that the DXR Directed X-Ray system could be the anwswer to their waste disposal needs.   Of course quickly it was also apparent that their changes could make for a superior heat weapon for battlemechs.  This weapon system take a long time to cycle between shots so units with multiple StutterFlame systems should alternate fire them.",
 		"Icon": "particle"
 	},
 	"BonusValueA": "",

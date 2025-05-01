@@ -15,7 +15,7 @@
 		"UIName": "Gauntlet",
 		"Id": "chassisdef_gauntlet_GTL-1O",
 		"Name": "Gauntlet",
-		"Details": "Some generals in the Lyrian Commonwealth were pushing for a new second generation medium sized Omni-mech.  The Gauntlet is basically an Omni Bushwacker with a MASC system, and Endosteel.",
+		"Details": "After the initial crush of orders for the Bushwacker had been gotten under control, Coventry Metal Works sought about a way to incorporate the new Omni-Mech Technology into the Bushwacker chassis.   The results are the Gauntlet.  Lyran senior command was not amused at this 'waste' of engineering and production capacity, favoring the standard Bushwacker design.   Made on the same production line as the Bushwacker, due to its high percentage of common parts, the Gauntlet is inexpensive for an omni-mech.  However, the disdain from LCAF senior command has resulted in this mech being issued to lower quality LCAF units and a wide band of mercenaries.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_bushwacker"
 	},
 	"MovementCapDefID": "movedef_jayhawker",
@@ -234,7 +234,8 @@
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"MediumMech",
-			"OmniMech"
+			"OmniMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -255,6 +256,15 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_quirk_gauntlet_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_standard",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

@@ -1,31 +1,33 @@
 {
 	"TargetID": "CareerDifficultySettings",
-	"Instructions": [{
-		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
-		"Action": "ArrayAdd",
-		"Value": {
-			"ID": "diff_BTA_Commando",
-			"Name": "1.0 Squad",
-			"TelemetryEventDesc": "",
-			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.5,
-			"DifficultyConstants": [{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingSystems",
-					"ConstantValue": "Ballynure"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Clan_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Primitive_Commando,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
-					
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "Steiner:30,Davion:30,Rasalhague:30"
-				}
-			]
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_BTA_Commando",
+				"Name": "1.0 Steiner Scout",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.5,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Ballynure"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Clan_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_SteinerLightFiresupport,itemCollection_Vehicle_Scout_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Steiner:30,Davion:30,Rasalhague:30"
+					}
+				]
+			}
 		}
-	}]
+	]
 }

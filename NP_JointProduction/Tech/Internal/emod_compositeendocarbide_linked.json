@@ -1,0 +1,45 @@
+{
+	"Custom": {
+		"Flags": [
+			"ignore_damage",
+			"autorepair",
+			"not_broken",
+			"no_salvage",
+			"default"
+		],
+		"Color": "Orange"
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 1,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "RAD Group",
+		"Model": "Reserved Slots",
+		"UIName": "Carbide-Composite Components",
+		"Id": "emod_compositeendocarbide_linked",
+		"Name": "Carbide-Composite Components",
+		"Details": "This is a piece of Endo-Carbide alloy in a composite matrix structure.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

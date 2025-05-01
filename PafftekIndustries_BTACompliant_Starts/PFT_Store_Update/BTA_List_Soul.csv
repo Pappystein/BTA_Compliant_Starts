@@ -1,0 +1,14 @@
+
+emod_engine_275,HeatSink,0,10
+emod_engineslots_ixl_center,HeatSink,0,10
+Weapon_HVM_Twin,Weapon,0,10
+Weapon_HVM_Single,Weapon,0,10
+Weapon_MRBM,Weapon,0,10
+Ammo_AmmunitionBox_HVM_D,AmmunitionBox,0,10
+Ammo_AmmunitionBox_HVM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_MRBM,AmmunitionBox,0,10
+mechdef_katana_CRK-5004-M,Mech,1,10
+mechdef_kintaro_KTO-19K,Mech,1,10
+mechdef_rakshasa_MDG-2Qi,Mech,1,10
+vehicledef_THOR_MRBM,Mech,1,10
+

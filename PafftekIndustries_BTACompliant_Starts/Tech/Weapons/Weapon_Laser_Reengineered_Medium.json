@@ -41,7 +41,7 @@
 	"CriticalChanceMultiplier": 1,
 	"ArmorDamageModifier": 1.4,
 	"ISDamageModifier": 0.8,
-	"APDamage": 1,
+	"APDamage": 3,
 	"APCriticalChanceMultiplier": 0.25,
 	"AOECapable": false,
 	"ShotsWhenFired": 2,

@@ -66,7 +66,7 @@
 		"UIName": "Owens II",
 		"Id": "mechdef_owens_OW-2-D",
 		"Name": "Owens II",
-		"Details": "Relitively new on the scene, the Owens II OW-2, is a new take on the \"Omni-Jenner\" concept.  Updated to the latest technological standards freeing mass, combined with eschewing the fixed TAG and C3 of its progener, leaves the OW-2 ready to carry more equipment for a more varied existance.  The Delta variant, is a more mobile variant of the C variant which in itself is a copy of the \"Trap Door\" Jenner JR7-31 Rattlesnake.  The Delta variant removes 1 medium laser and the extra heat dispersion devices.  While still \"Raven at home\" the Ownes 2 is better in almost every way.",
+		"Details": "Relitively new on the scene, the Owens II OW-2, is a new take on the \"Omni-Jenner\" concept.  Updated to the latest technological standards freeing mass, combined with eschewing the fixed TAG and C3 of its progener, leaves the OW-2 ready to carry more equipment for a more varied existance.  The Delta variant, is a more mobile variant of the C variant which in itself is a copy of the \"Trap Door\" Jenner JR7-31 Rattlesnake.  The Delta variant removes 2 medium lasers and the extra heat dispersion devices.  While still \"Raven at home\" the Ownes 2 is better in almost every way.",
 		"Icon": "uixTxrIcon_owens"
 	},
 	"simGameMechPartCost": 400000,
@@ -291,7 +291,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_TAG",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

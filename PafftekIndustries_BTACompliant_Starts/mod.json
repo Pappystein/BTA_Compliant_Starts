@@ -1,6 +1,6 @@
 {
-    "Name": "PafftekIndustries_BTACompliant_Starts",
-    "Enabled": true,
+	"Name": "PafftekIndustries_BTACompliant_Starts",
+	"Enabled": true,
 	"Hidden": true,
 	"CustomResourceTypes": [
 		"ExtendedContractType"
@@ -11,57 +11,220 @@
 			"path": "AmmoCategory.json"
 		}
 	],
-	
-    "Contact": "",
+	"Contact": "",
 	"Manifest": [
-			{ "Type": "ItemCollectionDef", "Path": "ItemCollections" },
-			{ "Type": "AdvancedJSONMerge", "Path": "BTA_Pafftek_Starters" },
-			{ "Type": "AdvancedJSONMerge", "Path": "DefaultMergeDefs"},
-			{ "Type": "CCUnitTypes", "Path": "UnitTypes", "ShouldMergeJSON": false },
-			{ "Type": "MechDef", "Path": "Mechs_InnerSphere/Mechdef" },	
-			{ "Type": "ChassisDef", "Path": "Mechs_InnerSphere/Chassisdef" },
-			{ "Type": "MechDef", "Path": "Mechs_Clan/Mechdef" },	
-			{ "Type": "ChassisDef", "Path": "Mechs_Clan/Chassisdef" },			
-			{ "Type": "UpgradeDef", "Path": "Tech/Upgrades" },
-			{ "Type": "UpgradeDef", "Path": "Tech/Internals" },
-			{ "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
-			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
-			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
-			{ "Type": "WeaponDef", "Path": "Tech/Weapons_Super"},
-			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
-			{ "Type": "AmmunitionDef", "Path": "Ammunition" },
-			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/" },
-			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADefaultMergeClan/" },
-			{ "Type": "AdvancedJSONMerge", "Path": "ChassisDefMerge/BTADeafultMergeSanctuary/" },
-			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
-			{ "Type": "AdvancedJSONMerge", "Path": "MechAffinityMerges/" },
-			{ "Type": "AdvancedJSONMerge", "Path": "BTACORE_Merges/" },
-			{ "Type": "Texture2D",		 	"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
-			{ "Type": "Sprite", 			"Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
-			{ "Type": "AbilityDef",	"Path": "Abilities" },
-			{ "Type": "VehicleDef",	"Path": "VehicleDef" },
-			{ "Type": "VehicleChassisDef", "Path": "VehicleChassisDef" },
-			{ "Type": "Sprite", "Path": "Graphix"},
-			{ "Type": "Texture2D", "Path": "Graphix" },
-			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update", "ShouldAppendText": true},
-			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update/OGShops", "AddToDB": true},
-			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
-			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" },
-			{ "Type": "MechDef", "Path": "OperationDeepFreeze/Mechdef/" },
-			{ "Type": "ChassisDef", "Path": "OperationDeepFreeze/Chassisdef/" },
-			{ "Type": "PilotDef", "Path": "PafftekIndustries_Pilots/Pilots/" },
-			{ "Type": "Sprite",	"Path": "PafftekIndustries_Pilots/Pics/" },
-			{ "Type": "AffinitiesDef", "Path": "AffinityDefs/" },
-			{ "Type": "ContractOverride", "Path": "Wartech_IIC_ExtendedContracts/Contracts" },
-			{ "Type": "ExtendedContractType", "Path": "Wartech_IIC_ExtendedContracts/ECs" },
-			{ "Type": "CustomTag", "Path": "CustomTags" }
-		
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollections"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "BTA_Pafftek_Starters"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "DefaultMergeDefs"
+		},
+		{
+			"Type": "CCUnitTypes",
+			"Path": "UnitTypes",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MechDef",
+			"Path": "Mechs_InnerSphere/Mechdef"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "Mechs_InnerSphere/Chassisdef"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "Mechs_Clan/Mechdef"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "Mechs_Clan/Chassisdef"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Tech/Upgrades"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Tech/Internals"
+		},
+		{
+			"Type": "JumpJetDef",
+			"Path": "Tech/JumpJets"
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "Tech/HeatSinks"
+		},
+		{
+			"Type": "WeaponDef",
+			"Path": "Tech/Weapons"
+		},
+		{
+			"Type": "WeaponDef",
+			"Path": "Tech/Weapons_Super"
+		},
+		{
+			"Type": "AmmunitionBoxDef",
+			"Path": "AmmoBoxes"
+		},
+		{
+			"Type": "AmmunitionDef",
+			"Path": "Ammunition"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "ChassisDefMerge/"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "ChassisDefMerge/BTADefaultMergeClan/"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "ChassisDefMerge/BTADeafultMergeSanctuary/"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "MechDefMerge/"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "MechAffinityMerges/"
+		},
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "BTACORE_Merges/"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "Emblems",
+			"AddToAddendum": "PlayerEmblems"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Emblems",
+			"AddToAddendum": "PlayerEmblems"
+		},
+		{
+			"Type": "AbilityDef",
+			"Path": "Abilities"
+		},
+		{
+			"Type": "VehicleDef",
+			"Path": "VehicleDef"
+		},
+		{
+			"Type": "VehicleChassisDef",
+			"Path": "VehicleChassisDef"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "Graphix"
+		},
+		{
+			"Type": "Texture2D",
+			"Path": "Graphix"
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "PFT_Store_Update",
+			"ShouldAppendText": true
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "PFT_Store_Update/OGShops",
+			"AddToDB": true
+		},
+		{
+			"Type": "WeaponAddonDef",
+			"Path": "Tech/WeaponAddOns"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Tech/WeaponLinkages"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "OperationDeepFreeze/Mechdef/"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "OperationDeepFreeze/Chassisdef/"
+		},
+		{
+			"Type": "PilotDef",
+			"Path": "PafftekIndustries_Pilots/Pilots/"
+		},
+		{
+			"Type": "Sprite",
+			"Path": "PafftekIndustries_Pilots/Pics/"
+		},
+		{
+			"Type": "AffinitiesDef",
+			"Path": "AffinityDefs/"
+		},
+		{
+			"Type": "ContractOverride",
+			"Path": "Wartech_IIC_ExtendedContracts/Contracts"
+		},
+		{
+			"Type": "ExtendedContractType",
+			"Path": "Wartech_IIC_ExtendedContracts/ECs"
+		},
+		{
+			"Type": "CustomTag",
+			"Path": "CustomTags"
+		},
+		{
+			"Type": "AffinitiesDef",
+			"Path": "LAM/LAM_Abilities/"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "LAM/LAM_Chassis"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "LAM/LAM_Mech"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "LAM/LAM_Features"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "LAM/LAM_Tech/Upgrades"
+		},
+		{
+			"Type": "WeaponDef",
+			"Path": "LAM/LAM_Tech/Weapons"
+		}
 	],
-    "OptionallyDependsOn": [],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", 
-		"Custom Ammo Categories", "BT Advanced Core", "PafftekIndustries_CSVs", "MechAffinity", "Community Content", "BT Advanced FP Module",
-			"BT Advanced HM Unit Module", "BT Advanced UW Unit Module"],
-	"ConflictsWith": [				
+	"OptionallyDependsOn": [],
+	"DependsOn": [
+		"BT Advanced Mechs",
+		"BTA Difficulty Settings",
+		"BT Advanced Backgrounds",
+		"BT Advanced HM Equipment Module",
+		"Custom Ammo Categories",
+		"BT Advanced Core",
+		"PafftekIndustries_CSVs",
+		"MechAffinity",
+		"Community Content",
+		"BT Advanced FP Module",
+		"BT Advanced HM Unit Module",
+		"BT Advanced UW Unit Module",
+		"BT Advanced Starters",
+		"CustomShops",
+		"DynamicShops"
 	],
+	"ConflictsWith": [],
 	"LoadImplicitManifest": true
 }

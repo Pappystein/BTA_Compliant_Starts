@@ -35,8 +35,8 @@
         "Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 100 shots.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
-	"BonusValueA": "+1 Accuracy",
-	"BonusValueB": "1 EVA ignored",
+	"BonusValueA": "1 EVA ignored",
+	"BonusValueB": "",
     "ComponentType": "AmmunitionBox",
     "ComponentSubType": "Ammunition",
     "PrefabIdentifier": "",

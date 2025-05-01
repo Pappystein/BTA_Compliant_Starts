@@ -1,0 +1,11 @@
+
+emod_engineslots_juryrigxl_center,HeatSink,6,10
+emod_engineslots_protoxl_center,HeatSink,1,10
+Weapon_Laser_MediumLaser_1-Intek,Weapon,0,10
+Weapon_Laser_SmallLaserER_1-Diverse_Optics,Weapon,0,10
+Weapon_SRM_SSRM2_0-STOCK,Weapon,0,10
+Weapon_SRM_SSRM2_Inferno_0-STOCK,Weapon,4,10
+Ammo_AmmunitionBox_Streak_SRM_half,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Streak_SRM,AmmunitionBox,0,10
+mechdef_kintaro_KTO-19ss,Mech,1,10
+mechdef_commando_COM-1AKV,Mech,1,10

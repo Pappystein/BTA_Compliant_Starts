@@ -34,7 +34,7 @@
 		330,
 		540
 	],
-	"AmmoCategory": "SRMOS",
+	"AmmoCategory": "LRMOS",
 	"StartingAmmoCapacity": 10,
 	"HeatGenerated": 10,
 	"Damage": 5,

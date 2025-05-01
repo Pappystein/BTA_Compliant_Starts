@@ -3,7 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "Strider3"
+      "Strider3_40"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

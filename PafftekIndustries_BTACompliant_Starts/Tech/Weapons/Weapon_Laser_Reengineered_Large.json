@@ -39,7 +39,7 @@
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"CriticalChanceMultiplier": 1,
-	"APDamage": 3,
+	"APDamage": 6,
 	"ArmorDamageModifier": 1.4,
 	"ISDamageModifier": 0.8,
 	"APCriticalChanceMultiplier": 0.1,

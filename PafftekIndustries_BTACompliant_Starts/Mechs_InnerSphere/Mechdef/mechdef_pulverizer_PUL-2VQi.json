@@ -23,7 +23,7 @@
 	"ChassisID": "chassisdef_pulverizer_PUL-2VQi",
 	"Description": {
 		"Cost": 114600000,
-		"Details": "The Pulverizer was a BattleMech produced by Clan Wolverine in 2823. The assault 'Mech that resulted was very durable thanks to fifteen and a half tons of Ferro-Fibrous armor, CASE, and a standard fusion engine. In addition, a Guardian ECM Suite countered enemy electronics. To save weight, the Pulverizer incorporated the best Endo Steel structure Star League technology could offer. Clan Snow Raven reportedly began manufacturing the Pulverizer in 2824, presumably after the Wolverine Annihilation, and later sold Pulverizers to their new Outworlds Alliance allies.",
+		"Details": "The Pulverizer was a BattleMech produced by Clan Wolverine in 2823. Upon introducing the Pulverizer to the Inner sphere, a new variant based on the PUL-2Q was created using standard structure instead of Endo-steel.  The PUL-2VQi.  The PUL-2VQi armored with SLDF standard Ferro Fibrous armor, is equipped with an XL engine to offset the loss of mass savings Endo-steel gave.   The end result is a slightly better protected variant of the Pulverizer that is easily factory upgradable to newer technologies, unlike the PUL-2V it is based on.",
 		"Icon": "uixTxrIcon_pulverizer",
 		"Id": "mechdef_pulverizer_PUL-2VQi",
 		"Manufacturer": null,

@@ -1,0 +1,12 @@
+
+Gear_HeatSink_Generic_Thermal-Exchanger-SuperWeapon,HeatSink,6,10
+emod_armorslots_ferroantipierce,Upgrade,4,10
+emod_engineslots_ixl_center,HeatSink,3,10
+Gear_JumpJet_Improved_Heavy_Prototype,JumpJet,12,10
+Weapon_Laser_LargeLaser_1-Pafftek,Weapon,0,10
+Weapon_MRBM,Weapon,0,10
+Ammo_AmmunitionBox_MRBM,AmmunitionBox,0,10
+mechdef_battlemaster_BLR-1Gd,Mech,1,1
+mechdef_rakshasa_MDG-2J,Mech,1,10
+mechdef_rakshasa_MDG-2Qi,Mech,1,10
+vehicledef_THOR_MRBM,Mech,1,10
