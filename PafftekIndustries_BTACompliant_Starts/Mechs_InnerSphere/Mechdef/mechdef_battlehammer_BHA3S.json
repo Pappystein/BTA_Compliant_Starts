@@ -465,7 +465,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Weapon_Laser_AMS",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",

@@ -317,7 +317,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Guardian_ECM",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

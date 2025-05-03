@@ -52,6 +52,7 @@
 				"EnergyDefense: 2",
 				"SensorLockImmune",
 				"IsCockpit",
+				"PilotRecovery",
 				"IsLifeSupportB"
 			],
 		"Flags":  [

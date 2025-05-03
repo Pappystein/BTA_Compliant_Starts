@@ -1,0 +1,283 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Cockpit"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		},
+		"BonusDescriptions": [
+			"Health: +1",
+			"EnhLanceAccuaracy: +3, +3, 120",
+			"IsCockpit"
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ActivatableComponent": {
+			"CanActivateAfterMove": true,
+			"CanActivateAfterFire": false,
+			"SafeActivation": true,
+			"ButtonName": "+ Accuracy",
+			"ActiveByDefault": true,
+			"ActivationIsBuff": true,
+			"CanNotBeActivatedManualy": false,
+			"NoUniqueCheck": true,
+			"ActivationMessage": "ACCY On",
+			"DeactivationMessage": "ACCY Off",
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "OnActivation",
+						"effectTargetType": "AllLanceMates"
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-TargetPredictionAccuracy",
+						"Name": "Target Prediction",
+						"Details": "Allies gains +2 to accuracy for this turn.",
+						"Icon": "C3Systems"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-3.0",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "OnActivation",
+						"effectTargetType": "Creator"
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-TargetPredictionAccuracy",
+						"Name": "Target Prediction",
+						"Details": "Allies gains +2 to accuracy for this turn.",
+						"Icon": "C3Systems"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-3.0",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "CLPS-Heat",
+						"Name": "Increased Heat",
+						"Details": "Generates a flat 18 heat a turn while equipped.",
+						"Icon": "invisible"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "HeatSinkCapacity",
+						"operation": "Int_Add",
+						"modValue": "-120",
+						"modType": "System.Int32"
+					}
+				}
+			],
+			"offlineStatusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-TargBaff-HitDefense1",
+						"Name": "TARGETING BAFFLES",
+						"Details": "+[AMT] Difficulty to hit this unit with Energy attacks.",
+						"Icon": "UixSvgIcon_specialEquip_System"
+					},
+					"statisticData": {
+						"appliesEachTick": false,
+						"effectsPersistAfterDestruction": false,
+						"statName": "ToHitThisActorEnergy",
+						"operation": "Float_Add",
+						"modValue": "1",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "NotSet",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponType": "NotSet",
+						"targetAmmoCategory": "NotSet",
+						"targetWeaponSubType": "NotSet"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 800000,
+		"Rarity": 5,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "CEU-1000 Tracer",
+		"UIName": "CEU-1000 Tracer",
+		"Id": "Gear_Cockpit_1000_Tracer",
+		"Name": "CEU-1000 Tracer Cockpit Eelectronics Upgrade",
+		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades grant additional capabilties to the 'Mech they are installed on.  In the case of the CEU-1000 Package, you gain the beneift of +3 Accuracy for you and your entire team, but at the cost of 120 Heat per turn!",
+		"Icon": "uixSvgIcon_equipment_Cockpit"
+	},
+	"BonusValueA": "+1 Inj, +5 Cowl",
+	"BonusValueB": "Sensor Range Increase",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Pilot_HealthAdd-T2",
+				"Name": "MAX INJURIES INCREASED",
+				"Details": "Prevents Injuries against a MechWarrior.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "BonusHealth",
+				"operation": "Int_Add",
+				"modValue": "1",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet",
+				"targetCollection": "Pilot",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ReinforcedLifeSupport-NoBleed",
+				"Name": "No Bleedout",
+				"Details": "This unit cannot bleed out from injuries.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "DisablesBleeding",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Status-SARRecoveryChance",
+				"Name": "Armoured Cowl",
+				"Details": "Improved Head Armor",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "SAR_RecoveryChanceMult",
+				"operation": "Float_Multiply",
+				"modValue": "2.0",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

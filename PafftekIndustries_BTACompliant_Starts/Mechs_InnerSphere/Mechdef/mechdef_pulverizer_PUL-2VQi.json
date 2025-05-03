@@ -342,7 +342,7 @@
 			"LocalGUID":"target_PPC_1"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+			"ComponentDefID": "Weapon_LRM_LRM10_Improved",
 			"ComponentDefType": "Weapon",
 			"DamageLevel": "Functional",
 			"GUID": null,
@@ -364,7 +364,7 @@
 			"prefabName": null
 		},
 		{
-			"ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_PPCER_Enhanced",
 			"ComponentDefType": "Weapon",
 			"DamageLevel": "Functional",
 			"GUID": null,
@@ -375,7 +375,7 @@
 			"prefabName": null
 		},
 		{
-			"ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_PPCER_Enhanced",
 			"ComponentDefType": "Weapon",
 			"DamageLevel": "Functional",
 			"GUID": null,
@@ -414,6 +414,39 @@
 			"GUID": null,
 			"HardpointSlot": 0,
 			"MountedLocation": "LeftTorso",
+			"SimGameUID": null,
+			"hasPrefabName": false,
+			"prefabName": null
+		},
+		{
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"ComponentDefType": "HeatSink",
+			"DamageLevel": "Functional",
+			"GUID": null,
+			"HardpointSlot": 0,
+			"MountedLocation": "LeftTorso",
+			"SimGameUID": null,
+			"hasPrefabName": false,
+			"prefabName": null
+		},
+		{
+			"ComponentDefID": "Gear_HeatSink_Generic_Improved-Bank",
+			"ComponentDefType": "HeatSink",
+			"DamageLevel": "Functional",
+			"GUID": null,
+			"HardpointSlot": 0,
+			"MountedLocation": "RightTorso",
+			"SimGameUID": null,
+			"hasPrefabName": false,
+			"prefabName": null
+		},
+		{
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-VI",
+			"ComponentDefType": "HeatSink",
+			"DamageLevel": "Functional",
+			"GUID": null,
+			"HardpointSlot": 0,
+			"MountedLocation": "RightTorso",
 			"SimGameUID": null,
 			"hasPrefabName": false,
 			"prefabName": null

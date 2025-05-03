@@ -225,7 +225,7 @@
 					"Bonus": "HyperEVA",
 					"Short": "Evasive Mech",
 					"Long": "Evasive Mech",
-					"Full": "This component adds {0} to the maximum evasion."
+					"Full": "This component adds {0} to the maximum evasion possible and {1} to the evasion generated."
 				},
 				{
 					"Bonus": "MeleeWeaponAcc",
@@ -430,6 +430,12 @@
 					"Short": "Stutterflame Heat Thrower Debuff",
 					"Long":  "The Stutterflame Heat Thrower Debuff is 24 Heat",
 					"Full": "At the end of the Target's next turn, the Stutterflame Heat Thrower adds an additional 24 heat to the previously hit target."
+				},
+				{
+					"Bonus": "EnhLanceAccuaracy",
+					"Short": "Lance Accuracy Enhancement",
+					"Long":  "Friendly units {0}, Self {1} Accy",
+					"Full": "This equipment generates {0} Accuracy bonus to your friendly units and {1} Bonus Accuracy to you when activated, with a cost of {2} Heat Generated until deactivated"
 				}
 			]
 		}

@@ -410,8 +410,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard-Bank",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
@@ -421,8 +421,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_LBX_Dragon_Breath_AC20",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": 1,
@@ -432,7 +432,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC20",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
