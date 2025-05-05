@@ -1,0 +1,55 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/m/t/thunderbolt"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 15,
+			"StabilityDamagePerAmmo": 8
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 1500",
+				"TBOLT5Ammo: 8"
+			],
+		"AmmoCost" : {
+		  "PerUnitCost" : 1500
+		}
+	},
+	"AmmoID": "Ammunition_TBOLT5_FRAG",
+	"Capacity": 8,
+	"Description": {
+		"Cost": 180000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Thunderbolt Fragmentation Cluster",
+		"UIName": "Ammo T-Bolt5 Fragmentation cluster [Half]",
+		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_FRAG_H",
+		"Name": "Fragmentation Thunderbolt 5 Ammo",
+		"Details": "Fragmenation rounds are closer in effect to the various LB-X munitions Cluster.  However unlike Airburst, they rarely damage close units next to the target.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",
+		"Icon": "missile-pod-ammo"
+	},
+	"BonusValueA": "Fragmentation",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/m/t/thunderbolt"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 30,
+			"StabilityDamagePerAmmo": 6
+		},
+		"BonusDescriptions": [
+				"AreaOfEffect: 45",
+				"AreaOfEffectDmg: 5",
+				"AreaOfEffectSTABDmg: 4",		
+				"CostPerShot: 1265",
+				"TBOLT5Ammo: 8"
+			],
+		"AmmoCost" : {
+		  "PerUnitCost" : 265
+		}
+	},
+	"AmmoID": "Ammunition_TBOLT5_HE",
+	"Capacity": 8,
+	"Description": {
+		"Cost": 160000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Thunderbolt HE",
+		"UIName": "Ammo T-Bolt5 HE [Half]",
+		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_HE_H",
+		"Name": "High Explosive Thunderbolt 5 Ammo",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",
+		"Icon": "missile-pod-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
