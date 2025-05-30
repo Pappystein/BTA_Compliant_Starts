@@ -15,7 +15,7 @@
 		"UIName": "Owens II",
 		"Id": "chassisdef_owens_OW-2-C",
 		"Name": "Owens II",
-		"Details": "Relitively new on the scene, the Owens II OW-2, is a new take on the \"Omni-Jenner\" concept.  Updated to the latest technological standards freeing mass, combined with eschewing the fixed TAG and C3 of its progener, leaves the OW-2 ready to carry more equipment for a more varied existance.  The Prime variant hails back to the roots of the Jenner with the very standard loadout of 4 Medium lasers and an SRM-4.  8 jump jets finish utilizing all the free space on this variant making it a highly mobile unit on the battlefield.  While still \"Raven at home\" the Ownes 2 is better in almost every way.",
+		"Details": "Relitively new on the scene, the Owens II OW-2, is a new take on the \"Omni-Jenner\" concept.  Updated to the latest technological standards freeing mass, combined with eschewing the fixed TAG and C3 of its progener, leaves the OW-2 ready to carry more equipment for a more varied existance.  The Charlie variant has 7 medium lasers, a Heat exchanger and a heat bank to mimic the Jenner JR7-31 \"Trap Door\" Rattlesnake Psyops mech.  Unlike the Rattlesnake, the Owens II Charlie is a standard production unit.  While still \"Raven at home\" the Ownes 2 is better in almost every way.",
 		"Icon": "uixTxrIcon_owens"
 	},
 	"MovementCapDefID": "movedef_jenner_JR7-D",
@@ -113,7 +113,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 110,
 			"MaxRearArmor": 55,
 			"InternalStructure": 55
@@ -353,6 +353,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
 		}
 	],
 	"CustomParts": {

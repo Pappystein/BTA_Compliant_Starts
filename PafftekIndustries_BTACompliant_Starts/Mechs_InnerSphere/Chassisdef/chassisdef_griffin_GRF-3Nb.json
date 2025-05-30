@@ -98,7 +98,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 180,
 			"MaxRearArmor": 90,
 			"InternalStructure": 90
@@ -205,6 +205,7 @@
 	"VariantName": "GRF-3Nb",
 	"ChassisTags": {
 		"items": [
+			"IgnoreEngineLimit",
 			"MediumMech",
 			"RoyalMech"
 			

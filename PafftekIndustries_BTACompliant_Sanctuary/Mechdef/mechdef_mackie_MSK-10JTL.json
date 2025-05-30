@@ -433,30 +433,6 @@
 			"LocalGUID":"target_MLAS2"
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Attachment_LaserFCS",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false,
-			"TargetComponentGUID":"target_MLAS2"
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Attachment_LaserFCS",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false,
-			"TargetComponentGUID":"target_MLAS1"
-		},
-		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_LBX_SABOT_AC10",
 			"SimGameUID": null,

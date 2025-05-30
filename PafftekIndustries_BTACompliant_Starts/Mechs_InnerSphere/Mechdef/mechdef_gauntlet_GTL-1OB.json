@@ -287,10 +287,10 @@
 			"prefabName": null,
 			"hasPrefabName": false
 		},
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_SRM_LK",
-            "ComponentDefType": "AmmunitionBox",
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_SRM_LK",
+			"ComponentDefType": "AmmunitionBox",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": 1,
@@ -312,6 +312,17 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	]
 }

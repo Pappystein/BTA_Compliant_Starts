@@ -12,7 +12,7 @@
 			"unit_role_scout",
 			"Unit_Mech_Hero",
 			"AuriganMercenaries",
-			"Mercenaries",	
+			"Mercenaries",
 			"Wolfs_Dragoons",
 			"BlackWidowCompany",
 			"BountyHunterAssociates",
@@ -46,7 +46,8 @@
 	},
 	"simGameMechPartCost": 360000,
 	"Version": 1,
-	"Locations": [{
+	"Locations": [
+		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
 			"CurrentArmor": 45,
@@ -119,9 +120,10 @@
 			"AssignedRearArmor": -1
 		}
 	],
-	"inventory": [{
+	"inventory": [
+		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Generic_Standard",
+			"ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -433,7 +435,7 @@
 			"hasPrefabName": false
 		},
 		{
-		  	"MountedLocation": "RightArm",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_PPC_Heavy_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
@@ -442,7 +444,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC_1"
+			"LocalGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -454,11 +456,22 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_1"
+			"TargetComponentGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_AES_Arm",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

@@ -595,6 +595,17 @@
 			"prefabName": null,
 			"hasPrefabName": false,
 			"TargetComponentGUID":"target_PPC"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	]
 }

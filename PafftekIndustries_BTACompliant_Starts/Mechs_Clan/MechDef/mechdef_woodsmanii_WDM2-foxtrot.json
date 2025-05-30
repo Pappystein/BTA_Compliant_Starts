@@ -23,7 +23,7 @@
 			"BountyHunterAssociates",
 			"unit_legal",
 			"unit_indirectFire",
-			"unit_bracket_med"			
+			"unit_bracket_med"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -282,7 +282,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_LA_Laser"
+			"LocalGUID": "target_LA_Laser"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -294,7 +294,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_LT_Laser"
+			"LocalGUID": "target_LT_Laser"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -306,7 +306,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_RT_Laser"
+			"LocalGUID": "target_RT_Laser"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -318,7 +318,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_RA_Laser"
+			"LocalGUID": "target_RA_Laser"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -396,7 +396,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_RA_Laser"
+			"TargetComponentGUID": "target_RA_Laser"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -408,7 +408,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_RT_Laser"
+			"TargetComponentGUID": "target_RT_Laser"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -420,7 +420,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_LT_Laser"
+			"TargetComponentGUID": "target_LT_Laser"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -432,7 +432,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_LA_Laser"
+			"TargetComponentGUID": "target_LA_Laser"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -444,13 +444,24 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_LA_Laser"
+			"TargetComponentGUID": "target_LA_Laser"
 		},
 		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

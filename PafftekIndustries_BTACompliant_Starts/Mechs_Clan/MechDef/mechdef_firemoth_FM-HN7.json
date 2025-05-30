@@ -351,7 +351,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},,
+		},
 		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
@@ -369,6 +369,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

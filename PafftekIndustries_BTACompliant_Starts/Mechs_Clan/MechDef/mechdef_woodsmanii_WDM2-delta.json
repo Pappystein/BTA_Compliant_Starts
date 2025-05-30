@@ -23,7 +23,7 @@
 			"BountyHunterAssociates",
 			"unit_legal",
 			"unit_indirectFire",
-			"unit_bracket_med"			
+			"unit_bracket_med"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -454,6 +454,17 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

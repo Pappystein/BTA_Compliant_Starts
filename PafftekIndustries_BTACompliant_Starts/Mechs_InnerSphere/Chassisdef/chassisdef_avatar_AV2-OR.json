@@ -19,7 +19,7 @@
 			"hasPrefabName": false
 		},	
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC_Omni",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
@@ -125,6 +125,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
 		}
 	],
 	"Description": {
@@ -238,7 +247,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 220,
 			"MaxRearArmor": 110,
 			"InternalStructure": 110

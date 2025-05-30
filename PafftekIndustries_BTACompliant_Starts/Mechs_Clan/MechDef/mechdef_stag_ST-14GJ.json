@@ -31,7 +31,8 @@
 	},
 	"simGameMechPartCost": 490000,
 	"Version": 1,
-	"Locations": [{
+	"Locations": [
+		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
 			"CurrentArmor": 45,
@@ -463,7 +464,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC_CLAN",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
@@ -533,6 +534,17 @@
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

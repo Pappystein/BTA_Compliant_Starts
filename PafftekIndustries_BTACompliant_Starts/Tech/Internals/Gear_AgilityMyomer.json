@@ -1,0 +1,338 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "TSM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"HeatGenerated: +50%",
+			"EvaMax: 1",
+			"KickAccuracy: +1",
+			"PunchAccuracy: +1",
+			"PhysWeapAccuracy: +1",
+			"MyomerStab: 15",
+			"MyomerStab2: 10",
+			"DFAAcc: +1",
+			"Dynamic: 6"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 6,
+			"ShowIcon": true,
+			"NameText": "Agility Myomer",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 1000000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Agility Myomer Formula 3R7",
+		"UIName": "Agility Myomer",
+		"Id": "Gear_AgilityMyomer",
+		"Name": "Agility Myomer",
+		"Details": "Pafftek Industries attempts to replciate the Bergan Triple Strenght Myomer were met with failure after failure.   Once test example however showed interesting properties.   It required extra power, and thus heat, to operate, much like Triple Strenght Myomer, but unlike T.S.M. this Myomer, formulation 3R from batch 7, reacted more quickly to control inputs.   After deciding to test it in a BattleHammer test mule Battlemech, it was discovered that the Battlemech became much more flexible in movement.  The result is a slight bump to stability of the mech as well as an improved ability to dodge incomming fire.  On further testing in various other test mechs, it was determined that on top of the already impressive abilities melee accuracy was slightly improved vs standard Myomer.  <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "FCS_MeleeAccuracy",
+				"Name": "MeleeWeapon Accuracy Modifier",
+				"Details": "MeleeWeapon Accuracy Modifier",
+				"Icon": "uixSvgIcon_run_n_gun"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Physical_Weapon_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator"
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "MaxEvasion",
+				"Name": "EVASIVE MOVE",
+				"Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "MaxEvasivePips",
+				"operation": "Int_Add",
+				"modValue": "1",
+				"modType": "System.Int32"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "GyroGenericThreshhold",
+				"Name": "Gyroscopic Orientation",
+				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Add",
+				"modValue": "15.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Attack_ToHitKick-T1",
+				"Name": "MELEE HIT CHANCE IMPROVED",
+				"Details": "Melee attacks attempted have their hit improved by +1.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Kick_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Attack_ToHitPunch-T1",
+				"Name": "MELEE HIT CHANCE IMPROVED",
+				"Details": "Melee attacks attempted have their hit improved by +1.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Punch_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderDFAAcc",
+				"Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
+				"Details": "DFA attacks deal [AMT] less damage to the attacker.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-1",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TSM-Heat",
+				"Name": "TSM Heat Generation",
+				"Details": "Heat generation increased by 45%.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "HeatGenerated",
+				"operation": "Float_Multiply",
+				"modValue": "1.5",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "GyroGenericMax",
+        "Name": "Gyroscopic Orientation",
+        "Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "statisticData": {
+        "statName": "MaxStability",
+        "operation": "Float_Add",
+        "modValue": "10.0",
+        "modType": "System.Single"
+      },
+      "nature": "Buff"
+    }
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

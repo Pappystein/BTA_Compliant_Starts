@@ -112,7 +112,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 140,
 			"MaxRearArmor": 70,
 			"InternalStructure": 70
@@ -259,7 +259,7 @@
 			"hasPrefabName": true
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_TSM",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -268,7 +268,7 @@
 			"hasPrefabName": true
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Supercharger",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

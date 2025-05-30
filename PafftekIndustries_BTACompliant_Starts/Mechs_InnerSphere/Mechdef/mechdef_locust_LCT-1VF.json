@@ -325,7 +325,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Generic_Standard",
+			"ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -494,6 +494,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

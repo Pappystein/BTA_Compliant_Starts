@@ -386,56 +386,74 @@
 				{
 					"Bonus": "DistributedLaserArray",
 					"Short": "Core Distributed Laser component",
-					"Long":  "Primary Laser used in the Distriubted Laser Array setup",
+					"Long": "Primary Laser used in the Distriubted Laser Array setup",
 					"Full": "This is the primary Laser used in a Distributed Laser Array, it is supported by the \"Distributed Laser Array Component Laser\".  Each Component Laser can either do damage itself or provide a signficant bonus to damage of this weapon via weapon panel switch."
 				},
 				{
 					"Bonus": "DA_SupportLaser",
 					"Short": "Support Laser Array",
-					"Long":  "Support Laser used in the Distriubted Laser Array setup",
+					"Long": "Support Laser used in the Distriubted Laser Array setup",
 					"Full": "The Distributed Laser Array Component Laser, en masse, can provide normal Laser attacks or via weapon panel switches, boost the Core Distributed Laser Array to greater heights of damage."
 				},
 				{
 					"Bonus": "DA_SupportLaserON",
 					"Short": "SuperWeapon Fire mode",
-					"Long":  "SuperWeapon Fire mode increases Superweapon damage.",
+					"Long": "SuperWeapon Fire mode increases Superweapon damage.",
 					"Full": "The Distributed Laser Array Component Laser, in Superweapon mode increases Damage dealt by the Distributed Laser Array at the cost of accuracy."
 				},
 				{
 					"Bonus": "DA_SupportLaserOFF",
 					"Short": "Standard Fire mode",
-					"Long":  "Standard Fire mode increases Superweapon accuracy",
+					"Long": "Standard Fire mode increases Superweapon accuracy",
 					"Full": "The Distributed Laser Array Component Laser, in standard mode increases accuracy of the Distributed Laser Array at the cost of Super weapon damage dealt to enemy units."
 				},
 				{
 					"Bonus": "TAG_Benefits",
 					"Short": "Benefits from target being TAGed",
-					"Long":  "Benefits from target being TAGed",
+					"Long": "Benefits from target being TAGed",
 					"Full": "Gains {0} accuracy vs targets that are TAGed by any friendly unit prior to shot."
 				},
 				{
 					"Bonus": "ArtyHardpoint",
 					"Short": "Artilery Hardpoint Required",
-					"Long":  "Must be placed on an Artilery Hardpoint",
+					"Long": "Must be placed on an Artilery Hardpoint",
 					"Full": "Must be placed on an Artilery Hardpoint and can utilize the Artilery FCS attachment."
 				},
 				{
 					"Bonus": "CoolDownTimer",
 					"Short": "Cool Down Timer",
-					"Long":  "Has a {0} turn cool down period after use",
+					"Long": "Has a {0} turn cool down period after use",
 					"Full": "This weapon has a {0} turn cool down period after use."
 				},
 				{
 					"Bonus": "StutterFlameHeatDebuff",
 					"Short": "Stutterflame Heat Thrower Debuff",
-					"Long":  "The Stutterflame Heat Thrower Debuff is 24 Heat",
+					"Long": "The Stutterflame Heat Thrower Debuff is 24 Heat",
 					"Full": "At the end of the Target's next turn, the Stutterflame Heat Thrower adds an additional 24 heat to the previously hit target."
 				},
 				{
 					"Bonus": "EnhLanceAccuaracy",
 					"Short": "Lance Accuracy Enhancement",
-					"Long":  "Friendly units {0}, Self {1} Accy",
+					"Long": "Friendly units {0}, Self {1} Accy",
 					"Full": "This equipment generates {0} Accuracy bonus to your friendly units and {1} Bonus Accuracy to you when activated, with a cost of {2} Heat Generated until deactivated"
+				},
+				{
+					"Bonus": "MyomerStab",
+					"Short": "{0} Stab",
+					"Long": "{0} Stability Threshold",
+					"Full": "{0} Stability Threshold provided by Myomer"
+				},
+				{
+					"Bonus": "MyomerStab2",
+					"Short": "{0} Stab",
+					"Long": "{0} Stability",
+					"Full": "{0} Maximum Stability provided by Myomer"
+				},
+				{
+					"Bonus": "PiATM",
+					"Short": "Pirate iATM",
+					"Long": "Pirate improved Adv. Tact. Mssl. Launcher",
+					"Full": "Pirate tech improved Advanced Tactical Missile Launchers use unique ATM ammo gain a direct-fire accuracy bonus."
 				}
 			]
 		}

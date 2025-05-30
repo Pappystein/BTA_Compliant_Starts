@@ -261,7 +261,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Laser_3"
+			"LocalGUID": "target_Laser_3"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -273,7 +273,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Laser_4"
+			"LocalGUID": "target_Laser_4"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -340,7 +340,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Laser_1"
+			"LocalGUID": "target_Laser_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -352,7 +352,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Laser_2"
+			"LocalGUID": "target_Laser_2"
 		},
 		{
 			"MountedLocation": "CenterTorso",
@@ -374,7 +374,7 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false 
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -382,6 +382,17 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

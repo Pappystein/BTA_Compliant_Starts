@@ -124,6 +124,17 @@
 	],
 	"inventory": [
 		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_TargetingComputer_Assault",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},	
+		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_shoulder",
 			"SimGameUID": "",
@@ -447,6 +458,17 @@
 			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

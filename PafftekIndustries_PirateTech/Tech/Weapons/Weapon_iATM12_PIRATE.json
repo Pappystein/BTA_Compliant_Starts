@@ -1,0 +1,106 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/l/atm"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"PiATM",
+			"NoFireInMelee",
+			"MissileHealth: 2",
+			"WeaponAttachmentCompatible: LRM FCS"
+		]
+	},
+	"Category": "Missile",
+	"Type": "LRM",
+	"WeaponSubType": "LRM20",
+	"MinRange": 120,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "ATM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 10,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 12,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 2,
+	"FireTerrainChance": 0,
+	"ImprovedBallistic": true,
+	"ProjectileSpeedMultiplier": 1.4,
+	"MissileHealth": 2,
+	"DamageOnJamming": true,
+	"DestroyOnJamming": false,
+	"FlatJammingChance": 0.075,
+	"GunneryJammingMult": 0.05,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+	"Description": {
+		"Cost": 522000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "CLAN",
+		"Model": "improved Advanced Tactical Missile",
+		"UIName": "iATM 12 (P)",
+		"Id": "Weapon_iATM12_PIRATE",
+		"Name": "iATM 12 (P)",
+		"Details": "The Advanced Tactical Missile system (ATM) was developed by Clan Coyote and allows its users to choose between three different types of ammunition. ATMs also include an integral Artemis IV Fire Control System. \n\n<b><color=#ffcc00>Uses ATM Ammo.</color></b>",
+		"Icon": "uixSvgIcon_weapon_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "lrm20",
+	"BattleValue": 0,
+	"InventorySize": 5,
+	"Tonnage": 7,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "lv1",
+			"UIName": "DIRECT",
+			"isBaseMode": true,
+			"EvasivePipsIgnored": 1,
+			"Streak": true,
+			"HitGenerator": "Streak"
+		},
+		{
+			"Id": "lv2",
+			"UIName": "INDIRECT",
+			"isBaseMode": false,
+			"IndirectFireCapable": true,
+			"DirectFireModifier": 3.0,
+			"AlwaysIndirectVisuals": true
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"LRMFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

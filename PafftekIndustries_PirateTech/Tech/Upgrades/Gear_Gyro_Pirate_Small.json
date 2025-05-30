@@ -1,0 +1,80 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamage": 20,			
+			"StabilityDamage": 250
+		},
+		"Category": {
+			"CategoryID": "Gyro"
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
+			}
+		},
+		"BonusDescriptions": [
+				"GyroStab: -10"
+			],		
+		"Flags": [
+				"not_broken"
+		]
+	},
+	"Description": {
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false,
+		"Manufacturer": "Eloder Mak",
+		"Model": "Smaller",
+		"UIName": "Gyro",
+		"Id": "Gear_Gyro_Pirate_Small",
+		"Name": "Smaller Gyro",
+		"Details": "Smaller and with a more agregious damage profile when it is destroyed, The Eloder Mak made \"Small\" Gyroscope is a death drap in the form of spinning disks.   No mass was saved inspite reducing the size of the gyro.  Instead damage potential rose exponentially",
+		"Icon": "uixSvgIcon_equipment_Gyro"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects":[ 		
+	{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CompactGyro",
+				"Name": "Steadier 'Mech",
+				"Details": "UNSTEADY threshold increased to 60",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Add",
+				"modValue": "-10.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],	
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -105,7 +105,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 320,
 			"MaxRearArmor": 160,
 			"InternalStructure": 160
@@ -256,6 +256,15 @@
 		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_Quirk_Searchlight_Mackie",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Attachment_Quirk_Mackie_StabilizedAim",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

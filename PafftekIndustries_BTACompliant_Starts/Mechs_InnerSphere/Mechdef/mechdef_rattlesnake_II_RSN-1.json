@@ -9,11 +9,11 @@
 			"unit_lance_support",
 			"unit_role_sniper",
 			"unit_generic",
-	"Davion",
-	"DavionAssaultGuards",
-	"2ndCrucisLancers",
-	"10thLyranGuards",
-	"1stKitteryBorderers",
+			"Davion",
+			"DavionAssaultGuards",
+			"2ndCrucisLancers",
+			"10thLyranGuards",
+			"1stKitteryBorderers",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -482,7 +482,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

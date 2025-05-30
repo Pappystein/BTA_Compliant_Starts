@@ -561,11 +561,11 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_Laser_MediumLaser_1-Intek",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
+			"HardpointSlot": 1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -594,6 +594,17 @@
 			"prefabName": null,
 			"hasPrefabName": false,
 			"TargetComponentGUID":"target_PPC_1"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	]
 }

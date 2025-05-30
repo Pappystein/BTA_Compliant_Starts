@@ -70,7 +70,7 @@
 				52
 			],
 			"declinePenalty": "BadFaith",
-			"contractMessage": "Commander, our liason from {TEAM_EMP.FactionDef.ShortName}, has given us the location of the base we are to capture.  Our first step is to sweep the area in a scouting force eliminating any enemies we discover along the way.  Our contact with {TEAM_EMP.FactionDef.ShortName} forces have indicated the possibility of 3rd party interlopers. That is however, not a certainty."
+			"contractMessage": "Commander, our liaison from {TEAM_EMP.FactionDef.ShortName}, has given us the location of the base we are to capture.  Our first step is to sweep the area in a scouting force eliminating any enemies we discover along the way.  Our contact with {TEAM_EMP.FactionDef.ShortName} forces have indicated the possibility of 3rd party interlopers. That is however, not a certainty."
 		},
 		"ContinueScouting": {
 			"workOrder": "Secondary Sweep",

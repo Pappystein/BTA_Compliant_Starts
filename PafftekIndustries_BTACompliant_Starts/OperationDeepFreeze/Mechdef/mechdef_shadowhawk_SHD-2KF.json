@@ -261,7 +261,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Generic_Standard",
+			"ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -456,7 +456,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC_LT"
+			"LocalGUID": "target_PPC_LT"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -468,7 +468,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_LT"
+			"TargetComponentGUID": "target_PPC_LT"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -585,6 +585,17 @@
 			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

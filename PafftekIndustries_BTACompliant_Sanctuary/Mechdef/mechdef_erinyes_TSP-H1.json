@@ -445,7 +445,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_HeatSink_Heat_Negator",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

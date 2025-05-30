@@ -118,7 +118,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
-		},		
+		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_375",
@@ -371,8 +371,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_LLas_1"
-			
+			"LocalGUID": "target_LLas_1"
 		},
 		{
 			"MountedLocation": "CenterTorso",
@@ -384,7 +383,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-            "TargetComponentGUID":"target_LLas_1"
+			"TargetComponentGUID": "target_LLas_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -414,6 +413,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

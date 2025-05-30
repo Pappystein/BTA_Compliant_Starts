@@ -258,34 +258,34 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		}, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engineslots_xl_center", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "DamageLevel": "Functional", 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "emod_engineslots_size3", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "DamageLevel": "Functional", 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "emod_engineslots_size3", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "DamageLevel": "Functional", 
-            "hasPrefabName": false
-        },
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_xl_center",
+			"SimGameUID": "",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"SimGameUID": "",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"SimGameUID": "",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"hasPrefabName": false
+		},
 		{
 			"MountedLocation": "LeftLeg",
 			"ComponentDefID": "emod_leg_hip",
@@ -538,7 +538,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC"
+			"LocalGUID": "target_PPC"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -550,7 +550,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC"
+			"TargetComponentGUID": "target_PPC"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -569,6 +569,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

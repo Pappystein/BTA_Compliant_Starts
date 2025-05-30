@@ -10,7 +10,6 @@
 			"unit_rarity_2",
 			"unit_bracket_low",
 			"unit_generic",
-
 			"Kurita",
 			"1stSwordOfLight",
 			"3rdNightStalkers",
@@ -268,7 +267,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Generic_Standard",
+			"ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -580,6 +579,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

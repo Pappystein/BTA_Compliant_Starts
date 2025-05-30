@@ -1,0 +1,106 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/l/atm"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"PiATM",
+			"NoFireInMelee",
+			"MissileHealth: 2",
+			"WeaponAttachmentCompatible: LRM FCS"
+		]
+	},
+	"Category": "Missile",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 120,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "ATM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 8,
+	"Damage": 10,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 3,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 2,
+	"FireTerrainChance": 0,
+	"ImprovedBallistic": true,
+	"ProjectileSpeedMultiplier": 1.4,
+	"MissileHealth": 2,
+	"DamageOnJamming": true,
+	"DestroyOnJamming": false,
+	"FlatJammingChance": 0.075,
+	"GunneryJammingMult": 0.05,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 154000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "CLAN",
+		"Model": "improved Advanced Tactical Missile",
+		"UIName": "iATM 3 (P)",
+		"Id": "Weapon_iATM3_PIRATE",
+		"Name": "iATM 3 (P)",
+		"Details": "A prototype variant design of the Clan force's new ATM missile launcher fell into the hands of the \"Engineering staff\" at Eloder Mak.   They had the specifications for the new ammunition types that were being developed but technical hurdles prevented them from being produced.  Instead, Eloder Mak chose to retrofit existing stocks of ATM ammunition to work with the new iATM launcher.   the iATM Launcher works similar to a Streak SRM/LRM in direct fire but is also capable of indirect fire.  The Artemis IV system was removed from the launchers to make way for this improved combat feature. \n\n<b><color=#ffcc00>Uses ATM Ammo.</color></b>",
+		"Icon": "uixSvgIcon_weapon_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "lrm5",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "lv1",
+			"UIName": "DIRECT",
+			"isBaseMode": true,
+			"EvasivePipsIgnored": 1,
+			"Streak": true,
+			"HitGenerator": "Streak",
+			
+		},
+		{
+			"Id": "lv2",
+			"UIName": "INDIRECT",
+			"isBaseMode": false,
+			"IndirectFireCapable": true,
+			"DirectFireModifier": 3.0,
+			"AlwaysIndirectVisuals": true
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"LRMFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

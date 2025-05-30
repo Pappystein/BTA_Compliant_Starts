@@ -317,11 +317,11 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
+			"HardpointSlot": 3,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -387,6 +387,17 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	]
 }

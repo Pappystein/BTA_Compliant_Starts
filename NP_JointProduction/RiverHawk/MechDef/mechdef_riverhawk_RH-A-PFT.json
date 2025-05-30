@@ -109,19 +109,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 120,
+			"CurrentArmor": 130,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 105,
-			"AssignedArmor": 120,
+			"AssignedArmor": 130,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 120,
+			"CurrentArmor": 130,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 105,
-			"AssignedArmor": 120,
+			"AssignedArmor": 130,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -150,7 +150,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_ferrosfibrous",
+			"ComponentDefID": "emod_armorslots_ferroantipierce",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

@@ -435,7 +435,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_TBM_1"
+			"LocalGUID": "target_TBM_1"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -447,7 +447,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_TBM_1"
+			"TargetComponentGUID": "target_TBM_1"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -514,7 +514,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Snub_1"
+			"LocalGUID": "target_Snub_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -526,7 +526,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_Snub_1"
+			"TargetComponentGUID": "target_Snub_1"
 		},
 		{
 			"MountedLocation": "CenterTorso",
@@ -577,6 +577,17 @@
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

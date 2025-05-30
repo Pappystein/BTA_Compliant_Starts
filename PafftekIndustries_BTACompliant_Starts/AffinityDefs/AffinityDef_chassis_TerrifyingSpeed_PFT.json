@@ -1,0 +1,55 @@
+{
+	"id": "AffinityDef_chassis_TerrifyingSpeed_PFT",
+	"affinityType": "Chassis",
+	"affinityData": {
+		"chassisNames": [
+			"Maelstrom_75"
+		],
+		"idType": "AssemblyVariant",
+		"altMaps": [],
+		"affinityLevels": [
+			{
+				"id": "TerrifyingSpeed",
+				"missionsRequired": 15,
+				"levelName": "TerrifyingSpeed",
+				"decription": "35% boost to sprint speed!",
+				"affinities": [],
+				"effectData": [
+					{
+						"Description": {
+							"Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+							"Icon": "UixSvgIcon_specialEquip_System",
+							"Id": "StatusEffect-Affinity-EasyToPilot",
+							"Name": "Mech Affinity Sprint Boost"
+						},
+						"durationData": {
+							"duration": -1,
+							"stackLimit": -1
+						},
+						"effectType": "StatisticEffect",
+						"nature": "Buff",
+						"statisticData": {
+							"additionalRules": "NotSet",
+							"modType": "System.Single",
+							"modValue": "0.35",
+							"operation": "Float_Add",
+							"statName": "CBTBE_RunMultiMod",
+							"targetAmmoCategory": "NotSet",
+							"targetCollection": "NotSet",
+							"targetWeaponCategory": "NotSet",
+							"targetWeaponSubType": "NotSet",
+							"targetWeaponType": "NotSet"
+						},
+						"targetingData": {
+							"effectTargetType": "Creator",
+							"effectTriggerType": "Passive",
+							"hideApplicationFloatie": true,
+							"showInStatusPanel": false,
+							"showInTargetPreview": false
+						}
+					}
+				]
+			}
+		]
+	}
+}

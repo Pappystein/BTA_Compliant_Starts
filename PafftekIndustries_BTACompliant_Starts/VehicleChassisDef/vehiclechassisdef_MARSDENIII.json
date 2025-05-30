@@ -1,0 +1,142 @@
+{
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Marsden",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Marsden III MBT",
+		"Id": "vehiclechassisdef_MARSDENIII",
+		"Name": "Marsden III",
+		"Details": "The Marsden III Main Battle Tank was introduced by jointly by Pafftek Industries and Arcturan Arms in 3069 to improve upon and replace its venerable predecessor.  The Weapon Systems received a refresh, with the foward glacis receiving 2 MML3 launchers which share one ton each of SRM and LRM munitions.  While keeping the Lulabin Experimental class 10 autocannon in basic form, it is actually a new production version from Pafftek Industries that has a triple ammo feed.  One ton each Cluster, APFSDS Sabot and Dragonfire come standard.  rounding out the warload for anti Battlearmor or infantry are 1 turret mounted and one hull mounted ER Small laser of a rotary variant.   Two B-Pods are the final line of defense against swarming Battlearmor.  All of this while pushing  up the max speed and maintaing the same thick armor as before thanks to an XL Fusion 300 core and Ferro Fibrous armor being used.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       280     30\n<b>Left</b>         260     30\n<b>Right</b>       260     30\n<b>Rear</b>        205     30\n<b>Turret</b>      255     30\n\n<b>Total</b>      1260    150\n",
+		"Icon": "Marsden"
+	},
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+	"MovementCapDefID": "movedef_5-8cv",
+	"movementType": "Tracked",
+	"PathingCapDefID": "pathingdef_heavy_tracked",
+	"HardpointDataDefID": "hardpointdatadef_m1",
+	"PrefabIdentifier": "chrprfvhcl_m1",
+	"PrefabBase": "m1",
+	"Tonnage": 60,
+	"weightClass": "HEAVY",
+	"BattleValue": 9000000,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 2.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 2.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 3
+		},
+		{
+			"x": -2,
+			"y": 2.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 2.5,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": -4.5
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 280,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 260,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 260,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 205,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 255,
+			"InternalStructure": 30
+		}
+	]
+}

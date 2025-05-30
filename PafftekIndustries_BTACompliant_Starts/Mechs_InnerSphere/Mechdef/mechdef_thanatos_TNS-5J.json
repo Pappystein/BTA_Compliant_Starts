@@ -26,7 +26,7 @@
 			"BroadswordLegion",
 			"Moderbjorn",
 			"BountyHunterAssociates",
-			"BaumannGroup",		
+			"BaumannGroup",
 			"BlackWidowCompany",
 			"unit_notsacellum"
 		],
@@ -458,6 +458,17 @@
 			"ComponentDefID": "Gear_JumpJet_Generic_Heavy",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

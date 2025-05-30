@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_JungleCat",
+			"Name": "1.0 JungleCat",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.8,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Arlington"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_GoodPanther,itemCollection_Mechs_Panther,itemCollection_Mechs_Panther,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Kurita:30"
+				}
+			]
+		}
+	}]
+}

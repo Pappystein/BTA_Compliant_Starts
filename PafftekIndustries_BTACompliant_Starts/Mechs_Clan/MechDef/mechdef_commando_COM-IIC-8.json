@@ -14,9 +14,9 @@
 			"ClanNovaCat",
 			"CNCOmicronGalaxy",
 			"ClanJadeFalcon",
-			"CJFIotaGalaxy",	
+			"CJFIotaGalaxy",
 			"ClanGhostBear",
-			"CGBThetaGalaxy",	
+			"CGBThetaGalaxy",
 			"ClanSnowRaven",
 			"CSRDeltaGalaxy",
 			"unit_advanced",
@@ -473,6 +473,17 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		}		
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
 	]
 }

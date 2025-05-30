@@ -341,7 +341,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_UAC5_1"
+			"LocalGUID": "target_UAC5_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -351,7 +351,18 @@
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_UAC5_1"
+			"TargetComponentGUID": "target_UAC5_1"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	]
 }

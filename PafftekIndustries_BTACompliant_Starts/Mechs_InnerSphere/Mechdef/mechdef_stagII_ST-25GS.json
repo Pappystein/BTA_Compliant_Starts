@@ -30,7 +30,8 @@
 	},
 	"simGameMechPartCost": 973359,
 	"Version": 1,
-	"Locations": [{
+	"Locations": [
+		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
 			"CurrentArmor": 45,
@@ -103,7 +104,8 @@
 			"AssignedRearArmor": -1
 		}
 	],
-	"inventory": [{
+	"inventory": [
+		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_armorslots_ferrosfibrous",
 			"ComponentDefType": "Upgrade",
@@ -400,6 +402,17 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

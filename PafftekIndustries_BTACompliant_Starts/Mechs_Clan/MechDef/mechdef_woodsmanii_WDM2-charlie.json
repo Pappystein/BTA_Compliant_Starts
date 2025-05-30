@@ -19,7 +19,7 @@
 			"ClanDiamondShark",
 			"unit_legal",
 			"unit_indirectFire",
-			"unit_bracket_med"			
+			"unit_bracket_med"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -289,7 +289,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_LTLRM_1"
+			"LocalGUID": "target_LTLRM_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -301,7 +301,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_RTLRM_1"
+			"LocalGUID": "target_RTLRM_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -390,7 +390,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_RTLRM_1"
+			"TargetComponentGUID": "target_RTLRM_1"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -402,7 +402,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_LTLRM_1"
+			"TargetComponentGUID": "target_LTLRM_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -421,6 +421,17 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

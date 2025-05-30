@@ -127,7 +127,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},	
+		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_armorslots_ferrosfibrous",
@@ -461,6 +461,17 @@
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

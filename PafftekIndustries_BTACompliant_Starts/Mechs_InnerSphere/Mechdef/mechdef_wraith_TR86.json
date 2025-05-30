@@ -182,7 +182,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},	
+		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_330",
@@ -573,6 +573,17 @@
 			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
