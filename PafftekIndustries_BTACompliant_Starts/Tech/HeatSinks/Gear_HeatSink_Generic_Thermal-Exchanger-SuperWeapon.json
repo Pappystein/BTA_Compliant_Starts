@@ -6,18 +6,18 @@
 			}
 		],
 		"BonusDescriptions": [
-				"TEHeatgen: -10%",
-				"ADV_Exchanger",
-				"Explosive: 12",
-				"ExplosiveHEAT: 30",
-				"ExplosiveSTAB: 10"
-			]
+			"TEHeatgen: -10%",
+			"ADV_Exchanger",
+			"Explosive: 12",
+			"ExplosiveHEAT: 30",
+			"ExplosiveSTAB: 10"
+		]
 	},
-    "ComponentExplosion": {
-      "ExplosionDamage": 15.0,
-      "HeatDamage": 50.0,
-      "StabilityDamage": 15.0
-    },
+	"ComponentExplosion": {
+		"ExplosionDamage": 15.0,
+		"HeatDamage": 50.0,
+		"StabilityDamage": 15.0
+	},
 	"Description": {
 		"Cost": 900000,
 		"Rarity": 5,
@@ -81,7 +81,7 @@
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",
-				"targetWeaponCategory": "NotSet",
+				"targetWeaponCategoryId": "Superweapon",
 				"targetWeaponType": "NotSet",
 				"targetAmmoCategory": "NotSet",
 				"targetWeaponSubType": "NotSet"
