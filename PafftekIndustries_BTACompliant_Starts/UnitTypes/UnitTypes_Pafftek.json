@@ -4,6 +4,11 @@
 		{ "Name" : "ClanRefit", "RequiredTags" : [ "ClanRefit" ] },
 		{ "Name" : "SanctuaryMech", "RequiredTags" : [ "SanctuaryMech" ] },
 		{ "Name" : "SocietyMech", "RequiredTags" : [ "SocietyMech" ] },
-		{ "Name" : "SLDFMech", "RequiredTags" : [ "SLDFMech" ] }
+		{ "Name" : "SLDFMech", "RequiredTags" : [ "SLDFMech" ] },
+		{ "Name" : "RWR", "RequiredTags" : [ "RWR" ] },
+		{ "Name" : "Cameron", "RequiredTags" : [ "CameronMech" ] },
+		{ "Name" : "HighTech", "RequiredTags" : [ "HighTech" ] },
+		{ "Name" : "ComGuard", "RequiredTags" : [ "ComGuard" ] }
+		
 	]
 }

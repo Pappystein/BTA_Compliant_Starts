@@ -1,0 +1,160 @@
+{
+	"name": "EC Subjugatge Stronghold",
+	"requirementList": [
+		{
+			"Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+			"ExclusionTags": {
+				"items": [
+					"planet_other_empty"
+				],
+				"tagSetSourceFile": ""
+			}
+		}
+	],
+	"weight": 1,
+	"spawnLocation": "NearbyEnemy",
+	"employer": [
+		"Any"
+	],
+	"target": [
+		"SystemOwner"
+	],
+	"hireContract": "wiic_Subjugate_Enemy_Stronghold",
+	"availableFor": [
+		20,
+		35
+	],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"ScoutTheBase",
+		"",
+		"ContinueScouting",
+		"",
+		"CaptureFoothold",
+		"",
+		"",
+		"HarrassTheEnemy1",
+		"",
+		"EnemyCommanderAtLarge",
+		"",
+		"",
+		"HarrassTheEnemy2",
+		"",
+		"ReduceEnemySupport",
+		"ReduceEnemySupport2",
+		"",
+		"ReduceEnemySupport3",
+		"",
+		"",
+		"FinalSweep",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"ScoutTheBase": {
+			"workOrder": "Scout the Base",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, our liaison from {TEAM_EMP.FactionDef.ShortName}, has given us the location of the base we are to capture.  Our first step is to sweep the area in a scouting force eliminating any enemies we discover along the way.  Our contact with {TEAM_EMP.FactionDef.ShortName} forces have indicated the possibility of 3rd party interlopers. That is however, not a certainty."
+		},
+		"ContinueScouting": {
+			"workOrder": "Secondary Sweep",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has asked us to do a further sweep of the area, Commander. As before there is a chance of 3rd party interlopers so stay on your toes!"
+		},
+		"CaptureFoothold": {
+			"workOrder": "Capture a strong foothold",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				7
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} Has given us our first major target of this whole endeavor!  Go capture that base commander!"
+		},
+		"HarrassTheEnemy1": {
+			"workOrder": "Harrass The Enemy",
+			"contractChance": 0.35,
+			"allowedContractTypes": [
+				3,
+				10,
+				15
+			],
+			"contractMessage": "We have an optional harassment mission from {TEAM_EMP.FactionDef.ShortName}, Commander. They want us to scout and engage the enemy to take pressure off the base.  However, if we need to refit our forces, our contractor will not hold us skipping this mission against us."
+		},
+		"EnemyCommanderAtLarge": {
+			"workOrder": "Take out the Enemy Leadership",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				10
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a senior leader in the {TEAM_TAR.FactionDef.Demonym} force for us to take out.   Go get them and remove them from the playing field."
+		},
+		"HarrassTheEnemy2": {
+			"workOrder": "Harrass The Enemy",
+			"contractChance": 0.66,
+			"allowedContractTypes": [
+				3,
+				10,
+				15
+			],
+			"contractMessage": "We have an optional harassment mission from {TEAM_EMP.FactionDef.ShortName}, Commander. They want us to scout and engage the enemy to take pressure off the base.  However, if we need to refit our forces, our contractor will not hold us skipping this mission against us."
+		},
+		"ReduceEnemySupport": {
+			"workOrder": "Reduce Enemy Support",
+			"contractChance": 0.9,
+			"allowedContractTypes": [
+				15
+			],
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here!  This mission is completely optional Commander.  No penalty if we can not muster forces for it."
+		},
+		"ReduceEnemySupport2": {
+			"workOrder": "Reduce Enemy Support",
+			"contractChance": 0.55,
+			"allowedContractTypes": [
+				15
+			],
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found another convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here!  This mission is completely optional Commander.  No penalty if we can not muster forces for it."
+		},
+		"ReduceEnemySupport3": {
+			"workOrder": "Reduce Enemy Support",
+			"contractChance": 0.80,
+			"allowedContractTypes": [
+				15
+			],
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a rather plump convoy from {TEAM_TAR.FactionDef.Demonym}.  This convoy may be worth bringing our premium units out to capture/destroy.  This mission is completely optional Commander.  No penalty if we can not muster forces for it.",
+			"contractBonusSalvage": 6,
+			"contractPayoutMultiplier": 3.5
+		},
+		"FinalSweep": {
+			"workOrder": "Final Sweep",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has asked us to do a further sweep of the area, Commander. As before there is a chance of 3rd party interlopers so stay on your toes!"
+		},
+		"PaymentDelivered": {
+			"popupTitle": "The Base Commander Sends Their Thanks",
+			"popupMessage": "Our payment was just delivered, Commander.  {TEAM_EMP.FactionDef.ShortName} is overall happy with our performance. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+	}
+}

@@ -7,8 +7,8 @@
 	},
 	"ActivationTime" : "ConsumedByFiring",
     "Targeting" : "ActiveProbe",
-    "ActivationCooldown" : 5,
-	"FloatParam1": 210.0,
+    "ActivationCooldown" : 2,
+	"FloatParam1": 90.0,
 	"FloatParam2": 9.0,
 	"StringParam1": "Active Probe is unavailable."
 }

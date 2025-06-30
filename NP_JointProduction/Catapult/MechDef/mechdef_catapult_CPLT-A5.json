@@ -66,7 +66,7 @@
 		"UIName": "Catapult CPLT-A5",
 		"Id": "mechdef_catapult_CPLT-A5",
 		"Name": "Catapult",
-		"Details": "During an extensive design session with RAD Group, a Pafftek Industries design team member noted that no multi-missile launcher Catapults existed.  Given that the RAD Group D series of Catapults are armed with short-range missiles, and the Pafftek E Series is ballistic un-challenged, Building an MML-equipped Catapult just seemed the correct thing to do.  While designated the CPLT-A4, this mech chassis is a derivative of the CPLT-E4, which also fields smaller MMLs in addition to Light Autocannons.",
+		"Details": "Developed utilizing a host of Pafftek Industries Tech, the A5 variant of the Catapult is armed with the Extended Range LRMs, and fitted with 7 Fixed Improved Jumpjets somewhat limiting alternative loadouts.   Meant to climb to the highest peak and snipe enemies iwht the ELRMs from extreme ranges, this variant includes the electronics to do so reasonably well.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"simGameMechPartCost": 740000,

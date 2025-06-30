@@ -7,12 +7,12 @@
 			{"CategoryID": "C3"}
 		],
 		"BonusDescriptions": [
-			"Defense: +1",
+			"MissileDefense: +1",
 			"SensorLockImmune",
-			"ECMBubble: 120",
+			"ECMBubble: 90",
 			"IsProbe",
-			"ProbeBubble: 210",
-			"EvaMax: +2"
+			"ProbeBubble: 90",
+			"EvaMax: +1"
 		],		
 		"DecoratorComponent":[
 			{
@@ -79,7 +79,7 @@
 				"statisticData": {
 					"statName": "ADD_ENCOUNTER_TAG_Clan_Network",
 					"operation": "Float_Add",
-					"modValue": "1",
+					"modValue": "2",
 					"modType": "System.Single"
 				},
 				"nature": "Buff"
@@ -205,7 +205,7 @@
 			"statisticData": {
 				"statName": "MaxEvasivePips",
 				"operation": "Int_Add",
-				"modValue": "4",
+				"modValue": "1",
 				"modType": "System.Int32"
 			},
 			"nature": "Buff"
@@ -216,7 +216,7 @@
 			"Id": "Gear_Angel_ECM_WeaponScramble",
 			"Name": "Weapon Scrambling",
 			"ReticleColor": "#ffffff",
-			"Range": 150,
+			"Range": 90,
 			"RemoveOnSensorLock": false,
 			"State": "Online",
 			"ApplySelf": true,
@@ -256,7 +256,7 @@
 						"Icon": "circuitry"
 					},
 					"statisticData": {
-						"statName": "ToHitThisActor",
+						"statName": "ToHitThisActorMissile",
 						"operation": "Float_Add",
 						"modValue": "1.0",
 						"modType": "System.Single"
@@ -266,61 +266,8 @@
 			]
 		},
 		{
-			"Id": "Gear_Guardian_ECM_MissleScramble",
-			"Name": "Missile Scrambling",
-			"ReticleColor": "#ffffff",
-			"Range": 150,
-			"RemoveOnSensorLock": false,
-			"State": "Online",
-			"ApplySelf": true,
-			"AllyStealthAffection": "None",
-			"EnemyStealthAffection": "None",
-			"IsPositiveToAlly": true,
-			"IsNegativeToEnemy": false,
-			"ownerVFX": [],
-			"targetVFX": [],
-			"removeOwnerVFX": [],
-			"removeTargetVFX": [],
-			"ownerSFX": [],
-			"targetSFX": [],
-			"removeOwnerSFX": [],
-			"removeTargetSFX": [],
-			"statusEffects": [
-				{
-					"durationData": {
-						"duration": -1,
-						"stackLimit": 1
-					},
-					"targetingData": {
-						"effectTriggerType": "Passive",
-						"specialRules": "NotSet",
-						"effectTargetType": "AlliesWithinRange",
-						"range": 0.0,
-						"forcePathRebuild": false,
-						"forceVisRebuild": false,
-						"showInTargetPreview": false,
-						"showInStatusPanel": true
-					},
-					"effectType": "StatisticEffect",
-					"Description": {
-						"Id": "GECMInterference",
-						"Name": "GECM Interference",
-						"Details": "Guardian ECM is making this unit harder to hit, +2 penalty to enemy missile attacks.",
-						"Icon": "circuitry"
-					},
-					"statisticData": {
-						"statName": "ToHitThisActorMissile",
-						"operation": "Float_Add",
-						"modValue": "2.0",
-						"modType": "System.Single"
-					},
-					"nature": "Buff"
-				}
-			]
-		},
-		{
-			"Id": "Gear_Guardian_ECM_C3Scramble",
-			"Name": "C3 Scrambling",
+			"Id": "Gear_Nova_ECM_C3Scramble",
+			"Name": "Network Scrambling",
 			"ReticleColor": "#1a91ea",
 			"Range": 120,
 			"RemoveOnSensorLock": false,
@@ -347,24 +294,24 @@
 					"targetingData": {
 						"effectTriggerType": "Passive",
 						"specialRules": "NotSet",
-						"effectTargetType": "AlliesWithinRange",
+						"effectTargetType": "EnemiesWithinRange",
 						"range": 0.0,
 						"forcePathRebuild": false,
 						"forceVisRebuild": false,
 						"showInTargetPreview": false,
-						"showInStatusPanel": true
+						"showInStatusPanel": false
 					},
 					"effectType": "StatisticEffect",
 					"Description": {
-						"Id": "StatusEffect_ECM-C3-Jamming",
-						"Name": "C3 Jamming",
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming",
+						"Name": "C3 Enemy Jamming",
 						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
 						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
 						"operation": "Float_Add",
-						"modValue": "-2",
+						"modValue": "-3",
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
@@ -392,13 +339,73 @@
 						"Icon": "circuitry"
 					},
 					"statisticData": {
-						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"statName": "ADD_ENCOUNTER_TAG_C3i_Network",
 						"operation": "Float_Add",
-						"modValue": "-2",
+						"modValue": "-3",
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
-				}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
+						"operation": "Float_Add",
+						"modValue": "-1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_Clan_Network",
+						"operation": "Float_Add",
+						"modValue": "-1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}				
 			]
 		}
 	],

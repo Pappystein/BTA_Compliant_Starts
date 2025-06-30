@@ -23,7 +23,7 @@
 		},
 		{
 			"Type": "AdvancedJSONMerge",
-			"Path": "DefaultMergeDefs"
+			"Path": "CockpitRepair"
 		},
 		{
 			"Type": "CCUnitTypes",

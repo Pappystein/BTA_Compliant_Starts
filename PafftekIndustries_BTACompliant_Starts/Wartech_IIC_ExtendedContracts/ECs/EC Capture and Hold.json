@@ -176,7 +176,7 @@
 				53
 			],
 			"declinePenalty": "BadFaith",
-			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} has a {TEAM_TAR.FactionDef.Demonym}base for us to destroy.   Go get them and remove them from the playing field."
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} has a {TEAM_TAR.FactionDef.Demonym} base for us to destroy.   Go get them and remove them from the playing field."
 		},
 		"FinalSweep": {
 			"workOrder": "Final Sweep",

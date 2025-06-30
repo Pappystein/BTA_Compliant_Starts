@@ -9,10 +9,10 @@
 				"Bombast",
 				"WpnCrits: 50%",
 				"WpnAccuracy: +1",
-				"ModalWeapon: Base Charge",
-				"ModalWeapon1: Low Charge",
-				"ModalWeapon2: Mid Charge",
-				"ModalWeapon3: Max Charge",
+				"ModalWeapon: Base Charge 360m 20 dmg 12 Heat",
+				"ModalWeapon1: Low Charge 480m 26 dmg 18 Heat",
+				"ModalWeapon2: Mid Charge 560m 30 dmg 22 Heat",
+				"ModalWeapon3: Max Charge 720m 35dmg 30 Heat",
 				"WeaponAttachmentCompatible: Laser Insulator",
 				"WeaponAttachmentCompatible: Laser FCS"
 			]

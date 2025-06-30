@@ -64,7 +64,7 @@
 	],
 	"inventory": [
 		{
-			"MountedLocation": "Front",
+			"MountedLocation": "Turret",
 			"ComponentDefID": "Weapon_Autocannon_RAC5_0-Mydron",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -172,7 +172,7 @@
 			"HardpointSlot": -1
 		},
 		{
-			"MountedLocation": "Front",
+			"MountedLocation": "Turret",
 			"ComponentDefID": "Gear_VTOL_Chin_Turret",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1

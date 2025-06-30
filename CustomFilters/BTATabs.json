@@ -528,6 +528,7 @@
 			],
 			"NotCategories": [
 				"Structure",
+				"HybridStructure",
 				"StandardJJ",
 				"ImprovedJJ",
 				"QuadFrontLegJJ",
@@ -566,6 +567,20 @@
 				"LeagueNetSupportNode",
 				"CommsGear",
 				"LandingGear",
+				"Cargo",
+				"LegHip",
+				"LegUpperActuator",
+				"LegLowerActuator",
+				"LegFootActuator",
+				"AESLeg",
+				"ArmShoulder",
+				"ArmUpperActuator",
+				"ArmLowerActuator",
+				"ArmHandActuator",
+				"OmniHandActuator",
+				"OmniLowerActuator",
+				"AESArm",
+				"Rattler",
 				"notused"
 			]
 		},
@@ -733,6 +748,7 @@
 			"NotCategories": [
 				"Armor",
 				"Structure",
+				"HybridStructure",
 				"Gyro",
 				"Quirk",
 				"Armor",
@@ -742,9 +758,16 @@
 				"Avionics",
 				"LandingGear",
 				"TankStuff",
-				"BAGear",
 				"PartialWing",
 				"CommsGear",
+				"Cargo",
+				"Rattler",
+				"TSM",
+				"ProtoTSM",
+				"SCM",
+				"MASC",
+				"Myomer",
+				"BAGear",
 				"notused"
 			]
 		},
@@ -795,6 +818,7 @@
 						"TarComp"
 					],
 					"NotCategories": [
+						"BAGear",
 						"Quirk",
 						"notused"
 					]
@@ -823,6 +847,7 @@
 						"LeagueNetSupportNode"
 					],
 					"NotCategories": [
+						"BAGear",
 						"notused"
 					]
 				}
@@ -839,6 +864,7 @@
 						"WeaponAttachment"
 					],
 					"NotCategories": [
+						"BAGear",
 						"Quirk",
 						"notused"
 					]
@@ -860,6 +886,7 @@
 						"AESLeg"
 					],
 					"NotCategories": [
+						"BAGear",
 						"notused"
 					]
 				}
@@ -882,6 +909,7 @@
 						"AESArm"
 					],
 					"NotCategories": [
+						"BAGear",
 						"Quirk",
 						"notused"
 					]
@@ -900,6 +928,7 @@
 						"Strafe"
 					],
 					"NotCategories": [
+						"BAGear",
 						"Quirk",
 						"notused"
 					]
@@ -918,10 +947,10 @@
 						"Cargo",
 						"Supercharger",
 						"CombatShield",
-						"BACombatShield",
 						"Handhold",
 						"HarJel",
-						"BlueShield"
+						"BlueShield",
+						"BACombatShield"
 					],
 					"NotCategories": [
 						"Armor",
@@ -943,6 +972,7 @@
 						"OmniHandActuator",
 						"OmniLowerActuator",
 						"Quirk",
+						"BAGear",
 						"notused"
 					]
 				}

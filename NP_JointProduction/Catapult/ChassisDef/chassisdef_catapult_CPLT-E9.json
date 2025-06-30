@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-E9",
 		"Name": "Catapult",
-		"Details": "RAD Group, taking Pafftek Industries notorious Stormbreaker Mk9 and placeing it on the E-Series of Catapult is not amazing.  What is amazing is that RAD Group did it before Pafftek Industries even came to the same design conculsion.  The CPLT-E9 is armed with two Mk-9 Stormbreakers, each with 3 tons of Magshot Ammunition for longer term staying power on the field.   ",
+		"Details": "RAD Group, taking Pafftek Industries notorious Stormbreaker Mk9 and placing it on the E-Series of Catapult is not amazing.  What is amazing is that RAD Group did it before Pafftek Industries even came to the same design conclusion.  The CPLT-E9 is armed with two Mk-9 Stormbreakers, each with 3 tons of Magshot Ammunition for a reasonable staying power.  Two Medium Pulse Lasers complete the loadout.   An Exchanger Mk.I is included to provide some level of heat reduction for when alpha strikes on 3x mode with both Stormbreakers are called for.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

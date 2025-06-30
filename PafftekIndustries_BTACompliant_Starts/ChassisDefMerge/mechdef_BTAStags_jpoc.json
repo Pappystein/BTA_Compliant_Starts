@@ -1,24 +1,54 @@
 {
 	"TargetType": "ChassisDef",
-    "TargetIDs": ["chassisdef_stag_STG-15G,chassisdef_stagii_STG-24G,chassisdef_stagii_STG-25G,chassisdef_stagii_STG-30G"],
-    "Instructions": [
+	"TargetIDs": [
+		"chassisdef_stag_STG-14G",
+		"chassisdef_stag_STG-15G",
+		"chassisdef_stagii_STG-24G",
+		"chassisdef_stagii_STG-25G",
+		"chassisdef_stagii_STG-30G"
+	],
+	"Instructions": [
 		{
-            "JSONPath": "FixedEquipment[0]",
-            "Action": "ArrayAddBefore",
-            "Value": [		
-					{
-						"MountedLocation": "RightArm",
-						"ComponentDefID": "emod_arm_stabalized_lower",
-						"SimGameUID": "",
-						"ComponentDefType": "Upgrade",
-						"HardpointSlot": -1,
-						"IsFixed": true,
-						"GUID": null,
-						"DamageLevel": "Functional",
-						"prefabName": "",
-						"hasPrefabName": false
-					}
+			"JSONPath": "FixedEquipment[0]",
+			"Action": "ArrayAddBefore",
+			"Value": [
+				{
+					"MountedLocation": "RightArm",
+					"ComponentDefID": "emod_arm_stabalized_lower",
+					"SimGameUID": "",
+					"ComponentDefType": "Upgrade",
+					"HardpointSlot": -1,
+					"IsFixed": true,
+					"GUID": null,
+					"DamageLevel": "Functional",
+					"prefabName": "",
+					"hasPrefabName": false
+				}
 			]
 		}
-    ]
+	],
+	"TargetType": "mechdef",
+	"TargetIDs": [
+		"mechdef_stag_STG-14G",
+		"mechdef_stag_STG-15G",
+		"mechdef_stagii_STG-24G",
+		"mechdef_stagii_STG-25G",
+		"mechdef_stagii_STG-30G"
+	],
+	"Instructions": [
+		{
+			"JSONPath": "inventory[?(@.ComponentDefID == 'emod_arm_part_lower')]",
+			"Action": "remove"
+		},
+		{
+			"JSONPath": "inventory[0]",
+			"Action": "ArrayAddAfter",
+			"Value": {
+				"MountedLocation": "LeftArm",
+				"ComponentDefID": "emod_arm_part_lower",
+				"ComponentDefType": "Upgrade",
+				"DamageLevel": "Functional"
+			}
+		}
+	]
 }

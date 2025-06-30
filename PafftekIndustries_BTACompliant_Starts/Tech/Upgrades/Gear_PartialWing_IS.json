@@ -1,27 +1,30 @@
 {
 	"Custom": {
-		"Category": [{
-			"CategoryID": "PartialWing"
-		}],
+		"Category": [
+			{
+				"CategoryID": "PartialWing"
+			}
+		],
 		"Flags": [
 			"not_broken"
-
 		],
 		"BonusDescriptions": [
 			"HeatPerTurn: -9",
-			"JumpDistance: +30%"
-
+			"JumpDistance: +30%",
+			"UpgradeWeight: 70%",
+			"PartialWing"
 		],
-
 		"Weights": {
 			"StructureFactor": 1.7
 		},
 		"Linked": {
-			"Links": [{
-				"ComponentDefId": "Gear_PartialWing_LTslot",
-				"Location": "LeftTorso",
-				"ComponentDefType": "Upgrade"
-			}]
+			"Links": [
+				{
+					"ComponentDefId": "Gear_PartialWing_LTslot",
+					"Location": "LeftTorso",
+					"ComponentDefType": "Upgrade"
+				}
+			]
 		}
 	},
 	"Description": {
@@ -47,7 +50,8 @@
 	"AllowedLocations": "RightTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"statusEffects": [{
+	"statusEffects": [
+		{
 			"durationData": {
 				"duration": -1,
 				"ticksOnActivations": false,

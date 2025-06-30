@@ -8,7 +8,7 @@
 		"UIName": "Catapult",
 		"Id": "chassisdef_catapult_CPLT-A5",
 		"Name": "Catapult",
-		"Details": "Developed utilizing a Host of Pafftek Industries Tech, the A5 variant of the Catapult is armed with the Extended Range LRMs, and fitted with 7 Fixed Improved Jumpjets somewhat limiting alternative loadouts.   Meant to climb to the highest peak and snipe enemies iwht the ELRMs from extreme ranges, this variant includes the electronics to do so reasonably well.",
+		"Details": "Developed utilizing a host of Pafftek Industries Tech, the A5 variant of the Catapult is armed with the Extended Range LRMs, and fitted with 7 Fixed Improved Jumpjets somewhat limiting alternative loadouts.   Meant to climb to the highest peak and snipe enemies iwht the ELRMs from extreme ranges, this variant includes the electronics to do so reasonably well.",
 		"Icon": "uixTxrIcon_catapult"
 	},
 	"MovementCapDefID": "movedef_catapult_CPLT-C1",

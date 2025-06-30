@@ -1,12 +1,32 @@
 {
-    "TargetIDs": ["chassisdef_wasp_WSP-100", "chassisdef_wasp_WSP-100A", "chassisdef_wasp_WSP-100B", "chassisdef_wasp_WSP-101A", "chassisdef_wasp_WSP-103", "chassisdef_wasp_WSP-105", "chassisdef_wasp_WSP-105M", "chassisdef_wasp_WSP-105N",
-		"chassisdef_stinger_STG-A1", "chassisdef_stinger_STG-A5", "chassisdef_stinger_STG-A7", "chassisdef_stinger_STG-H1", "chassisdef_stinger_STG-A10", "chassisdef_stinger_STG-A11",
-		"chassisdef_phoenixhawk_PHX-HK1", "chassisdef_phoenixhawk_PHX-HK1R", "chassisdef_phoenixhawk_PHX-HK2", "chassisdef_phoenixhawk_PHX-HK2B", "chassisdef_phoenixhawk_PHX-HK2M", "chassisdef_phoenixhawk_PHX-HK2P", "chassisdef_phoenixhawk_PHX-HK3"],
-    "Instructions": [
+	"TargetIDs": [
+		"chassisdef_wasp_WSP-100",
+		"chassisdef_wasp_WSP-100A",
+		"chassisdef_wasp_WSP-100B",
+		"chassisdef_wasp_WSP-101A",
+		"chassisdef_wasp_WSP-103",
+		"chassisdef_wasp_WSP-105",
+		"chassisdef_wasp_WSP-105M",
+		"chassisdef_wasp_WSP-105N",
+		"chassisdef_stinger_STG-A1",
+		"chassisdef_stinger_STG-A5",
+		"chassisdef_stinger_STG-A7",
+		"chassisdef_stinger_STG-H1",
+		"chassisdef_stinger_STG-A10",
+		"chassisdef_stinger_STG-A11",
+		"chassisdef_phoenixhawk_PHX-HK1",
+		"chassisdef_phoenixhawk_PHX-HK1R",
+		"chassisdef_phoenixhawk_PHX-HK2",
+		"chassisdef_phoenixhawk_PHX-HK2B",
+		"chassisdef_phoenixhawk_PHX-HK2M",
+		"chassisdef_phoenixhawk_PHX-HK2P",
+		"chassisdef_phoenixhawk_PHX-HK3"
+	],
+	"Instructions": [
 		{
-            "JSONPath": "ChassisTags.items[0]",
-            "Action": "ArrayAddBefore",
-            "Value": "SLDFMech"
-        }
-    ]
+			"JSONPath": "ChassisTags.items[0]",
+			"Action": "ArrayAddBefore",
+			"Value": "SLDFMech"
+		}
+	]
 }

@@ -255,7 +255,7 @@
 			"HardpointSlot": -1
 		},
 		{
-			"MountedLocation": "Front",
+			"MountedLocation": "Turret",
 			"ComponentDefID": "Gear_VTOL_Chin_Turret",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
