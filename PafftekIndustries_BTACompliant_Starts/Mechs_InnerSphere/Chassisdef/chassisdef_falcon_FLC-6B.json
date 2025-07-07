@@ -199,7 +199,8 @@
 	"VariantName": "FLC-6B",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

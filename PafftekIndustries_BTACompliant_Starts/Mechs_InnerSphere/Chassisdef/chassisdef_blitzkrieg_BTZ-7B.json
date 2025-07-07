@@ -18,7 +18,7 @@
 		"UIName": "Blitzkrieg",
 		"Id": "chassisdef_blitzkrieg_BTZ-7B",
 		"Name": "Blitzkrieg",
-		"Details": "Taking its name from a term meaning 'Lightning War' the Blitzkrieg completely lives up to the name. The BTZ-7B variant is meant to bring Bombast Lasers in quantity to the battlefield.  To do so, the BTZ-7B downgrades the engine core one step to   ",
+		"Details": "Taking its name from a term meaning \"Lightning War\" the Blitzkrieg completely lives up to the name. The BTZ-7B is a \"Refined\" BTZ-6F.  By swapping one of the Bombast Laser Cannons for a Medium Bombast Laser, tonnage was freed up for better heatsinking, ECM and an AMS setup.  Further, the drivetrain of the BTZ-7B is of a \"Less is more\" concept with a 300XL + MASC in lieu of the 350XL of the BTZ-6F.  This increases heat but allows for better heatsinking over all.  All of this dramatically improves protection on the mech. Overall the value of this particular Blitzkrieg is lower than expected however.",
 		"Icon": "uixTxrIcon_blitzkrieg"
 	},
 	"MovementCapDefID": "movedef_bombard",
@@ -209,12 +209,13 @@
 		"items": [
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
-			"MediumMech"
+			"MediumMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Lightning War",
-	"YangsThoughts": "Taking its name from a term meaning 'Lightning War' the Blitzkrieg completely lives up to the name. The Blitzkrieg is built on a lightweight Endo Steel chassis and is powered by a 350 XL engine that gives the 'Mech a top speed of 118.8 km/h. The Blitzkrieg is primarily protected by its high speed as its armor is generally insufficient for extended combat. The cavernous amount of space in the Blitzkrieg allows it to carry a massive Sniper Artillery Cannon with three tons of ammo. The Sniper Cannon does so much damage that it usually completely obliterates the Blitzkrieg's targets, meaning its light armor is usually not relevant.",
+	"YangsThoughts": "Boss,  I do not know if this is a good variant.  Decide base on your pilots feedback, not the numbers on the table.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

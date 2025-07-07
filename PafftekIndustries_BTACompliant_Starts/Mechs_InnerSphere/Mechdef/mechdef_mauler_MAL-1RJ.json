@@ -39,7 +39,7 @@
 		"UIName": "Mauler MAL-1RJ",
 		"Id": "mechdef_mauler_MAL-1RJ",
 		"Name": "Mauler",
-		"Details": "A late 3060's Upgrade to the basic Mauler MAL-1R for both DCMS and Mercenary forces.  The MAL-1RJ is a depot level \"Glider Kit\".  Like all Glider Kits it is actually a new chassis that existing components from a war weary chassis are installed into.  This way to \"Re-new\" a mech at a maintenance Depot rather than building all the components fresh reduces cost and time to deploy.   However, often times there is little that can be changed between the old and the new chassis.  In the case of the MAL-1RJ the big change is the switch to Endo-Steel structure from standard structure.  This resulted in a new armor setup as well.  Lastly the LRM-15s were replaced by Streak 6s and additional ammunition for long range shooting with the AC/2s is provided.",
+		"Details": "A late 3060's Upgrade to the basic Mauler MAL-1R for both DCMS and Mercenary forces.  The MAL-1RJ is a depot level \"Glider Kit\".  Like all Glider Kits it is actually a new chassis that existing components from a war weary chassis are installed into.  This way to \"Re-new\" a mech at a maintenance Depot rather than building all the components fresh reduces cost and time to deploy.   However, often times there is little that can be changed between the old and the new chassis.  In the case of the MAL-1RJ the big change is the switch to Endo-Steel structure from standard structure.  This resulted in a new armor setup as well.  Lastly the LRM-15s were replaced by two improved one shot (i-OS) SRM2 launchers with on the fly ammo selection, and additional ammunition for long range shooting with the AC/2s.",
 		"Icon": "uixTxrIcon_mauler"
 	},
 	"simGameMechPartCost": 1080000,

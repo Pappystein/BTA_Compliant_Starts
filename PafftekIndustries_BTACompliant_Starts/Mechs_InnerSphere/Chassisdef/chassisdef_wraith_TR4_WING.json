@@ -198,7 +198,8 @@
 	"VariantName": "TR4 WING",
 	"ChassisTags": {
 		"items": [
-			"MediumMech"
+			"MediumMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

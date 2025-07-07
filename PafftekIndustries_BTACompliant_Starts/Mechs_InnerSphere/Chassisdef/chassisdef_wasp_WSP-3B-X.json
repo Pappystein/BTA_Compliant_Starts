@@ -8,7 +8,7 @@
 		"UIName": "Super Wasp",
 		"Id": "chassisdef_wasp_WSP-3B-X",
 		"Name": "Super Wasp",
-		"Details": "The WSP-3B-X Super Wasp is an evolution of the classic Wasp, a re-design that essentially produced a new BattleMech with even a different tonnage. Weighing as much as a Commando, the Super Wasp maintained the basic ground speed and jump capability of its inspiration, but also added an engine Supercharger which allowed it to sprint at speeds of up to 120km/h.",
+		"Details": "The WSP-3B-X Super Wasp is an evolution of the classic Wasp, a re-design that essentially produced a new BattleMech with even a different tonnage. Weighing as much as a Commando, the Super Wasp maintained the basic ground speed but with enhanced jump distance when compared to it's inspiration.  The Prototype Improved Jumpjets are utilized, and since they can explode, Ferro Anti Pierce armor is fitted provided vented exit for any explosion.  The SRM in the left foot is a 4 tube fed by 1/2 ton.  This gives 12 rounds of shooting which is not always enough.   The Laser armament in the Right arm is a Medium Bombast Laser.  A relatively new invention to come out of the Fed-Com Alliance.",
 		"Icon": "uixTxrIcon_wasp"
 	},
 	"MovementCapDefID": "movedef_wasp_WSP-1A",
@@ -204,12 +204,13 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"mr-resize-1.1-1.1-1.1",
-			"LightMech"
+			"LightMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Scout",
-	"YangsThoughts": "The WSP-2A-X Super Wasp is an evolution of the classic Wasp, a re-design that essentially produced a new BattleMech with even a different tonnage. Weighing as much as a Commando, the Super Wasp maintained the basic ground speed and jump capability of its inspiration, but also added an engine Supercharger which allowed it to sprint at speeds of up to 120km/h.",
+	"YangsThoughts": "Boss, this Super Wasp is as close as you can get to a LAM or VTOL in basic Bipedal Mech form.   This is super fast boss!",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

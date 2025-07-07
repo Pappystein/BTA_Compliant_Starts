@@ -226,7 +226,8 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
-			"HeavyMech"
+			"HeavyMech",
+			"ClanMech"
 		],
 		"tagSetSourceFile": ""
 	},

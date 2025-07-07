@@ -198,7 +198,8 @@
 	"VariantName": "TR4 Lift",
 	"ChassisTags": {
 		"items": [
-			"MediumMech"
+			"MediumMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

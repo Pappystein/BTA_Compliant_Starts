@@ -231,7 +231,8 @@
 	"VariantName": "COM-7JB",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

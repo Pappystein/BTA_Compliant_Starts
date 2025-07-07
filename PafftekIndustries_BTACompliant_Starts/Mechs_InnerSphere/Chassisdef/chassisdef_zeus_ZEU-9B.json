@@ -209,7 +209,8 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
-			"AssaultMech"
+			"AssaultMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

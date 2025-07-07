@@ -223,7 +223,8 @@
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"mr-resize-1.1-1.1-1.1",
-			"HeavyMech"
+			"HeavyMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

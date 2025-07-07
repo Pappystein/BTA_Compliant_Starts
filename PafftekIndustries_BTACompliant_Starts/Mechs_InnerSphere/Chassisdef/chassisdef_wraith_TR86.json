@@ -203,7 +203,8 @@
 	"VariantName": "TR86",
 	"ChassisTags": {
 		"items": [
-			"MediumMech"
+			"MediumMech",
+			"HighTech"
 		],
 		"tagSetSourceFile": ""
 	},

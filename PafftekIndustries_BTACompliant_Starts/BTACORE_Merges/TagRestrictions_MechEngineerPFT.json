@@ -41,7 +41,15 @@
 				"IncompatibleTags": [
 					"CASE",
 					"CASE2",
-					"ClanCASE2"
+					"ClanCASE2",
+					"StealthArmor",
+					"NullSig",
+					"CLPS",
+					"BlueShield",
+					"LeagueNetSupportNode",
+					"LeagueNetFocalNode",
+					"C3i",
+					"DroneNetwork"
 					
 				]
 			}

@@ -108,6 +108,18 @@
 					"Omni": false
 				},
 				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
@@ -138,8 +150,16 @@
 					"Omni": false
 				},
 				{
-				  "WeaponMount": "Missile",
-				  "Omni": false
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
@@ -186,8 +206,16 @@
 					"Omni": false
 				},
 				{
-				  "WeaponMount": "Missile",
-				  "Omni": false
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
@@ -213,6 +241,18 @@
 				},
 				{
 					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
