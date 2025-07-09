@@ -15,11 +15,11 @@
 	"Type": "Autocannon",
 	"WeaponSubType": "AC10",
 	"MinRange": 0,
-	"MaxRange": 720,
+	"MaxRange": 600,
 	"RangeSplit": [
-		180,
-		360,
-		540
+		150,
+		300,
+		450
 	],
 	"AmmoCategory": "AC10",
 	"StartingAmmoCapacity": 0,
@@ -38,7 +38,7 @@
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 2,
-	"Instability": 20,
+	"Instability": 35,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
 	"Description": {
 		"Cost": 340000,
@@ -49,7 +49,7 @@
 		"UIName": "DB AC/10",
 		"Id": "Weapon_Autocannon_AC10_Dbl_80_Pirate",
 		"Name": "DB AC/10",
-		"Details": "A Pirate <b>ULTRA</b> or more appropriately a Double Barreled Autocannon 10.  Utilizes Standard AC/10 rounds.  Note as a unique wepon-type, the DB AC/10 does not support any   ",
+		"Details": "A Pirate <b>ULTRA</b> or more appropriately a Double Barreled Autocannon 10.  Utilizes Standard AC/10 rounds.  THIS WEAPON IS IN DEVELOPMENT STILL!   MAY NOT BE FUNCTIONAL.   ",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "",

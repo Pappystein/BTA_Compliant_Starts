@@ -325,7 +325,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -333,7 +333,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -341,7 +341,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -373,7 +373,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -381,7 +381,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,

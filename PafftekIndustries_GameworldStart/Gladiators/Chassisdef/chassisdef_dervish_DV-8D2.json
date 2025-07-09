@@ -5,9 +5,9 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Dervish",
+		"UIName": "Dervish Lightbringer 2",
 		"Id": "chassisdef_dervish_DV-8D2",
-		"Name": "Dervish",
+		"Name": "Dervish Lightbringer 2",
 		"Details": "This Frankenmech version of the DV-8D Dervish was origionally designed by Nikos Matapoulous for arena fights.   Pafftek Industries appears to have made a limited run of these mechs for use outside of the Arena matches.",
 		"Icon": "uixTxrIcon_dervish"
 	},

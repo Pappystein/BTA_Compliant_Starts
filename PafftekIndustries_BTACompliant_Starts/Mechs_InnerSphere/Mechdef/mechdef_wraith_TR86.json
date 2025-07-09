@@ -460,7 +460,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -471,7 +471,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -482,7 +482,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -493,7 +493,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -504,7 +504,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -515,7 +515,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -537,7 +537,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -548,7 +548,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -559,7 +559,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,
@@ -570,7 +570,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_JumpJet_Improved_Standard_Prototype",
+			"ComponentDefID": "Gear_JumpJet_Prototype_Improved_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
 			"HardpointSlot": -1,

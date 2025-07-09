@@ -66,7 +66,7 @@
 		"Manufacturer": "1D10T Industries",
 		"Model": "Energy Cannon",
 		"UIName": "IER L Binary Laser",
-		"Id": "Weapon_Laser_BinaryLaserCannon_1-Defiance",
+		"Id": "Weapon_Laser_BinaryLaserCannon_81_Pirate",
 		"Name": "Improved Extended Range Large Binary Laser",
 		"Details": "1D10T, taking their 'Extended Range Blazer' technology, seeing Defiance Industries make the improved 'Blazer', and then looking at what technology they themselves had on hand, decided to make their own 'Improved ER Blazer.'  The resulting monstrosity is larger than Defiance's efforts and it explodes.  But it shoots further.	\n\n <b><color=#00ffff>Can change fire mode between Split Cores and Linked Cores. Linked is default mode, Split does two shots at less damage per shot with damage falloff on each shot. \n\n EXPOLODES when destroyed!</color> </b>",
 		"Icon": "uixSvgIcon_weapon_Energy"
