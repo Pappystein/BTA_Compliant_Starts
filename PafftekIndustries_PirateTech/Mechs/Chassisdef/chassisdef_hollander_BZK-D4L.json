@@ -211,7 +211,8 @@
 	"ChassisTags": {
 		"items": [
 			"mr-resize-0.75-0.75-0.75",
-			"LightMech"
+			"LightMech",
+			"PirateMech"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -242,7 +243,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_hacked",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

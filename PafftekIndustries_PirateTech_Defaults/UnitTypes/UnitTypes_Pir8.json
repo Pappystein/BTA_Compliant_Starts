@@ -1,0 +1,6 @@
+{
+	"Settings" : [
+		{ "Name" : "PirateMech", "RequiredTags" : [ "PirateMech" ] },
+		{ "Name" : "FissionCore", "RequiredTags" : [ "FissionCore" ] },
+	]
+}

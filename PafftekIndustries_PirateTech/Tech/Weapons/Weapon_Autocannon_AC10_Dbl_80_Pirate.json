@@ -6,8 +6,9 @@
 			}
 		],
 		"BonusDescriptions": [
-				"WpnRecoil: 16",
-				"WeaponJAMFlat: 25",
+				"WpnRecoil: 3",
+				"WpnRecoil: 9 in 2x",
+				"WeaponJAMFlat: 25% in 2x",
 				"VariableBurstCount: 2"
 			]
 	},
@@ -45,11 +46,11 @@
 		"Rarity": 0,
 		"Purchasable": true,
 		"Manufacturer": "1D10T Industries",
-		"Model": "Heavy Autocannon",
+		"Model": "Double Trouble Autocannon",
 		"UIName": "DB AC/10",
 		"Id": "Weapon_Autocannon_AC10_Dbl_80_Pirate",
 		"Name": "DB AC/10",
-		"Details": "A Pirate <b>ULTRA</b> or more appropriately a Double Barreled Autocannon 10.  Utilizes Standard AC/10 rounds.  THIS WEAPON IS IN DEVELOPMENT STILL!   MAY NOT BE FUNCTIONAL.   ",
+		"Details": "A Pirate <b>ULTRA</b> or more appropriately a Double Barreled Autocannon 10.  Utilizes Standard AC/10 rounds.  Due to the use of two barrels and a new weirdly setup ammunition feed, each barrel can not have different ammunition types when fired.   Also there is a goodly ammount of recoil felt as the double barrel assembly only has one set of Recoil dampners on it.   More recoil dampners would make the ammo feed even less reliable.   Most pilots use this in Single fire mode until the NEED arrises because of these drawbacks.  However the ability to use specalized ammunition makes the drawbacks worth it for most pilots.",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "",
@@ -80,7 +81,7 @@
 			"HeatGenerated": 16,
 			"FireDelayMultiplier": 0.3,
 			"FlatJammingChance": 0.25,
-			"RefireModifier": 16
+			"RefireModifier": 9
 		}
 	],
 	"statusEffects": [],

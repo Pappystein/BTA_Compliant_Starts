@@ -1,0 +1,117 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "SensorsA"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
+		},
+		"Flags": [
+				"default",
+				"not_broken",
+				"no_salvage",
+				"autorepair"
+		],
+		"BonusDescriptions": [
+				"IsSensorsA",
+				"SuperSensors: +1"
+			]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 99,
+		"Purchasable": false,
+		"Manufacturer": "Quirk",
+		"Model": "Ostscout",
+		"UIName": "Ostscout Cracked Sensors",
+		"Id": "Gear_Quirk_CrackedSensors_Ostscout",
+		"Name": "Ostscout Cracked Sensors",
+		"Details": "This is a heavily repaired set of Ostscout Sensors, the actual sensing devices are standard however reducing the effectiveness of this package.",
+		"Icon": "uixSvgIcon_equipment_Rangefinder"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "Head",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Ostscout_Quirk",
+			"Name": "OstscoutSensors",
+			"ReticleColor": "#ea7600",
+			"Range": 150,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": true,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"showInTargetPreview": true,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SuperSensors-TargetInfo",
+						"Name": "Enhanced Targeting Information",
+						"Details": "Shares targeting information on nearby enemies, +1 to hit enemies in radius",
+						"Icon": "AdvancedTC"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-1.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					}
+				}
+			]
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"BLACKLISTED",
+			"component_type_stock",
+			"lv-shares-sensors"
+		],
+		"tagSetSourceFile": ""
+	}
+}

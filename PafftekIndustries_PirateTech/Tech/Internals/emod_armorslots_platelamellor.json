@@ -1,0 +1,106 @@
+{
+	"Custom": {
+		"Color": "Gold",
+		"DynamicSlots": {
+			"ReservedSlots": 14,
+			"BackgroundColor": "GoldHalf",
+			"ShowIcon": true,
+			"NameText": "Plate Lamellor",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "2 * [[Chassis.Tonnage]] / 15",
+				"CBillCost": "200 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "Armor"
+			}
+		],
+		"Weights": {
+			"ArmorFactor": 1.15
+		},
+		"Flags": [
+			"autorepair",
+			"ignore_damage",
+			"not_broken",
+			"no_salvage"
+		],
+		"ArmorRepair": {
+			"ArmorTPCost": 1.8,
+			"ArmorCBCost": 1.9
+		},
+		"BonusDescriptions": [
+				"DamageTaken: -10%",
+				"ArmorFactor: +15%",
+				"Reserved: 14",
+			]
+	},
+	"Description": {
+		"Cost": 1400000,
+		"Rarity": 10,
+		"Purchasable": true,
+		"Manufacturer": "1D10T",
+		"Model": "Scale Plate",
+		"UIName": "Plate Lamellor",
+		"Id": "emod_armorslots_platelamellor",
+		"Name": "Plate Lamellor",
+		"Details": "Developed as a more flexible armor vs Heavy Plate armor, Plate Lamellor is designed to give with impact.  This results in a minor damage reduction on each hit taken.  The cost is extra mass.  Each point of armor massing 115% more than normal.",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTargetsCreator": true,
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-CFL",
+				"Name": "REDUCED DAMAGE TAKEN",
+				"Details": "All incoming damage reduced by 20%.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.90",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

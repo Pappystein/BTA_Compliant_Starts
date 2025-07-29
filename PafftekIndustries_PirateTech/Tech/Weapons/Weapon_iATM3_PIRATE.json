@@ -11,8 +11,8 @@
 		"BonusDescriptions": [
 			"PiATM",
 			"NoFireInMelee",
-			"MissileHealth: 2",
-			"WeaponAttachmentCompatible: LRM FCS"
+			"DMGOnJam",
+			"MissileHealth: 2"
 		]
 	},
 	"Category": "Missile",
@@ -55,7 +55,7 @@
 		"Cost": 154000,
 		"Rarity": 10,
 		"Purchasable": true,
-		"Manufacturer": "CLAN",
+		"Manufacturer": "Eloder Mak",
 		"Model": "improved Advanced Tactical Missile",
 		"UIName": "iATM 3 (P)",
 		"Id": "Weapon_iATM3_PIRATE",
@@ -70,7 +70,7 @@
 	"PrefabIdentifier": "lrm5",
 	"BattleValue": 0,
 	"InventorySize": 2,
-	"Tonnage": 1.5,
+	"Tonnage": 3,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -91,15 +91,14 @@
 			"isBaseMode": false,
 			"IndirectFireCapable": true,
 			"DirectFireModifier": 3.0,
+			"AccuracyModifier": 3,
 			"AlwaysIndirectVisuals": true
 		}
 	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_extreme",
-			"LRMFCSSupported-Standard",
-			"WebbTCSupported-SingleShot"
+			"range_extreme"
 		],
 		"tagSetSourceFile": ""
 	}

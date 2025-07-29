@@ -193,15 +193,6 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_275",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
@@ -246,7 +237,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_std_center",
+			"ComponentDefID": "emod_engineslots_pirate_center",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,

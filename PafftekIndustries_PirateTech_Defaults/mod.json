@@ -1,0 +1,18 @@
+{
+    "Name": "PafftekIndustries_PirateTechDefault",
+	"Author": "Pappystein",
+    "Enabled": true,
+	"Hidden": true,
+	
+
+    "Contact": "",
+	"Manifest": [
+
+			{ "Type": "AdvancedJSONMerge","Path": "DefaultUpdate/"},
+			{ "Type": "CCUnitTypes","Path": "UnitTypes/", "ShouldMergeJSON": false }
+  ],
+    "OptionallyDependsOn": ["BattleTech Advanced LV Overide"],
+	"DependsOn": [],
+	"ConflictsWith": [				
+	]
+}

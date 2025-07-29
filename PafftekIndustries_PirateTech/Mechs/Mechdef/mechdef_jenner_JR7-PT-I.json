@@ -23,7 +23,8 @@
 			"Circinus",
 			"BullardsArmoredCavalry",
 			"QuintsOlympianGroundpounders",
-			"GraysGhosts"
+			"GraysGhosts",
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},

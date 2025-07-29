@@ -28,7 +28,7 @@
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_BTACompliant_Starts" ],
+	"DependsOn": [ "PafftekIndustries_PirateTechDefault", "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_BTACompliant_Starts" ],
 	"ConflictsWith": [				
 	]
 }

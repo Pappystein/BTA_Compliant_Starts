@@ -1,0 +1,54 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "Armor"
+		},
+		"Color": "DarkGray",
+		"Flags": [
+				"ignore_damage",
+				"default"
+		],
+		"ArmorStructureChanges": {
+			"ArmorFactor": 0.97
+		},
+		"BonusDescriptions": [
+			"HackedArmor"
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "1 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+			}
+		}		
+	},
+	"Description": {
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false,
+		"Manufacturer": "Generic",
+		"Model": "Standard",
+		"UIName": "Hacked together Armor",
+		"Id": "emod_armorslots_standard_pirate",
+		"Name": "Less than Standard Armor",
+		"Details": "This hodge podge of small armor plates of varying quality is all you could scrounge up to protect your mech.  It does a good job but it is not perfect having a 3% less Armor points per ton.",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
