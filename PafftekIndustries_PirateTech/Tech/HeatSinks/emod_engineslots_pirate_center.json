@@ -23,7 +23,10 @@
 			"not_broken",
 			"vital",
 			"no_salvage"
-		]
+		],
+		"BonusDescriptions": [
+				"HeatPerTurn: 6"
+			]
 	},
 	"Description": {
 		"Cost": 0,

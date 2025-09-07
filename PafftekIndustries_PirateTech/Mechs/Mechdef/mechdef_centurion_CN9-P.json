@@ -126,7 +126,7 @@
 		"UIName": "Centurion CN9-P",
 		"Id": "mechdef_centurion_CN9-P",
 		"Name": "Centurion",
-		"Details": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating. CN9-A models are able to engage at any range, but their damage curve increases as they approach a target.",
+		"Details": "Often described as the hardest to detonate walking bomb in history, the CN9-P Is typical Pirate band salvage into service.   The lack of Standard Fusion engines or even jury-rigged ones for the manufacture, the CN9-P is powered by a Fission engine which can explode when damaged!   Armed with an Autocannon Class 5 main gun, 2 Medium lasers and 5 tubes of Long Range Missile goodliness.  The CN9-P is protected by a Plate Lamellor armor suit and is quite tanky, despite the Fission core.",
 		"Icon": "uixTxrIcon_centurion"
 	},
 	"simGameMechPartCost": 510000,
@@ -448,7 +448,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+			"ComponentDefID": "Weapon_LRM_LRM5_86-Telos",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -459,7 +459,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -470,7 +470,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

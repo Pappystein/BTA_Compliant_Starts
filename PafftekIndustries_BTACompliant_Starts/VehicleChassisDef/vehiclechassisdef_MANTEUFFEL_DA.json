@@ -18,7 +18,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",	
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
 	"MovementCapDefID": "movedef_5-8cv",
 	"PathingCapDefID": "pathingdef_heavy_tracked",
 	"HardpointDataDefID": "hardpointdatadef_manteuffel",

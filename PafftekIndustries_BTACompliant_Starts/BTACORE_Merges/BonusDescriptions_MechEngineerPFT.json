@@ -490,7 +490,14 @@
 					"Short": "Cobbled CASE",
 					"Long": "Cobbled together CASE can be destroyed.",
 					"Full": "Cobbled together CASE can be destroyed."
+				},
+				{
+					"Bonus": "NoAttachments",
+					"Short": "No Weapon Attachments",
+					"Long": "For whatever reason this weapon can not take attachments.",
+					"Full": "For whatever reason this weapon can not take attachments."
 				}
+				
 			]
 		}
 	]

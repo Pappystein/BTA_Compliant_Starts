@@ -1,0 +1,13 @@
+PFT_PR8_LRMAmmo_Tally,,,
+Ammo_AmmunitionBox_AoE_LRM,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Bee_LRM,AmmunitionBox,1,3
+Ammo_AmmunitionBox_Deadfire_LRM,AmmunitionBox,2,6
+Ammo_AmmunitionBox_Deadfire_LRM_DOUBLE,AmmunitionBox,2,4
+Ammo_AmmunitionBox_FTL_LRM,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Hydra_LRM_H,AmmunitionBox,1,1
+Ammo_AmmunitionBox_LK_LRM,AmmunitionBox,1,1
+Ammo_AmmunitionBox_Generic_LRM,AmmunitionBox,3,3
+Ammo_AmmunitionBox_Swarm_LRM,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Thunder_LRM,AmmunitionBox,1,3
+Ammo_AmmunitionBox_ThunderAugmented_LRM,AmmunitionBox,1,1
+Ammo_AmmunitionBox_ThunderInferno_LRM,AmmunitionBox,1,1

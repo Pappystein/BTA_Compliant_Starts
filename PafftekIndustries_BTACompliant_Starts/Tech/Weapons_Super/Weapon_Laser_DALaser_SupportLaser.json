@@ -77,7 +77,7 @@
 						"effectsPersistAfterDestruction": false,
 						"statName": "HeatGenerated",
 						"operation": "Int_Add",
-						"modValue": "12",
+						"modValue": "16",
 						"modType": "System.Int32",
 						"additionalRules": "NotSet",
 						"targetCollection": "NotSet",

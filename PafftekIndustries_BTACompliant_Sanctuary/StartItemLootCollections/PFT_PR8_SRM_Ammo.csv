@@ -1,0 +1,11 @@
+PFT_PR8_SRM_Ammo,,,
+Ammo_AmmunitionBox_Acid_SRM,AmmunitionBox,1,4
+Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Coal_SRM,AmmunitionBox,1,8
+Ammo_AmmunitionBox_Inferno_SRM,AmmunitionBox,1,6
+Ammo_AmmunitionBox_Tandem_SRM,AmmunitionBox,1,4
+Ammo_AmmunitionBox_SRM_LK,AmmunitionBox,1,1
+Ammo_AmmunitionBox_Acid_SRM_H,AmmunitionBox,2,4
+Ammo_AmmunitionBox_Inferno_SRM_H,AmmunitionBox,2,6
+Ammo_AmmunitionBox_SRM_LK_H,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Tandem_SRM_H,AmmunitionBox,2,4

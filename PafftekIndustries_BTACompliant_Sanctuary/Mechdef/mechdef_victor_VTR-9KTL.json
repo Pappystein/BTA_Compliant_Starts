@@ -34,7 +34,7 @@
 		"UIName": "Victor VTR-9KTL",
 		"Id": "mechdef_victor_VTR-9KTL",
 		"Name": "Victor",
-		"Details": "The Victor 9KTL is sourced from two sources: Davion and Kurtian forces. Converting the VTR-9K and VTR-9D chassis into the 9KTL is straightforward. The bulk of these changes are a Pitban 320-class light fusion core with attendant double heatsinks and improved fire control for the Gauss and SRM.",
+		"Details": "The Victor 9KTL is sourced from two sources: Davion and Kuritan forces. Converting the VTR-9K and VTR-9D chassis into the 9KTL is straightforward. The bulk of these changes are a Pitban 320-class light fusion core with attendant double heatsinks and improved fire control for the Gauss and SRM.",
 		"Icon": "uixTxrIcon_victor"
 	},
 	"simGameMechPartCost": 960000,
@@ -379,7 +379,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

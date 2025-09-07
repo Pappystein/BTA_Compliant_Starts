@@ -1,0 +1,61 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/o/Hmortar"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 100,
+			"HeatDamagePerAmmo": 50,
+			"StabilityDamagePerAmmo": 25
+		},
+		"BonusDescriptions": [
+			"AreaOfEffect: 120",
+			"AreaOfEffectDmg: 30",
+			"AreaOfEffectHeatDmg: 15",
+			"AlwaysStartsFireAnywhere",
+			"CostPerShot: 900",
+			"HeavyMortarAmmo: 10",
+			"TAG_Benefits: 1"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 900
+		}
+	},
+	"AmmoID": "Ammunition_MortarHvy_Inferno",
+	"Capacity": 10,
+	"Description": {
+		"Cost": 40000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "ICP Industries",
+		"Model": "HvyMORTAR",
+		"UIName": "Inferno Hvy Mortar",
+		"Id": "Ammo_AmmunitionBox_Inferno_MortarHvy",
+		"Name": "Inferno Hvy Mortar Ammo",
+		"Details": "Heavy Mortar shells deliver a massive Explosive payload, able to damage several units on impact. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Ballistic"
+	},
+	"BonusValueA": "AOE 120m 35dmg",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

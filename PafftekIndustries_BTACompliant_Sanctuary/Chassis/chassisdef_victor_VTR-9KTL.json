@@ -8,7 +8,7 @@
 		"UIName": "Victor",
 		"Id": "chassisdef_victor_VTR-9KTL",
 		"Name": "Victor",
-		"Details": "The Victor 9KTL is sourced from two sources: Davion and Kurtian forces. Converting the VTR-9K and VTR-9D chassis into the 9KTL is straightforward. The bulk of these changes are a Pitban 320-class light fusion core with attendant double heatsinks and improved fire control for the Gauss and SRM.",
+		"Details": "The Victor 9KTL is sourced from two sources: Davion and Kuritan forces. Converting the VTR-9K and VTR-9D chassis into the 9KTL is straightforward. The bulk of these changes are a Pitban 320-class light fusion core with attendant double heatsinks and improved fire control for the Gauss and SRM.",
 		"Icon": "uixTxrIcon_victor"
 	},
 	"MovementCapDefID": "movedef_victor_VTR-9B",

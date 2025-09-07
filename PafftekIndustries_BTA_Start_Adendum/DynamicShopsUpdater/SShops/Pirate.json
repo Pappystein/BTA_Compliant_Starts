@@ -1,0 +1,122 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_faction_pirate"
+		},
+		"items": "PFT_Pirate_BundleStandard"
+			
+	},
+	{
+		"conditions": {
+			"owner": "AuriganPirates",
+			"rep": "+FRIENDLY"			
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"owner": "AuriganPirates",
+			"rep": "HONORED"
+		},
+		"items": "PFT_Pirate_BundleImproved"
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_tortuga"
+		},
+		"items": "PFT_Pirate_BundleStandard"
+			
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_tortuga",
+			"owner": "Tortuga",
+			"rep": "+FRIENDLY"			
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_tortuga",
+			"owner": "Tortuga",
+			"rep": "HONORED"
+		},
+		"items": "PFT_Pirate_BundleImproved"
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_circinus"
+		},
+		"items": "PFT_Pirate_BundleStandard"
+			
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_circinus",
+			"owner": "Circinus",
+			"rep": "+FRIENDLY"			
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_circinus",
+			"owner": "Circinus",
+			"rep": "HONORED"
+		},
+		"items": "PFT_Pirate_BundleImproved"
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_marian"
+		},
+		"items": "PFT_Pirate_BundleStandard"
+			
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_marian",
+			"owner": "Marian",
+			"rep": "+FRIENDLY"			
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "planet_faction_marian",
+			"owner": "Marian",
+			"rep": "HONORED"
+		},
+		"items": "PFT_Pirate_BundleImproved"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_astralaustralis"
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_catscradle"
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_krakensabyss"
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "starsystemdef_MacksDustball"
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	},
+	{
+		"conditions": {
+			"tag": "starsystemdef_PortRime"
+		},
+		"items": "PFT_Pirate_BundleComplete"
+	}	
+]

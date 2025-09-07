@@ -32,7 +32,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Thunderbolt HE-I",
-		"UIName": "Ammo T-Bolt5 HE-I [Half]",
+		"UIName": "Ammo T-Bolt5 HE-I [H]",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_HEI_H",
 		"Name": "High Explosive Incindiary Thunderbolt 5 Ammo",
 		"Details": "High Explosive Incendiary, Does little heat damage, but applies the incendiary effect.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",

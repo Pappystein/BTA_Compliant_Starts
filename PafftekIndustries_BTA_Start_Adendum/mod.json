@@ -1,5 +1,5 @@
 {
-	"Name": "PafftekIndustries_BTACompliant_Starts",
+	"Name": "PafftekIndustries_BTACompliant_StoreAdendum",
 	"Enabled": true,
 	"Hidden": true,
 	"CustomResourceTypes": [
@@ -15,8 +15,24 @@
 	"Manifest": [
 		{
 			"Type": "ItemCollectionDef",
-			"Path": "ItemCollections",
+			"Path": "ItemCollections"
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "PFT_Store_Update",
 			"ShouldAppendText": true
+		},
+		{
+			"Type": "DShopDef",
+			"Path": "DynamicShopsUpdater/SShops"
+		},
+		{
+			"Type": "DBMShopDef",
+			"Path": "DynamicShopsUpdater/bmshops"
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollections_DynamicShops"
 		}
 	],
 	"OptionallyDependsOn": [],

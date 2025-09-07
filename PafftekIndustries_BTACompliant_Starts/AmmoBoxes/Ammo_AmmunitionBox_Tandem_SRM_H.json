@@ -33,7 +33,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "SRM Tandem",
-		"UIName": "Ammo SRM [TDM-H]",
+		"UIName": "Ammo SRM Tandem[H]",
 		"Id": "Ammo_AmmunitionBox_Tandem_SRM_H",
 		"Name": "SRM TandemCharge Ammo",
 		"Details": "Designed to replace standard SRMs with special warheads that penetrate armor and inflict damage to the internal structure of the target, the Tandem-Charge Missile uses a pair of explosives to inflict damage. The first explosive is a shaped charge that penetrates the unit's outer armor, while the second charge is propelled through the newly created breach to damage internal components. Tandem missiles will deal half damage to armor but 25% more to structure. Has 50 shots.",

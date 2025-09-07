@@ -50,7 +50,7 @@
 		"Purchasable": true,
 		"Manufacturer": "1D10T Industries",
 		"Model": "Threat Reduction Autocannon",
-		"UIName": "AC/5-80",
+		"UIName": "AC/5 +Pressure",
 		"Id": "Weapon_Autocannon_AC5_80_Pirate",
 		"Name": "AC/5-80",
 		"Details": "Taking a Myrmadon AC/5 shipment as it's basis, most of the manufacturing marks can still be found on these weapons, 1D10T Industries increased the pressure in the bore to create a harder hitting more accurate AC/5.  The downside to this is the weapon no longer has jam free operation.",

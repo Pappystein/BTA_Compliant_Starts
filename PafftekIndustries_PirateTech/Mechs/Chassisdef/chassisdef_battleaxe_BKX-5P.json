@@ -8,7 +8,7 @@
 		"UIName": "Battleaxe",
 		"Id": "chassisdef_battleaxe_BKX-5P",
 		"Name": "Battleaxe",
-		"Details": "One of the Federated Suns' first BattleMech designs, the Battleaxe was a much maligned mech in its era and remains as such today. This variant, the -7NC, was named the No Crash because it removes the sometimes problematic Jump Jets of the base BKX-7K for an extra pair of LRM-5s, bringing the total up to 4 launchers. The dual PPCs and the sole SRM-6 remain, as does the terrible heat and poor armor.",
+		"Details": "One of the Federated Suns' first BattleMech designs, the Battleaxe was a much maligned mech in its era and remains as such today. That however didn't stop the various pirate warbands from pilfering from various scrap piles across the Inner Sphere and making their own version.  The BKX-5P is the most commune variant.   Armed with PPCs, a five tube long range missile launcher and the hopes and prayers to whatever deity the mechwarrior piloting it prays to... since it has a Fission core and they are known to explode when hit with enough firepower.  The 1/2 ton of LRM ammo is sorta protected by Pirate standard C.A.S.E which is divisively called CASE-ish.  \n\n <b><color=#e51717>Pafftek Industries Pirate tech </color></b>",
 		"Icon": "uixTxrIcon_battleaxe"
 	},
 	"MovementCapDefID": "movedef_warhammer_WHM-6R",
@@ -106,7 +106,7 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
-				}			
+				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
@@ -232,7 +232,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Early Assault",
-	"YangsThoughts": "One of the Federated Suns' first BattleMech designs, the Battleaxe was a much maligned mech in its era and remains as such today. This variant, the -7NC, was named the No Crash because it removes the sometimes problematic Jump Jets of the base BKX-7K for an extra pair of LRM-5s, bringing the total up to 4 launchers. The dual PPCs and the sole SRM-6 remain, as does the terrible heat and poor armor.",
+	"YangsThoughts": "Boss! this has a Fission Core.  IT EASILY EXPLODES!  I would replace it with something safer before deploying this mech!",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

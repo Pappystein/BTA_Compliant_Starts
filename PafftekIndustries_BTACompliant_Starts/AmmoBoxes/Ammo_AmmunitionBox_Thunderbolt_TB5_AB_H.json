@@ -28,7 +28,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Air-burst Thunderbolt",
-		"UIName": "Ammo T-Bolt5 Airburst cluster [Half]",
+		"UIName": "Ammo T-Bolt5 Airburst cluster [H]",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_AB_H",
 		"Name": "Air-burst Thunderbolt 5 Ammo",
 		"Details": "Air Burst, similar to the cluster munitons of the LB/X autocannons.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",

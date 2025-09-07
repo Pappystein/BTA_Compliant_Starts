@@ -126,7 +126,7 @@
 		"UIName": "Panther PNT-8P",
 		"Id": "mechdef_panther_PNT-8P",
 		"Name": "Panther",
-		"Details": "Based on worn out PNT-8Z and PNT-9R chassis, the PNT-8P is a strictly pirate mech armed with 3 medium lasers and an SRM-4.   In a suprise twist for most opponents however the PNT-8P has a massive for the Panther 210 Core to power its speed, the weapons and its 5 Jump jets.  Rounding all this up, using newer technology the Pirate engineers and technians were able to beef up the structure to widthstand more damage.   All on what appears to be a bog simple and standard Panther chassis.",
+		"Details": "Based on worn out PNT-8Z and PNT-9R chassis, the PNT-8P is a strictly pirate mech armed with 3 medium lasers and an SRM-4.   In a surprise twist for most opponents however the PNT-8P has a massive, for the Panther, GTEM branded 210 Core to power its speed, the weapons and its 5 Jump jets.  Rounding all this up, using newer technology the Pirate engineers and technicians were able to beef up the structure to withstand more damage.   All on what appears to be a bog simple and standard Panther chassis.",
 		"Icon": "uixTxrIcon_panther"
 	},
 	"simGameMechPartCost": 360000,
@@ -470,7 +470,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_SRM_LK_H",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -481,7 +481,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+			"ComponentDefID": "Weapon_SRM_SRM4_80_Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -503,7 +503,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -514,7 +514,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -525,7 +525,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

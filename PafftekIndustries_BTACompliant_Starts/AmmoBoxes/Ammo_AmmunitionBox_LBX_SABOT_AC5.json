@@ -17,7 +17,7 @@
 				"LBX5Sabot: 15"
 			],
 		"AmmoCost": {
-			"PerUnitCost": 600
+			"PerUnitCost": 1600
 		}
 	},
 	"AmmoID": "Ammunition_LBX5_SABOT",

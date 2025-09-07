@@ -191,18 +191,12 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Tank_InfantryCompartment",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_IS_Standard",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Rear",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Rear",
-			"ComponentDefID": "Tank_BattleArmorFiringPorts",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
 		}
+	
 	]
 }

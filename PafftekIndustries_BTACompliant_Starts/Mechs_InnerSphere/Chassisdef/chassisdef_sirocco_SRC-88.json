@@ -284,7 +284,19 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_BApod_Sirocco",
+      "ComponentDefID": "Gear_Airdrop_Beacon_BA_Achilles",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Airdrop_Beacon_BA_Salamander",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

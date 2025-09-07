@@ -8,7 +8,7 @@
 		"UIName": "Cataphract",
 		"Id": "chassisdef_cataphract_CTF-0XP",
 		"Name": "Cataphract",
-		"Details": "The Confederation experimented with a Cataphract variant carrying the Electronic Warfare Equipment that was mounted on the Raven which was being designed around the same time. It was equipped with a single PPC and Autocannon/5, as well as two arm mounted Medium Lasers, the EW equipment, and a Small Laser in the center torso. A single shipment of CTF-0X prototypes was sent to Sian but line production did not commence afterwards because a request for more EW components was denied.",
+		"Details": "Many Cataphract wrecks littered the battlefields of the Inner Sphere starting in the 3040s and continuing onto today.  The various pirate Warbands successfully snagged quite a few of the early CTF-0X variant.  The re-animation process of these wrecks was a painful experience resulting in a hodge-podge setup.  The best manufactured were the CTF-0XP variant that used Eloder Mak's new Endo-Steal structure.   Of course this was before it became known that Eloder Mak botched up \"their\" formula (aka they stole a bad formulation of endo steel) and this mech suffers from an increased chance of being critically hit.   For all those negatives, it is a relatively reliable platform carrying a Static Gun, Autocannon Class 5, two medium and one small lasers.  With a Heat Delta of 8, Heatsinking is moderately OK but not great.  Armor however is advanced Plate Lamellor to the tune of 13.5 tons. \n\n <b><color=#e51717>Pafftek Industries Pirate tech </color></b> ",
 		"Icon": "uixTxrIcon_cataphract"
 	},
 	"MovementCapDefID": "movedef_cataphract_CTF-1X",
@@ -207,7 +207,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Electronic Warfare Prototype",
-	"YangsThoughts": "The Confederation experimented with a Cataphract variant carrying the Electronic Warfare Equipment that was mounted on the Raven which was being designed around the same time. It was equipped with a single PPC and Autocannon/5, as well as two arm mounted Medium Lasers, the EW equipment, and a Small Laser in the center torso. A single shipment of CTF-0X prototypes was sent to Sian but line production did not commence afterwards because a request for more EW components was denied.",
+	"YangsThoughts": "Boss, this is a fragile mech, it is easy to loose parts I would put care into not making this a brawler mech!",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "LeftTorso",

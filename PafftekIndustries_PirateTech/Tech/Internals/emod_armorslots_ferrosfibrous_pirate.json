@@ -1,0 +1,63 @@
+{
+	"Custom": {
+		"Color": "Gold",
+		"BonusDescriptions": [
+				"ArmorFactor: -11%",
+				"ReservedSlots: 15"
+		],
+		"Category": {
+			"CategoryID": "Armor"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 15,
+			"ShowIcon": true,
+			"BackgroundColor": "GoldHalf",
+			"NameText": "Pirate-Fibrous",
+			"BonusAText": "Dynamic Slot"
+		},
+		"Weights": {
+			"ArmorFactor": 0.89286
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1.66 * [[Chassis.Tonnage]] / 30",
+				"CBillCost": "750 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+			}
+		},
+		"Flags": [
+			"ignore_damage",
+			"autorepair",
+			"not_broken"
+		]
+	},
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Lostech",
+		"Model": "Armor",
+		"UIName": "Pirate-Fibrous",
+		"Id": "emod_armorslots_ferrosfibrous_pirate",
+		"Name": "Pirate Ferro-Fibrous Armor",
+		"Details": "Almost as good as standard Ferro-Fibrous armor (FF),  The Pirate Fibrous armor is basically that just less well made Ferro-Fibrous that costs a little more to maintain.\r\n\r\nArmor tonnage gets reduced by <b>1/12</b> while taking up <b>15</b> Pirate-Fibrous slots.",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

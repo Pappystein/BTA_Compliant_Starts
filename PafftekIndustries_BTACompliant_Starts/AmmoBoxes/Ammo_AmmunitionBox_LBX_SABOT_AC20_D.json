@@ -16,13 +16,16 @@
 		},
 		"BonusDescriptions": [
 				"LBX20Sabot: 12"
-			]
+			],
+		"AmmoCost" : {
+		  "PerUnitCost" : 3000
+		}			
 		
 	},
 	"AmmoID": "Ammunition_LBX20_SABOT",
 	"Capacity": 12,
 	"Description": {
-		"Cost": 25000,
+		"Cost": 250000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",

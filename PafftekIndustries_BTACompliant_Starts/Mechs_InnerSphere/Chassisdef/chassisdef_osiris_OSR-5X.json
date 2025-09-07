@@ -8,7 +8,7 @@
 		"UIName": "Osiris",
 		"Id": "chassisdef_osiris_OSR-5X",
 		"Name": "Osiris",
-		"Details": "Optimized for Export, the Osiris OSR-5X is based on the LCAF -5C variant.  In the 5X, Ferro Fibrous armor returns to replace the Stealth armor of the -5C, however ECM is upgraded to an Angel ECM.   With the Ferro Fiberous installation, additional hardpoints were added to several locations opening up the flexibility of this variant for the export market.  The SRM-10 combo of a SRM-4 and an SRM-6 is replaced by a singular precision SRM-6 and an ER Flamer.  An Extra Large Gyro gives an additional half ton of weight at the cost of being slightly less reliable in dealing with battle damage.  This 1/2 ton goes directly to protection and armor is increased over-all.",
+		"Details": "Optimized for Export, the Osiris OSR-5X is based on the LCAF -5C variant.  In the 5X, Ferro Fibrous armor returns to replace the Stealth armor of the -5C, however ECM is upgraded to an Angel ECM.   With the Ferro Fiberous installation, additional hardpoints were added to several locations opening up the flexibility of this variant for the export market.  The SRM-10 combo of a SRM-4 and an SRM-6 is replaced by a singular SRM-6 and an ER Flamer.  An Extra Large Gyro gives an additional half ton of weight at the cost of being slightly less reliable in dealing with battle damage.  This 1/2 ton goes directly to protection and armor is increased over-all.",
 		"Icon": "uixTxrIcon_osiris"
 	},
 	"MovementCapDefID": "movedef_osiris_OSR-3D",

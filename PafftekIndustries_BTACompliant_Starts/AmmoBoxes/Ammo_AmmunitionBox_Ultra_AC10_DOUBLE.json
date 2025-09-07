@@ -16,23 +16,23 @@
         },
         "BonusDescriptions": [
 				"CostPerShot: 500",
-				"UAC10Ammo: 30"
+				"UAC10Ammo: 44"
 		],
 		"AmmoCost" : {
 		  "PerUnitCost" : 500
 		}
     },
     "AmmoID": "Ammunition_UAC10",
-    "Capacity": 30,
+    "Capacity": 44,
     "Description": {
         "Cost": 60000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
         "Model": "UAC10",
-        "UIName": "Ammo UAC/10 [DBL]",
+        "UIName": "Ultra AC/10[D]",
         "Id": "Ammo_AmmunitionBox_Ultra_AC10_DOUBLE",
-        "Name": "UAC/10 Ammo [DBL]",
+        "Name": "Ultra AC/10 Ammo [D]",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 25 shots.",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },

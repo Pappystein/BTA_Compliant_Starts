@@ -207,7 +207,7 @@
 			"HeavyMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft"
-			],
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Striker Cavalry",
@@ -226,20 +226,25 @@
 			"hasPrefabName": false
 		},
 		{
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "emod_structureslots_endosteel",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
-        },
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Mech_InfantryCompartment",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_Salamander",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional"
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
 		}
 	]
 }

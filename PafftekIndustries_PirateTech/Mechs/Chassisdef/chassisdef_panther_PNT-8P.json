@@ -8,7 +8,7 @@
 		"UIName": "Panther",
 		"Id": "chassisdef_panther_PNT-8P",
 		"Name": "Panther",
-		"Details": "Based on worn out PNT-8Z and PNT-9R chassis, the PNT-8P is a strictly pirate mech armed with 3 medium lasers and an SRM-4.   In a suprise twist for most opponents however the PNT-8P has a massive for the Panther 210 Core to power its speed, the weapons and its 5 Jump jets.  Rounding all this up, using newer technology the Pirate engineers and technians were able to beef up the structure to widthstand more damage.   All on what appears to be a bog simple and standard Panther chassis.",
+		"Details": "Based on worn out PNT-8Z and PNT-9R chassis, the PNT-8P is a strictly pirate mech armed with 3 medium lasers and an SRM-4.   In a surprise twist for most opponents however the PNT-8P has a massive, for the Panther, GTEM branded 210 Core to power its speed, the weapons and its 5 Jump jets.  Rounding all this up, using newer technology the Pirate engineers and technicians were able to beef up the structure to withstand more damage.   All on what appears to be a bog simple and standard Panther chassis.",
 		"Icon": "uixTxrIcon_panther"
 	},
 	"MovementCapDefID": "movedef_panther_PNT-9R",
@@ -199,7 +199,7 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Sniper & Light Brawler",
+	"StockRole": "Light Fast Brawler",
 	"YangsThoughts": "Boss, this is one of those 'stealth' mechs or 'Q' Mechs that sneek up on you pretending to be something else entirely... then you are dead.  Watch out for mechs like these!",
 	"FixedEquipment": [
 		{

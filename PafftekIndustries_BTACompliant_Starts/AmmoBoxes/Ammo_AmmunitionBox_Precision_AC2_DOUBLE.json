@@ -32,7 +32,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "AC2 Precision",
-		"UIName": "Ammo AC/2 [PRE][D]",
+		"UIName": "Precision AC/2[D]",
 		"Id": "Ammo_AmmunitionBox_Precision_AC2_DOUBLE",
 		"Name": "AC/2 Precision Ammo Double",
 		"Details": "Precision AC Ammo carries self-guided gyrojet shells increasing accuracy. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 70 shots.",

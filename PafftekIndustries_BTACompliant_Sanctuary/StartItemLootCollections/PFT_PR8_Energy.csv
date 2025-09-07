@@ -1,4 +1,13 @@
 PFT_PR8_Energy,,,
 Weapon_Laser_BinaryLaserCannon_80_Pirate,Reference,1,1
 Weapon_Laser_BinaryLaserCannon_81_Pirate,Reference,1,1
-Weapon_Laser_MediumLaserER_Trynary,Reference,2,2
+Weapon_Laser_BinaryLaserCannon_82_Pirate,Reference,1,1
+Weapon_Laser_MediumLaserER_Trynary,Reference,2,1
+Weapon_Laser_LargeLaser_80-PIRATE,Reference,2,2
+Weapon_Laser_MediumLaser_80-PIRATE,Reference,4,2
+Weapon_Laser_SmallLaser_80-PIRATE,Reference,4,2
+Weapon_PPC_PPC_80-Pirate,Reference,1,2
+Weapon_PPC_PPC_81-Pirate,Reference,1,2
+Weapon_PPC_PPC_82-Pirate,Reference,1,2
+Weapon_PPC_PPCER_80-Pirate,Reference,1,2
+Weapon_PPC_PPCER_81-Pirate,Reference,1,2

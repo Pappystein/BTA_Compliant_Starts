@@ -28,7 +28,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Armor Piercing Thunderbolt",
-		"UIName": "Ammo T-Bolt5 Armor Piercing [Half]",
+		"UIName": "Ammo T-Bolt5 Armor Piercing [H]",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_AP_H",
 		"Name": "Armor Piercing Thunderbolt 5 Ammo",
 		"Details": "Armor Piercing munition.  Does less damage but has penetrating power.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",

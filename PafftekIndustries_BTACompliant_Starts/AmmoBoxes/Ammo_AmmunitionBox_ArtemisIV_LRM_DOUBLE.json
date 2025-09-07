@@ -32,9 +32,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "LRM Artemis IV[D]",
-		"UIName": "Ammo LRM ARTIV [D]",
+		"UIName": "LRM Artemis IV[D]",
 		"Id": "Ammo_AmmunitionBox_ArtemisIV_LRM_DOUBLE",
-		"Name": "LRM Artemis IV Ammo [D]",
+		"Name": "LRM Artemis IV[D]",
 		"Details": "Artemis IV LRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy . Has 270 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},

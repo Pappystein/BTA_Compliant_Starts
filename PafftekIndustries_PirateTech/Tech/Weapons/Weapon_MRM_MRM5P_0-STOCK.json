@@ -53,8 +53,7 @@
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},
 	"FlatJammingChance": 0.08,
-	"DamageOnJamming": true,
-	"DestroyOnJamming": false,	
+	"PersistentJamming": true,	
 	"BonusValueA": "",
 	"BonusValueB": "",
 	"ComponentType": "Weapon",
@@ -71,7 +70,8 @@
 		"items": [
 			"component_type_stock",
 			"range_extreme",
-			"LRMFCSSupported-Standard"
+			"LRMFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

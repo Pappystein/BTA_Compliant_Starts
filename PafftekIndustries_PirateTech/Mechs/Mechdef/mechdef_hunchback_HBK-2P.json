@@ -504,7 +504,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_LargeLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

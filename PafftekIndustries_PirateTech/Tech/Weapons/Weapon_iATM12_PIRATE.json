@@ -47,9 +47,8 @@
 	"ImprovedBallistic": true,
 	"ProjectileSpeedMultiplier": 1.4,
 	"MissileHealth": 2,
-	"DamageOnJamming": true,
-	"DestroyOnJamming": false,
-	"FlatJammingChance": 0.075,
+	"FlatJammingChance": 0.05,
+	"PersistentJamming": true,	
 	"GunneryJammingMult": 0.05,
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
 	"Description": {

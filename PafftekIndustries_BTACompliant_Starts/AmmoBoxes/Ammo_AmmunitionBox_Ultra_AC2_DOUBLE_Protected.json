@@ -15,12 +15,12 @@
             "StabilityDamagePerAmmo": 6
         },
 		"BonusDescriptions": [
-				"CostPerShot: 35",
+				"CostPerShot: 115",
 				"UAC2Ammo: 60"
 		],
 		
 		"AmmoCost" : {
-		  "PerUnitCost" : 35
+		  "PerUnitCost" : 115
 		}
     },
     "AmmoID": "Ammunition_UAC2",
@@ -31,9 +31,9 @@
         "Purchasable": true,
         "Manufacturer": "Generic",
         "Model": "UAC2",
-        "UIName": "Ammo UAC/2 [DBL] +P",
+        "UIName": "Ultra AC/2 [P-D]",
         "Id": "Ammo_AmmunitionBox_Ultra_AC2_DOUBLE_Protected",
-        "Name": "UAC/2 Ammo [DBL]P",
+        "Name": "Ultra AC/2 Ammo [P-D]",
         "Details": "Protected Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing less damage than an unprotected bin would to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },

@@ -1,0 +1,29 @@
+[
+	{
+		"conditions": {
+			"owner": "Tortuga"
+		},
+		"items": [
+			"PFT_Pirate_BM_Tortuga",
+			"BTA_List_BlackMarket"
+		]
+	},
+	{
+		"conditions": {
+			"owner": "Marian"
+		},
+		"items": [
+			"PFT_Pirate_BM_Marian",
+			"BTA_List_BlackMarket"
+		]
+	},
+	{
+		"conditions": {
+			"owner": "Circinus"
+		},
+		"items": [
+			"PFT_Pirate_BM_Circinus",
+			"BTA_List_BlackMarket"
+		]
+	}
+]

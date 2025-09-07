@@ -8,7 +8,7 @@
 		"UIName": "Corsair",
 		"Id": "chassisdef_corsair_COR-4N",
 		"Name": "Corsair",
-		"Details": "An All new Corsair deployed almost exclusively by Pirates, the COR-4N is a horible mish-mash of parts from several technology bases.  That being said, this mech bring some heavy destructive power to the forces it deploys with.",
+		"Details": "An All new Corsair deployed almost exclusively by Pirates, the COR-4N is a horrible mish-mash of parts from several technology bases.  That being said, this mech bring some heavy destructive power to the forces it deploys with.  Two standard Large Lasers, a Laser AMS, LRM15 with special ammo types and a Light TAG Laser designator to round out the armament.  With Reinforced Life support, Endo Reinforced structure and 16 tons of Light Ferro Fibrous weave armor, the COR-4N is provided with superior protection.  With it's 375 core, the COR-4N streaks across the battle field.  \n\n <b><color=#e51717>Pafftek Industries Pirate tech </color></b>",
 		"Icon": "uixTxrIcon_corsair"
 	},
 	"MovementCapDefID": "movedef_corsair_COR-5R",
@@ -235,7 +235,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "A Pirates life!",
-	"YangsThoughts": "A unique style of Pirate Mech Boss!  As to be expected, full of jank.  But this one might actually be semi-OK",
+	"YangsThoughts": "Boss, T-Bone won't like this one, only a limited number of Ballistic Slots!",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

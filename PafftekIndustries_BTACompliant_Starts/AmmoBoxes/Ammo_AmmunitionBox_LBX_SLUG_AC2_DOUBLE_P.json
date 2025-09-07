@@ -5,31 +5,29 @@
 				"CategoryID": "a/a/a/lbx"
 			}
 		],	
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 6,
-            "StabilityDamagePerAmmo": 1
-        },
-        "BonusDescriptions": [
-				"CostPerShot: 25",
-				"LBX2SlugAmmo: 60"
-            ],
-		"AmmoCost" : {
-		  "PerUnitCost" : 25
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 16,
+			"StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 300",
+				"AmmoCount: 30"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 300
 		}
-    },
+	},
     "AmmoID": "Ammunition_LBX2_SLUG",
-    "Capacity": 60,
+    "Capacity": 30,
     "Description": {
         "Cost": 10000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "LBX2SLUG",
+        "Model": "LB 2-X Slug Double Protected",
         "UIName": "Ammo LB 2-X SLUG [D-P]",
         "Id": "Ammo_AmmunitionBox_LBX_SLUG_AC2_DOUBLE_P",
         "Name": "Ammo LB 2-X Slug Ammo [D-P]",
