@@ -169,7 +169,7 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Tank_InfantryCompartment",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_Krupp",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"

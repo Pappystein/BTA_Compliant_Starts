@@ -5,35 +5,33 @@
 				"CategoryID": "a/a/a/lbx"
 			}
 		],	
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 25,
-            "StabilityDamagePerAmmo": 6
-        },
-        "BonusDescriptions": [
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 25,
+			"StabilityDamagePerAmmo": 6
+		},
+		"BonusDescriptions": [
 				"WpnCrits: +50%",
-                "WpnAccuracy: +1",
-                "PipsIgnored: +1",
+				"WpnAccuracy: +1",
+				"PipsIgnored: +1",
 				"LBXCluster: 2",
-				"CostPerShot: 25",
-				"LBX2ClusterAmmo: 110"
-            ],
+				"CostPerShot: 300",
+				"AmmoCount: 15"
+			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 25
+		  "PerUnitCost" : 300
 		}
     },
     "AmmoID": "Ammunition_LBX2_CLUSTER",
-    "Capacity": 110,
+    "Capacity": 33,
     "Description": {
         "Cost": 10000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "LBX2CLUSTER",
+        "Model": "LB 2-X Cluster Double",
         "UIName": "Ammo LB 2-X CLUSTER [D]",
         "Id": "Ammo_AmmunitionBox_LBX_CLUSTER_AC2_DOUBLE",
         "Name": "Ammo LB 2-X Cluster Ammo [D]",

@@ -1,30 +1,33 @@
 {
 	"TargetID": "CareerDifficultySettings",
-	"Instructions": [{
-		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
-		"Action": "ArrayAdd",
-		"Value": {
-			"ID": "diff_Gambier",
-			"Name": "1.5 GW Gambier",
-			"TelemetryEventDesc": "",
-			"DifficultyValue": 0,
-			"CareerScoreModifier": 1.0,
-			"DifficultyConstants": [{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingSystems",
-					"ConstantValue": "Gambier"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_SR2_Strider,itemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Scout_PFT"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "MercenaryReviewBoard:150,Davion:35"
-				}
-			]
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Gambier",
+				"Name": "1.5 GW Gambier",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 1.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Gambier"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_SR2_Strider,itemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_Special_GameWorld_VMech,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "MercenaryReviewBoard:150,Davion:35"
+					}
+				]
+			}
 		}
-	}]
+	]
 }

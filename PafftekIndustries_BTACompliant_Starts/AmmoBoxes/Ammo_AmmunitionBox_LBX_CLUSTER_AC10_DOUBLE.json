@@ -5,35 +5,33 @@
 				"CategoryID": "a/a/a/lbx"
 			}
 		],	
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 60,
-            "StabilityDamagePerAmmo": 15
-        },
-        "BonusDescriptions": [
-				"CostPerShot: 120",
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 60,
+			"StabilityDamagePerAmmo": 15
+		},
+		"BonusDescriptions": [
 				"WpnCrits: +50%",
-                "WpnAccuracy: +1",
-                "PipsIgnored: +1",
+				"WpnAccuracy: +1",
+				"PipsIgnored: +1",
 				"LBXCluster: 10",
-				"LBX10ClusterAmmo: 25"
-            ],
-		"AmmoCost" : {
-		  "PerUnitCost" : 120
+				"CostPerShot: 800",
+				"AmmoCount: 24"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 800
 		}
-    },
+	},
     "AmmoID": "Ammunition_LBX10_CLUSTER",
-    "Capacity": 25,
+    "Capacity": 24,
     "Description": {
-        "Cost": 10000,
+        "Cost": 80000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "LBX10CLUSTER",
+        "Model": "LB 10-X CLUSTER Double",
         "UIName": "Ammo LB X-10 AC CLUSTER[D]",
         "Id": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10_DOUBLE",
         "Name": "LB X-10 AC Cluster Ammo[D]",

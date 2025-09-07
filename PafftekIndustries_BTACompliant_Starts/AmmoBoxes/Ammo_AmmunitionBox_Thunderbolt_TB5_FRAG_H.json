@@ -28,7 +28,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Thunderbolt Fragmentation Cluster",
-		"UIName": "Ammo T-Bolt5 Fragmentation cluster [Half]",
+		"UIName": "Ammo T-Bolt5 Fragmentation cluster [H]",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_FRAG_H",
 		"Name": "Fragmentation Thunderbolt 5 Ammo",
 		"Details": "Fragmenation rounds are closer in effect to the various LB-X munitions Cluster.  However unlike Airburst, they rarely damage close units next to the target.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",

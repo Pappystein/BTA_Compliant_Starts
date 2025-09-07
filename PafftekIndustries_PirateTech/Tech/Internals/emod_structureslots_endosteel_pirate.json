@@ -1,0 +1,90 @@
+{
+	"Custom": {
+		"BonusDescriptions": [
+			"StructureFactor: 50%",
+			"ReservedSlots: 14",
+			"EndoSteal"
+		],
+		"Color": "OrangeHalf",
+		"Category": {
+			"CategoryID": "Structure"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 12,
+			"ShowIcon": true,
+			"NameText": "Endo-Steal",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"Weights": {
+			"StructureFactor": 0.5
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "1000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 20"
+			}
+		},
+		"Flags": [
+			"ignore_damage",
+			"not_broken",
+			"no_salvage"
+		]
+	},
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Lostech",
+		"Model": "Structure",
+		"UIName": "Pirate-Steal",
+		"Id": "emod_structureslots_endosteel_pirate",
+		"Name": "Piratetech Endo-Steal Structure",
+		"Details": "Eloder Mak, a company known for selling to ANYONE, developed a factory to manufacture Endo-Steal for sale.   And yes that is Steal as in the technology was stolen, in this case from a raid on a Mairk experimental shop.  Of course, only learned latter, the forumaltion stolen is in fact, faulty.  The end result is a light weight structure that is easy to critically fail at the worst moment.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ReinforcedCritImmune",
+				"Name": "Reinforced Structure",
+				"Details": "Reinforced Structure provides crit reduction.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.5",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

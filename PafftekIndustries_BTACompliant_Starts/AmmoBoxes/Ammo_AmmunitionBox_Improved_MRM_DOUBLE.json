@@ -30,10 +30,10 @@
 		"Rarity": 0,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
-		"Model": "MRM",
+		"Model": "PIP MRM Double bin",
 		"UIName": "Ammo MRM Apollo [D]",
 		"Id": "Ammo_AmmunitionBox_Improved_MRM_DOUBLE",
-		"Name": "MRM Ammo Apollo [Double]",
+		"Name": "MRM Ammo Apollo [D]",
 		"Details": "PIP Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles’ aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},

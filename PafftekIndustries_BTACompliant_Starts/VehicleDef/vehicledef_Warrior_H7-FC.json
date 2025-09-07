@@ -251,7 +251,7 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"

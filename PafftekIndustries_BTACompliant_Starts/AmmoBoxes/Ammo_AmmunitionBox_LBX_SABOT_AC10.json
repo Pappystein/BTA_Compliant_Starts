@@ -5,27 +5,25 @@
 				"CategoryID": "a/a/a/lbx"
 			}
 		],
-		"Flags": {
-			"flags": [
+		"Flags": [
 				"not_broken"
-			]
-		},
+		],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 60,
 			"StabilityDamagePerAmmo": 15
 		},
 		"BonusDescriptions": [
-				"CostPerShot: 175",
+				"CostPerShot: 1750",
 				"LBX10Sabot: 10"
 			],
 		"AmmoCost" : {
-		  "PerUnitCost" : 175
+		  "PerUnitCost" : 1750
 		}
 	},
 	"AmmoID": "Ammunition_LBX10_SABOT",
 	"Capacity": 10,
 	"Description": {
-		"Cost": 20000,
+		"Cost": 50000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",

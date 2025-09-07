@@ -453,8 +453,51 @@
 					"Bonus": "PiATM",
 					"Short": "Pirate iATM",
 					"Long": "Pirate improved Adv. Tact. Mssl. Launcher",
-					"Full": "Pirate tech improved Advanced Tactical Missile Launchers use unique ATM ammo gain a direct-fire accuracy bonus."
+					"Full": "Pirate tech improved Advanced Tactical Missile Launchers use standard ATM ammo whilst adding an indirect mode and a streak mode.  Notably has reliablity issues!"
+				},
+				{
+					"Bonus": "DMGOnJam",
+					"Short": "Damage Jam",
+					"Long": "Damage On Jam",
+					"Full": "When this weapon jams it damages the weapon, requiring it to be repaired after mission.  However any Crits on the weapon in damaged or undamaged state will still destroy it."
+				},
+				{
+					"Bonus": "EndoSteal",
+					"Short": "Less good EndoSteel",
+					"Long": "Less good EndoSteel",
+					"Full": "Bad EndoSteel forumulation causes equiped unit to suffer 150% Critical hit chance, as components fall off the mech's structure easily."
+				},
+				{
+					"Bonus": "CritSus",
+					"Short": "Higher chance to be crit hit",
+					"Long": "{0} Crit susceptability",
+					"Full": "{0} Increased Critical Hits chance against this unit."
+				},
+				{
+					"Bonus": "HackedStructure",
+					"Short": "Cobbled structure",
+					"Long": "Cobbled together structure has 5% less structure points",
+					"Full": "Cobbled together structure has 5% less structure points"
+				},
+				{
+					"Bonus": "HackedArmor",
+					"Short": "Cobbled armor",
+					"Long": "Cobbled together armor has 3% less armor points",
+					"Full": "Cobbled together armor has 3% less armor points"
+				},
+				{
+					"Bonus": "PirateCase",
+					"Short": "Cobbled CASE",
+					"Long": "Cobbled together CASE can be destroyed.",
+					"Full": "Cobbled together CASE can be destroyed."
+				},
+				{
+					"Bonus": "NoAttachments",
+					"Short": "No Weapon Attachments",
+					"Long": "For whatever reason this weapon can not take attachments.",
+					"Full": "For whatever reason this weapon can not take attachments."
 				}
+				
 			]
 		}
 	]

@@ -32,7 +32,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "AC20 Precision",
-		"UIName": "Ammo AC/20 [PRE][D]",
+		"UIName": "Precision AC/20[D]",
 		"Id": "Ammo_AmmunitionBox_Precision_AC20_DOUBLE",
 		"Name": "AC/20 Precision Ammo Double Bin",
 		"Details": "Precision AC Ammo carries self-guided gyrojet shells increasing accuracy. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 8 shots.",

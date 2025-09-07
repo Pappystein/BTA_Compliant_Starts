@@ -49,8 +49,8 @@
 	"Instability": 0,
 	"FireTerrainChance": 0,
 	"FlatJammingChance": 0.07,
-	"DamageOnJamming": true,
-	"UnsafeJamChance": 0.66,
+	"DestroyOnJamming": true,
+	"UnsafeJamChance": 0.15,
 	"ColorsTable": [
 		{
 			"C": "#009DDB",

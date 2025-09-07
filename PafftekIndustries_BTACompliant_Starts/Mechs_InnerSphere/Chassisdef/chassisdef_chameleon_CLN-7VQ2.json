@@ -8,7 +8,7 @@
 		"UIName": "Chameleon",
 		"Id": "chassisdef_chameleon_CLN-7VQ2",
 		"Name": "Chameleon Q-Mech",
-		"Details": "The Chameleon CLN-7V is a slightly modernized update of the original Chameleon. Still primarily intended as a training 'Mech, the -7V's updates make all of the lasers onboard replaceable, and drops one Small Laser and a half ton of Machine Gun ammunition to increase the 'Mech's armor. The modern Chameleon is still best used as a scout, rather than a line BattleMech.",
+		"Details": "The Chameleon CLN-7VQ is an Assassination mech that didn't live upto its hype.  That didn't stop several \"insidious\" groups from putting their own take of the mech into production.  Armed and equipped with a mix of innersphere and clan tech and weaponry, the CLN-7VQ2 is a monster medium range brawling mech for the disriputable.",
 		"Icon": "uixTxrIcon_chameleon"
 	},
 	"MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -226,7 +226,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Q-Mech",
-	"YangsThoughts": "Making a mech visually identical to a training mech smacks of the whole Davion Trap Door program.  Since this is a Davion mech design, is it perhaps a rebuttle by the DCMS or Katrinia?",
+	"YangsThoughts": "Making a mech visually identical to a training mech smacks of the whole Davion Trap Door program.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

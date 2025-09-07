@@ -113,6 +113,20 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
 		},
 		{
+			"ID": 9010,
+			"Name": "PlasmaFlamer",
+			"FriendlyName": "PlasmaFlamer",
+			"IsBallistic": false,
+			"IsMissile": false,
+			"IsEnergy": false,
+			"IsSupport": true,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Small",
+			"FallbackUIColor": null,
+			"Icon": "SmallHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+		},
+		{
 			"ID": 9500,
 			"Name": "HvyMORTAR",
 			"FriendlyName": "HvyMortar",

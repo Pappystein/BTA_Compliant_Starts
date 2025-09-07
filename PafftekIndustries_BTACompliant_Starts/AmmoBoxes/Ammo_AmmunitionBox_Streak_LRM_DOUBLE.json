@@ -27,10 +27,10 @@
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "Streak LRM [DBL]",
-        "UIName": "Ammo Streak LRM [DBL]",
+        "Model": "Streak LRM[D]",
+        "UIName": "Streak LRM[D]",
         "Id": "Ammo_AmmunitionBox_Streak_LRM_DOUBLE",
-        "Name": "Streak LRM Ammo [DBL]",
+        "Name": "Streak LRM Ammo [D]",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 270 shots.",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },

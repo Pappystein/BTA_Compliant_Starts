@@ -33,10 +33,12 @@
 			"MaximumDamage": 10
 		},		
 		"BonusDescriptions": [
-			"ArmorFactor: -20%",
+			"ArmorFactor: -17%",
+			"CritRes: -33%"
 			"Reserved: 21",
-			"ArmorTPCost: 15%",
+			"ArmorTPCost: 45%",
 			"ArmorCBCost: 20%"
+			
 		]
 
 
@@ -53,7 +55,7 @@
 		"Details": "Heavy Ferro-Fibrous armor was developed by Durallex for the Lyran Alliance based on the Inner Sphere's attempts at Light Ferro-Fibrous. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.",
 		"Icon": "uixSvgIcon_action_end"
 	},
-	"BonusValueA": "-20% Armor Weight, CASE II",
+	"BonusValueA": "-20% Armor Weight",
 	"BonusValueB": "33% reduced Crits",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",

@@ -1,0 +1,69 @@
+{
+	"Custom": {
+		"BonusDescriptions": [
+				"StructureFactor: 50%",
+				"ReservedSlots: 14"
+			],
+		"Color": "OrangeHalf",
+		"Category": {
+			"CategoryID": "Structure"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 14,
+			"ShowIcon": true,
+			"NameText": "Hacked Endo",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"BonusDescriptions": [
+			"HackedStructure"
+		],
+		"Weights": {
+			"StructureFactor": 0.5
+		},
+		"ArmorStructureChanges": {
+			"StructureFactor": 0.95
+		}
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "1000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 20"
+			}
+		},
+		"Flags": [
+			"ignore_damage",
+				"not_broken",
+				"no_salvage"
+		]
+	},
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Lostech",
+		"Model": "Structure",
+		"UIName": "Hacked together Endo-Steel",
+		"Id": "emod_structureslots_endosteel_hacked",
+		"Name": "Endo-Steel Structure",
+		"Details": "This isn't the Star League's Endosteel strucutre, this is what you get when scrappers get together to stitch various components of endosteel together.  It is less good but still better than regular structure.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

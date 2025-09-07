@@ -1,0 +1,76 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "w/e/p/flamer"
+		},
+		"BonusDescriptions": [
+			"PipsIgnored: 1",
+			"AntiBA: +100%",
+			"AlwaysStartsFire"
+		]
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Flamer",
+	"WeaponSubType": "Flamer",
+	"MinRange": 0,
+	"MaxRange": 100,
+	"RangeSplit": [
+		25,
+		50,
+		75
+	],
+	"AmmoCategory": "PlasmaFlamer",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 0,
+	"Damage": 5,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 12,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"FireOnSuccessHit": true,
+	"CantHitUnaffecedByPathing": true,
+	"FireTerrainChance": 1,
+	"TrooperSquadDamageModifier": 2,
+	"WeaponEffectID": "WeaponEffect-Weapon_Flamer",
+	"Description": {
+		"Cost": 20000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "1D10T Industries",
+		"Model": "Flash Flamethrower",
+		"UIName": "Flamer [P]",
+		"Id": "Weapon_Flamer_Flamer_80-Pirate",
+		"Name": "Plasma Flamer",
+		"Details": "Pirate Flamers are designed to not rely on vented plasma from a Fusion Core.  Not all Pirate mechs have Fusion cores.  Each ammo Bin for the Pirate Plasma based Flamer hold 20 rounds at a nominal half ton mass.",
+		"Icon": "uixSvgIcon_weapon_Support"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Flamer",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.75,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -48,9 +48,9 @@
 	"AttackRecoil": 1,
 	"Instability": 0,
 	"FireTerrainChance": 0,
-	"FlatJammingChance": 0.05,
-	"DamageOnJamming": true,
-	"UnsafeJamChance": 0.66,	
+	"FlatJammingChance": 0.06,
+	"DestroyOnJamming": true,
+	"UnsafeJamChance": 0.15,
 	"ColorsTable": [
 		{
 			"C": "#FFFF00",

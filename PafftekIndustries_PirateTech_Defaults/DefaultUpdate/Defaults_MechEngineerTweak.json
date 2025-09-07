@@ -1,0 +1,113 @@
+{
+    "TargetID": "Defaults_MechEngineer",
+    "Instructions": [
+        {
+            "JSONPath": "$.Settings[?(@.CategoryID== 'EngineShield')].UnitTypes",
+			"AutoCreateProperty": true,
+            "Action": "ArrayConcat",
+            "Value": [
+                {
+                    "UnitType": "PirateMech",
+                    "Defaults": [
+                        {
+                            "Location": "CenterTorso",
+                            "DefID": "emod_engineslots_pirate_center",
+                            "Type": "HeatSink"
+                        }
+                    ]
+                },
+                {
+                    "UnitType": "FissionCore",
+                    "Defaults": [
+                        {
+                            "Location": "CenterTorso",
+                            "DefID": "emod_engineslots_fission_center_default",
+                            "Type": "HeatSink"
+                        }
+                    ]
+                }				
+            ]
+        },
+		{
+            "JSONPath": "$.Settings[?(@.CategoryID== 'Armor')].UnitTypes",
+			"AutoCreateProperty": true,
+            "Action": "ArrayConcat",
+            "Value": [
+                {
+                    "UnitType": "PirateMech",
+                    "Defaults": [
+                        {
+                            "Location": "CenterTorso",
+                            "DefID": "emod_armorslots_standard_pirate",
+                            "Type": "Upgrade"
+                        }
+                    ]
+                },
+                {
+                    "UnitType": "FissionCore",
+                    "Defaults": [
+                        {
+                            "Location": "CenterTorso",
+                            "DefID": "emod_armorslots_standard_pirate",
+                            "Type": "Upgrade"
+                        }
+                    ]
+                }					
+            ]
+        },
+		{
+            "JSONPath": "$.Settings[?(@.CategoryID== 'Structure')].UnitTypes",
+			"AutoCreateProperty": true,
+            "Action": "ArrayConcat",
+            "Value": [
+                {
+                    "UnitType": "PirateMech",
+                    "Defaults": [
+                        {
+                            "Location": "CenterTorso",
+                            "DefID": "emod_structureslots_hacked",
+                            "Type": "Upgrade"
+                        }
+                    ]
+                },
+                {
+                    "UnitType": "FissionCore",
+                    "Defaults": [
+                        {
+                            "Location": "CenterTorso",
+                            "DefID": "emod_structureslots_hacked",
+                            "Type": "Upgrade"
+                        }
+                    ]
+                }					
+            ]
+        },
+		{
+            "JSONPath": "$.Settings[?(@.CategoryID== 'Cockpit')].UnitTypes",
+			"AutoCreateProperty": true,
+            "Action": "ArrayConcat",
+            "Value": [
+                {
+                    "UnitType": "PirateMech",
+                    "Defaults": [
+                        {
+                            "Location": "Head",
+                            "DefID": "Gear_Cockpit_050_Pirate_Default",
+                            "Type": "Upgrade"
+                        }
+                    ]
+                },
+                {
+                    "UnitType": "FissionCore",
+                    "Defaults": [
+                        {
+                            "Location": "Head",
+                            "DefID": "Gear_Cockpit_050_Pirate_Default",
+                            "Type": "Upgrade"
+                        }
+                    ]
+                }					
+            ]
+        }
+    ]
+}

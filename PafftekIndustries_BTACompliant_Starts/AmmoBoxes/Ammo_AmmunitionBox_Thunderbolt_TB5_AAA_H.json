@@ -28,7 +28,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Thunderbolt Anti VTOL Cluster",
-		"UIName": "Ammo T-Bolt5 Anti VTOL Cluster[Half]",
+		"UIName": "Ammo T-Bolt5 Anti VTOL Cluster[H]",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_AAA_H",
 		"Name": "Thunderbolt 5 Anti VTOL Cluster",
 		"Details": "Fragmenation rounds are closer in effect to the various LB-X munitions Cluster.  However unlike Airburst, they rarely damage close units next to the target.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",

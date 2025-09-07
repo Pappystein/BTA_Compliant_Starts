@@ -1,0 +1,70 @@
+{
+	"Description": {
+		"Id": "Ammunition_MortarHvy_Acid60",
+		"Name": "MORTAR Ammo",
+		"UIName": "Acid AOE",
+		"Details": "Massive rounds, designed for devastating impact, to be used in a heavy mortar.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "HvyMORTAR",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 0.9,
+	"CriticalDamageModifier": 1,
+	"HitGenerator": "Cluster",
+	"DisableClustering": false,
+	"HasShells": true,
+	"ShellsRadius": 60,
+	"MinShellsDistance": 30,
+	"MaxShellsDistance": 60,
+	"UnseparatedDamageMult": 0.75,
+	"ProjectilesPerShot": 30,
+	"IFFDef": "Gear_SquawkBox",
+	"ChassisTagsAccuracyModifiers": {
+		"TargetAcquired": -3
+	},
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 4,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Effect_AcidDMG",
+				"Name": "Acid",
+				"Details": "This unit is coated with corrosive acid. It will take [AMT] increased damage (max 0.2).",
+				"Icon": "acid"
+			},
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Add",
+				"modValue": "0.05",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		}
+	]
+}

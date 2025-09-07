@@ -37,7 +37,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Thunderbolt FASCAM",
-		"UIName": "Ammo T-Bolt5 FASCAM [Half]",
+		"UIName": "Ammo T-Bolt5 FASCAM [H]",
 		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB5_FASCAM_H",
 		"Name": "Thunderbolt 5 FASCAM Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Has 8 shots.",

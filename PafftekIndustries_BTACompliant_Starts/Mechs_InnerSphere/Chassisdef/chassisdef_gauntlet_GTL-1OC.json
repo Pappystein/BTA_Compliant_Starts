@@ -15,7 +15,7 @@
 		"UIName": "Gauntlet",
 		"Id": "chassisdef_gauntlet_GTL-1OC",
 		"Name": "Gauntlet",
-		"Details": "After the initial crush of orders for the Bushwacker had been gotten under control, Coventry Metal Works sought about a way to incorporate the new Omni-Mech Technology into the Bushwacker chassis.   The results are the Gauntlet.  Lyran senior command was not amused at this 'waste' of engineering and production capacity, favoring the standard Bushwacker design.   Made on the same production line as the Bushwacker, due to its high percentage of common parts, the Gauntlet is inexpensive for an omni-mech.  However, the disdain from LCAF senior command has resulted in this mech being issued to lower quality LCAF units and a wide band of mercenaries.  The -1OC variant is a highly mobile sniper, armed with just two Shotgun style ER-PPC weapons. \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Details": "The Gauntlet was designed during the 3060s by the Lyran Commonwealth as a way to reuse excess Bushwacker skeletons after they were overproduced. Built with an Endo-Steel frame and Light Ferro-Fibrous armor, the Gauntlet is a simple and effective OmniMech. A 275-rated Light fusion engine enhanced by MASC guarantees plenty of power and speed while 21 tons of pod space is more than sufficient for the warload.  The GTL-1O series of the Gauntlet, while fully compatible with the base GTL-N1 series are in fact from 3rd party production, mostly Pafftek Industries.  The weapon suite for the GTL-1OC consists of two Shotgun ER-PPC weapons exclusively, one in each arm.  A Targeting Computer grants superior accuracy to this loadout \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_bushwacker"
 	},
 	"MovementCapDefID": "movedef_jayhawker",
@@ -145,14 +145,6 @@
 				{
 					"WeaponMountID": "Ballistic",
 					"Omni": true
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": true
 				}			
 			],
 			"Tonnage": 0,
@@ -240,8 +232,8 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_XL_Omni",
-			"SimGameUID": null,
+			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
@@ -251,7 +243,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_quirk_gauntlet_endosteel",
+			"ComponentDefID": "Gear_MASC_Omni",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -260,23 +252,62 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_lightferrosfibrous",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_light_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_275",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_cooling",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -298,30 +329,9 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_ixl_center",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_engineslots_size2",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_engineslots_size2",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_MASC_Omni",
+			"ComponentDefID": "emod_engine_cooling",
 			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

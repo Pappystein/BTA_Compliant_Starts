@@ -1,0 +1,98 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Probe"
+			},
+			{
+				"CategoryID": "ECM"
+			}
+		],
+		"BonusDescriptions": [
+				"Defense: +2"
+			],
+		"Flags": [
+				"no_salvage"
+			]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 370000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Eloder Mak",
+		"Model": "Gen 1 EWE",
+		"UIName": "Improved? Experimental EWAR Suite",
+		"Id": "Gear_EarlyPirate_EWAR",
+		"Name": "Improved? Experimental EWAR Suite",
+		"Details": "Bulkier than the origional Experimental Electronic Warfare Suite, this Pirate Created \"Improved EWAR Suite\" is actually worse in terms of performance vs the origional experimental device.  But it is lighter.",
+		"Icon": "circuitry"
+	},
+	"BonusValueA": "ECM Defenses",
+	"BonusValueB": "Active Probe Ping",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 5,
+	"Tonnage": 6.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "EnemiesWithinRange",
+				"alsoTargetsCreator": true,
+				"forceVisRebuild": true
+			},
+			"effectType": "ActiveAbility",
+			"Description": {
+				"Id": "ActiveProbe_Ping",
+				"Name": "ACTIVE PROBE PING",
+				"Details": "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+				"Icon": "uixSvgIcon_action_sensorlock"
+			},
+			"activeAbilityEffectData": {
+				"abilityName": "AbilityDef_ActiveProbe_Ping"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "GECMInterference",
+				"Name": "GECM Interference",
+				"Details": "Guardian ECM making this unit harder to hit.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "2.0",
+				"modType": "System.Single"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"ElectronicCounterMeasures",
+			"lv-probe_m2"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -90,7 +90,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM10_86-Telos",
+			"ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 2,

@@ -226,7 +226,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Tank_InfantryCompartment",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_Raiden",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Rear",
 			"HardpointSlot": 1,
@@ -234,7 +234,7 @@
 		},
 		{
 		  "MountedLocation": "Rear",
-		  "ComponentDefID": "Tank_BattleArmorFiringPorts",
+		  "ComponentDefID": "Gear_Airdrop_Beacon_BA_Void",
 		  "ComponentDefType": "Upgrade",
 		  "HardpointSlot": -1,
 		  "DamageLevel": "Functional"

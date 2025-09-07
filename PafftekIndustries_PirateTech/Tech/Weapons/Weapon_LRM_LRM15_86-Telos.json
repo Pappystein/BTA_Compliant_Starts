@@ -44,6 +44,8 @@
 	"AttackRecoil": 1,
 	"Instability": 1,
 	"AMSHitChance": 0,
+	"FlatJammingChance": 0.05,
+	"PersistentJamming": false,		
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM15",
 	"Description": {
 		"Cost": 260000,

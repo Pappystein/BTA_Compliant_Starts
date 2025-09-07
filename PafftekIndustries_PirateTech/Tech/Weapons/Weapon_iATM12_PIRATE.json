@@ -11,8 +11,8 @@
 		"BonusDescriptions": [
 			"PiATM",
 			"NoFireInMelee",
-			"MissileHealth: 2",
-			"WeaponAttachmentCompatible: LRM FCS"
+			"DMGOnJam",
+			"MissileHealth: 2"
 		]
 	},
 	"Category": "Missile",
@@ -47,21 +47,20 @@
 	"ImprovedBallistic": true,
 	"ProjectileSpeedMultiplier": 1.4,
 	"MissileHealth": 2,
-	"DamageOnJamming": true,
-	"DestroyOnJamming": false,
-	"FlatJammingChance": 0.075,
+	"FlatJammingChance": 0.05,
+	"PersistentJamming": true,	
 	"GunneryJammingMult": 0.05,
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
 	"Description": {
 		"Cost": 522000,
 		"Rarity": 10,
 		"Purchasable": true,
-		"Manufacturer": "CLAN",
+		"Manufacturer": "Eloder Mak",
 		"Model": "improved Advanced Tactical Missile",
 		"UIName": "iATM 12 (P)",
 		"Id": "Weapon_iATM12_PIRATE",
 		"Name": "iATM 12 (P)",
-		"Details": "The Advanced Tactical Missile system (ATM) was developed by Clan Coyote and allows its users to choose between three different types of ammunition. ATMs also include an integral Artemis IV Fire Control System. \n\n<b><color=#ffcc00>Uses ATM Ammo.</color></b>",
+		"Details": "A prototype variant design of the Clan force's new ATM missile launcher fell into the hands of the \"Engineering staff\" at Eloder Mak.   They had the specifications for the new ammunition types that were being developed but technical hurdles prevented them from being produced.  Instead, Eloder Mak chose to retrofit existing stocks of ATM ammunition to work with the new iATM launcher.   the iATM Launcher works similar to a Streak SRM/LRM in direct fire but is also capable of indirect fire.  The Artemis IV system was removed from the launchers to make way for this improved combat feature. \n\n<b><color=#ffcc00>Uses ATM Ammo.</color></b>",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},
 	"BonusValueA": "",
@@ -71,7 +70,7 @@
 	"PrefabIdentifier": "lrm20",
 	"BattleValue": 0,
 	"InventorySize": 5,
-	"Tonnage": 7,
+	"Tonnage": 10,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -81,9 +80,9 @@
 			"Id": "lv1",
 			"UIName": "DIRECT",
 			"isBaseMode": true,
-			"EvasivePipsIgnored": 1,
 			"Streak": true,
-			"HitGenerator": "Streak"
+			"HitGenerator": "Streak",
+			"Clustering": "Streak"
 		},
 		{
 			"Id": "lv2",
@@ -91,15 +90,14 @@
 			"isBaseMode": false,
 			"IndirectFireCapable": true,
 			"DirectFireModifier": 3.0,
+			"AccuracyModifier": 3,
 			"AlwaysIndirectVisuals": true
 		}
 	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_extreme",
-			"LRMFCSSupported-Standard",
-			"WebbTCSupported-SingleShot"
+			"range_extreme"
 		],
 		"tagSetSourceFile": ""
 	}

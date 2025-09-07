@@ -22,13 +22,12 @@
 			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
 			{ "Type": "VehicleDef",	"Path": "Vehicles/VehicleDef" },
 			{ "Type": "VehicleChassisDef", "Path": "Vehicles/VehicleChassisDef" },
-			{ "Type": "ItemCollectionDef", "Path": "PFT_Store_Update",	"ShouldAppendText": true},
 			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
 			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" }
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_BTACompliant_Starts" ],
+	"DependsOn": [ "PafftekIndustries_PirateTechDefault", "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_BTACompliant_Starts" ],
 	"ConflictsWith": [				
 	]
 }

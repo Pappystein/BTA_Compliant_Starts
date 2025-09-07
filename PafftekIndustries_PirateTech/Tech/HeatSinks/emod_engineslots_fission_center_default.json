@@ -1,0 +1,120 @@
+{
+	"Custom": {
+		"Cooling": {
+			"HeatSinkDefId": "Gear_HeatSink_Generic_Standard"
+		},
+		"Weights": {
+			"EngineFactor": 1.8
+		},
+		"WorkOrderCosts": {
+			"Default": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Install": {
+				"TechCost": "1.3 * [[Chassis.Tonnage]] / 20",
+				"CBillCost": "4000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 25"
+			}
+		},
+		"Flags": [
+			"default",
+			"not_broken",
+			"vital",
+			"no_salvage"
+		],
+		"ActivatableComponent": {
+			"CanNotBeActivatedManualy": true,
+			"NoUniqueCheck": true,
+			"ExplodeOnDamage": true,
+			"Explosion": {
+				"Chance": 1,
+				"Damage": 100,
+				"Heat": 250,
+				"Stability": 200,
+				"Range": 150,
+				"FireTerrainChance": 1,
+				"FireTerrainStrength": 40,
+				"FireTerrainCellRadius": 20,
+				"FireDurationWithoutForest": 1,
+				"ExplosionMessage": "Core Meltdown!",
+				"VFX": "WFX_Nuke",
+				"AdditionalImpactVFXScaleX": 4,
+				"AdditionalImpactVFXScaleY": 4,
+				"AdditionalImpactVFXScaleZ": 4,
+				"FireDurationWithoutForest": 2
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "EngineShield"
+			},
+			{
+				"CategoryID": "EnginePart"
+			}
+		],
+		"BonusDescriptions": [
+			"FissionSHS",
+			"EngineWeight: +80%",
+			"HeatPerTurn: -20"
+		]
+	},
+	"Description": {
+		"Cost": 450000,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "Trondson Cores",
+		"Model": "Fission",
+		"UIName": "Engine Fission",
+		"Id": "emod_engineslots_fission_center_default",
+		"Name": "Fission Engine",
+		"Details": "Fission engines are a rarely seen piece of engine technology. Originally the predecessor to the much more widely accepted fusion engine, the fission engine is extremely fuel efficient and relatively inexpensive to both fabricate and operate, making them fairly popular for support vehicles and the occassional IndustrialMech. Compared to fusion however, the fission engine has few advantages and many downsides, such as high doses of dangerous radiation, making them rarely seen on combat units such as BattleMechs.",
+		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-FissionHeatReduction",
+				"Name": "Reduced Heat",
+				"Details": "Fission Engines are mildly more heat efficient, wicking away 20 heat each turn.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Add",
+				"modValue": "20",
+				"modType": "System.Int32"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"EnginePart.{location}",
+			"component_type_stock",
+			"Fission"
+		],
+		"tagSetSourceFile": ""
+	}
+}

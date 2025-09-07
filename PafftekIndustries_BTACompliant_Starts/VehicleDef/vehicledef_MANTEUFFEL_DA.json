@@ -111,13 +111,6 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Tank_CASE",
-			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Front",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Ammo_AmmunitionBox_LK_LRM",
 			"ComponentDefType": "AmmunitionBox",
 			"MountedLocation": "Rear",
@@ -210,7 +203,14 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Tank_BattleArmorBay",
+			"ComponentDefID": "mechdef_ba_grenadier",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "mechdef_ba_infiltratormkii",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_PirateTime",
+				"Name": "2.5 PirateTime",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.6,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Barataria"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Starting_Pirate_Medium,itemCollection_Mechs_Starting_Pirate_Light,itemCollection_Mechs_Starting_Pirate_Light_PFT,itemCollection_Mechs_Starting_Pirate_Light_PFT,itemCollection_Mechs_Starting_Pirate_Medium_PFT,itemCollection_Mechs_Starting_Pirate_Medium_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Circinus:10"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"Name": "PafftekIndustries_BTACompliant_StoreAdendum",
+	"Enabled": true,
+	"Hidden": true,
+	"CustomResourceTypes": [
+		"ExtendedContractType"
+	],
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.AmmoCategoryEnumeration",
+			"path": "AmmoCategory.json"
+		}
+	],
+	"Contact": "",
+	"Manifest": [
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollections"
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "PFT_Store_Update",
+			"ShouldAppendText": true
+		},
+		{
+			"Type": "DShopDef",
+			"Path": "DynamicShopsUpdater/SShops"
+		},
+		{
+			"Type": "DBMShopDef",
+			"Path": "DynamicShopsUpdater/bmshops"
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollections_DynamicShops"
+		}
+	],
+	"OptionallyDependsOn": [],
+	"DependsOn": [
+		"BT Advanced Mechs",
+		"BTA Difficulty Settings",
+		"BT Advanced Backgrounds",
+		"BT Advanced HM Equipment Module",
+		"Custom Ammo Categories",
+		"BT Advanced Core",
+		"PafftekIndustries_CSVs",
+		"MechAffinity",
+		"Community Content",
+		"BT Advanced FP Module",
+		"BT Advanced HM Unit Module",
+		"BT Advanced UW Unit Module",
+		"BT Advanced Starters",
+		"CustomShops",
+		"DynamicShops",
+		"PafftekIndustries_BTACompliant_Sanctuary",
+		"PafftekIndustries_BTACompliant_Starts",
+		"PafftekIndustries_PirateTech"
+	],
+	"ConflictsWith": [],
+	"LoadImplicitManifest": true
+}

@@ -15,8 +15,7 @@
 	"Manifest": [
 		{
 			"Type": "ItemCollectionDef",
-			"Path": "ItemCollections",
-			"ShouldAppendText": true
+			"Path": "ItemCollections"
 		},
 		{
 			"Type": "AdvancedJSONMerge",

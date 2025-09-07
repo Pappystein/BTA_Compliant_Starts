@@ -8,7 +8,7 @@
     "UIName": "Hornet",
     "Id": "chassisdef_hornet_HNT-175x",
     "Name": "Hornet",
-    "Details": "A test mech that entered limited production, the Hornet HNT-175X is basically a Hornet HNT-175, equipped with an XL engine, the Clan tech PAC/4 autocannon with 2 tons of ammunition and UltraFerroFiberous armor.   The Ultra Ferro provides enhanced protection both in terms of armor tonnage on the mech as well as in its inclusion of CASE-II technology.  The PAC-4 Autocannon provides superior range and hitting power.",
+    "Details": "A test mech that entered limited production, the Hornet HNT-175X is basically a Hornet HNT-175, equipped with an XL engine, the Clan tech PAC/4 autocannon with 2 tons of ammunition.   The PAC-4 Autocannon provides superior range and hitting power.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
     "Icon": "uixTxrIcon_hornet"
   },
   "MovementCapDefID": "movedef_hornet",
@@ -198,7 +198,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefID": "emod_structureslots_endosteelprototype",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -213,16 +213,7 @@
       "DamageLevel": "Functional",
       "prefabName": "",
       "hasPrefabName": true
-    },
-	{
-		"MountedLocation": "CenterTorso",
-		"ComponentDefID": "emod_armorslots_ultraferrofibrous",
-		"ComponentDefType": "Upgrade",
-		"HardpointSlot": -1,
-		"DamageLevel": "Functional",
-		"prefabName": "",
-		"hasPrefabName": true
-	}	
+    }	
   ],
   "CustomParts": {
     "CustomParts": []

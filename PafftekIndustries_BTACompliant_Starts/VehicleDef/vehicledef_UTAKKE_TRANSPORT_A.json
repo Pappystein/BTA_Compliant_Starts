@@ -176,7 +176,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Tank_InfantryCompartment",
+      "ComponentDefID": "Gear_Airdrop_Beacon_BA_Achilles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

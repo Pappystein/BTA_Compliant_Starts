@@ -5,3 +5,7 @@ Ammo_AmmunitionBox_Generic_MortarHvy_SC,AmmunitionBox,2,1
 Ammo_AmmunitionBox_EMP_MortarHvy,AmmunitionBox,2,1
 Ammo_AmmunitionBox_MortarHvy_Elias,AmmunitionBox,2,1
 Ammo_AmmunitionBox_FASCAM_MortarHvy,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Illumination_MortarHvy,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Precision_MortarHvy,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Inferno_MortarHvy,AmmunitionBox,2,1
+Ammo_AmmunitionBox_AcidAOE_MortarHvy,AmmunitionBox,2,1

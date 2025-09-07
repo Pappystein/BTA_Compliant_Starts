@@ -1,0 +1,81 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/binary"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnCrits: 35%",
+				"WpnAccuracy: +1",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
+			]
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "LargeLaser",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 31,
+	"Damage": 70,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.35,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"DisableClustering": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"FireTerrainChance": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+	"Description": {
+		"Cost": 300000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Hellzya Laser Emporium",
+		"Model": "Binary Laser Cannon [P]",
+		"UIName": "L Binary Laser",
+		"Id": "Weapon_Laser_BinaryLaserCannon_82_Pirate",
+		"Name": "Large Binary Laser [Pirate]",
+		"Details": "`Kludged together by Hellzya Laser Emporium, this nearly bog standard Blazer Binary Laser Cannon differs only in minor respects from the similar Defiance models.   First it can jam up due to the shoddy workmanship.  Secondly it is less accurate than the Defiance entry in this class but most importantly it has a significantly higher chance of causing critical hits when busting through the opponents armor shell.",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 9,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -8,7 +8,7 @@
 		"UIName": "Corsair",
 		"Id": "chassisdef_corsair_COR-4J",
 		"Name": "Corsair",
-		"Details": "Early on T-Bone fell in love with the Frankenmech known as the Corsair, seeing the minature -4A variant in battle gave him some unique ideas.   The COR-4J mixes just about every technology threashold T-Bone could strap onto the chasssis, from clan Ultra Autocannons to Periphery Rifles.  This unique Frankemech will set the world afire.",
+		"Details": "Early on T-Bone fell in love with the Frankenmech known as the Corsair, seeing the miniature -4A variant in battle gave him some unique ideas.   While he would go on to polish and develop the COR-4TB into his ideal mech, in the interim he released an easier to produce variant called the COR-4J.   Armed with 6x LAC/5 Autocannons, Propelled by a MASC enhanced VLAR 300XL fusion core and armored with Ferro Fibrous armor with CASE protection, the COR-4J is nothing if not a great mid range sniper.\n\n <b><color=#e51717>Pafftek Industries Pirate tech </color></b>",
 		"Icon": "uixTxrIcon_corsair"
 	},
 	"MovementCapDefID": "movedef_corsair_COR-5R",
@@ -116,7 +116,7 @@
 				{
 					"WeaponMount": "AntiPersonnel",
 					"Omni": false
-				}				
+				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
@@ -213,12 +213,14 @@
 	"ChassisTags": {
 		"items": [
 			"HeavyMech",
-			"ArmLimitLowerRight"
+			"ArmLimitLowerRight",
+			"PirateMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "T-Bone's Ride",
-	"YangsThoughts": "So this is the Frankenmech that T-Bone made for himself.  I gotta say better than the 4A... by how much I don't know... but better.",
+	"StockRole": "T-Bone's Parody",
+	"YangsThoughts": "Boss, I know T-Bone has friends who can make things for him but this takes the cake... this is the 3rd or 4th mech we have seen with T-Bone's stamp of approval!   What the HECK!  We need those resources for ourselves!",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -233,13 +235,13 @@
 			"hasPrefabName": false
 		},
 		{
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "emod_structureslots_clanendorigged",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
-        }
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendorigged",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
 	]
 }
