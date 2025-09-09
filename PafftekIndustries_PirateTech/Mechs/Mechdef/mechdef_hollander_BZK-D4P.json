@@ -281,20 +281,6 @@
 			"TargetComponentGUID": null
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_myomer_standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false,
-			"LocalGUID": "326ce515-ea60-4dad-99b7-ff1489a5245b",
-			"TargetComponentGUID": null
-		},
-		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_lower",
 			"SimGameUID": null,

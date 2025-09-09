@@ -295,20 +295,6 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_myomer_standard",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "LocalGUID": "0b473315-35b2-4170-962e-d927017d52bc",
-      "TargetComponentGUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_kit_shs",
       "SimGameUID": null,
       "ComponentDefType": "HeatSink",

@@ -16,6 +16,31 @@
 				"CBillCost": "4000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 25"
 			}
 		},
+		"ActivatableComponent": {
+			"CanNotBeActivatedManualy": true,
+			"NoUniqueCheck": true,
+			"ExplodeOnDamage": true,
+			"Explosion": {
+				"Chance": 0.25,
+				"Damage": 25,
+				"Heat": 250,
+				"Stability": 200,
+				"Range": 150,
+				"FireTerrainChance": 1,
+				"FireTerrainStrength": 40,
+				"FireTerrainCellRadius": 20,
+				"FireDurationWithoutForest": 1,
+				"ExplosionMessage": "Runaway Reaction!",
+				"VFX": "WFX_Nuke",
+				"AdditionalImpactVFXScaleX": 4,
+				"AdditionalImpactVFXScaleY": 4,
+				"AdditionalImpactVFXScaleZ": 4,
+				"FireDurationWithoutForest": 2,
+				"tempDesignMaskCellRadius": 5,
+				"tempDesignMaskOnImpactTurns": 30,
+				"tempDesignMaskOnImpact": "DesignMaskFallout"
+			}
+		},		
 		"Flags": [
 			"default",
 			"not_broken",

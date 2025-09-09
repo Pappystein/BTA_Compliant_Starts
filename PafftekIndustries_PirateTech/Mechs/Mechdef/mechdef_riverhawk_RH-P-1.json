@@ -350,34 +350,6 @@
       "TargetComponentGUID": null
     },
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Generic_Standard_Default",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "LocalGUID": "0f7c93cb-0bdf-4a80-b986-f8aac168e256",
-      "TargetComponentGUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_myomer_standard",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "LocalGUID": "3e1f50a0-b125-4ef8-8aaa-a5dcacb546ed",
-      "TargetComponentGUID": null
-    },
-    {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "emod_leg_lower",
       "SimGameUID": null,

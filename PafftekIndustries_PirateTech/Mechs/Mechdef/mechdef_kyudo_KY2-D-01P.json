@@ -285,7 +285,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_standard_pirate",
       "SimGameUID": null,
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -393,20 +393,6 @@
       "prefabName": "",
       "hasPrefabName": false,
       "LocalGUID": "953d582d-253d-48e9-a39e-8930458229a8",
-      "TargetComponentGUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_myomer_standard",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "LocalGUID": "67cc26b3-fd4e-4039-93be-5a8daf34ab16",
       "TargetComponentGUID": null
     },
     {
@@ -561,20 +547,6 @@
       "prefabName": null,
       "hasPrefabName": false,
       "LocalGUID": "4852e8db-42c9-405d-a8dc-7ccfdb4bc255",
-      "TargetComponentGUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engineslots_fission_center",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "LocalGUID": "6ef999aa-348a-46da-b6e4-9a17edb4cb5d",
       "TargetComponentGUID": null
     },
     {

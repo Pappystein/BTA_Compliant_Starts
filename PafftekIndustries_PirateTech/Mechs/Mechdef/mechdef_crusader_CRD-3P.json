@@ -282,7 +282,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engineslots_std_center",
+      "ComponentDefID": "emod_engineslots_pirate_center",
       "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -362,20 +362,6 @@
       "prefabName": "",
       "hasPrefabName": false,
       "LocalGUID": "d5c6fe8f-1a6c-4aae-9848-ed2174874715",
-      "TargetComponentGUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_myomer_standard",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "LocalGUID": "286fa4fe-6e3b-4ead-9129-2cde7014c62d",
       "TargetComponentGUID": null
     },
     {
