@@ -4,7 +4,10 @@
 		"Category" : [
 			{"CategoryID": "AECM"},
 			{"CategoryID": "Probe"},
-			{"CategoryID": "C3"}
+			{"CategoryID": "C3"},
+			{
+				"CategoryID": "StealthCompatible"
+			}
 		],	
 		"ActivatableComponent": {
 			"ButtonName": "Guardian ECM",

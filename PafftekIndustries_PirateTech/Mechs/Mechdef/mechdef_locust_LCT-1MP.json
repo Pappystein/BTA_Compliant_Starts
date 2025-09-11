@@ -207,7 +207,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard_pirate_pirate",
+			"ComponentDefID": "emod_armorslots_standard_pirate",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

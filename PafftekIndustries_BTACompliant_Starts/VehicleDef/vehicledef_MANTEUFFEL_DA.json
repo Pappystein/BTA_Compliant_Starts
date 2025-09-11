@@ -203,14 +203,14 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "mechdef_ba_grenadier",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_InfiltratorMkII",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "mechdef_ba_infiltratormkii",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_Grenadier",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
