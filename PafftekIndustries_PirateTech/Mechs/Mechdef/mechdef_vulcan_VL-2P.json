@@ -430,7 +430,18 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_ERFlamer_81-Pirate",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_Flamer_ERFlamer_81-Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -529,7 +540,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -555,6 +566,28 @@
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Flamer_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_Flamer_ERFlamer_81-Pirate",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

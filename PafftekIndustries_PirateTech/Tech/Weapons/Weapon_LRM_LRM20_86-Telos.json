@@ -11,6 +11,7 @@
 		"BonusDescriptions": [
 				"MissileHealth: 1",
 				"NoFireInMelee",
+				"WeaponJAM: 5%",
 				"WeaponAttachmentCompatible: Artemis IV FCS",
 				"WeaponAttachmentCompatible: LRM FCS"
 			]
@@ -53,9 +54,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Telos",
 		"Model": "Long-Range Missile Launcher",
-		"UIName": "LRM20 Telos",
+		"UIName": "LRM20 [P]",
 		"Id": "Weapon_LRM_LRM20_86-Telos",
-		"Name": "LRM20 Telos",
+		"Name": "LRM20 [P]",
 		"Details": "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},

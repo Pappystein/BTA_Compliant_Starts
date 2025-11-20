@@ -24,7 +24,7 @@
 	"PrefabBase": "savannah",
 	"Tonnage": 20,
 	"weightClass": "LIGHT",
-	"BattleValue": 1000000,
+	"BattleValue": 0,
 	"TopSpeed": 500,
 	"TurnRadius": 90,
 	"SpotterDistanceMultiplier": 1,

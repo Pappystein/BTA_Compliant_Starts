@@ -496,6 +496,18 @@
 					"Short": "No Weapon Attachments",
 					"Long": "For whatever reason this weapon can not take attachments.",
 					"Full": "For whatever reason this weapon can not take attachments."
+				},
+				{
+					"Bonus": "C3Safe",            
+					"Short": "C3 Safe",
+					"Long": "Does not affect enemy C3 Networks",
+					"Full": "This ECM suite does not affect enemy C3 Networks"
+				},
+				{
+					"Bonus": "C3NetworkJamCount",
+					"Short": "Reduces Max C3 Units by {0}",
+					"Long": "Reduces Max C3 Units by {0}",
+					"Full": "ECM Reduces the max number of C3 units on a network by {0}, potentially crashing the C3 Network."
 				}
 				
 			]

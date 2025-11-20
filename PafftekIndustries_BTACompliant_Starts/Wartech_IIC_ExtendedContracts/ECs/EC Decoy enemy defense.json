@@ -1,0 +1,127 @@
+{
+	"name": "EC Decoy enemy defense",
+	"requirementList": [
+		{
+			"Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+			"ExclusionTags": {
+				"items": [
+					"planet_other_empty"
+				],
+				"tagSetSourceFile": ""
+			}
+		}
+	],
+	"weight": 1,
+	"spawnLocation": "NearbyEnemy",
+	"employer": [
+		"Any"
+	],
+	"target": [
+		"SystemOwner"
+	],
+	"hireContract": "wiic_DecoyEnemyForces",
+	"availableFor": [
+		20,
+		35
+	],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"InitalContact",
+		"",
+		"PopTheVanguard",
+		"",
+		"ReduceLocalSupplies",
+		"",
+		"TakeTheSupplyBase",
+		"",
+		"EnemyCommanderAtLarge",
+		"",
+		"HaulSuppliesAway",
+		"ReduceEnemySupport",
+		"StartInvasion",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"InitalContact": {
+			"workOrder": "Land and capture a zone of control",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, our liaison from {TEAM_EMP.FactionDef.ShortName}, has given us the location of the base we are to capture.  Our first step is to sweep the area in a scouting force eliminating any enemies we discover along the way.  Our contact with {TEAM_EMP.FactionDef.ShortName} forces have indicated the possibility of 3rd party interlopers. That is however, not a certainty."
+		},
+		"PopTheVanguard": {
+			"workOrder": "Hit the Vanguard forces hard!",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3,
+				52
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has asked us to do a further sweep of the area, Commander. As before there is a chance of 3rd party interlopers so stay on your toes!"
+		},
+		"ReduceLocalSupplies": {
+			"workOrder": "Intercept the fleeing convoy",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				15
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} Has targeted a supply run for us to intercept.  They want all forces absolutly eliminated."
+		},
+		"TakeTheSupplyBase": {
+			"workOrder": "Take the supply base",
+			"contractChance": 1.0,
+			"allowedContractTypes": [
+				7
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Boss! {TEAM_EMP.FactionDef.ShortName}, wants us to target and capture a logistical supply base.  This is a required mission and will greatly aid future endeavors on this deployment."
+		},
+		"EnemyCommanderAtLarge": {
+			"workOrder": "Take out the Enemy Leadership",
+			"contractChance": 0.66,
+			"allowedContractTypes": [
+				10
+			],
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a senior leader in the {TEAM_TAR.FactionDef.Demonym} force for us to take out.   Go get them and remove them from the playing field. This is an OPTIONAL mission."
+		},
+		"HaulSuppliesAway": {
+			"workOrder": "Make off with the Supplies",
+			"contractChance": 0.66,
+			"allowedContractTypes": [
+				8
+			],
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} is asking if we can step in and haul some supplies away from the enemy logistical train.   Boss, this is an optional mission!"
+		},
+		"ReduceEnemySupport": {
+			"workOrder": "Reduce Enemy Support",
+			"contractChance": 0.9,
+			"allowedContractTypes": [
+				15
+			],
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here!  This mission is completely optional Commander.  No penalty if we can not muster forces for it."
+		},
+		"StartInvasion": {
+			"popupTitle": "Mission Complete",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun their nearby invasion, Commander {COMMANDER.LastName}.  The invasion may even be several jumps away commander but we have done our job per the contract!",
+			"triggerEvent": [
+				"PFT_event_RemoteInvasion"
+			]
+		},
+		"PaymentDelivered": {
+			"popupTitle": "The Base Commander Sends Their Thanks",
+			"popupMessage": "Our payment was just delivered, Commander.  {TEAM_EMP.FactionDef.ShortName} is overall happy with our performance. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+	}
+}

@@ -225,34 +225,6 @@
 			"TargetComponentGUID": null
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_LifeSupportA_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "190f750e-0a73-4621-a16c-22476b404859",
-			"TargetComponentGUID": null
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_SensorsA_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "8a37ec98-0334-4c8a-8eed-34ee32f31a6b",
-			"TargetComponentGUID": null
-		},
-		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_upper",
 			"SimGameUID": null,
@@ -337,20 +309,6 @@
 			"TargetComponentGUID": null
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_SensorsB_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "eefc3146-efab-48ff-a7df-b9c79c6d57cc",
-			"TargetComponentGUID": null
-		},
-		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_hand",
 			"SimGameUID": null,
@@ -390,20 +348,6 @@
 			"prefabName": "",
 			"hasPrefabName": false,
 			"LocalGUID": "9eb7f748-3e66-4f09-9d2f-f2477f3a5138",
-			"TargetComponentGUID": null
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_LifeSupportB_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "0a4e4f03-12b0-4ca2-86cd-360754ee34cc",
 			"TargetComponentGUID": null
 		},
 		{

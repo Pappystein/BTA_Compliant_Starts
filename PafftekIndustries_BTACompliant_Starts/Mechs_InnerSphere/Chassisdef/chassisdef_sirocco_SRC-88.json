@@ -45,7 +45,7 @@
   "Tonnage": 95,
   "InitialTonnage": 9.5,
   "weightClass": "ASSAULT",
-  "BattleValue": 6577000,
+  "BattleValue": 0,
   "Heatsinks": 0,
   "TopSpeed": 120,
   "TurnRadius": 90,
@@ -239,7 +239,8 @@
   "ChassisTags": {
     "items": [
 			"QuadMech",
-			"AssaultMech"
+			"AssaultMech",
+			"BACompatible"
     ],
     "tagSetSourceFile": ""
   },
@@ -284,19 +285,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Airdrop_Beacon_BA_Achilles",
-      "SimGameUID": "",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Airdrop_Beacon_BA_Salamander",
+      "ComponentDefID": "Gear_Airdrop_Beacon_BA_Sirocco",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

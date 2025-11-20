@@ -50,6 +50,9 @@
 		"",
 		"",
 		"FinalSweep",
+		"StartRaid",
+		"",
+		"",
 		"PaymentDelivered"
 	],
 	"entries": {
@@ -129,7 +132,7 @@
 		},
 		"ReduceEnemySupport3": {
 			"workOrder": "Reduce Enemy Support",
-			"contractChance": 0.80,
+			"contractChance": 0.8,
 			"allowedContractTypes": [
 				15
 			],
@@ -146,6 +149,13 @@
 			],
 			"declinePenalty": "BadFaith",
 			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has asked us to do a further sweep of the area, Commander. As before there is a chance of 3rd party interlopers so stay on your toes!"
+		},
+		"StartRaid": {
+			"popupTitle": "Raiding Time",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun their rapid strike on this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.",
+			"triggerEvent": [
+				"PFT_event_TriggerRaid"
+			]
 		},
 		"PaymentDelivered": {
 			"popupTitle": "The Base Commander Sends Their Thanks",

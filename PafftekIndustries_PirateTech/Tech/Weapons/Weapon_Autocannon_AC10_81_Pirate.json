@@ -1,0 +1,85 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnRecoil: 2",
+			"Whitespace: Has a 5% Jam chance and a 1% weapon failure chance on Jam, mitigated by Gunnery skill",
+			"WeaponAttachmentCompatible: Autocannon FCS"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC10",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "AC10",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 9,
+	"Damage": 65,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 40,
+	"ImprovedBallistic": true,
+	"GunneryJammingBase": 6,
+	"GunneryJammingMult": 0.05,
+	"FlatJammingChance": 0.04,
+	"DamageOnJamming": true
+	"UnsafeJamChance": 0.1,	
+	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Nomak Group",
+		"Model": "Star-streaker Autocannon",
+		"UIName": "AC/10 [P]",
+		"Id": "Weapon_Autocannon_AC10_81_Pirate",
+		"Name": "AC/10 [Pirate]",
+		"Details": "A typical AC/10 deployed in the various Pirate Warbands.   Nothing special here except unlike Western, General Motors etc Autocannons this one can jam slightly.   Fully compatable with inner sphere and Pirate FCSes.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC10",
+	"BattleValue": 0,
+	"InventorySize": 7,
+	"Tonnage": 12,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"AutocannonFCSSupported-Standard",
+			"WebbTCSupported-SingleShot",
+			"QuirkEnforcerSupported-AC10-SingleShot",
+			"QuirkRisingStarSupported-AC10",
+			"QuirkAnnihilatorSupported-AC10_SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

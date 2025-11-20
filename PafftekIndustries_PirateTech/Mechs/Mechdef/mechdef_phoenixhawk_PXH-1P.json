@@ -133,10 +133,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
-			"CurrentArmor": 30,
+			"CurrentArmor": 37,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 16,
-			"AssignedArmor": 30,
+			"AssignedArmor": 37,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -151,10 +151,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 90,
+			"CurrentArmor": 80,
 			"CurrentRearArmor": 20,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 90,
+			"AssignedArmor": 80,
 			"AssignedRearArmor": 20
 		},
 		{
@@ -169,10 +169,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 90,
+			"CurrentArmor": 80,
 			"CurrentRearArmor": 20,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 90,
+			"AssignedArmor": 80,
 			"AssignedRearArmor": 20
 		},
 		{
@@ -493,6 +493,17 @@
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

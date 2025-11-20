@@ -7,7 +7,8 @@
 		],
 		"BonusDescriptions": [
 			"MissileHealth: 2",
-			"WeaponAttachmentCompatible: Artemis IV FCS",
+			"WeaponJAM: 2%",
+			"Whitespace: Perminant Jam! On Jam, weapon is unusable",
 			"WeaponAttachmentCompatible: SRM FCS"
 		]
 	},
@@ -72,7 +73,6 @@
 		"items": [
 			"component_type_stock",
 			"range_standard",
-			"ArtemisIVSRMSupported",
 			"SRMFCSSupported",
 			"WebbTCSupported-SingleShot"
 		],

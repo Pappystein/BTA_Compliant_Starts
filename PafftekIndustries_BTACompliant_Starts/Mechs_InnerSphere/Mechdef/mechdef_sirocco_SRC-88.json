@@ -221,7 +221,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
+			"ComponentDefID": "Weapon_Laser_AMS_PIP",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -232,7 +232,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_AMS_CLAN",
+			"ComponentDefID": "Weapon_Laser_AMS_PIP",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

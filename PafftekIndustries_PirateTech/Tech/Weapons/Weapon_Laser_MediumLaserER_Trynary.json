@@ -43,7 +43,7 @@
 		"Purchasable": false,
 		"Manufacturer": "1D10T Industries",
 		"Model": "Extended-Range Medium Tri core Laser",
-		"UIName": "ER Trynary Laser",
+		"UIName": "ER Trynary Laser [P]",
 		"Id": "Weapon_Laser_MediumLaserER_Trynary",
 		"Name": "ER Trynary Laser",
 		"Details": "A group of Pirates, took a large shipment of perfectly good ER Medium lasers, and kluged this monstrosity together.   Apparently their thought was 'If the Binary **BLASER** Laser is pretty good, 3 laser cores should be better.'   It is a wonder any of them are still alive to talk about this 'experiment' otherwise known as the biggest hot mess there ever was.",

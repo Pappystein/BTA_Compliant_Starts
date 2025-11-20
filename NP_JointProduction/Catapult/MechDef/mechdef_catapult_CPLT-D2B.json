@@ -215,7 +215,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engine_cooling_1",
+            "ComponentDefID": "emod_engine_cooling_3",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -392,6 +392,17 @@
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Gauss_Twin_Magshot_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,

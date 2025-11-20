@@ -179,6 +179,11 @@
 			"Path": "Wartech_IIC_ExtendedContracts/ECs"
 		},
 		{
+			"Type": "SimGameEventDef",
+			"Path": "Wartech_IIC_ExtendedContracts/events",
+			"AddToDB": true
+		},
+		{
 			"Type": "CustomTag",
 			"Path": "CustomTags"
 		},

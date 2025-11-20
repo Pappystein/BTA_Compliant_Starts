@@ -151,19 +151,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 100,
+			"CurrentArmor": 105,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 75,
-			"AssignedArmor": 100,
+			"AssignedArmor": 105,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 100,
+			"CurrentArmor": 105,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 75,
-			"AssignedArmor": 100,
+			"AssignedArmor": 105,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -376,6 +376,17 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
 			"SimGameUID": null,
@@ -443,6 +454,17 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Acid_SRM",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_JumpJet_Generic_Heavy",
 			"SimGameUID": null,
 			"ComponentDefType": "JumpJet",
@@ -464,8 +486,30 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_SRM_SRM10_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

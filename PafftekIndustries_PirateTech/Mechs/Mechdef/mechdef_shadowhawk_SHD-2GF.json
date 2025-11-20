@@ -643,7 +643,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

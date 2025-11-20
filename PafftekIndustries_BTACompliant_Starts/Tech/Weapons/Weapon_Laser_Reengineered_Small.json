@@ -75,7 +75,7 @@
 	"ComponentType": "Weapon",
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "Laser",
-	"BattleValue": 14,
+	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 1,
 	"AllowedLocations": "All",

@@ -281,20 +281,6 @@
 			"TargetComponentGUID": null
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_LifeSupportA_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "5f7ff4a3-5363-4dca-b4d8-23593a8a3764",
-			"TargetComponentGUID": null
-		},
-		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_upper",
 			"SimGameUID": null,
@@ -348,20 +334,6 @@
 			"prefabName": "",
 			"hasPrefabName": false,
 			"LocalGUID": "38779b2f-feaf-4b93-a8dd-119eafcf8dec",
-			"TargetComponentGUID": null
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_SensorsA_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "b71daaa1-c9c8-48e9-b7ed-e52e54c4429f",
 			"TargetComponentGUID": null
 		},
 		{
@@ -502,20 +474,6 @@
 			"prefabName": "",
 			"hasPrefabName": false,
 			"LocalGUID": "8c481f54-0fc3-4b31-ac75-7b6b9aa40388",
-			"TargetComponentGUID": null
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_LifeSupportB_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "9289b741-4f56-4541-80a1-23466d7ba453",
 			"TargetComponentGUID": null
 		},
 		{

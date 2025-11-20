@@ -7,6 +7,8 @@
 		],
 		"BonusDescriptions": [
 			"MissileHealth: 2",
+			"WeaponJAM: 2%",
+			"Whitespace: Perminant Jam! On Jam, weapon is unusable",
 			"WeaponAttachmentCompatible: SRM FCS"
 		]
 	},

@@ -355,7 +355,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_PPC_PPCER_81-Pirate",
+			"ComponentDefID": "Weapon_PPC_PPC_81-Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -412,18 +412,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MRM_DOUBLE_Protected",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -491,7 +480,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_PPC_PPCER_81-Pirate",
+			"ComponentDefID": "Weapon_PPC_PPC_81-Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

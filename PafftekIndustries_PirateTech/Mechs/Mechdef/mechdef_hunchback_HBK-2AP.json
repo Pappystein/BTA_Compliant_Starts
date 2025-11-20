@@ -247,7 +247,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Generic_Standard",
+			"ComponentDefID": "Gear_Gyro_Coventry_Mark-85",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -423,7 +423,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -433,8 +433,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -492,17 +492,6 @@
 			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -522,21 +511,10 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 2,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

@@ -7,6 +7,7 @@
 				"WpnAccuracy: -1",
 				"MRM",
 				"MissileHealth: 1",
+				"WeaponJAM: 4%",
 				"WeaponAttachmentCompatible: LRM FCS"
 			]
 	},

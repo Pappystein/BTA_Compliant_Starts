@@ -51,7 +51,7 @@
 		"Purchasable": false,
 		"Manufacturer": "Nomak Group",
 		"Model": "Point Defender PPC",
-		"UIName": "PPC Shotgun",
+		"UIName": "PPC Shotgun [P]",
 		"Id": "Weapon_PPC_PPC_82-Pirate",
 		"Name": "PPC Shotgun",
 		"Details": "An unusual divergence from typical PPC technology, this PPC has been modified to fire a cluster of PPC shots, each dealing reduced damage. The advantages are clear though: this shotgun-like PPC deals superior critical damage over a normal PPC expression.",

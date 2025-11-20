@@ -50,7 +50,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Nomak Group",
 		"Model": "Particle Projector Cannon",
-		"UIName": "Static Gun PPC[P]",
+		"UIName": "Static Gun PPC [P]",
 		"Id": "Weapon_PPC_PPC_81-Pirate",
 		"Name": "Static Gun [P]",
 		"Details": "Nomak Group, having acquired several Donal Static PPC upgrade kits reverse engineered the Donal kit into this weapon.  Less accurate, less base damage and more heat...but, it is actually more effective at reducing enemy units combat ability!",

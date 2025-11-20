@@ -288,21 +288,6 @@
 						"notused"
 					]
 				}
-			},
-			{
-				"Icon": "battle-amor-suit",
-				"Tooltip": "Battle Armor Weapons",
-				"Filter": {
-					"ComponentTypes": [
-						"Weapon"
-					],
-					"Categories": [
-						"BAWeapon"
-					],
-					"NotCategories": [
-						"notused"
-					]
-				}
 			}
 		]
 	},
@@ -694,6 +679,7 @@
 						"Armor",
 						"CASE",
 						"CASE2",
+						"SHIELD",
 						"ModularArmor"
 					],
 					"NotCategories": [
@@ -757,6 +743,7 @@
 				"Armor",
 				"CASE",
 				"CASE2",
+				"SHIELD",
 				"ModularArmor",
 				"Avionics",
 				"LandingGear",

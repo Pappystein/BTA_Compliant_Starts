@@ -19,7 +19,7 @@
 	"Tonnage": 55,
 	"InitialTonnage": 6.25,
 	"weightClass": "MEDIUM",
-	"BattleValue": 5171000,
+	"BattleValue": 0,
 	"Heatsinks": 0,
 	"TopSpeed": 80,
 	"TurnRadius": 90,

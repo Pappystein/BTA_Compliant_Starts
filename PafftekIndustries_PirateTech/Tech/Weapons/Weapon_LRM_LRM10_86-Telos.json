@@ -11,6 +11,7 @@
 		"BonusDescriptions": [
 				"MissileHealth: 1",
 				"NoFireInMelee",
+				"WeaponJAM: 5%",
 				"WeaponAttachmentCompatible: Artemis IV FCS",
 				"WeaponAttachmentCompatible: LRM FCS"
 			]
@@ -53,9 +54,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Telos",
 		"Model": "Long-Range Missile Launcher",
-		"UIName": "LRM10 Telos",
+		"UIName": "LRM10 [P]",
 		"Id": "Weapon_LRM_LRM10_86-Telos",
-		"Name": "LRM10 Telos",
+		"Name": "LRM10 [P]",
 		"Details": "The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},

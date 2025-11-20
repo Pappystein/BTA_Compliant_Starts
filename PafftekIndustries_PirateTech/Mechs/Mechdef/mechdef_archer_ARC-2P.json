@@ -367,7 +367,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_cooling_1",
+			"ComponentDefID": "emod_engine_cooling",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -443,6 +443,17 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Weapon_LRM_LRM15_86-Telos",
 			"SimGameUID": null,
@@ -493,17 +504,6 @@
 			"ComponentDefID": "Ammo_AmmunitionBox_Swarm_LRM_IFF",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -617,6 +617,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Freezer",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

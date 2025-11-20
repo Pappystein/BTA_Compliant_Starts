@@ -158,7 +158,7 @@
 	"Tonnage": 100,
 	"InitialTonnage": 10,
 	"weightClass": "ASSAULT",
-	"BattleValue": 20206000,
+	"BattleValue": 0,
 	"Heatsinks": 0,
 	"TopSpeed": 105,
 	"TurnRadius": 130,

@@ -347,7 +347,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -358,7 +358,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -369,7 +369,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -413,7 +413,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -424,7 +424,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -435,7 +435,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_SmallLaser_80-PIRATE",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,

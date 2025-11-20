@@ -423,7 +423,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_PPC_PPC_80-Pirate",
+			"ComponentDefID": "Weapon_PPC_PPC_82-Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -511,7 +511,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_PPC_PPC_80-Pirate",
+			"ComponentDefID": "Weapon_PPC_PPC_82-Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -555,7 +555,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_PPC_PPC_80-Pirate",
+			"ComponentDefID": "Weapon_PPC_PPC_81-Pirate",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

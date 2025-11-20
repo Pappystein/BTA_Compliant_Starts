@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hoplite",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{
@@ -56,7 +63,7 @@
 	"Tonnage": 55,
 	"InitialTonnage": 5.5,
 	"weightClass": "MEDIUM",
-	"BattleValue": 6088000,
+	"BattleValue": 0,
 	"Heatsinks": 0,
 	"TopSpeed": 80,
 	"TurnRadius": 90,

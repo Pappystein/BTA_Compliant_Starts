@@ -365,17 +365,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
@@ -388,9 +377,9 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_BAP",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -398,8 +387,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_Guardian_ECM",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_TargetingComputer_Assault",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

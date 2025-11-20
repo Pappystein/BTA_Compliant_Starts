@@ -210,20 +210,6 @@
 	],
 	"inventory": [
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_LifeSupportA_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "037cc452-9154-4570-b93b-2c0d4fe4ea64",
-			"TargetComponentGUID": null
-		},
-		{
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "emod_arm_part_shoulder",
 			"SimGameUID": null,
@@ -350,20 +336,6 @@
 			"TargetComponentGUID": null
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_SensorsA_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "3e1fdf1c-a559-4cf3-b80a-d3cea7008355",
-			"TargetComponentGUID": null
-		},
-		{
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "emod_arm_part_upper",
 			"SimGameUID": null,
@@ -417,20 +389,6 @@
 			"prefabName": "",
 			"hasPrefabName": false,
 			"LocalGUID": "35d83b69-af4a-4e27-a4ea-964f4ee9b5cb",
-			"TargetComponentGUID": null
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_SensorsB_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "378f1305-47e3-40dc-8f09-6d7111ba60bf",
 			"TargetComponentGUID": null
 		},
 		{
@@ -515,20 +473,6 @@
 			"prefabName": null,
 			"hasPrefabName": false,
 			"LocalGUID": "d5022593-4eaa-4b3f-951f-499715c4ed64",
-			"TargetComponentGUID": null
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_LifeSupportB_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"IsFixed": false,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"LocalGUID": "1f16442e-fad9-43bc-b813-fa8ffb40db47",
 			"TargetComponentGUID": null
 		},
 		{

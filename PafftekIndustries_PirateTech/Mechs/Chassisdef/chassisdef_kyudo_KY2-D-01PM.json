@@ -15,7 +15,7 @@
 		"UIName": "Kyudo",
 		"Id": "chassisdef_kyudo_KY2-D-01PM",
 		"Name": "Kyudo",
-		"Details": "Armed with the simple warload of an LRM-20 and a Large Laser, the Kyudo KY2-D-01PM is a menecing mech in its weight class.  With protected ammunition bins, the Kyudo does not have to worry about being instantly destroyed by an explosion.   Which is good given there are two tons of LRMs that can pop-off.  Unlike the base Kyudo KY2-D-01P, the PM runs on a full up Fusion engine core, providing more tonnage for weapons and other gear.",
+		"Details": "Armed with the simple warload of an LRM-15 and a Large Laser, the Kyudo KY2-D-01PM is a menecing mech in its weight class.  With protected ammunition bins, the Kyudo does not have to worry about being instantly destroyed by an explosion.   Which is good given there are two tons of LRMs that can pop-off.  Unlike the base Kyudo KY2-D-01P, the PM runs on a full up Fusion engine core, providing more tonnage for weapons and other gear.",
 		"Icon": "uixTxrIcon_kyudo"
 	},
 	"MovementCapDefID": "movedef_vindicator_VND-1R",
@@ -221,7 +221,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_hacked",
+			"ComponentDefID": "emod_structureslots_endosteel_hacked",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

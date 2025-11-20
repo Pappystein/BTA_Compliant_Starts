@@ -20,7 +20,7 @@
 	"PrefabBase": "sldfdrone",
 	"Tonnage": 35,
 	"weightClass": "LIGHT",
-	"BattleValue": 500000,
+	"BattleValue": 0,
 	"TopSpeed": 125,
 	"TurnRadius": 90,
 	"movementType": "Wheeled",
