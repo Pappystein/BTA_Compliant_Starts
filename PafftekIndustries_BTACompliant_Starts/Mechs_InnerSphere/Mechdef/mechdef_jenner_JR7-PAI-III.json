@@ -75,7 +75,7 @@
 		"UIName": "JR7-PAI-III",
 		"Id": "mechdef_jenner_JR7-PAI-III",
 		"Name": "Jenner",
-		"Details": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, closely related to the PAI-II, the PAI-III gives up the PAI-I and II's Flamers for staying power on the battlefield.  A new ammunition feed is attached to the one remaining Rocket Launcher.  The ammunition is protected by prototype case under standard armor which is a cost effective solution.  While not diverging far from the PAI-I and PAI-II variants, the PAI-III is its own mech with its own deployment standards.",
+		"Details": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, closely related to the PAI-II, the PAI-III gives up the PAI-I and II's Flamers for staying power on the battlefield.  A new ammunition feed is attached to the one remaining Rocket Launcher.  The ammunition is protected by prototype case under standard armor which is a cost effective solution.  While not diverging far from the PAI-I and PAI-II variants, the PAI-III is its own mech with its own deployment standards.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_jenner"
 	},
 	"RequiredToSpawnCompanyTags": {

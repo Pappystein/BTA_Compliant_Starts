@@ -26,7 +26,7 @@
 		"UIName": "Xerxes XER-4D",
 		"Id": "mechdef_xerxes_XER-4D",
 		"Name": "Xerxes",
-		"Details": "Like most superheavies, the Xerxes is an experimental weapons platform designed for heavy siege operations. Designed in secret by the Capellan Confederation after capturing Word of Blake and Steiner superheavy examples, the Xerxes is a slow and ponderous machine but has the reach to hit just about anything anywhere. The XER-4D is one of the Capellan test platforms for the Distributed Array Superlaser battery.  Carrying two such weapons in the arms.  To support the Distributed array a total of 16 Distributed Array Components are scattered across the arms and torsos.   Given the distinct lack of missiles, efforts were made to increase the speed of this Xerxes variant with the use of a 390 Core.",
+		"Details": "Like most superheavies, the Xerxes is an experimental weapons platform designed for heavy siege operations. Designed in secret by the Capellan Confederation after capturing Word of Blake and Steiner superheavy examples, the Xerxes is a slow and ponderous machine but has the reach to hit just about anything anywhere. The XER-4D is one of the Capellan test platforms for the Distributed Array Superlaser battery.  Carrying two such weapons in the arms.  To support the Distributed array a total of 16 Distributed Array Components are scattered across the arms and torsos.   Given the distinct lack of missiles, efforts were made to increase the speed of this Xerxes variant with the use of a 390 Core.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_xerxes"
 	},
 	"simGameMechPartCost": 714821,

@@ -8,7 +8,7 @@
 		"UIName": "Assassin",
 		"Id": "chassisdef_assassin_ASN-37",
 		"Name": "Assassin",
-		"Details": "Based upon a supposed \"Hero\" mech, the ASN-37 is just a slightly updated ASN-30 with the hardpoints profile mostly matching the original ASN-21, with minor tweaks.   However as far as armament is concerned the ASN-37 is armed with a Disintegrating Large Pulse laser, and a SRM 4 launcher fed by 1/2 ton of CASE protected Acid Ammunition.  A Tag unit rounds out the offensive capabilities providing off-board targeting for other units.  Defensively Angel ECM is combined with an improved armor profile thanks to the Ferro Fibrous weave armor and the Endo-steel structure.",
+		"Details": "Based upon a supposed \"Hero\" mech, the ASN-37 is just a slightly updated ASN-30 with the hardpoints profile mostly matching the original ASN-21, with minor tweaks.   However as far as armament is concerned the ASN-37 is armed with a Disintegrating Large Pulse laser, and a SRM 4 launcher fed by 1/2 ton of CASE protected Acid Ammunition.  A Tag unit rounds out the offensive capabilities providing off-board targeting for other units.  Defensively Angel ECM is combined with an improved armor profile thanks to the Ferro Fibrous weave armor and the Endo-steel structure.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_assassin"
 	},
 	"MovementCapDefID": "movedef_assassin_ASN-21",

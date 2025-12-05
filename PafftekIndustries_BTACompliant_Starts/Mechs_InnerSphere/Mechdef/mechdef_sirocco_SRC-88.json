@@ -64,7 +64,7 @@
 		"UIName": "Sirocco SRC-8080",
 		"Id": "mechdef_sirocco_SRC-88",
 		"Name": "Sirocco",
-		"Details": "Last used on the Planet Hoth, the Sirocco AT-AT is a heavily armed and armored Battle Armor Transport quad.  By carrying the Squad internally the BA squad will not take fire until the mech is destroyed.",
+		"Details": "Last used on the Planet Hoth, the Sirocco AT-AT is a heavily armed and armored Battle Armor Transport quad.  By carrying the Squad internally the BA squad will not take fire until the mech is destroyed.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_sirocco"
 	},
 	"simGameMechPartCost": 950000,

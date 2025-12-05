@@ -159,7 +159,7 @@
 		"UIName": "Centurion",
 		"Id": "mechdef_centurion_CN9-D2",
 		"Name": "Centurion",
-		"Details": "Like the basic CN9-D it is derived from, the CN9-D3 utilizes an Endosteel Space frame, 300XL fusion core, the LB 10-X Autocannon, and Artemis IV Firecontrol for the LRM.  But in addition to all of this the D3 variant adds Triple Strenght Myomer. This further improves the movement profile when the mech is running hot.",
+		"Details": "Developed as an alternative to the fragile CN9-D and CN9-D3, the CN9-D2 only existed until the latter D3D enhanced CN9-D came into production.  Equipped with a rather common Magna 250 Fussion core, the CN9-D2 straddels the performance gap between the older CN9 variants and the new CN9-D/D3 variants at a respectable 86kph.  Beyond the change to the Magna 250 fusion core and shielding, the CN9-D2 is broadly similar to the CN9-D in weapons fitment.  Namely the fitment of a ten tube LRM box launcher, a LB 10-X autocannon and two Medium Lasers.   \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_centurion"
 	},
 	"simGameMechPartCost": 510000,

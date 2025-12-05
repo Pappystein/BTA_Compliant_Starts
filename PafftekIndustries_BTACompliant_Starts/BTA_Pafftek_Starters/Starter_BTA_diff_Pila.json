@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Pila",
+				"Name": "2.0 Marian Pila",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.6,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Lindassa"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Pafftek_Pilum_Mixed,itemCollection_Pafftek_Pilum_Mixed,itemCollection_Pafftek_Pilum,itemCollection_Pafftek_Pilum,itemCollection_Pafftek_Pilum,itemCollection_Pafftek_Pilum,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Marian:10"
+					}
+				]
+			}
+		}
+	]
+}

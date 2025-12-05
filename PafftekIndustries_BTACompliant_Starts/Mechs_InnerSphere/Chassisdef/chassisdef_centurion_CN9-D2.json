@@ -15,7 +15,7 @@
 		"UIName": "Centurion",
 		"Id": "chassisdef_centurion_CN9-D2",
 		"Name": "Centurion",
-		"Details": "Developed as an alternative to the fragile CN9-D3, the CN9-D2 only existed until the latter D3D enhanced CN9-D came into production.   Utilizing ",
+		"Details": "Developed as an alternative to the fragile CN9-D and CN9-D3, the CN9-D2 only existed until the latter D3D enhanced CN9-D came into production.  Equipped with a rather common Magna 250 Fussion core, the CN9-D2 straddels the performance gap between the older CN9 variants and the new CN9-D/D3 variants at a respectable 86kph.  Beyond the change to the Magna 250 fusion core and shielding, the CN9-D2 is broadly similar to the CN9-D in weapons fitment.  Namely the fitment of a ten tube LRM box launcher, a LB 10-X autocannon and two Medium Lasers.   \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_centurion"
 	},
 	"MovementCapDefID": "movedef_centurion_CN9-A",
@@ -212,7 +212,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Brawler & General Assault",
-	"YangsThoughts": "Boss this is a less fragile CN9-D.   Should be an interesting variant to field.",
+	"YangsThoughts": "Boss this is a less fragile CN9-D.  It gives up some of the speed gained by the CN9-D to be more robust.  Should be an interesting variant to field.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

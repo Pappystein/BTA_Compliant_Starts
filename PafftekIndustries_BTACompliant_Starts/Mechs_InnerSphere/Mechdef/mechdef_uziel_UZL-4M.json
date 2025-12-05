@@ -110,7 +110,7 @@
 		"UIName": "Uziel",
 		"Id": "mechdef_uziel_UZL-4M",
 		"Name": "Uziel",
-		"Details": "After acquiring the Uziel from The Lyran Commonwealth, The Free Worlds League equipped the new -3M chassis with VSPLs.  This was great for an in Close brawler but when deployed the pilots constantly asked for longer ranged weapons.  The -4M seeks to redress this issue.   First, the -4M was setup similar to the Lyran's origiona UZL-2S with a combination of Energy and Missile weapons.  However the -4M makes room for Thunderbolt Missile launchers and longer ranged lasers.  In trade the JumpJets were removed freeing up tonnage and space for the new warload.",
+		"Details": "After acquiring the Uziel from The Lyran Commonwealth, The Free Worlds League equipped the new -3M chassis with VSPLs.  This was great for an in Close brawler but when deployed the pilots constantly asked for longer ranged weapons.  The -4M seeks to redress this issue.   First, the -4M was setup similar to the Lyran's origiona UZL-2S with a combination of Energy and Missile weapons.  However the -4M makes room for Thunderbolt Missile launchers and longer ranged lasers.  In trade the JumpJets were removed freeing up tonnage and space for the new warload.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_uziel"
 	},
 	"simGameMechPartCost": 510000,

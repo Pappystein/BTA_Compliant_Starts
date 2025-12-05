@@ -12,7 +12,7 @@
 	"Type": "Normal",
 	"Category": "LRM",
 	"DamagePerShot": -2.0,
-	"HeatDamagePerShot": 0.125,
+	"HeatDamagePerShot": 0.25,
 	"AIBattleValue": 90,
 	"AccuracyModifier": 0.0,
 	"HeatGenerated": 0,

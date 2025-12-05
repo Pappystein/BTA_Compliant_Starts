@@ -15,7 +15,7 @@
 		"UIName": "Centurion",
 		"Id": "chassisdef_centurion_CN9-D3",
 		"Name": "Centurion",
-		"Details": "Like the basic CN9-D it is derived from, the CN9-D3 utilizes an Endosteel Space frame, 300XL fusion core, the LB 10-X Autocannon, and Artemis IV Firecontrol for the LRM.  But in addition to all of this the D3 variant adds Triple Strenght Myomer. This further improves the movement profile when the mech is running hot.",
+		"Details": "Like the basic CN9-D it is derived from, the CN9-D3 utilizes an Endosteel Space frame, 300XL fusion core, the LB 10-X Autocannon, and Artemis IV Firecontrol for the LRM.  But in addition to all of this the D3 variant adds Triple Strenght Myomer. This further improves the movement profile when the mech is running hot.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixTxrIcon_centurion"
 	},
 	"MovementCapDefID": "movedef_centurion_CN9-A",

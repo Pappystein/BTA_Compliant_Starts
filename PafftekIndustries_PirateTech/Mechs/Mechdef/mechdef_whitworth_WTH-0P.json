@@ -68,7 +68,7 @@
 		"UIName": "Whitworth WTH-0P",
 		"Id": "mechdef_whitworth_WTH-0P",
 		"Name": "Whitworth",
-		"Details": "The Whitworth is something of an ugly duckling, known among both critics and fans as the Whitworthless. However, the Whitworth had a much darker reputation in the old Rim Worlds Republic, where it was used with dark purpose to decimate civilians during Stefan Amaris' reign. His squad of Whitworths, known as the WTH-0, were equipped with SRMs and inferno ammo as well as a Flamer to barbeque innocents who dared have an opinion he disagreed with. The WTH-0 was a favored target of the SLDF during their campaign to defeat Amaris and all of them were said to be destroyed. However, in the 3060s, the Rim Collection discovered the plans for the WTH-0 on an abandoned world and put it back into production to disable pirates that would attack their lands. The WTH-0 proved its worth again and remains in service to this day.",
+		"Details": "A \"Hot take\" on the WTH-0, the WTH-0P is made from wrecked Withworth chasses of all marks utilizing standard structure.  Still equipped with flame weapons as the WTH-0 progenitor, however it is a new loadout consisting of: a brace each of, Inferno Streak SRM2, and Ultra Flamers.  In addition to those two braces one each Medium laser and Improved Medium Binary Laser are carried. The ammunition dependent Ultra Flamers are fed by 1 ton of Plasma/Flamer ammo, providing enough shots to finish most missions.",
 		"Icon": "uixTxrIcon_whitworth"
 	},
 	"RequiredToSpawnCompanyTags": {
