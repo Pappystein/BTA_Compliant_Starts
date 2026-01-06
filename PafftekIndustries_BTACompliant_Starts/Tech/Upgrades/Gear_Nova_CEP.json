@@ -83,7 +83,7 @@
                         "Icon": ""
                     },
                     "statisticData": {
-                        "statName": "ADD_ENCOUNTER_TAG_Clan_Network",
+                        "statName": "ADD_ENCOUNTER_TAG_Nova_Network",
                         "operation": "Float_Add",
                         "modValue": "2",
                         "modType": "System.Single"

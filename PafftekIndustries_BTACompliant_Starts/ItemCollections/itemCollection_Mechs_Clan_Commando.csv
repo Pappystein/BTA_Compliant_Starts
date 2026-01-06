@@ -1,3 +1,4 @@
 itemCollection_Mechs_Clan_Commando,,,
-mechdef_commando_COM-IIC,Mech,1,1
-mechdef_commando_COM-IIC-8,Mech,1,1
+mechdef_commando_COM-IIC,Mech,1,2
+mechdef_commando_COM-IIC-8,Mech,1,2
+mechdef_commando_COM-IIC-HN7,Mech,1,1

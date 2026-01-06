@@ -1,0 +1,108 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 11
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"NoFireInMelee"
+		],
+		"InternalAmmoTonnage": {
+			"InternalAmmoTons": 0.5
+		},
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 120,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 1,
+	"HeatGenerated": 0,
+	"Damage": 175,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 35,
+	"CriticalChanceMultiplier": 1.5,
+	"AccuracyModifier": 90,
+	"ChassisTagsAccuracyModifiers": {
+		"TargetAcquired": -95
+	},
+	"AdditionalImpactVFX": "WFX_Nuke",
+	"AdditionalImpactVFXScaleX": 2,
+	"AdditionalImpactVFXScaleY": 2,
+	"AdditionalImpactVFXScaleZ": 2,
+	"FireDurationWithoutForest": 0,
+	"FireTerrainChance": 0.02,
+	"FireTerrainStrength": 4,
+	"FireTerrainCellRadius": 6,
+	"FireOnSuccessHit": true,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"APCriticalChanceMultiplier": 0.6,
+	"Instability": 35,
+	"AMSImmune": false,
+	"MissileHealth": 16,
+	"Streak": false,
+	"ProjectileSpeedMultiplier": 0.6,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Multi-Use Bomb Rack",
+		"UIName": "Arrow IV [Homing]",
+		"Id": "Weapon_Bomb_Bay_ArrowIV_Homing",
+		"Name": "Arrow IV Bomb Pylon",
+		"Details": "This is an attached Bomb Bay, armed with 1x Arrow IV artillery missile.. Bomb bays are heavily used on aerospace fighters for target saturation.  \n\n <b><color=#ffcc00>Uses Internal Ammo.</color></b> \n <b><color=#e51717>Pafftek Industries Submod!</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,236 @@
+{
+	"Description": {
+		"Cost": 3300000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Ostscout",
+		"Id": "chassisdef_ostscout_OTT-9M",
+		"Name": "Ostscout",
+		"Details": "Almost identical to the Tri-company OTT-9N, the OTT-9M gives up some of the OTT-9N's armor protection as well as half of the I-NARC beacons, to carry a more substantial war load to include the Addition of two ER Medium Lasers.  With these changes the OTT-9M takes the 9N's purely scout role and expands it back into a light skirmishing combat role with scouting as a viable feature.",
+		"Icon": "uixTxrIcon_ostscout"
+	},
+	"MovementCapDefID": "movedef_jenner_JR7-D",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_vossieostscout",
+	"PrefabIdentifier": "chrprfmech_vossieostscoutbase-001",
+	"PrefabBase": "vossieostscout",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 3762000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 35,
+	"MeleeInstability": 15,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 35,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 35,
+	"DFAInstability": 15,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": -2.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 2.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "OTT-9M",
+	"ChassisTags": {
+		"items": [
+			"LightMech",
+			"HighTech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Pure Recon",
+	"YangsThoughts": "Almost identical to the Tri-company OTT-9N, the OTT-9M gives up some of the OTT-9N's armor protection as well as half of the I-NARC beacons, to carry a more substantial war load to include the Addition of two ER Medium Lasers.  With these changes the OTT-9M takes the 9N's purely scout role and expands it back into a light skirmishing combat role with scouting as a viable feature.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_SuperSensors_Ostscout",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

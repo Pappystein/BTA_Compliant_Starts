@@ -1,5 +1,12 @@
 {
 	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Stag",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Custom": {
 		"ArmActuatorSupport": {
 			"LeftLimit": "Hand",
 			"RightLimit": "Lower"

@@ -1,0 +1,138 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 11
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"WordsWords: Forbidden Range 120, will not fire at ranges below 121m from target!"
+		],
+		"InternalAmmoTonnage": {
+			"InternalAmmoTons": 0.5
+		},
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 120,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"ForbiddenRange": 110,	
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 1,
+	"HeatGenerated": 0,
+	"Damage": 175,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 35,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": true,
+	"AOERange": 120,
+	"AOEDamage": 90,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"APCriticalChanceMultiplier": 0.6,
+	"Instability": 35,
+	"AMSImmune": false,
+	"MissileHealth": 16,
+	"Streak": false,
+	"ProjectileSpeedMultiplier": 0.6,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Multi-Use Bomb Rack",
+		"UIName": "Arrow IV [MINE]",
+		"Id": "Weapon_Bomb_Bay_ArrowIV_FASCAM",
+		"Name": "Arrow IV Bomb Pylon",
+		"Details": "This is an attached Bomb Bay, armed with 1x Arrow IV artillery missile.. Bomb bays are heavily used on aerospace fighters for target saturation.  \n\n <b><color=#ffcc00>Uses Internal Ammo.</color></b> \n <b><color=#e51717>Pafftek Industries Submod!</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"MineField": {
+		"UIName": "FASCAM",
+		"InstallCellRange": 10,
+		"stealthLevel": 0,
+		"IFFLevel": 1,
+		"Count": 15,
+		"Heat": 0,
+		"Chance": 0.8,
+		"Damage": 8,
+		"AOEDamage": 2,
+		"AOERange": 30,
+		"AOEHeat": 0,
+		"AOEInstability": 0,
+		"VFXprefab": "vfxNstPrtl_vehicleCrushed_A",
+		"VFXMinDistance": 20,
+		"VFXScaleX": 10,
+		"VFXScaleY": 10,
+		"VFXScaleZ": 10,
+		"VFXOffsetX": 0,
+		"VFXOffsetY": 0,
+		"VFXOffsetZ": 0,
+		"SFX": "enum:AudioEventList_explosion.explosion_propane_tank",
+		"FireTerrainChance": 0,
+		"FireDurationWithoutForest": 0,
+		"FireTerrainStrength": 0,
+		"FireOnSuccessHit": false,
+		"FireTerrainCellRadius": 0,
+		"burnReaction": "Destroy",
+		"ExposedStructureEndMove": true,
+		"MoveCostFactor": 0.0,
+		"CausesSympatheticDetonation": true,
+		"SubjectToSympatheticDetonationChance": 0.0,
+		"DetonateAllMinesInStackChance": 0.0,
+		"MisfireOnDeployChance": 0.0,
+		"MinefieldDefID": "AIV FASCAM",
+		"ShouldAddToExistingFields": true,
+		"statusEffects": []
+	},
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

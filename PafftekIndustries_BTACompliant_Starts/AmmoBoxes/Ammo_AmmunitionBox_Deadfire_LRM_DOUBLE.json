@@ -1,30 +1,25 @@
 {
 	"Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/m/l/lrm" }
+		"Category": [
+			{
+				"CategoryID": "a/m/l/lrm"
+			}
 		],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 6,
 			"StabilityDamagePerAmmo": 2
 		},
 		"BonusDescriptions": [
-				"LRMDamage: +2",
-				"StabDamage: +1",
-				"Range: -40%",
-				"MinRange: -180",
-				"WpnAccuracy: -1",
-				"NoIndirect",
-				"LRMAmmo: 270"
-			],
-		"Flags": {
-			"flags": [
-				"not_broken",
-				"no_salvage",
-				"autorepair"
-			]
-		},
-		"AmmoCost" : {
-		  "PerUnitCost" : 10
+			"LRMDamage: +2",
+			"StabDamage: +1",
+			"Range: -40%",
+			"MinRange: -180",
+			"WpnAccuracy: -1",
+			"NoIndirect",
+			"LRMAmmo: 270"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 10
 		}
 	},
 	"AmmoID": "Ammunition_LRM_Deadfire",

@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["chassisdef_hoplite_HOP-4Bb","chassisdef_hoplite_HOP-4Cb"],
+    "Instructions": [
+		{
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "HalfRoyal"
+        }
+    ]
+}

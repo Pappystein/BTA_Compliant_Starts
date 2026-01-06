@@ -30,9 +30,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "LBX20SLUG",
-		"UIName": "Ammo LB X-20 AC APFSDS [D]",
+		"UIName": "Ammo LB 20-X AC APFSDS [D]",
 		"Id": "Ammo_AmmunitionBox_LBX_SABOT_AC20_D",
-		"Name": "LB X-20 AC APFSDS Ammo [D]",
+		"Name": "LB 20-X AC APFSDS Ammo [D]",
 		"Details": "Armor Piercing Discarding Sabot round, extra range, and ap damage at the cost of 70% base damage dealt to armor.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 12 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},

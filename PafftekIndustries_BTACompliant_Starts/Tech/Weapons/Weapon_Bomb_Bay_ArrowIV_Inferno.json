@@ -1,0 +1,111 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/t/bomb"
+			},
+			{
+				"CategoryID": "BombBay"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 11
+		},
+		"BonusDescriptions": [
+			"BombBay",
+			"WordsWords: Forbidden Range 120, will not fire at ranges below 121m from target!"
+		],
+		"InternalAmmoTonnage": {
+			"InternalAmmoTons": 0.5
+		},
+		"Flags": [
+			"not_broken"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 5000
+		}
+	},
+	"weaponCategoryID": "BombBay",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 120,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"ForbiddenRange": 110,
+	"AmmoCategory": "BOMB",
+	"StartingAmmoCapacity": 1,
+	"HeatGenerated": 0,
+	"Damage": 175,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 35,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": true,
+	"AOERange": 120,
+	"AOEDamage": 90,
+	"AOEHeatDamage": 115,
+	"FireTerrainChance": 1,
+	"AdditionalImpactVFX": "WFX_Nuke",
+	"AdditionalImpactVFXScaleX": 3,
+	"AdditionalImpactVFXScaleY": 3,
+	"AdditionalImpactVFXScaleZ": 3,
+	"FireDurationWithoutForest": 3,
+	"FireTerrainStrength": 40,
+	"FireTerrainCellRadius": 8,
+	"OverheatedDamageMultiplier": 1,
+	"FireOnSuccessHit": true,
+	"TrooperSquadDamageModifier": 2,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"APCriticalChanceMultiplier": 0.6,
+	"Instability": 35,
+	"AMSImmune": false,
+	"MissileHealth": 16,
+	"Streak": false,
+	"ProjectileSpeedMultiplier": 0.6,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Multi-Use Bomb Rack",
+		"UIName": "Arrow IV [INF]",
+		"Id": "Weapon_Bomb_Bay_ArrowIV_Inferno",
+		"Name": "Arrow IV Bomb Pylon",
+		"Details": "This is an attached Bomb Bay, armed with 1x Arrow IV artillery missile.. Bomb bays are heavily used on aerospace fighters for target saturation.  \n\n <b><color=#ffcc00>Uses Internal Ammo.</color></b> \n <b><color=#e51717>Pafftek Industries Submod!</color></b>",
+		"Icon": "bombing-run"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "arrow",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

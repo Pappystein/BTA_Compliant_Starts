@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Ostman",
+				"Name": "0.5 Ostmann",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.5,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Connaught"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Ostscout9,itemCollection_Mechs_Ostscout9,itemCollection_Mechs_Ostscout7,itemCollection_Mechs_Ostscout7,itemCollection_Mechs_Ostscout7,itemCollection_Vehicle_Support_PFT,itemCollection_Vehicle_Scout_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Marik:5;WordOfBlake:5"
+					}
+				]
+			}
+		}
+	]
+}

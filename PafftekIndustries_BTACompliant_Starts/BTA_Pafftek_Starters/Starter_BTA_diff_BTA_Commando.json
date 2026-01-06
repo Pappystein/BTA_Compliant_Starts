@@ -19,12 +19,12 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Clan_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_SteinerLightFiresupport,itemCollection_Vehicle_Scout_PFT"
+						"ConstantValue": "itemCollection_Mechs_Special_Commando,itemCollection_Mechs_Clan_Commando,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_CommandoBTA,itemCollection_Mechs_Mercenary_Commando,itemCollection_Mechs_Primitive_Commando,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Arty_PFT"
 					},
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "FactionReputation",
-						"ConstantValue": "Steiner:30,Davion:30,Rasalhague:30"
+						"ConstantValue": "Steiner:15,Davion:5,Rasalhague:5"
 					}
 				]
 			}

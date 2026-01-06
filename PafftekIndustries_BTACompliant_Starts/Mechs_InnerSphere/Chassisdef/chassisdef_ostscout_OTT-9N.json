@@ -1,0 +1,236 @@
+{
+	"Description": {
+		"Cost": 3300000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Ostscout",
+		"Id": "chassisdef_ostscout_OTT-9N",
+		"Name": "Ostscout",
+		"Details": "Brought about as a work share between Pafftek Industries, Krupp Armament Works and Odin Manufacturing, The OTT-9N Ostscout is unique in being produced at three different locations all for the same market... the Mercenary market. that is.  The OTT-9N is equipped with an improved NARC missile launcher with two tons of beacon ammunition, a TAG Laser designator, a Beagle Active probe and Guardian ECM.   All while maintaining the standard movement profile that harkens back to the original OTT-7J.  Surprisingly Armor mass is increased by 1/2 ton thanks to the inclusion of RAD GROUP's Ferro Anti-Pierce weave of Ferro Fibrous armor plate.",
+		"Icon": "uixTxrIcon_ostscout"
+	},
+	"MovementCapDefID": "movedef_jenner_JR7-D",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_vossieostscout",
+	"PrefabIdentifier": "chrprfmech_vossieostscoutbase-001",
+	"PrefabBase": "vossieostscout",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 3762000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 35,
+	"MeleeInstability": 15,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 35,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 35,
+	"DFAInstability": 15,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": -2.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 2.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "OTT-9N",
+	"ChassisTags": {
+		"items": [
+			"LightMech",
+			"HighTech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Pure Recon",
+	"YangsThoughts": "Brought about as a work share between Pafftek Industries, Krupp Armament Works and Odin Manufacturing, The OTT-9N Ostscout is unique in being produced at three different locations all for the same market... the Mercenary market. that is.  The OTT-9N is equipped with an improved NARC missile launcher with two tons of beacon ammunition, a TAG Laser designator, a Beagle Active probe and Guardian ECM.   All while maintaining the standard movement profile that harkens back to the original OTT-7J.  Surprisingly Armor mass is increased by 1/2 ton thanks to the inclusion of RAD GROUP's Ferro Anti-Pierce weave of Ferro Fibrous armor plate.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_SuperSensors_Ostscout",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}
