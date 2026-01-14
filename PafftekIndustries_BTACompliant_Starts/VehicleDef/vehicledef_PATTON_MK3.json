@@ -77,7 +77,7 @@
 	],
 	"inventory": [
 		{
-			"ComponentDefID": "Weapon_Autocannon_HVAC10_1-STOCK",
+			"ComponentDefID": "Weapon_Autocannon_HVAC10_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,

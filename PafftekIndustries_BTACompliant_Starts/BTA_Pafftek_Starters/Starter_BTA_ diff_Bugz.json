@@ -1,0 +1,30 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_Bugz",
+			"Name": "1.0 Bugs Mk.2",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.6,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "David"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_MediumBug,itemCollection_Mechs_MediumBug,itemCollection_Pafftek_SmallBugs1,itemCollection_Pafftek_SmallBugs1,itemCollection_Pafftek_Bug2,itemCollection_Pafftek_Bug2"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Davion:5"
+				}
+			]
+		}
+	}]
+}
