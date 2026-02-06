@@ -1,9 +1,9 @@
 {
    "Description": {
       "Id": "Ammunition_LBX5_SABOT",
-      "Name": "LB X-5 Ammo",
+      "Name": "LBX/5 APFSDS Ammo",
       "UIName": "APFSDS",
-      "Details": "Small caliber ammunition designed for long range fire in an AC/2.",
+      "Details": "Moderate caliber rounds, suitable for long range fire in an LBX/5.",
       "Icon": null,
       "Cost": 0,
       "Rarity": 0,

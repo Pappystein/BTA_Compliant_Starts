@@ -29,10 +29,10 @@
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "RAC2",
-        "UIName": "Rotary AC/2[P-D]",
+        "Model": "RAC2 Protected Double",
+        "UIName": "Ammo RAC/2 [P-D]",
         "Id": "Ammo_AmmunitionBox_Rotary_AC2_DOUBLE_P",
-        "Name": "Rotary AC/2[P-D]",
+        "Name": "RAC/2 Ammo",
         "Details": "Protected Ammo Bins help to reduce the damage from exploding ammunition by having built in explosive baffles.  While this reduces the capacity of the magazine, it also greatly reduces the force of an ammo explosion.   CASE is still your best protection however! Has 60 shots.",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },

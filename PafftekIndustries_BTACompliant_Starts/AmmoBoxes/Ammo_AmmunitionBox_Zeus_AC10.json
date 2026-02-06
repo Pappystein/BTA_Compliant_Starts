@@ -28,9 +28,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "AC10 Zeus AAA",
-		"UIName": "Ammo AC/10 AAA",
+		"UIName": "Ammo AC/10 Zeus AAA",
 		"Id": "Ammo_AmmunitionBox_Zeus_AC10",
-		"Name": "AC/10 AAA Ammo",
+		"Name": "AC/10 Zeus AAA Ammo",
 		"Details": "Designed for anti-Air operations, has extra accuracy vs flying targets.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
