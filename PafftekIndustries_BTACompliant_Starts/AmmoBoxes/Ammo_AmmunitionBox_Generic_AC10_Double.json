@@ -27,7 +27,7 @@
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
-		"Model": "AC10 Double",
+		"Model": "AC10",
 		"UIName": "Ammo AC/10 [D]",
 		"Id": "Ammo_AmmunitionBox_Generic_AC10_Double",
 		"Name": "AC/10 Ammo",
