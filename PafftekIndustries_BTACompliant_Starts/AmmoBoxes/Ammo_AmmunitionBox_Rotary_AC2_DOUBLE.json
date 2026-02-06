@@ -29,10 +29,10 @@
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "RAC2",
-        "UIName": "Rotary AC/2[D]",
+        "Model": "RAC2 Double",
+        "UIName": "Ammo RAC/2 [D]",
         "Id": "Ammo_AmmunitionBox_Rotary_AC2_DOUBLE",
-        "Name": "Rotary AC/2[D]",
+        "Name": "RAC/2 Ammo",
         "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 110 shots.",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
