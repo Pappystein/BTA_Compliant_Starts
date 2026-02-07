@@ -56,7 +56,7 @@
 		"Model": "Hellhound Autocannon",
 		"UIName": "AC/10 Hellhound 80",
 		"Id": "Weapon_Autocannon_AC10_80_Pirate",
-		"Name": "AC/10 Hellohound 80",
+		"Name": "AC/10 Hellhound 80",
 		"Details": "'Loosely' based on the Federated Heavy Autocannon, the Nomak Group's Hellhound Autocannon has some distinct differences from the pretty ubiquitous Western AC/10. First and foremost, tighter rifling leads to higher chamber pressure, which results in an increased range and higher velocity impact. However, the cost is significant as it greatly reduces the reliability of the ammunition feed.   Please ignore any stamps of ‘Federated’ or logos that suspiciously resemble the Federated Industries iconography.  PPC range bracket, does not fire in melee, Armor Piercing Damage.",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
