@@ -1,0 +1,214 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_PIKE_PAI",
+		"Name": "Pike Support Vehicle",
+		"Details": "",
+		"Icon": "Pike",
+		"Cost": 993,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_PIKE_PAI",
+	"VehicleTags": {
+		"items": [
+			"unit_noncontrollableTank",
+			"NOSALVAGE",
+			"mr-resize-1.19",
+			"unit_vehicle",
+			"unit_heavy",
+			"unit_tracks",
+			"unit_release",
+			"unit_rarity_5",
+			"unit_lance_support",
+			"unit_generic",
+			"unit_bracket_low",
+			"Chainelane",
+			"Circinus",
+			"Hanse",
+			"Castile",
+			"JarnFolk",
+			"Delphi",
+			"Illyrian",
+			"Lothian",
+			"Tortuga",
+			"AuriganPirates",
+			"BandOfTheDamned",
+			"DeathsConsorts",
+			"MorrisonsExtractors",
+			"NewBeltPirates",
+			"TortugaFusiliers",
+			"ShenSeTian",
+			"StrychnineSlavers",
+			"SantandersKillers",
+			"HookwormsHighwaymen",
+			"CalderonsCommandos",
+			"DedricksonsDevils",
+			"ForeverVigilant",
+			"Abominari",
+			"Locals",
+			"BannockburnsBandits",
+			"CleanKill",
+			"LongwoodsBluecoats",
+			"CaesarsCohorts",
+			"CanopianHighlanders",
+			"Dragonslayers",
+			"HarcourtsDestructors",
+			"RamiliesRaiders",
+			"BronsonsHorde",
+			"BullardsArmoredCavalry",
+			"QuintsOlympianGroundpounders",
+			"GraysGhosts",
+			"IrukjandiCompany",
+			"AntianLanciarii",
+			"BlackCaravel",
+			"BlackSharks",
+			"SarnaSupremacy",
+			"SaiphTriumvirate",
+			"TerracapConfederation",
+			"StykCommonality",
+			"Moderbjorn",
+			"LocalsBrockwayRefugees",
+			"EdCorbu",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 165,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 165,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 125,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 125,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 125,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 125,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 125,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 125,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 180,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 180,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_Howitzer_8",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Howitzer_8",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Howitzer_8",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 2,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Howitzer",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_Howitzer",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_Howitzer",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Slug_Howitzer",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Canister_Howitzer",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Canister_Howitzer",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_ICE_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_Turret",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Right",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Left",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

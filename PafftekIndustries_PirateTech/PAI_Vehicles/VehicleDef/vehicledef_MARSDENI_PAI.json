@@ -1,0 +1,219 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_MARSDENI_PAI",
+		"Name": "Marsden I MBT",
+		"Details": "A Periphery re-development of the original Marsden MBT, the Marsden I-PAI MBT utilizes the Revolver Rifle concept.  The Medium Rifle is fitted with the revolver firing chamber in the turret, taking up room previously designated for the SRM launcher's extra ammunition.  The resultant Marsden gives up the SRM-6 with its 4 tons of ammunition for extra Rifle ammunition as well as a Hull Mounted Chemical Laser.",
+		"Icon": "Marsden",
+		"Cost": 993,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_MARSDENI_PAI",
+	"VehicleTags": {
+		"items": [
+			"unit_controllableTank",
+			"mr-resize-1.50",
+			"unit_vehicle",
+			"unit_heavy",
+			"unit_tracks",
+			"unit_release",
+			"unit_rarity_3",
+			"unit_lance_tank",
+			"unit_generic",
+			"unit_bracket_med",
+			"Chainelane",
+			"Circinus",
+			"Hanse",
+			"Castile",
+			"JarnFolk",
+			"Delphi",
+			"Illyrian",
+			"Lothian",
+			"Tortuga",
+			"AuriganPirates",
+			"BandOfTheDamned",
+			"DeathsConsorts",
+			"MorrisonsExtractors",
+			"NewBeltPirates",
+			"TortugaFusiliers",
+			"ShenSeTian",
+			"StrychnineSlavers",
+			"SantandersKillers",
+			"HookwormsHighwaymen",
+			"CalderonsCommandos",
+			"DedricksonsDevils",
+			"ForeverVigilant",
+			"Abominari",
+			"Locals",
+			"BannockburnsBandits",
+			"CleanKill",
+			"LongwoodsBluecoats",
+			"CaesarsCohorts",
+			"CanopianHighlanders",
+			"Dragonslayers",
+			"HarcourtsDestructors",
+			"RamiliesRaiders",
+			"BronsonsHorde",
+			"BullardsArmoredCavalry",
+			"QuintsOlympianGroundpounders",
+			"GraysGhosts",
+			"IrukjandiCompany",
+			"AntianLanciarii",
+			"BlackCaravel",
+			"BlackSharks",
+			"SarnaSupremacy",
+			"SaiphTriumvirate",
+			"TerracapConfederation",
+			"StykCommonality",
+			"Moderbjorn",
+			"LocalsBrockwayRefugees",
+			"EdCorbu",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 260,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 260,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 260,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 260,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 260,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 260,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 205,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 205,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 255,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 255,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_Autocannon_AC10_MRIFLE",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional",
+			"LocalGUID": "target_Rifle"
+		},
+		{
+			"MountedLocation": "Turret",
+			"ComponentDefID": "Gear_Attachment_RevolverRifle",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_Rifle"
+		},
+		{
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_Laser_MediumLaser_Chemical_CLAN",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Front",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},		
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_half",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Turret",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MRIFLE",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MRIFLE",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MRIFLE",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Chem_Laser",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_ICE_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_Turret",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Right",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Tracked_Left",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

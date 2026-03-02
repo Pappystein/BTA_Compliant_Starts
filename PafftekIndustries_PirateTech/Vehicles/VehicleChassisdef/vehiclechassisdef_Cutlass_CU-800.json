@@ -1,0 +1,152 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "WarriorVTOL",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 55,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "Landmines": "true",
+      "MoveClamp": 0.5,
+      "AllowPartialMovement": false
+    },
+    "MoveCostModPerBiome": {
+      "DesignMaskBiomeMartianVacuum": 2,
+      "DesignMaskBiomeLunarVacuum": 3
+    },
+    "NullifyBodyMesh": true,
+    "TieToGroundOnDeath": "true",
+    "CrewLocation": "Front"
+  },
+  "Description": {
+    "Cost": 546550,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "Cutlass",
+    "Id": "vehiclechassisdef_Cutlass_CU-800",
+    "Name": "Cutlass Pirate VTOL",
+    "Details": "Made to \n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar or Martian biomes due to using an ICE.</color></b>\n\n<b><color=#ffcc00>Movement: 7/11 hexes / 210/330 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        50     15\n<b>Left</b>          25     15\n<b>Right</b>        25     15\n<b>Rear</b>         25     15\n\n<b>Total</b>      140     75</color>\n\n<color=#ff0000>Quirk: Missile Jammer</color>",
+    "Icon": "YellowJacket"
+  },
+  "ChassisTags": {
+    "items": [
+      "VTOL"
+    ]
+  },
+  "YangsThoughts": "It's a chopper, Boss. Whirly bit goes 'round.",
+  "MovementCapDefID": "movedef_7-11cv",
+  "movementType": "Wheeled",
+  "PathingCapDefID": "pathingdef_vtol",
+  "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",
+  "PrefabIdentifier": "chrprfmech_warrior_vtol",
+  "PrefabBase": "cuwarriorvtol",
+  "Tonnage": 30,
+  "weightClass": "LIGHT",
+  "BattleValue": 0,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 3,
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Artillery",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }	  
+	  ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 15
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ]
+}

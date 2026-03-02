@@ -1,0 +1,180 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_Burro_PR8_LRM",
+		"Name": "Burro",
+		"Details": "One of many Field Expedient conversions of transport vehicles into combat vehicles, the Burro LRM is armed with a single Machinegun on a \"C\"-Ring in the command compartment and a single Telos Expedited Werks LRM-15 fifteen tube Launcher.  1.5 tons of LRM ammo is loaded in the rear cargo compartment with the LRM fixed to fire Forward.",
+		"Icon": "J27",
+		"Cost": 993,
+		"Rarity": 2,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_Burro_PR8_LRM",
+	"VehicleTags": {
+		"items": [
+			"unit_controllableTank",
+			"unit_vehicle",
+			"unit_medium",
+			"unit_tracks",
+			"unit_vehicle_truck",
+			"unit_release",
+			"unit_rarity_5",
+			"unit_generic",
+			"unit_bracket_low",
+			"unit_noncombatant",
+			"AuriganPirates",
+			"BandOfTheDamned",
+			"DeathsConsorts",
+			"TortugaFusiliers",
+			"MorrisonsExtractors",
+			"NewBeltPirates",
+			"ShenSeTian",
+			"StrychnineSlavers",
+			"SantandersKillers",
+			"HookwormsHighwaymen",
+			"CalderonsCommandos",
+			"TheDark",
+			"DedricksonsDevils",
+			"ForeverVigilant",
+			"Abominari",
+			"GreenGhosts",
+			"QuintsOlympianGroundpounders",
+			"BullardsArmoredCavalry",
+			"GraysGhosts",
+			"Marian",
+			"ILegioMartiaVictrix",
+			"VLegioRipariensis",
+			"CohorsMorituri",
+			"Delphi",
+			"Elysia",
+			"Hanse",
+			"Illyrian",
+			"JarnFolk",
+			"Lothian",
+			"Oberon",
+			"Tortuga",
+			"Valkyrate",
+			"FroncReaches",
+			"AntianLanciarii",
+			"IrukjandiCompany",
+			"BlackCaravel",
+			"BronsonsHorde",
+			"FroncReaches",
+			"SarnaSupremacy",
+			"SaiphTriumvirate",
+			"TerracapConfederation",
+			"Circinus",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 50,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 50,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 50,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 50,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 50,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 50,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 50,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 50,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 50,
+			"CurrentInternalStructure": 25,
+			"AssignedArmor": 50,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_80_Pirate",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_HE_MG",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Weapon_LRM_LRM15_86-Telos",
+			"ComponentDefType": "Weapon",
+			"MountedLocation": "Front",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_half",
+			"ComponentDefType": "AmmunitionBox",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "emod_engineslots_ICE_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Turret",
+			"ComponentDefID": "Tank_Turret",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Wheeled_Right",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Wheeled_Left",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

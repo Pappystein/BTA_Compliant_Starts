@@ -9,7 +9,7 @@
 				"Name": "0.5 Ostmann",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 0,
-				"CareerScoreModifier": 0.5,
+				"CareerScoreModifier": 0.7,
 				"DifficultyConstants": [
 					{
 						"ConstantType": "CareerMode",

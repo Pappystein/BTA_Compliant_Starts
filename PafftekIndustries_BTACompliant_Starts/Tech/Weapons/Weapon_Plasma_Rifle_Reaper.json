@@ -98,11 +98,11 @@
 			"MediumRange": 500.0,
 			"LongRange": 500.0,
 			"AOECapable": true,
-			"AOERange": 30,
-			"AOEDamage": 15,
-			"AOEHeatDamage": 15,
-			"Damage": -10,
-			"HeatDamage": -10,
+			"AOERange": 45,
+			"AOEDamage": 10,
+			"AOEHeatDamage": 20,
+			"Damage": -20,
+			"HeatDamage": -20,
 			"HeatGenerated": 25
 		}
 	],

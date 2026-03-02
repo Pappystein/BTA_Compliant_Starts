@@ -1,5 +1,7 @@
 
 mechdef_griffin_GRF-3D-X,Mech,1,10
+mechdef_wasp_WSP-2D-X,Mech,1,10
+mechdef_wasp_WSP-3B-X,Mech,1,10
 mechdef_maelstrom_MTR-5K,Mech,1,10
 mechdef_maelstrom_MTR-5J,Mech,1,10
 mechdef_katana_CRK-5004-M,Mech,1,10

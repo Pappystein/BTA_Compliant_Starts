@@ -1,0 +1,8 @@
+
+mechdef_devastator_DVS-4B,Mech,1,10
+mechdef_devastator_DVS-3D,Mech,1,10
+emod_engineslots_ixl_center,HeatSink,0,10
+emod_armorslots_lightferrosfibrous,Upgrade,0,10
+Weapon_Autocannon_AC2_0-STOCK,Weapon,0,10
+Weapon_Autocannon_LAC2_0-STOCK,Weapon,0,10
+Weapon_Autocannon_LAC5_0-STOCK,Weapon,0,10

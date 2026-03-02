@@ -1,12 +1,7 @@
 
-Gear_Solo_Duel_Light,Upgrade,5,10
-Gear_Solo_Duel_Medium,Upgrade,5,10
-Gear_Solo_Duel_Heavy,Upgrade,5,10
-Gear_Solo_Duel_Assault,Upgrade,5,10
-Gear_Duo_Duel_Light,Upgrade,5,10
-Gear_Duo_Duel_Medium,Upgrade,5,10
-Gear_Duo_Duel_Heavy,Upgrade,5,10
-Gear_Duo_Duel_Assault,Upgrade,5,10
+BTA_Duels_Solo,Reference,15,10
+BTA_Duels_Duo,Reference,15,10
+BTA_BattleRoyal,Reference,8,10
 PFT_ThunderboltList,Reference,5,3
 emod_armorslots_ferrosInsulated,Upgrade,2,3
 Gear_Cockpit_800_Berserker,Upgrade,1,3
