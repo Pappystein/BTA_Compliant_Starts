@@ -1,9 +1,9 @@
 {
 	"Custom": {
 		"BonusDescriptions": [
-				"StructureFactor: 50%",
-				"ReservedSlots: 14"
-			],
+			"StructureFactor: 50%",
+			"ReservedSlots: 14"
+		],
 		"Color": "OrangeHalf",
 		"Category": {
 			"CategoryID": "Structure"
@@ -23,7 +23,7 @@
 		},
 		"ArmorStructureChanges": {
 			"StructureFactor": 0.95
-		}
+		},
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "[[Chassis.Tonnage]] / 4",
@@ -32,8 +32,8 @@
 		},
 		"Flags": [
 			"ignore_damage",
-				"not_broken",
-				"no_salvage"
+			"not_broken",
+			"no_salvage"
 		]
 	},
 	"Description": {

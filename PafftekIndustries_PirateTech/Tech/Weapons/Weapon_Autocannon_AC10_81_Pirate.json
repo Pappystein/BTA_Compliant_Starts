@@ -43,8 +43,8 @@
 	"GunneryJammingBase": 6,
 	"GunneryJammingMult": 0.05,
 	"FlatJammingChance": 0.04,
-	"DamageOnJamming": true
-	"UnsafeJamChance": 0.1,	
+	"DamageOnJamming": true,
+	"UnsafeJamChance": 0.1,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
 	"Description": {
 		"Cost": 150000,

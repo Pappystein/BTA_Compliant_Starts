@@ -88,7 +88,7 @@
             "isBaseMode": false,
             "ShotsWhenFired": 1,
             "HeatGenerated": 26,
-            "Cooldown": 1
+            "Cooldown": 2
         }
     ],
     "ComponentTags": {

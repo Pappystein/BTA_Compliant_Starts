@@ -1,0 +1,133 @@
+{
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+	"Description": {
+		"Id": "vehiclechassisdef_CARRIER_HVM",
+		"Name": "Hyper-Velocity Missile Carrier",
+		"Details": "Armed exclusiovely with a single Twin HyperVelocity Missile launcher and 2 ER Medium Lasers, the HVM carrier is designed to hit hard, and defend itself while reloading.",
+		"Icon": "ACCarrier",
+		"Cost": 750000,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"MovementCapDefID": "movedef_3-5cv",
+	"PathingCapDefID": "pathingdef_heavy_tracked",
+	"HardpointDataDefID": "hardpointdatadef_carriertac20",
+	"PrefabIdentifier": "chrprfvhcl_carriertac20",
+	"PrefabBase": "carriertac20",
+	"Tonnage": 60,
+	"weightClass": "HEAVY",
+	"BattleValue": 4000000,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Tracked",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 4.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 4.5
+		},
+		{
+			"x": -2,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": -4.5
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 250,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 250,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 250,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 250,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 250,
+			"InternalStructure": 30
+		}
+	]
+}

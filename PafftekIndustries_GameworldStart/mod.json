@@ -14,7 +14,6 @@
 			{ "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
 			{ "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
 			{ "Type": "WeaponDef", "Path": "Tech/Weapons"},
-			{ "Type": "AmmunitionBoxDef", "Path": "AmmoBoxes" },	
 			{ "Type": "AmmunitionDef", "Path": "Ammunition" }
   ],
     "OptionallyDependsOn": [		

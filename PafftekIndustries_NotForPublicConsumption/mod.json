@@ -1,0 +1,23 @@
+{
+    "Name": "PafftekIndustries_NotForPublicConsumption",
+    "Enabled": true,
+	
+
+    "Contact": "",
+			"Manifest": [
+			{ "Type": "Texture2D", "Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },
+			{ "Type": "Sprite", "Path": "Emblems", 	"AddToAddendum": "PlayerEmblems" },			
+			{ "Type": "MechDef", "Path": "Mechdef" },	
+			{ "Type": "ChassisDef", "Path": "Chassisdef" },
+			{ "Type": "UpgradeDef", "Path": "upgrade" },
+			{ "Type": "JumpJetDef", "Path": "JumpJets" },
+			{ "Type": "HeatSinkDef", "Path": "heatsink" },
+			{ "Type": "WeaponDef", "Path": "weapon"},
+			{ "Type": "ItemCollectionDef", "Path": "ItemCollections", }
+  ],
+    "OptionallyDependsOn": [		
+    ],
+	"DependsOn": [ "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "PafftekIndustries_BTACompliant_Starts" ],
+	"ConflictsWith": [				
+	],
+}

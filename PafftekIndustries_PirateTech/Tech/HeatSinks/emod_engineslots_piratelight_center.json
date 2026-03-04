@@ -32,14 +32,14 @@
 		},
 		"Flags": [
 			"engine_part",
-				"not_broken",
-				"vital"
+			"not_broken",
+			"vital"
 		],
 		"BonusDescriptions": [
-				"EngineWeight: -25%",
-				"HeatPerTurn: 10",				
-				"EngineReserved: 4"
-			]
+			"EngineWeight: -25%",
+			"HeatPerTurn: 10",
+			"EngineReserved: 4"
+		]
 	},
 	"Description": {
 		"Cost": 937500,
@@ -90,7 +90,7 @@
 				"modType": "System.Int32"
 			}
 		}
-	]
+	],
 	"ComponentTags": {
 		"items": [
 			"EnginePart.{location}",
