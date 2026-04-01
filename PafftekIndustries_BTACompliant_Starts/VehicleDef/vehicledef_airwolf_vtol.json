@@ -21,7 +21,7 @@
 		"Id": "vehicledef_airwolf_vtol",
 		"Name": "Airwolf VTOL",
 		"Details": "The fabled Airwolf VTOL.   Airwolf, a higher performance VTOL is armed for attack and defense.  Combining high speed, Laser Machineguns, Light Machineguns and a Multi-Missile bay, Airwolf rules the airspace it covers.   Focusing more on anti VTOL and Hovercraft operations Airwolf is lightly armed for taking on full up tanks and battlemechs.  Lightly Armed for its size Airwolf survives by being extremely mobile not by hitting the hardest.",
-		"Icon": "YellowJacket"
+		"Icon": "AirWolf"
 	},
 	"Locations": [
 		{
