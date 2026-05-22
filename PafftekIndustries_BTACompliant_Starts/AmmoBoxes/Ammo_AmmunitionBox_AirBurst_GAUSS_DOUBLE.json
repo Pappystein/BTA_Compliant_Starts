@@ -1,26 +1,26 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/g/gauss"
-			}
-		],	
+        "Category": [
+            {
+                "CategoryID": "a/a/g/gauss"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
             ]
         },
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 9,
-			"StabilityDamagePerAmmo": 1
-		},		
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 9,
+            "StabilityDamagePerAmmo": 1
+        },
         "BonusDescriptions": [
-				"CostPerShot: 950",
-				"AmmoCount: 14"
-            ],
-		"AmmoCost" : {
-		  "PerUnitCost" : 950
-		}
+            "CostPerShot: 950",
+            "AmmoCount: 14"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 950
+        }
     },
     "AmmoID": "Ammunition_GAUSS_AB",
     "Capacity": 14,
@@ -33,7 +33,7 @@
         "UIName": "Gauss AirBurst[D]",
         "Id": "Ammo_AmmunitionBox_AirBurst_GAUSS_DOUBLE",
         "Name": "Gauss AirBurst[D]",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 14 shots.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 14 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA": "Air-Burst",

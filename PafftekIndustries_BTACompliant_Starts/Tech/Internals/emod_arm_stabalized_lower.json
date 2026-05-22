@@ -25,7 +25,7 @@
 		"UIName": "Arm Lower Stabilized",
 		"Id": "emod_arm_stabalized_lower",
 		"Name": "Arm Lower Actuator Stabilized",
-		"Details": "An Actuator is a component within a BattleMech's limbs, composed of the joint, myomer bundles, and motor control units. The lower actuator requires the upper arm actuators to be installed and working.",
+		"Details": "An Actuator is a component within a BattleMech's limbs, composed of the joint, myomer bundles, and motor control units. The lower actuator requires the upper arm actuators to be installed and working.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixSvgIcon_equipment_ActuatorArm"
 	},
 	"BonusValueA": "",

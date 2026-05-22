@@ -1,0 +1,71 @@
+{
+	"Description": {
+		"Id": "background_ancestry_Unknown",
+		"Name": "Unknown",
+		"Details": "The [[DM.Factions[faction_331stDivision],<Unknown>]] was your home, showing you that dirty tricks are just another way to win.",
+		"Icon": "uixTxrLogo_331stRoyalBattleMech",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Commander",
+		"Requirements": {
+			"Scope": "Commander",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": [
+					"DONOTFIRE"
+				]
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		},
+		"AddedTags": {
+			"items": [
+				"commander_ancestry_unknown"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RemovedTags": null,
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "Gunnery",
+				"value": 4,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Piloting",
+				"value": 2,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Guts",
+				"value": 2,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Tactics",
+				"value": 3,
+				"valueConstant": ""
+			}
+		],
+		"Actions": null,
+		"ForceEvents": null,
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 0,
+	"UIOrdering": 6,
+	"OptionName": "<UNKNOWN>",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "MechWarriors who hail from the [[DM.Factions[faction_331stDivision],<Unknown>]] tend to the secretive side of things.   When provoked they act with lighting quickness generating explosive results. \r\n\r\nFounded as a hybridization between Monarchy and a constitutional Republic, The *ERROR* Unreadable *ERROR* is a secretive and un-assuming player in the [[DM.BaseDescriptionDefs[LoreRimwardPeriphery],Rimward Periphery]].",
+	"BioDescription": "You grew up in the <b>*ERROR* Unreadable *ERROR*</b>, You and your kin fought for survival every day.   You learned to hit your targets faster and more accurately to avoid return fire.\r\n"
+}

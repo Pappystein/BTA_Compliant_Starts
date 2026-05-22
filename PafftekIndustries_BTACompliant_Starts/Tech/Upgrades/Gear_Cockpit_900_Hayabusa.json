@@ -1,158 +1,159 @@
 {
-	"Custom": {
-		"Category": [{
-				"CategoryID": "Cockpit"
-			}
-		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
-			}
-		},
-		"BonusDescriptions":  [
-				"Health: +1",
-				"HyperEVA: 2, 0",
-				"PilotRecovery",
-				"IsCockpit"
-			],
-		"Flags":  [
-				"not_broken"
-			]			
-	},
-	"StatName": null,
-	"RelativeModifier": 0,
-	"AbsoluteModifier": 0,
-	"Description": {
-		"Cost": 800000,
-		"Rarity": 5,
-		"Purchasable": false,
-		"Manufacturer": "Pafftek Industries",
-		"Model": "CEU-900 Hayabusa",
-		"UIName": "CEU-900 Hayabusa",
-		"Id": "Gear_Cockpit_900_Hayabusa",
-		"Name": "CEU-900 Hayabusa Cockpit Electronics Upgrade",
-		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades like this CEU-900 unit, grant additional capabilities to the 'Mech they are installed on. The Hayabusa or translated Peregrine Falcon, is all about the idea that the more shots that hit you will cause you to be hit by even more shots.  So the CEU-900 is focused all about not being hit in the first place.",
-		"Icon": "uixSvgIcon_equipment_Cockpit"
-	},
-	"BonusValueA": "+1 Inj, +5 Cowl",
-	"BonusValueB": "Up to 2 Pips above cap",
-	"ComponentType": "Upgrade",
-	"ComponentSubType": "NotSet",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 1,
-	"AllowedLocations": "Head",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [
-		{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": -1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": true,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Pilot_HealthAdd-T2",
-				"Name": "MAX INJURIES INCREASED",
-				"Details": "Prevents Injuries against a MechWarrior.",
-				"Icon": "uixSvgIcon_equipment_Cockpit"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "BonusHealth",
-				"operation": "Int_Add",
-				"modValue": "1",
-				"modType": "System.Int32",
-				"additionalRules": "NotSet",
-				"targetCollection": "Pilot",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator"
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "MaxEvasion",
-				"Name": "EVASIVE MOVE",
-				"Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
-				"Icon": "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData": {
-				"statName": "MaxEvasivePips",
-				"operation": "Int_Add",
-				"modValue": "2",
-				"modType": "System.Int32"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Status-SARRecoveryChance",
-				"Name": "Armoured Cowl",
-				"Details": "Improved Head Armor",
-				"Icon": "uixSvgIcon_equipment_ActuatorArm"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "SAR_RecoveryChanceMult",
-				"operation": "Float_Multiply",
-				"modValue": "2.0",
-				"modType": "System.Single"
-			}
-		}		
-	],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "Cockpit"
+            }
+        ],
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "[[Chassis.Tonnage]]/10",
+                "CBillCost": "[[Chassis.Tonnage]] * 1.1"
+            }
+        },
+        "BonusDescriptions": [
+            "Health: +1",
+            "HyperEVA: 2, 0",
+            "PilotRecovery",
+            "IsCockpit"
+        ],
+        "Flags": [
+            "not_broken"
+        ]
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 800000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": "Pafftek Industries",
+        "Model": "CEU-900 Hayabusa",
+        "UIName": "CEU-900 Hayabusa",
+        "Id": "Gear_Cockpit_900_Hayabusa",
+        "Name": "CEU-900 Hayabusa Cockpit Electronics Upgrade",
+        "Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. CEUs or Cockpit Electronics Upgrades like this CEU-900 unit, grant additional capabilities to the 'Mech they are installed on. The Hayabusa or translated Peregrine Falcon, is all about the idea that the more shots that hit you will cause you to be hit by even more shots.  So the CEU-900 is focused all about not being hit in the first place.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+    },
+    "BonusValueA": "+1 Inj, +5 Cowl",
+    "BonusValueB": "Up to 2 Pips above cap",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Pilot_HealthAdd-T2",
+                "Name": "MAX INJURIES INCREASED",
+                "Details": "Prevents Injuries against a MechWarrior.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "BonusHealth",
+                "operation": "Int_Add",
+                "modValue": "1",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "Pilot",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "MaxEvasion",
+                "Name": "EVASIVE MOVE",
+                "Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+                "Icon": "uixSvgIcon_action_evasivemove"
+            },
+            "statisticData": {
+                "statName": "MaxEvasivePips",
+                "operation": "Int_Add",
+                "modValue": "2",
+                "modType": "System.Int32"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Status-SARRecoveryChance",
+                "Name": "Armoured Cowl",
+                "Details": "Improved Head Armor",
+                "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "SAR_RecoveryChanceMult",
+                "operation": "Float_Multiply",
+                "modValue": "2.0",
+                "modType": "System.Single"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

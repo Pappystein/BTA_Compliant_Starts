@@ -46,13 +46,13 @@
 			]
 		},
 		"BonusDescriptions": [
-            "MissileDefense: +2",
-            "SensorLockImmune",
-            "C3NetworkJamCount: 3",
-            "ECMBubble: 150",
-            "IsProbe",
-            "ProbeBubble: 300"
-        ],
+			"MissileDefense: +2",
+			"SensorLockImmune",
+			"C3NetworkJamCount: 3",
+			"ECMBubble: 150",
+			"IsProbe",
+			"ProbeBubble: 300"
+		]
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -66,7 +66,7 @@
 		"UIName": "Watchdog CEWS",
 		"Id": "Gear_Watchdog_CEWS",
 		"Name": "Watchdog Combined Electronic Warfare Suite",
-		"Details": "Designed as a combination of a lightened Active Probe and Guardian ECM suite, the Watchdog, performs both rolls while taking up a minimum of space.",
+		"Details": "Designed as a combination of a lightened Active Probe and Guardian ECM suite, the Watchdog, performs both rolls while taking up a minimum of space.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixSvgIcon_equipment_TTS"
 	},
 	"BonusValueA": "+1 Accuracy and 35% Sensors|",

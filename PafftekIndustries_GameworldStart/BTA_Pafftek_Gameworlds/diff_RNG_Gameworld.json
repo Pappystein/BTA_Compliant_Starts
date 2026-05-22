@@ -1,0 +1,34 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_RNG_Gameworld",
+				"Name": "Random Gameworld",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 1.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Antallos,Astrokaszy,Dortmund,Gambier,Hardcore,NewPortRoyal,Noisiel,Sawyer,Westerhand,Galatea,Solaris"
+											
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Periphery_Strider,itemCollection_Mechs_PFT_Medium_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_PFT_Light_Hero,itemCollection_Mechs_Special_GameWorld_VMech,itemCollection_Vehicle_Combat_PFT,itemCollection_Vehicle_Scout_PFT,itemCollection_Vehicle_Support_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "MercenaryReviewBoard:55,AuriganPirates:35"
+					}
+				]
+			}
+		}
+	]
+}

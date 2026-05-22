@@ -1,0 +1,24 @@
+{
+	"Description": {
+		"Id": "Ammunition_FieldKannone_HESH",
+		"Name": "Field Kannone High Explosive Squash Head Ammo",
+		"UIName": "HESH",
+		"Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "FieldKannone",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1.75,
+	"DamageMultiplier": 0.9,
+	"AdditionalImpactVFX": "WFX_ExplosiveSmokeM",
+	"AdditionalImpactVFXScaleX": 1,
+	"AdditionalImpactVFXScaleY": 1,
+	"AdditionalImpactVFXScaleZ": 1
+}

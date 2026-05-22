@@ -1,29 +1,28 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/a/lbx"
-			}
-		],	
+        "Category": [
+            {
+                "CategoryID": "a/a/a/lbx"
+            }
+        ],
         "ComponentExplosion": {
             "ExplosionDamagePerAmmo": 7,
             "StabilityDamagePerAmmo": 0.25
         },
-		"Flags": [
-			"not_broken"
-		],
-
-		"BonusDescriptions": [
-				"WpnCrits: +50%",
-				"WpnAccuracy: +1",
-				"PipsIgnored: +1",
-				"LBXCluster: 2",
-				"CostPerShot: 330",
-				"AmmoCount: 15"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 330
-		}
+        "Flags": [
+            "not_broken"
+        ],
+        "BonusDescriptions": [
+            "WpnCrits: +50%",
+            "WpnAccuracy: +1",
+            "PipsIgnored: +1",
+            "LBXCluster: 2",
+            "CostPerShot: 330",
+            "AmmoCount: 15"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 330
+        }
     },
     "AmmoID": "Ammunition_LBX2_CLUSTER",
     "Capacity": 30,
@@ -36,7 +35,7 @@
         "UIName": "Ammo LB 2-X AC CLUSTER [D-P]",
         "Id": "Ammo_AmmunitionBox_LBX_CLUSTER_AC2_DOUBLE_P",
         "Name": "LB 2-X AC Cluster Ammo",
-        "Details": "Protected Ammo Bins help to reduce the damage from exploding ammunition by having built in explosive baffles.  While this reduces the capacity of the magazine, it also greatly reduces the force of an ammo explosion.   CASE is still your best protection however! Has 60 shots.",
+        "Details": "Protected Ammo Bins help to reduce the damage from exploding ammunition by having built in explosive baffles.  While this reduces the capacity of the magazine, it also greatly reduces the force of an ammo explosion.   CASE is still your best protection however! Has 60 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA": "",

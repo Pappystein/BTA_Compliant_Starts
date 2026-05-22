@@ -12,7 +12,7 @@
             "MRBM",
             "MIRVWarhead:6,120m, 90m",
             "WpnCooldown: 2",
-			"TagSupporting: 15",
+            "TagSupporting: 15",
             "NoFireInMelee",
             "ScatterRadius: 15, 75",
             "WeaponJAM: 10%",
@@ -38,7 +38,7 @@
     "EvasivePipsIgnored": 0,
     "DamageVariance": 0,
     "HeatDamage": 10,
-    "AccuracyModifier": 20,		
+    "AccuracyModifier": 20,
     "CriticalChanceMultiplier": 1.5,
     "AOECapable": true,
     "AOERange": 90,
@@ -76,8 +76,8 @@
         "UIName": "Tsar Bomba MRBM launcher",
         "Id": "Weapon_MRBM",
         "Name": "Tsar Bomba",
-        "Details": "A medium sized tactical missile launcher that fires a ballistic missile with 6 \"Multiple independant Re-entry Vehicles\" or MiRVs.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Friendly units equiped with the Pafftek Industries Squawk Box IIF tranciever will not be targetable with this weapon.  \n\n <b><color=#ffcc00>Uses MRBM Ammo.  Pafftek Industry Submod item</color></b>",
-		"Icon": "death-star"
+        "Details": "A medium sized tactical missile launcher that fires a ballistic missile with 6 \"Multiple independant Re-entry Vehicles\" or MiRVs.  Its size squarely places it in the \"SuperWeapon\" Category.  Each ammo bin holds 2 missiles.  Friendly units equiped with the Pafftek Industries Squawk Box IIF tranciever will not be targetable with this weapon.  \n\n <b><color=#ffcc00>Uses MRBM Ammo.  Pafftek Industry Submod item</color></b>\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "death-star"
     },
     "BonusValueA": "",
     "BonusValueB": "",

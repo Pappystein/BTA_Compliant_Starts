@@ -1,0 +1,24 @@
+{
+	"Description": {
+		"Id": "Ammunition_FieldKannone_Tandem",
+		"Name": "Field Kannone Ammo",
+		"UIName": "Tandem",
+		"Details": "Short range missiles, capable of dealing heavy damage at close range via shaped charge warheads.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "FieldKannone",
+	"HeatGenerated": 0,
+	"AIBattleValue": 50,
+	"CriticalChanceMultiplier": 1,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"ISDamageModifier": 0.5,
+	"APDamage": 5,
+	"APCriticalChanceMultiplier": 1.1,
+	"DamagePerShot": -50
+}

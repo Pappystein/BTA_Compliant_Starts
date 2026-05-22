@@ -1,16 +1,16 @@
 {
-	"Custom": {
-		"Flags": [
-				"ignore_damage",
-				"autorepair",
-				"not_broken",
-				"no_salvage",
-				"default"
-		]
-	},
-	"StatName": null,
-	"RelativeModifier": 0,
-	"AbsoluteModifier": 0,	
+    "Custom": {
+        "Flags": [
+            "ignore_damage",
+            "autorepair",
+            "not_broken",
+            "no_salvage",
+            "default"
+        ]
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
     "Description": {
         "Cost": 0,
         "Rarity": 99,
@@ -20,7 +20,7 @@
         "UIName": "Partial Wing System",
         "Id": "Gear_PartialWing_LTslot",
         "Name": "Partial Wing System",
-        "Details": "Partial Wing System",
+        "Details": "Partial Wing System\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "steelwing-emblem"
     },
     "BonusValueA": "",

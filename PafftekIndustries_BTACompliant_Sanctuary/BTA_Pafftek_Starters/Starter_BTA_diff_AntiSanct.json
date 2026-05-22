@@ -1,31 +1,33 @@
 {
 	"TargetID": "CareerDifficultySettings",
-	"Instructions": [{
-		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
-		"Action": "ArrayAdd",
-		"Value": {
-			"ID": "diff_AntiSanct",
-			"Name": "0.5 Anti-Sanctuary",
-			"TelemetryEventDesc": "",
-			"DifficultyValue": 0,
-			"CareerScoreModifier": 0.1,
-			"DifficultyConstants": [{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingSystems",
-					"ConstantValue": "Mirfak"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_TaurianMediums_PFT,itemCollection_Mechs_SanctLights,itemCollection_Mechs_Starting_Taurian_Light,itemCollection_Mechs_Starting_Taurian_Light,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Mechs_SanctTonks"
-					
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "TaurianConcordat:30,Davion:30,Steiner:-30,WordOfBlake:-45,ComStar:15"
-				}
-			]
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_AntiSanct",
+				"Name": "0.5 Anti-Sanctuary",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.3,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Mirfak"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_TaurianMediums_PFT,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Mechs_TaurianLights_PFT,itemCollection_Vehicle_Combat_PFT"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "TaurianConcordat:50,Davion:0,Steiner:-30,WordOfBlake:-45,ComStar:15"
+					}
+				]
+			}
 		}
-	}]
+	]
 }

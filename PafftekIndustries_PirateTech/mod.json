@@ -20,14 +20,15 @@
 			{ "Type": "AdvancedJSONMerge", "Path": "MechDefMerge/" },
 			{ "Type": "VehicleDef",	"Path": "Vehicles/VehicleDef" },
 			{ "Type": "VehicleChassisDef", "Path": "Vehicles/VehicleChassisDef" },
-			{ "Type": "VehicleDef",	"Path": "PAI_Vehicles/VehicleDef" },
-			{ "Type": "VehicleChassisDef", "Path": "PAI_Vehicles/VehicleChassisDef" },
+			{ "Type": "VehicleDef",	"Path": "PAIVehicles/VehicleDef" },
+			{ "Type": "VehicleChassisDef", "Path": "PAIVehicles/ChassisDef" },
 			{ "Type": "WeaponAddonDef",	"Path": "Tech/WeaponAddOns"},
-			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" }
+			{ "Type": "UpgradeDef", "Path": "Tech/WeaponLinkages" },
+			{ "Type": "ItemCollectionDef", "Path": "StoreUpdates",	"ShouldAppendText": true}
   ],
     "OptionallyDependsOn": [		
     ],
-	"DependsOn": [ "VIPadvanced", "PafftekIndustries_PirateTechDefault", "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core", "PafftekIndustries_BTACompliant_Starts" ],
+	"DependsOn": ["LewdableTanks", "PafftekIndustries_BTACompliant_Starts", "VIPadvanced", "PafftekIndustries_PirateTechDefault", "BT Advanced Mechs", "BTA Difficulty Settings", "BT Advanced Backgrounds", "BT Advanced HM Equipment Module", "Custom Ammo Categories", "DynamicShops", "CustomShops", "BT Advanced Core",  ],
 	"ConflictsWith": [				
 	]
 }

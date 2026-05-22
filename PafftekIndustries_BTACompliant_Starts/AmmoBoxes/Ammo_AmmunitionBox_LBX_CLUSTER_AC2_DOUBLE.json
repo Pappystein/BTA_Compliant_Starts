@@ -1,28 +1,28 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/a/lbx"
-			}
-		],	
-		"Flags": [
-			"not_broken"
-		],
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 25,
-			"StabilityDamagePerAmmo": 6
-		},
-		"BonusDescriptions": [
-				"WpnCrits: +50%",
-				"WpnAccuracy: +1",
-				"PipsIgnored: +1",
-				"LBXCluster: 2",
-				"CostPerShot: 300",
-				"AmmoCount: 15"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 300
-		}
+        "Category": [
+            {
+                "CategoryID": "a/a/a/lbx"
+            }
+        ],
+        "Flags": [
+            "not_broken"
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 25,
+            "StabilityDamagePerAmmo": 6
+        },
+        "BonusDescriptions": [
+            "WpnCrits: +50%",
+            "WpnAccuracy: +1",
+            "PipsIgnored: +1",
+            "LBXCluster: 2",
+            "CostPerShot: 300",
+            "AmmoCount: 15"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 300
+        }
     },
     "AmmoID": "Ammunition_LBX2_CLUSTER",
     "Capacity": 33,
@@ -35,7 +35,7 @@
         "UIName": "Ammo LB 2-X AC CLUSTER [D]",
         "Id": "Ammo_AmmunitionBox_LBX_CLUSTER_AC2_DOUBLE",
         "Name": "LB 2-X AC Cluster Ammo",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 110 shots.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 110 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA": "",

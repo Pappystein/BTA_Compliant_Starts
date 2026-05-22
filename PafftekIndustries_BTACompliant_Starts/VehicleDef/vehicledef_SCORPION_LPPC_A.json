@@ -3,7 +3,7 @@
     "Description": {
         "Id": "vehicledef_SCORPION_LPPC_A",
         "Name": "Scorpion (LPPC+CAP)",
-        "Details": "",
+        "Details": "\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "Scorpion",
         "Cost": 993,
         "Rarity": 0,
@@ -350,11 +350,11 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1
         },
-		{
-			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
-		}
+        {
+            "MountedLocation": "Rear",
+            "ComponentDefID": "emod_armorslots_ultraferrofibrous",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1
+        }
     ]
 }

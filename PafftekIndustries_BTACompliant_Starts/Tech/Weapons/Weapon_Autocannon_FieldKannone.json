@@ -1,0 +1,144 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/o/artillery"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"IsArtillery",
+			"ArtilleryAttack",
+			"ArtilleryDetails",
+			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
+			"NoFireInMelee",
+			"IDF_Hipshooting: 90 240",
+			"DirectFire_Shooting",
+			"ModeBasedAmmoSort",
+			"AMSImmune"
+		]
+	},
+	"weaponCategoryID": "Artillery",
+	"Type": "Autocannon",
+	"WeaponSubType": "LRM10",
+	"MinRange": 0,
+	"MaxRange": 1400,
+	"RangeSplit": [
+		350,
+		700,
+		1000
+	],
+	"AmmoCategory": "FieldKannone",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 100,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 5,
+	"Instability": 40,
+	"AMSImmune": true,
+	"FireTerrainChance": 0.0585,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+	"Description": {
+		"Cost": 1650000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Field Kannone",
+		"UIName": "Field Kannone",
+		"Id": "Weapon_Autocannon_FieldKannone",
+		"Name": "Field Kannone",
+		"Details": "Jointly created by Periphery Armory Inc, RAD Group, Pafftek Industries, and Austen-Armstrong Industries, the Field Kannone is intended to perform various in-direct fire missions as well as serve in a direct fire role.   This creates three distinct methods of firing the Field Kannone.  The three modes leed to a weapon that is heavy and large for the damage it does.  But the Field Kannone excells because it can do more than any other single artillery piece in the entirety of the periphery, Inner Sphere and even Clan Space. \n\n<b><color=#ffcc00>Uses Field Kannone Ammo.</color></b>\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Icon": "Art-illery"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "artillery",
+	"BattleValue": 0,
+	"InventorySize": 10,
+	"Tonnage": 18,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"ImprovedBallistic": true,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "IDF-Quick",
+			"UIName": "Quick Shot",
+			"isBaseMode": true,
+			"AlwaysIndirectVisuals": true,
+			"IndirectFireCapable": true,
+			"MissInCircle": true,
+			"MinMissRadius": 90,
+			"MaxMissRadius": 240,
+			"AccuracyModifier": 5,
+			"RefireModifier": 6,
+			"IsArtillery": false,
+			"RestrictedAmmo": [
+				"Ammunition_FieldKannone_Elias",
+			]
+		},
+		{
+			"Id": "IDF-Aimed",
+			"UIName": "Aimed Shot",
+			"isBaseMode": false,
+			"AlwaysIndirectVisuals": true,
+			"IndirectFireCapable": true,
+			"IsArtillery": true,
+			"ArtilleryReticleColor": {
+				"C": "#FF0000",
+				"I": 1.5
+			},
+			"ArtilleryReticleRadius": 90,
+			"ArtilleryReticleText": "FieldKannone",
+			"RestrictedAmmo": [
+				"Ammunition_FieldKannone_Copperhead",
+				"Ammunition_FieldKannone_HESH",
+				"Ammunition_FieldKannone_Tandem"
+			]
+		},
+		{
+			"Id": "DirectFire",
+			"UIName": "DirectFire",
+			"isBaseMode": false,
+			"AlwaysIndirectVisuals": false,
+			"IndirectFireCapable": false,
+			"MinMissRadius": 15,
+			"MaxMissRadius": 30,
+			"AccuracyModifier": 2,
+			"IsArtillery": false,
+			"RestrictedAmmo": [
+				"Ammunition_FieldKannone_Elias",
+				"Ammunition_FieldKannone_AX",
+				"Ammunition_FieldKannone_Airburst",
+				"Ammunition_FieldKannone_Flare",
+				"Ammunition_FieldKannone_Fascam",
+				"Ammunition_FieldKannone_Suppressant",
+				"Ammunition_FieldKannone_Inferno",
+				"Ammunition_FieldKannone_HE"
+			]
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"mr-resize-8",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,20 +1,20 @@
 {
-	"Description": {
-		"Id": "Ammunition_LBX20_SLUG",
-		"Name": "LBX/20 Slug Ammo",
-		"UIName": "Slug",
-		"Details": "Massive rounds, designed for devastating impact, to be used in a LBX/20.",
-		"Icon": null,
-		"Cost": 0,
-		"Rarity": 0,
-		"Purchasable": false
-	},
-	"Type": "Normal",
-	"Category": "LBX20",
-	"HeatGenerated": 0,
-	"AIBattleValue": 90,
-	"HeatGeneratedModifier": 1,
-	"ArmorDamageModifier": 1,
-	"ISDamageModifier": 1,
-	"CriticalDamageModifier": 1
+    "Description": {
+        "Id": "Ammunition_LBX20_SLUG",
+        "Name": "LBX/20 Slug Ammo",
+        "UIName": "Slug",
+        "Details": "Massive rounds, designed for devastating impact, to be used in a LBX/20.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": null,
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false
+    },
+    "Type": "Normal",
+    "Category": "LBX20",
+    "HeatGenerated": 0,
+    "AIBattleValue": 90,
+    "HeatGeneratedModifier": 1,
+    "ArmorDamageModifier": 1,
+    "ISDamageModifier": 1,
+    "CriticalDamageModifier": 1
 }

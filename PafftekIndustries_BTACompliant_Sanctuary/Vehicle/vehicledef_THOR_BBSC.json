@@ -3,7 +3,7 @@
     "Description": {
         "Id": "vehicledef_THOR_BBSC",
         "Name": "Thor Artillery Vehicle(Bombard)",
-        "Details": "The refitted Thor artilary vehicle, equiped with Sanctuary technology and the Bombard weapon system.",
+        "Details": "The refitted Thor artilary vehicle, equiped with Sanctuary technology and the Bombard weapon system.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "Thor",
         "Cost": 993,
         "Rarity": 0,
@@ -153,13 +153,13 @@
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_Cockpit_Sanctuary_Drone",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
+        {
+            "MountedLocation": "Front",
+            "ComponentDefID": "Gear_Cockpit_Sanctuary_Drone",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
         {
             "ComponentDefID": "Gear_Wheeled_Right",
             "ComponentDefType": "Upgrade",

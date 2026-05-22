@@ -1,0 +1,113 @@
+{
+	"name": "EC Scout Raiding Corridor",
+	"requirementList": [
+		{
+			"Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+			"ExclusionTags": {
+				"items": [
+					"planet_other_empty"
+				],
+				"tagSetSourceFile": ""
+			}
+		}
+	],
+	"weight": 1,
+	"spawnLocation": "NearbyEnemy",
+	"employer": [
+		"Any"
+	],
+	"target": [
+		"SystemOwner"
+	],
+	"hireContract": "wiic_Scout_Raiding_Corridor",
+	"availableFor": [
+		20,
+		35
+	],
+	"travelContracts": true,
+	"blockOtherContracts": false,
+	"schedule": [
+		"",
+		"InitalLanding",
+		"",
+		"TargetOfOpportunity1",
+		"",
+		"DestroyBase",
+		"",
+		"",
+		"TargetOfOpportunity2",
+		"",
+		"AvoidOverwhelm",
+		"",
+		"LaunchTheRaids",
+		"",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"InitalLanding": {
+			"workOrder": "Inital Landing",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				3
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, We have just completed our intial landing, unopposed. {TEAM_EMP.FactionDef.ShortName} appears to have been correct in saying there was a sensor blind spot for us to in-fill through!  I am supprised how good their intel was commander!  However we now have an enemy force in the area searching for us. We need to smash them quickly before they can bring a hammer down on us commander!"
+		},
+		"TargetOfOpportunity1": {
+			"workOrder": "Target of Action",
+			"contractChance": 0.66,
+			"allowedContractTypes": [
+				15
+			],
+			"contractMessage": "Commander, {TEAM_EMP.FactionDef.ShortName} found us a nice juicy target!  Lets smash the targeted forces for a good pay day!"
+		},
+		"DestroyBase": {
+			"workOrder": "Destroy the Base",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				6,
+				50
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, {TEAM_EMP.FactionDef.ShortName} has given us a major hardpoint in their defensive network.  Go destroy that hardpoint commander!"
+		},
+		"TargetOfOpportunity2": {
+			"workOrder": "Target of opprotunity",
+			"contractChance": 0.7,
+			"allowedContractTypes": [
+				3,
+				10,
+				15
+			],
+			"contractMessage": "Commander, {TEAM_EMP.FactionDef.ShortName} found us a nice juicy target!  Lets smash the targeted forces for a good pay day!"
+		},
+		"AvoidOverwhelm": {
+			"workOrder": "Avoid Overwhelm and widthdraw",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				17002
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, we have achieved all goals as set out by {TEAM_EMP.FactionDef.ShortName}. They want us to pull out in the most destructive way possible.   We will likely be in close contact with the enemy for quite a while before we can effect our escape Commander!"
+		},
+		"LaunchTheRaids": {
+			"workOrder": "Launch the Raids",
+			"triggerEvent": [
+				"bd_event_TriggerInvasion"
+			],
+			"contractMessage": "Commander, {TEAM_EMP.FactionDef.ShortName} has lauched all their planned Raids, here and elswhere."
+		},
+		"PaymentDelivered": {
+			"workOrder": "Contract Conclusion",
+			"popupTitle": "The Task Force Commander sends their thanks",
+			"popupMessage": "Our payment was just delivered, Commander.  {TEAM_EMP.FactionDef.ShortName} is overall happy with our performance. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+	}
+}

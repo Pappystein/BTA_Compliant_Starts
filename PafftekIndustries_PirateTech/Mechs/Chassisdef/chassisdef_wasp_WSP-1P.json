@@ -8,7 +8,7 @@
         "UIName": "Wasp",
         "Id": "chassisdef_wasp_WSP-1P",
         "Name": "Wasp",
-        "Details": "A slight improvement on the Primitive Wasp the Wasp -1P is a fission core walking bomb.  But it is more updatable than its progenator.  This alone makes the mech a huge imporvement.",
+        "Details": "A slight improvement on the Primitive Wasp the Wasp -1P is a fission core walking bomb.  But it is more updatable than its progenator.  This alone makes the mech a huge imporvement.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_wasp"
     },
     "MovementCapDefID": "movedef_wasp_WSP-1A",

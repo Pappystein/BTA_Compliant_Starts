@@ -7,7 +7,7 @@
             "unit_role_flanker",
             "unit_release",
             "unit_notsacellum",
-			"CalderonProtectorate"
+            "CalderonProtectorate"
         ],
         "tagSetSourceFile": ""
     },
@@ -22,7 +22,7 @@
         "UIName": "Crab CRB-45J",
         "Id": "mechdef_crab_CRB-45J",
         "Name": "Crab",
-        "Details": "Developed in Secret by a Comstar listening post just outside the Sanctuary Alliance Invasion corridor, the Crab CRB-45J is an experimental EWAR Crab made for Comstar.  The project Test Pilot, Turtrus, spent quite a bit of time testing systems on the mech to work best with combating the Word of Blake and the Sanctuary Alliance.  However, shortly before the planned introduction into production, it became evident that WoB sympathizers were planning on stealing the design for their use.  Turtrus, with some of the engineering staff, quickly moved everything further out into wild space.   This prototype is the only one left of its kind.",
+        "Details": "Developed in Secret by a Comstar listening post just outside the Sanctuary Alliance Invasion corridor, the Crab CRB-45J is an experimental EWAR Crab made for Comstar.  The project Test Pilot, Turtrus, spent quite a bit of time testing systems on the mech to work best with combating the Word of Blake and the Sanctuary Alliance.  However, shortly before the planned introduction into production, it became evident that WoB sympathizers were planning on stealing the design for their use.  Turtrus, with some of the engineering staff, quickly moved everything further out into wild space.   This prototype is the only one left of its kind.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_crab"
     },
     "simGameMechPartCost": 1270000,
@@ -67,7 +67,7 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-			"CurrentArmor": 105,
+            "CurrentArmor": 105,
             "CurrentRearArmor": 45,
             "CurrentInternalStructure": 60,
             "AssignedArmor": 105,
@@ -407,7 +407,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"LocalGUID":"target_LPPC_1"
+            "LocalGUID": "target_LPPC_1"
         },
         {
             "MountedLocation": "RightArm",
@@ -419,7 +419,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"LocalGUID":"target_LPPC_3"
+            "LocalGUID": "target_LPPC_3"
         },
         {
             "MountedLocation": "LeftArm",
@@ -431,7 +431,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"TargetComponentGUID":"target_LPPC_1"
+            "TargetComponentGUID": "target_LPPC_1"
         },
         {
             "MountedLocation": "RightArm",
@@ -443,7 +443,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"TargetComponentGUID":"target_LPPC_3"
+            "TargetComponentGUID": "target_LPPC_3"
         },
         {
             "MountedLocation": "CenterTorso",
@@ -455,7 +455,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"TargetComponentGUID":"target_LPPC_2"
+            "TargetComponentGUID": "target_LPPC_2"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -489,7 +489,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"TargetComponentGUID":"target_LPPC_2"
+            "TargetComponentGUID": "target_LPPC_2"
         },
         {
             "MountedLocation": "CenterTorso",
@@ -501,7 +501,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"LocalGUID":"target_LPPC_2"
+            "LocalGUID": "target_LPPC_2"
         }
     ]
 }

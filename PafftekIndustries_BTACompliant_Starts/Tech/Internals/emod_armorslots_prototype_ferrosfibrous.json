@@ -44,7 +44,7 @@
         "UIName": "P-Ferro-Fibrous",
         "Id": "emod_armorslots_prototype_ferrosfibrous",
         "Name": "Ferro-Fibrous Prototype Armor",
-        "Details": "Ferro-Fibrous Prototype armor (pFF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.\r\n\r\nArmor tonnage gets reduced by <b>1/16</b> while taking up <b>14</b> Ferro-Fibrous slots.",
+        "Details": "Ferro-Fibrous Prototype armor (pFF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.\r\n\r\nArmor tonnage gets reduced by <b>1/16</b> while taking up <b>14</b> Ferro-Fibrous slots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_action_end"
     },
     "BonusValueA": "",

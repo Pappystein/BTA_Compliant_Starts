@@ -13,7 +13,7 @@
 			"FallbackUIColor": "WolfGray",
 			"Icon": "MissileHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
-		},	
+		},
 		{
 			"ID": 9002,
 			"Name": "IND_Laser",
@@ -127,6 +127,20 @@
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
 		},
 		{
+			"ID": 9011,
+			"Name": "FieldKannone",
+			"FriendlyName": "FieldKannone",
+			"IsBallistic": true,
+			"IsMissile": false,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "BallisticHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
+		},
+		{
 			"ID": 9500,
 			"Name": "HvyMORTAR",
 			"FriendlyName": "HvyMortar",
@@ -137,8 +151,8 @@
 			"UsesInternalAmmo": false,
 			"UIColorRef": "QualityD",
 			"FallbackUIColor": null,
-			"Icon": "BallisticHardpointIcon",
+			"Icon": "Art-illery-ammo",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
 		}
 	]
-}	
+}

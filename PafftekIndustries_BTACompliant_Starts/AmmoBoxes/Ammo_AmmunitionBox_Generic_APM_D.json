@@ -1,24 +1,24 @@
 {
     "Custom": {
         "Category": [
-			{
-				"CategoryID": "a/m/s/apm"
-			}
-		],
-		"Flags": [
-			"not_broken"
-		],
+            {
+                "CategoryID": "a/m/s/apm"
+            }
+        ],
+        "Flags": [
+            "not_broken"
+        ],
         "ComponentExplosion": {
             "ExplosionDamagePerAmmo": 4,
             "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": [
-			"CostPerShot: 30",
-			"AmmoCount: 48"
-		],
-		"AmmoCost": {
-			"PerUnitCost": 30
-		}
+            "CostPerShot: 30",
+            "AmmoCount: 48"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 30
+        }
     },
     "AmmoID": "Ammunition_APM_Generic",
     "Capacity": 48,
@@ -31,7 +31,7 @@
         "UIName": "Ammo APM [D]",
         "Id": "Ammo_AmmunitionBox_Generic_APM_D",
         "Name": "APM Ammo [D]",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of SHIELD.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "missile-pod-ammo"
     },
     "BonusValueA": "",

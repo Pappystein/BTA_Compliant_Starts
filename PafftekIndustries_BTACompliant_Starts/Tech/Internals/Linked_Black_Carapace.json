@@ -1,126 +1,129 @@
 {
-	"Custom": {
-		"Color": "Gold",
-		"TRGBColor": {
-			"Color": "#5F24AC"
-		},
-		"Category": [{
-			"CategoryID": "Linked_Void"
-		}],
-		"Flags": [
-			"default",
-			"not_broken",
-			"no_salvage"
-		],
-		"ComponentExplosion": {
-			"ExplosionDamage": 30
-		},
-		"CriticalEffects": {
-			"LinkedStatisticName": "Black Carapace"
-		},
-		"ActivatableComponent": {
-			"ButtonName": "HarJelII",
-			"CanNotBeActivatedManualy": true,
-			"NoUniqueCheck": true,
-			"ActivationMessage": "Healing",
-			"DeactivationMessage": "Healthy",
-			"Repair": {
-				"InnerStructure": 1,
-				"Armor": 4,
-				"MechStructureLocations": [],
-				"MechArmorLocations": [],
-				"VehicleLocations": [],
-				"BuildingLocations": [],
-				"AffectInstalledLocation": true,
-				"TurnsSinceDamage": 8,
-				"repairTrigger": {
-					"OnActivation": false,
-					"OnDamage": "None",
-					"AtEndOfTurn": true
-				}
-			}
-		}
-	},
-	"StatName": null,
-	"RelativeModifier": 0,
-	"AbsoluteModifier": 0,
-	"Description": {
-		"Cost": 0,
-		"Rarity": 99,
-		"Purchasable": true,
-		"Manufacturer": "Prototype",
-		"Model": "Black Carapace",
-		"UIName": "Black Carapace",
-		"Id": "Linked_Black_Carapace",
-		"Name": "Black Carapace",
-		"Details": "Based on the unique HarJel Compound found on LV-426, which has the capacity to break up and absorb EM and light Waves, does the Black Carapace have self repair functionality with a basic Stealth Functionality",
-		"Icon": "StealthArmor"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "Upgrade",
-	"ComponentSubType": "NotSet",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 0,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [{
-			"durationData": {
-				"duration": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator"
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "BreachImmunity",
-				"Name": "BreachImmunity",
-				"Details": "Immune to Hull Breach",
-				"Icon": "uixSvgIcon_ability_precisionstrike"
-			},
-			"statisticData": {
-				"statName": "CBTBE_HullBreachImmunity",
-				"operation": "Set",
-				"modValue": "true",
-				"modType": "System.Boolean"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "HardenedCritImmune",
-				"Name": "ChargerSprint",
-				"Details": "MORE SPEED.",
-				"Icon": "uixSvgIcon_run_n_gun"
-			},
-			"statisticData": {
-				"statName": "CACAPProtection",
-				"operation": "Set",
-				"modValue": "true",
-				"modType": "System.Boolean"
-			},
-			"nature": "Buff"
-		}
-	],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock",
-			"BLACKLISTED"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Color": "Gold",
+        "TRGBColor": {
+            "Color": "#5F24AC"
+        },
+        "Category": [
+            {
+                "CategoryID": "Linked_Void"
+            }
+        ],
+        "Flags": [
+            "default",
+            "not_broken",
+            "no_salvage"
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamage": 30
+        },
+        "CriticalEffects": {
+            "LinkedStatisticName": "Black Carapace"
+        },
+        "ActivatableComponent": {
+            "ButtonName": "HarJelII",
+            "CanNotBeActivatedManualy": true,
+            "NoUniqueCheck": true,
+            "ActivationMessage": "Healing",
+            "DeactivationMessage": "Healthy",
+            "Repair": {
+                "InnerStructure": 1,
+                "Armor": 4,
+                "MechStructureLocations": [],
+                "MechArmorLocations": [],
+                "VehicleLocations": [],
+                "BuildingLocations": [],
+                "AffectInstalledLocation": true,
+                "TurnsSinceDamage": 8,
+                "repairTrigger": {
+                    "OnActivation": false,
+                    "OnDamage": "None",
+                    "AtEndOfTurn": true
+                }
+            }
+        }
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "Prototype",
+        "Model": "Black Carapace",
+        "UIName": "Black Carapace",
+        "Id": "Linked_Black_Carapace",
+        "Name": "Black Carapace",
+        "Details": "Based on the unique HarJel Compound found on LV-426, which has the capacity to break up and absorb EM and light Waves, does the Black Carapace have self repair functionality with a basic Stealth Functionality\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "StealthArmor"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "BreachImmunity",
+                "Name": "BreachImmunity",
+                "Details": "Immune to Hull Breach",
+                "Icon": "uixSvgIcon_ability_precisionstrike"
+            },
+            "statisticData": {
+                "statName": "CBTBE_HullBreachImmunity",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "HardenedCritImmune",
+                "Name": "ChargerSprint",
+                "Details": "MORE SPEED.",
+                "Icon": "uixSvgIcon_run_n_gun"
+            },
+            "statisticData": {
+                "statName": "CACAPProtection",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

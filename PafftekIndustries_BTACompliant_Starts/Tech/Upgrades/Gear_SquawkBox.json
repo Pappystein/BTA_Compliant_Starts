@@ -26,7 +26,7 @@
         "UIName": "Squawk-Box I.F.F.",
         "Id": "Gear_SquawkBox",
         "Name": "Squawk-Box I.F.F. system",
-        "Details": "A simple Identification Friend or Foe (I.F.F.) system, the Squawkbox is small, light and provides saftey from being hit by friendly fire from many guided munitions.",
+        "Details": "A simple Identification Friend or Foe (I.F.F.) system, the Squawkbox is small, light and provides saftey from being hit by friendly fire from many guided munitions.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA": "",

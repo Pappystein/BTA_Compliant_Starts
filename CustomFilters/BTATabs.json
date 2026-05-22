@@ -572,6 +572,7 @@
 				"OmniLowerActuator",
 				"AESArm",
 				"Rattler",
+				"MagArray",
 				"notused"
 			]
 		},
@@ -941,6 +942,7 @@
 					],
 					"Categories": [
 						"Misc",
+						"MagArray",
 						"Cargo",
 						"Supercharger",
 						"CombatShield",

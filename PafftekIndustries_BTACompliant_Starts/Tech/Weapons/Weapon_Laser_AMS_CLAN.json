@@ -1,42 +1,41 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "w/s/a/lams"
-			}
-		],
+        "Category": [
+            {
+                "CategoryID": "w/s/a/lams"
+            }
+        ],
         "BonusDescriptions": [
-				"LAMS",
-				"OLAMSAttacks",
-				"CIWS",		
-				"AMSDamage: 2"
-            
+            "LAMS",
+            "OLAMSAttacks",
+            "CIWS",
+            "AMSDamage: 2"
         ]
     },
-	"Auras": [
-		{
-			"Id": "StandardAMS",
-			"Name": "StandardAMS",
-			"ReticleColor": "#007FE4",
-			"Range": 120,
-			"RemoveOnSensorLock": false,
-			"State": "Persistent",
-			"ApplySelf": false,
-			"HideOnNotSelected": true,
-			"AllyStealthAffection": "None",
-			"EnemyStealthAffection": "None",
-			"IsPositiveToAlly": false
-		}		
-	],	
+    "Auras": [
+        {
+            "Id": "StandardAMS",
+            "Name": "StandardAMS",
+            "ReticleColor": "#007FE4",
+            "Range": 120,
+            "RemoveOnSensorLock": false,
+            "State": "Persistent",
+            "ApplySelf": false,
+            "HideOnNotSelected": true,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": false
+        }
+    ],
     "Category": "AntiPersonnel",
     "Type": "Laser",
     "WeaponSubType": "SmallLaser",
     "MinRange": 0,
     "MaxRange": 120,
     "RangeSplit": [
-		40,
-		60,
-		80
+        40,
+        60,
+        80
     ],
     "AmmoCategory": "NotSet",
     "StartingAmmoCapacity": 0,
@@ -67,7 +66,7 @@
         "UIName": "Laser AMS (C)",
         "Id": "Weapon_Laser_AMS_CLAN",
         "Name": "Laser Anti Missile System (C)",
-        "Details": "Clan technology was used to improve this Laser Anti-Missile system.  Increasing range and damage potential without significantly increased heat or power requirements.  \n\n <b><color=#00ffff>Left Click on mode button next to weapon name during battle to switch firing mode</color> </b>",
+        "Details": "Clan technology was used to improve this Laser Anti-Missile system.  Increasing range and damage potential without significantly increased heat or power requirements.  \n\n <b><color=#00ffff>Left Click on mode button next to weapon name during battle to switch firing mode</color> </b>\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA": "",
@@ -93,51 +92,51 @@
             "Id": "On",
             "UIName": "On",
             "isBaseMode": true,
-			"AMSDamage": 2,
+            "AMSDamage": 2,
             "ShotsWhenFired": 15,
-            "AMSHitChance": 0.50,
+            "AMSHitChance": 0.5,
             "HeatGenerated": 8,
-			"IsAMS": true,
-			"IsAAMS": false,
+            "IsAMS": true,
+            "IsAAMS": false,
             "AMSShootsEveryAttack": false
         },
         {
             "Id": "Overload",
             "UIName": "Overload",
             "isBaseMode": false,
-			"AMSDamage": 1,
+            "AMSDamage": 1,
             "ShotsWhenFired": 40,
-            "AMSHitChance": 0.50,
+            "AMSHitChance": 0.5,
             "FlatJammingChance": 0.3,
             "HeatGenerated": 6,
-			"IsAMS": true,
-			"IsAAMS": true,
+            "IsAMS": true,
+            "IsAAMS": true,
             "AMSShootsEveryAttack": true
         },
         {
             "Id": "CloseIn",
             "UIName": "CloseIn",
             "isBaseMode": false,
-			"AMSDamage": 1,
+            "AMSDamage": 1,
             "ShotsWhenFired": 25,
             "AMSHitChance": 0.65,
             "FlatJammingChance": 0.2,
             "HeatGenerated": 8,
-			"IsAMS": true,
-			"IsAAMS": false,
-			"MaxRange": -30.0,
+            "IsAMS": true,
+            "IsAAMS": false,
+            "MaxRange": -30.0,
             "AMSShootsEveryAttack": true
         },
         {
             "Id": "Laser",
             "UIName": "Laser",
-			"isBaseMode": false,
-			"DamagePerShot": 12.0,
-			"HeatGenerated":  2,
-			"ShotsWhenFired": 2,
-			"IsAMS": false,
-			"IsAAMS": false,
-			"NotUseInMelee": false
+            "isBaseMode": false,
+            "DamagePerShot": 12.0,
+            "HeatGenerated": 2,
+            "ShotsWhenFired": 2,
+            "IsAMS": false,
+            "IsAAMS": false,
+            "NotUseInMelee": false
         }
     ],
     "statusEffects": [],

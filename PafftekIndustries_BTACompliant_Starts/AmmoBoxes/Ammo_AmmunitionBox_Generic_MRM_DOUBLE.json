@@ -1,10 +1,10 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/m/s/mrm"
-			}
-		],
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/m/s/mrm"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
@@ -14,46 +14,44 @@
             "ExplosionDamagePerAmmo": 4,
             "StabilityDamagePerAmmo": 1
         },
-		"BonusDescriptions": [
-				"CostPerShot: 5",
-				"MRMAmmo: 450"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 5
-		}
+        "BonusDescriptions": [
+            "CostPerShot: 5",
+            "MRMAmmo: 450"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 5
+        }
     },
-    "AmmoID" : "Ammunition_MRM",
-    "Capacity" : 450,
-    "Description" : {
-        "Cost" : 10000,
-        "Rarity" : 0,
-        "Purchasable" : true,
-        "Manufacturer" : "Generic",
-        "Model" : "MRM",
-        "UIName" : "Ammo MRM [D]",
-        "Id" : "Ammo_AmmunitionBox_Generic_MRM_DOUBLE",
-        "Name" : "MRM Ammo [D]",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.",
-        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    "AmmoID": "Ammunition_MRM",
+    "Capacity": 450,
+    "Description": {
+        "Cost": 10000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "MRM",
+        "UIName": "Ammo MRM [D]",
+        "Id": "Ammo_AmmunitionBox_Generic_MRM_DOUBLE",
+        "Name": "MRM Ammo [D]",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
-    "ComponentType" : "AmmunitionBox",
-    "ComponentSubType" : "Ammunition",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 2,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
-    "ComponentTags" : {
-        "items" : [
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
             "component_type_stock"
         ],
-        "tagSetSourceFile" : ""
+        "tagSetSourceFile": ""
     }
 }

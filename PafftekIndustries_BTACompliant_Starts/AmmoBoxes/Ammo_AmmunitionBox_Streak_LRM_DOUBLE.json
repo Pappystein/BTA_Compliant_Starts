@@ -1,8 +1,10 @@
 {
     "Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/m/l/lrm" }
-		],	
+        "Category": [
+            {
+                "CategoryID": "a/m/l/lrm"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
@@ -13,12 +15,12 @@
             "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": [
-				"CostPerShot: 15",
-				"LRMAmmo: 270"
-            ],
-		"AmmoCost" : {
-		  "PerUnitCost" : 15
-		}
+            "CostPerShot: 15",
+            "LRMAmmo: 270"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 15
+        }
     },
     "AmmoID": "Ammunition_LRM_STREAK",
     "Capacity": 270,
@@ -31,7 +33,7 @@
         "UIName": "Streak LRM[D]",
         "Id": "Ammo_AmmunitionBox_Streak_LRM_DOUBLE",
         "Name": "Streak LRM Ammo [D]",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 270 shots.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 270 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA": "",

@@ -3,9 +3,11 @@
         "ComponentExplosion": {
             "StabilityDamage": 100
         },
-        "Category": [{
-            "CategoryID": "Gyro"
-        }],
+        "Category": [
+            {
+                "CategoryID": "Gyro"
+            }
+        ],
         "WorkOrderCosts": {
             "Install": {
                 "TechCost": "[[Chassis.Tonnage]] / 10",
@@ -18,9 +20,9 @@
                 "StabDamageTaken: -20%",
                 "GyroStab: 70",
                 "GyroWeight: 20%",
-				"WalkSpeed: +20%",
-				"RunSpeed: +10%",
-				"IsGyro"
+                "WalkSpeed: +20%",
+                "RunSpeed: +10%",
+                "IsGyro"
             ]
         },
         "Weights": {
@@ -39,7 +41,7 @@
         "UIName": "Gyro Advanced",
         "Id": "Gear_Gyro_Hydrostatic",
         "Name": "Hydrostatic Advanced Gyro",
-        "Details": "The Hydrostatic Advanced Gyro gives advanced defensive and maneuverability enhancements to mechs equiped.  It does so at the cost of extra mass however.",
+        "Details": "The Hydrostatic Advanced Gyro gives advanced defensive and maneuverability enhancements to mechs equiped.  It does so at the cost of extra mass however.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_equipment_Gyro"
     },
     "BonusValueA": "70 Stability|",
@@ -155,68 +157,68 @@
             },
             "nature": "Buff"
         },
-				{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": 1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "EtPWalk",
-				"Name": "Supercharged",
-				"Details": "Increased walking speed.",
-				"Icon": "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.2",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "EtPSprint",
-				"Name": "ChargerSprint",
-				"Details": "Increased sprint speed.",
-				"Icon": "uixSvgIcon_run_n_gun"
-			},
-			"statisticData": {
-				"statName": "RunSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		}
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "EtPWalk",
+                "Name": "Supercharged",
+                "Details": "Increased walking speed.",
+                "Icon": "uixSvgIcon_action_evasivemove"
+            },
+            "statisticData": {
+                "statName": "WalkSpeed",
+                "operation": "Float_Multiply",
+                "modValue": "1.2",
+                "modType": "System.Single"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "EtPSprint",
+                "Name": "ChargerSprint",
+                "Details": "Increased sprint speed.",
+                "Icon": "uixSvgIcon_run_n_gun"
+            },
+            "statisticData": {
+                "statName": "RunSpeed",
+                "operation": "Float_Multiply",
+                "modValue": "1.1",
+                "modType": "System.Single"
+            },
+            "nature": "Buff"
+        }
     ],
     "ComponentTags": {
         "items": [

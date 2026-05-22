@@ -1,0 +1,146 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_TDF_AntiSanc1",
+		"Name": "The TDF and an unknown faction",
+		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway peering in with a pensive look on his face.  \r\n\r\n\"Commander, as you instructed I shared the location of that ancient dropship wreck with our contacts in the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]].  They sent us back some of the tech they found as well as a mech that [[DM.BaseDescriptionDefs[TooltipSimGameCharacterYANG],Yang]] is drooling over.   They also said they would keep us in the loop.... what ever that means.  Commander, I get the feeling we are a \"stand up\" crew to the view of the TDF Officials, at least in our reputation.  Looks like the Taurian Defense Force is going to go out of their way to help us since we gave them such a boon un-molested.",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "TDFAntiSanc",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"obj": "Travel",
+			"op": "Equal",
+			"val": 0,
+			"valueConstant": "0"
+		},
+		{
+			"obj": "Reputation.Taurian",
+			"op": "GreaterThanOrEqual",
+			"val": 45,
+			"valueConstant": "45"
+		}
+	],
+	"AdditionalRequirements": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Receive package from the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]]",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"TDFAntiSanc"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "1",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "System_ShowRewards",
+									"value": "itemCollection_TDF1",
+									"valueConstant": null,
+									"additionalValues": null
+								},
+								{
+									"Type": "System_ShowRewards",
+									"value": "itemCollection_loot_eventTDFAntiSanc",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

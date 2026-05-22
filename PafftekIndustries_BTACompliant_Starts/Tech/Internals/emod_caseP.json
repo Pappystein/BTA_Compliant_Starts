@@ -4,13 +4,13 @@
 			"CategoryID": "CASE"
 		},
 		"Flags": [
-				"autorepair"
-			],
+			"autorepair"
+		],
 		"CASE": {
 			"MaximumDamage": 15
-		},	
+		}
 	},
-    "RGBColor": "#bad7d5ff",
+	"RGBColor": "#bad7d5ff",
 	"Description": {
 		"Cost": 50000,
 		"Rarity": 0,
@@ -20,7 +20,7 @@
 		"Id": "emod_caseP",
 		"UIName": "Prototype CASE",
 		"Name": "Prototype C.A.S.E.",
-		"Details": "CASE is short for Cellular Ammunition Storage Equipment. In an internal explosion event, CASE prevents the explosion from traveling to adjacent 'Mech compartments. While it does not prevent damage to occur in the protected area, it does prevent it from passing through, helping to prevent ammo explosions to reach the center torso of a mech.  In prototype form the C.A.S.E system was less effective at surviving any explosion.  A fault rectified with the full production version.",
+		"Details": "CASE is short for Cellular Ammunition Storage Equipment. In an internal explosion event, CASE prevents the explosion from traveling to adjacent 'Mech compartments. While it does not prevent damage to occur in the protected area, it does prevent it from passing through, helping to prevent ammo explosions to reach the center torso of a mech.  In prototype form the C.A.S.E system was less effective at surviving any explosion.  A fault rectified with the full production version.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
 		"Icon": "uixSvgIcon_action_end"
 	},
 	"BonusValueA": "",

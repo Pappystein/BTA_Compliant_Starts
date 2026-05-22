@@ -1,60 +1,60 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/m/s/srm"
-			}
-		],
-		"Flags": [
-			"not_broken"
-		],
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 8,
-			"StabilityDamagePerAmmo": 2
-		},
-		"BonusDescriptions": [
-				"RequiresAttachment: Artemis IV FCS",
-				"PipsIgnored: +2",
-				"WpnAccuracy: +1",
-				"Clustering: 25%",
-				"CostPerShot: 100",
-				"AmmoCount: 230"
-			],
-		"AmmoCost": {
-			"PerUnitCost": 100
-		}
-	},
-	"AmmoID": "Ammunition_SRM_ArtemisIV",
-	"Capacity": 230,
-	"Description": {
-		"Cost": 200000,
-		"Rarity": 5,
-		"Purchasable": true,
-		"Manufacturer": "Generic",
-		"Model": "SRM Artemis IV [D]",
-		"UIName": "Ammo SRM ARTIV [D]",
-		"Id": "Ammo_AmmunitionBox_ArtemisIV_SRM_DOUBLE",
-		"Name": "SRM Artemis IV Ammo [D]",
-		"Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy . Has 230 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Missile"
-	},
-	"BonusValueA": "Ignore 2 Evasion",
-	"BonusValueB": "+50% Crit",
-	"ComponentType": "AmmunitionBox",
-	"ComponentSubType": "Ammunition",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 2,
-	"Tonnage": 2,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_variant",
-			"component_type_variant1"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/m/s/srm"
+            }
+        ],
+        "Flags": [
+            "not_broken"
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 8,
+            "StabilityDamagePerAmmo": 2
+        },
+        "BonusDescriptions": [
+            "RequiresAttachment: Artemis IV FCS",
+            "PipsIgnored: +2",
+            "WpnAccuracy: +1",
+            "Clustering: 25%",
+            "CostPerShot: 100",
+            "AmmoCount: 230"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 100
+        }
+    },
+    "AmmoID": "Ammunition_SRM_ArtemisIV",
+    "Capacity": 230,
+    "Description": {
+        "Cost": 200000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "SRM Artemis IV [D]",
+        "UIName": "Ammo SRM ARTIV [D]",
+        "Id": "Ammo_AmmunitionBox_ArtemisIV_SRM_DOUBLE",
+        "Name": "SRM Artemis IV Ammo [D]",
+        "Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy . Has 230 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA": "Ignore 2 Evasion",
+    "BonusValueB": "+50% Crit",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

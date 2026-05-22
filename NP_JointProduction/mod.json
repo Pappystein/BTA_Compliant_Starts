@@ -60,6 +60,11 @@
 		{
 			"Type": "AdvancedJSONMerge",
 			"Path": "BTACore_Updates/BonusDescription_Merges/"
+		},
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "StoreAdendumFiles",
+			"ShouldAppendText": true
 		}
 	],
 	"OptionallyDependsOn": [

@@ -1,0 +1,132 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_TDF_AntiSanc2",
+		"Name": "Tech Report: Sanctuary Alliance Incusion",
+		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway.  \r\n\r\n\"Commander, Remember back in early 3061 when we sent the dropship location to the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]]?   Well it turns out all of that stuff was from those people invading them now, The Sanctuary Alliance.  [[DM.BaseDescriptionDefs[TooltipSimGameCharacterYANG],Yang]] has already hollered at me saying he was right to say that the tech we had was Sanctuary gear.  Given we were indespensable in getting their counter Sanctuary tech online for them quickly they have sent us 2 newly refitted mechs.  They are somewhat comperable to the Sanctuary Drone mechs but are 100% Taurian Refits.   I believe they want us to \"Beta Test\" these mechs for them. ",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "TDFAntiSanc",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "TDFAntiSancFIN",
+			"tagSetSourceFile": ""
+		}
+	},
+	"AdditionalRequirements": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Receive package from the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]]",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"TDFAntiSancFIN"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "2",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "System_ShowRewards",
+									"value": "itemCollection_TDF2",
+									"valueConstant": null,
+									"additionalValues": null
+								},
+								{
+									"Type": "System_ShowRewards",
+									"value": "itemCollection_loot_eventTDFAntiSanc",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

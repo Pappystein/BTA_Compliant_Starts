@@ -11,7 +11,7 @@
             "TaurianConcordat",
             "TaurianGuard",
             "PleiadesHussars",
-			"CalderonProtectorate",
+            "CalderonProtectorate",
             "unit_legal"
         ],
         "tagSetSourceFile": ""
@@ -27,7 +27,7 @@
         "UIName": "Toro TR-A-9",
         "Id": "mechdef_toro_TR-A-9",
         "Name": "Toro",
-        "Details": "In the crush of the Sanctuary Alliance invasion, the local remnants of Comstar as well as other nearby powers that would rather not face another 'clan invasion' scenario started sending aid to the Taurians.  Many worn out, and unwanted arms and mechs arrived.  Taurian rear eschelon engineering teams repaired and refitted what they could.  At the same time, local production was upgraded as new technology arrived.  In the case of the Toro, the A-9 variant arrived on the scene with the new Comstar-Taurian Mk1 Drone cockpit and changes to the left arm to improve accuracy.",
+        "Details": "In the crush of the Sanctuary Alliance invasion, the local remnants of Comstar as well as other nearby powers that would rather not face another 'clan invasion' scenario started sending aid to the Taurians.  Many worn out, and unwanted arms and mechs arrived.  Taurian rear eschelon engineering teams repaired and refitted what they could.  At the same time, local production was upgraded as new technology arrived.  In the case of the Toro, the A-9 variant arrived on the scene with the new Comstar-Taurian Mk1 Drone cockpit and changes to the left arm to improve accuracy.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_toro"
     },
     "simGameMechPartCost": 360000,

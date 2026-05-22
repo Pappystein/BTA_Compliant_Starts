@@ -1,55 +1,55 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/a/lbx"
-			}
-		],
-		"Flags": [
-				"not_broken"
-		],
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 60,
-			"StabilityDamagePerAmmo": 15
-		},
-		"BonusDescriptions": [
-				"CostPerShot: 1750",
-				"LBX10Sabot: 10"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 1750
-		}
-	},
-	"AmmoID": "Ammunition_LBX10_SABOT",
-	"Capacity": 10,
-	"Description": {
-		"Cost": 50000,
-		"Rarity": 1,
-		"Purchasable": true,
-		"Manufacturer": "Generic",
-		"Model": "LB 10-X AC APFSDS",
-		"UIName": "Ammo LB 10-X AC APFSDS",
-		"Id": "Ammo_AmmunitionBox_LBX_SABOT_AC10",
-		"Name": "LB X-10 AC APFSDS Ammo",
-		"Details": "Armor Piercing Discarding Sabot round, extra range, and AP damage at the cost of 70% base damage dealt to armor.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Ballistic"
-	},
-	"BonusValueA": "+100m range, AP 4",
-	"BonusValueB": "70% DMG, +125% crits",
-	"ComponentType": "AmmunitionBox",
-	"ComponentSubType": "Ammunition",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 1,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/a/a/lbx"
+            }
+        ],
+        "Flags": [
+            "not_broken"
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 60,
+            "StabilityDamagePerAmmo": 15
+        },
+        "BonusDescriptions": [
+            "CostPerShot: 1750",
+            "LBX10Sabot: 10"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 1750
+        }
+    },
+    "AmmoID": "Ammunition_LBX10_SABOT",
+    "Capacity": 10,
+    "Description": {
+        "Cost": 50000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "LB 10-X AC APFSDS",
+        "UIName": "Ammo LB 10-X AC APFSDS",
+        "Id": "Ammo_AmmunitionBox_LBX_SABOT_AC10",
+        "Name": "LB X-10 AC APFSDS Ammo",
+        "Details": "Armor Piercing Discarding Sabot round, extra range, and AP damage at the cost of 70% base damage dealt to armor.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA": "+100m range, AP 4",
+    "BonusValueB": "70% DMG, +125% crits",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

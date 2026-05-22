@@ -1,10 +1,10 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/a/uac"
-			}
-		],	
+        "Category": [
+            {
+                "CategoryID": "a/a/a/uac"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
@@ -14,14 +14,13 @@
             "ExplosionDamagePerAmmo": 12,
             "StabilityDamagePerAmmo": 6
         },
-		"BonusDescriptions": [
-				"CostPerShot: 115",
-				"UAC2Ammo: 60"
-		],
-		
-		"AmmoCost" : {
-		  "PerUnitCost" : 115
-		}
+        "BonusDescriptions": [
+            "CostPerShot: 115",
+            "UAC2Ammo: 60"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 115
+        }
     },
     "AmmoID": "Ammunition_UAC2",
     "Capacity": 60,
@@ -34,7 +33,7 @@
         "UIName": "Ammo UAC/2 [P-D]",
         "Id": "Ammo_AmmunitionBox_Ultra_AC2_DOUBLE_Protected",
         "Name": "UAC/2 Ammo",
-        "Details": "Protected Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing less damage than an unprotected bin would to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.",
+        "Details": "Protected Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing less damage than an unprotected bin would to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA": "",

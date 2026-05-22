@@ -498,7 +498,7 @@
 					"Full": "For whatever reason this weapon can not take attachments."
 				},
 				{
-					"Bonus": "C3Safe",            
+					"Bonus": "C3Safe",
 					"Short": "C3 Safe",
 					"Long": "Does not affect enemy C3 Networks",
 					"Full": "This ECM suite does not affect enemy C3 Networks"
@@ -508,8 +508,49 @@
 					"Short": "Reduces Max C3 Units by {0}",
 					"Long": "Reduces Max C3 Units by {0}",
 					"Full": "ECM Reduces the max number of C3 units on a network by {0}, potentially crashing the C3 Network."
+				},
+				{
+					"Bonus": "IDF_Hipshooting",
+					"Short": "QuickFire scatters {0} to {1} Meters",
+					"Long": "QuickFire Artillery scatters {0} to {1} Meters with no aim step",
+					"Full": "Indirect fire Artillery with no aimstep, shots scatter {0} to {1} Meters."
+				},
+				{
+					"Bonus": "DirectFire_Shooting",
+					"Short": "Direct Fire Attack mode",
+					"Long": "Artillery weapon has direct fire attack mode",
+					"Full": "Artillery weapon has direct fire attack mode"
+				},
+				{
+					"Bonus": "ModeBasedAmmoSort",
+					"Short": "ModeDetermins Ammo Usable",
+					"Long": "Mode determins Ammo that is usable for that mode",
+					"Full": "Fire mode limits ammunition by type/role for THAT fire mode."
+				},
+				{
+					"Bonus": "HESH",
+					"Short": "High Explosive Squash Head",
+					"Long": "High Explosive Squash Head Warhead",
+					"Full": "High Explosive Squash Head Warhead, Warhead filled with plastic explosives that molds itself to the armor shape before exploding.  Critical hits comes easy with this ammunition."
+				},
+				{
+					"Bonus": "FieldKannoneHE",
+					"Short": "High Explosive warhead for Field Kannone",
+					"Long": "High Explosive warhead for Field Kannone",
+					"Full": "High Explosive warhead with an aera of effect radius of {0}, altitude of {1} and AOE damage of {2}"
+				},
+				{
+					"Bonus": "IsNuke",
+					"Short": "Nuclear Weapon",
+					"Long": "Nuclear Weapon",
+					"Full": "This is a Nuclear Weapon, it will have a massive area effect and heat damage.  Nuclear weapons take two forms, the Larger 1Kt Davy Crockett and the smaller 15ton Elias Nuclear weapon. Yeild is directly related to area of effect!"
+				},
+				{
+					"Bonus": "TandemGeneric",
+					"Short": "Tandem {0}",
+					"Long": "Tandem charge warhead for {0}",
+					"Full": "Tandem charge warhead for {0} which does {1}% damage to armor but penetrates for {2} damage with a critical chance on that penetration of {3}%"
 				}
-				
 			]
 		}
 	]

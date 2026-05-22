@@ -1,88 +1,88 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "w/s/su/superweapon"
-			}
-		],
-		"ComponentExplosion": {
-			"ExplosionDamage": 100,
-			"HeatDamage": 50,
-			"StabilityDamage": 50
-		},
-		"BonusDescriptions": [
-			"WpnAccuracy: +1",
-			"WpnCrits: +15%",
-			"WeaponBoom: 80",
-			"WeaponJAMFlat: 1.25",
-			"NoFireInMelee",
-			"WeaponAttachmentCompatible: Superweapon FCS"
-		]
-	},
-	"weaponCategoryID": "Superweapon",
-	"Type": "Laser",
-	"WeaponSubType": "LargeLaser",
-	"MinRange": 0,
-	"MaxRange": 1000,
-	"RangeSplit": [
-		250,
-		500,
-		750
-	],
-	"AmmoCategory": "NotSet",
-	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 112,
-	"Damage": 100,
-	"OverheatedDamageMultiplier": 1.33,
-	"EvasiveDamageMultiplier": 1.0,
-	"EvasivePipsIgnored": 0,
-	"DamageVariance": 0,
-	"HeatDamage": 0,
-	"AccuracyModifier": -1,
-	"CriticalChanceMultiplier": 1.15,
-	"AOECapable": false,
-	"IndirectFireCapable": false,
-	"RefireModifier": 0,
-	"ShotsWhenFired": 1,
-	"ProjectilesPerShot": 1,
-	"AttackRecoil": 0,
-	"Instability": 0,
-	"FlatJammingChance": 0.0125,
-	"DamageOnJamming": true,
-	"FireTerrainChance": 0,
-	"WeaponEffectID": "WeaponEffect-Weapon_COILS",
-	"Description": {
-		"Cost": 2570000,
-		"Rarity": 6,
-		"Purchasable": true,
-		"Manufacturer": "Pafftek Industries",
-		"Model": "HYPER Laser",
-		"UIName": "HYPER Laser",
-		"Id": "Weapon_Laser_LargeLaser_HYPER",
-		"Name": "HYPER Laser",
-		"Details": "The Hegemony Institute of Strategic Combat’s Hyperlaser project created a massive weapon capable of vast feats of destruction.  However, the heat production was excessive.   Pafftek Industries, having licensed the design as a second source production contract for the Hegemony, took their turn adjusting the basic HISC Hyperlaser into something… a little different.   The Pafftek version can not be used during melee combat, does less damage, generates less heat, and is not as volatile.  In a package that is the same size as the original weapon.  All these detriments, however, have some huge payoffs. When the carrying unit invariably overheats, the Pafftek Version of the Hyperlaser increases its damage output.  When the Cooling jacket is cracked on the emitter complex, this Hyperlaser has a less violent explosion.   However, there is a minimal chance that the Pafftek Hyperlaser will jam.",
-		"Icon": "death-star"
-	},
-	"BonusValueA": "Explodie",
-	"BonusValueB": "",
-	"ComponentType": "Weapon",
-	"ComponentSubType": "Weapon",
-	"PrefabIdentifier": "Laser",
-	"BattleValue": 0,
-	"InventorySize": 6,
-	"Tonnage": 8,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_variant",
-			"component_type_variant3",
-			"range_extreme",
-			"WebbTCSupported-SingleShot",
-			"SuperweaponFCSSupported-Standard"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "w/s/su/superweapon"
+            }
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamage": 100,
+            "HeatDamage": 50,
+            "StabilityDamage": 50
+        },
+        "BonusDescriptions": [
+            "WpnAccuracy: +1",
+            "WpnCrits: +15%",
+            "WeaponBoom: 80",
+            "WeaponJAMFlat: 1.25",
+            "NoFireInMelee",
+            "WeaponAttachmentCompatible: Superweapon FCS"
+        ]
+    },
+    "weaponCategoryID": "Superweapon",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaser",
+    "MinRange": 0,
+    "MaxRange": 1000,
+    "RangeSplit": [
+        250,
+        500,
+        750
+    ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 112,
+    "Damage": 100,
+    "OverheatedDamageMultiplier": 1.33,
+    "EvasiveDamageMultiplier": 1.0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1.15,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0,
+    "FlatJammingChance": 0.0125,
+    "DamageOnJamming": true,
+    "FireTerrainChance": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_COILS",
+    "Description": {
+        "Cost": 2570000,
+        "Rarity": 6,
+        "Purchasable": true,
+        "Manufacturer": "Pafftek Industries",
+        "Model": "HYPER Laser",
+        "UIName": "HYPER Laser",
+        "Id": "Weapon_Laser_LargeLaser_HYPER",
+        "Name": "HYPER Laser",
+        "Details": "The Hegemony Institute of Strategic Combat\u2019s Hyperlaser project created a massive weapon capable of vast feats of destruction.  However, the heat production was excessive.   Pafftek Industries, having licensed the design as a second source production contract for the Hegemony, took their turn adjusting the basic HISC Hyperlaser into something\u2026 a little different.   The Pafftek version can not be used during melee combat, does less damage, generates less heat, and is not as volatile.  In a package that is the same size as the original weapon.  All these detriments, however, have some huge payoffs. When the carrying unit invariably overheats, the Pafftek Version of the Hyperlaser increases its damage output.  When the Cooling jacket is cracked on the emitter complex, this Hyperlaser has a less violent explosion.   However, there is a minimal chance that the Pafftek Hyperlaser will jam.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "death-star"
+    },
+    "BonusValueA": "Explodie",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 6,
+    "Tonnage": 8,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme",
+            "WebbTCSupported-SingleShot",
+            "SuperweaponFCSSupported-Standard"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

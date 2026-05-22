@@ -1,236 +1,237 @@
 {
-	"Description": {
-		"Cost": 5000000,
-		"Rarity": 1,
-		"Purchasable": true,
-		"Manufacturer": "",
-		"Model": "",
-		"UIName": "Wolverine",
-		"Id": "chassisdef_wolverine_WVR-6RF",
-		"Name": "Wolverine",
-		"Details": "This depot level refit of the Wolverine WVR-6R chassis, the so called -6RF subvariant, is a major improvement to the survival and accuracy of the base Wolverine.  However, to fit all this in, beyond utilizing Prototype Ferro Fibrous armor, Prototype CASE and the new Freezer Chillers, the -6RF needed to shed some mass to accept the updated weapon systems.   The mass was saved by reducing the jump-jet capacity from 5 down to 3.   In the end, with the improvements to protection and accuracy, the tradeoff is deemed worthy by most users of this mech.",
-		"Icon": "uixTxrIcon_wolverine"
-	},
-	"MovementCapDefID": "movedef_wolverine_WVR-6R",
-	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_wolverine",
-	"PrefabIdentifier": "chrPrfMech_wolverineBase-001",
-	"PrefabBase": "wolverine",
-	"Tonnage": 55,
-	"InitialTonnage": 5.5,
-	"weightClass": "MEDIUM",
-	"BattleValue": 0,
-	"Heatsinks": 0,
-	"TopSpeed": 150,
-	"TurnRadius": 90,
-	"MaxJumpjets": 30,
-	"Stability": 130,
-	"StabilityDefenses": [
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
-	],
-	"SpotterDistanceMultiplier": 1,
-	"VisibilityMultiplier": 1,
-	"SensorRangeMultiplier": 1,
-	"Signature": 0,
-	"Radius": 5,
-	"PunchesWithLeftArm": false,
-	"MeleeDamage": 65,
-	"MeleeInstability": 30,
-	"MeleeToHitModifier": 0,
-	"DFADamage": 65,
-	"DFAToHitModifier": 0,
-	"DFASelfDamage": 65,
-	"DFAInstability": 30,
-	"Locations": [
-		{
-			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 45,
-			"MaxRearArmor": -1,
-			"InternalStructure": 16
-		},
-		{
-			"Location": "LeftArm",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 90,
-			"MaxRearArmor": -1,
-			"InternalStructure": 45
-		},
-		{
-			"Location": "LeftTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 130,
-			"MaxRearArmor": 65,
-			"InternalStructure": 65
-		},
-		{
-			"Location": "CenterTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 16,
-			"MaxArmor": 180,
-			"MaxRearArmor": 90,
-			"InternalStructure": 90
-		},
-		{
-			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 130,
-			"MaxRearArmor": 65,
-			"InternalStructure": 65
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 90,
-			"MaxRearArmor": -1,
-			"InternalStructure": 45
-		},
-		{
-			"Location": "LeftLeg",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 130,
-			"MaxRearArmor": -1,
-			"InternalStructure": 65
-		},
-		{
-			"Location": "RightLeg",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 130,
-			"MaxRearArmor": -1,
-			"InternalStructure": 65
-		}
-	],
-	"LOSSourcePositions": [
-		{
-			"x": 0,
-			"y": 14,
-			"z": 0
-		},
-		{
-			"x": 3.5,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": -3.5,
-			"y": 13,
-			"z": 0
-		}
-	],
-	"LOSTargetPositions": [
-		{
-			"x": 0,
-			"y": 14,
-			"z": 0
-		},
-		{
-			"x": 3.5,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": -3.5,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": 2.5,
-			"y": 5,
-			"z": 0
-		},
-		{
-			"x": -2.5,
-			"y": 5,
-			"z": 0
-		}
-	],
-	"VariantName": "WVR-6RF",
-	"ChassisTags": {
-		"items": [
-			"MediumMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Skirmisher & Cavalry",
-	"YangsThoughts": "Not quite a Wolverine II WVR-7H, the WVR-6RF refit is much closer to the SLDF Royal mech than its progenitor.",
-	"FixedEquipment": [
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Wolverine",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		}
-	],
-	"CustomParts": {
-		"CustomParts": []
-	}
+    "Description": {
+        "Cost": 5000000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Wolverine",
+        "Id": "chassisdef_wolverine_WVR-6RF",
+        "Name": "Wolverine",
+        "Details": "This depot level refit of the Wolverine WVR-6R chassis, the so called -6RF subvariant, is a major improvement to the survival and accuracy of the base Wolverine.  However, to fit all this in, beyond utilizing Prototype Ferro Fibrous armor, Prototype CASE and the new Freezer Chillers, the -6RF needed to shed some mass to accept the updated weapon systems.   The mass was saved by reducing the jump-jet capacity from 5 down to 3.   In the end, with the improvements to protection and accuracy, the tradeoff is deemed worthy by most users of this mech.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixTxrIcon_wolverine"
+    },
+    "MovementCapDefID": "movedef_wolverine_WVR-6R",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_wolverine",
+    "PrefabIdentifier": "chrPrfMech_wolverineBase-001",
+    "PrefabBase": "wolverine",
+    "Tonnage": 55,
+    "InitialTonnage": 5.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 0,
+    "Heatsinks": 0,
+    "TopSpeed": 150,
+    "TurnRadius": 90,
+    "MaxJumpjets": 30,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 65,
+    "MeleeInstability": 30,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 65,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 65,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 45
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 16,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 45
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "WVR-6RF",
+    "ChassisTags": {
+        "items": [
+            "MediumMech"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher & Cavalry",
+    "YangsThoughts": "Not quite a Wolverine II WVR-7H, the WVR-6RF refit is much closer to the SLDF Royal mech than its progenitor.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Quirk_ImprovedCommunications_Wolverine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_standard",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        }
+    ],
+    "CustomParts": {
+        "CustomParts": []
+    }
 }

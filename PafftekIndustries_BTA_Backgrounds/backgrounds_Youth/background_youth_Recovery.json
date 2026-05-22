@@ -1,0 +1,76 @@
+{
+	"Description": {
+		"Id": "background_youth_Recovery",
+		"Name": "Scrapper",
+		"Details": "You found a crashed and mangled dropship in the Taurian hinterlands loaded with some weird tech.  Yang recognized several mechs in the wreckage but the crew did not have time or resources to make a proper go of salvaging the wreck.  Instead you passed it off to your local Taurian Defense Force contact with a promise of compensation \"on the back end.\"  <b><color=#ff9900>Free Mech if at +50 rep with Taurians</color></b>",
+		"Icon": "uixTxrLogo_backgroundExiled",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Company",
+		"Requirements": null,
+		"AddedTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RemovedTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "MechTechSkill",
+				"value": "1",
+				"set": false,
+				"valueConstant": null
+			}
+		],
+		"Actions": [
+			{
+				"Type": "MechWarrior_Fire",
+				"value": "pilot_bd_Pappy",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
+				"Type": "MechWarrior_AddRoster",
+				"value": "pilot_bd_Pappy",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
+				"Type": "System_ShowRewards",
+				"value": "itemCollection_loot_SpareParts",
+				"valueConstant": null,
+				"additionalValues": null
+			}
+		],
+		"ForceEvents": [
+			{
+				"Scope": "Company",
+				"EventID": "tbone_event_co_BTA_tutorial",
+				"MinDaysWait": 1,
+				"MaxDaysWait": 1,
+				"Probability": 100
+			},
+			{
+				"Scope": "Company",
+				"EventID": "Pafftek_Event_TDF_AntiSanc1",
+				"MinDaysWait": 2,
+				"MaxDaysWait": 2,
+				"Probability": 100
+			}
+		],
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 2,
+	"UIOrdering": 0,
+	"OptionName": "Invasion Scout?",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "You have located a crashed dropship of <b><i>REDACTED</b></i> origin.  It has some pretty unique technology compared to what is regularly available in this sector of space.",
+	"BioDescription": "You have located a crashed dropship of <b><i>REDACTED</b></i> origin.  It has some pretty unique technology compared to what is regularly available in this sector of space.\r\n"
+}

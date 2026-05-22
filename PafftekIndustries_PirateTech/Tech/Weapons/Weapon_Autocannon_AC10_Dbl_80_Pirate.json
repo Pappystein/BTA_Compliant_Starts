@@ -1,95 +1,95 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "w/a/a/ac"
-			}
-		],
-		"BonusDescriptions": [
-				"WpnRecoil: 3",
-				"WpnRecoil: 9 in 2x",
-				"WeaponJAMFlat: 25% in 2x",
-				"VariableBurstCount: 2"
-			]
-	},
-	"Category": "Ballistic",
-	"Type": "Autocannon",
-	"WeaponSubType": "AC10",
-	"MinRange": 0,
-	"MaxRange": 600,
-	"RangeSplit": [
-		150,
-		300,
-		450
-	],
-	"AmmoCategory": "AC10",
-	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 16,
-	"Damage": 55,
-	"OverheatedDamageMultiplier": 0,
-	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 0,
-	"DamageVariance": 0,
-	"HeatDamage": 0,
-	"AccuracyModifier": 0,
-	"CriticalChanceMultiplier": 1,
-	"AOECapable": false,
-	"IndirectFireCapable": false,
-	"RefireModifier": 3,
-	"ShotsWhenFired": 1,
-	"ProjectilesPerShot": 1,
-	"AttackRecoil": 2,
-	"Instability": 35,
-	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
-	"Description": {
-		"Cost": 340000,
-		"Rarity": 0,
-		"Purchasable": true,
-		"Manufacturer": "1D10T Industries",
-		"Model": "Double Trouble Autocannon",
-		"UIName": "DB AC/10",
-		"Id": "Weapon_Autocannon_AC10_Dbl_80_Pirate",
-		"Name": "DB AC/10",
-		"Details": "A Pirate <b>ULTRA</b> or more appropriately a Double Barreled Autocannon 10.  Utilizes Standard AC/10 rounds.  Due to the use of two barrels and a new weirdly setup ammunition feed, each barrel can not have different ammunition types when fired.   Also there is a goodly ammount of recoil felt as the double barrel assembly only has one set of Recoil dampners on it.   More recoil dampners would make the ammo feed even less reliable.   Most pilots use this in Single fire mode until the NEED arrises because of these drawbacks.  However the ability to use specalized ammunition makes the drawbacks worth it for most pilots.",
-		"Icon": "uixSvgIcon_weapon_Ballistic"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "Weapon",
-	"ComponentSubType": "Weapon",
-	"PrefabIdentifier": "AC10",
-	"BattleValue": 0,
-	"InventorySize": 9,
-	"Tonnage": 14,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"ImprovedBallistic": true,
-	"FireDelayMultiplier": 2,
-	"Modes": [
-		{
-			"Id": "x1",
-			"UIName": "x1",
-			"isBaseMode": false,
-			"ShotsWhenFired": 0
-		},
-		{
-			"Id": "x2",
-			"UIName": "x2",
-			"isBaseMode": true,
-			"ShotsWhenFired": 1,
-			"HeatGenerated": 16,
-			"FireDelayMultiplier": 0.3,
-			"FlatJammingChance": 0.25,
-			"RefireModifier": 9
-		}
-	],
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock",
-			"range_long"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "w/a/a/ac"
+            }
+        ],
+        "BonusDescriptions": [
+            "WpnRecoil: 3",
+            "WpnRecoil: 9 in 2x",
+            "WeaponJAMFlat: 25% in 2x",
+            "VariableBurstCount: 2"
+        ]
+    },
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "AC10",
+    "MinRange": 0,
+    "MaxRange": 600,
+    "RangeSplit": [
+        150,
+        300,
+        450
+    ],
+    "AmmoCategory": "AC10",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 16,
+    "Damage": 55,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 3,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 2,
+    "Instability": 35,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+    "Description": {
+        "Cost": 340000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "1D10T Industries",
+        "Model": "Double Trouble Autocannon",
+        "UIName": "DB AC/10",
+        "Id": "Weapon_Autocannon_AC10_Dbl_80_Pirate",
+        "Name": "DB AC/10",
+        "Details": "A Pirate <b>ULTRA</b> or more appropriately a Double Barreled Autocannon 10.  Utilizes Standard AC/10 rounds.  Due to the use of two barrels and a new weirdly setup ammunition feed, each barrel can not have different ammunition types when fired.   Also there is a goodly ammount of recoil felt as the double barrel assembly only has one set of Recoil dampners on it.   More recoil dampners would make the ammo feed even less reliable.   Most pilots use this in Single fire mode until the NEED arrises because of these drawbacks.  However the ability to use specalized ammunition makes the drawbacks worth it for most pilots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "AC10",
+    "BattleValue": 0,
+    "InventorySize": 9,
+    "Tonnage": 14,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "ImprovedBallistic": true,
+    "FireDelayMultiplier": 2,
+    "Modes": [
+        {
+            "Id": "x1",
+            "UIName": "x1",
+            "isBaseMode": false,
+            "ShotsWhenFired": 0
+        },
+        {
+            "Id": "x2",
+            "UIName": "x2",
+            "isBaseMode": true,
+            "ShotsWhenFired": 1,
+            "HeatGenerated": 16,
+            "FireDelayMultiplier": 0.3,
+            "FlatJammingChance": 0.25,
+            "RefireModifier": 9
+        }
+    ],
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

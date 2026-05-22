@@ -1,155 +1,155 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "Exchanger"
-			}
-		],
-		"BonusDescriptions": [
-				"TEHeatgen: -12%",
-				"ADV_Exchanger",
-				"Explosive: 12",
-				"ExplosiveHEAT: 30",
-				"ExplosiveSTAB: 10"
-			]
-	},
-    "ComponentExplosion": {
-      "ExplosionDamage": 12.0,
-      "HeatDamage": 30.0,
-      "StabilityDamage": 10.0
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "Exchanger"
+            }
+        ],
+        "BonusDescriptions": [
+            "TEHeatgen: -12%",
+            "ADV_Exchanger",
+            "Explosive: 12",
+            "ExplosiveHEAT: 30",
+            "ExplosiveSTAB: 10"
+        ]
     },
-	"Description": {
-		"Cost": 900000,
-		"Rarity": 5,
-		"Purchasable": true,
-		"Manufacturer": "Generic",
-		"Model": "Thermal Exchanger IV",
-		"UIName": "Exchanger IV",
-		"Id": "Gear_HeatSink_Generic_Thermal-Exchanger-IV",
-		"Name": "Thermal Exchanger IV",
-		"Details": "Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.",
-		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
-	},
-	"BonusValueA": "-12% Weapon Heat",
-	"BonusValueB": "-4 Heat",
-	"ComponentType": "HeatSink",
-	"ComponentSubType": "Heatsink",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 3,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [
-		{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": -1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Heat_GenReduction-T2",
-				"Name": "HEAT GENERATION DECREASED",
-				"Details": "Heat generation reduced by 10%.",
-				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "HeatGenerated",
-				"operation": "Float_Multiply",
-				"modValue": "0.88",
-				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": -1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Exchanger+_Venting",
-				"Name": " Exchanger IV",
-				"Details": "Exchanger IV Heat Bank system venting 6 heat",
-				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "EndMoveHeat",
-				"operation": "Int_Add",
-				"modValue": "-4",
-				"modType": "System.Int32",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
-		}
-	],
-	"ComponentTags": {
-		"items": [
-			"component_type_variant",
-			"component_type_variant3"
-		],
-		"tagSetSourceFile": ""
-	}
+    "ComponentExplosion": {
+        "ExplosionDamage": 12.0,
+        "HeatDamage": 30.0,
+        "StabilityDamage": 10.0
+    },
+    "Description": {
+        "Cost": 900000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "Thermal Exchanger IV",
+        "UIName": "Exchanger IV",
+        "Id": "Gear_HeatSink_Generic_Thermal-Exchanger-IV",
+        "Name": "Thermal Exchanger IV",
+        "Details": "Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+    },
+    "BonusValueA": "-12% Weapon Heat",
+    "BonusValueB": "-4 Heat",
+    "ComponentType": "HeatSink",
+    "ComponentSubType": "Heatsink",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 3,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Heat_GenReduction-T2",
+                "Name": "HEAT GENERATION DECREASED",
+                "Details": "Heat generation reduced by 10%.",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.88",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Exchanger+_Venting",
+                "Name": " Exchanger IV",
+                "Details": "Exchanger IV Heat Bank system venting 6 heat",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "-4",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant3"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

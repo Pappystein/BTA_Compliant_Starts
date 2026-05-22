@@ -4,18 +4,18 @@
             {
                 "CategoryID": "Airdrop"
             },
-			{
+            {
                 "CategoryID": "BADeployment"
             }
         ],
-		"DecoratorComponent":[
-			{
-				"Text":"BA",               
-				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
-			}
-		],
+        "DecoratorComponent": [
+            {
+                "Text": "BA",
+                "Color": "#00a2c9",
+                "Icon": "battle-amor-suit",
+                "Importance": 1
+            }
+        ],
         "BonusDescriptions": [
             "BASquad: Achilles",
             "RequiresOmni",
@@ -37,7 +37,7 @@
         "UIName": "Battle Armor Squad x4 (Achilles)",
         "Id": "Gear_Airdrop_Beacon_BA_Sirocco",
         "Name": "Battle Armor Squad x4 (Achilles)",
-        "Details": "This piece of equipment represents a squad of Achilles Battle Armor that have been deployed onto this unit. They can be summoned mid-mission via the ability this piece of equipment grants. This equipment provides only one squad and the type of squad cannot be changed.\r\n\r\n <b><color=#099ff2>ONLY USABLE ONCE PER MISSION, HAS A VERY SHORT RANGE AND CONSUMES YOUR TURN TO DEPLOY.</color></b>",
+        "Details": "This piece of equipment represents a squad of Achilles Battle Armor that have been deployed onto this unit. They can be summoned mid-mission via the ability this piece of equipment grants. This equipment provides only one squad and the type of squad cannot be changed.\r\n\r\n <b><color=#099ff2>ONLY USABLE ONCE PER MISSION, HAS A VERY SHORT RANGE AND CONSUMES YOUR TURN TO DEPLOY.</color></b>\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "battle-amor-suit"
     },
     "BonusValueA": "",
@@ -73,7 +73,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-			"BADeployment"
+            "BADeployment"
         ],
         "tagSetSourceFile": ""
     }

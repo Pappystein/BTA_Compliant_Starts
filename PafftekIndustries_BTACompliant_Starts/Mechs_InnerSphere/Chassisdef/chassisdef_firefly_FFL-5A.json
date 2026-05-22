@@ -8,7 +8,7 @@
         "UIName": "Firefly",
         "Id": "chassisdef_firefly_FFL-5A",
         "Name": "Firefly",
-        "Details": "Wolf's Dragoons engineers working in conjunction with both Blackwell Industries and Pafftek Industries, developed an enhanced maneuverability Urban recon variant of the Firefly.  The Firefly FFL-5A.  The -5A embraces new technology including the partial wing feature and DS Aero's new Product Improved Laser AMS.",
+        "Details": "Wolf's Dragoons engineers working in conjunction with both Blackwell Industries and Pafftek Industries, developed an enhanced maneuverability Urban recon variant of the Firefly.  The Firefly FFL-5A.  The -5A embraces new technology including the partial wing feature and DS Aero's new Product Improved Laser AMS.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_firefly"
     },
     "MovementCapDefID": "movedef_hussar",
@@ -204,55 +204,55 @@
     "VariantName": "FFL-5A",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.80-0.80-0.80",
-			"LightMech",
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft"			
-		],
+            "mr-resize-0.80-0.80-0.80",
+            "LightMech",
+            "ArmLimitUpperRight",
+            "ArmLimitUpperLeft"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Urban Scout",
     "YangsThoughts": "I think this mech is too slow to use anywhere other than in an urban enviroment commander.",
-	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_NimbleJumper_Firefly",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-		  "MountedLocation": "RightTorso",
-		  "ComponentDefID": "Gear_PartialWing_IS",
-		  "SimGameUID": null,
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "GUID": null,
-		  "DamageLevel": "Functional",
-		  "prefabName": null,
-		  "hasPrefabName": false
-		},
-		{
-		  "MountedLocation": "LeftTorso",
-		  "ComponentDefID": "Gear_PartialWing_LTslot",
-		  "SimGameUID": null,
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "GUID": null,
-		  "DamageLevel": "Functional",
-		  "prefabName": null,
-		  "hasPrefabName": false
-		}
-	]
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_endosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Quirk_NimbleJumper_Firefly",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_PartialWing_IS",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_PartialWing_LTslot",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
 }

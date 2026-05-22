@@ -1,61 +1,61 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/m/t/thunderbolt"
-			}
-		],
-		"Flags": {
-			"flags": [
-				"not_broken"
-			]
-		},
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 75,
-			"StabilityDamagePerAmmo": 18
-		},
-		"BonusDescriptions": [
-				"AreaOfEffect: 45",
-				"AreaOfEffectDmg: 30",
-				"AreaOfEffectHeatDmg: 6",
-				"AreaOfEffectSTABDmg: 6",	
-				"CostPerShot: 2000",
-				"TBOLT15Ammo: 5"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 2000
-		}
-	},
-	"AmmoID": "Ammunition_TBOLT15_HEI",
-	"Capacity": 5,
-	"Description": {
-		"Cost": 160000,
-		"Rarity": 1,
-		"Purchasable": true,
-		"Manufacturer": "Generic",
-		"Model": "Thunderbolt HE-I",
-		"UIName": "Ammo T-Bolt15 HE-I",
-		"Id": "Ammo_AmmunitionBox_Thunderbolt_TB15_HEI",
-		"Name": "Thunderbolt 15 HE Incendary Ammo",
-		"Details": "High Explosive Incendiary, Does little heat damage, but applies the incendiary effect.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.",
-		"Icon": "missile-pod-ammo"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "AmmunitionBox",
-	"ComponentSubType": "Ammunition",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 1,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/m/t/thunderbolt"
+            }
+        ],
+        "Flags": {
+            "flags": [
+                "not_broken"
+            ]
+        },
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 75,
+            "StabilityDamagePerAmmo": 18
+        },
+        "BonusDescriptions": [
+            "AreaOfEffect: 45",
+            "AreaOfEffectDmg: 30",
+            "AreaOfEffectHeatDmg: 6",
+            "AreaOfEffectSTABDmg: 6",
+            "CostPerShot: 2000",
+            "TBOLT15Ammo: 5"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 2000
+        }
+    },
+    "AmmoID": "Ammunition_TBOLT15_HEI",
+    "Capacity": 5,
+    "Description": {
+        "Cost": 160000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "Thunderbolt HE-I",
+        "UIName": "Ammo T-Bolt15 HE-I",
+        "Id": "Ammo_AmmunitionBox_Thunderbolt_TB15_HEI",
+        "Name": "Thunderbolt 15 HE Incendary Ammo",
+        "Details": "High Explosive Incendiary, Does little heat damage, but applies the incendiary effect.  Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Has 5 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "missile-pod-ammo"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

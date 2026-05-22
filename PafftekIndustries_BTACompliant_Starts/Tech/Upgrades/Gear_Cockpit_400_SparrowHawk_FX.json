@@ -1,8 +1,12 @@
 {
     "Custom": {
         "Category": [
-            {"CategoryID": "Cockpit"},
-			{"CategoryID": "Quirk"}
+            {
+                "CategoryID": "Cockpit"
+            },
+            {
+                "CategoryID": "Quirk"
+            }
         ],
         "WorkOrderCosts": {
             "Install": {
@@ -10,200 +14,199 @@
                 "CBillCost": "[[Chassis.Tonnage]] * 1.2"
             }
         },
-        "BonusDescriptions":  [
-				"Health: +2",
-				"HeadStrenghtened: +15, +15",
-				"PilotRecovery",
-				"Resolve: 3",
-				"SparrowHawk: 1",
-                "IsCockpit"
-            ],
-		"Flags":  [
-				"not_broken",
-				"no_salvage"
-			],
-		"Lootable": "Gear_Cockpit_400_SparrowHawk"
+        "BonusDescriptions": [
+            "Health: +2",
+            "HeadStrenghtened: +15, +15",
+            "PilotRecovery",
+            "Resolve: 3",
+            "SparrowHawk: 1",
+            "IsCockpit"
+        ],
+        "Flags": [
+            "not_broken",
+            "no_salvage"
+        ],
+        "Lootable": "Gear_Cockpit_400_SparrowHawk"
     },
-	"StatName": null,
-	"RelativeModifier": 0,
-	"AbsoluteModifier": 0,
-	"Description": {
-		"Cost": 7800000,
-		"Rarity": 5,
-		"Purchasable": false,
-		"Manufacturer": "Pafftek Industries",
-		"Model": "SparrowHawk-400-FIXED",
-		"UIName": "CEU SparrowHawk 400FX",
-		"Id": "Gear_Cockpit_400_SparrowHawk_FX",
-		"Name": "SparrowHawk-400 Cockpit Enhanced Electronics",
-		"Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. The CEU-400 SparrowHawk is an enlarged alternative to the Command Console.  Combining features of the CEU-300 Sparrow with the Command Console.  The CEU-400 masses as much as a Command Console but is physically bigger.   The extra size is offset by the CEU-400 being slightly better than a Command Console in modern units.",
-		"Icon": "uixSvgIcon_equipment_Cockpit"
-	},
-	"BonusValueA": "CMD Cockpit",
-	"BonusValueB": "",
-	"ComponentType": "Upgrade",
-	"ComponentSubType": "NotSet",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 1,
-	"AllowedLocations": "Head",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [
-	
-	{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": -1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": true,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Initiative_Add-T2",
-				"Name": "INITIATIVE INCREASED",
-				"Details": "Provides + 1 Initiative.",
-				"Icon": "uixSvgIcon_equipment_Cockpit"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "BaseInitiative",
-				"operation": "Int_Add",
-				"modValue": "-1",
-				"modType": "System.Int32",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": -1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "AllLanceMates",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": true,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Initiative_Add-LanceT2",
-				"Name": "INITIATIVE INCREASED",
-				"Details": "Provides + 1 Initiative.",
-				"Icon": "uixSvgIcon_equipment_Cockpit"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "BaseInitiative",
-				"operation": "Int_Add",
-				"modValue": "-1",
-				"modType": "System.Int32",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
-		},
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 7800000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": "Pafftek Industries",
+        "Model": "SparrowHawk-400-FIXED",
+        "UIName": "CEU SparrowHawk 400FX",
+        "Id": "Gear_Cockpit_400_SparrowHawk_FX",
+        "Name": "SparrowHawk-400 Cockpit Enhanced Electronics",
+        "Details": "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. The CEU-400 SparrowHawk is an enlarged alternative to the Command Console.  Combining features of the CEU-300 Sparrow with the Command Console.  The CEU-400 masses as much as a Command Console but is physically bigger.   The extra size is offset by the CEU-400 being slightly better than a Command Console in modern units.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+    },
+    "BonusValueA": "CMD Cockpit",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
         {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
             },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Pilot_HealthAdd-T2",
-                "Name" : "MAX INJURIES INCREASED",
-                "Details" : "Prevents Injuries against a MechWarrior.",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Initiative_Add-T2",
+                "Name": "INITIATIVE INCREASED",
+                "Details": "Provides + 1 Initiative.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
             },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "BonusHealth",
-                "operation" : "Int_Add",
-                "modValue" : "2",
-                "modType" : "System.Int32",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Pilot",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "BaseInitiative",
+                "operation": "Int_Add",
+                "modValue": "-1",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
             },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "AllLanceMates",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Initiative_Add-LanceT2",
+                "Name": "INITIATIVE INCREASED",
+                "Details": "Provides + 1 Initiative.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "BaseInitiative",
+                "operation": "Int_Add",
+                "modValue": "-1",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Pilot_HealthAdd-T2",
+                "Name": "MAX INJURIES INCREASED",
+                "Details": "Prevents Injuries against a MechWarrior.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "BonusHealth",
+                "operation": "Int_Add",
+                "modValue": "2",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "Pilot",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
         },
         {
             "durationData": {
@@ -231,7 +234,7 @@
                 "modType": "System.Int32"
             }
         },
-		{
+        {
             "durationData": {
                 "duration": -1,
                 "stackLimit": -1
@@ -244,20 +247,20 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id" : "Status-ArmorCowlStructure-{location}",
+                "Id": "Status-ArmorCowlStructure-{location}",
                 "Name": "Armoured Cowl",
                 "Details": "Improved Head Structure",
                 "Icon": "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature": "Buff",
             "statisticData": {
-                "statName" : "{location}.Structure",
-                "operation" : "Float_Add",
-                "modValue" : "15",
-                "modType" : "System.Single"
+                "statName": "{location}.Structure",
+                "operation": "Float_Add",
+                "modValue": "15",
+                "modType": "System.Single"
             }
         },
-		{
+        {
             "durationData": {
                 "duration": -1,
                 "stackLimit": -1
@@ -270,17 +273,17 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id" : "Status-ArmorCowlArmor-{location}",
+                "Id": "Status-ArmorCowlArmor-{location}",
                 "Name": "Armoured Cowl",
                 "Details": "Improved Head Armor",
                 "Icon": "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature": "Buff",
             "statisticData": {
-                "statName" : "{location}.Armor",
-                "operation" : "Float_Add",
-                "modValue" : "15",
-                "modType" : "System.Single"
+                "statName": "{location}.Armor",
+                "operation": "Float_Add",
+                "modValue": "15",
+                "modType": "System.Single"
             }
         },
         {
@@ -306,107 +309,102 @@
             },
             "nature": "Buff"
         },
-		{
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : 1
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
             },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "AllLanceMates",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "AllLanceMates",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-ACM-ToHit",
-                "Name" : "ADVANCED COMMAND MODULE",
-                "Details" : "Attacks from units in this lance weapon have their hit improved by [AMT].",
-                "Icon" : "uixSvgIcon_special_Equipment"
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-ACM-ToHit",
+                "Name": "ADVANCED COMMAND MODULE",
+                "Details": "Attacks from units in this lance weapon have their hit improved by [AMT].",
+                "Icon": "uixSvgIcon_special_Equipment"
             },
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "-1.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
             },
-            "nature" : "Buff"
+            "nature": "Buff"
         },
         {
-            "durationData" :
-            {
-                "duration" : -1,
-                "stackLimit" : 1
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
             },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
-            "effectType" : "StatisticEffect",
-            "Description" :
-            {
-                "Id" : "StatusEffect-LCM-CalledShotBonus",
-                "Name" : "LANCE COMMAND MODULE",
-                "Details" : "Called Shots executed by this unit are more reliable.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-LCM-CalledShotBonus",
+                "Name": "LANCE COMMAND MODULE",
+                "Details": "Called Shots executed by this unit are more reliable.",
+                "Icon": "UixSvgIcon_specialEquip_System"
             },
-            "statisticData" : 
-            {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "CalledShotBonusMultiplier",
-                "operation" : "Float_Multiply",
-                "modValue" : "2.4",
-                "modType" : "System.Single"
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "CalledShotBonusMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "2.4",
+                "modType": "System.Single"
             },
-            "nature" : "Buff"
+            "nature": "Buff"
         },
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Status-SARRecoveryChance",
-				"Name": "Armoured Cowl",
-				"Details": "Improved Head Armor",
-				"Icon": "uixSvgIcon_equipment_ActuatorArm"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "SAR_RecoveryChanceMult",
-				"operation": "Float_Multiply",
-				"modValue": "2.0",
-				"modType": "System.Single"
-			}
-		}
-
-
-	],
-	"ComponentTags": {
-		"items": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Status-SARRecoveryChance",
+                "Name": "Armoured Cowl",
+                "Details": "Improved Head Armor",
+                "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "SAR_RecoveryChanceMult",
+                "operation": "Float_Multiply",
+                "modValue": "2.0",
+                "modType": "System.Single"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
             "component_type_stock",
-			"lv-probe_m4",
-			"lv-vismode-zoom_m0_c-1_s7",
-			"lv-vismode-heat_m1_d70"
-		],
-		"tagSetSourceFile": ""
-	}
+            "lv-probe_m4",
+            "lv-vismode-zoom_m0_c-1_s7",
+            "lv-vismode-heat_m1_d70"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

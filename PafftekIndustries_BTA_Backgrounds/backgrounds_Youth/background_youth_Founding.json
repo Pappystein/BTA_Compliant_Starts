@@ -1,0 +1,83 @@
+{
+	"Description": {
+		"Id": "background_youth_Founding",
+		"Name": "Founding",
+		"Details": "You were in the thickest of fighting during the combined Operation Birddog and Bulldog to forcably eject Clan Smoke Jaguar from the Inner Sphere as part of the Hell-Wolves independant mercenary company.  The war was over and the Hell Wolves disbanded to form several new companies including <b>Pafftek Industries</b>.  You however decided to be your own Mercenary company.  Taking the knowledge of mobility and armor to your future fights. <b><color=#ff9900>Free Mech SOON<sup>(tm)</sup></color></b>",
+		"Icon": "UrbanLegend made VF477 Hell Wolves Icon",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Company",
+		"Requirements": null,
+		"AddedTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RemovedTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "MechTechSkill",
+				"value": "1",
+				"set": false,
+				"valueConstant": null
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Reputation.MercenaryReviewBoard",
+				"value": "45",
+				"set": true,
+				"valueConstant": null
+			}			
+		],
+		"Actions": [
+			{
+				"Type": "MechWarrior_Fire",
+				"value": "pilot_bd_Pappy",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
+				"Type": "MechWarrior_AddRoster",
+				"value": "pilot_bd_Pappy",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
+				"Type": "System_ShowRewards",
+				"value": "itemCollection_loot_FoundingStart",
+				"valueConstant": null,
+				"additionalValues": null
+			}
+		],
+		"ForceEvents": [
+			{
+				"Scope": "Company",
+				"EventID": "tbone_event_co_BTA_tutorial",
+				"MinDaysWait": 1,
+				"MaxDaysWait": 1,
+				"Probability": 100
+			},
+			{
+				"Scope": "Company",
+				"EventID": "Pafftek_Event_Pafftek_Industries",
+				"MinDaysWait": 45,
+				"MaxDaysWait": 50,
+				"Probability": 100
+			}
+		],
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 2,
+	"UIOrdering": 0,
+	"OptionName": "Bulldog Survivor",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "You survived operation Birddog and Bulldog with the fame and reputation that gained you.\r\n",
+	"BioDescription": "As part of your work with the now mostly defunct <b><i>HELL WOLVES</b></i> you are better prepaired for the future.\r\n"
+}

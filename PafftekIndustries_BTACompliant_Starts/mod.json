@@ -200,6 +200,14 @@
 			"Path": "LAM/LAM_Mech"
 		},
 		{
+			"Type": "VehicleChassisDef",
+			"Path": "LAM/LAM_VehicleChassis"
+		},
+		{
+			"Type": "VehicleDef",
+			"Path": "LAM/LAM_VehicleDef"
+		},
+		{
 			"Type": "UpgradeDef",
 			"Path": "LAM/LAM_Features"
 		},

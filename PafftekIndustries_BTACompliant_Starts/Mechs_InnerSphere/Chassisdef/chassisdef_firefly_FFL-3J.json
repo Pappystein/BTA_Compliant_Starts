@@ -8,7 +8,7 @@
         "UIName": "Firefly",
         "Id": "chassisdef_firefly_FFL-3J",
         "Name": "Firefly",
-        "Details": "An urban reconnaissance variant of the -3A, the -3J was reacently put into production by Pafftek Industries based upon notes and drawings recovered from a memory core.  This mech works best in an intensly urban envoriment.",
+        "Details": "An urban reconnaissance variant of the -3A, the -3J was reacently put into production by Pafftek Industries based upon notes and drawings recovered from a memory core.  This mech works best in an intensly urban envoriment.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_firefly"
     },
     "MovementCapDefID": "movedef_hussar",
@@ -216,33 +216,33 @@
     "VariantName": "FFL-3J",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.80-0.80-0.80",
-			"LightMech",
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft"			
-		],
+            "mr-resize-0.80-0.80-0.80",
+            "LightMech",
+            "ArmLimitUpperRight",
+            "ArmLimitUpperLeft"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Urban Scout",
     "YangsThoughts": "I think this mech is too slow to use anywhere other than in an urban enviroment commander.",
-	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_NimbleJumper_Firefly",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		}
-	]
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_clanendosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Quirk_NimbleJumper_Firefly",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        }
+    ]
 }

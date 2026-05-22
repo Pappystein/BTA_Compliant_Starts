@@ -15,7 +15,7 @@
         "UIName": "Blood Splatter",
         "Id": "chassisdef_juggernaut_JG-BS",
         "Name": "Blood Splatter",
-        "Details": "Sister mech to the Organ Grinder, Blood Splatter is another Juggernaut monster centered on 4x Haywire lasers and 2 Medium Cannons.   However the differences are in the removal of all the suplimental armor as well as TAG in favor of Rotary ER Small Lasers and cannon Ammo Feeds.   The ability to refire the cannons and the Rotary Small Lasers more than make up for the missing 5th Haywire laser and the reduced accuracy of the cannons.",
+        "Details": "Sister mech to the Organ Grinder, Blood Splatter is another Juggernaut monster centered on 4x Haywire lasers and 2 Medium Cannons.   However the differences are in the removal of all the suplimental armor as well as TAG in favor of Rotary ER Small Lasers and cannon Ammo Feeds.   The ability to refire the cannons and the Rotary Small Lasers more than make up for the missing 5th Haywire laser and the reduced accuracy of the cannons.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_juggernaut"
     },
     "MovementCapDefID": "movedef_juggernaut_JG-R9T2",

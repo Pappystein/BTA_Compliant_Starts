@@ -1,0 +1,74 @@
+{
+	"name": "EC Liao Invades",
+	"requirementList": [
+		{
+			"Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+			"ExclusionTags": {
+				"items": [
+					"planet_other_empty"
+				],
+				"tagSetSourceFile": ""
+			}
+		}
+	],
+	"weight": 1,
+	"spawnLocation": "NearbyEnemy",
+	"employer": [
+		"Liao"
+	],
+	"target": [
+		"SystemOwner"
+	],
+	"hireContract": "wiic_Invasion_Any",
+	"availableFor": [
+		20,
+		35
+	],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"",
+		"Begin",
+		"InvasionBegins",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"Begin": {
+			"workOrder": "The Capellian Confederation brought us here!  Lets pop those forces and make certain {TEAM_TAR.FactionDef.Demonym} feels the pain!",
+			"contractChance": 1,
+			"allowedContractTypes": [
+				15,
+				10,
+				7,
+				6,
+				9,
+				3,
+				50,
+				52,
+				7003,
+				17003,
+				17009
+			],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "Commander, our duty on this mission is to come in with the flag of {TEAM_EMP.FactionDef.Name}, Plant it on some mechs or tanks we have destroyed and leave."
+		},
+		"InvasionBegins": {
+			"popupTitle": "The Invasion Begins",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun the full-scale invasion of this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.  But wait until we get paid to decided if you want to still support them.",
+			"triggerEvent": [
+				"bd_event_TriggerInvasion"
+			]
+		},
+		"PaymentDelivered": {
+			"popupTitle": "The Base Commander Sends Their Thanks",
+			"popupMessage": "Our payment was just delivered, Commander.  {TEAM_EMP.FactionDef.ShortName} is overall happy with our performance. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
+			"rewardByDifficulty": {
+				"2": "PFT_Cashx1",
+				"5": "PFT_Cashx2",
+				"8": "PFT_Cashx3"
+			}
+		}
+	}
+}

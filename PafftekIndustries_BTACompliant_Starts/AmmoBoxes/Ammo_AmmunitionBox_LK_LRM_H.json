@@ -1,56 +1,58 @@
 {
-	"Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/m/l/lrm" }
-		],
-		"Flags": {
-			"flags": [
-				"not_broken"
-			]
-		},
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 4,
-			"StabilityDamagePerAmmo": 1
-		},
-		"BonusDescriptions": [
-				"LKMissile",
-				"CostPerShot: 150",
-				"LRMAmmo: 60"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 150
-		}
-	},
-	"AmmoID": "Ammunition_LRM_LK",
-	"Capacity": 60,
-	"Description": {
-		"Cost": 160000,
-		"Rarity": 1,
-		"Purchasable": true,
-		"Manufacturer": "Generic",
-		"Model": "LRM",
-		"UIName": "Ammo LRM Listen Kill[H]",
-		"Id": "Ammo_AmmunitionBox_LK_LRM_H",
-		"Name": "LRM Ammo",
-		"Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Missile"
-	},
-	"BonusValueA": "+1 Accuracy",
-	"BonusValueB": "1 EVA ignored",
-	"ComponentType": "AmmunitionBox",
-	"ComponentSubType": "Ammunition",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 0.5,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/m/l/lrm"
+            }
+        ],
+        "Flags": {
+            "flags": [
+                "not_broken"
+            ]
+        },
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 4,
+            "StabilityDamagePerAmmo": 1
+        },
+        "BonusDescriptions": [
+            "LKMissile",
+            "CostPerShot: 150",
+            "LRMAmmo: 60"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 150
+        }
+    },
+    "AmmoID": "Ammunition_LRM_LK",
+    "Capacity": 60,
+    "Description": {
+        "Cost": 160000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "LRM",
+        "UIName": "Ammo LRM Listen Kill[H]",
+        "Id": "Ammo_AmmunitionBox_LK_LRM_H",
+        "Name": "LRM Ammo",
+        "Details": "Listen Kill Missiles gain extra accuracy but cost signficantly more than standard missile rounds of the same type.  Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA": "+1 Accuracy",
+    "BonusValueB": "1 EVA ignored",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

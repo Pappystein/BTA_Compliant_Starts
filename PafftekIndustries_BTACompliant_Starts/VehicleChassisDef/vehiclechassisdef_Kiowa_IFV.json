@@ -32,7 +32,7 @@
         "UIName": "Kiowa IFV",
         "Id": "vehiclechassisdef_Kiowa_IFV",
         "Name": "Kiowa IFV",
-        "Details": "Resembling an enlarged Warrior Attack VTOL, the Kiowa Infantry Fighting VTOL is a combination troop transport and light combat VTOL all in one.  Armed with 2 Rocketpods and a Light Autocannon Class 2, the Kiowa IFV has limited combat staying power but it is more than enough for the transported Battle Armor squad.",
+        "Details": "Resembling an enlarged Warrior Attack VTOL, the Kiowa Infantry Fighting VTOL is a combination troop transport and light combat VTOL all in one.  Armed with 2 Rocketpods and a Light Autocannon Class 2, the Kiowa IFV has limited combat staying power but it is more than enough for the transported Battle Armor squad.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "YellowJacket"
     },
     "ChassisTags": {

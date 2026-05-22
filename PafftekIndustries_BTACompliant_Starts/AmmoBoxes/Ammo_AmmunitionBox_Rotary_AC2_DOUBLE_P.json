@@ -1,10 +1,10 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/a/rac"
-			}
-		],	
+        "Category": [
+            {
+                "CategoryID": "a/a/a/rac"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
@@ -14,13 +14,13 @@
             "ExplosionDamagePerAmmo": 6,
             "StabilityDamagePerAmmo": 1
         },
-		"BonusDescriptions": [
-				"CostPerShot: 60",
-				"RAC2Ammo: 60"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 60
-		}
+        "BonusDescriptions": [
+            "CostPerShot: 60",
+            "RAC2Ammo: 60"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 60
+        }
     },
     "AmmoID": "Ammunition_RAC2",
     "Capacity": 60,
@@ -33,7 +33,7 @@
         "UIName": "Ammo RAC/2 [P-D]",
         "Id": "Ammo_AmmunitionBox_Rotary_AC2_DOUBLE_P",
         "Name": "RAC/2 Ammo",
-        "Details": "Protected Ammo Bins help to reduce the damage from exploding ammunition by having built in explosive baffles.  While this reduces the capacity of the magazine, it also greatly reduces the force of an ammo explosion.   CASE is still your best protection however! Has 60 shots.",
+        "Details": "Protected Ammo Bins help to reduce the damage from exploding ammunition by having built in explosive baffles.  While this reduces the capacity of the magazine, it also greatly reduces the force of an ammo explosion.   CASE is still your best protection however! Has 60 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA": "",

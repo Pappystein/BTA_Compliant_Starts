@@ -108,14 +108,14 @@
 			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found a convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here!  This mission is completely optional Commander.  No penalty if we can not muster forces for it."
 		},
 		"StartInvasion": {
-			"popupTitle": "Mission Complete",
+			"popupTitle": "Invasion Commences",
 			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun their nearby invasion, Commander {COMMANDER.LastName}.  The invasion may even be several jumps away commander but we have done our job per the contract!",
 			"triggerEvent": [
 				"PFT_event_RemoteInvasion"
 			]
 		},
 		"PaymentDelivered": {
-			"popupTitle": "The Base Commander Sends Their Thanks",
+			"popupTitle": "Mission",
 			"popupMessage": "Our payment was just delivered, Commander.  {TEAM_EMP.FactionDef.ShortName} is overall happy with our performance. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
 			"rewardByDifficulty": {
 				"2": "BTA_standard_Minor_Loot_EC",

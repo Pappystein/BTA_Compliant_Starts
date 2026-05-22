@@ -102,7 +102,7 @@
         "UIName": "Catapult CPLT-D2B",
         "Id": "mechdef_catapult_CPLT-D2B",
         "Name": "Catapult",
-        "Details": "The Catapult CPLT-D2B, concurrently built by RAD Group and Pafftek Industries, is a \"Helm Memory Core\" update to the Catapult -D1B.  Or, to put it more plainly, given how new the entire Catapult D series is, the Catapult -D2 is faster, better, and more expensive than the Catapult -D1.  Like the -D1B before it, the -D2B has an Infantry compartment in the CT, to allow Battlearmor to ride inside the protection of an armored shell.  Also like the -D1B, this unit has no firing ports as they just weaken the armor, add mass and reduce the survivablity of the battle armor inside.   Armmed with twin Artemis IV enabled SRM10s, as well as two Twin Magshot mounts, the -2DB has weapons set up for attacking weak armor points still.",
+        "Details": "The Catapult CPLT-D2B, concurrently built by RAD Group and Pafftek Industries, is a \"Helm Memory Core\" update to the Catapult -D1B.  Or, to put it more plainly, given how new the entire Catapult D series is, the Catapult -D2 is faster, better, and more expensive than the Catapult -D1.  Like the -D1B before it, the -D2B has an Infantry compartment in the CT, to allow Battlearmor to ride inside the protection of an armored shell.  Also like the -D1B, this unit has no firing ports as they just weaken the armor, add mass and reduce the survivablity of the battle armor inside.   Armmed with twin Artemis IV enabled SRM10s, as well as two Twin Magshot mounts, the -2DB has weapons set up for attacking weak armor points still.\n\n <b><color=#e51717>N0MERCY and Pappystein Sub-mod</color></b>",
         "Icon": "uixTxrIcon_catapult"
     },
     "simGameMechPartCost": 740000,
@@ -432,8 +432,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"LocalGUID":"Target_LA_SRM"
-			
+            "LocalGUID": "Target_LA_SRM"
         },
         {
             "MountedLocation": "RightArm",
@@ -445,32 +444,32 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false,
-			"LocalGUID":"Target_RA_SRM"
+            "LocalGUID": "Target_RA_SRM"
         },
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Attachment_SRMFCS",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID":"Target_RA_SRM"
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Attachment_SRMFCS",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID":"Target_LA_SRM"
-		},
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Attachment_SRMFCS",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "TargetComponentGUID": "Target_RA_SRM"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_Attachment_SRMFCS",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "TargetComponentGUID": "Target_LA_SRM"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",

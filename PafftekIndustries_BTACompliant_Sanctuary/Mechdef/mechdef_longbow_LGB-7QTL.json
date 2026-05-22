@@ -11,7 +11,7 @@
             "TaurianConcordat",
             "TaurianGuard",
             "PleiadesHussars",
-			"CalderonProtectorate",
+            "CalderonProtectorate",
             "unit_legal"
         ],
         "tagSetSourceFile": ""
@@ -34,7 +34,7 @@
         "UIName": "Longbow LGB-7QTL",
         "Id": "mechdef_longbow_LGB-7QTL",
         "Name": "Longbow",
-        "Details": "The Longbow 7Q has been a mainstay of the Taurian Defense Force's fire support lances for many generations now.  It was only simiple logic that would see them updated to keep up wih the current post Sanctuary invasion battlefield.  ",
+        "Details": "The Longbow 7Q has been a mainstay of the Taurian Defense Force's fire support lances for many generations now.  It was only simiple logic that would see them updated to keep up wih the current post Sanctuary invasion battlefield.  \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_longbow"
     },
     "simGameMechPartCost": 1040000,

@@ -1,243 +1,243 @@
 {
-	"Custom": {
-		"AssemblyVariant": {
-			"PrefabID": "Blitzkrieg",
-			"Exclude": false,
-			"Include": true
-		}
-	},
-	"CustomParts": {
-		"FiringArc": 360
-	},
-	"Description": {
-		"Cost": 4254000,
-		"Rarity": 1,
-		"Purchasable": true,
-		"Manufacturer": "",
-		"Model": "",
-		"UIName": "Blitzkrieg",
-		"Id": "chassisdef_blitzkrieg_BTZ-7B",
-		"Name": "Blitzkrieg",
-		"Details": "Taking its name from a term meaning \"Lightning War\" the Blitzkrieg completely lives up to the name. The BTZ-7B is a \"Refined\" BTZ-6F.  By swapping one of the Bombast Laser Cannons for a Medium Bombast Laser, tonnage was freed up for better heatsinking, ECM and an AMS setup.  Further, the drivetrain of the BTZ-7B is of a \"Less is more\" concept with a 300XL + MASC in lieu of the 350XL of the BTZ-6F.  This increases heat but allows for better heatsinking over all.  All of this dramatically improves protection on the mech. Overall the value of this particular Blitzkrieg is lower than expected however.",
-		"Icon": "uixTxrIcon_blitzkrieg"
-	},
-	"MovementCapDefID": "movedef_bombard",
-	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_blitzkrieg",
-	"PrefabIdentifier": "chrprfmech_blitzkriegbase-001",
-	"PrefabBase": "blitzkrieg",
-	"Tonnage": 50,
-	"InitialTonnage": 5,
-	"weightClass": "MEDIUM",
-	"BattleValue": 0,
-	"Heatsinks": 0,
-	"TopSpeed": 65,
-	"TurnRadius": 90,
-	"MaxJumpjets": 30,
-	"Stability": 100,
-	"StabilityDefenses": [
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
-	],
-	"SpotterDistanceMultiplier": 1,
-	"VisibilityMultiplier": 1,
-	"SensorRangeMultiplier": 1,
-	"Signature": 0,
-	"Radius": 5,
-	"PunchesWithLeftArm": false,
-	"MeleeDamage": 50,
-	"MeleeInstability": 25,
-	"MeleeToHitModifier": 0,
-	"DFADamage": 50,
-	"DFAToHitModifier": 0,
-	"DFASelfDamage": 50,
-	"DFAInstability": 25,
-	"Locations": [
-		{
-			"Location": "Head",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 45,
-			"MaxRearArmor": -1,
-			"InternalStructure": 16
-		},
-		{
-			"Location": "LeftArm",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 80,
-			"MaxRearArmor": -1,
-			"InternalStructure": 40
-		},
-		{
-			"Location": "LeftTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": 60,
-			"InternalStructure": 60
-		},
-		{
-			"Location": "CenterTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 17,
-			"MaxArmor": 160,
-			"MaxRearArmor": 80,
-			"InternalStructure": 80
-		},
-		{
-			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": 60,
-			"InternalStructure": 60
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 80,
-			"MaxRearArmor": -1,
-			"InternalStructure": 40
-		},
-		{
-			"Location": "LeftLeg",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 120,
-			"MaxRearArmor": -1,
-			"InternalStructure": 60
-		},
-		{
-			"Location": "RightLeg",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 120,
-			"MaxRearArmor": -1,
-			"InternalStructure": 60
-		}
-	],
-	"LOSSourcePositions": [
-		{
-			"x": 0,
-			"y": 14,
-			"z": 1
-		},
-		{
-			"x": 4,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": -4,
-			"y": 13,
-			"z": 0
-		}
-	],
-	"LOSTargetPositions": [
-		{
-			"x": 0,
-			"y": 14,
-			"z": 1
-		},
-		{
-			"x": 4,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": -4,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": 3,
-			"y": 5,
-			"z": 2
-		},
-		{
-			"x": -3,
-			"y": 5,
-			"z": 2
-		}
-	],
-	"VariantName": "BTZ-7B",
-	"ChassisTags": {
-		"items": [
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft",
-			"MediumMech",
-			"HighTech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Lightning War",
-	"YangsThoughts": "Boss,  I do not know if this is a good variant.  Decide base on your pilots feedback, not the numbers on the table.",
-	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_360Twist_Blitzkrieg",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		}
-	]
+    "Custom": {
+        "AssemblyVariant": {
+            "PrefabID": "Blitzkrieg",
+            "Exclude": false,
+            "Include": true
+        }
+    },
+    "CustomParts": {
+        "FiringArc": 360
+    },
+    "Description": {
+        "Cost": 4254000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Blitzkrieg",
+        "Id": "chassisdef_blitzkrieg_BTZ-7B",
+        "Name": "Blitzkrieg",
+        "Details": "Taking its name from a term meaning \"Lightning War\" the Blitzkrieg completely lives up to the name. The BTZ-7B is a \"Refined\" BTZ-6F.  By swapping one of the Bombast Laser Cannons for a Medium Bombast Laser, tonnage was freed up for better heatsinking, ECM and an AMS setup.  Further, the drivetrain of the BTZ-7B is of a \"Less is more\" concept with a 300XL + MASC in lieu of the 350XL of the BTZ-6F.  This increases heat but allows for better heatsinking over all.  All of this dramatically improves protection on the mech. Overall the value of this particular Blitzkrieg is lower than expected however.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixTxrIcon_blitzkrieg"
+    },
+    "MovementCapDefID": "movedef_bombard",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_blitzkrieg",
+    "PrefabIdentifier": "chrprfmech_blitzkriegbase-001",
+    "PrefabBase": "blitzkrieg",
+    "Tonnage": 50,
+    "InitialTonnage": 5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 0,
+    "Heatsinks": 0,
+    "TopSpeed": 65,
+    "TurnRadius": 90,
+    "MaxJumpjets": 30,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 50,
+    "MeleeInstability": 25,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 50,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 50,
+    "DFAInstability": 25,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 17,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 12,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 6,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2
+        }
+    ],
+    "VariantName": "BTZ-7B",
+    "ChassisTags": {
+        "items": [
+            "ArmLimitUpperRight",
+            "ArmLimitUpperLeft",
+            "MediumMech",
+            "HighTech"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Lightning War",
+    "YangsThoughts": "Boss,  I do not know if this is a good variant.  Decide base on your pilots feedback, not the numbers on the table.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Quirk_360Twist_Blitzkrieg",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_endosteel",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": false
+        }
+    ]
 }

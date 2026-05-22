@@ -15,7 +15,8 @@
 			{ "Type": "ChassisDef", "Path": "Chassis" },
 			{ "Type": "UpgradeDef", "Path": "Upgrades" },
 			{ "Type": "VehicleDef",	"Path": "Vehicle" },
-			{ "Type": "VehicleChassisDef", "Path": "VehicleChassis" }
+			{ "Type": "VehicleChassisDef", "Path": "VehicleChassis" },
+			{ "Type": "SimGameEventDef", "Path": "Events", "AddToDB": true }
 	  ],
     "OptionallyDependsOn": [		
     ],

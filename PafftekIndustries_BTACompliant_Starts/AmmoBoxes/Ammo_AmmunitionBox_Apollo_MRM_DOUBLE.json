@@ -1,11 +1,10 @@
 {
-"Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/m/s/mrm"
-			}
-		],
-
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "a/m/s/mrm"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
@@ -15,46 +14,46 @@
             "ExplosionDamagePerAmmo": 4,
             "StabilityDamagePerAmmo": 1
         },
-		"BonusDescriptions": [
-				"MRMAccuracy: +1",
-				"WpnCrits: 20%",
-				"CostPerShot: 50",
-				"MRMAmmo: 450"
-			],
-		"AmmoCost" : {
-		  "PerUnitCost" : 50
-		}
+        "BonusDescriptions": [
+            "MRMAccuracy: +1",
+            "WpnCrits: 20%",
+            "CostPerShot: 50",
+            "MRMAmmo: 450"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 50
+        }
     },
-	"AmmoID": "Ammunition_MRM_Apollo",
-	"Capacity": 450,
-	"Description": {
-		"Cost": 25000,
-		"Rarity": 0,
-		"Purchasable": true,
-		"Manufacturer": "Generic",
-		"Model": "MRM",
-		"UIName": "Ammo MRM Apollo [D]",
-		"Id": "Ammo_AmmunitionBox_Improved_MRM_DOUBLE",
-		"Name": "MRM Ammo Apollo [D]",
-		"Details": "Improved Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles’ aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.",
-		"Icon": "uixSvgIcon_ammoBox_Missile"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "AmmunitionBox",
-	"ComponentSubType": "Ammunition",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 2,
-	"Tonnage": 2,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock"
-		],
-		"tagSetSourceFile": ""
-	}
+    "AmmoID": "Ammunition_MRM_Apollo",
+    "Capacity": 450,
+    "Description": {
+        "Cost": 25000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "MRM",
+        "UIName": "Ammo MRM Apollo [D]",
+        "Id": "Ammo_AmmunitionBox_Improved_MRM_DOUBLE",
+        "Name": "MRM Ammo Apollo [D]",
+        "Details": "Improved Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles\u2019 aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 450 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

@@ -1,81 +1,81 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "w/a/a/ac"
-			},
-			{
-				"CategoryID": "NeverMelee"
-			}
-		],
-		"BonusDescriptions": [
-				"NoFireInMelee",
-				"WpnRecoil: 2",
-				"WeaponAttachmentCompatible: Autocannon FCS"
-			]
-	},
-	"Category": "Ballistic",
-	"Type": "Autocannon",
-	"WeaponSubType": "AC5",
-	"MinRange": 120,
-	"MaxRange": 840,
-	"RangeSplit": [
-		210,
-		420,
-		690
-	],
-	"AmmoCategory": "AC5",
-	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 8,
-	"Damage": 15,
-	"OverheatedDamageMultiplier": 0,
-	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 0,
-	"DamageVariance": 0,
-	"HeatDamage": 2,
-	"AccuracyModifier": 1,
-	"CriticalChanceMultiplier": 1.20,
-	"AOECapable": false,
-	"IndirectFireCapable": false,
-	"RefireModifier": 2,
-	"ShotsWhenFired": 2,
-	"ProjectilesPerShot": 1,
-	"AttackRecoil": 2,
-	"Instability": 18,
-	"FireDelayMultiplier": 0.1,
-	"FlatJammingChance": 0.03,
-	"APDamage": 2,
-	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
-	"Description": {
-		"Cost": 240000,
-		"Rarity": 4,
-		"Purchasable": true,
-		"Manufacturer": "Eloder Mak",
-		"Model": "Thorn Flinger",
-		"UIName": "AC/5 HVAP 81",
-		"Id": "Weapon_Autocannon_AC5_81_Pirate",
-		"Name": "AC/5 HVAP 81",
-		"Details": "Learning from history of the so called squeeze barrel systems from ancient Terrian history, Eloder Mak decided to apply such a feature to this AC/5 derivitave.  The result?  A higher velocity and armor penetration at the cost of overall damage and mass.  Nicknamed the \"Thorn Flinger\", the Eloder MAk AC/5 HVAP is an interesting addition to anyones arsenal.",
-		"Icon": "uixSvgIcon_weapon_Ballistic"
-	},
-	"BonusValueA": "+2 Heat Damage, +3 Stab damage, -10 Damage, +2 Piercing Damage",
-	"BonusValueB": "Extended Range, 3% jam chance, 120% crit chance",
-	"ComponentType": "Weapon",
-	"ComponentSubType": "Weapon",
-	"PrefabIdentifier": "AC5",
-	"BattleValue": 0,
-	"InventorySize": 3,
-	"Tonnage": 8.75,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_variant",
-			"component_type_variant2",
-			"range_very-long"
-		],
-		"tagSetSourceFile": ""
-	}
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "w/a/a/ac"
+            },
+            {
+                "CategoryID": "NeverMelee"
+            }
+        ],
+        "BonusDescriptions": [
+            "NoFireInMelee",
+            "WpnRecoil: 2",
+            "WeaponAttachmentCompatible: Autocannon FCS"
+        ]
+    },
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "AC5",
+    "MinRange": 120,
+    "MaxRange": 840,
+    "RangeSplit": [
+        210,
+        420,
+        690
+    ],
+    "AmmoCategory": "AC5",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 8,
+    "Damage": 15,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 2,
+    "AccuracyModifier": 1,
+    "CriticalChanceMultiplier": 1.2,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 2,
+    "ShotsWhenFired": 2,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 2,
+    "Instability": 18,
+    "FireDelayMultiplier": 0.1,
+    "FlatJammingChance": 0.03,
+    "APDamage": 2,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC5",
+    "Description": {
+        "Cost": 240000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "Eloder Mak",
+        "Model": "Thorn Flinger",
+        "UIName": "AC/5 HVAP 81",
+        "Id": "Weapon_Autocannon_AC5_81_Pirate",
+        "Name": "AC/5 HVAP 81",
+        "Details": "Learning from history of the so called squeeze barrel systems from ancient Terrian history, Eloder Mak decided to apply such a feature to this AC/5 derivitave.  The result?  A higher velocity and armor penetration at the cost of overall damage and mass.  Nicknamed the \"Thorn Flinger\", the Eloder MAk AC/5 HVAP is an interesting addition to anyones arsenal.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+2 Heat Damage, +3 Stab damage, -10 Damage, +2 Piercing Damage",
+    "BonusValueB": "Extended Range, 3% jam chance, 120% crit chance",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "AC5",
+    "BattleValue": 0,
+    "InventorySize": 3,
+    "Tonnage": 8.75,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant2",
+            "range_very-long"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

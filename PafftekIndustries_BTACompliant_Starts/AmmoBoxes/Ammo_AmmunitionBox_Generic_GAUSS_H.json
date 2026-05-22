@@ -1,23 +1,23 @@
 {
     "Custom": {
-		"Category": [
-			{
-				"CategoryID": "a/a/g/gauss"
-			}
-		],	
+        "Category": [
+            {
+                "CategoryID": "a/a/g/gauss"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
             ]
         },
         "BonusDescriptions": [
-				"CostPerShot: 125",
-				"GaussAmmo: 4",
-                "GaussNoBoom"
-            ],
-		"AmmoCost" : {
-		  "PerUnitCost" : 125
-		}
+            "CostPerShot: 125",
+            "GaussAmmo: 4",
+            "GaussNoBoom"
+        ],
+        "AmmoCost": {
+            "PerUnitCost": 125
+        }
     },
     "AmmoID": "Ammunition_GAUSS",
     "Capacity": 4,
@@ -30,7 +30,7 @@
         "UIName": "Ammo Gauss [H]",
         "Id": "Ammo_AmmunitionBox_Generic_GAUSS_H",
         "Name": "Gauss Ammo [H]",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 4 shots.",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 4 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA": "",

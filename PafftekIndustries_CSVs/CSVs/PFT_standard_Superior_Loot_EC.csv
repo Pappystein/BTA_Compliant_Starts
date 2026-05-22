@@ -1,0 +1,9 @@
+PFT_standard_Superior_Loot_EC,,,
+BTA_Misc_Loot,Reference,3,2
+itemCollection_Weapons_uncommon,Reference,5,1
+itemCollection_Weapons_rare,Reference,2,1
+itemCollection_Upgrades_uncommon,Reference,3,2
+itemCollection_Upgrades_rare,Reference,1,2
+ItemCollection_SS_Manufacture,Reference,3,2
+Gear_Cash_Money,Upgrade,6,10
+PFT_Royal_Mechpart,Reference,1,10

@@ -1,0 +1,57 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/o/artillery"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 150,
+			"HeatDamagePerAmmo": 25,
+			"StabilityDamagePerAmmo": 25
+		},
+		"BonusDescriptions": [
+			"TandemGeneric: Field Kannone, 50, 5, 115",
+			"CostPerShot: 350",
+			"AmmoCount: 8"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 350
+		}
+	},
+	"AmmoID": "Ammunition_FieldKannone_Tandem",
+	"Capacity": 8,
+	"Description": {
+		"Cost": 293520,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Austen-Armstrong Industries",
+		"Model": "Field Kannone",
+		"UIName": "Field Kannone [Tandem Charge]",
+		"Id": "Ammo_AmmunitionBox_FieldKannone_TC",
+		"Name": "Field Kannone Ammo Bin",
+		"Details": "Artillery Field Kannone ammunition bin, High Explosive potential.  Can be ejected by pressing SHIFT while clicking on ammo sellector in the weapons section of the UI.  Risk can be mitigated with the use of C.A.S.E. Has 22 shots.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Icon": "Art-illery-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

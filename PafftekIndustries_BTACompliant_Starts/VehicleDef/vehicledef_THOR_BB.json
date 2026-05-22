@@ -3,7 +3,7 @@
     "Description": {
         "Id": "vehicledef_THOR_BB",
         "Name": "Thor Heavy Mortar Vehicle",
-        "Details": "Pafftek Industries took an early lookc at the Thor family of vehicles to be rebuilt or new-built for the various weapons programs under the Pafftek Industries banner.  Other companies soon colaborated with Pafftek Industries for their own variants... This one is the Pafftek-ICP industies Heavy Mortar Carrer Thor variant.  Also known as the Thor B.",
+        "Details": "Pafftek Industries took an early lookc at the Thor family of vehicles to be rebuilt or new-built for the various weapons programs under the Pafftek Industries banner.  Other companies soon colaborated with Pafftek Industries for their own variants... This one is the Pafftek-ICP industies Heavy Mortar Carrer Thor variant.  Also known as the Thor B.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "Thor",
         "Cost": 993,
         "Rarity": 0,
@@ -188,26 +188,26 @@
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Tank_CrewCompartment",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Tank_TTS_OmniLock",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Gear_C3",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
-		},
+        {
+            "MountedLocation": "Front",
+            "ComponentDefID": "Tank_CrewCompartment",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Front",
+            "ComponentDefID": "Tank_TTS_OmniLock",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Front",
+            "ComponentDefID": "Gear_C3",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1
+        },
         {
             "ComponentDefID": "Gear_Wheeled_Right",
             "ComponentDefType": "Upgrade",
@@ -222,11 +222,11 @@
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
-		{
-			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_armorslots_ultraferrofibrous",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1
-		}
+        {
+            "MountedLocation": "Rear",
+            "ComponentDefID": "emod_armorslots_ultraferrofibrous",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1
+        }
     ]
 }
