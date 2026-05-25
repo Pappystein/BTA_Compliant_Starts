@@ -56,7 +56,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_commando_COM-2P",
+    "ChassisID": "chassisdef_commando_COM-3P",
     "HeraldryID": null,
     "Description": {
         "Cost": 450000,
@@ -64,10 +64,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Commando COM-2P",
-        "Id": "mechdef_commando_COM-2P",
+        "UIName": "Commando COM-3P",
+        "Id": "mechdef_commando_COM-3P",
         "Name": "Commando",
-        "Details": "Take an old, worn and badly salvaged Commando COM-2D and slap a new coat of paint and the new improved Advanced Tactical Missiles on it and you have the COM-2P.   This mech has really advanced missile launchers that are un-reliable and heavy compared to their clan forbearers and combines it with a well worn Commando Chassis.  The worst of both worlds really.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Details": "Take an old, worn and badly salvaged Commando COM-2D and slap a new coat of paint and the new improved Advanced Tactical Missiles on it and you have the COM-3P.   This mech has really advanced missile launchers that are un-reliable and heavy compared to their clan forbearers and combines it with a well worn Commando Chassis.  The worst of both worlds really.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_commando"
     },
     "simGameMechPartCost": 250000,
