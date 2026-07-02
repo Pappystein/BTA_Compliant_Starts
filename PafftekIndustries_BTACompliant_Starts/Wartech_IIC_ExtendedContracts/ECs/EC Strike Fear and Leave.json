@@ -101,15 +101,6 @@
 			"declinePenalty": "BreakContract",
 			"contractMessage": "Commander, {TEAM_TAR.FactionDef.Demonym} is trying to run a convoy through our area of operation.  Let us sweep it up and remove those supplies and repurpose them for our own use here!  Our employeer will not hold skipping this contract against us but it will break our contract with them resulting in no final pay."
 		},
-		"ReduceEnemySupport2": {
-			"workOrder": "Scatter the Convoy",
-			"contractChance": 0.15,
-			"allowedContractTypes": [
-				15
-			],
-			"declinePenalty": "BreakContract",
-			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} found another convoy from {TEAM_TAR.FactionDef.Demonym}.  Let us sweep it up and remove those supplies and repurpose them for our own use here! Our employer will not hold skipping this contract against us but it will break our contract with them resulting in no final pay."
-		},
 		"FinalSweep": {
 			"workOrder": "One Last Effort",
 			"contractChance": 1,

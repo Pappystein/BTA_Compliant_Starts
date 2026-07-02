@@ -1,0 +1,74 @@
+{
+	"Description": {
+		"Id": "background_career_scrapper",
+		"Name": "Reclamation Plant Manager",
+		"Details": "`You became a commander after years as an [[DM.BaseDescriptionDefs[Pafftek_Lore_Scrapper],Reclamation Plant Manager]]. /r/n/n [[DM.BaseDescriptionDefs[Pafftek_Lore_WARNINGSKILL],WARNING READ THIS!]]",
+		"Icon": "envTxrHrld_startMerchantGuard",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Commander",
+		"Requirements": {
+			"Scope": "Commander",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": [
+				]
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		},
+		"AddedTags": {
+			"items": [
+				"commander_career_Reclamation",
+				"pilot_vehicle_crew",
+				"pilot_commander_permissions",
+				"Quirk_MechScrapper"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RemovedTags": null,
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "Piloting",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Gunnery",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Tactics",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Guts",
+				"value": 0,
+				"valueConstant": ""
+			}
+		],
+		"Actions": null,
+		"ForceEvents": null,
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 1,
+	"UIOrdering": 15,
+	"OptionName": "Reclamation Manager",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "You became a commander after years as a Manager at a Reclamation site.",
+	"Intro": "You became a commander after years as a Reclamation Manager.",
+	"BioDescription": "You became a commander after years as a Reclamation Manager.\r\n"
+}

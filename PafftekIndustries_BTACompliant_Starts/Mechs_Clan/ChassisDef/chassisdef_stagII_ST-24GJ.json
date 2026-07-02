@@ -1,10 +1,11 @@
 {
-    "Custom": {
-        "ArmActuatorSupport": {
-            "LeftLimit": "Hand",
-            "RightLimit": "Lower"
-        }
-    },
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Stag",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 4866797,
         "Rarity": 5,

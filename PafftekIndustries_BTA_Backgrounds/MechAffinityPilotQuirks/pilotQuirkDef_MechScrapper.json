@@ -1,0 +1,15 @@
+{
+    "id": "pilotQuirkDef_MechScrapper",
+    "tag": "Quirk_MechScrapper",
+    "quirkName": "Efficent Scrapper",
+    "description": "",
+    "effectData": [],
+    "quirkEffects": [
+        {
+            "type": "AdditionalSalvage",
+            "modifier": 1,
+            "secondaryModifier": 0,
+            "affectedIds": []
+        }
+    ]
+}

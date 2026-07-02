@@ -165,7 +165,7 @@
         "UIName": "WoodsmanII Delta",
         "Id": "chassisdef_woodsmanii_WDM2-delta",
         "Name": "Woodsman II Delta",
-        "Details": "Late in the 3060s, the remaining Innersphere based clans, started making the Woodsman II, compared to the original Woodsman, it swaps standard structure for the Endosteel, swaps Ferro-Lamellar for the standard armor, and utilizes a Clan XL 300 core with MASC to provide mass and room.  Also fixed on this chassis is 4x jumpjets.   This configuration kind of makes it a stronger replacement for the Summoner.  The Delta's configuration includes no fewer than 4 Large Lasers with one medium laser, both of the latest specifications.  Rounding this out is a Watchdog CEWS as well as two ballistic Anti-missile systems.  A Precision targeting device is fitted in the cockpit for improved hit capabilioties.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Details": "Late in the 3060s, the remaining Innersphere based clans, started making the Woodsman II, compared to the original Woodsman, it swaps standard structure for the Endosteel, swaps Ferro-Lamellar for the standard armor, and utilizes a Clan XL 300 core with MASC to provide mass and room.  Also fixed on this chassis is 4x jumpjets.   This configuration kind of makes it a stronger replacement for the Summoner.  The Delta's configuration includes no fewer than 4 Large Lasers with one medium laser, both of the latest specifications.  Rounding this out is a Watchdog CEWS as well as two ballistic Anti-missile systems.  A Precision targeting device is fitted in the cockpit for improved hit capabilities.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_woodsman"
     },
     "MovementCapDefID": "movedef_timberwolf",
@@ -378,7 +378,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Cav OmniMech",
-    "YangsThoughts": "The Woodsman is one of the oldest OmniMechs and is the progenitor to the famous Timber Wolf, as well as the Gargoyle, Naga, and Naga II OmniMechs. Pioneered by Clan Wolf, the Woodsman is one of the most important and foundational OmniMechs ever created. Built on a 300-rated fusion engine with an Endo-Steel frame and hardwired MASC for extra speed, the Woodsman is a durable chassis and is well suited to any mission. The Prime config is a preview of the later Timber Wolf: two ER Large Lasers, three ER Medium Lasers, two LRM-15s, two Machine Guns, and a solitary ER Small Laser.",
+    "YangsThoughts": "Late in the 3060s, the remaining Innersphere based clans, started making the Woodsman II, compared to the original Woodsman, it swaps standard structure for the Endosteel, swaps Ferro-Lamellar for the standard armor, and utilizes a Clan XL 300 core with MASC to provide mass and room.  Also fixed on this chassis is 4x jumpjets.   This configuration kind of makes it a stronger replacement for the Summoner.  The Delta's configuration includes no fewer than 4 Large Lasers with one medium laser, both of the latest specifications.  Rounding this out is a Watchdog CEWS as well as two ballistic Anti-missile systems.  A Precision targeting device is fitted in the cockpit for improved hit capabilities.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
     "CustomParts": {
         "CustomParts": []
     }

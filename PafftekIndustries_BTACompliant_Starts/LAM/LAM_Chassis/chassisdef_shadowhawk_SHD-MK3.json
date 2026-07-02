@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "ShadowhawkLAM",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "CustomParts": {
         "AlternateRepresentations": [
             {

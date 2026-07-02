@@ -19,7 +19,7 @@
     "AmmoCategory": "AC10",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 10,
-    "Damage": 45,
+    "Damage": 40,
     "OverheatedDamageMultiplier": 0.7,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 1,
@@ -70,7 +70,7 @@
             "Id": "lv2",
             "UIName": "AP",
             "isBaseMode": false,
-            "DamagePerShot": -7,
+            "DamagePerShot": -10,
             "APDamage": 5,
             "HeatGenerated": 4,
             "Cooldown": 1
@@ -78,7 +78,7 @@
         {
             "Id": "lv3",
             "UIName": "Acc",
-            "DamagePerShot": -5,
+            "DamagePerShot": -10,
             "AccuracyModifier": -3,
             "EvasivePipsIgnored": 3,
             "Cooldown": 1
@@ -87,8 +87,8 @@
             "Id": "lv4",
             "UIName": "RapidFire",
             "isBaseMode": false,
-            "Cooldown": 2,
-            "ShotsWhenFired": 2,
+            "Cooldown": 1,
+            "ShotsWhenFired": 1,
             "statusEffects": [
                 {
                     "durationData": {

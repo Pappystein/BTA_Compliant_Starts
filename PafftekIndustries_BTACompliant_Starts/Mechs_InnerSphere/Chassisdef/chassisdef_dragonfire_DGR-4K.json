@@ -1,10 +1,11 @@
 {
-    "Custom": {
-        "ArmActuatorSupport": {
-            "LeftLimit": "Upper",
-            "RightLimit": "Upper"
-        }
-    },
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "DragonFire",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 7765630,
         "Rarity": 3,
@@ -14,7 +15,7 @@
         "UIName": "Dragon Fire",
         "Id": "chassisdef_dragonfire_DGR-4K",
         "Name": "Dragon Fire",
-        "Details": "J.B. BattleMechs Incorporated, having just introduced the Dragonfire DGR-3F into service with several Inner Sphere Clients acceded to the request for a custom version for the DCMS.  The DGR-4K was born of this. Keeping the changes to primarily the weapon suite and tweaks to the protection setup lead to the unique loadout on this particular mech.  Some third parties claiming the DCMS just wanted access to a Marauder copy.  Outside of the more professional units of the DCMS, the DGR-4K has only been seen in the forces of the Wolf's Dragoons.  Armed with two ER-PPC partical cannons in the 'arms' along with two ER medium lasers, with a Lubalin Experimental 5 class Autocannon in the Right Torso with one ton of CASE protected cluster munitions it sure does kind of look like a Marauder's default loadout.  However AES for the PPCs and MLasers makes them more accurate and the Mech carries signficantly more armor thanks to a combination of Endo-steel core chassis and light Ferro Fibrous armor.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Details": "J.B. BattleMechs Incorporated, having just introduced the Dragonfire DGR-3F into service with several Inner Sphere Clients acceded to the request for a custom version for the DCMS.  The DGR-4K was born of this. Keeping the changes to primarily the weapon suite and tweaks to the protection setup lead to the unique loadout on this particular mech.  Some third parties claiming the DCMS just wanted access to a Marauder copy.  Outside of the more professional units of the DCMS, the DGR-4K has only been seen in the forces of the Wolf's Dragoons.  Armed with two ER-PPC particle cannons in the 'arms' along with two ER medium lasers, with a Lubalin Experimental 5 class Autocannon in the Right Torso with one ton of CASE protected cluster munitions it sure does kind of look like a Marauder's default loadout.  However AES for the PPCs and MLasers makes them more accurate and the Mech carries signficantly more armor thanks to the Endo-steel core chassis.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixTxrIcon_dragonfire"
     },
     "MovementCapDefID": "movedef_marauder_MAD-3R",

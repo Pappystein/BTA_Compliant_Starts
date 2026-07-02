@@ -1,0 +1,412 @@
+{
+	"debug": false,
+	"HidePanelWhenNoFactories": true,
+	"FactoriesPaths": [
+		"DynamicShops/factories"
+	],
+	"AddendumFactoriesPaths": [
+		"Heavy Metal Unit Module/shops",
+		"Flashpoint Unit Module/shops",
+		"Urban Warfare Unit Module/shops",
+		"PafftekIndustries_BTA_Start_Adendum/PFT_Store_Update"
+	],
+	"FactoryListPrefix": "BTA_List_",
+    "_PlanetNameMapping_Description": "Maps planet names to CSV base names for cases where they don't match. Key = exact planet name in game, Value = base name in CSV file (without prefix/extension).",
+    "PlanetNameMapping": {
+        "Al Na'ir": "AlNair",
+        "Alphard (MH)": "Alphard_Marian",
+        "Canopus IV": "Canopus",
+        "Connaught": "Connaugh",
+        "Ebon's End": "EbonsEnd",
+        "Hesperus": "HesperusII",
+        "Lapida II": "Lapida",
+        "MacLeod's Land": "MacLeod",
+        "Tau Ceti (New Earth 2116+)": "NewEarth",
+        "Solaris VII": "Solaris",
+        "St. Ives": "StIves",
+        "Tortuga Prime": "Tortuga_Prime"
+    },
+    "_DefTypeDisplayOrder_Description": "Controls the order in which item categories appear in the Factory Production panel. Reorder this list to change display order.",
+    "DefTypeDisplayOrder": [
+        "HeatSinkDef",
+        "WeaponDef",
+        "AmmunitionBoxDef",
+        "UpgradeDef",
+        "JumpJetDef",
+        "MechDef",
+        "VehicleDef"
+    ],
+	"_DefTypeDisplaySettings_Description": "Main category header settings. Name = display text, Color = hex color for the category header (e.g. Heat Sinks, Weapons, Ammunition).",
+	"DefTypeDisplaySettings": {
+		"HeatSinkDef": {
+			"Name": "Heat Sinks",
+			"Color": "#F79B26"
+		},
+		"WeaponDef": {
+			"Name": "Weapons",
+			"Color": "#F79B26"
+		},
+		"AmmunitionBoxDef": {
+			"Name": "Ammunition",
+			"Color": "#F79B26"
+		},
+		"UpgradeDef": {
+			"Name": "Upgrades",
+			"Color": "#F79B26"
+		},
+		"JumpJetDef": {
+			"Name": "Jump Jets",
+			"Color": "#F79B26"
+		},
+		"MechDef": {
+			"Name": "Mechs",
+			"Color": "#F79B26"
+		},
+		"VehicleDef": {
+			"Name": "Vehicles",
+			"Color": "#F79B26"
+		}
+	},
+	"_WeaponSubCategories_Description": "Weapon subcategory colors based on WeaponCategory.json Category field. Energy=#6aa84f, Ballistic=#2596be, Missile=#a64d79, Antipersonnel=#caa566, Artillery=#982C1C.",
+	"WeaponSubCategories": {
+		"Ballistic": {
+			"Name": "Ballistic",
+			"Color": "#2596be"
+		},
+		"Energy": {
+			"Name": "Energy",
+			"Color": "#6aa84f"
+		},
+		"Missile": {
+			"Name": "Missile",
+			"Color": "#a64d79"
+		},
+		"AntiPersonnel": {
+			"Name": "Support",
+			"Color": "#caa566"
+		},
+		"AMS": {
+			"Name": "AMS",
+			"Color": "#464D55"
+		},
+		"Melee": {
+			"Name": "Melee",
+			"Color": "#464D55"
+		},
+		"BattleArmor": {
+			"Name": "Battle Armor",
+			"Color": "#85DBF6"
+		},
+		"BombBay": {
+			"Name": "Bomb Bay",
+			"Color": "#F04228"
+		},
+		"MeleeWeapon": {
+			"Name": "Melee Weapon",
+			"Color": "#DE6729"
+		},
+		"Artillery": {
+			"Name": "Artillery",
+			"Color": "#982C1C"
+		},
+		"Superweapon": {
+			"Name": "Superweapon",
+			"Color": "#5C6670"
+		},
+		"Omni": {
+			"Name": "Omni",
+			"Color": "#F79B26"
+		},
+		"NotSet": {
+			"Name": "Other",
+			"Color": "#FFFFFF"
+		}
+	},
+	"_HeatSinkSubCategories_Description": "Item colors for HeatSinkDef items (engines, heatsinks). Default color applies to all items in this category.",
+	"HeatSinkSubCategories": {
+		"Default": {
+			"Name": "Default",
+			"Color": "#464D55"
+		}
+	},
+	"_JumpJetSubCategories_Description": "Item colors for JumpJetDef items. Default color applies to all items in this category.",
+	"JumpJetSubCategories": {
+		"Default": {
+			"Name": "Default",
+			"Color": "#464D55"
+		}
+	},
+	"_MechSubCategories_Description": "Item colors for MechDef items. Default color applies to all items in this category.",
+	"MechSubCategories": {
+		"Default": {
+			"Name": "Default",
+			"Color": "#5C6670"
+		}
+	},
+	"_VehicleSubCategories_Description": "Item colors for VehicleDef items. Default color applies to all items in this category.",
+	"VehicleSubCategories": {
+		"Default": {
+			"Name": "Default",
+			"Color": "#5C6670"
+		}
+	},
+	"_UpgradeSubCategories_Description": "Item colors for UpgradeDef items. Default color applies to all items in this category.",
+	"UpgradeSubCategories": {
+		"Default": {
+			"Name": "Default",
+			"Color": "#464D55"
+		}
+	},
+	"_AmmoSubCategories_Description": "Ammunition subcategory colors. Detected from AmmoID field in AmmunitionBoxDef JSONs. Grouped by ammo type (LRM, SRM, AC, Gauss, etc). Each has customizable Name and Color.",
+	"AmmoSubCategories": {
+		"LRM": {
+			"Name": "LRM",
+			"Color": "#a64d79"
+		},
+		"SRM": {
+			"Name": "SRM",
+			"Color": "#a64d79"
+		},
+		"MRM": {
+			"Name": "MRM",
+			"Color": "#a64d79"
+		},
+		"ATM": {
+			"Name": "ATM",
+			"Color": "#a64d79"
+		},
+		"iATM": {
+			"Name": "iATM",
+			"Color": "#a64d79"
+		},
+		"StreakLRM": {
+			"Name": "Streak LRM",
+			"Color": "#a64d79"
+		},
+		"StreakSRM": {
+			"Name": "Streak SRM",
+			"Color": "#a64d79"
+		},
+		"StreakMRM": {
+			"Name": "Streak MRM",
+			"Color": "#a64d79"
+		},
+		"NARC": {
+			"Name": "NARC",
+			"Color": "#a64d79"
+		},
+		"ArrowIV": {
+			"Name": "Arrow IV",
+			"Color": "#982C1C"
+		},
+		"Thunderbolt": {
+			"Name": "Thunderbolt",
+			"Color": "#a64d79"
+		},
+		"Rocket": {
+			"Name": "Rocket",
+			"Color": "#a64d79"
+		},
+		"AC": {
+			"Name": "Autocannon",
+			"Color": "#2596be"
+		},
+		"Gauss": {
+			"Name": "Gauss",
+			"Color": "#2596be"
+		},
+		"LBX": {
+			"Name": "LB-X",
+			"Color": "#2596be"
+		},
+		"UAC": {
+			"Name": "Ultra AC",
+			"Color": "#2596be"
+		},
+		"RAC": {
+			"Name": "Rotary AC",
+			"Color": "#2596be"
+		},
+		"HVAC": {
+			"Name": "Hyper-Velocity AC",
+			"Color": "#2596be"
+		},
+		"MG": {
+			"Name": "Machine Gun",
+			"Color": "#caa566"
+		},
+		"Rifle": {
+			"Name": "Rifle",
+			"Color": "#2596be"
+		},
+		"Mortar": {
+			"Name": "Mortar",
+			"Color": "#2596be"
+		},
+		"Sniper": {
+			"Name": "Sniper",
+			"Color": "#982C1C"
+		},
+		"LongTom": {
+			"Name": "Long Tom",
+			"Color": "#982C1C"
+		},
+		"Thumper": {
+			"Name": "Thumper",
+			"Color": "#982C1C"
+		},
+		"Railgun": {
+			"Name": "Railgun",
+			"Color": "#5C6670"
+		},
+		"Plasma": {
+			"Name": "Plasma",
+			"Color": "#6aa84f"
+		},
+		"Flamer": {
+			"Name": "Flamer",
+			"Color": "#caa566"
+		},
+		"ChemLaser": {
+			"Name": "Chemical Laser",
+			"Color": "#6aa84f"
+		},
+		"AMS": {
+			"Name": "AMS",
+			"Color": "#caa566"
+		},
+		"Taser": {
+			"Name": "Taser",
+			"Color": "#2596be"
+		},
+		"Harpoon": {
+			"Name": "Harpoon",
+			"Color": "#2596be"
+		},
+		"MagShot": {
+			"Name": "Mag Shot",
+			"Color": "#caa566"
+		},
+		"Other": {
+			"Name": "Other",
+			"Color": "#982C1C"
+		}
+	},
+    "_DefTypePaths_Description": "Paths to search for item JSON files, relative to the Mods folder. Used to look up UIName and Category for items in factory lists.",
+    "DefTypePaths": {
+        "HeatSinkDef": [
+            "BT Advanced Gear/heatsink",
+            "BT Advanced Gear/MechengineerGear/data/basic/engines",
+            "BT Advanced Gear/MechengineerGear/data/basic/engine_parts",
+            "BT Advanced Gear/MechengineerGear/data/exotics/engine_parts",
+            "BT Advanced Gear/MechengineerGear/data/vanilla/heatsinks",
+            "BT Advanced Clan Gear/engines",
+            "BT Advanced Sanctuary Worlds Equipment/heatsink",
+            "VIPAdvanced/TankEngines",
+			"PafftekIndustries_PirateTech/Tech/HeatSinks",
+			"PafftekIndustries_BTACompliant_Starts/Tech/HeatSinks"
+        ],
+        "WeaponDef": [
+            "BT Advanced Gear/weapon",
+            "BT Advanced Gear/weaponvanilla",
+            "BT Advanced Gear/physicalweapons",
+            "BT Advanced Clan Gear/weapons",
+            "BT Advanced Sanctuary Worlds Equipment/weapon",
+            "Heavy Metal Equipment Module/weapon",
+            "VIPAdvanced/TankWeapons",
+			"PafftekIndustries_BTACompliant_Starts/Tech/Weapons",
+			"PafftekIndustries_BTACompliant_Starts/Tech/Weapons_Super",
+			"PafftekIndustries_PirateTech/Tech/Weapons"
+        ],
+        "AmmunitionBoxDef": [
+            "BT Advanced Clan Gear/ammobox",
+            "BT Advanced Sanctuary Worlds Equipment/ammunitionbox",
+            "CustomAmmoCategories/AMS",
+            "CustomAmmoCategories/Artillery",
+            "CustomAmmoCategories/Autocannons",
+            "CustomAmmoCategories/Gauss",
+            "CustomAmmoCategories/LBX",
+            "CustomAmmoCategories/LRM",
+            "CustomAmmoCategories/MG",
+            "CustomAmmoCategories/MRM",
+            "CustomAmmoCategories/NARC",
+            "CustomAmmoCategories/RotaryAC",
+            "CustomAmmoCategories/SRM",
+            "CustomAmmoCategories/UltraAC",
+            "CustomAmmoCategories/Flamer",
+            "CustomAmmoCategories/Plasma",
+            "CustomAmmoCategories/HVAC",
+            "CustomAmmoCategories/Mortar",
+            "CustomAmmoCategories/Thunderbolt",
+            "Heavy Metal Equipment Module/ammunitionBox",
+			"PafftekIndustries_BTACompliant_Starts/AmmoBoxes",
+			
+        ],
+        "UpgradeDef": [
+            "BT Advanced Gear/upgrade",
+            "BT Advanced Gear/upgrade/actuators",
+            "BT Advanced Gear/upgrade/cockpit",
+            "BT Advanced Gear/upgrade/general",
+            "BT Advanced Gear/upgrade/myomers",
+            "BT Advanced Gear/attachment",
+            "BT Advanced Gear/linkages",
+            "BT Advanced Gear/MechengineerGear/data/basic/internals",
+            "BT Advanced Gear/MechengineerGear/data/basic/targetTrackingSystem",
+            "BT Advanced Gear/MechengineerGear/data/exotics/actuators",
+            "BT Advanced Gear/MechengineerGear/data/exotics/internals",
+            "BT Advanced Gear/MechengineerGear/data/vanilla/actuators",
+            "BT Advanced Gear/MechengineerGear/data/vanilla/cockpitMods",
+            "BT Advanced Gear/MechengineerGear/data/vanilla/gyro",
+            "BT Advanced Gear/MechengineerGear/data/vanilla/targetTrackingSystem",
+            "BT Advanced Clan Gear/internals",
+            "BT Advanced Sanctuary Worlds Equipment/upgrade",
+            "Heavy Metal Equipment Module/upgrades",
+			"PafftekIndustries_PirateTech/Tech/Internals",
+			"PafftekIndustries_PirateTech/Tech/Upgrades",
+			"PafftekIndustries_BTACompliant_Sanctuary/Upgrades",
+			"PafftekIndustries_BTACompliant_Starts/Tech/Internals",
+			"PafftekIndustries_BTACompliant_Starts/Tech/Upgrades"
+			
+			
+        ],
+        "JumpJetDef": [
+            "BT Advanced Gear/MechengineerGear/data/JumpJets",
+            "BT Advanced Gear/MechengineerGear/data/vanilla/jumpjets",
+            "Heavy Metal Equipment Module/jumpjets",
+			"PafftekIndustries_BTACompliant_Starts/Tech/JumpJets"
+        ],
+		"MechDef": [
+			"BT Advanced Mechs/mech",
+			"BT Advanced Clan Mechs/mech",
+			"BT Advanced Sanctuary Worlds Mechs/mech",
+			"BT Advanced Unique Mechs/mech",
+			"Heavy Metal Unit Module/mech",
+			"BT Advanced Quad Mechs/mech",
+			"PafftekIndustries_PirateTech/Mechs/Mechdef",
+			"PafftekIndustries_BTACompliant_Starts/Mechs_Clan/MechDef",
+			"PafftekIndustries_BTACompliant_Starts/Mechs_InnerSphere/Mechdef",
+			"PafftekIndustries_BTACompliant_Starts/OperationDeepFreeze/Mechdef",
+			"PafftekIndustries_BTACompliant_Starts/LAM/LAM_Mech",
+			"PafftekIndustries_BTACompliant_Sanctuary/Mechdef",
+			"NP_JointProduction/Catapult/MechDef",
+			"NP_JointProduction/Corsair/MechDef",
+			"NP_JointProduction/RiverHawk/MechDef"
+		],
+		"VehicleDef": [
+			"BT Advanced Clan Tanks/vehicle",
+			"BT Advanced Clan Tanks/convoy",
+			"BT Advanced Sanctuary Worlds Tanks and Turrets/light",
+			"BT Advanced Sanctuary Worlds Tanks and Turrets/medium",
+			"BT Advanced Sanctuary Worlds Tanks and Turrets/heavy",
+			"BT Advanced Sanctuary Worlds Tanks and Turrets/assault",
+			"BT Advanced Sanctuary Worlds Tanks and Turrets/convoy",
+			"VIPAdvanced/light",
+			"VIPAdvanced/medium",
+			"VIPAdvanced/heavy",
+			"VIPAdvanced/assault",
+			"VIPAdvanced/convoy",
+			"PafftekIndustries_BTACompliant_Starts/VehicleDef",
+			"PafftekIndustries_BTACompliant_Sanctuary/Vehicle"
+		]
+    }
+}

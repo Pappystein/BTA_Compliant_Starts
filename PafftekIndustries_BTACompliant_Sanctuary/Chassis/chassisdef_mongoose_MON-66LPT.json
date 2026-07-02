@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Mongoose",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 2210000,
         "Rarity": 0,

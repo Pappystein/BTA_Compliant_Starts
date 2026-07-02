@@ -1,4 +1,19 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Raven",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
     "Description": {
         "Cost": 2123540,
         "Rarity": 5,

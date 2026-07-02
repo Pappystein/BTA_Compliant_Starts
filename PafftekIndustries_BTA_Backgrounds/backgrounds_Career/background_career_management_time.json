@@ -1,0 +1,73 @@
+{
+	"Description": {
+		"Id": "background_career_management_time",
+		"Name": "Time Manager",
+		"Details": "You became a commander after years as a [[DM.BaseDescriptionDefs[Pafftek_Lore_TimeManager],consultant Time Manager]]. \r\n Because of your abilities with time management you can predict when things can happen to a limited extent.\r\n\n [[DM.BaseDescriptionDefs[Pafftek_Lore_SpecialDrop],Has special drop ability]]",
+		"Icon": "envTxrHrld_startMerchantGuard",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Commander",
+		"Requirements": {
+			"Scope": "Commander",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": [
+				]
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		},
+		"AddedTags": {
+			"items": [
+				"commander_career_timemanager",
+				"pilot_vehicle_crew",
+				"pilot_commander_permissions"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RemovedTags": null,
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "Piloting",
+				"value": 1,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Gunnery",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Tactics",
+				"value": 1,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Guts",
+				"value": 0,
+				"valueConstant": ""
+			}
+		],
+		"Actions": null,
+		"ForceEvents": null,
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 1,
+	"UIOrdering": 15,
+	"OptionName": "Time Manager",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "You became a commander after years as a consultant Time Manager.",
+	"Intro": "You became a commander after years as a consultant Time Manager.",
+	"BioDescription": "You became a commander after years as consultant Time Manager.\r\n"
+}

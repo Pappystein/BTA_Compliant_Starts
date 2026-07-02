@@ -1,10 +1,11 @@
 {
-    "Custom": {
-        "ArmActuatorSupport": {
-            "LeftLimit": "Upper",
-            "RightLimit": "Upper"
-        }
-    },
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "UrbanMech",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "CustomParts": {
         "AlternateRepresentations": [
             {

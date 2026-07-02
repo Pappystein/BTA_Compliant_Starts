@@ -6,15 +6,28 @@
 	"Contact": "BTA Discord",
 	"Enabled": true,
 	"Hidden": true,
-	"DependsOn": [ "BT Advanced Backgrounds", "BTA Events"],
+	"DependsOn": [
+		"MechAffinity",
+		"BT Advanced Backgrounds",
+		"BTA Events"
+	],
+	"CustomResourceTypes": [
+		"AffinitiesDef",
+		"QuirkDef"
+	],
 	"Manifest": [
-		{ "Type": "BaseDescriptionDef", "Path": "lore", "AddToDB": true },
-		{ "Type": "BackgroundDef", "Path": "backgrounds_Ancestry", "AddToDB": true },
-		{ "Type": "BackgroundDef", "Path": "backgrounds_Career", "AddToDB": true },
-		{ "Type": "BackgroundDef", "Path": "backgrounds_Youth", "AddToDB": true },
-		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
-		{ "Type": "Video", "Path": "Video" },
-		{ "Type": "SimGameEventDef", "Path": "events_Timeline", "AddToDB": true },
-		{ "Type": "SimGameEventDef", "Path": "Events", "AddToDB": true }
+		{	"Type": "BaseDescriptionDef", "Path": "lore", "AddToDB": true },
+		{	"Type": "BackgroundDef", "Path": "backgrounds_Ancestry", "AddToDB": true },
+		{	"Type": "BackgroundDef", "Path": "backgrounds_Career", "AddToDB": true },
+		{	"Type": "BackgroundDef", "Path": "backgrounds_Youth", "AddToDB": true },
+		{	"Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
+		{	"Type": "Video", "Path": "Video" },
+		{	"Type": "SimGameEventDef", "Path": "events_Timeline", "AddToDB": true },
+		{	"Type": "SimGameEventDef", "Path": "Events", "AddToDB": true },
+		{	"Type": "QuirkDef", "Path": "MechAffinityPilotQuirks", "AddToDB": true },
+		{	"Type": "CustomTag", "Path": "MechAffinityPilot_Tags", "AddToDB": true },
+		{	"Type": "BaseDescriptionDef", "Path": "lore", "AddToDB": true },
+		{	"Type": "AdvancedJSONMerge", "Path": "JsonMERGE" },
+		{	"Type": "AbilityDef", "Path": "Abilities", "AddToDB": true }
 	]
 }

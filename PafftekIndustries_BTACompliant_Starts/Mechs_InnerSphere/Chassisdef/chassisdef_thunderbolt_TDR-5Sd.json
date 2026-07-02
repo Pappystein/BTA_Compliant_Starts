@@ -1,11 +1,18 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Thunderbolt",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 9200000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Royal Thunderbolt",
+        "UIName": "Thunderbolt",
         "Id": "chassisdef_thunderbolt_TDR-5Sd",
         "Name": "Thunderbolt",
         "Details": "The Royal Davion Thunderbolt 5Sd is broadly similar to the Royal Thunderbolt -5Sb.  However the missile racks and machine guns are sacraficed to make way for an Ultra AC/5 Autocannon with plenty of ammunition.   This is a relitively Rare variant and it has not been reported as viable for over 100 years.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",

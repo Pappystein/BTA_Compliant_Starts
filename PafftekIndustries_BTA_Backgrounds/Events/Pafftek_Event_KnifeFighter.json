@@ -1,0 +1,106 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_KnifeFighter",
+		"Name": "Your Past returns",
+		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway. \r\n\r\n\"Commander, Yang found her, your old battlemech. She is being readied for transport up to the Argo as I am speaking to you.  She will be in the mech bay within five orbits.",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "Melee_Mech_Gift",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"obj": "Travel",
+			"op": "Equal",
+			"val": 0,
+			"valueConstant": "0"
+		}
+	],
+	"AdditionalRequirements": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Re-aquire your favorite old training battlemech.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": ["Melee_Mech_Gift"]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": [
+								{
+									"Type": "System_ShowRewards",
+									"value": "ItemCollection_KnifeFighter_Background",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

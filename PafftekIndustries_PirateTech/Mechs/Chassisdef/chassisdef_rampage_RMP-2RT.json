@@ -1,0 +1,250 @@
+{
+	"Description": {
+		"Cost": 6953705,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Rampage",
+		"Id": "chassisdef_rampage_RMP-2RT",
+		"Name": "Rampage",
+		"Details": "In the waning years after the death of Amaris, numerous caches and supply depots of the RWRA were raided and plundered by looters and pirates before the central government could regain control. Amongst the many supplies, weapons and mech chassis, many Rampages were lost to these raids. For the brief time period known amongst the pirate brethren as \"The Golden Age\", bands of brigands and marauders could be spotted using pristine Rampage mechs in their Lances to spread terror and destruction throughout the newly lawless Coreward Periphery. As the centuries have worn on, many of those stolen mechs have been destroyed, disabled or lost as pirate bands have risen and fallen. The few that remain functional have degraded in quality over time, through numerous field repairs and refits, and their weapons and equipment have lost the accuracy and reliability of the original models. The Rolling Thunder is an attempt to keep the few remaining models running in the modern day. Unable to accurately fire their weapons, a few enterprising pirates instead embraced a \"Fire by Saturation\" approach to warfare. Used most commonly to inspire terror and cause destruction amongst the lightly defended homesteads of the Periphery, the Rolling Thunder is often dropped into the largest gathering of dwellings on a planet, where the pirates then proceeds to fire indiscriminately amongst the buildings until they receive the surrender of the local populace. It carries the ammo to do this for some time, and enough armor and defensive equipment to survive long enough (against lightly defended Periphery Militias) to do so without any real issue. However, the natural lack of accuracy inherit in these Rolling Thunder variants means they tend to fair poorly against properly armed Mercenary or RWR forces. Nevertheless, it remains a potent weapon amongst the periphery pirate bands and insures that the terrible legacy of Amaris is remembered into the modern day.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>\n\n<b><color=#5F24AC>Designed by: TheRampancy</color></b>",
+		"Icon": "uixTxrIcon_rampage"
+	},
+	"MovementCapDefID": "movedef_battlemaster_BLR-1G",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_rampage",
+	"PrefabIdentifier": "chrprfmech_rampagebase-001",
+	"PrefabBase": "rampage",
+	"Tonnage": 85,
+	"InitialTonnage": 8.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 8742000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 95,
+	"MeleeInstability": 45,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 95,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 95,
+	"DFAInstability": 45,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 270,
+			"MaxRearArmor": 135,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Rampage",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_standard_pirate",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "RMP-2RT",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerLeft",
+			"AssaultMech",
+			"PirateMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Re-tread Assault",
+	"YangsThoughts": "In the waning years after the death of Amaris, numerous caches and supply depots of the RWRA were raided and plundered by looters and pirates before the central government could regain control. Amongst the many supplies, weapons and mech chassis, many Rampages were lost to these raids. For the brief time period known amongst the pirate brethren as \"The Golden Age\", bands of brigands and marauders could be spotted using pristine Rampage mechs in their Lances to spread terror and destruction throughout the newly lawless Coreward Periphery. As the centuries have worn on, many of those stolen mechs have been destroyed, disabled or lost as pirate bands have risen and fallen. The few that remain functional have degraded in quality over time, through numerous field repairs and refits, and their weapons and equipment have lost the accuracy and reliability of the original models. The Rolling Thunder is an attempt to keep the few remaining models running in the modern day. Unable to accurately fire their weapons, a few enterprising pirates instead embraced a \"Fire by Saturation\" approach to warfare. Used most commonly to inspire terror and cause destruction amongst the lightly defended homesteads of the Periphery, the Rolling Thunder is often dropped into the largest gathering of dwellings on a planet, where the pirates then proceeds to fire indiscriminately amongst the buildings until they receive the surrender of the local populace. It carries the ammo to do this for some time, and enough armor and defensive equipment to survive long enough (against lightly defended Periphery Militias) to do so without any real issue. However, the natural lack of accuracy inherit in these Rolling Thunder variants means they tend to fair poorly against properly armed Mercenary or RWR forces. Nevertheless, it remains a potent weapon amongst the periphery pirate bands and insures that the terrible legacy of Amaris is remembered into the modern day."
+}

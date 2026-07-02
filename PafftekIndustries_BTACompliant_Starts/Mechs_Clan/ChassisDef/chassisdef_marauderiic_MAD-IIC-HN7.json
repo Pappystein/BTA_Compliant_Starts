@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "MarauderIIC",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 8400000,
         "Rarity": 4,

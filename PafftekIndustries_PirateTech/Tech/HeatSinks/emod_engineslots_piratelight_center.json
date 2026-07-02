@@ -46,10 +46,10 @@
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Generic",
-        "Model": "Pirate Light",
-        "UIName": "Engine Light[P]",
+        "Model": "Pirate Lighter Fusion",
+        "UIName": "Engine Fusion Lightend[P]",
         "Id": "emod_engineslots_piratelight_center",
-        "Name": "Light Engine [Pirate]",
+        "Name": "Lighter Fusion [Pirate]",
         "Details": "The Light Fusion Engine is mechanically similar to an XL Engine, but uses Lostech energy shielding to allow a mech to survive the destruction of a side torso. The Light Fusion engine is 75% the mass for the same performance, but intrudes into the side torso bays of a BattleMech.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
     },

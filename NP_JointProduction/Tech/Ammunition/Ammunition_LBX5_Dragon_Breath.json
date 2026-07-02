@@ -30,7 +30,7 @@
     "OverheatedDamageMultiplier": 1.1,
     "FireOnSuccessHit": true,
     "TrooperSquadDamageModifier": 3.0,
-    "ProjectilesPerShot": 5,
+    "ProjectilesPerShot": 4,
     "HeatGenerated": 0,
     "HeatGeneratedModifier": 1,
     "ArmorDamageModifier": 1,

@@ -14,7 +14,9 @@
 			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
-			"items": "BattleHammer_Gift",
+			"items": [
+			"BattleHammer_Gift"
+			],
 			"tagSetSourceFile": ""
 		}
 	},
@@ -66,7 +68,7 @@
 							"AddedTags": {
 								"tagSetSourceFile": "",
 								"items": [
-									"BattleHammer_Gift_refused"
+									"BattleHammer_Gift"
 								]
 							},
 							"RemovedTags": {
@@ -104,7 +106,7 @@
 							"Actions": [
 								{
 									"Type": "System_ShowRewards",
-									"value": "itemCollection_BattleHammer",
+									"value": "ItemCollection_PafftekIndustries_Background",
 									"valueConstant": null,
 									"additionalValues": null
 								}

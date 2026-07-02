@@ -1,11 +1,11 @@
 {
-    "Custom": {
-        "AssemblyVariant": {
-            "PrefabID": "Rifleman",
-            "Exclude": true,
-            "Include": false
-        }
-    },
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Rifleman50",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 5900000,
         "Rarity": 3,

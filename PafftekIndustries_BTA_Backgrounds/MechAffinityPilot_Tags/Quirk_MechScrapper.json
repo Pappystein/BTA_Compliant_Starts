@@ -1,0 +1,7 @@
+{
+  "Name": "Quirk_MechScrapper",
+  "Important": false,
+  "PlayerVisible": true,
+  "FriendlyName": "Scrapper",
+  "Description": "Adds one additional random pick for salvage allocation when deployed in battle"
+}

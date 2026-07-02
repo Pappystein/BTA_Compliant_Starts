@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Wolfhound",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "FixedEquipment": [
         {
             "MountedLocation": "Head",

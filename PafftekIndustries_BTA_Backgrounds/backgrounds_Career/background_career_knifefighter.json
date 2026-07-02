@@ -1,0 +1,82 @@
+{
+	"Description": {
+		"Id": "background_career_knifefighter",
+		"Name": "Knife Fighter",
+		"Details": "You became a commander after years as a [[DM.BaseDescriptionDefs[Pafftek_Lore_KnifeFighter], gang knife combatant]].  The escape from the gangs did however come with its own price.  Once you made it into a mercenary outfit of disripute, you quickly got to work learning the ins and outs of combat in a big clompy battlemech.  However your experience as a knife fighter in the gangs actually served you well in melee combat.  A bad mission caused you to separate from that company of disripute as it disentigrated.   You joined up with Raju after bouncing from port to port looking for work. \r\n\n [[DM.BaseDescriptionDefs[Pafftek_Lore_WARNINGSKILL],WARNING READ THIS!]]",
+		"Icon": "envTxrHrld_startGladiator",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Results": {
+		"Scope": "Commander",
+		"Requirements": {
+			"Scope": "Commander",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		},
+		"AddedTags": {
+			"items": [
+				"commander_career_knifefighter",
+				"pilot_vehicle_crew",
+				"Quirk_KnifeFighter",
+				"pilot_commander_permissions",
+				"pilot_criminal"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RemovedTags": null,
+		"Stats": [
+			{
+				"typeString": "System.Int32",
+				"name": "Piloting",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Gunnery",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Tactics",
+				"value": 0,
+				"valueConstant": ""
+			},
+			{
+				"typeString": "System.Int32",
+				"name": "Guts",
+				"value": 0,
+				"valueConstant": ""
+			}
+		],
+		"Actions": null,
+		"ForceEvents": [
+			{
+				"Scope": "Company",
+				"EventID": "Pafftek_Event_KnifeFighter",
+				"MinDaysWait": 2,
+				"MaxDaysWait": 2,
+				"Probability": 100
+			}
+		],
+		"TemporaryResult": false,
+		"ResultDuration": 0
+	},
+	"BackgroundSection": 1,
+	"UIOrdering": 16,
+	"OptionName": "Knife Fighter",
+	"OptionMusicTrigger": "",
+	"OptionDescription": "You became a commander after years as a gang knife combatant.",
+	"Intro": "You became a commander after years as a melee gang knife combatant.",
+	"BioDescription": "You became a commander after years as a gang knife combatant.\r\n"
+}

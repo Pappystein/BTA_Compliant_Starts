@@ -1,5 +1,12 @@
 {
-    "Description": {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Venom",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
         "Cost": 3494160,
         "Rarity": 4,
         "Purchasable": true,

@@ -40,7 +40,7 @@
 	},
 	"simGameMechPartCost": 800000,
 	"Version": 1,
-	"Locations": [
+"Locations": [
 		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
@@ -113,7 +113,7 @@
 			"AssignedArmor": 130,
 			"AssignedRearArmor": -1
 		}
-	],
+	],	
 	"inventory": [
 		{
 			"MountedLocation": "LeftArm",
