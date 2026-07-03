@@ -7,15 +7,15 @@
 		}
 	},
 	"Description": {
-		"Cost": 1624000,
+		"Cost": 1714000,
 		"Rarity": 0,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Flea",
-		"Id": "chassisdef_flea_FLE-14",
+		"Id": "chassisdef_flea_FLE-26",
 		"Name": "Flea",
-		"Details": "Entering production in 2519 the FLE-14 Flea was an attempt to create an ultra-light BattleMech. Weighing a mere fifteen tons, it could arguably be regarded as a different 'Mech design than the true Flea. It was capable of a maximum ground speed of nearly 150km/h with a 120 meter jump capability. Its weapons and armor however were very light: Only one ton of armor protected the unit, and the single Medium Laser mounted in the right arm was barely enough to make it a viable battlefield unit.",
+		"Details": "Wrought by happy accident the Flea 26 is a bastardization of the Flea and the ultralight Flea variations.  Why? because an entire run of the precious endosteel was made for the Oberon Confederation.  It isn't that this rather lengthy run of structures was made that was the issue, but rather there was no quality control and none, not a single one of the structures was to spec.   So instead of a new twenty ton Flea variant, 17.5 ton Fleas were delivered.   Because the structure was non standard, so was everything else. With a small cockpit and a fragile Jury-rigged XL engine, backed by only 10 single heat sinks and paltry armor, it takes a skilled pilot to get the kind of performance from the mech that the great houses would consider acceptable - but pirates can't be too picky. On the up side, It's armed with one each of a Large, Medium, and Small lasers, providing reliable, ammo free firepower. Between it's speed and the large laser, it can often keep the range open with larger, more capable combatants.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>\n\n <b><color=#5F24AC>Designed by: Regalia</color></b>",
 		"Icon": "uixTxrIcon_flea"
 	},
 	"MovementCapDefID": "movedef_flea_FLE-15",
@@ -23,10 +23,10 @@
 	"HardpointDataDefID": "hardpointdatadef_flea",
 	"PrefabIdentifier": "chrPrfMech_fleaBase-001",
 	"PrefabBase": "flea",
-	"Tonnage": 15,
-	"InitialTonnage": 1.5,
+	"Tonnage": 17.5,
+	"InitialTonnage": 1.75,
 	"weightClass": "LIGHT",
-	"BattleValue": 1642000,
+	"BattleValue": 1714000,
 	"Heatsinks": 0,
 	"TopSpeed": 210,
 	"TurnRadius": 90,
@@ -46,12 +46,12 @@
 	"Signature": 0,
 	"Radius": 4,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 15,
+	"MeleeDamage": 17,
 	"MeleeInstability": 5,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 15,
+	"DFADamage": 17,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 15,
+	"DFASelfDamage": 17,
 	"DFAInstability": 5,
 	"Locations": [
 		{
@@ -77,9 +77,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 20,
+			"MaxArmor": 26,
 			"MaxRearArmor": -1,
-			"InternalStructure": 10
+			"InternalStructure": 13
 		},
 		{
 			"Location": "LeftTorso",
@@ -91,9 +91,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
-			"MaxRearArmor": 20,
-			"InternalStructure": 20
+			"MaxArmor": 46,
+			"MaxRearArmor": 23,
+			"InternalStructure": 23
 		},
 		{
 			"Location": "CenterTorso",
@@ -105,9 +105,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 50,
-			"MaxRearArmor": 25,
-			"InternalStructure": 25
+			"MaxArmor": 56,
+			"MaxRearArmor": 28,
+			"InternalStructure": 28
 		},
 		{
 			"Location": "RightTorso",
@@ -119,9 +119,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
-			"MaxRearArmor": 20,
-			"InternalStructure": 20
+			"MaxArmor": 46,
+			"MaxRearArmor": 23,
+			"InternalStructure": 23
 		},
 		{
 			"Location": "RightArm",
@@ -137,27 +137,27 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 20,
+			"MaxArmor": 26,
 			"MaxRearArmor": -1,
-			"InternalStructure": 10
+			"InternalStructure": 13
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 30,
+			"MaxArmor": 36,
 			"MaxRearArmor": -1,
-			"InternalStructure": 15
+			"InternalStructure": 18
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 30,
+			"MaxArmor": 36,
 			"MaxRearArmor": -1,
-			"InternalStructure": 15
+			"InternalStructure": 18
 		}
 	],
 	"LOSSourcePositions": [
@@ -204,7 +204,7 @@
 			"z": 0
 		}
 	],
-	"VariantName": "FLE-14",
+	"VariantName": "FLE-26",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
@@ -214,8 +214,8 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Ultralight Recon",
-	"YangsThoughts": "Entering production in 2519 the FLE-14 Flea was an attempt to create an ultra-light BattleMech. Weighing a mere fifteen tons, it could arguably be regarded as a different 'Mech design than the true Flea. It was capable of a maximum ground speed of nearly 150km/h with a 120 meter jump capability. Its weapons and armor however were very light: Only one ton of armor protected the unit, and the single Medium Laser mounted in the right arm was barely enough to make it a viable battlefield unit.",
+	"StockRole": "Accident Waiting To Happen",
+	"YangsThoughts": "Wrought by happy accident the Flea 26 is a bastardization of the Flea and the ultralight Flea variations.  Why? because an entire run of the precious endosteel was made for the Oberon Confederation.  It isn't that this rather lengthy run of structures was made that was the issue, but rather there was no quality control and none, not a single one of the structures was to spec.   So instead of a new twenty ton Flea variant, 17.5 ton Fleas were delivered.   Because the structure was non standard, so was everything else. With a small cockpit and a fragile Jury-rigged XL engine, backed by only 10 single heat sinks and paltry armor, it takes a skilled pilot to get the kind of performance from the mech that the great houses would consider acceptable - but pirates can't be too picky. On the up side, It's armed with one each of a Large, Medium, and Small lasers, providing reliable, ammo free firepower. Between it's speed and the large laser, it can often keep the range open with larger, more capable combatants.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
