@@ -9,7 +9,7 @@
             "WpnAccuracy: +1",
             "WeaponAttachmentCompatible: Laser Insulator",
             "WeaponAttachmentCompatible: Laser FCS",
-            "WeaponAttachmentCompatible: Laser Pulse Module"
+			"WeaponJAMFlat: 7%"
         ]
     },
     "Category": "Energy",
@@ -25,7 +25,7 @@
     "AmmoCategory": "NotSet",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 14,
-    "Damage": 22,
+    "Damage": 25,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
@@ -40,6 +40,9 @@
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
     "Instability": 0,
+	"FlatJammingChance": 0.07,
+	"PersistentJamming": false,	
+	"GunneryJammingMult": 0.05,		
     "WeaponEffectID": "WeaponEffect-Weapon_Laser_Medium",
     "Description": {
         "Cost": 60000,
@@ -50,7 +53,7 @@
         "UIName": "M Laser [P]",
         "Id": "Weapon_Laser_MediumLaser_80-PIRATE",
         "Name": "M Laser",
-        "Details": "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Details": "The Hellion produced Medium Lasers is often held up as the pinnacle of weapon development, it is not the best at anything but it does well in all conditions.  That may be true but the Hellzya Laser Emporium's take on the medium laser wasn't included in the competition.  Dealing more damage for slightly more heat with few other drawbacks makes it a solid contender for \"Medium Laser King\".   Or So Hellzya LE would want you to think.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA": "",
@@ -72,8 +75,7 @@
             "LaserInsulatorAttachable.{location}",
             "LaserInsulatorSupported-SingleShot",
             "LaserFCSSupported-SingleShot",
-            "WebbTCSupported-SingleShot",
-            "LaserPulseSupported-SingleShot",
+            "WebbTCSupported-SingleShot"
             "QuirkAvatarSupported-MediumLaser",
             "QuirkMongooseSupported-MediumLaser",
             "QuirkMercuryIISupported-MediumLaser"
