@@ -8,11 +8,12 @@
     "Contact": "",
 	"Manifest": [
 
-			{ "Type": "AdvancedJSONMerge","Path": "DefaultUpdate/"},
-			{ "Type": "CCUnitTypes","Path": "UnitTypes/", "ShouldMergeJSON": false }
+			{ "Type": "CCUnitTypes","Path": "UnitTypes", "ShouldMergeJSON": false },
+			{ "Type": "AdvancedJSONMerge","Path": "DefaultUpdate"}
+			
   ],
     "OptionallyDependsOn": ["BattleTech Advanced LV Overide"],
-	"DependsOn": [],
+	"DependsOn": ["BT Advanced Core"],
 	"ConflictsWith": [				
 	]
 }
