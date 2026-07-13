@@ -1,0 +1,12 @@
+{
+    "TargetID": "AffinityDef_chassis_Sharpshooter",
+    "Instructions": [
+        {
+            "JSONPath": "affinityData.chassisNames",
+            "Action": "ArrayConcat",
+            "Value": [
+                "Venom_35"
+            ]
+        }
+    ]
+}

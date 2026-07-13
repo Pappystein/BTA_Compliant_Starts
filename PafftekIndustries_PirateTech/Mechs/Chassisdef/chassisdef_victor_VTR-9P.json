@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Victor_80",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 8100000,
         "Rarity": 4,

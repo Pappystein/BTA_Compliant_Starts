@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Quickdraw_60",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 6404830,
         "Rarity": 4,

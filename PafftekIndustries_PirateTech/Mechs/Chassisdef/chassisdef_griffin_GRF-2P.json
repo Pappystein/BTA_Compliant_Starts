@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Griffin_55",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 5054000,
         "Rarity": 2,

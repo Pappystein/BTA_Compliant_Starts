@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Dervish_55",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 5200000,
         "Rarity": 2,

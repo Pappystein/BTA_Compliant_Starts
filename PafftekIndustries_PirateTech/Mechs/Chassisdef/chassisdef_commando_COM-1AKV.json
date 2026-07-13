@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Commando_25",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 450000,
         "Rarity": 1,

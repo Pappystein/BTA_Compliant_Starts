@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hunchback_50",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 4161400,
         "Rarity": 4,

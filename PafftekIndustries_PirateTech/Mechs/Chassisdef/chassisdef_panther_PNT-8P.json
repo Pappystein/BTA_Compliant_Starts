@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Panther_35",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 2016760,
         "Rarity": 3,

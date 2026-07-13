@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Banshee_95",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",

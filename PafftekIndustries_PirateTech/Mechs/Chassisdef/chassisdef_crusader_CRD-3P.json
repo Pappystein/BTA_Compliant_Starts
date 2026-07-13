@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Crusaider_65",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 7380000,
         "Rarity": 2,

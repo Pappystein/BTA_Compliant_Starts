@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Wolverine_55",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 5000000,
         "Rarity": 1,

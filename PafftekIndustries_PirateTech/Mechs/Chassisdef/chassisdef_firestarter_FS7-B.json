@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Firestarter_35",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 2556000,
         "Rarity": 2,

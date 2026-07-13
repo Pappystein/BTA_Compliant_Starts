@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Catapult_65",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 6858430,
         "Rarity": 4,

@@ -1,32 +1,32 @@
 {
-	"Custom": {
-		"AssemblyVariant": {
-			"PrefabID": "Marauder_75",
-			"Exclude": false,
-			"Include": true
-		}
-	},
+    "Custom": {
+        "AssemblyVariant": {
+            "PrefabID": "Maelstrom_75",
+            "Exclude": false,
+            "Include": true
+        }
+    },
     "Description": {
         "Cost": 7765630,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Marauder",
-        "Id": "chassisdef_marauder_MAD-1PR",
-        "Name": "Marauder",
-        "Details": "Taking pages from the Marian Hegemony, the various pirate bands made a minature version of the Rocket-Rauder as they commonly called the Marauder II MAD-4HB.  Unlike the Hegmony's entrant into the Rocket-Rauder world, the Pirate Bands tend to use reloaders for Gyrojets and Rocket Launchers, reducing the heat impulse and increasing the ability to carry enough armor or Heatsinks.   In theory... the fact is these are still rather fragile mechs.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
-        "Icon": "uixTxrIcon_marauder"
+        "UIName": "Redback Maelstrom",
+        "Id": "chassisdef_maelstrom_MTR-C1",
+        "Name": "Redback Maelstrom",
+        "Details": "One of the rare designs produced by the ill-fated Clan Widowmaker, the Maelstrom—known as the Redback among the Clans—was popular with Widowmaker Mechwarriors after Operation Klondike. The design mounted an Enhanced ER PPC, a Clan standard ER large laser, two SLDF surplus medium pulse lasers and a prototype ER medium laser.  Given the quantity produced by Clan Widowmaker and the advantages the mech had at the time it saw limited production with several of the surviving clans and survived to be used as a Solahma and garrision units.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+        "Icon": "uixTxrIcon_dragonfire"
     },
-    "MovementCapDefID": "movedef_marauder_MAD-3R",
+    "MovementCapDefID": "movedef_bushwacker",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_marauder",
-    "PrefabIdentifier": "chrPrfMech_marauderBase-001",
-    "PrefabBase": "marauder",
+    "HardpointDataDefID": "hardpointdatadef_blackpython",
+    "PrefabIdentifier": "chrprfmech_blackpythonbase-001",
+    "PrefabBase": "blackpython",
     "Tonnage": 75,
     "InitialTonnage": 7.5,
     "weightClass": "HEAVY",
-    "BattleValue": 7124000,
+    "BattleValue": 0,
     "Heatsinks": 0,
     "TopSpeed": 64,
     "TurnRadius": 90,
@@ -60,6 +60,10 @@
                 {
                     "WeaponMountID": "Energy",
                     "Omni": false
+                },				
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -78,10 +82,6 @@
                 {
                     "WeaponMountID": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMountID": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -93,10 +93,6 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMountID": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMountID": "Missile",
                     "Omni": false
@@ -114,7 +110,20 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMountID": "Energy",
+                    "Omni": false
+                },				
+                {
+                    "WeaponMountID": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 17,
             "MaxArmor": 230,
@@ -124,14 +133,6 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-                {
-                    "WeaponMountID": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMountID": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMountID": "AntiPersonnel",
                     "Omni": false
@@ -152,10 +153,6 @@
                 },
                 {
                     "WeaponMountID": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMountID": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -228,33 +225,23 @@
             "z": -2.5
         }
     ],
-    "VariantName": "MAD-1PR",
+    "VariantName": "MTR-C1",
     "ChassisTags": {
         "items": [
             "ArmLimitLowerRight",
             "ArmLimitLowerLeft",
             "HeavyMech",
-            "PirateMech"
+			"ClanMech"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper & Ranged Assault",
-    "YangsThoughts": "Boss, you are well aware that the reloaders tend to jam.  I don't understand why they went with those on this mech.  It has both really high tech and really low tech gear on it boss!",
+    "StockRole": "Fast Cavalry Mech",
+    "YangsThoughts": "One of the rare designs produced by the ill-fated Clan Widowmaker, the Maelstrom—known as the Redback among the Clans—was popular with Widowmaker Mechwarriors after Operation Klondike. The design mounted an Enhanced ER PPC, a Clan standard ER large laser, two SLDF surplus medium pulse lasers and a prototype ER medium laser.  Given the quantity produced by Clan Widowmaker and the advantages the mech had at the time it saw limited production with several of the surviving clans and survived to be used as a Solahma and garrision units.",
     "FixedEquipment": [
-        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_Quirk_CommandMech_Marauder",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
+	
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_structureslots_endosteel_hacked",
+            "ComponentDefID": "emod_structureslots_standard",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

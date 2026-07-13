@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Trebuchet_50",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 4118690,
         "Rarity": 5,

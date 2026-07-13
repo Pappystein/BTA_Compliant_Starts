@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Anvil_60",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 6872000,
         "Rarity": 2,

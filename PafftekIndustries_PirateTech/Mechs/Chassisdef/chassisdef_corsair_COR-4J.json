@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Corsair_75",
+			"Exclude": false,
+			"Include": true
+		}
+	},
     "Description": {
         "Cost": 12490000,
         "Rarity": 4,

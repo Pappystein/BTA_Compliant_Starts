@@ -3,7 +3,8 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "Strider3_40"
+      "Strider3_40",
+	  "ShadowhawkLAM_55"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
