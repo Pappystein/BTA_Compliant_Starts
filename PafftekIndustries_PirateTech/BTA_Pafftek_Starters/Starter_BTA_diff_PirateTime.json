@@ -14,7 +14,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingSystems",
-						"ConstantValue": "Barataria"
+						"ConstantValue": "Maximillian,Barataria,Toland,Placida"
 					},
 					{
 						"ConstantType": "CareerMode",
@@ -24,7 +24,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "FactionReputation",
-						"ConstantValue": "Circinus:10"
+						"ConstantValue": "Circinus:10,Oberon:10"
 					}
 				]
 			}

@@ -1,0 +1,143 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_Food_Storage1",
+		"Name": "Bountiful food supply",
+		"Details": "An internal public address page on the dropship rings out: [[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] \r\n\r\n\"Commander, please report to your office, your 10:00 hours briefing is ready.\" \r\nSeveral minutes later you arrive in your office to find an irate Darius, and a laughing Yang and Farah. \"Up to your elbows in the food storage again I see,\" sneers Darius.  \"Give the Commander a break Darius!\" both Yang and Sumire say almost in sync.  But your reply takes the thunder right out of Darius's angst: \"We are throwing a small party with the extra food I just found.  It is almost to its expiration date, so I would rather the crew enjoy better food than throw it out.\"",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 3000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": null,
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "FoodStorage1",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Efficencies in food storage result in an excess of food for a time.",
+						"Icon": null
+					},
+					"Weight": 70,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage1"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": null,
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "1",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				},
+				{
+					"Description": {
+						"Id": "outcome_0_1",
+						"Name": "Continue",
+						"Details": "Efficencies in food storage result in enough food to throw a blow-out party.",
+						"Icon": null
+					},
+					"Weight": 30,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage1"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": null,
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "3",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

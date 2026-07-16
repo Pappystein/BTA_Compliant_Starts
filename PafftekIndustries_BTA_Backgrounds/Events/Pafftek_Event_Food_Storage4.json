@@ -1,0 +1,188 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_Food_Storage4",
+		"Name": "Huh, that is my favorite Fruit!",
+		"Details": "You walk buy a table of Mech and Med techs talking, one suddenly spies a piece of fruit on anothers food tray. \"Hey! That is my favorite fruit! I need to go get some\"  You continue on and just smile. It seems your talk with Darius has somehow done some good.",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 50000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "FoodStorage3",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "FoodStorage4",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Some how new fruits are showing up in reacent food orders. Mech Tech skill level +2",
+						"Icon": null
+					},
+					"Weight": 33,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage4"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "MechTechSkill",
+									"value": "2",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": null
+						}
+					]
+				},
+				{
+					"Description": {
+						"Id": "outcome_0_1",
+						"Name": "Continue",
+						"Details": "Some how new fruits are showing up in reacent food orders. Med Tech skill level +2",
+						"Icon": null
+					},
+					"Weight": 33,
+					"Results": [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "",
+								"items": [
+									"FoodStorage4"
+								]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : null
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MedTechSkill",
+                                    "value" : "2",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : null
+                        }
+					]
+				},
+				{
+					"Description": {
+						"Id": "outcome_0_2",
+						"Name": "Continue",
+						"Details": "Some how new fruits are showing up in reacent food orders. Med Tech and Mech Tech skill level +1",
+						"Icon": null
+					},
+					"Weight": 34,
+					"Results": [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "",
+								"items": [
+									"FoodStorage4"
+								]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : null
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MedTechSkill",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+								{
+									"typeString": "System.Int32",
+									"name": "MechTechSkill",
+									"value": "1",
+									"set": false,
+									"valueConstant": null
+								}								
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : null
+                        }
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

@@ -1,0 +1,176 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_Food_Storage6",
+		"Name": "Who raided the food supply?",
+		"Details": "Dinner in the mess-hall: You staned to address all the crew assembled \r\n\r\n\"As some of you may already know, we have had our ups and downs with food supply.  However, today I need to congradulate Executive Officer Darius on comming through and learning about proper food management.\" Of course this announcment is met with groans and jeers from the assembled crew. \r\n\"Now, now! old on a moment.\" Thankfully the crew calms down a bit. \r\n\"In the past few food order cycles, Darius has been attentive and conservative in his attempts to maximize our proffit in the food department.   What you all have yet to realize is those weird new bonus food supplies you were all attributing to me, are from Darius.\" \r\n A gasp echos from the suddenly quiet assembly of crew. \r\n\"Yes, Darius was quietly providing those bonus of your prefered foods solely by paying attention to what you all ate and listneing to you all lammenting not having food X\"",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 10000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": ["event_mw_firstHarvest",
+					"FoodStorage5"
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "FoodStorage6",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [
+		{
+			"Scope": "SecondaryMechWarrior",
+			"Requirements": {
+				"Scope": "SecondaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"pilot_bd_Darius"
+					]
+				}
+			}
+		},
+		{
+			"Scope": "TertiaryMechWarrior",
+			"Requirements": {
+				"Scope": "TertiaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"pilot_tbone_Dariuus"
+					]
+				}
+			}
+		}
+	],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Darius is assigned to clean up the next six months of food orders and help the commander re-organize the food storage in all locations across the Argo.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage6"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": null,
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "2",
+									"set": false,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Funds",
+									"value": "250000",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+                        {
+                            "Scope" : "SecondaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/PilotTags",
+                                "items" : [
+                                    "pilot_morale_high"
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : null
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 14
+                        },
+                        {
+                            "Scope" : "TertiaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/PilotTags",
+                                "items" : [
+                                    "pilot_morale_high"
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : null
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 14
+                        }
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

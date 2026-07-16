@@ -1,7 +1,7 @@
 {
     "Custom": {
         "AssemblyVariant": {
-            "PrefabID": "Woodsman2_75",
+            "PrefabID": "Woodsman2",
             "Exclude": false,
             "Include": true
         }

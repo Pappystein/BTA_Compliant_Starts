@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Whitworth_40",
+			"PrefabID": "Whitworth",
 			"Exclude": false,
 			"Include": true
 		}

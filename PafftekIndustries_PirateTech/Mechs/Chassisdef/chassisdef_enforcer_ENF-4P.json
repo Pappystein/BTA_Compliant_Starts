@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Enforcer_50",
+			"PrefabID": "Enforcer",
 			"Exclude": false,
 			"Include": true
 		}

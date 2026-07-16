@@ -1,0 +1,157 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_Food_Storage2",
+		"Name": "Who raided the food supply?",
+		"Details": "An internal public address page on the dropship rings out: [[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] \r\n\r\n\"Darius, Please report to the foward food storage in Engineering Pod 2.\"  \"",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 1000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "FoodStorage1",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "FoodStorage2",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Darius severly misshandeled the food supplies, banking on efficent eating by the crew.  The crew must purchase additional food to make it through until the next supply cycle.",
+						"Icon": null
+					},
+					"Weight": 80,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage2"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": null,
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "-4",
+									"set": false,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Funds",
+									"value": "-10000",
+									"set": false,
+									"valueConstant": null
+								}								
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				},
+				{
+					"Description": {
+						"Id": "outcome_0_1",
+						"Name": "Continue",
+						"Details": "Darius misshandeled the food orders to try and reduce costs and failed to do so.  The crew is on slightly reduced rations until the next supply cycle.",
+						"Icon": null
+					},
+					"Weight": 20,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage2"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": null,
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "-1",
+									"set": false,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Funds",
+									"value": "500",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

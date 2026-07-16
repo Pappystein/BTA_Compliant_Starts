@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "background_career_farmer",
 		"Name": "Food production specalist",
-		"Details": "You became a commander after years as an [[DM.BaseDescriptionDefs[Pafftek_Lore_Farmer],On orbit Hydroponics Farmer]]. Your time on orbit was lonly with no one else assigned to your station.  You are glad to have walked away from that life.",
+		"Details": "You became a commander after years as an [[DM.BaseDescriptionDefs[Pafftek_Lore_Farmer],On orbit Hydroponics Farmer]]. Your time on orbit was lonly with no one else assigned to your station.  You are glad to have walked away from that life.   Starting moral is reduced by 1 due to the friction of being a loner in command.",
 		"Icon": "envTxrHrld_startMerchantGuard",
 		"Cost": 0,
 		"Rarity": 0,

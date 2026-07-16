@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Spider_30",
+			"PrefabID": "Spider",
 			"Exclude": false,
 			"Include": true
 		}

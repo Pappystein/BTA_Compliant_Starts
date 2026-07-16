@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Ostscout_35",
+			"PrefabID": "Ostscout",
 			"Exclude": false,
 			"Include": true
 		}

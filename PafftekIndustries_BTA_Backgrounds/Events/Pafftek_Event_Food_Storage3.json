@@ -1,0 +1,185 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_Food_Storage3",
+		"Name": "Who raided the food supply?",
+		"Details": "You stand across from Darius in your office.\r\n\r\n\"Darius, you need to stop trying to min-max our food expenses.  You keep ruining the good morale of our comapany trying to penny pinch, just issue the standard allotment of C-Bills per crew memeber as was done before I started imporving the food supply on my own.\"",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 10000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "FoodStorage2",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "FoodStorage3",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [
+		{
+			"Scope": "SecondaryMechWarrior",
+			"Requirements": {
+				"Scope": "SecondaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"pilot_bd_Darius"
+					]
+				}
+			}
+		},
+		{
+			"Scope": "TertiaryMechWarrior",
+			"Requirements": {
+				"Scope": "TertiaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"pilot_tbone_Dariuus"
+					]
+				}
+			}
+		}
+	],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "Darius is assigned to clean up the next six months of food orders and help the commander re-organize the food storage in all locations across the Argo.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage3"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Actions": null,
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "5",
+									"set": false,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Funds",
+									"value": "-100000",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_SetTimeout",
+									"value": "7",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 7
+						},
+						{
+							"Scope": "TertiaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_SetTimeout",
+									"value": "7",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 7
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

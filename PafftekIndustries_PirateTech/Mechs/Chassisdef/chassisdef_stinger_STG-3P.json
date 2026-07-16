@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Stinger_20",
+			"PrefabID": "Stinger",
 			"Exclude": false,
 			"Include": true
 		}

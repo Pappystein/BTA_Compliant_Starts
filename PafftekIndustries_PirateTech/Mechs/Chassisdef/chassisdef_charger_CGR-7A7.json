@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Charger_80",
+			"PrefabID": "Charger",
 			"Exclude": false,
 			"Include": true
 		}

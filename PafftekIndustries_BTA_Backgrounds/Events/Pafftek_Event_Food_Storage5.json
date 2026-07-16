@@ -1,0 +1,105 @@
+{
+	"Description": {
+		"Id": "Pafftek_Event_Food_Storage5",
+		"Name": "Wait! are these here for us?!",
+		"Details": "You are on the bridge, and overhear the Bridge crew trying to not attract Sumire's attention talking about the bowl of candy as well as the new coffee press in the crew rest area off to the side of the bridge proper.",
+		"Icon": "uixTxrSpot_MechBay.png"
+	},
+	"Scope": "Company",
+	"Weight": 50000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": "FoodStorage4",
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": "FoodStorage5",
+			"tagSetSourceFile": ""
+		}
+	},
+	"RequirementComparisons": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "Continue",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Continue",
+						"Details": "The reacent crew comforts added for the dropship crew have increased efficency during travel.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"FoodStorage5"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Single",
+									"name": "DriveTravelMultiplier",
+									"value": "-0.1",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": null
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL"
+}

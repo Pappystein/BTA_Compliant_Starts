@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "MarauderII_100",
+			"PrefabID": "MarauderII",
 			"Exclude": false,
 			"Include": true
 		}
