@@ -18,22 +18,7 @@
 			"tagSetSourceFile": ""
 		}
 	},
-	"RequirementComparisons": [
-		{
-			"Scope": "Commander",
-			"RequirementTags": {
-				"items": [
-					"commander_career_farmer"
-				],
-				"tagSetSourceFile": ""
-			},
-			"ExclusionTags": {
-				"items": [],
-				"tagSetSourceFile": ""
-			},
-			"RequirementComparisons": []
-		}
-	],
+
 	"AdditionalRequirements": [],
 	"AdditionalObjects": [],
 	"Options": [

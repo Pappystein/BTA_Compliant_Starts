@@ -10,8 +10,10 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"items": ["event_mw_firstHarvest",
-					"FoodStorage5"
+			"items": [
+				"event_mw_firstHarvest",
+				"FoodStorage5"
+			],
 			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
@@ -19,22 +21,6 @@
 			"tagSetSourceFile": ""
 		}
 	},
-	"RequirementComparisons": [
-		{
-			"Scope": "Commander",
-			"RequirementTags": {
-				"items": [
-					"commander_career_farmer"
-				],
-				"tagSetSourceFile": ""
-			},
-			"ExclusionTags": {
-				"items": [],
-				"tagSetSourceFile": ""
-			},
-			"RequirementComparisons": []
-		}
-	],
 	"AdditionalRequirements": [],
 	"AdditionalObjects": [
 		{
@@ -115,44 +101,44 @@
 							"TemporaryResult": false,
 							"ResultDuration": 0
 						},
-                        {
-                            "Scope" : "SecondaryMechWarrior",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
-                                "items" : [
-                                    "pilot_morale_high"
-                                ]
-                            },
-                            "RemovedTags" : {
-                                "tagSetSourceFile" : "",
-                                "items" : null
-                            },
-                            "Stats" : null,
-                            "Actions" : null,
-                            "ForceEvents" : null,
-                            "TemporaryResult" : true,
-                            "ResultDuration" : 14
-                        },
-                        {
-                            "Scope" : "TertiaryMechWarrior",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
-                                "items" : [
-                                    "pilot_morale_high"
-                                ]
-                            },
-                            "RemovedTags" : {
-                                "tagSetSourceFile" : "",
-                                "items" : null
-                            },
-                            "Stats" : null,
-                            "Actions" : null,
-                            "ForceEvents" : null,
-                            "TemporaryResult" : true,
-                            "ResultDuration" : 14
-                        }
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_morale_high"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": null
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 14
+						},
+						{
+							"Scope": "TertiaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_morale_high"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": null
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 14
+						}
 					]
 				}
 			],
