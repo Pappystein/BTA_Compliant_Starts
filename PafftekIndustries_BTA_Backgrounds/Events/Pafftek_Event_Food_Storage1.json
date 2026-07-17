@@ -8,17 +8,28 @@
 	"Scope": "Company",
 	"Weight": 3000,
 	"Requirements": {
-		"Scope": "Commander",
-		"RequirementTags": {
-			"items": "commander_career_farmer",
-			"tagSetSourceFile": ""
-		},
+		"Scope": "Company",
 		"ExclusionTags": {
 			"items": "FoodStorage1",
 			"tagSetSourceFile": ""
 		}
 	},
-	"AdditionalRequirements": [],
+	"AdditionalRequirements": [
+		{
+			"Scope": "Commander",
+			"RequirementTags": {
+				"items": [
+					"commander_career_farmer"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
+		}
+	],
 	"AdditionalObjects": [],
 	"Options": [
 		{
