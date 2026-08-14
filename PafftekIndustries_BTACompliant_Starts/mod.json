@@ -52,6 +52,10 @@
 		},
 		{
 			"Type": "UpgradeDef",
+			"Path": "Tech/OmniQuirks"
+		},
+		{
+			"Type": "UpgradeDef",
 			"Path": "Tech/Internals"
 		},
 		{

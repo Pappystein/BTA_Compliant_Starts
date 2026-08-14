@@ -8,6 +8,7 @@
 		"Heavy Metal Unit Module/shops",
 		"Flashpoint Unit Module/shops",
 		"Urban Warfare Unit Module/shops",
+		"Community Content/data",
 		"PafftekIndustries_BTA_Start_Adendum/PFT_Store_Update"
 	],
 	"FactoryListPrefix": "BTA_List_",
@@ -28,10 +29,11 @@
     },
     "_DefTypeDisplayOrder_Description": "Controls the order in which item categories appear in the Factory Production panel. Reorder this list to change display order.",
     "DefTypeDisplayOrder": [
-        "HeatSinkDef",
+        
         "WeaponDef",
         "AmmunitionBoxDef",
         "UpgradeDef",
+		"HeatSinkDef",
         "JumpJetDef",
         "MechDef",
         "VehicleDef"
@@ -303,6 +305,7 @@
             "BT Advanced Clan Gear/engines",
             "BT Advanced Sanctuary Worlds Equipment/heatsink",
             "VIPAdvanced/TankEngines",
+            "Community Content/heatsink"
 			"PafftekIndustries_PirateTech/Tech/HeatSinks",
 			"PafftekIndustries_BTACompliant_Starts/Tech/HeatSinks"
         ],
@@ -314,6 +317,7 @@
             "BT Advanced Sanctuary Worlds Equipment/weapon",
             "Heavy Metal Equipment Module/weapon",
             "VIPAdvanced/TankWeapons",
+            "Community Content/weapon"
 			"PafftekIndustries_BTACompliant_Starts/Tech/Weapons",
 			"PafftekIndustries_BTACompliant_Starts/Tech/Weapons_Super",
 			"PafftekIndustries_PirateTech/Tech/Weapons"
@@ -324,22 +328,31 @@
             "CustomAmmoCategories/AMS",
             "CustomAmmoCategories/Artillery",
             "CustomAmmoCategories/Autocannons",
+            "CustomAmmoCategories/Chem Laser",
+            "CustomAmmoCategories/Flamer",
             "CustomAmmoCategories/Gauss",
+            "CustomAmmoCategories/GrenadeLauncher",
+            "CustomAmmoCategories/HVAC",
+            "CustomAmmoCategories/Industrial",
             "CustomAmmoCategories/LBX",
             "CustomAmmoCategories/LRM",
             "CustomAmmoCategories/MG",
+            "CustomAmmoCategories/Mortar",
             "CustomAmmoCategories/MRM",
             "CustomAmmoCategories/NARC",
+            "CustomAmmoCategories/Plasma",
+            "CustomAmmoCategories/Rifles",
             "CustomAmmoCategories/RotaryAC",
             "CustomAmmoCategories/SRM",
-            "CustomAmmoCategories/UltraAC",
-            "CustomAmmoCategories/Flamer",
-            "CustomAmmoCategories/Plasma",
-            "CustomAmmoCategories/HVAC",
-            "CustomAmmoCategories/Mortar",
+            "CustomAmmoCategories/StratOps",
+            "CustomAmmoCategories/Superweapon",
+            "CustomAmmoCategories/Taser",
             "CustomAmmoCategories/Thunderbolt",
+            "CustomAmmoCategories/UltraAC",
             "Heavy Metal Equipment Module/ammunitionBox",
+            "Community Content/ammobox"
 			"PafftekIndustries_BTACompliant_Starts/AmmoBoxes",
+			
 			
         ],
         "UpgradeDef": [
@@ -361,6 +374,10 @@
             "BT Advanced Clan Gear/internals",
             "BT Advanced Sanctuary Worlds Equipment/upgrade",
             "Heavy Metal Equipment Module/upgrades",
+            "ResultOrientedItems/items",
+			"StrategicOperations/contracts",
+			"StrategicOperations/upgrade",
+            "Community Content/upgrade"
 			"PafftekIndustries_PirateTech/Tech/Internals",
 			"PafftekIndustries_PirateTech/Tech/Upgrades",
 			"PafftekIndustries_BTACompliant_Sanctuary/Upgrades",
@@ -373,15 +390,19 @@
             "BT Advanced Gear/MechengineerGear/data/JumpJets",
             "BT Advanced Gear/MechengineerGear/data/vanilla/jumpjets",
             "Heavy Metal Equipment Module/jumpjets",
+            "Community Content/jumpjet"
 			"PafftekIndustries_BTACompliant_Starts/Tech/JumpJets"
         ],
 		"MechDef": [
-			"BT Advanced Mechs/mech",
-			"BT Advanced Clan Mechs/mech",
-			"BT Advanced Sanctuary Worlds Mechs/mech",
-			"BT Advanced Unique Mechs/mech",
-			"Heavy Metal Unit Module/mech",
+            "BT Advanced Mechs/mech",
+            "BT Advanced Clan Mechs/mech",
+            "BT Advanced Sanctuary Worlds Mechs/mech",
+            "BT Advanced Unique Mechs/mech",
 			"BT Advanced Quad Mechs/mech",
+            "Flashpoint Unit Module/mech",
+            "Urban Warfare Unit Module/mech",
+            "Heavy Metal Unit Module/mech",
+            "Community Content/mech"
 			"PafftekIndustries_PirateTech/Mechs/Mechdef",
 			"PafftekIndustries_BTACompliant_Starts/Mechs_Clan/MechDef",
 			"PafftekIndustries_BTACompliant_Starts/Mechs_InnerSphere/Mechdef",

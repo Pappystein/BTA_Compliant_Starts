@@ -384,7 +384,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Attachment_LaserFCS",
+            "ComponentDefID": "Gear_Attachment_SuperweaponFCS",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,

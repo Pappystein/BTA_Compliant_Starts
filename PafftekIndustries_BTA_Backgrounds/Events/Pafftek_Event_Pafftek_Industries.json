@@ -15,7 +15,7 @@
 		},
 		"ExclusionTags": {
 			"items": [
-			"BattleHammer_Gift"
+				"BattleHammer_Gift"
 			],
 			"tagSetSourceFile": ""
 		}
@@ -84,25 +84,6 @@
 									"valueConstant": null
 								}
 							],
-							"Actions": null,
-							"ForceEvents": null,
-							"TemporaryResult": false,
-							"ResultDuration": 0
-						},
-						{
-							"Scope": "Company",
-							"Requirements": null,
-							"AddedTags": {
-								"tagSetSourceFile": "",
-								"items": [
-									"BattleHammer_Gift"
-								]
-							},
-							"RemovedTags": {
-								"tagSetSourceFile": "",
-								"items": []
-							},
-							"Stats": null,
 							"Actions": [
 								{
 									"Type": "System_ShowRewards",

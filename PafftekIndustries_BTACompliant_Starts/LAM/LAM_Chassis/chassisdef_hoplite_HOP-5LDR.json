@@ -6,9 +6,43 @@
             "Include": true
         }
     },
-    "CustomParts": {
-        "CustomParts": []
-    },
+	"CustomParts": {
+		"AlternateRepresentations": [
+			{
+				"PrefabIdentifier": "chrprfmech_hoplitebase-001",
+				"AdditionalPrefabs": [],
+				"PrefabBase": "Hoplite",
+				"HardpointDataDef": "hardpointdatadef_hoplite",
+				"Type": "AirMech",
+				"HoveringSoundStart": "jet_start",
+				"HoveringSoundEnd": "jet_end",
+				"FlyHeight": 40.0,
+				"AirMechVerticalJets": [
+					{
+						"Prefab": "vf11lam_vjets_left_leg",
+						"Attach": "j_LHeel",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					},
+					{
+						"Prefab": "vf11lam_vjets_right_leg",
+						"Attach": "j_RHeel",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					},
+					{
+						"Prefab": "vf11lam_vjets_torso",
+						"Attach": "j_Spine2",
+						"JetsAttachPoints": [
+							"jetAttachPoint"
+						]
+					}
+				]
+			}
+		]
+	},
     "Description": {
         "Cost": 5200000,
         "Rarity": 1,
@@ -210,7 +244,8 @@
             "ArmLimitUpperRight",
             "ArmLimitUpperLeft",
             "MediumMech",
-            "HighTech"
+            "HighTech",
+			"LandAirMech"
         ],
         "tagSetSourceFile": ""
     },

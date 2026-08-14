@@ -1,0 +1,108 @@
+{
+	"MechTags": {
+		"items": [
+			"unit_generic",
+			"unit_bracket_med",
+			"unit_release",
+			"unit_mech",
+			"unit_medium",
+			"unit_ready",
+			"unit_lance_support",
+			"unit_lance_vanguard",
+			"unit_role_sniper",
+			"unit_rarity_5"
+		],
+		"tagSetSourceFile": ""
+	},
+	"ChassisID": "chassisdef_griffin_GRF-3GCN",
+	"HeraldryID": null,
+	"Description": {
+		"Cost": 800000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": null,
+		"Model": null,
+		"UIName": "Griffin GRF-3N",
+		"Id": "mechdef_griffin_GRF-3GCN",
+		"Name": "Griffin",
+		"Details": "<b><color=#ffcc00>NOT A COMPLETE MECH, you have to finish assembling it with parts on hand!!!</color></b>\n\nThe Earthworks Griffin GRF-3N was meant to compete for the role that went to the Champion. After sufficent technology was recovered post 3040, Earthworks put the chassis into production on speculation.   However at the factory in question the long lead items were so slow in arriving due to political, market, and pirate activitiy so Earthworks had well more chassiss made that an the equipment to outfit them.   Using a technique that had been arround since before the KF Fusion drive, the incomplete Griffin chassis were sold as \"Glider Kits\" without any of the removable items you would find on a mech... like its Engine core!  The GRF-3GCN was advertised as a quick cheap way to \"relife\" a worn out Griffin.  \n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Icon": "uixTxrIcon_griffin"
+	},
+	"simGameMechPartCost": 800000,
+	"Version": 1,
+	"Locations": [
+		{
+			"DamageLevel": "Functional",
+			"Location": "Head",
+			"CurrentArmor": 45,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 16,
+			"AssignedArmor": 45,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftArm",
+			"CurrentArmor": 70,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 45,
+			"AssignedArmor": 70,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftTorso",
+			"CurrentArmor": 100,
+			"CurrentRearArmor": 30,
+			"CurrentInternalStructure": 65,
+			"AssignedArmor": 100,
+			"AssignedRearArmor": 30
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "CenterTorso",
+			"CurrentArmor": 100,
+			"CurrentRearArmor": 35,
+			"CurrentInternalStructure": 90,
+			"AssignedArmor": 100,
+			"AssignedRearArmor": 35
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightTorso",
+			"CurrentArmor": 100,
+			"CurrentRearArmor": 30,
+			"CurrentInternalStructure": 65,
+			"AssignedArmor": 100,
+			"AssignedRearArmor": 30
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightArm",
+			"CurrentArmor": 70,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 45,
+			"AssignedArmor": 70,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftLeg",
+			"CurrentArmor": 90,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 65,
+			"AssignedArmor": 90,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightLeg",
+			"CurrentArmor": 90,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 65,
+			"AssignedArmor": 90,
+			"AssignedRearArmor": -1
+		}
+	],
+	"inventory": []
+}

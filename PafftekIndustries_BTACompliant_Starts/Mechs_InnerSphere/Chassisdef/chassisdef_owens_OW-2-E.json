@@ -82,7 +82,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 60,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 30
         },
@@ -96,8 +96,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
+            "MaxArmor": 70,
+            "MaxRearArmor": 30,
             "InternalStructure": 40
         },
         {
@@ -114,8 +114,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 17,
-            "MaxArmor": 110,
-            "MaxRearArmor": 55,
+            "MaxArmor": 94,
+            "MaxRearArmor": 40,
             "InternalStructure": 55
         },
         {
@@ -128,8 +128,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
+            "MaxArmor": 70,
+            "MaxRearArmor": 30,
             "InternalStructure": 40
         },
         {
@@ -146,7 +146,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
-            "MaxArmor": 60,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
             "InternalStructure": 30
         },
@@ -155,7 +155,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 80,
+            "MaxArmor": 74,
             "MaxRearArmor": -1,
             "InternalStructure": 40
         },
@@ -164,7 +164,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 6,
-            "MaxArmor": 80,
+            "MaxArmor": 74,
             "MaxRearArmor": -1,
             "InternalStructure": 40
         }
@@ -217,6 +217,7 @@
     "ChassisTags": {
         "items": [
             "OmniMech",
+			"OmniArmorLock",
             "ArmLimitUpperRight",
             "ArmLimitUpperLeft",
             "LightMech"
@@ -334,7 +335,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Gyro_XL_Omni",
+            "ComponentDefID": "Gear_Gyro_Omni_Owens2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

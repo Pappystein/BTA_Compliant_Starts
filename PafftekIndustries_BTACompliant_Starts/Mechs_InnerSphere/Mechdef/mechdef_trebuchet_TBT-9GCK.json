@@ -1,0 +1,108 @@
+{
+	"MechTags": {
+		"items": [
+			"unit_jumpOK",
+			"unit_release",
+			"unit_rarity_6",
+			"unit_mech",
+			"unit_innerspheremech",
+			"unit_medium",
+			"unit_ready",
+			"unit_lance_support",
+			"unit_role_sniper",
+			"unit_legal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"ChassisID": "chassisdef_trebuchet_TBT-9GCK",
+	"HeraldryID": null,
+	"Description": {
+		"Cost": 929600,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": null,
+		"Model": null,
+		"UIName": "Trebuchet TBT-9K",
+		"Id": "mechdef_trebuchet_TBT-9GCK",
+		"Name": "Trebuchet",
+		"Details": "<b><color=#ffcc00>NOT A COMPLETE MECH, you have to finish assembling it with parts on hand!!!</color></b>\n\nThis is the glider kit version of the Trebuchet or Trenchbucket if you will TBT-9K.  Like all Glider kits it is missing any and all items that are \"user replaceable\" with the intention that the end user will use this bare chassis to trasfer gear from a broken down Trebuchet or build up a mech from spare parts on hand.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Icon": "uixTxrIcon_trebuchet"
+	},
+	"simGameMechPartCost": 560000,
+	"Version": 1,
+	"Locations": [
+		{
+			"DamageLevel": "Functional",
+			"Location": "Head",
+			"CurrentArmor": 45,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 16,
+			"AssignedArmor": 45,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftArm",
+			"CurrentArmor": 60,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 40,
+			"AssignedArmor": 60,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftTorso",
+			"CurrentArmor": 90,
+			"CurrentRearArmor": 25,
+			"CurrentInternalStructure": 60,
+			"AssignedArmor": 90,
+			"AssignedRearArmor": 25
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "CenterTorso",
+			"CurrentArmor": 125,
+			"CurrentRearArmor": 30,
+			"CurrentInternalStructure": 80,
+			"AssignedArmor": 125,
+			"AssignedRearArmor": 30
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightTorso",
+			"CurrentArmor": 90,
+			"CurrentRearArmor": 25,
+			"CurrentInternalStructure": 60,
+			"AssignedArmor": 90,
+			"AssignedRearArmor": 25
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightArm",
+			"CurrentArmor": 60,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 40,
+			"AssignedArmor": 60,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftLeg",
+			"CurrentArmor": 85,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 60,
+			"AssignedArmor": 85,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightLeg",
+			"CurrentArmor": 85,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 60,
+			"AssignedArmor": 85,
+			"AssignedRearArmor": -1
+		}
+	],
+	"inventory": []
+}
