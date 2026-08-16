@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "Pafftek_Event_TDF_AntiSanc2",
-		"Name": "Tech Report: Sanctuary Alliance Incusion",
-		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway.  \r\n\r\n\"Commander, Remember back in early 3061 when we sent the dropship location to the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]]?   Well it turns out all of that stuff was from those people invading them now, The Sanctuary Alliance.  [[DM.BaseDescriptionDefs[TooltipSimGameCharacterYANG],Yang]] has already hollered at me saying he was right to say that the tech we had was Sanctuary gear.  Given we were indespensable in getting their counter Sanctuary tech online for them quickly they have sent us 2 newly refitted mechs.  They are somewhat comperable to the Sanctuary Drone mechs but are 100% Taurian Refits.   I believe they want us to \"Beta Test\" these mechs for them. ",
+                             "Name": "Tech Report: Sanctuary Alliance Incursion",
+		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway.  \r\n\r\n\"Commander, Remember back in early 3061 when we sent the dropship location to the [[DM.BaseDescriptionDefs[LoreTDF],Taurian Defense Force]]?   Well it turns out all of that stuff was from those people invading them now, The Sanctuary Alliance.  [[DM.BaseDescriptionDefs[TooltipSimGameCharacterYANG],Yang]] has already hollered at me saying he was right to say that the tech we had was Sanctuary gear.  Given we were indispensable in getting their counter Sanctuary tech online for them quickly they have sent us 2 newly refitted mechs.  They are somewhat comparable to the Sanctuary Drone mechs but are 100% Taurian Refits.   I believe they want us to \"Beta Test\" these mechs for them. ",
 		"Icon": "uixTxrSpot_MechBay.png"
 	},
 	"Scope": "Company",

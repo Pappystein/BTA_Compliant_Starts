@@ -55,7 +55,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Continue",
-						"Details": "Re-aquire your favorite old training battlemech.",
+                                                                                     "Details": "Reacquire your favorite old training battlemech.",
 						"Icon": null
 					},
 					"Weight": 100,

@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "Pafftek_Event_TDF_AntiSanc1",
-		"Name": "Wrecked Opprotunity",
-		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway. \r\n\r\n\"Commander, Yang and Farrah have gone over the wrecked dropshiop.  They don't recognize a lot about it.  All they are sure of is it was a mech Carrying Dropship and they can see bits and pieces of mechs.  However both agree any attempt for us to salvage it directly would put us well into the red and we are still beholden to existing debt holders.   They suggested we pass it on to the Taurian Defense Force.  This might earn us some much needed good will with them.",
+		"Name": "Wrecked Opportunity",
+		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway. \r\n\r\n\"Commander, Yang and Farrah have gone over the wrecked dropship.  They don't recognize a lot about it.  All they are sure of is it was a mech Carrying Dropship and they can see bits and pieces of mechs.  However both agree any attempt for us to salvage it directly would put us well into the red and we are still beholden to existing debt holders.   They suggested we pass it on to the Taurian Defense Force.  This might earn us some much needed good will with them.",
 		"Icon": "uixTxrSpot_MechBay.png"
 	},
 	"Scope": "Company",
@@ -55,7 +55,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Continue",
-						"Details": "Recieve one of the Mechs from the Wrecked Dropship.",
+						"Details": "Receive one of the Mechs from the Wrecked Dropship.",
 						"Icon": null
 					},
 					"Weight": 100,

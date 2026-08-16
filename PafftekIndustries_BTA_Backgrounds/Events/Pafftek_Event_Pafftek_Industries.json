@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "Pafftek_Event_Pafftek_Industries",
-		"Name": "A founding memeber of Pafftek Industries",
-		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway with a grin on his face.  \r\n\r\n\"Commander, there is a large shipment from your former companions you should see for yourself.  It appears the other memebers of the Hell-Wolves, formed a prodution company and have sent you a gift to \"test in the field for us.\"  What ever that means.",
+                             "Name": "A founding member of Pafftek Industries",
+		"Details": "[[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] knocks on your open doorway with a grin on his face.  \r\n\r\n\"Commander, there is a large shipment from your former companions you should see for yourself.  It appears the other members of the Hell-Wolves, formed a production company and have sent you a gift to \"test in the field for us.\"  Whatever that means.",
 		"Icon": "uixTxrSpot_MechBay.png"
 	},
 	"Scope": "Company",

@@ -45,7 +45,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Continue",
-						"Details": "Efficencies in food storage result in an excess of food for a time.",
+                                                                                      "Details": "Efficiencies in food storage result in an excess of food for a time.",
 						"Icon": null
 					},
 					"Weight": 70,
@@ -83,7 +83,7 @@
 					"Description": {
 						"Id": "outcome_0_1",
 						"Name": "Continue",
-						"Details": "Efficencies in food storage result in enough food to throw a blow-out party.",
+                                                                                      "Details": "Efficiencies in food storage result in enough food to throw a blow-out party.",
 						"Icon": null
 					},
 					"Weight": 30,

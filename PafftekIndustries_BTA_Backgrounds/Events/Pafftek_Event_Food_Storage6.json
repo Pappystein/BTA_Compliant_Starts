@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "Pafftek_Event_Food_Storage6",
 		"Name": "Who raided the food supply?",
-		"Details": "Dinner in the mess-hall: You staned to address all the crew assembled \r\n\r\n\"As some of you may already know, we have had our ups and downs with food supply.  However, today I need to congradulate Executive Officer Darius on comming through and learning about proper food management.\" Of course this announcment is met with groans and jeers from the assembled crew. \r\n\"Now, now! old on a moment.\" Thankfully the crew calms down a bit. \r\n\"In the past few food order cycles, Darius has been attentive and conservative in his attempts to maximize our proffit in the food department.   What you all have yet to realize is those weird new bonus food supplies you were all attributing to me, are from Darius.\" \r\n A gasp echos from the suddenly quiet assembly of crew. \r\n\"Yes, Darius was quietly providing those bonus of your prefered foods solely by paying attention to what you all ate and listneing to you all lammenting not having food X\"",
+                             "Details": "Dinner in the mess hall: You stand to address the assembled crew. \r\n\r\n\"As some of you may already know, we have had our ups and downs with the food supply. However, today I need to congratulate Executive Officer Darius on coming through and learning about proper food management.\" Of course, this announcement is met with groans and jeers from the assembled crew. \r\n\"Now, now! Hold on a moment.\" Thankfully, the crew calms down a bit. \r\n\"In the past few food-order cycles, Darius has been attentive and conservative in his attempts to maximize our profit in the food department. What you all have yet to realize is that those weird new bonus food supplies you were all attributing to me are from Darius.\" \r\n A gasp echoes from the suddenly quiet assembly of crew. \r\n\"Yes, Darius was quietly providing those bonuses of your preferred foods solely by paying attention to what you all ate and listening to you all lament not having food X.\"",
 		"Icon": "uixTxrSpot_MechBay.png"
 	},
 	"Scope": "Company",
@@ -62,7 +62,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Continue",
-						"Details": "Darius is assigned to clean up the next six months of food orders and help the commander re-organize the food storage in all locations across the Argo.",
+                                                                                    "Details": "Darius is assigned to clean up the next six months of food orders and help the commander reorganize the food storage in all locations across the Argo.",
 						"Icon": null
 					},
 					"Weight": 100,

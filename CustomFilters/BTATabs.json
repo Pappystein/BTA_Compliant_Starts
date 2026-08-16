@@ -268,7 +268,8 @@
 						"Weapon"
 					],
 					"Categories": [
-						"w/s/su/superweapon"
+						"w/s/su/superweapon",
+						"w/l/su/superweapon"
 					],
 					"NotCategories": [
 						"notused"
@@ -289,7 +290,6 @@
 						"notused"
 					]
 				}
-
 			}
 		]
 	},
@@ -313,15 +313,15 @@
 					],
 					"Categories": [
 						"a/a/a/ac",
-						"a/a/a/dbac",
 						"a/a/a/hvac",
+						"a/a/a/rac",
 						"a/a/a/uac",
 						"a/a/a/lbx",
-						"a/a/a/sg",
-						"a/a/a/rac",
-						"a/a/a/taser",
+						"a/a/a/rifle",
 						"a/s/a/gatling",
-						"a/a/a/rifle"
+						"a/a/a/taser",
+						"a/a/a/dbac",
+						"a/a/a/sg"
 					],
 					"NotCategories": [
 						"notused"
@@ -339,9 +339,9 @@
 						"a/a/g/gauss",
 						"a/a/g/lgauss",
 						"a/a/g/hgauss",
+						"a/a/g/sbgauss",
 						"a/a/g/hag",
 						"a/a/g/massdriver",
-						"a/a/g/sbgauss",
 						"a/a/g/railgun"
 					],
 					"NotCategories": [
@@ -357,10 +357,10 @@
 						"AmmunitionBox"
 					],
 					"Categories": [
-						"a/a/o/bombard",
 						"a/a/o/grenade",
 						"a/a/o/mortar",
-						"a/a/o/Hmortar"
+						"a/a/o/Hmortar",
+						"a/a/o/bombard"
 					],
 					"NotCategories": [
 						"notused"
@@ -375,10 +375,10 @@
 						"AmmunitionBox"
 					],
 					"Categories": [
-						"a/a/o/artillery",
-						"a/a/o/howitzer",
 						"a/m/t/arrowiv",
+						"a/a/o/artillery",
 						"a/m/t/cruisemissile",
+						"a/a/o/howitzer",
 						"a/m/t/sirocco"
 					],
 					"NotCategories": [
@@ -411,8 +411,8 @@
 					],
 					"Categories": [
 						"a/m/s/srm",
-						"a/m/s/ssrm",
 						"SRMARTIVAmmo",
+						"a/m/s/ssrm",
 						"a/m/s/atom",
 						"a/m/l/atm",
 						"a/m/l/iatm",
