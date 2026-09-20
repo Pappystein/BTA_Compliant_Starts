@@ -227,15 +227,24 @@
     "StockRole": "Garrison Duelist",
     "YangsThoughts": "Boss, this is one of those new 'Networked Clan Mechs' we were warned about.  If that Nova electronics package is salvable people will pay a pretty penny for it.",
     "FixedEquipment": [
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_structureslots_clanendosteel",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        }
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NimbleJumper_VaporEagle",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
     ],
     "CustomParts": {
         "CustomParts": []

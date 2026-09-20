@@ -247,6 +247,17 @@
         },
         {
             "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_Chemical_CLAN",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_LRM_LRM10_86-Telos",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",

@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent": [
+		"DecoratorComponent":[
 			{
-				"Text": "O",
-				"Color": "#00a2c9",
-				"Icon": "uixSvgIcon_equipment_Gyro",
+				"Text":"O",               
+				"Color":"#00a2c9",      
+				"Icon":"uixSvgIcon_equipment_Gyro",       
 				"Importance": 10
 			}
 		],
@@ -34,8 +34,9 @@
 		],
 		"BonusDescriptions": [
 			"WalkSpeed: +15%",
-			"RunSpeed: +10%",
-			"ArmAccuracy: +1",
+			"DamageReduction: 5%",
+			"CritRes: 10%",
+			"JumpDistance: +25%",
 			"GyroStab: 75",
 			"IsGyro",
 			"Omni",
@@ -54,7 +55,7 @@
 		"UIName": "Woodsman II OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Woodsman2",
 		"Name": "Woodsman II OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Woodsman II possesses as an OmniMech. It provides a number of benefits to the Woodsman II III, such as increased stability, boosted arm weapon accuracy, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Woodsman II to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Woodsman II possesses as an OmniMech. It provides a number of benefits to the WoodsmanII, such as increased stability, bonus walk and sprint speed, increased damage reduction, and improved critical hit resistance. It also contains the benefits inherent to OmniMechs and permits the Woodsman II to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -104,19 +105,19 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-OmniWoodsman2-Walk",
-				"Name": "Woodsman II Walk Speed",
-				"Details": "Boost walk speed.",
-				"Icon": "uixSvgIcon_action_evasivemove"
+				"Id": "Gyro-WoodsmanII-DR",
+				"Name": "WoodsmanII Quirk",
+				"Details": "Provides increased stability, bonus walk and sprint speed, increased damage reduction, and improved critical hit resistance to the WoodsmanII.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"statName": "WalkSpeed",
+				"statName": "DamageReductionMultiplierAll",
 				"operation": "Float_Multiply",
-				"modValue": "1.15",
+				"modValue": "0.95",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -155,16 +156,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-Woodsman2_LAAcc",
-				"Name": "Woodsman II LA Accuracy",
+				"Id": "StatusEffect-Gyro-WoodsmanIIWalk",
+				"Name": "WoodsmanII Walk Speed",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "LeftArm.Accuracy",
-				"operation": "Float_Add",
-				"modValue": "-1.0",
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
 				"modType": "System.Single"
 			}
 		},
@@ -177,51 +178,46 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-Woodsman2_RAAcc",
-				"Name": "Woodsman II RA Accuracy",
+				"Id": "StatusEffect-Gyro-WoodsmanIICritResist",
+				"Name": "WoodsmanII Crit Resist",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "RightArm.Accuracy",
-				"operation": "Float_Add",
-				"modValue": "-1.0",
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.95",
 				"modType": "System.Single"
 			}
 		},
 		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
+			"durationData": {},
 			"targetingData": {
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
 				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Woodsman2-Sprint",
-				"Name": "Woodsman II Sprint",
-				"Details": "Woodsman II get up and move.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
+				"Id": "StatusEffect-Gyro-WoodsmanIIJump",
+				"Name": "WoodsmanII Jump Distance",
+				"Details": "All incoming damage increased by 50%.",
+				"Icon": "layeredarmor"
 			},
+			"nature": "Buff",
 			"statisticData": {
-				"modValue": "0.1",
-				"operation": "Float_Add",
-				"statName": "CBTBE_RunMultiMod",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.5",
+				"modType": "System.Single",
+			}
 		}
 	],
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED",
-			"component_type_variant",
-			"BACompatible"
+			"component_type_variant"
 		],
 		"tagSetSourceFile": ""
 	}

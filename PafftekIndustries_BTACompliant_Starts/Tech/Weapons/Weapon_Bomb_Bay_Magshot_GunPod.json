@@ -22,7 +22,7 @@
             "not_broken"
         ],
         "AmmoCost": {
-            "PerUnitCost": 5000
+            "PerUnitCost": 500
         }
     },
     "weaponCategoryID": "BombBay",

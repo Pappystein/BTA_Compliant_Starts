@@ -80,7 +80,9 @@
             "range_long",
             "LaserInsulatorAttachable.{location}",
             "LaserInsulatorSupported-SingleShot",
-            "LaserFCSSupported-SingleShot"
+            "LaserFCSSupported-SingleShot",
+			"QuirkSolitaireSupported-HeavyLargeLaser",
+			"QuirkWarhammerIICSupported-SingleShot"
         ],
         "tagSetSourceFile": ""
     }

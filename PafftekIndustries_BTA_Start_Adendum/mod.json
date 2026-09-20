@@ -15,7 +15,13 @@
 	"Manifest": [
 		{
 			"Type": "ItemCollectionDef",
-			"Path": "ItemCollections"
+			"Path": "ItemCollections_NonUpdate",
+			"ShouldAppendText": false
+		},	
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollections",
+			"ShouldAppendText": true
 		},
 		{
 			"Type": "ItemCollectionDef",

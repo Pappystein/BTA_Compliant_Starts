@@ -87,12 +87,14 @@
     "statusEffects": [],
     "ComponentTags": {
         "items": [
-            "component_type_stock",
-            "range_long",
-            "LaserInsulatorAttachable.{location}",
-            "LaserInsulatorSupported-SingleShot",
-            "LaserFCSSupported-SingleShot",
-            "WebbTCSupported-SingleShot"
+			"component_type_stock",
+			"range_long",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-SingleShot",
+			"LaserFCSSupported-SingleShot",
+			"WebbTCSupported-SingleShot",
+			"QuirkSolitaireSupported-HeavyLargeLaser",
+			"QuirkWarhammerIICSupported-SingleShot"
         ],
         "tagSetSourceFile": ""
     }

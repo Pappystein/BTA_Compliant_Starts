@@ -8,7 +8,7 @@
 				"CategoryID": "Probe"
 			},
 			{
-				"CategoryID": "C3"
+				"CategoryID": "StealthCompatible"
 			}
 		],
 		"ActivatableComponent": {
