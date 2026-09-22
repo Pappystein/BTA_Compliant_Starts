@@ -15,7 +15,7 @@
 		"UIName": "Griffin",
 		"Id": "chassisdef_griffin_GRF-6GCR",
 		"Name": "Griffin",
-		"Details": "<b><color=#ffcc00>NOT A COMPLETE MECH, you have to finish assembling it with parts on hand!!!</color></b>\n\nThis is the glider kit version of the Griffin GRF-6R.  Like all Glider kits it is missing any and all items that are \"user replaceable\" with the intention that the end user will use this bare chassis to trasfer gear from a broken down Griffin or build up a mech from spare parts on hand.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b></b>",
+		"Details": "<b><color=#ffcc00>NOT A COMPLETE MECH, you have to finish assembling it with parts on hand!!!</color></b>\n\nThis is the glider kit version of the Griffin GRF-6R.  Like all Glider kits it is missing any and all items that are \"user replaceable\" with the intention that the end user will use this bare chassis to transfer gear from a broken down Griffin or build up a mech from spare parts on hand.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b></b>",
 		"Icon": "uixTxrIcon_griffin"
 	},
 	"MovementCapDefID": "movedef_griffin_GRF-1N",
@@ -223,7 +223,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Flanker & Fire Support",
-	"YangsThoughts": "<b><color=#ffcc00>NOT A COMPLETE MECH, you have to finish assembling it with parts on hand!!!</color></b>\n\nThis is the glider kit version of the Griffin GRF-6R.  Like all Glider kits it is missing any and all items that are \"user replaceable\" with the intention that the end user will use this bare chassis to trasfer gear from a broken down Griffin or build up a mech from spare parts on hand.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b></b>",
+	"YangsThoughts": "<b><color=#ffcc00>NOT A COMPLETE MECH, you have to finish assembling it with parts on hand!!!</color></b>\n\nThis is the glider kit version of the Griffin GRF-6R.  Like all Glider kits it is missing any and all items that are \"user replaceable\" with the intention that the end user will use this bare chassis to transfer gear from a broken down Griffin or build up a mech from spare parts on hand.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b></b>",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
