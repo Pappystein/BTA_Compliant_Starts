@@ -3,7 +3,6 @@
         "items": [
             "unit_vehicle",
             "unit_medium",
-            "unit_vtol",
             "unit_release",
             "unit_lance_support",
             "unit_advanced",

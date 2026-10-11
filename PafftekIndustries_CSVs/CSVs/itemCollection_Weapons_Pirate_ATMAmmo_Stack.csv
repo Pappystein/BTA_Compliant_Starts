@@ -1,4 +1,4 @@
 itemCollection_Weapons_Pirate_ATMAmmo_Stack,,,
-Ammunition_ATM,AmmunitionBox,1,10
-Ammunition_ATM_ER,AmmunitionBox,1,10
-Ammunition_ATM_HE,AmmunitionBox,1,10
+Ammo_AmmunitionBox_Generic_ATM,AmmunitionBox,1,10
+Ammo_AmmunitionBox_ER_ATM,AmmunitionBox,1,10
+Ammo_AmmunitionBox_HE_ATM,AmmunitionBox,1,10
